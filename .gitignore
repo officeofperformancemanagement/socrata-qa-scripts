@@ -133,3 +133,4 @@ dist
 *bak*
 Pipfile*
 pnpm-lock.yaml
+data/*.csv
