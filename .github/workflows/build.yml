@@ -21,6 +21,8 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      - run: python3 check_updated_daily.py
+
       - run: python3 check_dates.py
 
       - run: python3 track_static.py
