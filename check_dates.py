@@ -23,7 +23,7 @@ base = "https://www.chattadata.org"
 skiplist = []
 
 # grab all assets
-limit = 1000
+limit = 10000
 
 counts = { "active": 0, "inactive": 0 }
 
@@ -38,7 +38,7 @@ print("fetching: " + url)
 assets = get(url).json()
 
 # write output csv
-fieldnames = ['id', 'createdAt', 'dataUpdatedAt', 'metadataUpdatedAt', 'updatedAt', 'mostRecentFound']
+fieldnames = ['id', 'createdAt', 'dataUpdatedAt', 'indexUpdatedAt', 'metadataUpdatedAt', 'rowsUpdatedAt', 'updatedAt', 'mostRecentFound']
 out_filepath = "./results/dataset_dates.csv"
 with open(out_filepath, "w") as outfile:
   csv.DictWriter(outfile, fieldnames=fieldnames).writeheader()
@@ -144,7 +144,9 @@ for asset in assets:
       "id": asset['id'],
       "createdAt": asset['createdAt'],
       "dataUpdatedAt": asset['dataUpdatedAt'],
+      "indexUpdatedAt": asset["indexUpdatedAt"] if "indexUpdatedAt" in asset else "",
       "metadataUpdatedAt": asset['metadataUpdatedAt'],
+      "rowsUpdatedAt": asset["rowsUpdatedAt"] if "rowsUpdatedAt" in asset else "",
       "updatedAt": asset['updatedAt'],
       "mostRecentFound": most_recent['datetime'].isoformat()
     })

@@ -80,7 +80,7 @@ for base, asset in assets:
   
   temporal = len(date_columns) > 0
 
-  frequency = metadata["metadata"].get("custom_fields", {}).get("Internal", {}).get("How often are data values updated?", None)
+  frequency = metadata.get("metadata", {}).get("custom_fields", {}).get("Internal", {}).get("How often are data values updated?", None)
   print("frequency:", frequency)
 
   if frequency is None or frequency.lower().strip() != 'daily':
