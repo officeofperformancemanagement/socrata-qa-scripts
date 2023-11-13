@@ -23,7 +23,7 @@ for base, url in urls:
   assets += [(base, asset) for asset in get(url).json()]
 
 # write output csv
-fieldnames = ['id', 'name', 'data_types']
+fieldnames = ['id', 'createdAt', 'name', 'data_types']
 out_filepath = "./results/dataset_static.csv"
 with open(out_filepath, "w") as outfile:
   csv.DictWriter(outfile, fieldnames=fieldnames).writeheader()
@@ -71,6 +71,7 @@ for base, asset in assets:
   with open(out_filepath, "a") as outfile:
     row = {
       "id": asset['id'],
+      "createdAt": asset['createdAt'].split("T")[0], # not showing hours and minutes
       "name": asset['name'],
       "data_types": ",".join(data_types)
     }
