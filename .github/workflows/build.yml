@@ -23,5 +23,7 @@ jobs:
 
       - run: python3 check_dates.py
 
+      - run: python3 track_static.py
+
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
