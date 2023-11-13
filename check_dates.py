@@ -8,6 +8,8 @@ from urllib.request import urlretrieve
 
 import dateparser
 
+from utils import get_all_assets
+
 # avoid _csv.Error: field larger than field limit (131072)
 csv.field_size_limit(sys.maxsize)
 
@@ -17,8 +19,6 @@ def parse_date(str):
     'STRICT_PARSING': False, # allow dates like Jan 1990
     'TIMEZONE': '+0000'
   })
-
-base = "https://www.chattadata.org"
 
 skiplist = []
 
@@ -31,19 +31,15 @@ counts = { "active": 0, "inactive": 0 }
 threshold = datetime.now() - timedelta(days = 30)
 threshold_timestamp = threshold.timestamp()
   
-url = f"{base}/api/views/metadata/v1/?limit={limit}"
-print("fetching: " + url)
-
-# because we aren't using auth, this will just return all the PUBLIC assets
-assets = get(url).json()
+assets = get_all_assets(limit)
 
 # write output csv
-fieldnames = ['id', 'createdAt', 'dataUpdatedAt', 'indexUpdatedAt', 'metadataUpdatedAt', 'rowsUpdatedAt', 'updatedAt', 'mostRecentFound']
+fieldnames = ['id', 'name', 'createdAt', 'dataUpdatedAt', 'indexUpdatedAt', 'metadataUpdatedAt', 'rowsUpdatedAt', 'updatedAt', 'mostRecentFound']
 out_filepath = "./results/dataset_dates.csv"
 with open(out_filepath, "w") as outfile:
   csv.DictWriter(outfile, fieldnames=fieldnames).writeheader()
     
-for asset in assets:
+for base, asset in assets:
   id = asset['id']
   name = asset['name']
 
@@ -142,6 +138,7 @@ for asset in assets:
   with open(out_filepath, "a") as outfile:
     csv.DictWriter(outfile, fieldnames=fieldnames).writerow({
       "id": asset['id'],
+      "name": name,
       "createdAt": asset['createdAt'],
       "dataUpdatedAt": asset['dataUpdatedAt'],
       "indexUpdatedAt": asset["indexUpdatedAt"] if "indexUpdatedAt" in asset else "",

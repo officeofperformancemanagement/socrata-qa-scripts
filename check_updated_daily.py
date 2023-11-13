@@ -9,6 +9,8 @@ from urllib.request import urlretrieve
 
 import dateparser
 
+from utils import get_all_assets
+
 # avoid _csv.Error: field larger than field limit (131072)
 csv.field_size_limit(sys.maxsize)
 
@@ -28,17 +30,7 @@ limit = 10000
 threshold = datetime.now() - timedelta(days = 3)
 threshold_timestamp = threshold.timestamp()
   
-bases = [
-  "https://internal.chattadata.org",
-  "https://www.chattadata.org"
-]
-
-urls = [(base, f"{base}/api/views/metadata/v1/?limit={limit}") for base in bases]
-
-# because we aren't using auth, this will just return all the PUBLIC assets
-assets = []
-for base, url in urls:
-  assets += [(base, asset) for asset in get(url).json()]
+assets = get_all_assets(limit)
 
 # write output csv
 fieldnames = ['id', 'name', 'dataUpdatedAt', 'updatedAt', 'mostRecentFound', 'frequency', 'recentlyUpdated']
@@ -61,7 +53,7 @@ for base, asset in assets:
     print(f'skipping unofficial asset {id} "{name}"')
     continue
   
-  sleep(1)
+  # sleep(1)
 
   metadata = get(f"{base}/api/views/{id}.json").json()
 

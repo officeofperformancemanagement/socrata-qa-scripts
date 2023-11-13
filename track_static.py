@@ -2,6 +2,8 @@ import csv
 from requests import get
 import sys
 
+from utils import get_all_assets
+
 # avoid _csv.Error: field larger than field limit (131072)
 csv.field_size_limit(sys.maxsize)
 
@@ -10,17 +12,7 @@ skiplist = []
 # grab all assets
 limit = 10000
   
-bases = [
-  "https://internal.chattadata.org",
-  "https://www.chattadata.org"
-]
-
-urls = [(base, f"{base}/api/views/metadata/v1/?limit={limit}") for base in bases]
-
-# because we aren't using auth, this will just return all the PUBLIC assets
-assets = []
-for base, url in urls:
-  assets += [(base, asset) for asset in get(url).json()]
+assets = get_all_assets(limit)
 
 # write output csv
 fieldnames = ['id', 'createdAt', 'name', 'data_types']
