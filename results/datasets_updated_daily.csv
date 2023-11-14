@@ -1,24 +1,24 @@
 id,name,dataUpdatedAt,updatedAt,mostRecentFound,frequency,recentlyUpdated
-gfmi-e2jm,OCHS Events,2023-11-13T00:00:53+0000,2023-11-13T00:00:31+0000,2023-11-12T17:23:50,Daily,true
+gfmi-e2jm,OCHS Events,2023-11-13T00:00:53+0000,2023-11-14T00:00:32+0000,2023-11-12T17:23:50,Daily,true
 7iks-gmi9,Air Quality Monitors,2023-11-13T08:45:52+0000,2023-11-13T08:45:39+0000,n/a,Daily,true
-8zpt-8xs5,TDH Vaccine County Age Groups Census Aggregated 85+,2023-11-13T03:32:35+0000,2023-11-13T03:26:58+0000,2022-08-13T00:00:00,Daily,false
-4giv-dvmp,TDH Vaccine County Age Groups Census,2023-11-13T03:26:54+0000,2023-11-13T03:10:24+0000,2022-08-13T00:00:00,Daily,false
-dcfe-eupw,TDH Vaccine County Age Groups,2023-11-13T03:33:52+0000,2023-11-13T03:06:23+0000,2022-08-22T00:00:00,Daily,false
-g7gx-66zx,"HCHD Cases by Race, Ethnicity, Sex - TDH Format",2023-11-13T03:20:12+0000,2023-11-13T03:02:25+0000,2023-11-09T00:00:00,Daily,false
-nqdu-isfz,HCHD Cases by Age - TDH Format,2023-11-13T03:20:06+0000,2023-11-13T03:02:24+0000,2023-11-09T00:00:00,Daily,false
-4qjh-fdm6,Asset Row Count Checker,2023-11-13T13:02:31+0000,2023-11-13T12:57:13+0000,2023-11-13T00:36:17,Daily,true
-jun6-cstd,HCHD COVID Website Data,2023-11-13T03:20:00+0000,2023-11-13T03:02:23+0000,2023-11-09T00:00:00,Daily,false
-nuzd-6jme,TN Counties COVID-19 Vaccinations,2023-11-13T03:20:28+0000,2023-11-13T03:19:39+0000,2022-08-22T00:00:00,Daily,false
+8zpt-8xs5,TDH Vaccine County Age Groups Census Aggregated 85+,2023-11-13T23:31:50+0000,2023-11-13T23:26:24+0000,2022-08-13T00:00:00,Daily,false
+4giv-dvmp,TDH Vaccine County Age Groups Census,2023-11-13T23:26:19+0000,2023-11-13T23:10:47+0000,2022-08-13T00:00:00,Daily,false
+dcfe-eupw,TDH Vaccine County Age Groups,2023-11-13T23:33:01+0000,2023-11-13T23:06:44+0000,2022-08-22T00:00:00,Daily,false
+g7gx-66zx,"HCHD Cases by Race, Ethnicity, Sex - TDH Format",2023-11-13T23:20:23+0000,2023-11-13T23:02:29+0000,2023-11-13T00:00:00,Daily,true
+nqdu-isfz,HCHD Cases by Age - TDH Format,2023-11-13T23:20:17+0000,2023-11-13T23:02:28+0000,2023-11-13T00:00:00,Daily,true
+4qjh-fdm6,Asset Row Count Checker,2023-11-14T00:25:03+0000,2023-11-14T00:16:18+0000,2023-11-13T00:36:17,Daily,true
+jun6-cstd,HCHD COVID Website Data,2023-11-13T23:20:11+0000,2023-11-13T23:02:27+0000,2023-11-13T00:00:00,Daily,true
+nuzd-6jme,TN Counties COVID-19 Vaccinations,2023-11-13T23:20:41+0000,2023-11-13T23:19:50+0000,2022-08-22T00:00:00,Daily,false
 y5qr-gke5,Biased Based Policing Overview,2020-08-06T17:46:22+0000,2020-08-06T17:46:23+0000,n/a,Daily,false
-fedh-4gj4,Hamilton County Cases by Zip Code,2023-08-14T02:28:10+0000,2023-11-13T03:20:34+0000,2023-01-27T00:00:00,Daily,false
+fedh-4gj4,Hamilton County Cases by Zip Code,2023-08-14T02:28:10+0000,2023-11-13T23:20:47+0000,2023-01-27T00:00:00,Daily,false
 89n8-dwxx,Hamilton County Health Department COVID-19 Data,2020-10-10T05:10:05+0000,2022-10-19T14:33:08+0000,n/a,Daily,false
 7axh-k8jh,Street Resurfacing,2023-11-13T14:50:26+0000,2023-11-13T14:47:12+0000,n/a,Daily,true
 k7u5-cfs3,Intersections,2020-04-28T15:45:28+0000,2022-10-19T15:03:10+0000,n/a,Daily,false
 mw3f-d2mz,Chattanooga Roadways,2020-04-28T14:46:15+0000,2022-10-19T15:24:32+0000,n/a,Daily,false
-79t8-mn8i,Solid Waste and Recycling Website Data,2023-10-23T20:02:23+0000,2023-11-12T21:02:17+0000,n/a,Daily,true
+79t8-mn8i,Solid Waste and Recycling Website Data,2023-10-23T20:02:23+0000,2023-11-13T21:02:17+0000,n/a,Daily,true
 hr34-nqkq,Outdoor Chattanooga Users,2022-08-25T14:59:09+0000,2022-10-17T15:31:37+0000,2020-12-29T00:00:00,Daily,false
 hr82-ynje,Activity Participation,2022-08-25T14:56:36+0000,2022-10-17T15:18:35+0000,2021-01-26T00:00:00,Daily,false
 tdq7-y7yk,Open Checkbook Distributions,2021-12-06T20:08:00+0000,2021-12-06T19:57:40+0000,2021-09-10T00:00:00,Daily,false
 4kxc-jcw5,Road Closures,2020-04-24T12:23:41+0000,2022-03-16T14:21:43+0000,2020-12-31T00:00:00,Daily,false
-cged-2r5q,Asset Inventory Views,2023-11-13T13:04:23+0000,2023-11-13T13:04:12+0000,2023-11-13T00:36:17,Daily,true
-si7b-v7a4,Pass Visit Report,2023-07-20T21:22:34+0000,2023-11-12T22:14:11+0000,2023-12-22T12:57:00,Daily,true
+cged-2r5q,Asset Inventory Views,2023-11-14T00:26:53+0000,2023-11-14T00:26:45+0000,2023-11-13T00:36:17,Daily,true
+si7b-v7a4,Pass Visit Report,2023-07-20T21:22:34+0000,2023-11-13T22:14:10+0000,2023-12-22T12:57:00,Daily,true
