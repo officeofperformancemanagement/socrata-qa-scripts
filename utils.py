@@ -1,4 +1,6 @@
+from datetime import datetime
 from requests import get
+from statistics import median
 
 def get_all_assets(limit=10000):
   bases = [
@@ -21,3 +23,16 @@ def get_all_assets(limit=10000):
         ids.add(id)
   
   return assets
+
+def median_diff_dates(datetimes):
+  diffs = []
+  datetimes = sorted(list(datetimes), key = lambda dt: datetime.strftime(dt, "%Y-%m-%d"))
+  if len(datetimes) == 0: return None
+  for i in range(1, len(datetimes)):
+    previous = datetimes[i - 1]
+    current = datetimes[i]
+    diff = (current - previous).days
+    # print("diff between", previous, "and", current, "is", diff)
+    diffs.append(diff)
+  # print("diffs:", diffs)
+  return median(diffs)

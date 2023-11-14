@@ -1,15 +1,15 @@
 from datetime import datetime, timedelta
+from collections import defaultdict
 import csv
 from functools import lru_cache
 import os
 from requests import get
 import sys
-from time import sleep
 from urllib.request import urlretrieve
 
 import dateparser
 
-from utils import get_all_assets
+from utils import get_all_assets, median_diff_dates
 
 # avoid _csv.Error: field larger than field limit (131072)
 csv.field_size_limit(sys.maxsize)
@@ -33,7 +33,7 @@ threshold_timestamp = threshold.timestamp()
 assets = get_all_assets(limit)
 
 # write output csv
-fieldnames = ['id', 'name', 'dataUpdatedAt', 'updatedAt', 'mostRecentFound', 'frequency', 'recentlyUpdated']
+fieldnames = ['id', 'name', 'dataUpdatedAt', 'updatedAt', 'mostRecentFound', 'frequency', 'recentlyUpdated', 'medianDaysBetweenEntries']
 out_filepath = "./results/datasets_updated_daily.csv"
 with open(out_filepath, "w") as outfile:
   csv.DictWriter(outfile, fieldnames=fieldnames).writeheader()
@@ -82,6 +82,7 @@ for base, asset in assets:
   print(f"{id} date_columns:", ",".join([col['name'] for col in date_columns]))
 
   most_recent = None
+  median_time_between_entries = None
 
   if temporal:
 
@@ -97,6 +98,7 @@ for base, asset in assets:
 
     
     with open(download_path) as f:
+      column_dates = defaultdict(set)
       for irow, row in enumerate(csv.DictReader(f)):
         # print("irow:", irow)
 
@@ -118,6 +120,9 @@ for base, asset in assets:
           # print("dt:", dt)
 
           timestamp = dt.timestamp()
+
+          column_dates[fieldName].add(dt.date())
+
           # print("timestamp:", timestamp)
           if most_recent is None or timestamp > most_recent['timestamp']:
             most_recent = {
@@ -129,6 +134,14 @@ for base, asset in assets:
 
       print("most_recent:", most_recent)
 
+      # print("column_dates:", column_dates)
+      median_diffs = []
+      for col, dates in column_dates.items():
+        subresult = median_diff_dates(list(dates))
+        if subresult is not None:
+          # print("subresult:", subresult)
+          median_diffs.append(subresult)
+      median_days_between_entries = min(median_diffs) if len(median_diffs) > 0 else None
       
   if most_recent:
     recentlyUpdated = most_recent['timestamp'] > threshold_timestamp
@@ -145,5 +158,6 @@ for base, asset in assets:
       "updatedAt": asset['updatedAt'],
       "mostRecentFound": (most_recent['datetime'].isoformat() if most_recent else "n/a"),
       "frequency": frequency,
-      "recentlyUpdated": ("true" if recentlyUpdated else "false")
+      "recentlyUpdated": ("true" if recentlyUpdated else "false"),
+      "medianDaysBetweenEntries": median_days_between_entries
     })
