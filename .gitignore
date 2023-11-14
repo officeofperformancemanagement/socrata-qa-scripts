@@ -134,3 +134,4 @@ dist
 Pipfile*
 pnpm-lock.yaml
 data/*.csv
+__pycache__
