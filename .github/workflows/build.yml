@@ -21,11 +21,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python3 check_updated_daily.py
+      - run: python3 analyze_frequency.py
 
-      - run: python3 check_dates.py
+      # - run: python3 check_dates.py
 
-      - run: python3 track_static.py
+      # - run: python3 track_static.py
 
       # Commit all changed files back to the repository
       - uses: stefanzweifel/git-auto-commit-action@v5
