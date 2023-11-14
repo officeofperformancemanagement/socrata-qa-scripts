@@ -138,7 +138,7 @@ for base, asset in assets:
   with open(out_filepath, "a") as outfile:
     csv.DictWriter(outfile, fieldnames=fieldnames).writerow({
       "id": asset['id'],
-      "name": name,
+      "name": asset['name'],
       "createdAt": asset['createdAt'],
       "dataUpdatedAt": asset['dataUpdatedAt'],
       "indexUpdatedAt": asset["indexUpdatedAt"] if "indexUpdatedAt" in asset else "",
