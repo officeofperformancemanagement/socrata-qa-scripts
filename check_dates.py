@@ -34,7 +34,7 @@ threshold_timestamp = threshold.timestamp()
 assets = get_all_assets(limit)
 
 # write output csv
-fieldnames = ['id', 'name', 'createdAt', 'dataUpdatedAt', 'indexUpdatedAt', 'metadataUpdatedAt', 'rowsUpdatedAt', 'updatedAt', 'mostRecentFound']
+fieldnames = ['id', 'name', 'createdAt', 'dataUpdatedAt', 'indexUpdatedAt', 'metadataUpdatedAt', 'publishedAt', 'rowsUpdatedAt', 'updatedAt', 'mostRecentFound']
 out_filepath = "./results/dataset_dates.csv"
 with open(out_filepath, "w") as outfile:
   csv.DictWriter(outfile, fieldnames=fieldnames).writeheader()
@@ -141,9 +141,10 @@ for base, asset in assets:
       "name": asset['name'],
       "createdAt": asset['createdAt'],
       "dataUpdatedAt": asset['dataUpdatedAt'],
-      "indexUpdatedAt": asset["indexUpdatedAt"] if "indexUpdatedAt" in asset else "",
+      "indexUpdatedAt": asset["indexUpdatedAt"] if "indexUpdatedAt" in asset else "n/a",
       "metadataUpdatedAt": asset['metadataUpdatedAt'],
-      "rowsUpdatedAt": asset["rowsUpdatedAt"] if "rowsUpdatedAt" in asset else "",
+      "publishedAt": asset['publicationDate'] if "publicationDate" in asset else "n/a",
+      "rowsUpdatedAt": asset["rowsUpdatedAt"] if "rowsUpdatedAt" in asset else "n/a",
       "updatedAt": asset['updatedAt'],
       "mostRecentFound": most_recent['datetime'].isoformat()
     })
