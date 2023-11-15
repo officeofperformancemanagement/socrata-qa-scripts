@@ -70,7 +70,7 @@ for base, asset in assets:
     name = asset["name"]
     # print("asset:", asset)
 
-    print(f'\nchecking {id} "{name}"')
+    print(f'\n[{id}] checking "{name}"')
 
     if len(select_asset_ids) >= 1 and id not in select_asset_ids:
         print(f"skipping {id} because it's not in the select asset ids")
@@ -121,14 +121,14 @@ for base, asset in assets:
         .get("Internal", {})
         .get("How often are data values updated?", None)
     )
-    print("frequency:", frequency)
+    print(f"[{id}] frequency: {frequency}")
 
     if frequency is None or frequency.lower().strip() not in [
         "daily",
         "weekly",
         "monthly",
     ]:
-        print(f"skipping {id} because update frequency is not daily")
+        print(f"[{id}] skipping because update frequency is not daily")
         continue
 
     print(f"{id} date_columns:", ",".join([col["name"] for col in date_columns]))
@@ -137,77 +137,78 @@ for base, asset in assets:
     median_time_between_entries = None
 
     if temporal:
-        # download data if not currently in folder
-        download_path = f"./data/{id}.csv"
-        if not os.path.isfile(download_path):
-            download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
-            print(f'downloading {id} "{name}"')
-            with Timer(f"[{id}] retrieving data"):
-                urlretrieve(download_url, download_path)
-            print(f'downloaded {id} "{name}"')
-        else:
-            print(f'already downloaded {id} "{name}"')
+        with Timer(f"[{id}] processing dates"):
+            # download data if not currently in folder
+            download_path = f"./data/{id}.csv"
+            if not os.path.isfile(download_path):
+                download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
+                print(f'[{id}] downloading "{name}"')
+                with Timer(f"[{id}] retrieving data"):
+                    urlretrieve(download_url, download_path)
+                print(f'[{id}] downloaded "{name}"')
+            else:
+                print(f'[{id}] already downloaded {id} "{name}"')
 
-        with open(download_path) as f:
-            column_dates = defaultdict(set)
+            with open(download_path) as f:
+                column_dates = defaultdict(set)
 
-            # check if all date_columns are empty
+                # check if all date_columns are empty
 
-            all_date_columns_are_empty = True
+                all_date_columns_are_empty = True
 
-            for irow, row in enumerate(csv.DictReader(f)):
-                # print("irow:", irow)
+                for irow, row in enumerate(csv.DictReader(f)):
+                    # print("irow:", irow)
 
-                for col in date_columns:
-                    # print("col:", col)
-                    fieldName = col["fieldName"]
-                    name = col["name"]
-                    datestr = row[name]
+                    for col in date_columns:
+                        # print("col:", col)
+                        fieldName = col["fieldName"]
+                        name = col["name"]
+                        datestr = row[name]
 
-                    # skipping blank cells
-                    if datestr == "":
-                        continue
+                        # skipping blank cells
+                        if datestr == "":
+                            continue
 
-                    all_date_columns_are_empty = False
+                        all_date_columns_are_empty = False
 
-                    # print("datestr:", datestr)
-                    dt = parse_date(datestr)
-                    if dt is None:
-                        print("row:", row)
-                        print(f"failed to parse '{datestr}'")
-                        raise Exception(f"failed to parse '{datestr}'")
-                    # print("dt:", dt)
+                        # print("datestr:", datestr)
+                        dt = parse_date(datestr)
+                        if dt is None:
+                            print("row:", row)
+                            print(f"failed to parse '{datestr}'")
+                            raise Exception(f"failed to parse '{datestr}'")
+                        # print("dt:", dt)
 
-                    timestamp = dt.timestamp()
-                    # print("timestamp:", timestamp)
+                        timestamp = dt.timestamp()
+                        # print("timestamp:", timestamp)
 
-                    column_dates[fieldName].add(dt.date())
+                        column_dates[fieldName].add(dt.date())
 
-                    # print("timestamp:", timestamp)
-                    if most_recent is None or timestamp > most_recent["timestamp"]:
-                        most_recent = {
-                            "str": datestr,
-                            "datetime": dt,
-                            "timestamp": timestamp,
-                            "row": row,
-                        }
-                        # print("set most_recent")
+                        # print("timestamp:", timestamp)
+                        if most_recent is None or timestamp > most_recent["timestamp"]:
+                            most_recent = {
+                                "str": datestr,
+                                "datetime": dt,
+                                "timestamp": timestamp,
+                                "row": row,
+                            }
+                            # print("set most_recent")
 
-            # print("most_recent:", most_recent)
+                # print("most_recent:", most_recent)
 
-            # print("column_dates:", column_dates)
-            median_diffs = []
-            for col, dates in column_dates.items():
-                subresult = median_diff_dates(list(dates))
-                if subresult is not None:
-                    # print("subresult:", subresult)
-                    median_diffs.append(subresult)
-            median_days_between_entries = (
-                min(median_diffs) if len(median_diffs) > 0 else "n/a"
-            )
+                # print("column_dates:", column_dates)
+                median_diffs = []
+                for col, dates in column_dates.items():
+                    subresult = median_diff_dates(list(dates))
+                    if subresult is not None:
+                        # print("subresult:", subresult)
+                        median_diffs.append(subresult)
+                median_days_between_entries = (
+                    min(median_diffs) if len(median_diffs) > 0 else "n/a"
+                )
 
-        if all_date_columns_are_empty:
-            notes.append("all calendar date columns are empty")
+            if all_date_columns_are_empty:
+                notes.append("all calendar date columns are empty")
 
     # print("most_recent:", most_recent)
 
