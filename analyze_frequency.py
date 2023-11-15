@@ -5,11 +5,12 @@ from functools import lru_cache
 import os
 from requests import get
 import sys
+import time
 from urllib.request import urlretrieve
 
 import dateparser
 
-from utils import get_all_assets, median_diff_dates
+from utils import get_all_assets, median_diff_dates, Timer
 
 # avoid _csv.Error: field larger than field limit (131072)
 csv.field_size_limit(sys.maxsize)
@@ -88,7 +89,8 @@ for base, asset in assets:
 
     metadata_url = f"{base}/api/views/{id}.json"
     print("fetching " + metadata_url)
-    metadata = get(metadata_url).json()
+    with Timer(f"[{id}] fetching metadata"):
+        metadata = get(metadata_url).json()
 
     if "error" in metadata:
         if "message" in metadata:
@@ -140,7 +142,8 @@ for base, asset in assets:
         if not os.path.isfile(download_path):
             download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
             print(f'downloading {id} "{name}"')
-            urlretrieve(download_url, download_path)
+            with Timer(f"[{id}] retrieving data"):
+                urlretrieve(download_url, download_path)
             print(f'downloaded {id} "{name}"')
         else:
             print(f'already downloaded {id} "{name}"')
@@ -239,6 +242,7 @@ for base, asset in assets:
                 "notes": "; ".join(notes),
             }
         )
+        print(f"[{id}] wrote row")
         row_count += 1
 
         if row_count >= row_limit:
