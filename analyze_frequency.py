@@ -50,6 +50,7 @@ assets = get_all_assets(limit)
 # write output csv
 fieldnames = [
     "id",
+    "type",
     "name",
     "data_updated_at",
     "updated_at",
@@ -66,6 +67,7 @@ with open(out_filepath, "w") as outfile:
 for base, asset in assets:
     id = asset["id"]
     name = asset["name"]
+    # print("asset:", asset)
 
     print(f'\nchecking {id} "{name}"')
 
@@ -84,15 +86,18 @@ for base, asset in assets:
 
     # sleep(1)
 
-    metadata = get(f"{base}/api/views/{id}.json").json()
+    metadata_url = f"{base}/api/views/{id}.json"
+    print("fetching " + metadata_url)
+    metadata = get(metadata_url).json()
 
     if "error" in metadata:
         if "message" in metadata:
             print(metadata["message"])
             continue
 
-    if metadata["assetType"] != "dataset":
-        print(f"skipping {id} because it's not a dataset")
+    # print("met:", metadata)
+    if metadata["assetType"] not in ["dataset", "filter"]:
+        print(f"skipping {id} because it's not a dataset or filter")
         continue
 
     notes = []
@@ -215,14 +220,19 @@ for base, asset in assets:
     mostRecentFound = most_recent["datetime"].isoformat() if most_recent else "n/a"
     # print("mostRecentFound:", mostRecentFound)
 
+    if "assetType" not in metadata:
+        print(metadata)
+        exit()
+
     with open(out_filepath, "a") as outfile:
         csv.DictWriter(outfile, fieldnames=fieldnames).writerow(
             {
                 "id": asset["id"],
+                "type": metadata["assetType"],
                 "name": asset["name"],
-                "data_updated_at": asset["dataUpdatedAt"],
-                "updated_at": asset["updatedAt"],
-                "most_recent_found": mostRecentFound,
+                "data_updated_at": asset["dataUpdatedAt"].split("T")[0],
+                "updated_at": asset["updatedAt"].split("T")[0],
+                "most_recent_found": mostRecentFound.split("T")[0],
                 "frequency": frequency,
                 "recently_updated": ("true" if recentlyUpdated else "false"),
                 "median_days_between_entries": median_days_between_entries,
