@@ -82,7 +82,7 @@ for base, asset in assets:
 
     # skip community assets
     if asset["provenance"] != "OFFICIAL":
-        print(f'skipping unofficial asset {id} "{name}"')
+        print(f'[{id}] skipping unofficial asset "{name}"')
         continue
 
     # sleep(1)
