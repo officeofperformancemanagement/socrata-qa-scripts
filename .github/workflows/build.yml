@@ -21,6 +21,9 @@ jobs:
 
       - run: pip install -r requirements.txt
 
+      # downloads and unzips a lot of datasets
+      - run: ./setup.sh
+
       - run: python3 analyze_frequency.py
 
       # - run: python3 check_dates.py
