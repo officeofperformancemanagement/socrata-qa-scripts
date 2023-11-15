@@ -1,29 +1,29 @@
 id,name,data_updated_at,updated_at,most_recent_found,frequency,recently_updated,median_days_between_entries,notes
-gfmi-e2jm,OCHS Events,2023-11-13T00:00:53+0000,2023-11-14T00:00:32+0000,2023-11-12T17:23:50,Daily,true,3.0,
-7iks-gmi9,Air Quality Monitors,2023-11-14T08:45:52+0000,2023-11-14T08:45:39+0000,n/a,Daily,true,3.0,no calendar date columns
+gfmi-e2jm,OCHS Events,2023-11-15T00:00:57+0000,2023-11-15T00:00:32+0000,2023-11-13T20:20:34,Daily,true,3,
+7iks-gmi9,Air Quality Monitors,2023-11-14T08:45:52+0000,2023-11-14T08:45:39+0000,n/a,Daily,true,3,no calendar date columns
 uwtt-ptgf,Public Library In-House Use Year to Year,2022-09-26T18:38:03+0000,2022-10-19T14:23:54+0000,2023-06-01T00:00:00,Monthly,false,31,
 x6i8-rstq,Public Library Circulation Year to Year,2022-09-26T17:23:56+0000,2022-10-19T15:15:20+0000,2023-06-01T00:00:00,Monthly,false,31,
 3gj8-3ijm,TN Child Care,2022-11-16T15:46:36+0000,2022-11-16T15:45:29+0000,2022-11-01T00:00:00,Monthly,false,28.0,
-8zpt-8xs5,TDH Vaccine County Age Groups Census Aggregated 85+,2023-11-14T03:31:13+0000,2023-11-14T03:25:40+0000,2022-08-13T00:00:00,Daily,false,1,
-4giv-dvmp,TDH Vaccine County Age Groups Census,2023-11-14T03:25:35+0000,2023-11-14T03:10:23+0000,2022-08-13T00:00:00,Daily,false,1,
-dcfe-eupw,TDH Vaccine County Age Groups,2023-11-14T03:32:30+0000,2023-11-14T03:06:21+0000,2022-08-22T00:00:00,Daily,false,1.0,
-g7gx-66zx,"HCHD Cases by Race, Ethnicity, Sex - TDH Format",2023-11-14T03:20:16+0000,2023-11-14T03:02:25+0000,2023-11-13T00:00:00,Daily,true,1,
-nqdu-isfz,HCHD Cases by Age - TDH Format,2023-11-14T03:20:10+0000,2023-11-14T03:02:24+0000,2023-11-13T00:00:00,Daily,true,1,
-4qjh-fdm6,Asset Row Count Checker,2023-11-14T12:19:33+0000,2023-11-14T12:14:17+0000,2023-11-14T00:36:20,Daily,true,1,
-jun6-cstd,HCHD COVID Website Data,2023-11-14T03:20:04+0000,2023-11-14T03:02:23+0000,2023-11-13T00:00:00,Daily,true,1,
-nuzd-6jme,TN Counties COVID-19 Vaccinations,2023-11-14T03:20:33+0000,2023-11-14T03:19:42+0000,2022-08-22T00:00:00,Daily,false,1,
+8zpt-8xs5,TDH Vaccine County Age Groups Census Aggregated 85+,2023-11-14T23:30:52+0000,2023-11-14T23:25:13+0000,2022-08-13T00:00:00,Daily,false,1,
+4giv-dvmp,TDH Vaccine County Age Groups Census,2023-11-14T23:25:08+0000,2023-11-14T23:10:16+0000,2022-08-13T00:00:00,Daily,false,1,
+dcfe-eupw,TDH Vaccine County Age Groups,2023-11-14T23:32:02+0000,2023-11-14T23:06:21+0000,2022-08-22T00:00:00,Daily,false,1.0,
+g7gx-66zx,"HCHD Cases by Race, Ethnicity, Sex - TDH Format",2023-11-14T23:19:50+0000,2023-11-14T23:02:28+0000,2023-11-14T00:00:00,Daily,true,1.0,
+nqdu-isfz,HCHD Cases by Age - TDH Format,2023-11-14T23:19:45+0000,2023-11-14T23:02:27+0000,2023-11-14T00:00:00,Daily,true,1.0,
+4qjh-fdm6,Asset Row Count Checker,2023-11-15T00:16:30+0000,2023-11-15T00:12:56+0000,2023-11-14T00:36:20,Daily,true,1,
+jun6-cstd,HCHD COVID Website Data,2023-11-14T23:19:40+0000,2023-11-14T23:02:27+0000,2023-11-14T00:00:00,Daily,true,1.0,
+nuzd-6jme,TN Counties COVID-19 Vaccinations,2023-11-14T23:20:12+0000,2023-11-14T23:19:19+0000,2022-08-22T00:00:00,Daily,false,1,
 y5qr-gke5,Biased Based Policing Overview,2020-08-06T17:46:22+0000,2020-08-06T17:46:23+0000,n/a,Daily,false,1,no calendar date columns
-fedh-4gj4,Hamilton County Cases by Zip Code,2023-08-14T02:28:10+0000,2023-11-14T03:20:39+0000,2023-01-27T00:00:00,Daily,false,1.0,
+fedh-4gj4,Hamilton County Cases by Zip Code,2023-08-14T02:28:10+0000,2023-11-14T23:20:18+0000,2023-01-27T00:00:00,Daily,false,1.0,
 89n8-dwxx,Hamilton County Health Department COVID-19 Data,2020-10-10T05:10:05+0000,2022-10-19T14:33:08+0000,n/a,Daily,false,n/a,all calendar date columns are empty
 6v8k-2rhk,SafeGraph POI Visitor Count,2020-07-30T19:45:25+0000,2022-10-17T14:41:16+0000,2020-07-19T00:00:00,Weekly,false,1.0,
 7axh-k8jh,Street Resurfacing,2023-11-14T14:50:24+0000,2023-11-14T14:47:11+0000,n/a,Daily,true,1.0,no calendar date columns
 k7u5-cfs3,Intersections,2020-04-28T15:45:28+0000,2022-10-19T15:03:10+0000,n/a,Daily,false,1.0,no calendar date columns
 mw3f-d2mz,Chattanooga Roadways,2020-04-28T14:46:15+0000,2022-10-19T15:24:32+0000,n/a,Daily,false,1.0,no calendar date columns
-79t8-mn8i,Solid Waste and Recycling Website Data,2023-10-23T20:02:23+0000,2023-11-13T21:02:17+0000,n/a,Daily,true,1.0,no calendar date columns
+79t8-mn8i,Solid Waste and Recycling Website Data,2023-10-23T20:02:23+0000,2023-11-14T21:02:18+0000,n/a,Daily,true,1.0,no calendar date columns
 hr34-nqkq,Outdoor Chattanooga Users,2022-08-25T14:59:09+0000,2022-10-17T15:31:37+0000,2020-12-29T00:00:00,Daily,false,1,
 hr82-ynje,Activity Participation,2022-08-25T14:56:36+0000,2022-10-17T15:18:35+0000,2021-01-26T00:00:00,Daily,false,2,
 tdq7-y7yk,Open Checkbook Distributions,2021-12-06T20:08:00+0000,2021-12-06T19:57:40+0000,2021-09-10T00:00:00,Daily,false,1,
 4kxc-jcw5,Road Closures,2020-04-24T12:23:41+0000,2022-03-16T14:21:43+0000,2020-12-31T00:00:00,Daily,false,2,
-cged-2r5q,Asset Inventory Views,2023-11-14T12:21:21+0000,2023-11-14T12:21:13+0000,2023-11-14T00:36:20,Daily,true,1.0,
-si7b-v7a4,Pass Visit Report,2023-07-20T21:22:34+0000,2023-11-13T22:14:10+0000,2023-12-22T12:57:00,Daily,true,1.0,
+cged-2r5q,Asset Inventory Views,2023-11-15T00:18:06+0000,2023-11-15T00:17:58+0000,2023-11-14T00:36:20,Daily,true,1.0,
+si7b-v7a4,Pass Visit Report,2023-07-20T21:22:34+0000,2023-11-14T22:14:10+0000,2023-12-22T12:57:00,Daily,true,1.0,
 fg88-myy3,City Parcels,2023-11-10T07:44:39+0000,2023-11-14T07:33:48+0000,n/a,Monthly,true,1.0,no calendar date columns
