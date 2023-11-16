@@ -18,6 +18,12 @@ csv.field_size_limit(sys.maxsize)
 
 @lru_cache(maxsize=8192)
 def parse_date(str):
+    for date_format in ["%m/%d/%Y %H:%M:%S %p", "%m/%d/%Y", "%B %d, %Y %H:%M %p"]:
+        try:
+            return datetime.strptime(datestr, date_format)
+        except Exception as e:
+            pass
+
     return dateparser.parse(
         str,
         languages=["en"],
@@ -32,7 +38,9 @@ skiplist = []
 
 select_asset_ids = [
     # "89n8-dwxx",
-    # "k7u5-cfs3"
+    # "k7u5-cfs3",
+    # "8qb9-5fja",
+    # "auia-u263"
 ]
 
 # row_limit = 1
@@ -42,9 +50,14 @@ row_count = 0
 # grab all assets
 limit = 10000
 
-# set threshold to be 3 days to account for weekends
-threshold = datetime.now() - timedelta(days=3)
-threshold_timestamp = threshold.timestamp()
+# adding a little slack of 4 days to account for weekends and holidays
+now = datetime.now()
+threshold_timestamps = {
+    "daily": (now - timedelta(days=1 + 3)).timestamp(),
+    "weekly": (now - timedelta(days=7 + 6)).timestamp(),
+    "monthly": (now - timedelta(days=31 + 9)).timestamp(),
+    "yearly": (now - timedelta(days=365 * 12)).timestamp(),
+}
 
 assets = get_all_assets(limit)
 
@@ -57,7 +70,7 @@ fieldnames = [
     "updated_at",
     "most_recent_found",
     "frequency",
-    "recently_updated",
+    "status",
     "median_days_between_entries",
     "notes",
 ]
@@ -65,19 +78,19 @@ out_filepath = "./results/frequency_analysis.csv"
 with open(out_filepath, "w") as outfile:
     csv.DictWriter(outfile, fieldnames=fieldnames).writeheader()
 
-for base, asset in assets:
+for i, (base, asset) in enumerate(assets):
     id = asset["id"]
     name = asset["name"]
     # print("asset:", asset)
 
-    print(f'\n[{id}] checking "{name}"')
+    print(f'\n[{id}] checking "{name}" ({i}/{len(assets)})')
 
     if len(select_asset_ids) >= 1 and id not in select_asset_ids:
-        print(f"skipping {id} because it's not in the select asset ids")
+        print(f"[{id}] skipping because it's not in the select asset ids")
         continue
 
     if id in skiplist:
-        print(f"skipping {id} because it's in skiplist")
+        print(f"[{id}] skipping because it's in skiplist")
         continue
 
     # skip community assets
@@ -88,7 +101,7 @@ for base, asset in assets:
     # sleep(1)
 
     metadata_url = f"{base}/api/views/{id}.json"
-    print("fetching " + metadata_url)
+    print(f"[{id}] fetching " + metadata_url)
     with Timer(f"[{id}] fetching metadata"):
         metadata = get(metadata_url).json()
 
@@ -97,9 +110,9 @@ for base, asset in assets:
             print(metadata["message"])
             continue
 
-    # print("met:", metadata)
+    print(f"[{id}] assetType:", metadata["assetType"])
     if metadata["assetType"] not in ["dataset", "filter"]:
-        print(f"skipping {id} because it's not a dataset or filter")
+        print(f"[{id}] skipping because it's not a dataset or filter")
         continue
 
     notes = []
@@ -128,27 +141,29 @@ for base, asset in assets:
         "weekly",
         "monthly",
     ]:
-        print(f"[{id}] skipping because update frequency is not daily")
+        print(
+            f"[{id}] skipping because update frequency is not daily, weekly, nor monthly"
+        )
         continue
 
-    print(f"{id} date_columns:", ",".join([col["name"] for col in date_columns]))
+    print(f"[{id}] date_columns:", ",".join([col["name"] for col in date_columns]))
 
     most_recent = None
     median_time_between_entries = None
 
     if temporal:
-        with Timer(f"[{id}] processing dates"):
-            # download data if not currently in folder
-            download_path = f"./data/{id}.csv"
-            if not os.path.isfile(download_path):
-                download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
-                print(f'[{id}] downloading "{name}"')
-                with Timer(f"[{id}] retrieving data"):
-                    urlretrieve(download_url, download_path)
-                print(f'[{id}] downloaded "{name}"')
-            else:
-                print(f'[{id}] already downloaded {id} "{name}"')
+        # download data if not currently in folder
+        download_path = f"./data/{id}.csv"
+        if not os.path.isfile(download_path):
+            download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
+            print(f'[{id}] downloading "{name}"')
+            with Timer(f"[{id}] retrieving data"):
+                urlretrieve(download_url, download_path)
+            print(f'[{id}] downloaded "{name}"')
+        else:
+            print(f'[{id}] already downloaded {id} "{name}"')
 
+        with Timer(f"[{id}] processing dates"):
             with open(download_path) as f:
                 column_dates = defaultdict(set)
 
@@ -171,7 +186,6 @@ for base, asset in assets:
 
                         all_date_columns_are_empty = False
 
-                        # print("datestr:", datestr)
                         dt = parse_date(datestr)
                         if dt is None:
                             print("row:", row)
@@ -213,20 +227,23 @@ for base, asset in assets:
     # print("most_recent:", most_recent)
 
     if most_recent:
-        recentlyUpdated = most_recent["timestamp"] > threshold_timestamp
+        recentlyUpdated = (
+            most_recent["timestamp"] > threshold_timestamps[frequency.lower()]
+        )
     else:
         dataUpdatedAt = parse_date(asset["dataUpdatedAt"]).timestamp()
         updatedAt = parse_date(asset["updatedAt"]).timestamp()
-        recentlyUpdated = (dataUpdatedAt > threshold_timestamp) or (
-            updatedAt > threshold_timestamp
+        recentlyUpdated = (dataUpdatedAt > threshold_timestamps[frequency.lower()]) or (
+            updatedAt > threshold_timestamps[frequency.lower()]
         )
 
     mostRecentFound = most_recent["datetime"].isoformat() if most_recent else "n/a"
     # print("mostRecentFound:", mostRecentFound)
 
     if "assetType" not in metadata:
+        print("asset type not in metadata")
         print(metadata)
-        exit()
+        continue
 
     with open(out_filepath, "a") as outfile:
         csv.DictWriter(outfile, fieldnames=fieldnames).writerow(
@@ -238,7 +255,7 @@ for base, asset in assets:
                 "updated_at": asset["updatedAt"].split("T")[0],
                 "most_recent_found": mostRecentFound.split("T")[0],
                 "frequency": frequency,
-                "recently_updated": ("true" if recentlyUpdated else "false"),
+                "status": ("ok" if recentlyUpdated else "needs review"),
                 "median_days_between_entries": median_days_between_entries,
                 "notes": "; ".join(notes),
             }
@@ -249,3 +266,5 @@ for base, asset in assets:
         if row_count >= row_limit:
             print(f"hit maximum number of {row_limit} rows, so breaking")
             break
+
+print("done")
