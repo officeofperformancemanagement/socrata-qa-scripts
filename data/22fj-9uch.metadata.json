@@ -1,0 +1,214 @@
+{
+    "id": "22fj-9uch",
+    "name": "Chattanooga Website Analytics",
+    "assetType": "dataset",
+    "attribution": "Department of Information Technology",
+    "attributionLink": "http://www.chattanoog.gov",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1400876619,
+    "description": "for chattanooga.gov",
+    "displayType": "table",
+    "downloadCount": 488,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1433340791,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 8059730,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1400876690,
+    "publicationGroup": 1592991,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1400876640,
+    "rowsUpdatedBy": "wma2-yapv",
+    "tableId": 1592991,
+    "totalTimesRated": 0,
+    "viewCount": 5512,
+    "viewLastModified": 1550000390,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1401547585,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366657,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1401547585,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 149723223,
+            "name": "Page",
+            "dataTypeName": "text",
+            "fieldName": "page",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 19908118,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 149723224,
+            "name": "Pageviews",
+            "dataTypeName": "number",
+            "fieldName": "pageviews",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 19908119,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 149723225,
+            "name": "UniquePageviews",
+            "dataTypeName": "number",
+            "fieldName": "uniquepageviews",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 19908120,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723226,
+            "name": "AvgTimeOnPage",
+            "dataTypeName": "text",
+            "fieldName": "avgtimeonpage",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 19908121,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 149723227,
+            "name": "Entrances",
+            "dataTypeName": "number",
+            "fieldName": "entrances",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 19908122,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 149723228,
+            "name": "BounceRate",
+            "dataTypeName": "number",
+            "fieldName": "bouncerate",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 19908123,
+            "width": 220,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 149723229,
+            "name": "ExitRate",
+            "dataTypeName": "number",
+            "fieldName": "exitrate",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 19908124,
+            "width": 196,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

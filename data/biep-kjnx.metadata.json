@@ -1,0 +1,173 @@
+{
+    "id": "biep-kjnx",
+    "name": "Chattanooga Historic Red Lining",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1570131794,
+    "description": "The Federal government's Home Owners' Loan Corporation between 1935 and 1940,  used data and evaluations organized by local real estate professionals--lenders, developers, and real estate appraisers--in each city, assigned grades to residential neighborhoods that reflected their \"mortgage security\" that would then be visualized on color-coded maps. Neighborhoods receiving the highest grade of \"A\"--colored green on the maps--were deemed minimal risks for banks and other mortgage lenders when they were determining who should received loans and which areas in the city were safe investments. Those receiving the lowest grade of \"D,\" colored red, were considered \"hazardous.\"\n\nConservative, responsible lenders, in HOLC judgment, would \"refuse to make loans in these areas [or] only on a conservative basis.\" HOLC created area descriptions to help to organize the data they used to assign the grades. Among that information was the neighborhood's quality of housing, the recent history of sale and rent values, and, crucially, the racial and ethnic identity and class of residents that served as the basis of the neighborhood's grade. These maps and their accompanying documentation helped set the rules for nearly a century of real estate practice that has systematically disenfranchised communities of color.",
+    "displayType": "table",
+    "downloadCount": 93,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1570132234,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32542941,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1570132209,
+    "publicationGroup": 16607391,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1570132208,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 16607391,
+    "totalTimesRated": 0,
+    "viewCount": 466,
+    "viewLastModified": 1570132209,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1570132231,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1302041,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1570132209,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1570132231,
+                "failureCount": 0,
+                "startedAt": 1570132231,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 431546004,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 88637912,
+            "format": {}
+        },
+        {
+            "id": 431546000,
+            "name": "District Name",
+            "dataTypeName": "text",
+            "description": "This is the name given by the local real estate community and developers.",
+            "fieldName": "name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 88637908,
+            "format": {}
+        },
+        {
+            "id": 431546001,
+            "name": "Red Line District",
+            "dataTypeName": "text",
+            "description": "This is the district id.",
+            "fieldName": "holc_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 88637909,
+            "format": {}
+        },
+        {
+            "id": 431546002,
+            "name": "Red Line Grade",
+            "dataTypeName": "text",
+            "description": "This is the grade with A being the \"best\" grade for lending and D being the \"worst\".",
+            "fieldName": "holc_grade",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 88637910,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "redline",
+        "red line",
+        "red",
+        "racism"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

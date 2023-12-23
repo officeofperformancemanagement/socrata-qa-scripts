@@ -1,0 +1,187 @@
+{
+    "id": "7gqk-pvww",
+    "name": "2017 Tracts - Median Household Income",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1557320364,
+    "description": "Median household income over the past 12 months by tract. Data provided by ACS.",
+    "displayType": "table",
+    "downloadCount": 77,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562356851,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31452436,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557320574,
+    "publicationGroup": 16183153,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557320574,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16183153,
+    "totalTimesRated": 0,
+    "viewCount": 109,
+    "viewLastModified": 1666189096,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557320612,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 537712,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557320575,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557320612,
+                "failureCount": 0,
+                "startedAt": 1557320612,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407618271,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80622557,
+            "format": {}
+        },
+        {
+            "id": 407618270,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80622556,
+            "format": {}
+        },
+        {
+            "id": 407618310,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80622559,
+            "format": {}
+        },
+        {
+            "id": 407618272,
+            "name": "Median household income in the past 12 months",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "median_household_income_in",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80622558,
+            "format": {}
+        },
+        {
+            "id": 407618269,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 5,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80622555,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Economic Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract 4 and 11"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

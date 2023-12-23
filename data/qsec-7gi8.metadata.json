@@ -1,0 +1,646 @@
+{
+    "id": "qsec-7gi8",
+    "name": "Downtown Parking Information",
+    "assetType": "dataset",
+    "attribution": "Chattanooga Parking Authority",
+    "attributionLink": "http://www.chattanoogaparking.org/",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1476717838,
+    "description": "This dataset provide information about the off-street parking locations in downtown Chattanooga. Please note that this data is constantly being updated and may not be accurate.",
+    "displayType": "table",
+    "downloadCount": 345,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1478093737,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 24741902,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1477076045,
+    "publicationGroup": 13845137,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1477076029,
+    "rowsUpdatedBy": "wma2-yapv",
+    "tableId": 13864036,
+    "totalTimesRated": 0,
+    "viewCount": 2752,
+    "viewLastModified": 1559852904,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1478093721,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366947,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1478093721,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 274357585,
+            "name": "Lot ID",
+            "dataTypeName": "number",
+            "fieldName": "lot_id",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 39263622,
+            "width": 50,
+            "format": {}
+        },
+        {
+            "id": 274357586,
+            "name": "Lot Name",
+            "dataTypeName": "text",
+            "fieldName": "lot_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 39263623,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 274357587,
+            "name": "Lot Address",
+            "dataTypeName": "text",
+            "fieldName": "lot_address",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 39263741,
+            "width": 191,
+            "format": {}
+        },
+        {
+            "id": 274357588,
+            "name": "Location Description",
+            "dataTypeName": "text",
+            "fieldName": "location_description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 39263624,
+            "width": 798,
+            "format": {}
+        },
+        {
+            "id": 274357589,
+            "name": "Parking Spaces",
+            "dataTypeName": "number",
+            "fieldName": "parking_spaces",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 39263625,
+            "width": 180,
+            "format": {}
+        },
+        {
+            "id": 274357590,
+            "name": "Lot Lat",
+            "dataTypeName": "number",
+            "fieldName": "lot_lat",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 39263626,
+            "width": 123,
+            "format": {}
+        },
+        {
+            "id": 274357591,
+            "name": "Lot Long",
+            "dataTypeName": "number",
+            "fieldName": "lot_long",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 39263627,
+            "width": 146,
+            "format": {}
+        },
+        {
+            "id": 274357592,
+            "name": "Lot Type",
+            "dataTypeName": "text",
+            "fieldName": "lot_type",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 39263628,
+            "width": 162,
+            "format": {}
+        },
+        {
+            "id": 274357593,
+            "name": "Payment Type",
+            "dataTypeName": "text",
+            "fieldName": "payment_type",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 39263629,
+            "width": 173,
+            "format": {}
+        },
+        {
+            "id": 274357594,
+            "name": "Last Updated",
+            "dataTypeName": "calendar_date",
+            "fieldName": "last_updated",
+            "position": 10,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 39263630,
+            "width": 165,
+            "format": {}
+        },
+        {
+            "id": 274357595,
+            "name": "Hourly Rate .5hr",
+            "dataTypeName": "number",
+            "fieldName": "hourly_rate_5hr",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 39263631,
+            "width": 189,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357596,
+            "name": "Hourly Rate 1hr",
+            "dataTypeName": "number",
+            "fieldName": "hourly_rate_1hr",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 39263632,
+            "width": 183,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357597,
+            "name": "Hourly Rate 1.5hr",
+            "dataTypeName": "number",
+            "fieldName": "hourly_rate_1_5hr",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 39263633,
+            "width": 199,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357598,
+            "name": "Hourly Rate 2hr",
+            "dataTypeName": "number",
+            "fieldName": "hourly_rate_2hr",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 39263634,
+            "width": 186,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357599,
+            "name": "Rate After Exceeding Time for Hourly Rates",
+            "dataTypeName": "text",
+            "fieldName": "rate_after_exceeding_time_for_hourly_rates",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 39263635,
+            "width": 362,
+            "format": {}
+        },
+        {
+            "id": 274357600,
+            "name": "Card Activiation Fee",
+            "dataTypeName": "number",
+            "fieldName": "card_activiation_fee",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 39263636,
+            "width": 228,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357601,
+            "name": "All Day Flat Rate",
+            "dataTypeName": "number",
+            "fieldName": "all_day_flat_rate",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 39263637,
+            "width": 192,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357602,
+            "name": "After 4pm Sun-Thurs Flat Rate",
+            "dataTypeName": "number",
+            "fieldName": "after_4pm_sun_thurs_flat_rate",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 39263638,
+            "width": 297,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357603,
+            "name": "After 4pm Fri-Sat Flat Rate",
+            "dataTypeName": "number",
+            "fieldName": "after_4pm_fri_sat_flat_rate",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 39263639,
+            "width": 250,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357604,
+            "name": "Event Rate",
+            "dataTypeName": "number",
+            "fieldName": "event_rate",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 39263640,
+            "width": 158,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357605,
+            "name": "Riverbend Rate",
+            "dataTypeName": "number",
+            "fieldName": "riverbend_rate",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 39263641,
+            "width": 183,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357606,
+            "name": "Monthly Rate",
+            "dataTypeName": "number",
+            "fieldName": "monthly_rate",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 39263642,
+            "width": 184,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 274357607,
+            "name": "Notes",
+            "dataTypeName": "text",
+            "fieldName": "notes",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 39263643,
+            "width": 992,
+            "format": {}
+        },
+        {
+            "id": 274357608,
+            "name": "Location",
+            "dataTypeName": "point",
+            "fieldName": "location",
+            "position": 24,
+            "renderTypeName": "point",
+            "tableColumnId": 39263644,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 381967030,
+            "name": "Location (address)",
+            "dataTypeName": "text",
+            "fieldName": "location_address",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 71557180,
+            "format": {}
+        },
+        {
+            "id": 381967014,
+            "name": "Location (city)",
+            "dataTypeName": "text",
+            "fieldName": "location_city",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 71557164,
+            "format": {}
+        },
+        {
+            "id": 381967032,
+            "name": "Location (state)",
+            "dataTypeName": "text",
+            "fieldName": "location_state",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 71557182,
+            "format": {}
+        },
+        {
+            "id": 381967031,
+            "name": "Location (zip)",
+            "dataTypeName": "text",
+            "fieldName": "location_zip",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 71557181,
+            "format": {}
+        },
+        {
+            "id": 381967033,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 71557183,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 381967034,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 71557184,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 381967049,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 71557199,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 381967077,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 71557227,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 381967078,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 71557228,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 381967079,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 71557229,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 381967080,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 71557230,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 381967081,
+            "name": "Council_data 2",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ap6c_9ws7",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 71557231,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ap6c-9ws7",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            },
+            "Data Description": {
+                "Data Dictionary": ""
+            }
+        },
+        "rowLabel": "Parking Facility",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "parking",
+        "off-street parking",
+        "parking lots",
+        "parking garages"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,203 @@
+{
+    "id": "4k6b-3jbf",
+    "name": "TN Health Department COVID Data - Age by County",
+    "assetType": "dataset",
+    "attribution": "TN Department of Health",
+    "attributionLink": "https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1609357549,
+    "description": "COVID data in TN aggregated by age, county, and date. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "displayType": "table",
+    "downloadCount": 67,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37169396,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1620755446,
+    "publicationGroup": 17899985,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 540324796,
+    "rowsUpdatedAt": 1703215465,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18303444,
+    "totalTimesRated": 0,
+    "viewCount": 176,
+    "viewLastModified": 1703215148,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1609357834,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3604842,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1609357742,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1609357835,
+                "failureCount": 0,
+                "startedAt": 1609357834,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 540324790,
+            "name": "COUNTY",
+            "dataTypeName": "text",
+            "description": "County of case count",
+            "fieldName": "county",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 126562695,
+            "format": {}
+        },
+        {
+            "id": 540324791,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "Date of case count",
+            "fieldName": "date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 126562692,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 540324792,
+            "name": "AGE_GROUP",
+            "dataTypeName": "text",
+            "description": "Age group of case count",
+            "fieldName": "age_group",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 126562694,
+            "format": {}
+        },
+        {
+            "id": 540324793,
+            "name": "NEW_CASES",
+            "dataTypeName": "number",
+            "description": "New cases for the date, age group, and county",
+            "fieldName": "new_cases",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 137942229,
+            "format": {}
+        },
+        {
+            "id": 540324794,
+            "name": "TOTAL_CASES",
+            "dataTypeName": "number",
+            "description": "Total cases for the date, age group, and county",
+            "fieldName": "total_cases",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 137942228,
+            "format": {}
+        },
+        {
+            "id": 540324796,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "id",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 131178523,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 540324796,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tn health department covid data"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

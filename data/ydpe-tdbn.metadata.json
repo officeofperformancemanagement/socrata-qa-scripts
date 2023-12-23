@@ -1,0 +1,244 @@
+{
+    "id": "ydpe-tdbn",
+    "name": "Census Response Rates by City",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1592834131,
+    "description": "Data pulled from the US Census Bureau for response rates by City/Place for the US decennial 2020 census.",
+    "displayType": "table",
+    "downloadCount": 319,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34482647,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1592835419,
+    "publicationGroup": 17256723,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 476304567,
+    "rowsUpdatedAt": 1612440018,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17256735,
+    "totalTimesRated": 0,
+    "viewCount": 105,
+    "viewLastModified": 1612439611,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1592835570,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2347432,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1592835548,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1592835571,
+                "failureCount": 0,
+                "startedAt": 1592835570,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 476304558,
+            "name": "State FIPS Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fips_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 106002328,
+            "format": {}
+        },
+        {
+            "id": 476304559,
+            "name": "GEO_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geo_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 106002326,
+            "format": {}
+        },
+        {
+            "id": 476304560,
+            "name": "Place Name",
+            "dataTypeName": "text",
+            "description": "Common name for place or location.",
+            "fieldName": "place_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 106002335,
+            "format": {}
+        },
+        {
+            "id": 476304561,
+            "name": "Cumulative Response Rate",
+            "dataTypeName": "number",
+            "description": "The cumulative response rate for the place up until the Response Date.",
+            "fieldName": "cumulative_response_rate",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 106002334,
+            "format": {}
+        },
+        {
+            "id": 476304562,
+            "name": "Daily Response Rate",
+            "dataTypeName": "number",
+            "description": "The daily response rate overall.",
+            "fieldName": "daily_response_rate",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 106002333,
+            "format": {}
+        },
+        {
+            "id": 476304563,
+            "name": "Cumulative Internet Response Rate",
+            "dataTypeName": "number",
+            "description": "The cumulative internet only response rate up until the Response Date.",
+            "fieldName": "cumulative_internet_response",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 106002332,
+            "format": {}
+        },
+        {
+            "id": 476304564,
+            "name": "Daily Internet Response Rate",
+            "dataTypeName": "number",
+            "description": "The daily internet response rate.",
+            "fieldName": "daily_internet_response_rate",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 106002331,
+            "format": {}
+        },
+        {
+            "id": 476304565,
+            "name": "Response Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the data is up to date",
+            "fieldName": "response_date",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 106002330,
+            "format": {}
+        },
+        {
+            "id": 476304566,
+            "name": "Place Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "place_code",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 106002327,
+            "format": {}
+        },
+        {
+            "id": 476304567,
+            "name": "UniqueID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "uniqueid",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 106002329,
+            "format": {}
+        },
+        {
+            "id": 476304568,
+            "name": "Most Recent Date Indicator",
+            "dataTypeName": "text",
+            "description": "Indicates \"Y\" if the row is for the most recent date of data available.",
+            "fieldName": "most_recent_date_indicator",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 106002407,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "odextract@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 476304567,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

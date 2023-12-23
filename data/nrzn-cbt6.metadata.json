@@ -1,0 +1,727 @@
+{
+    "id": "nrzn-cbt6",
+    "name": "2017 Block Group Population by Age",
+    "assetType": "dataset",
+    "attribution": "ACS",
+    "averageRating": 0,
+    "createdAt": 1560434230,
+    "description": "2017 block group population categorized by age. Data from ACS.",
+    "displayType": "table",
+    "downloadCount": 191,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1560434602,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31709053,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1560434589,
+    "publicationGroup": 16274830,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1560434589,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16274830,
+    "totalTimesRated": 0,
+    "viewCount": 223,
+    "viewLastModified": 1560434589,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1560434590,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 770750,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1560434590,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1560434590,
+                "failureCount": 0,
+                "startedAt": 1560434590,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 412878981,
+            "name": "STATEFP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "statefp",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 82421816,
+            "format": {}
+        },
+        {
+            "id": 412878942,
+            "name": "COUNTYFP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "countyfp",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 82421777,
+            "format": {}
+        },
+        {
+            "id": 412878961,
+            "name": "BLKGRPID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blkgrpid",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 82421796,
+            "format": {}
+        },
+        {
+            "id": 412878931,
+            "name": "Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geography",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 82421766,
+            "format": {}
+        },
+        {
+            "id": 412878960,
+            "name": "Estimate; Total",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 82421795,
+            "format": {}
+        },
+        {
+            "id": 412878937,
+            "name": "Total Under 60",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_under_60",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 82421772,
+            "format": {}
+        },
+        {
+            "id": 412878962,
+            "name": "Total Over 60",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_over_60",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 82421797,
+            "format": {}
+        },
+        {
+            "id": 412878965,
+            "name": "Percent Over 60",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_over_60",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 82421800,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 412878983,
+            "name": "Estimate; Male: - Under 5 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_under_5_years",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 82421818,
+            "format": {}
+        },
+        {
+            "id": 412878955,
+            "name": "Estimate; Female: - Under 5 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_under_5_years",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 82421790,
+            "format": {}
+        },
+        {
+            "id": 412878967,
+            "name": "Estimate; Male: - 5 to 9 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_5_to_9_years",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 82421802,
+            "format": {}
+        },
+        {
+            "id": 412878953,
+            "name": "Estimate; Female: - 5 to 9 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_5_to_9_years",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 82421788,
+            "format": {}
+        },
+        {
+            "id": 412878958,
+            "name": "Estimate; Male: - 10 to 14 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_10_to_14_years",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 82421793,
+            "format": {}
+        },
+        {
+            "id": 412878984,
+            "name": "Estimate; Female: - 10 to 14 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_10_to_14",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 82421819,
+            "format": {}
+        },
+        {
+            "id": 412878963,
+            "name": "Estimate; Male: - 15 to 17 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_15_to_17_years",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 82421798,
+            "format": {}
+        },
+        {
+            "id": 412878970,
+            "name": "Estimate; Female: - 15 to 17 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_15_to_17",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 82421805,
+            "format": {}
+        },
+        {
+            "id": 412878949,
+            "name": "Estimate; Male: - 18 and 19 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_18_and_19_years",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 82421784,
+            "format": {}
+        },
+        {
+            "id": 412878941,
+            "name": "Estimate; Female: - 18 and 19 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_18_and_19",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 82421776,
+            "format": {}
+        },
+        {
+            "id": 412878968,
+            "name": "Estimate; Male: - 20 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_20_years",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 82421803,
+            "format": {}
+        },
+        {
+            "id": 412878975,
+            "name": "Estimate; Female: - 20 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_20_years",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 82421810,
+            "format": {}
+        },
+        {
+            "id": 412878943,
+            "name": "Estimate; Male: - 21 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_21_years",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 82421778,
+            "format": {}
+        },
+        {
+            "id": 412878944,
+            "name": "Estimate; Female: - 21 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_21_years",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 82421779,
+            "format": {}
+        },
+        {
+            "id": 412878947,
+            "name": "Estimate; Male: - 22 to 24 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_22_to_24_years",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 82421782,
+            "format": {}
+        },
+        {
+            "id": 412878956,
+            "name": "Estimate; Female: - 22 to 24 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_22_to_24",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 82421791,
+            "format": {}
+        },
+        {
+            "id": 412878946,
+            "name": "Estimate; Male: - 25 to 29 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_25_to_29_years",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 82421781,
+            "format": {}
+        },
+        {
+            "id": 412878935,
+            "name": "Estimate; Female: - 25 to 29 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_25_to_29",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 82421770,
+            "format": {}
+        },
+        {
+            "id": 412878939,
+            "name": "Estimate; Male: - 30 to 34 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_30_to_34_years",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 82421774,
+            "format": {}
+        },
+        {
+            "id": 412878979,
+            "name": "Estimate; Female: - 30 to 34 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_30_to_34",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 82421814,
+            "format": {}
+        },
+        {
+            "id": 412878974,
+            "name": "Estimate; Male: - 35 to 39 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_35_to_39_years",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 82421809,
+            "format": {}
+        },
+        {
+            "id": 412878969,
+            "name": "Estimate; Female: - 35 to 39 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_35_to_39",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 82421804,
+            "format": {}
+        },
+        {
+            "id": 412878966,
+            "name": "Estimate; Male: - 40 to 44 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_40_to_44_years",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 82421801,
+            "format": {}
+        },
+        {
+            "id": 412878933,
+            "name": "Estimate; Female: - 40 to 44 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_40_to_44",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 82421768,
+            "format": {}
+        },
+        {
+            "id": 412878934,
+            "name": "Estimate; Male: - 45 to 49 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_45_to_49_years",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 82421769,
+            "format": {}
+        },
+        {
+            "id": 412878938,
+            "name": "Estimate; Female: - 45 to 49 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_45_to_49",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 82421773,
+            "format": {}
+        },
+        {
+            "id": 412878957,
+            "name": "Estimate; Male: - 50 to 54 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_50_to_54_years",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 82421792,
+            "format": {}
+        },
+        {
+            "id": 412878954,
+            "name": "Estimate; Female: - 50 to 54 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_50_to_54",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 82421789,
+            "format": {}
+        },
+        {
+            "id": 412878980,
+            "name": "Estimate; Male: - 55 to 59 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_55_to_59_years",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 82421815,
+            "format": {}
+        },
+        {
+            "id": 412878973,
+            "name": "Estimate; Female: - 55 to 59 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_55_to_59",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 82421808,
+            "format": {}
+        },
+        {
+            "id": 412878930,
+            "name": "Estimate; Male: - 60 and 61 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_60_and_61_years",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 82421765,
+            "format": {}
+        },
+        {
+            "id": 412878959,
+            "name": "Estimate; Female: - 60 and 61 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_60_and_61",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 82421794,
+            "format": {}
+        },
+        {
+            "id": 412878936,
+            "name": "Estimate; Male: - 62 to 64 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_62_to_64_years",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 82421771,
+            "format": {}
+        },
+        {
+            "id": 412878977,
+            "name": "Estimate; Female: - 62 to 64 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_62_to_64",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 82421812,
+            "format": {}
+        },
+        {
+            "id": 412878971,
+            "name": "Estimate; Male: - 65 and 66 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_65_and_66_years",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 82421806,
+            "format": {}
+        },
+        {
+            "id": 412878948,
+            "name": "Estimate; Female: - 65 and 66 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_65_and_66",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 82421783,
+            "format": {}
+        },
+        {
+            "id": 412878964,
+            "name": "Estimate; Male: - 67 to 69 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_67_to_69_years",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 82421799,
+            "format": {}
+        },
+        {
+            "id": 412878940,
+            "name": "Estimate; Female: - 67 to 69 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_67_to_69",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 82421775,
+            "format": {}
+        },
+        {
+            "id": 412878932,
+            "name": "Estimate; Male: - 70 to 74 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_70_to_74_years",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 82421767,
+            "format": {}
+        },
+        {
+            "id": 412878972,
+            "name": "Estimate; Female: - 70 to 74 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_70_to_74",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 82421807,
+            "format": {}
+        },
+        {
+            "id": 412878952,
+            "name": "Estimate; Male: - 75 to 79 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_75_to_79_years",
+            "position": 49,
+            "renderTypeName": "number",
+            "tableColumnId": 82421787,
+            "format": {}
+        },
+        {
+            "id": 412878945,
+            "name": "Estimate; Female: - 75 to 79 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_75_to_79",
+            "position": 50,
+            "renderTypeName": "number",
+            "tableColumnId": 82421780,
+            "format": {}
+        },
+        {
+            "id": 412878950,
+            "name": "Estimate; Male: - 80 to 84 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_80_to_84_years",
+            "position": 51,
+            "renderTypeName": "number",
+            "tableColumnId": 82421785,
+            "format": {}
+        },
+        {
+            "id": 412878976,
+            "name": "Estimate; Female: - 80 to 84 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_80_to_84",
+            "position": 52,
+            "renderTypeName": "number",
+            "tableColumnId": 82421811,
+            "format": {}
+        },
+        {
+            "id": 412878978,
+            "name": "Estimate; Male: - 85 years and over",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_male_85_years_and",
+            "position": 53,
+            "renderTypeName": "number",
+            "tableColumnId": 82421813,
+            "format": {}
+        },
+        {
+            "id": 412878951,
+            "name": "Estimate; Female: - 85 years and over",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_female_85_years",
+            "position": 54,
+            "renderTypeName": "number",
+            "tableColumnId": 82421786,
+            "format": {}
+        },
+        {
+            "id": 412878982,
+            "name": "geometry",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 55,
+            "renderTypeName": "polygon",
+            "tableColumnId": 82421817,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census",
+        "age"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

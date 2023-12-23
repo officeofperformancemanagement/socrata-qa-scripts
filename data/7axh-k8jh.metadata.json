@@ -1,0 +1,203 @@
+{
+    "id": "7axh-k8jh",
+    "name": "Street Resurfacing",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1588794121,
+    "description": "Street resurfacing work beginning in 2016",
+    "displayType": "table",
+    "downloadCount": 55,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35488005,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1602608988,
+    "publicationGroup": 17097183,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 501822047,
+    "rowsUpdatedAt": 1703256632,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17661809,
+    "totalTimesRated": 0,
+    "viewCount": 91,
+    "viewLastModified": 1703256433,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1657222273,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4816385,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1657222236,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1657222273,
+                "failureCount": 0,
+                "startedAt": 1657222273,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 501822042,
+            "name": "Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 100827180,
+            "format": {}
+        },
+        {
+            "id": 501822043,
+            "name": "From",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "from",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 100827181,
+            "format": {}
+        },
+        {
+            "id": 501822044,
+            "name": "To",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "to",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 100827182,
+            "format": {}
+        },
+        {
+            "id": 501822045,
+            "name": "Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "year",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 100827261,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 501822046,
+            "name": "geometry",
+            "dataTypeName": "line",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 5,
+            "renderTypeName": "line",
+            "tableColumnId": 100827183,
+            "format": {}
+        },
+        {
+            "id": 501822047,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 118979742,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Public Works",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 501822047,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "resurface",
+        "cdot",
+        "paving"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

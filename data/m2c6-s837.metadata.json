@@ -1,0 +1,656 @@
+{
+    "id": "m2c6-s837",
+    "name": "Small Business Administration Loans",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1551819046,
+    "description": "Data on all 504 and 7A loans for Chattanooga from 2000 to the Present provided by the Federal Small Business Administration.",
+    "displayType": "table",
+    "downloadCount": 330,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1551904431,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30992344,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1551819225,
+    "publicationGroup": 16017147,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1551819219,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 16017147,
+    "totalTimesRated": 0,
+    "viewCount": 454,
+    "viewLastModified": 1551819292,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1551819239,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367221,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1551819239,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 398279058,
+            "name": "AsOfDate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "asofdate",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 77607284,
+            "format": {}
+        },
+        {
+            "id": 398279074,
+            "name": "Program",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "program",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77607300,
+            "format": {}
+        },
+        {
+            "id": 398279054,
+            "name": "BorrName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "borrname",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 77607280,
+            "format": {}
+        },
+        {
+            "id": 398279053,
+            "name": "BorrStreet",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "borrstreet",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77607279,
+            "format": {}
+        },
+        {
+            "id": 398279057,
+            "name": "BorrCity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "borrcity",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77607283,
+            "format": {}
+        },
+        {
+            "id": 398279072,
+            "name": "BorrState",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "borrstate",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77607298,
+            "format": {}
+        },
+        {
+            "id": 398279059,
+            "name": "BorrZip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "borrzip",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 77607285,
+            "format": {}
+        },
+        {
+            "id": 398279062,
+            "name": "BankName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bankname",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 77607288,
+            "format": {}
+        },
+        {
+            "id": 398279052,
+            "name": "BankStreet",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bankstreet",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 77607278,
+            "format": {}
+        },
+        {
+            "id": 398279075,
+            "name": "BankCity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bankcity",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77607301,
+            "format": {}
+        },
+        {
+            "id": 398279056,
+            "name": "BankState",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bankstate",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 77607282,
+            "format": {}
+        },
+        {
+            "id": 398279069,
+            "name": "BankZip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bankzip",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77607295,
+            "format": {}
+        },
+        {
+            "id": 398279070,
+            "name": "GrossApproval",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "grossapproval",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 77607296,
+            "format": {}
+        },
+        {
+            "id": 398279046,
+            "name": "SBAGuaranteedApproval",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sbaguaranteedapproval",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 77607272,
+            "format": {}
+        },
+        {
+            "id": 398279043,
+            "name": "ApprovalDate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "approvaldate",
+            "position": 15,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77607269,
+            "format": {}
+        },
+        {
+            "id": 398279067,
+            "name": "ApprovalFiscalYear",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "approvalfiscalyear",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 77607293,
+            "format": {}
+        },
+        {
+            "id": 398279055,
+            "name": "FirstDisbursementDate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "firstdisbursementdate",
+            "position": 17,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77607281,
+            "format": {}
+        },
+        {
+            "id": 398279049,
+            "name": "DeliveryMethod",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "deliverymethod",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 77607275,
+            "format": {}
+        },
+        {
+            "id": 398279068,
+            "name": "subpgmdesc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "subpgmdesc",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 77607294,
+            "format": {}
+        },
+        {
+            "id": 398279063,
+            "name": "InitialInterestRate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "initialinterestrate",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 77607289,
+            "format": {}
+        },
+        {
+            "id": 398279047,
+            "name": "TermInMonths",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "terminmonths",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 77607273,
+            "format": {}
+        },
+        {
+            "id": 398279073,
+            "name": "NaicsCode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "naicscode",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 77607299,
+            "format": {}
+        },
+        {
+            "id": 398279060,
+            "name": "NaicsDescription",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "naicsdescription",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 77607286,
+            "format": {}
+        },
+        {
+            "id": 398279050,
+            "name": "FranchiseCode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "franchisecode",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 77607276,
+            "format": {}
+        },
+        {
+            "id": 398279045,
+            "name": "FranchiseName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "franchisename",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 77607271,
+            "format": {}
+        },
+        {
+            "id": 398279041,
+            "name": "ProjectCounty",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "projectcounty",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 77607267,
+            "format": {}
+        },
+        {
+            "id": 398279051,
+            "name": "ProjectState",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "projectstate",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 77607277,
+            "format": {}
+        },
+        {
+            "id": 398279061,
+            "name": "SBADistrictOffice",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sbadistrictoffice",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 77607287,
+            "format": {}
+        },
+        {
+            "id": 398279064,
+            "name": "CongressionalDistrict",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "congressionaldistrict",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 77607290,
+            "format": {}
+        },
+        {
+            "id": 398279042,
+            "name": "BusinessType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "businesstype",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 77607268,
+            "format": {}
+        },
+        {
+            "id": 398279066,
+            "name": "LoanStatus",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "loanstatus",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 77607292,
+            "format": {}
+        },
+        {
+            "id": 398279044,
+            "name": "ChargeOffDate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "chargeoffdate",
+            "position": 32,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77607270,
+            "format": {}
+        },
+        {
+            "id": 398279040,
+            "name": "GrossChargeOffAmount",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "grosschargeoffamount",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 77607266,
+            "format": {}
+        },
+        {
+            "id": 398279071,
+            "name": "RevolverStatus",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "revolverstatus",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 77607297,
+            "format": {}
+        },
+        {
+            "id": 398279048,
+            "name": "JobsSupported",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "jobssupported",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 77607274,
+            "format": {}
+        },
+        {
+            "id": 398279065,
+            "name": "New Georeferenced Column",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geocoded_column",
+            "position": 36,
+            "renderTypeName": "point",
+            "tableColumnId": 77607291,
+            "format": {}
+        },
+        {
+            "id": 398279076,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 77607302,
+            "computationStrategy": {
+                "source_columns": [
+                    "geocoded_column"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 398279077,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 77607303,
+            "computationStrategy": {
+                "source_columns": [
+                    "geocoded_column"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 398279091,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 77607304,
+            "computationStrategy": {
+                "source_columns": [
+                    "geocoded_column"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 398279093,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 77607305,
+            "computationStrategy": {
+                "source_columns": [
+                    "geocoded_column"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 398279095,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 77607306,
+            "computationStrategy": {
+                "source_columns": [
+                    "geocoded_column"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 398279097,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 77607307,
+            "computationStrategy": {
+                "source_columns": [
+                    "geocoded_column"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 398279105,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 77607308,
+            "computationStrategy": {
+                "source_columns": [
+                    "geocoded_column"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

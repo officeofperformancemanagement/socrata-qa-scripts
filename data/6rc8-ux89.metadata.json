@@ -1,0 +1,194 @@
+{
+    "id": "6rc8-ux89",
+    "name": "Granicus Boards and Commissions - Public View",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1625230096,
+    "displayType": "table",
+    "downloadCount": 50,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "bk6s-kirz",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37921592,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1636391844,
+    "publicationGroup": 18372892,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1682019878,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18372892,
+    "totalTimesRated": 0,
+    "viewCount": 33,
+    "viewLastModified": 1636391844,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1637611437,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4239868,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1637611422,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1637611437,
+                "failureCount": 0,
+                "startedAt": 1637611437,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 551451323,
+            "name": "Ethnicity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ethnicity",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 138692125,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 551451324,
+            "name": "Gender",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "gender",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 138692122,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 551451612,
+            "name": "Start date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "start_date",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 138692097,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 551451613,
+            "name": "End date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "end_date",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 138692106,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 551451614,
+            "name": "Status",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "status",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 138692128,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

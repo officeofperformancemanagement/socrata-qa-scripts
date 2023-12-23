@@ -1,0 +1,202 @@
+{
+    "id": "emem-r94k",
+    "name": "FY2022 City of Chattanooga Budget Public Input Zoom Participants",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1611084563,
+    "displayType": "table",
+    "downloadCount": 54,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "bdku-zaa2",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36243398,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1611085169,
+    "publicationGroup": 17919519,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1610044905,
+    "rowsUpdatedBy": "krw7-fne6",
+    "tableId": 17919519,
+    "totalTimesRated": 0,
+    "viewCount": 39,
+    "viewLastModified": 1611086364,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1611085561,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3139832,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1611085170,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1611085561,
+                "failureCount": 0,
+                "startedAt": 1611085561,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 520043129,
+            "name": "Zoom Session",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zoom_session",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 127198193,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520043130,
+            "name": "Attendance",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "attendance",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 127198187,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520043131,
+            "name": "City Employee?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city_employee",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 127198188,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520043134,
+            "name": "Zip Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 127198184,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520043136,
+            "name": "City Council District",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city_council_district",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 127198192,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "krw7-fne6",
+        "displayName": "TylerYount",
+        "screenName": "TylerYount",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

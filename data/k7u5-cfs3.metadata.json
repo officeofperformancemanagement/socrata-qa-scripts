@@ -1,0 +1,190 @@
+{
+    "id": "k7u5-cfs3",
+    "name": "Intersections",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1588087155,
+    "description": "Intersections in Chattanooga",
+    "displayType": "table",
+    "downloadCount": 65,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34011751,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1588087742,
+    "publicationGroup": 17071950,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1588088728,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17071955,
+    "totalTimesRated": 0,
+    "viewCount": 104,
+    "viewLastModified": 1666191790,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1588087288,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2133144,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1588087259,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1588087288,
+                "failureCount": 0,
+                "startedAt": 1588087288,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 464310601,
+            "name": "cnt_Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cnt_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 100013115,
+            "format": {}
+        },
+        {
+            "id": 464310602,
+            "name": "Intersctn",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersctn",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 100013116,
+            "format": {}
+        },
+        {
+            "id": 464310606,
+            "name": "OBJECTID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "objectid",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 100013156,
+            "format": {}
+        },
+        {
+            "id": 464310604,
+            "name": "_part_number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_part_number",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 100013118,
+            "format": {}
+        },
+        {
+            "id": 464310605,
+            "name": "geometry",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 5,
+            "renderTypeName": "point",
+            "tableColumnId": 100013119,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Public Works",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "intersections",
+        "intersection",
+        "gis",
+        "roads",
+        "streets"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

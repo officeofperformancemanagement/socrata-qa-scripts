@@ -1,0 +1,377 @@
+{
+    "id": "9bt2-qpfs",
+    "name": "Rent and Household Income Data - 2017 ACS",
+    "assetType": "filter",
+    "attribution": "ACS",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1562855411,
+    "description": "Rental and housing data from the 2017 ACS.",
+    "displayType": "table",
+    "downloadCount": 133,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571253799,
+    "modifyingViewUid": "nnsa-eejr",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31914728,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1562868815,
+    "publicationGroup": 16352063,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1562867944,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16352232,
+    "totalTimesRated": 0,
+    "viewCount": 195,
+    "viewLastModified": 1666017720,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562855563,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 886419,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562855533,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562855563,
+                "failureCount": 0,
+                "startedAt": 1562855563,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 417407898,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 84022548,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407899,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 84022547,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407900,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 84022545,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407901,
+            "name": "Percent of renters - rent is less than 15 percent of household income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_renters_rent_is",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 84022544,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407902,
+            "name": "Percent of renters - rent is 15 to 19.9 percent of household income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_renters_rent_is_1",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 84022549,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407903,
+            "name": "Percent of renters - rent is 20 to 24.9 percent of household income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_renters_rent_is_2",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 84022541,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407904,
+            "name": "Percent of renters - rent is 25 to 29.9 percent of household income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_renters_rent_is_3",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 84022546,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407905,
+            "name": "Percent of renters - rent is 30 to 34.9 percent of household income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_renters_rent_is_4",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 84022540,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407906,
+            "name": "Percent of renters - rent is 35 percent or more of household income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_renters_rent_is_5",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 84022542,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407907,
+            "name": "Percent of households with no vehicles available",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_households_with_no_vehicles_available",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 84025176,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407908,
+            "name": "Median rent for occupied units",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "median_rent_for_occupied_units",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 84025175,
+            "width": 100,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407909,
+            "name": "Percent of housing units owner occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_housing_units_owner_occupied",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 84025173,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407910,
+            "name": "Percent of housing units renter occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_housing_units_renter_occupied",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 84025174,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407911,
+            "name": "Percent of housing units vacant",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_of_housing_units_vacant",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 84025172,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417407912,
+            "name": "geometry",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 15,
+            "renderTypeName": "polygon",
+            "tableColumnId": 84022543,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "rent",
+        "acs",
+        "income",
+        "percent",
+        "household"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

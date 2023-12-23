@@ -1,0 +1,305 @@
+{
+    "id": "th6b-88wc",
+    "name": "City Court Citations Detailed",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1561577235,
+    "description": "Data since 2012 of City Court Citations.",
+    "displayType": "table",
+    "downloadCount": 238,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "55fp-uuwa",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39229876,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1596797571,
+    "publicationGroup": 15971825,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703193637,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19021533,
+    "totalTimesRated": 0,
+    "viewCount": 402,
+    "viewLastModified": 1596797571,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561577398,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5245906,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561577366,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561577398,
+                "failureCount": 0,
+                "startedAt": 1561577398,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 570737462,
+            "name": "Citation Year",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citation_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 77046379,
+            "width": 100,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 570737463,
+            "name": "Citation Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "citation_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77046380,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737465,
+            "name": "Offense Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "offense_description",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 77046381,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737466,
+            "name": "Offense Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "offense_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77046382,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737467,
+            "name": "Race of Offender",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race_of_offender",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77046383,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737468,
+            "name": "Sex of Offender",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sex_of_offender",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 77046384,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737469,
+            "name": "Violation Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "violation_date",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77046385,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime"
+            }
+        },
+        {
+            "id": 570737470,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 77046387,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737471,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 77046388,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737472,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 77046389,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737473,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location_wkt",
+            "position": 12,
+            "renderTypeName": "point",
+            "tableColumnId": 77046390,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737474,
+            "name": "Citation_Charge_Link",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "citation_charge_link",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 77595049,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570737476,
+            "name": "Agency",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "agency",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 77839623,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "court",
+        "citations",
+        "speeding",
+        "tickets",
+        "cpd",
+        "police",
+        "ecd",
+        "code",
+        "violation",
+        "violations"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

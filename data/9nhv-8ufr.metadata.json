@@ -1,0 +1,152 @@
+{
+    "id": "9nhv-8ufr",
+    "name": "Capital Projects Geom",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1579897694,
+    "description": "Test geometry for capital projects explorer",
+    "displayType": "table",
+    "downloadCount": 86,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33340194,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1579897961,
+    "publicationGroup": 16852184,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1580160728,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16852184,
+    "totalTimesRated": 0,
+    "viewCount": 132,
+    "viewLastModified": 1580160723,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1579898004,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1786391,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1579897961,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1579898004,
+                "failureCount": 0,
+                "startedAt": 1579898004,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 448557528,
+            "name": "project_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "project_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 93839770,
+            "format": {}
+        },
+        {
+            "id": 448557529,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "the_geom",
+            "position": 2,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 93839771,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "capital project"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

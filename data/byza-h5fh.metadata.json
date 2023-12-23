@@ -1,0 +1,412 @@
+{
+    "id": "byza-h5fh",
+    "name": "2017 5 Year Female Head of Family",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1568213105,
+    "description": "2017 5 year head of family data for census tracts in Hamilton County",
+    "displayType": "table",
+    "downloadCount": 72,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571143020,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32353163,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1568213296,
+    "publicationGroup": 16520132,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568213295,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16520132,
+    "totalTimesRated": 0,
+    "viewCount": 150,
+    "viewLastModified": 1568213296,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568213319,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1183160,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568213297,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568213320,
+                "failureCount": 0,
+                "startedAt": 1568213319,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 427842612,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87319507,
+            "format": {}
+        },
+        {
+            "id": 427842610,
+            "name": "Id2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id2",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87319505,
+            "format": {}
+        },
+        {
+            "id": 427842611,
+            "name": "tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87319506,
+            "format": {}
+        },
+        {
+            "id": 427842613,
+            "name": "Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geography",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 87319508,
+            "format": {}
+        },
+        {
+            "id": 427842601,
+            "name": "Female Householder Family No Husband",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "female_householder_family",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87319496,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427842614,
+            "name": "Single Mother or Grandmother (3rd Quartile 16.16%)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "single_mother_or_grandmother",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 87319509,
+            "format": {}
+        },
+        {
+            "id": 427842615,
+            "name": "Estimate; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87319510,
+            "format": {}
+        },
+        {
+            "id": 427842616,
+            "name": "Margin of Error; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87319511,
+            "format": {}
+        },
+        {
+            "id": 427842617,
+            "name": "Estimate; Family households:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_family_households",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 87319512,
+            "format": {}
+        },
+        {
+            "id": 427842628,
+            "name": "Margin of Error; Family households:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_family",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 87319513,
+            "format": {}
+        },
+        {
+            "id": 427842640,
+            "name": "Estimate; Family households: - Married-couple family",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_family_households_1",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 87319514,
+            "format": {}
+        },
+        {
+            "id": 427842595,
+            "name": "Margin of Error; Family households: - Married-couple family",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_family_1",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 87319490,
+            "format": {}
+        },
+        {
+            "id": 427842596,
+            "name": "Estimate; Family households: - Other family:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_family_households_2",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 87319491,
+            "format": {}
+        },
+        {
+            "id": 427842597,
+            "name": "Margin of Error; Family households: - Other family:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_family_2",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 87319492,
+            "format": {}
+        },
+        {
+            "id": 427842598,
+            "name": "Estimate; Family households: - Other family: - Male householder, no wife present",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_family_households_3",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 87319493,
+            "format": {}
+        },
+        {
+            "id": 427842599,
+            "name": "Margin of Error; Family households: - Other family: - Male householder, no wife present",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_family_3",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 87319494,
+            "format": {}
+        },
+        {
+            "id": 427842600,
+            "name": "Estimate; Family households: - Other family: - Female householder, no husband present",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_family_households_4",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 87319495,
+            "format": {}
+        },
+        {
+            "id": 427842602,
+            "name": "Margin of Error; Family households: - Other family: - Female householder, no husband present",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_family_4",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 87319497,
+            "format": {}
+        },
+        {
+            "id": 427842603,
+            "name": "Estimate; Nonfamily households:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_nonfamily_households",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 87319498,
+            "format": {}
+        },
+        {
+            "id": 427842604,
+            "name": "Margin of Error; Nonfamily households:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_nonfamily",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 87319499,
+            "format": {}
+        },
+        {
+            "id": 427842605,
+            "name": "Estimate; Nonfamily households: - Householder living alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_nonfamily_households_1",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 87319500,
+            "format": {}
+        },
+        {
+            "id": 427842606,
+            "name": "Margin of Error; Nonfamily households: - Householder living alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_nonfamily_1",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 87319501,
+            "format": {}
+        },
+        {
+            "id": 427842607,
+            "name": "Estimate; Nonfamily households: - Householder not living alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_nonfamily_households_2",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 87319502,
+            "format": {}
+        },
+        {
+            "id": 427842608,
+            "name": "Margin of Error; Nonfamily households: - Householder not living alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_nonfamily_2",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 87319503,
+            "format": {}
+        },
+        {
+            "id": 427842609,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 25,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87319504,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "acs",
+        "head of family",
+        "female"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

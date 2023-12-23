@@ -1,0 +1,180 @@
+{
+    "id": "83sk-wbar",
+    "name": "Median Chattanooga Income - Sex",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1557511448,
+    "description": "Median Chattanooga income from 2011 - 2017. Data from ACS.",
+    "displayType": "table",
+    "downloadCount": 87,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562356870,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31467977,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557511847,
+    "publicationGroup": 16188382,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557511846,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16188382,
+    "totalTimesRated": 0,
+    "viewCount": 121,
+    "viewLastModified": 1562356858,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557511942,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 540105,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557511933,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557511942,
+                "failureCount": 0,
+                "startedAt": 1557511942,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407942903,
+            "name": "Median Income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "median_income",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 80734798,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 407942905,
+            "name": "Census Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "census_geography",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80734800,
+            "format": {}
+        },
+        {
+            "id": 407942901,
+            "name": "Year",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "year",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 80734796,
+            "format": {
+                "view": "date_y"
+            }
+        },
+        {
+            "id": 407942907,
+            "name": "Sex",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sex",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 80734802,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census wage data"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

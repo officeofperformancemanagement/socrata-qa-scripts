@@ -1,0 +1,242 @@
+{
+    "id": "23yp-ig2k",
+    "name": "THRIVE Region Census Block Groups",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1620320916,
+    "description": "This is a dataset of all 2020 Census Block Groups within the THRIVE 16 county region.  Data includes names of the block groups as well as 2019 ACS total population estimates.",
+    "displayType": "table",
+    "downloadCount": 65,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37140800,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1620321594,
+    "publicationGroup": 18289715,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1620941168,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 18289732,
+    "totalTimesRated": 0,
+    "viewCount": 49,
+    "viewLastModified": 1620941167,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1620321968,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3591433,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1620321953,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1620321968,
+                "failureCount": 0,
+                "startedAt": 1620321968,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 539609754,
+            "name": "State FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 137524268,
+            "format": {}
+        },
+        {
+            "id": 539609755,
+            "name": "County FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 137524271,
+            "format": {}
+        },
+        {
+            "id": 539609756,
+            "name": "Tract FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_fip",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 137524262,
+            "format": {}
+        },
+        {
+            "id": 539609757,
+            "name": "Block Group FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "block_group_fip",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 137524263,
+            "format": {}
+        },
+        {
+            "id": 539609758,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 137524264,
+            "format": {}
+        },
+        {
+            "id": 539609759,
+            "name": "Geographic Area Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geographic_area_name",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 137524265,
+            "format": {}
+        },
+        {
+            "id": 539609760,
+            "name": "Population Esimate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population_esimate",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 137524266,
+            "format": {}
+        },
+        {
+            "id": 539609761,
+            "name": "Margin of Error",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 137524267,
+            "format": {}
+        },
+        {
+            "id": 539609762,
+            "name": "Census Block Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "census_block_group",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 137524261,
+            "format": {}
+        },
+        {
+            "id": 539609763,
+            "name": "Boundary",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "boundary",
+            "position": 10,
+            "renderTypeName": "polygon",
+            "tableColumnId": 137524270,
+            "format": {}
+        },
+        {
+            "id": 539609767,
+            "name": "Centroid",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "centroid",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 137524586,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "odextract@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

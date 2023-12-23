@@ -1,0 +1,234 @@
+{
+    "id": "x2j6-k4kc",
+    "name": "Neighborhood Associations",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1568315177,
+    "description": "Neighborhood associations in Chattanooga",
+    "displayType": "table",
+    "downloadCount": 73,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1568315512,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32369335,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1568315376,
+    "publicationGroup": 16529569,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568315376,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16529569,
+    "totalTimesRated": 0,
+    "viewCount": 152,
+    "viewLastModified": 1666020360,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568315509,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1195296,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568315383,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568315509,
+                "failureCount": 0,
+                "startedAt": 1568315509,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 428056434,
+            "name": "Association Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "association_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87399949,
+            "format": {}
+        },
+        {
+            "id": 428056441,
+            "name": "Short Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "short_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87399950,
+            "format": {}
+        },
+        {
+            "id": 428056458,
+            "name": "Association Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "association_type",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87399951,
+            "format": {}
+        },
+        {
+            "id": 428056465,
+            "name": "N Boundary",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "n_boundary",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 87399952,
+            "format": {}
+        },
+        {
+            "id": 428056482,
+            "name": "E Boundary",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "e_boundary",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 87399953,
+            "format": {}
+        },
+        {
+            "id": 428056538,
+            "name": "S Boundary",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "s_boundary",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 87399954,
+            "format": {}
+        },
+        {
+            "id": 428056555,
+            "name": "W Boundary",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "w_boundary",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 87399955,
+            "format": {}
+        },
+        {
+            "id": 428056562,
+            "name": "District",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "district",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87399956,
+            "format": {}
+        },
+        {
+            "id": 428056579,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 9,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87399957,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "neighborhood",
+        "associations",
+        "neighborhoods",
+        "community development",
+        "neighborhood associations"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

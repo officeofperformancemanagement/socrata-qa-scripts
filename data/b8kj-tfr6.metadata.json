@@ -1,0 +1,189 @@
+{
+    "id": "b8kj-tfr6",
+    "name": "Hamilton County Census Tract Population - 2018 ACS Five Year",
+    "assetType": "dataset",
+    "attribution": "ACS",
+    "averageRating": 0,
+    "createdAt": 1579099144,
+    "description": "Population for Census tracts in Hamilton County. Data from 2018 five year ACS.",
+    "displayType": "table",
+    "downloadCount": 66,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33278348,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1579099503,
+    "publicationGroup": 16836108,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1579099502,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16836108,
+    "totalTimesRated": 0,
+    "viewCount": 106,
+    "viewLastModified": 1579099503,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1579099604,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1751293,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1579099503,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1579099604,
+                "failureCount": 0,
+                "startedAt": 1579099604,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 447200290,
+            "name": "state",
+            "dataTypeName": "text",
+            "description": "State FIPS ID",
+            "fieldName": "state",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 93475262,
+            "format": {}
+        },
+        {
+            "id": 447200289,
+            "name": "county",
+            "dataTypeName": "text",
+            "description": "County FIPS ID",
+            "fieldName": "county",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 93475261,
+            "format": {}
+        },
+        {
+            "id": 447200288,
+            "name": "tract",
+            "dataTypeName": "text",
+            "description": "Census tract ID",
+            "fieldName": "tract",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 93475260,
+            "format": {}
+        },
+        {
+            "id": 447200292,
+            "name": "population",
+            "dataTypeName": "number",
+            "description": "Census tract population",
+            "fieldName": "population",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 93475264,
+            "format": {}
+        },
+        {
+            "id": 447200291,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "Geometry in well known text format",
+            "fieldName": "geom",
+            "position": 5,
+            "renderTypeName": "polygon",
+            "tableColumnId": 93475263,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census",
+        "population",
+        "acs",
+        "tract"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

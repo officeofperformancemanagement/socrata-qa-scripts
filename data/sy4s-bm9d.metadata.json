@@ -1,0 +1,379 @@
+{
+    "id": "sy4s-bm9d",
+    "name": "Solid Waste and Recycling",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1562592340,
+    "description": "Information detailing the solid waste and recycling program for the City of Chattanooga. Data is summarized by month.",
+    "displayType": "table",
+    "downloadCount": 141,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "bi87-xaci",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33788076,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1585765262,
+    "publicationGroup": 16343887,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1702069335,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16982424,
+    "totalTimesRated": 0,
+    "viewCount": 229,
+    "viewLastModified": 1666016747,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562592585,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2031825,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562592560,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562592585,
+                "failureCount": 0,
+                "startedAt": 1562592585,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 458612601,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 83858304,
+            "width": 100,
+            "format": {
+                "view": "date_shortmonthy",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612602,
+            "name": "Curbside Recycling Participants",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "curbside_recycling",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 83858299,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612603,
+            "name": "Curbside Recycling Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "curbside_recycling_tons",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 83858300,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612604,
+            "name": "Recycling Centers Participants",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "recycling_centers_participants",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 83858302,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612605,
+            "name": "Recycling Centers Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "recycling_centers_tons",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 83858303,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612606,
+            "name": "Brush Pickup Requests",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "brush_pickup_requests",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 83858305,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612607,
+            "name": "Brush Pickup Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "brush_pickup_tons_collected",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 83858306,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612608,
+            "name": "Trash Flash Request",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "trash_flash_request",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 83858309,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612609,
+            "name": "Trash Flash Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "trash_flash_tons_collected",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 83858310,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612610,
+            "name": "Garbage Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "garbage_tons_collected",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 83858311,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612611,
+            "name": "Refuse Collection Centers Participants",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "refuse_collection_centers",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 83858312,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612612,
+            "name": "Solid Waste Tonnage",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "solid_waste_tonnage",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 97146726,
+            "format": {
+                "precisionStyle": "standard",
+                "precision": "2",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612613,
+            "name": "Refuse Collection Centers Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "refuse_collection_centers_1",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 83858313,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612614,
+            "name": "Recycling Tonnage",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "recycling_tonnage",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 97146725,
+            "format": {
+                "precisionStyle": "standard",
+                "precision": "2",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612615,
+            "name": "Household Hazardous Waste Collection Participants",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "household_hazardous_waste",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 83858314,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 458612616,
+            "name": "Household Hazardous Waste Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "household_hazardous_waste_1",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 83858315,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Public Works",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Monthly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "recycle",
+        "recycling",
+        "waste",
+        "solid waste",
+        "trash"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

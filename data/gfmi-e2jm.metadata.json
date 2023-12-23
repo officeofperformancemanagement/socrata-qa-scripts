@@ -1,0 +1,524 @@
+{
+    "id": "gfmi-e2jm",
+    "name": "OCHS Events",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1695929647,
+    "displayType": "table",
+    "downloadCount": 72,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40010589,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1695930472,
+    "publicationGroup": 19304553,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1702684854,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19304553,
+    "totalTimesRated": 0,
+    "viewCount": 48,
+    "viewLastModified": 1703203232,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1698858234,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5890386,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1698858198,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1698858235,
+                "failureCount": 0,
+                "startedAt": 1698858234,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 581847726,
+            "name": "Timestamp",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "timestamp",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 148708500,
+            "format": {}
+        },
+        {
+            "id": 581847734,
+            "name": "Event Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "event_type",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 148708508,
+            "format": {}
+        },
+        {
+            "id": 581847730,
+            "name": "The event was hosted by (select organization name)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "the_event_was_hosted_by_select",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 148708504,
+            "format": {}
+        },
+        {
+            "id": 581847727,
+            "name": "Zip Code (Location of Event)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code_location_of_event",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 148708501,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 581847705,
+            "name": "Participant Received (check all that apply)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "participant_received_check",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 148708479,
+            "format": {}
+        },
+        {
+            "id": 581847738,
+            "name": "The participant received (COVID):",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "the_participant_received",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 148708512,
+            "format": {}
+        },
+        {
+            "id": 581847720,
+            "name": "Did the participant test positive for COVID-19?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "did_the_participant_test",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 148708494,
+            "format": {}
+        },
+        {
+            "id": 581847728,
+            "name": "Does the participant have Health Insurance?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "does_the_participant_have",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 148708502,
+            "format": {}
+        },
+        {
+            "id": 581847718,
+            "name": "Has the participant seen a primary care physician in the past 12 months?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "has_the_participant_seen",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 148708492,
+            "format": {}
+        },
+        {
+            "id": 581847721,
+            "name": "Age:",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "age",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 148708495,
+            "format": {}
+        },
+        {
+            "id": 581847712,
+            "name": "Gender:",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "gender",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 148708486,
+            "format": {}
+        },
+        {
+            "id": 581847739,
+            "name": "Race:",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 148708513,
+            "format": {}
+        },
+        {
+            "id": 581847706,
+            "name": "Ethnicity: Hispanic, Latino, or Latinx",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ethnicity_hispanic_latino",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 148708480,
+            "format": {}
+        },
+        {
+            "id": 581847715,
+            "name": "Race: If yes to Hispanic, Latino, or Latinx, please select ethnic group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race_if_yes_to_hispanic_latino",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 148708489,
+            "format": {}
+        },
+        {
+            "id": 581847707,
+            "name": "Where did the event take place?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "where_did_the_event_take",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 148708481,
+            "format": {}
+        },
+        {
+            "id": 581847723,
+            "name": "43 Number of pieces distributed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_43_number_of_pieces",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 148708497,
+            "format": {}
+        },
+        {
+            "id": 581847725,
+            "name": "This event was sponsored by the city",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "this_event_was_sponsored",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 148708499,
+            "format": {}
+        },
+        {
+            "id": 581847736,
+            "name": "The event was hosted by (select organization name)00",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "the_event_was_hosted_by_select_1",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 148708510,
+            "format": {}
+        },
+        {
+            "id": 581847710,
+            "name": "Zip Code (Location of Event)00",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code_location_of_event_1",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 148708484,
+            "format": {}
+        },
+        {
+            "id": 581847711,
+            "name": "Approximately, how many people attended the community event?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "approximately_how_many_people",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 148708485,
+            "format": {}
+        },
+        {
+            "id": 581847719,
+            "name": "Type of Media Used",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type_of_media_used",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 148708493,
+            "format": {}
+        },
+        {
+            "id": 581847740,
+            "name": "Event Name/Location of Event",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "event_name_location_of_event",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 148708514,
+            "format": {}
+        },
+        {
+            "id": 581847731,
+            "name": "Email Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "email_address",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 148708505,
+            "format": {}
+        },
+        {
+            "id": 581847709,
+            "name": "Were COVID-19 tests distributed at this event?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "were_covid_19_tests",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 148708483,
+            "format": {}
+        },
+        {
+            "id": 581847716,
+            "name": "Number of COVID-19 Tests Distributed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "number_of_covid_19_tests",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 148708490,
+            "format": {}
+        },
+        {
+            "id": 581847708,
+            "name": "Speech and Hearing Data",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "speech_and_hearing_data",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 148708482,
+            "format": {}
+        },
+        {
+            "id": 581847729,
+            "name": "Hearing Screening Successful?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hearing_screening_successful",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 148708503,
+            "format": {}
+        },
+        {
+            "id": 581847714,
+            "name": "The participant received (Flu):",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "the_participant_received_1",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 148708488,
+            "format": {}
+        },
+        {
+            "id": 581847717,
+            "name": "Choose one of the following:",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "choose_one_of_the_following",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 148708491,
+            "format": {}
+        },
+        {
+            "id": 581847733,
+            "name": "Where did the event take place?00",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "where_did_the_event_take_1",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 148708507,
+            "format": {}
+        },
+        {
+            "id": 581847732,
+            "name": "Please select services provided to participant during this awareness session",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "please_select_services",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 148708506,
+            "format": {}
+        },
+        {
+            "id": 581847713,
+            "name": "Zip Code (Location of Event)01",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code_location_of_event_2",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 148708487,
+            "format": {}
+        },
+        {
+            "id": 581847737,
+            "name": "Please list any other information regarding this awareness session",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "please_list_any_other",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 148708511,
+            "format": {}
+        },
+        {
+            "id": 581847735,
+            "name": "Description of flyer information/event name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description_of_flyer",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 148708509,
+            "format": {}
+        },
+        {
+            "id": 581847722,
+            "name": "Select all Zip Codes where these flyers were distributed",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "select_all_zip_codes_where",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 148708496,
+            "format": {}
+        },
+        {
+            "id": 581847704,
+            "name": "Number of Failed Hearing Screenings",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "number_of_failed_hearing",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 148708478,
+            "format": {}
+        },
+        {
+            "id": 581847724,
+            "name": "geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 37,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 148708498,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Community Health",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

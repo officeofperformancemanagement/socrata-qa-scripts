@@ -1,0 +1,328 @@
+{
+    "id": "qcrz-rvw7",
+    "name": "Code Enforcement - Violations",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1561575235,
+    "description": "Data within the Cityview system used by Code Enforcement contains a table of all code violations found regardless of if they were cited or not.",
+    "displayType": "table",
+    "downloadCount": 374,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "2fvt-etki",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38894212,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1561575718,
+    "publicationGroup": 15947848,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703215062,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18886118,
+    "totalTimesRated": 0,
+    "viewCount": 435,
+    "viewLastModified": 1562357147,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562167818,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5001305,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562081161,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562167818,
+                "failureCount": 0,
+                "startedAt": 1562167818,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 565987155,
+            "name": "Case Number",
+            "dataTypeName": "text",
+            "description": "This is the Unique ID given to each Violation.",
+            "fieldName": "case_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76734180,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987156,
+            "name": "Ciation Amount",
+            "dataTypeName": "number",
+            "description": "This is the amount for the citation, currently not being populated.",
+            "fieldName": "ciation_amount",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 76734181,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987157,
+            "name": "Comments",
+            "dataTypeName": "text",
+            "description": "This is where any special comments regarding the violation are entered by the Code Inspector.",
+            "fieldName": "comments",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76734182,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987158,
+            "name": "Date Cited",
+            "dataTypeName": "calendar_date",
+            "description": "If the Violation results in a Citation to City Court, this field is populated with the date the Property is Cited to City Court.",
+            "fieldName": "date_cited",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76734183,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987159,
+            "name": "Date Corrected",
+            "dataTypeName": "calendar_date",
+            "description": "This is the date the Violation is corrected, but it is not always populated and unreliable.",
+            "fieldName": "date_corrected",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76734190,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987160,
+            "name": "Date Entered",
+            "dataTypeName": "calendar_date",
+            "description": "This is the date the violation is first found by a Code Inspector.",
+            "fieldName": "date_entered",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76734184,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987161,
+            "name": "Date Paid",
+            "dataTypeName": "calendar_date",
+            "description": "This is the date the citation is paid, but it is currently blank.",
+            "fieldName": "date_paid",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76734195,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987162,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "This is the high level description of the Code Violation.",
+            "fieldName": "description",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76734185,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987163,
+            "name": "Description Extended",
+            "dataTypeName": "text",
+            "description": "This is the detailed description of the Code Violation.",
+            "fieldName": "description_extended",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76734186,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987166,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 76734191,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987167,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 76734192,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987168,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "Address of the Violation.",
+            "fieldName": "address",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76734193,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987169,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "Location of the Violation.",
+            "fieldName": "location",
+            "position": 15,
+            "renderTypeName": "point",
+            "tableColumnId": 76734194,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987170,
+            "name": "recordID",
+            "dataTypeName": "text",
+            "description": "Unique ID for record keeping purposes.",
+            "fieldName": "recordid",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 78986957,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987171,
+            "name": "isOwnerOccupied",
+            "dataTypeName": "text",
+            "description": "This is a flag for if the Violation occurred at a property that is Owner Occupied or Non-Owner Occupied.  If true (checked) it is owner occupied, and if not, then it is not owner occupied.",
+            "fieldName": "isowneroccupied",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 79461712,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 565987172,
+            "name": "citydst",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "citydst",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 82190899,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "open data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "code enforcement violations blight derelict citation violation ecd overgrowth litter housing"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

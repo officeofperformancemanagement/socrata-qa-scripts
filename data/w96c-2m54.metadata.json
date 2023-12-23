@@ -1,0 +1,230 @@
+{
+    "id": "w96c-2m54",
+    "name": "Habitat For Humanity Houses",
+    "assetType": "dataset",
+    "attribution": "Habitat for Humanity",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1618426954,
+    "description": "Geocoded addresses of Habitat for Humanity houses",
+    "displayType": "table",
+    "downloadCount": 55,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37003762,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1618427235,
+    "publicationGroup": 18223232,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1618427951,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18223232,
+    "totalTimesRated": 0,
+    "viewCount": 79,
+    "viewLastModified": 1666190501,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1618432608,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3522362,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1618432596,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1618432608,
+                "failureCount": 0,
+                "startedAt": 1618432608,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 536251476,
+            "name": "address",
+            "dataTypeName": "text",
+            "description": "Address provided by Habitat for Humanity",
+            "fieldName": "address",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 135612025,
+            "format": {}
+        },
+        {
+            "id": 536251474,
+            "name": "is mapped",
+            "dataTypeName": "text",
+            "description": "Was this address geocoded",
+            "fieldName": "is_mapped",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 135612023,
+            "format": {}
+        },
+        {
+            "id": 536251473,
+            "name": "latitude",
+            "dataTypeName": "number",
+            "description": "Address latitude",
+            "fieldName": "latitude",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 135612022,
+            "format": {}
+        },
+        {
+            "id": 536251472,
+            "name": "longitude",
+            "dataTypeName": "number",
+            "description": "Address longitude",
+            "fieldName": "longitude",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 135612021,
+            "format": {}
+        },
+        {
+            "id": 536251475,
+            "name": "geometry",
+            "dataTypeName": "point",
+            "description": "Geometry in well known text format",
+            "fieldName": "geometry",
+            "position": 5,
+            "renderTypeName": "point",
+            "tableColumnId": 135612024,
+            "format": {}
+        },
+        {
+            "id": 536251477,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 135612026,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 536251478,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 135612027,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "geocoded address",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "habitat for humanity"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

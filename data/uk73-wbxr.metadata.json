@@ -1,0 +1,241 @@
+{
+    "id": "uk73-wbxr",
+    "name": "Parcel Zoning",
+    "assetType": "dataset",
+    "attribution": "HCGIS",
+    "attributionLink": "https://mapsdev.hamiltontn.gov/hcwa03/rest/services",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1617136234,
+    "description": "Parcel, building, and zoning data from HCGIS. Data is for reference and is not the official assessor's parcel file.",
+    "displayType": "table",
+    "downloadCount": 53,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36963856,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1617887670,
+    "publicationGroup": 18180573,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 535257241,
+    "rowsUpdatedAt": 1617888958,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18205774,
+    "totalTimesRated": 0,
+    "viewCount": 98,
+    "viewLastModified": 1666207298,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1617212501,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3499723,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1617212485,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1617212501,
+                "failureCount": 0,
+                "startedAt": 1617212501,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 535257241,
+            "name": "fid",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "fid",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 134344074,
+            "format": {}
+        },
+        {
+            "id": 535257242,
+            "name": "address",
+            "dataTypeName": "text",
+            "description": "Parcel address",
+            "fieldName": "address",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 134344071,
+            "format": {}
+        },
+        {
+            "id": 535257243,
+            "name": "zone",
+            "dataTypeName": "text",
+            "description": "Parcel zone",
+            "fieldName": "zone",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 134344072,
+            "format": {}
+        },
+        {
+            "id": 535257244,
+            "name": "is_fbc",
+            "dataTypeName": "text",
+            "description": "Is this parcel zoning form based code",
+            "fieldName": "is_fbc",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 134344070,
+            "format": {}
+        },
+        {
+            "id": 535257249,
+            "name": "parcel_sq_ft",
+            "dataTypeName": "number",
+            "description": "Calculated area of parcel in square feet",
+            "fieldName": "parcel_sq_ft",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 135091685,
+            "format": {
+                "precision": "0"
+            }
+        },
+        {
+            "id": 535257248,
+            "name": "building_sq_ft",
+            "dataTypeName": "number",
+            "description": "Area of building in square feet",
+            "fieldName": "building_sq_ft",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 135091684,
+            "format": {
+                "precision": "0"
+            }
+        },
+        {
+            "id": 535257247,
+            "name": "available_sq_ft",
+            "dataTypeName": "number",
+            "description": "Difference between parcel area and building area",
+            "fieldName": "available_sq_ft",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 135091683,
+            "format": {
+                "precision": "0"
+            }
+        },
+        {
+            "id": 535257245,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "Geometry in well known text format",
+            "fieldName": "geometry",
+            "position": 8,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 134344073,
+            "format": {}
+        },
+        {
+            "id": 535257246,
+            "name": "objectid_b",
+            "dataTypeName": "text",
+            "description": "Building id",
+            "fieldName": "objectid_b",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 135091682,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 535257241,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "parcel",
+        "zoning"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

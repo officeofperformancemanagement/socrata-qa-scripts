@@ -1,0 +1,256 @@
+{
+    "id": "qpju-4723",
+    "name": "Bike Chattanooga Subscribers",
+    "assetType": "dataset",
+    "attribution": "Transportation Department",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1401306791,
+    "displayType": "table",
+    "downloadCount": 386,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1460603849,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 19953863,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1460598546,
+    "publicationGroup": 1597696,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1460598476,
+    "rowsUpdatedBy": "wma2-yapv",
+    "tableId": 9908898,
+    "totalTimesRated": 0,
+    "viewCount": 1344,
+    "viewLastModified": 1460598546,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1460598546,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366896,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1460598546,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 250807148,
+            "name": "ID",
+            "dataTypeName": "number",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 19979652,
+            "width": 124,
+            "format": {}
+        },
+        {
+            "id": 250807149,
+            "name": "RegistrationDate",
+            "dataTypeName": "calendar_date",
+            "fieldName": "registrationdate",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 19979653,
+            "width": 201,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 250807150,
+            "name": "MailCity",
+            "dataTypeName": "text",
+            "fieldName": "mailcity",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 19979654,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 250807151,
+            "name": "MailState",
+            "dataTypeName": "text",
+            "fieldName": "mailstate",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 19979655,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 250807152,
+            "name": "MailZip",
+            "dataTypeName": "text",
+            "fieldName": "mailzip",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 19979656,
+            "width": 184,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 250807153,
+            "name": "MailCountry",
+            "dataTypeName": "text",
+            "fieldName": "mailcountry",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 19979657,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 250807154,
+            "name": "Gender",
+            "dataTypeName": "number",
+            "fieldName": "gender",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 19979658,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 250807155,
+            "name": "BirthYear",
+            "dataTypeName": "number",
+            "fieldName": "birthyear",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 19979659,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 250807156,
+            "name": "KeyAssigned",
+            "dataTypeName": "calendar_date",
+            "fieldName": "keyassigned",
+            "position": 9,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 19979660,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 250807157,
+            "name": "KeyActivated",
+            "dataTypeName": "calendar_date",
+            "fieldName": "keyactivated",
+            "position": 10,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 19979661,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 250807158,
+            "name": "Active",
+            "dataTypeName": "text",
+            "fieldName": "active",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 19979662,
+            "width": 172,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "bike chattanooga",
+        "bicycle"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

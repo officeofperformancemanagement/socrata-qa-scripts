@@ -1,0 +1,180 @@
+{
+    "id": "dshm-tehy",
+    "name": "Per Capita Chattanooga Income - Race",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1557514025,
+    "description": "Per Capita Chattanooga income from 2011 - 2017. Data from ACS.",
+    "displayType": "table",
+    "downloadCount": 87,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562356961,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31468156,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557514146,
+    "publicationGroup": 16188459,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557514146,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16188459,
+    "totalTimesRated": 0,
+    "viewCount": 129,
+    "viewLastModified": 1562356951,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557514163,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 540125,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557514147,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557514163,
+                "failureCount": 0,
+                "startedAt": 1557514163,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407948116,
+            "name": "Per Capita Income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "per_capita_income",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 80737347,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 407948118,
+            "name": "Census Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "census_geography",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80737349,
+            "format": {}
+        },
+        {
+            "id": 407948117,
+            "name": "Year",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "year",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 80737348,
+            "format": {
+                "view": "date_y"
+            }
+        },
+        {
+            "id": 407948119,
+            "name": "Race",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 80737350,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census wage data"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

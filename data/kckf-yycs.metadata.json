@@ -1,0 +1,258 @@
+{
+    "id": "kckf-yycs",
+    "name": "Unique Locations",
+    "assetType": "filter",
+    "attribution": "SafeGraph",
+    "attributionLink": "https://services.arcgis.com/DO4gTjwJVIJ7O9Ca/arcgis/rest/services/POI_visits_2020_03_29/FeatureServer",
+    "averageRating": 0,
+    "createdAt": 1588959244,
+    "displayType": "table",
+    "downloadCount": 103,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "6v8k-2rhk",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34447888,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1588959356,
+    "publicationGroup": 17102778,
+    "publicationStage": "published",
+    "queryString": "SELECT \n  safegraph_place_id,\n  location_name,\n  top_category,\n  sub_category,\n  naics_code,\n  street_address,\n  city,\n  region,\n  postal_code,\n  phone_number,\n  category_tags\nGROUP BY\n  safegraph_place_id,\n  location_name,\n  top_category,\n  sub_category,\n  naics_code,\n  street_address,\n  city,\n  region,\n  postal_code,\n  phone_number,\n  category_tags\n  ",
+    "rowsUpdatedAt": 1596138325,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17241584,
+    "totalTimesRated": 0,
+    "viewCount": 74,
+    "viewLastModified": 1666025961,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1588959287,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2332532,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1588959265,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1588959287,
+                "failureCount": 0,
+                "startedAt": 1588959287,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 475429012,
+            "name": "safegraph_place_id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "safegraph_place_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 101019194,
+            "format": {}
+        },
+        {
+            "id": 475429013,
+            "name": "location_name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 101019196,
+            "format": {}
+        },
+        {
+            "id": 475429014,
+            "name": "top_category",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "top_category",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 101019198,
+            "format": {}
+        },
+        {
+            "id": 475429015,
+            "name": "sub_category",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sub_category",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 101019200,
+            "format": {}
+        },
+        {
+            "id": 475429016,
+            "name": "naics_code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "naics_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 101019213,
+            "format": {}
+        },
+        {
+            "id": 475429017,
+            "name": "street_address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_address",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 101019201,
+            "format": {}
+        },
+        {
+            "id": 475429018,
+            "name": "city",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 101019202,
+            "format": {}
+        },
+        {
+            "id": 475429019,
+            "name": "region",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "region",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 101019203,
+            "format": {}
+        },
+        {
+            "id": 475429020,
+            "name": "postal_code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "postal_code",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 101019193,
+            "format": {}
+        },
+        {
+            "id": 475429021,
+            "name": "phone_number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "phone_number",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 101019216,
+            "format": {}
+        },
+        {
+            "id": 475429022,
+            "name": "category_tags",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "category_tags",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 101019205,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Weekly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

@@ -1,0 +1,265 @@
+{
+    "id": "nuzd-6jme",
+    "name": "TN Counties COVID-19 Vaccinations",
+    "assetType": "dataset",
+    "attribution": "Tennessee Department of Health",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1609346663,
+    "description": "Data pulled from THD website https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "displayType": "table",
+    "downloadCount": 74,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37955686,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1637590830,
+    "publicationGroup": 17899843,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 552015376,
+    "rowsUpdatedAt": 1703215314,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18515440,
+    "totalTimesRated": 0,
+    "viewCount": 540,
+    "viewLastModified": 1703215265,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1609346982,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4239330,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1609346893,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1609346982,
+                "failureCount": 0,
+                "startedAt": 1609346982,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 552015368,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "Date of vaccine count",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 126561336,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 552015369,
+            "name": "COUNTY",
+            "dataTypeName": "text",
+            "description": "County of vaccine count",
+            "fieldName": "county",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 126561337,
+            "format": {}
+        },
+        {
+            "id": 552015370,
+            "name": "VACCINE_COUNT",
+            "dataTypeName": "number",
+            "description": "Count of vaccines for the given county and date",
+            "fieldName": "vaccine_count",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 126561338,
+            "format": {}
+        },
+        {
+            "id": 552015371,
+            "name": "NEW_VACCINE_COUNT",
+            "dataTypeName": "number",
+            "description": "New vaccines since previous date",
+            "fieldName": "new_vaccine_count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 126561339,
+            "format": {}
+        },
+        {
+            "id": 552015372,
+            "name": "RECIPIENT_COUNT",
+            "dataTypeName": "number",
+            "description": "Recipients receiving vaccine for the given date and county",
+            "fieldName": "recipient_count",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 127579675,
+            "format": {}
+        },
+        {
+            "id": 552015373,
+            "name": "NEW_RECIPIENT_COUNT",
+            "dataTypeName": "number",
+            "description": "New recipients since the previous day",
+            "fieldName": "new_recipient_count",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 127579674,
+            "format": {}
+        },
+        {
+            "id": 552015374,
+            "name": "RECIP_FULLY_VACC",
+            "dataTypeName": "number",
+            "description": "Number of fully vaccinated recipients",
+            "fieldName": "recip_fully_vacc",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 128212890,
+            "format": {}
+        },
+        {
+            "id": 552015375,
+            "name": "NEW_RECIP_FULLY_VACC",
+            "dataTypeName": "number",
+            "description": "New fully vaccinated recipients since the previous date",
+            "fieldName": "new_recip_fully_vacc",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 128212891,
+            "format": {}
+        },
+        {
+            "id": 552015376,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "id",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 131182792,
+            "format": {}
+        },
+        {
+            "id": 552015378,
+            "name": "RECIP_ADDL_DOSE",
+            "dataTypeName": "number",
+            "description": "Total number of booster doses",
+            "fieldName": "recip_addl_dose",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 140096832,
+            "format": {}
+        },
+        {
+            "id": 552015377,
+            "name": "NEW_RECIP_ADDL_DOSE",
+            "dataTypeName": "number",
+            "description": "Additional daily boosters",
+            "fieldName": "new_recip_addl_dose",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 140096831,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "tmoreland@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "Tim Moreland",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 552015376,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "vaccination",
+        "vaccine",
+        "covid-19",
+        "thd"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

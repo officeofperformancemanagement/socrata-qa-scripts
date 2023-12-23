@@ -1,0 +1,616 @@
+{
+    "id": "4sa6-ihk9",
+    "name": "Vehicle Incidents - Historical",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1550610010,
+    "description": "Historical vehicle incident data recorded in Chattanooga from 2011 through 2017. For data after 2017 please visit our current dataset located at https://data.chattlibrary.org/Transportation/Vehicle-Incidents/2stp-d3ym.",
+    "displayType": "table",
+    "downloadCount": 159,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1550755638,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30878489,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1550755633,
+    "publicationGroup": 15969743,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1550610010,
+    "tableId": 15974381,
+    "totalTimesRated": 0,
+    "viewCount": 439,
+    "viewLastModified": 1550755633,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1550755633,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367208,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1550755633,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 396432215,
+            "name": "Area Designation Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "area_designation_code",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77018633,
+            "format": {}
+        },
+        {
+            "id": 396432216,
+            "name": "Collision Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "collision_date",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77018624,
+            "format": {}
+        },
+        {
+            "id": 396432217,
+            "name": "Event Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "event_code",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77018639,
+            "format": {}
+        },
+        {
+            "id": 396432218,
+            "name": "Crash Type Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "crash_type_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77018645,
+            "format": {}
+        },
+        {
+            "id": 396432219,
+            "name": "Collision  Manner",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "collision_manner",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77018631,
+            "format": {}
+        },
+        {
+            "id": 396432220,
+            "name": "Block Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "block_number",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 77018644,
+            "format": {}
+        },
+        {
+            "id": 396432221,
+            "name": "Mile Marker Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "mile_marker_number",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 77018629,
+            "format": {}
+        },
+        {
+            "id": 396432222,
+            "name": "Road Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "road_name",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 77018634,
+            "format": {}
+        },
+        {
+            "id": 396432223,
+            "name": "Road Suffix",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "road_suffix",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77018647,
+            "format": {}
+        },
+        {
+            "id": 396432224,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 77018617,
+            "format": {}
+        },
+        {
+            "id": 396432225,
+            "name": "Intersection Road Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersection_road_name",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77018621,
+            "format": {}
+        },
+        {
+            "id": 396432226,
+            "name": "Intersection Road Suffix",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersection_road_suffix",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 77018618,
+            "format": {}
+        },
+        {
+            "id": 396432227,
+            "name": "Alcohol Involved",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "alcohol_involved",
+            "position": 14,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 77018623,
+            "format": {}
+        },
+        {
+            "id": 396432228,
+            "name": "Drug Involved",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "drug_involved",
+            "position": 15,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 77018637,
+            "format": {}
+        },
+        {
+            "id": 396432229,
+            "name": "Hit and Run",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "hit_and_run",
+            "position": 16,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 77018642,
+            "format": {}
+        },
+        {
+            "id": 396432230,
+            "name": "Intersection Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "intersection_type",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 77018636,
+            "format": {}
+        },
+        {
+            "id": 396432231,
+            "name": "Light Conditions",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "light_conditions",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 77018627,
+            "format": {}
+        },
+        {
+            "id": 396432232,
+            "name": "Weather Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "weather_code",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 77018622,
+            "format": {}
+        },
+        {
+            "id": 396432233,
+            "name": "Injured Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injured_number",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 77018626,
+            "format": {}
+        },
+        {
+            "id": 396432234,
+            "name": "Noninjured Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "noninjured_number",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 77018616,
+            "format": {}
+        },
+        {
+            "id": 396432235,
+            "name": "Fatalities Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "fatalities_number",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 77018648,
+            "format": {}
+        },
+        {
+            "id": 396432236,
+            "name": "Motorists Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "motorists_number",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 77018628,
+            "format": {}
+        },
+        {
+            "id": 396432237,
+            "name": "Nonmotorist Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nonmotorist_number",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 77018632,
+            "format": {}
+        },
+        {
+            "id": 396432238,
+            "name": "Units Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "units_number",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 77018646,
+            "format": {}
+        },
+        {
+            "id": 396432239,
+            "name": "Junction Relation",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "junction_relation",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 77018620,
+            "format": {}
+        },
+        {
+            "id": 396432240,
+            "name": "Road Relation",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "road_relation",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 77018638,
+            "format": {}
+        },
+        {
+            "id": 396432241,
+            "name": "Route Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "route_type",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 77018640,
+            "format": {}
+        },
+        {
+            "id": 396432242,
+            "name": "Workers Present",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workers_present",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 77018635,
+            "format": {}
+        },
+        {
+            "id": 396432243,
+            "name": "Work Zone Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "work_zone_code",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 77018630,
+            "format": {}
+        },
+        {
+            "id": 396432244,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 77018643,
+            "format": {}
+        },
+        {
+            "id": 396432245,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 77018619,
+            "format": {}
+        },
+        {
+            "id": 396432246,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location_wkt",
+            "position": 33,
+            "renderTypeName": "point",
+            "tableColumnId": 77018641,
+            "format": {}
+        },
+        {
+            "id": 396432247,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 77018649,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 396432248,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 77018650,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 396432249,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 77018651,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 396432250,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 77018652,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 396432251,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 77018653,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 396432252,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 77018654,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 396432253,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 77018655,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "rowLabel": "Vehicle Incident",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "vehicle",
+        "incident"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

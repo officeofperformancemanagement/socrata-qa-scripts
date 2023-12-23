@@ -1,0 +1,164 @@
+{
+    "id": "n3e8-wf76",
+    "name": "HCDE Zones - StreetType",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Education",
+    "createdAt": 1599754266,
+    "description": "StreetType tab from HCDE Zones file",
+    "displayType": "table",
+    "downloadCount": 87,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35191140,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1599754349,
+    "publicationGroup": 17540811,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1599754349,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17540811,
+    "totalTimesRated": 0,
+    "viewCount": 146,
+    "viewLastModified": 1666190997,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1599762641,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2669481,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1599754349,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1599762641,
+                "failureCount": 0,
+                "startedAt": 1599762641,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 494289898,
+            "name": "ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 115083487,
+            "format": {}
+        },
+        {
+            "id": 494289899,
+            "name": "StreetType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "streettype",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 115083488,
+            "format": {}
+        },
+        {
+            "id": 494289900,
+            "name": "FullType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fulltype",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 115083489,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "hcde"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

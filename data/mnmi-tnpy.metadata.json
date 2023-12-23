@@ -1,0 +1,235 @@
+{
+    "id": "mnmi-tnpy",
+    "name": "Capital Budget",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1628619226,
+    "description": "This dataset contains information relating to the Capital Budget for each fiscal year for the City of Chattanooga",
+    "displayType": "table",
+    "downloadCount": 53,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "wic5-km3p",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39558794,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1683060402,
+    "publicationGroup": 17078671,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1688567709,
+    "rowsUpdatedBy": "kp5y-vgiw",
+    "tableId": 17078671,
+    "totalTimesRated": 0,
+    "viewCount": 45,
+    "viewLastModified": 1683060402,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1628619321,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5485501,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1628619312,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1628619321,
+                "failureCount": 0,
+                "startedAt": 1628619321,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 575300071,
+            "name": "Fiscal Year",
+            "dataTypeName": "number",
+            "fieldName": "fiscal_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 100226916,
+            "width": 100,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 575300072,
+            "name": "Service",
+            "dataTypeName": "text",
+            "fieldName": "service",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 100226911,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300073,
+            "name": "Department",
+            "dataTypeName": "text",
+            "fieldName": "department",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 100226912,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300074,
+            "name": "Project",
+            "dataTypeName": "text",
+            "fieldName": "project",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 100226913,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300075,
+            "name": "Project ID",
+            "dataTypeName": "text",
+            "fieldName": "project_id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 100226914,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300076,
+            "name": "Fund Type",
+            "dataTypeName": "text",
+            "fieldName": "fund_type",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 100226915,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300077,
+            "name": "Fund",
+            "dataTypeName": "text",
+            "fieldName": "fund",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 100226917,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300078,
+            "name": "Thru FY Actuals",
+            "dataTypeName": "text",
+            "fieldName": "thru_fy_actuals",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 100226918,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300079,
+            "name": "FY Approved",
+            "dataTypeName": "number",
+            "fieldName": "fy_approved",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 100226919,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "capital",
+        "budget",
+        "infrastructure"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

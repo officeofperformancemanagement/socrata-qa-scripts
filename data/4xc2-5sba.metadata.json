@@ -1,0 +1,203 @@
+{
+    "id": "4xc2-5sba",
+    "name": "HCHD COVID Website Data - Zip Codes",
+    "assetType": "dataset",
+    "attribution": "Hamilton County Health Department",
+    "attributionLink": "http://health.hamiltontn.org/AllServices/Coronavirus(COVID-19).aspx",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1610485254,
+    "description": "Zip Code COVID data from HCHD website.",
+    "displayType": "table",
+    "downloadCount": 59,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36196440,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1610485967,
+    "publicationGroup": 17935080,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 518938650,
+    "rowsUpdatedAt": 1703216118,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17935080,
+    "totalTimesRated": 0,
+    "viewCount": 253,
+    "viewLastModified": 1703214155,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1610486013,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3119005,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1610485968,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1610486013,
+                "failureCount": 0,
+                "startedAt": 1610486013,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 518938652,
+            "name": "date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of total cases for the given zip code",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 127666058,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 518938655,
+            "name": "po_name",
+            "dataTypeName": "text",
+            "description": "Zip code post office name",
+            "fieldName": "po_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 127666061,
+            "format": {}
+        },
+        {
+            "id": 518938651,
+            "name": "zip_num",
+            "dataTypeName": "text",
+            "description": "Zip code number",
+            "fieldName": "zip_num",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 127666057,
+            "format": {}
+        },
+        {
+            "id": 518938654,
+            "name": "cases_total",
+            "dataTypeName": "number",
+            "description": "Total cases for the given zip code and date",
+            "fieldName": "cases_total",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 127666060,
+            "format": {}
+        },
+        {
+            "id": 518938650,
+            "name": "row_id",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "row_id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 127666056,
+            "format": {}
+        },
+        {
+            "id": 518938653,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "WKT geometry",
+            "fieldName": "geometry",
+            "position": 6,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 127666059,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 518938650,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

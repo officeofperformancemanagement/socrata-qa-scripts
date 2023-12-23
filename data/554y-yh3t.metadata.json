@@ -1,0 +1,251 @@
+{
+    "id": "554y-yh3t",
+    "name": "Chattanooga Per Capita Income - 2017",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1570129825,
+    "description": "Per capita income for tracts in Hamilton County",
+    "displayType": "table",
+    "downloadCount": 66,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1570213316,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32542821,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1570130194,
+    "publicationGroup": 16607335,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1570130193,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16607335,
+    "totalTimesRated": 0,
+    "viewCount": 118,
+    "viewLastModified": 1666189595,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1570130244,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1301992,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1570130195,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1570130245,
+                "failureCount": 0,
+                "startedAt": 1570130244,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 431542678,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 88636442,
+            "format": {}
+        },
+        {
+            "id": 431542675,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 88636439,
+            "format": {}
+        },
+        {
+            "id": 431542671,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 88636435,
+            "format": {}
+        },
+        {
+            "id": 431542676,
+            "name": "Per Capita Income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "per_capita_income",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 88636440,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 431542672,
+            "name": "Per Capita Income Black or African American Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "per_capita_income_black_or",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 88636436,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 431542669,
+            "name": "Per Capita Income White Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "per_capita_income_white_alone",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 88636433,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 431542670,
+            "name": "Above Chattanooga Per Capita Income White Alone",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "above_chattanooga_per_capita",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 88636434,
+            "format": {}
+        },
+        {
+            "id": 431542677,
+            "name": "Above Chattanooga Per Capita Income Black or African American Alone",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "above_chattanooga_per_capita_1",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 88636441,
+            "format": {}
+        },
+        {
+            "id": 431542673,
+            "name": "Chattanooga Per Capita Income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "chattanooga_per_capita_income",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 88636437,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 431542674,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 10,
+            "renderTypeName": "polygon",
+            "tableColumnId": 88636438,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "income",
+        "acs"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

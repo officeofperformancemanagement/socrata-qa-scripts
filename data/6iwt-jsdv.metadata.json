@@ -1,0 +1,244 @@
+{
+    "id": "6iwt-jsdv",
+    "name": "Total Cases",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1595267470,
+    "displayType": "table",
+    "downloadCount": 61,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35506556,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1595267646,
+    "publicationGroup": 17171806,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1691980138,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17668954,
+    "totalTimesRated": 0,
+    "viewCount": 225,
+    "viewLastModified": 1595267646,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1595267646,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 2806145,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1595267646,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1595267646,
+                "failureCount": 0,
+                "startedAt": 1595267646,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 502276964,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 103184036,
+            "width": 100,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 502276966,
+            "name": "CAT_DETAIL",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cat_detail",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 103184008,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 502276967,
+            "name": "CAT_CASES_TOTAL",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_total",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 103184012,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 502276975,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 11,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 103184034,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "filterCondition": {
+            "type": "operator",
+            "value": "AND",
+            "children": [
+                {
+                    "type": "operator",
+                    "value": "OR",
+                    "children": [
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 502276974,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "Y"
+                                }
+                            ],
+                            "metadata": {
+                                "freeform": true
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "tableColumnId": {
+                            "17171806": 103184004
+                        },
+                        "operator": "EQUALS"
+                    }
+                },
+                {
+                    "type": "operator",
+                    "value": "OR",
+                    "children": [
+                        {
+                            "type": "operator",
+                            "value": "NOT_CONTAINS_INSENSITIVE",
+                            "children": [
+                                {
+                                    "columnId": 502276966,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "pending"
+                                }
+                            ],
+                            "metadata": {
+                                "freeform": true
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "tableColumnId": {
+                            "17171806": 103184008
+                        },
+                        "operator": "NOT_CONTAINS_INSENSITIVE"
+                    }
+                }
+            ],
+            "metadata": {
+                "unifiedVersion": 2
+            }
+        }
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid",
+        "health department"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

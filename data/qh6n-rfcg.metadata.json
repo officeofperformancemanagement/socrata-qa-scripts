@@ -1,0 +1,291 @@
+{
+    "id": "qh6n-rfcg",
+    "name": "HP Porch Hop",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1561338157,
+    "description": "HP Porch Hop",
+    "displayType": "table",
+    "downloadCount": 171,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1561482044,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31782350,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1561338430,
+    "publicationGroup": 16302860,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1561380835,
+    "rowsUpdatedBy": "3kks-v5j8",
+    "tableId": 16302860,
+    "totalTimesRated": 0,
+    "viewCount": 461,
+    "viewLastModified": 1561380834,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561339184,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 825037,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561339184,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561339184,
+                "failureCount": 0,
+                "startedAt": 1561339184,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 414423998,
+            "name": "Theme",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "theme",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 83019024,
+            "format": {}
+        },
+        {
+            "id": 414424001,
+            "name": "Street Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_address",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 83019025,
+            "format": {}
+        },
+        {
+            "id": 414424005,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location",
+            "position": 4,
+            "renderTypeName": "point",
+            "tableColumnId": 83019026,
+            "format": {}
+        },
+        {
+            "id": 414424008,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 83019027,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 414424009,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 83019028,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 414424010,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 83019029,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 414424011,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 83019030,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 414424012,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 83019031,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 414424013,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 83019032,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 414424017,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 83019033,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

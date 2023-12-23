@@ -1,0 +1,461 @@
+{
+    "id": "ycd7-6v83",
+    "name": "Directory of Workforce Recruiting and Training Resources",
+    "assetType": "dataset",
+    "attribution": "Chattanooga Chamber of Commerce",
+    "attributionLink": "http://www.chattanoogachamber.com/media/WF%20Manual%20Word%20Document.pdf",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1401644569,
+    "description": "Provided by the Chattanooga Chamber of Commerce. This directory, last updated in 2014, provides a listing of locations providing the Greater Chattanooga area with workforce development services.",
+    "displayType": "table",
+    "downloadCount": 954,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1555971351,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 8120722,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1401644934,
+    "publicationGroup": 1602548,
+    "publicationStage": "published",
+    "resourceName": "directory-of-workforce-recruiting-and-training-resources",
+    "rowClass": "",
+    "rowsUpdatedAt": 1401644927,
+    "rowsUpdatedBy": "d2yk-enzf",
+    "tableId": 1602550,
+    "totalTimesRated": 0,
+    "viewCount": 1021,
+    "viewLastModified": 1555971345,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1401644934,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366678,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1401644934,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "b77b-kr9r",
+                "displayName": "Sean Brewer"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 150887635,
+            "name": "Service Provider",
+            "dataTypeName": "text",
+            "fieldName": "service_provider",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 20052046,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 150887636,
+            "name": "Provider Description",
+            "dataTypeName": "text",
+            "fieldName": "provider_description",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 20052047,
+            "width": 340,
+            "format": {}
+        },
+        {
+            "id": 150887637,
+            "name": "Clients Served",
+            "dataTypeName": "text",
+            "fieldName": "clients_served",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 20052048,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 150887638,
+            "name": "Contact Phone",
+            "dataTypeName": "text",
+            "fieldName": "contact_phone",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 20052049,
+            "width": 256,
+            "format": {
+                "displayStyle": "phone",
+                "align": "right"
+            }
+        },
+        {
+            "id": 150887639,
+            "name": "Contact Fax",
+            "dataTypeName": "text",
+            "fieldName": "contact_fax",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 20052050,
+            "width": 232,
+            "format": {
+                "displayStyle": "phone",
+                "align": "right"
+            }
+        },
+        {
+            "id": 150887640,
+            "name": "Contact Person 1",
+            "dataTypeName": "text",
+            "fieldName": "contact_person_1",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 20052051,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 150887835,
+            "name": "Contact Email 1",
+            "dataTypeName": "text",
+            "fieldName": "contact_email_1",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 20052052,
+            "width": 280,
+            "format": {
+                "displayStyle": "email",
+                "align": "right"
+            }
+        },
+        {
+            "id": 150887642,
+            "name": "Contact Person 2",
+            "dataTypeName": "text",
+            "fieldName": "contact_person_2",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 20052053,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 150887836,
+            "name": "Contact Email 2",
+            "dataTypeName": "text",
+            "fieldName": "contact_email_2",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 20052054,
+            "width": 280,
+            "format": {
+                "displayStyle": "email",
+                "align": "left"
+            }
+        },
+        {
+            "id": 150887888,
+            "name": "Website",
+            "dataTypeName": "url",
+            "fieldName": "website",
+            "position": 10,
+            "renderTypeName": "url",
+            "tableColumnId": 20052055,
+            "width": 184,
+            "format": {
+                "align": "left"
+            },
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 150887645,
+            "name": "Provider Location",
+            "dataTypeName": "point",
+            "fieldName": "provider_location",
+            "position": 11,
+            "renderTypeName": "point",
+            "tableColumnId": 20052056,
+            "width": 304,
+            "format": {}
+        },
+        {
+            "id": 407376005,
+            "name": "Provider Location (address)",
+            "dataTypeName": "text",
+            "fieldName": "provider_location_address",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 80539259,
+            "format": {}
+        },
+        {
+            "id": 407376009,
+            "name": "Provider Location (city)",
+            "dataTypeName": "text",
+            "fieldName": "provider_location_city",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 80539263,
+            "format": {}
+        },
+        {
+            "id": 407376006,
+            "name": "Provider Location (state)",
+            "dataTypeName": "text",
+            "fieldName": "provider_location_state",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 80539260,
+            "format": {}
+        },
+        {
+            "id": 407376008,
+            "name": "Provider Location (zip)",
+            "dataTypeName": "text",
+            "fieldName": "provider_location_zip",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 80539262,
+            "format": {}
+        },
+        {
+            "id": 407376010,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 80539264,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407376011,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 80539265,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407376012,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 80539266,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407376013,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 80539267,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407376014,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 80539268,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407376015,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 80539269,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407376016,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 80539270,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407376017,
+            "name": "Council_data 2",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ap6c_9ws7",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 80539271,
+            "computationStrategy": {
+                "source_columns": [
+                    "provider_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ap6c-9ws7",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "b77b-kr9r",
+        "displayName": "Sean Brewer",
+        "screenName": "Sean Brewer",
+        "type": "interactive"
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "b77b-kr9r",
+        "displayName": "Sean Brewer",
+        "screenName": "Sean Brewer",
+        "type": "interactive"
+    },
+    "tags": [
+        "chamber of commerce",
+        "workforce",
+        "training"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

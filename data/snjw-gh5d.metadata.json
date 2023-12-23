@@ -1,0 +1,149 @@
+{
+    "id": "snjw-gh5d",
+    "name": "April 12th Tornado Path",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1586759401,
+    "displayType": "table",
+    "downloadCount": 205,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33883777,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1586759540,
+    "publicationGroup": 17021990,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1586759539,
+    "rowsUpdatedBy": "iiwc-mbju",
+    "tableId": 17021990,
+    "totalTimesRated": 0,
+    "viewCount": 527,
+    "viewLastModified": 1666193132,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1586759853,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2074159,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1586759540,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1586759853,
+                "failureCount": 0,
+                "startedAt": 1586759853,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 461046494,
+            "name": "name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 98434603,
+            "format": {}
+        },
+        {
+            "id": 461046495,
+            "name": "polygon",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "polygon",
+            "position": 2,
+            "renderTypeName": "polygon",
+            "tableColumnId": 98434604,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "tmoreland@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Tim Moreland",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,730 @@
+{
+    "id": "7zv3-vhiz",
+    "name": "Sidewalk Work Orders",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1561645146,
+    "displayType": "table",
+    "downloadCount": 116,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "rs4d-hkb8",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39111054,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1563205990,
+    "publicationGroup": 15947356,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703200219,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18985374,
+    "totalTimesRated": 0,
+    "viewCount": 165,
+    "viewLastModified": 1563205990,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1563206027,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5150798,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1563206009,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1563206028,
+                "failureCount": 0,
+                "startedAt": 1563206027,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 568813129,
+            "name": "Workorder Number CityWorks",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workorder_number_cityworks",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76729893,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813130,
+            "name": "Service Request Number CityWorks",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "service_request_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 76729886,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813131,
+            "name": "Work Order Category",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "work_order_category",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76729898,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813132,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76729877,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813133,
+            "name": "Priority",
+            "dataTypeName": "text",
+            "description": "Priority status from 1 (highest) to 5 (lowest)",
+            "fieldName": "priority",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76729909,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813134,
+            "name": "Priority Status",
+            "dataTypeName": "text",
+            "description": "Mapped priority status 1 = high, 2 = medium high, 3 = medium, 4 = medium low, 5 = low",
+            "fieldName": "priority_status",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76729888,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813135,
+            "name": "Status",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "status",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76729900,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813136,
+            "name": "Asset Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "asset_group",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76729884,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813137,
+            "name": "Shop",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "shop",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76729891,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813138,
+            "name": "Projected Start Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "projected_start_date",
+            "position": 10,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729895,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813139,
+            "name": "Projected Finish Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "projected_finish_date",
+            "position": 11,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729881,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813140,
+            "name": "Actual Start Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "actual_start_date",
+            "position": 12,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729906,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813141,
+            "name": "Actual Finish Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "actual_finish_date",
+            "position": 13,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729887,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813143,
+            "name": "On Time Indicator",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "on_time_indicator",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76967061,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813145,
+            "name": "Apply to Entity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "apply_to_entity",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 76729882,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813146,
+            "name": "Cancel",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "cancel",
+            "position": 16,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 76729894,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813147,
+            "name": "Contractors Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "contractors_id",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 76729903,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813149,
+            "name": "Unattached",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "unattached",
+            "position": 18,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 76729892,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813150,
+            "name": "Initiate By",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "initiate_by",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 76729901,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813151,
+            "name": "Initiated Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "initiated_date",
+            "position": 20,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729899,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813152,
+            "name": "Submit To",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "submit_to",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 76729896,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813153,
+            "name": "Date Submit To",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_submit_to",
+            "position": 22,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729907,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813154,
+            "name": "Submit To Open By",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "submit_to_open_by",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 76729902,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813155,
+            "name": "Date Submit To Open",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_submit_to_open",
+            "position": 24,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729885,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813156,
+            "name": "Work Completed by",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "work_completed_by",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 76729879,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813157,
+            "name": "Date Work order Closed",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_work_order_closed",
+            "position": 26,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76729890,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813158,
+            "name": "Work Order Closed By",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "work_order_closed_by",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 76729878,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813159,
+            "name": "Work Total Order Cost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "work_total_order_cost",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 76729880,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813160,
+            "name": "Work Order Equipment Cost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "work_order_equipment_cost",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 76729904,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813161,
+            "name": "Work Order Labor Cost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "work_order_labor_cost",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 76729897,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813162,
+            "name": "Work Order Material Cost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "work_order_material_cost",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 76729876,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813163,
+            "name": "Work Order Permit Cost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "work_order_permit_cost",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 76729908,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813164,
+            "name": "Work Order Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "work_order_address",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 76729883,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813165,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 76729910,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813166,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 76729889,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813167,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location",
+            "position": 36,
+            "renderTypeName": "point",
+            "tableColumnId": 76729905,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813168,
+            "name": "Open Days",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "open_days",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 76825404,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813169,
+            "name": "Open Days Initiate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "open_days_initiate",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 77651809,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568813188,
+            "name": "Council",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 91,
+            "renderTypeName": "number",
+            "tableColumnId": 88963280,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568813189,
+            "name": "Police Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_bjeb_sd3n",
+            "position": 92,
+            "renderTypeName": "number",
+            "tableColumnId": 88990390,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_bjeb-sd3n",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568813190,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 93,
+            "renderTypeName": "number",
+            "tableColumnId": 88990840,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Transportation",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

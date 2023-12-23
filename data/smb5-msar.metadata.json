@@ -1,0 +1,192 @@
+{
+    "id": "smb5-msar",
+    "name": "Hamilton County 2020 Census Tracts",
+    "assetType": "dataset",
+    "attribution": "Census",
+    "attributionLink": "https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/47_TENNESSEE/47065/",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1618409078,
+    "description": "Hamilton County 2020 census tracts spatial data",
+    "displayType": "table",
+    "downloadCount": 65,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37002241,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1618409302,
+    "publicationGroup": 18222748,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1618409301,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18222748,
+    "totalTimesRated": 0,
+    "viewCount": 71,
+    "viewLastModified": 1666191478,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1618409332,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3520720,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1618409303,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1618409332,
+                "failureCount": 0,
+                "startedAt": 1618409332,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 536223612,
+            "name": "STATEFP20",
+            "dataTypeName": "text",
+            "description": "State id",
+            "fieldName": "statefp20",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 135602339,
+            "format": {}
+        },
+        {
+            "id": 536223611,
+            "name": "COUNTYFP20",
+            "dataTypeName": "text",
+            "description": "County id",
+            "fieldName": "countyfp20",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 135602338,
+            "format": {}
+        },
+        {
+            "id": 536223610,
+            "name": "TRACTCE20",
+            "dataTypeName": "text",
+            "description": "Tract id",
+            "fieldName": "tractce20",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 135602337,
+            "format": {}
+        },
+        {
+            "id": 536223609,
+            "name": "GEOID20",
+            "dataTypeName": "text",
+            "description": "Geo id",
+            "fieldName": "geoid20",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 135602336,
+            "format": {}
+        },
+        {
+            "id": 536223613,
+            "name": "geometry",
+            "dataTypeName": "polygon",
+            "description": "Geometry in well known text format",
+            "fieldName": "geometry",
+            "position": 5,
+            "renderTypeName": "polygon",
+            "tableColumnId": 135602340,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Census Tract",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census",
+        "tract",
+        "gis",
+        "hamilton"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

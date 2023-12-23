@@ -1,0 +1,470 @@
+{
+    "id": "x3fy-9pn5",
+    "name": "Code Enforcement - Activities",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1561571135,
+    "description": "Data within the CItyview system used by Code Enforcement contains a table of all activities assigned to a each individual code enforcement violation.",
+    "displayType": "table",
+    "downloadCount": 199,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "mxyz-b22d",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39124479,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1573056235,
+    "publicationGroup": 16057859,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703213964,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18989873,
+    "totalTimesRated": 0,
+    "viewCount": 408,
+    "viewLastModified": 1671551198,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562167816,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5161059,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562081223,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562167816,
+                "failureCount": 0,
+                "startedAt": 1562167816,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 569002649,
+            "name": "Case Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "case_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 78302025,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002650,
+            "name": "Activity Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "activity_code",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 78302026,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002651,
+            "name": "Activity Descriptions",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "activity_descriptions",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 78302027,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002652,
+            "name": "Date Entered",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_entered",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78302038,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002653,
+            "name": "Date Completed",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_completed",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78302036,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002654,
+            "name": "Date Required",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_required",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78302037,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002655,
+            "name": "Outcome",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "outcome",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 78302028,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002656,
+            "name": "Priotrity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "priotrity",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 78302029,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002657,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 78302031,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002658,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 78302032,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002659,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 78302033,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002660,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location_wkt",
+            "position": 12,
+            "renderTypeName": "point",
+            "tableColumnId": 78302034,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002661,
+            "name": "recordID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "recordid",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 78302035,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002662,
+            "name": "isOwnerOccupied",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "isowneroccupied",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 80147613,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002663,
+            "name": "Council District",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "council_district",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 90309830,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002664,
+            "name": "Violation Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "violation_description",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 90390813,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002665,
+            "name": "Chattanooga Historic Red Lining",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_tdua_xyxp",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 144858331,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_tdua-xyxp",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569002666,
+            "name": "Chattanooga Redistricting - New Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_hr78_d3nd",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 144860534,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_hr78-d3nd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569002667,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 144860670,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569002668,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 144869820,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569007184,
+            "name": "Hamilton County 2020 Census Tracts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_ymb6_j43f",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 144941902,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ymb6-j43f",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Development",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "code enforcement violations blight derelict citation activity activities violation ecd overgrowth litter housing"
+    ],
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

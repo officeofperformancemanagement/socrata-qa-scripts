@@ -1,0 +1,346 @@
+{
+    "id": "hih9-dcpk",
+    "name": "Stronger Neighborhoods",
+    "assetType": "dataset",
+    "attribution": "Mayor's Office",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1453644635,
+    "description": "Data feeding into the ChattaData Stronger Neighborhoods goals.",
+    "displayType": "table",
+    "downloadCount": 361,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1549938958,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 25596688,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1489599383,
+    "publicationGroup": 7380325,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1554082233,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 14086559,
+    "totalTimesRated": 0,
+    "viewCount": 768,
+    "viewLastModified": 1554082228,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1489599383,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366971,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1489599383,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 293545003,
+            "name": "Month",
+            "dataTypeName": "calendar_date",
+            "fieldName": "month",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 34005549,
+            "width": 160,
+            "format": {
+                "view": "date_monthy",
+                "align": "left"
+            }
+        },
+        {
+            "id": 293545004,
+            "name": "Increase Connectivity: CARTA Bus Ridership",
+            "dataTypeName": "number",
+            "fieldName": "increase_connectivity_carta_bus_ridership",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 34005550,
+            "width": 356,
+            "format": {}
+        },
+        {
+            "id": 293545005,
+            "name": "Increase Connectivity: CARTA Electric Shuttle Ridership",
+            "dataTypeName": "number",
+            "fieldName": "increase_connectivity_carta_electric_shuttle_ridership",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 34005551,
+            "width": 430,
+            "format": {
+                "align": "right"
+            }
+        },
+        {
+            "id": 293545006,
+            "name": "Increase Connectivity: Care-A-Van Ridership",
+            "dataTypeName": "number",
+            "fieldName": "increase_connectivity_care_a_van_ridership",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 34005552,
+            "width": 367,
+            "format": {}
+        },
+        {
+            "id": 293545007,
+            "name": "Increase Connectivity: Number of Potholes Filled",
+            "dataTypeName": "number",
+            "fieldName": "increase_connectivity_number_of_potholes_filled",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 34005553,
+            "width": 380,
+            "format": {}
+        },
+        {
+            "id": 293545008,
+            "name": "Neighborhood Investment: 1-2 Units Residential Permits",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_1_2_units_residential_permits",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 34005554,
+            "width": 442,
+            "format": {}
+        },
+        {
+            "id": 293545009,
+            "name": "Neighborhood Investment: 1-2 Units Residential Permits Amounts",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_1_2_units_residential_permits_amounts",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 34005555,
+            "width": 482,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 293545010,
+            "name": "Neighborhood Investment: 3+ Units Residential Permits",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_3_units_residential_permits",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 34005556,
+            "width": 414,
+            "format": {}
+        },
+        {
+            "id": 293545011,
+            "name": "Neighborhood Investment: 3+ Units Residential Permits Amounts",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_3_units_residential_permits_amounts",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 34005557,
+            "width": 485,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 293545012,
+            "name": "Neighborhood Investment: All Residential Permits",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_all_residential_permits",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 34005558,
+            "width": 398,
+            "format": {}
+        },
+        {
+            "id": 293545013,
+            "name": "Neighborhood Investment: All Residential Permits Amounts",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_all_residential_permits_amounts",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 34005559,
+            "width": 471,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 293545014,
+            "name": "Neighborhood Investment: Properties Transitioned to Affordable",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_properties_transitioned_to_affordable",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 34005560,
+            "width": 479,
+            "format": {}
+        },
+        {
+            "id": 293545015,
+            "name": "Neighborhood Investment: Number of Blight Related Citations",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_number_of_blight_related_citations",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 34005561,
+            "width": 459,
+            "format": {}
+        },
+        {
+            "id": 293545016,
+            "name": "Neighborhood Investment: Number of Blighted Structures Demolished",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_number_of_blighted_structures_demolished",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 34005562,
+            "width": 513,
+            "format": {}
+        },
+        {
+            "id": 293545017,
+            "name": "Neighborhood Investment: Number of Properties w/ Violations Found",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_investment_number_of_properties_w_violations_found",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 34005563,
+            "width": 502,
+            "format": {}
+        },
+        {
+            "id": 293545018,
+            "name": "Neighborhood Development: Registered Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": "neighborhood_development_registered_neighborhood_associations",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 34005564,
+            "width": 506,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "ascending": true,
+                    "columnFieldName": "month"
+                }
+            ]
+        },
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            },
+            "Data Description": {
+                "Data Dictionary": ""
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "rowLabel": "Row",
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 293545003,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "neighborhood",
+        "chattadata"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "id": "jm6x-m38m",
+    "name": "Outdoor Chattanooga Users Map",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1582145398,
+    "description": "Outdoor Chattanooga users grouped by zip code",
+    "displayType": "table",
+    "downloadCount": 98,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "hr34-nqkq",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35555980,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1582742274,
+    "publicationGroup": 16896969,
+    "publicationStage": "published",
+    "queryString": "SELECT \n  count(zip) as zip_code_user_count,\n  zip,\n  geom\nGROUP BY zip, geom\nORDER BY zip desc",
+    "rowsUpdatedAt": 1661439549,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17692385,
+    "totalTimesRated": 0,
+    "viewCount": 138,
+    "viewLastModified": 1666025976,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583522847,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2827161,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583522824,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583522847,
+                "failureCount": 0,
+                "startedAt": 1583522847,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 503508134,
+            "name": "zip_code_user_count",
+            "dataTypeName": "number",
+            "description": "Column created from a SoQL query.",
+            "fieldName": "zip_code_user_count",
+            "position": 1,
+            "renderTypeName": "number",
+            "format": {}
+        },
+        {
+            "id": 503508135,
+            "name": "zip",
+            "dataTypeName": "text",
+            "description": "User zip",
+            "fieldName": "zip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 94892474,
+            "format": {}
+        },
+        {
+            "id": 503508136,
+            "name": "geom",
+            "dataTypeName": "multipolygon",
+            "description": "Zip code geometry",
+            "fieldName": "geom",
+            "position": 3,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 94892473,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

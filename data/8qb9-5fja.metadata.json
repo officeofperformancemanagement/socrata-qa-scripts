@@ -1,0 +1,364 @@
+{
+    "id": "8qb9-5fja",
+    "name": "311 Service Requests",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1593100218,
+    "description": "311 service request for the city of Chattanooga. Data is from 2017 to the present date. For service requests prior to 2017 please see the following dataset. https://data.chattlibrary.org/Government/Service-Requests/e968-fnk9\r\n\r\n311 data guide. Use this if you are new to this dataset and want to understand what it is all about. https://docs.google.com/document/d/1QjqBeZ7HWelUJpTyCfDYAXAugyHMIDjFHsG-6PLuzMk/edit?usp=sharing",
+    "displayType": "table",
+    "downloadCount": 114,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "vfem-a47f",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39707055,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1656006187,
+    "publicationGroup": 15950137,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703254044,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19190800,
+    "totalTimesRated": 0,
+    "viewCount": 689,
+    "viewLastModified": 1656006187,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1593100379,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5587923,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1593100362,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1593100379,
+                "failureCount": 0,
+                "startedAt": 1593100379,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 577284599,
+            "name": "Service Request Key",
+            "dataTypeName": "text",
+            "description": "Unique identifier of the service request in the Accela system.",
+            "fieldName": "service_request_key",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76762095,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284600,
+            "name": "Created Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the service request was created.",
+            "fieldName": "created_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76762084,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284601,
+            "name": "Due At",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is due.",
+            "fieldName": "due_at",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975647,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284602,
+            "name": "Completed At",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is completed.",
+            "fieldName": "completed_at",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975646,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284604,
+            "name": "On Time Indicator",
+            "dataTypeName": "text",
+            "description": "Indicator if the request is completed at or before the due date.",
+            "fieldName": "on_time_indicator",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76829311,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284605,
+            "name": "Department",
+            "dataTypeName": "text",
+            "description": "Department service request is routed to",
+            "fieldName": "department",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 92262849,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284606,
+            "name": "Request Type",
+            "dataTypeName": "text",
+            "description": "The type of the service request created.",
+            "fieldName": "request_type",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76762086,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284607,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "Description of the service request often populated by the constituent submitting the request.",
+            "fieldName": "description",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76762087,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284608,
+            "name": "Request Type Code",
+            "dataTypeName": "text",
+            "description": "Urgency of the request, (Urgent, Emergency, Standard, None, etc.).",
+            "fieldName": "request_type_code",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76762088,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284609,
+            "name": "Status Code",
+            "dataTypeName": "text",
+            "description": "Status of the request, Open, New, and Closed.",
+            "fieldName": "status_code",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76762089,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284611,
+            "name": "Intake Form",
+            "dataTypeName": "text",
+            "description": "How the request was submitted.",
+            "fieldName": "intake_form",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 76762090,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284613,
+            "name": "Actual Days to Complete - Working",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "actual_days_to_complete_working",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 81399746,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284614,
+            "name": "SLA FY 2019",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sla_fy_2019",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 82038591,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284618,
+            "name": "isPublic",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ispublic",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 80865363,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284619,
+            "name": "Council District",
+            "dataTypeName": "text",
+            "description": "Council District in which the requests was submitted for",
+            "fieldName": "citydst",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 81939070,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284620,
+            "name": "PublicLocation",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "publiclocation",
+            "position": 22,
+            "renderTypeName": "point",
+            "tableColumnId": 106332869,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "311",
+        "service requests",
+        "sidewalk",
+        "brush",
+        "3-1-1",
+        "sr",
+        "mychatt"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

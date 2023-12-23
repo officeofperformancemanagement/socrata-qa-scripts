@@ -1,0 +1,192 @@
+{
+    "id": "4giv-dvmp",
+    "name": "TDH Vaccine County Age Groups Census",
+    "assetType": "dataset",
+    "attribution": "TN Department of Health",
+    "attributionLink": "https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1613590313,
+    "description": "Vaccine County Age Group Census file from TDH website: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "displayType": "table",
+    "downloadCount": 79,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36478762,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1613590639,
+    "publicationGroup": 18048586,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 525142682,
+    "rowsUpdatedAt": 1703215599,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18048586,
+    "totalTimesRated": 0,
+    "viewCount": 103,
+    "viewLastModified": 1703214668,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1613590789,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3254656,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1613590639,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1613590789,
+                "failureCount": 0,
+                "startedAt": 1613590789,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 525142683,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "Date of recipient count",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 130705930,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 525142686,
+            "name": "PATIENT_COUNTY",
+            "dataTypeName": "text",
+            "description": "County of recipient count",
+            "fieldName": "patient_county",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 130705933,
+            "format": {}
+        },
+        {
+            "id": 525142684,
+            "name": "AGE_GROUP_CENSUS",
+            "dataTypeName": "text",
+            "description": "Age group of recipient count",
+            "fieldName": "age_group_census",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 130705931,
+            "format": {}
+        },
+        {
+            "id": 525142685,
+            "name": "RECIPIENT_COUNT",
+            "dataTypeName": "number",
+            "description": "Vaccine recipient count",
+            "fieldName": "recipient_count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 130705932,
+            "format": {}
+        },
+        {
+            "id": 525142682,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Unique id",
+            "fieldName": "id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 130705929,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 525142682,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tn health department covid data"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

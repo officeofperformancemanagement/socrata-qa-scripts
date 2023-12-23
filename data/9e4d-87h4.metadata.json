@@ -1,0 +1,163 @@
+{
+    "id": "9e4d-87h4",
+    "name": "Fire Prevention Districts",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1603817655,
+    "displayType": "table",
+    "downloadCount": 60,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35611439,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1603817728,
+    "publicationGroup": 17719616,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1603817727,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17719616,
+    "totalTimesRated": 0,
+    "viewCount": 63,
+    "viewLastModified": 1666189487,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1603817803,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2847737,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1603817728,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1603817803,
+                "failureCount": 0,
+                "startedAt": 1603817803,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 504995449,
+            "name": "Id",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 120747503,
+            "format": {}
+        },
+        {
+            "id": 504995451,
+            "name": "district",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 120747505,
+            "format": {}
+        },
+        {
+            "id": 504995450,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "the_geom",
+            "position": 3,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 120747504,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Fire",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "fire"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

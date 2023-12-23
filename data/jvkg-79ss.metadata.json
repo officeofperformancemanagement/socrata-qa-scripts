@@ -1,0 +1,486 @@
+{
+    "id": "jvkg-79ss",
+    "name": "Police Incident Data",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1562613548,
+    "description": "The data provided in this public portal/website represents general data of incidents based on the Tennessee Incident Based Reporting System (TIBRS). Incidents involving protected classes (juveniles, domestic abuse victims) by Tennessee law have been removed. Additionally, some incident addresses have been generalized to block level and randomly offset to protect the privacy of victims of crime. All crime data posted is preliminary and may or may not have been reviewed and approved by the Chattanooga Police Department’s (CPD) quality control process; therefore, the data may change upon further investigation.\r\n\r\nThe City of Chattanooga and the Chattanooga Police Department caution against using crime data provided in this public portal to make decisions regarding the safety of, amount of or type of crime occurring in a particular area. Users should not make decisions as it relates to safety solely based on the data provided on this website, but should seek independent verification directly through CPD’s Crime Analyst Unit.\r\n\r\nThe information in this portal is provided strictly as a courtesy to the public.",
+    "displayType": "table",
+    "downloadCount": 1329,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "w6tt-pnwb",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39109374,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1670451082,
+    "publicationGroup": 15936287,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703242961,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18984805,
+    "totalTimesRated": 0,
+    "viewCount": 24341,
+    "viewLastModified": 1671494784,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562613775,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5149497,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562613743,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562613775,
+                "failureCount": 0,
+                "startedAt": 1562613775,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 568785778,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "Generalized address of incident",
+            "fieldName": "address",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76585105,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785779,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "City of incident",
+            "fieldName": "city",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 76585106,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785780,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "State of incident",
+            "fieldName": "state",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76585107,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785781,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "Zip of incident",
+            "fieldName": "zip",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76585108,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785782,
+            "name": "Date_Incident",
+            "dataTypeName": "calendar_date",
+            "description": "Date incident occurred",
+            "fieldName": "date_incident",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76585109,
+            "width": 166,
+            "format": {}
+        },
+        {
+            "id": 568785783,
+            "name": "Jurisdiction",
+            "dataTypeName": "text",
+            "description": "Jurisdiction of responding unit",
+            "fieldName": "jurisdiction",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76585110,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785784,
+            "name": "Incident_Tract",
+            "dataTypeName": "text",
+            "description": "Police district where incident occurred",
+            "fieldName": "incident_tract",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76585111,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785785,
+            "name": "Zone",
+            "dataTypeName": "text",
+            "description": "Zone where incident occurred",
+            "fieldName": "zone",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76585112,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785786,
+            "name": "UCR_Incident_Code",
+            "dataTypeName": "text",
+            "description": "UCR stands for Uniform Crime Reporting. The program was conceived in 1929 by the International Association of Chiefs of Police to meet the need for reliable uniform crime statistics for the nation. In 1930, the FBI was tasked with collecting, publishing, and archiving those statistics.",
+            "fieldName": "ucr_incident_code",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76585104,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785787,
+            "name": "Incident_Description",
+            "dataTypeName": "text",
+            "description": "Description of incident",
+            "fieldName": "incident_description",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76585113,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785788,
+            "name": "Incident_Type",
+            "dataTypeName": "text",
+            "description": "Type of incident",
+            "fieldName": "incident_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76585114,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785789,
+            "name": "Case_Number",
+            "dataTypeName": "text",
+            "description": "Case number",
+            "fieldName": "case_number",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 76585115,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785790,
+            "name": "Case_Status",
+            "dataTypeName": "text",
+            "description": "Case status code",
+            "fieldName": "case_status",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76585103,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785791,
+            "name": "Case_Status_Description",
+            "dataTypeName": "text",
+            "description": "Description for case status code",
+            "fieldName": "case_status_description",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76585116,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785792,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Approximate latitude of incident",
+            "fieldName": "latitude",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 76585117,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785793,
+            "name": "Neighborhood",
+            "dataTypeName": "text",
+            "description": "Neighborhood where incident occurred",
+            "fieldName": "neighborhood",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 136277374,
+            "format": {}
+        },
+        {
+            "id": 568785794,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Approximate longitude of incident",
+            "fieldName": "longitude",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 76585118,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785795,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "Approximate location of incident in well known text format",
+            "fieldName": "location",
+            "position": 18,
+            "renderTypeName": "point",
+            "tableColumnId": 76585119,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785797,
+            "name": "citydst",
+            "dataTypeName": "text",
+            "description": "Council district where incident occurred",
+            "fieldName": "citydst",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 81996682,
+            "width": 97,
+            "format": {}
+        },
+        {
+            "id": 568785802,
+            "name": "Council",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 83911300,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568785803,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 141511194,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568785804,
+            "name": "Chattanooga Historic Red Lining",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_tdua_xyxp",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 144857723,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_tdua-xyxp",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568785805,
+            "name": "Chattanooga Redistricting - New Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_hr78_d3nd",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 144860810,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_hr78-d3nd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568785806,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 144870228,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568785807,
+            "name": "Hamilton County 2020 Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ymb6_j43f",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 144874600,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ymb6-j43f",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "police",
+        "crime",
+        "incident",
+        "crimes"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

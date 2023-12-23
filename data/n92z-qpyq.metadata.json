@@ -1,0 +1,453 @@
+{
+    "id": "n92z-qpyq",
+    "name": "Census 2020 Block Group Populations",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1628868486,
+    "description": "This data set contains Census 2020 population data for the State of Tennessee broken down by Census Block Group. To read more about the 2020 Census data, you can go to the link below:\n\nhttps://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html",
+    "displayType": "table",
+    "downloadCount": 57,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37549978,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1628876642,
+    "publicationGroup": 18413911,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1628956901,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 18414132,
+    "totalTimesRated": 0,
+    "viewCount": 81,
+    "viewLastModified": 1628956876,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1628869171,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3917746,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1628869035,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1628869171,
+                "failureCount": 0,
+                "startedAt": 1628869171,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 546573048,
+            "name": "State FIPS Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fips_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 139058366,
+            "format": {}
+        },
+        {
+            "id": 546573049,
+            "name": "County FIPS Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fips_code",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 139058367,
+            "format": {}
+        },
+        {
+            "id": 546573050,
+            "name": "Census Tract",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "census_tract",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 139058364,
+            "format": {}
+        },
+        {
+            "id": 546573051,
+            "name": "Block Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "block_group",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 139058365,
+            "format": {}
+        },
+        {
+            "id": 546573052,
+            "name": "GeoID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geoid",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 139058358,
+            "format": {}
+        },
+        {
+            "id": 546573053,
+            "name": "Common Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "common_name",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 139058350,
+            "format": {}
+        },
+        {
+            "id": 546573054,
+            "name": "Total Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_population",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 139058351,
+            "format": {}
+        },
+        {
+            "id": 546573055,
+            "name": "Population of One Race",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population_of_one_race",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 139058352,
+            "format": {}
+        },
+        {
+            "id": 546573056,
+            "name": "White Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_alone",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 139058353,
+            "format": {}
+        },
+        {
+            "id": 546573057,
+            "name": "Black or African American Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_or_african_american",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 139058354,
+            "format": {}
+        },
+        {
+            "id": 546573058,
+            "name": "American Indian and Alaska Native Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "american_indian_and_alaska",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 139058355,
+            "format": {}
+        },
+        {
+            "id": 546573059,
+            "name": "Asian Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "asian_alone",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 139058356,
+            "format": {}
+        },
+        {
+            "id": 546573060,
+            "name": "Native Hawaiian and Other Pacific Islander Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "native_hawaiian_and_other",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 139058357,
+            "format": {}
+        },
+        {
+            "id": 546573061,
+            "name": "Some Other Race Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "some_other_race_alone",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 139058359,
+            "format": {}
+        },
+        {
+            "id": 546573062,
+            "name": "Population of Two or More Races",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population_of_two_or_more",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 139058360,
+            "format": {}
+        },
+        {
+            "id": 546573063,
+            "name": "Hispanic or Latino",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hispanic_or_latino",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 139058361,
+            "format": {}
+        },
+        {
+            "id": 546573064,
+            "name": "Not Hispanic or Latino",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "not_hispanic_or_latino",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 139058362,
+            "format": {}
+        },
+        {
+            "id": 546573065,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 18,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 139058363,
+            "format": {}
+        },
+        {
+            "id": 546573071,
+            "name": "Black or African American Alone Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_or_african_american_alone_percent",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 139060970,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573066,
+            "name": "White Alone Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_alone_percent",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 139060965,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573070,
+            "name": "American Indian and Alaska Native Alone Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "american_indian_and_alaska_native_alone_percent",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 139060969,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573069,
+            "name": "Asian Alone Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "asian_alone_percent",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 139060968,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573067,
+            "name": "Native Hawaiian and Other Pacific Islander Alone Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "native_hawaiian_and_other_pacific_islander_alone_percent",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 139060966,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573068,
+            "name": "Some Other Race Alone Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "some_other_race_alone_percent",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 139060967,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573074,
+            "name": "Two or More Races Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "two_or_more_races_percent",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 139060973,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573072,
+            "name": "Hispanic or Latino Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hispanic_or_latino_percent",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 139060971,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 546573073,
+            "name": "Not Hispanic or Latino Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "not_hispanic_or_latino_percent",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 139060972,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "census block group",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census",
+        "2020",
+        "block group",
+        "population",
+        "redistrict"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

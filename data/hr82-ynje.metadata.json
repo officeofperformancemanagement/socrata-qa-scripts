@@ -1,0 +1,216 @@
+{
+    "id": "hr82-ynje",
+    "name": "Activity Participation",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1581962425,
+    "description": "Activity participation from CivicRec reporting",
+    "displayType": "table",
+    "downloadCount": 110,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33555592,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1582730634,
+    "publicationGroup": 16892752,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1661439396,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16910251,
+    "totalTimesRated": 0,
+    "viewCount": 175,
+    "viewLastModified": 1666019915,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583522652,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1941152,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583522642,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583522653,
+                "failureCount": 0,
+                "startedAt": 1583522652,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 453161968,
+            "name": "Activity",
+            "dataTypeName": "text",
+            "description": "Activity name",
+            "fieldName": "activity",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 94798409,
+            "format": {}
+        },
+        {
+            "id": 453161969,
+            "name": "Session",
+            "dataTypeName": "text",
+            "description": "Session name",
+            "fieldName": "session",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 94798410,
+            "format": {}
+        },
+        {
+            "id": 453161970,
+            "name": "Category",
+            "dataTypeName": "text",
+            "description": "Session category",
+            "fieldName": "category",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 94879519,
+            "format": {}
+        },
+        {
+            "id": 453161971,
+            "name": "Primary Category",
+            "dataTypeName": "text",
+            "description": "Primary session category",
+            "fieldName": "primary_category",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 94879518,
+            "format": {}
+        },
+        {
+            "id": 453161972,
+            "name": "Participants",
+            "dataTypeName": "number",
+            "description": "Number of session participants",
+            "fieldName": "participants",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 94798413,
+            "format": {}
+        },
+        {
+            "id": 453161974,
+            "name": "Max Participants",
+            "dataTypeName": "number",
+            "description": "Max number of session participants",
+            "fieldName": "max_participants",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 95202668,
+            "format": {}
+        },
+        {
+            "id": 453161973,
+            "name": "Start Date",
+            "dataTypeName": "calendar_date",
+            "description": "Session start date",
+            "fieldName": "start_date",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94798415,
+            "format": {
+                "view": "date"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Parks and Outdoors",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "civicrec",
+        "participation",
+        "outdoor chattanooga",
+        "parks and outdoors",
+        "parks",
+        "recreation",
+        "activity visits"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

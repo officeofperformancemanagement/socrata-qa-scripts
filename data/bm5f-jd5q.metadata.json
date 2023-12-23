@@ -1,0 +1,157 @@
+{
+    "id": "bm5f-jd5q",
+    "name": "Sewer Subbasin Zip Codes",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1615402976,
+    "description": "Zip codes intersecting sewer subbasins.",
+    "displayType": "table",
+    "downloadCount": 54,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36664276,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1615403058,
+    "publicationGroup": 18122603,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1615403057,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18122603,
+    "totalTimesRated": 0,
+    "viewCount": 63,
+    "viewLastModified": 1666189832,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1615403738,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3350320,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1615403058,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1615403738,
+                "failureCount": 0,
+                "startedAt": 1615403738,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 529165515,
+            "name": "Zip Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 132679853,
+            "format": {}
+        },
+        {
+            "id": 529165514,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 2,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 132679852,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "sewer",
+        "subbasins",
+        "zip codes",
+        "pw",
+        "public works"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,215 @@
+{
+    "id": "5q2k-p4vn",
+    "name": "2017 Median Income",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1557494640,
+    "description": "Median income by tract in the past 12 months. Data from ACS 2017.",
+    "displayType": "table",
+    "downloadCount": 86,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1570212856,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32542224,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1570120733,
+    "publicationGroup": 16187882,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1570120771,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16607135,
+    "totalTimesRated": 0,
+    "viewCount": 121,
+    "viewLastModified": 1570120771,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557494797,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1301637,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557494770,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557494797,
+                "failureCount": 0,
+                "startedAt": 1557494797,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 431529783,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80722512,
+            "format": {}
+        },
+        {
+            "id": 431529784,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80722509,
+            "format": {}
+        },
+        {
+            "id": 431529785,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80722513,
+            "format": {}
+        },
+        {
+            "id": 431529786,
+            "name": "Median Income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "median_income",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80722510,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 431529788,
+            "name": "Median Income Male",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "median_income_male",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 88631990,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 431529789,
+            "name": "Median Income Female",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "median_income_female",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 88631991,
+            "format": {
+                "precisionStyle": "currency"
+            }
+        },
+        {
+            "id": 431529790,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 7,
+            "renderTypeName": "polygon",
+            "tableColumnId": 88631992,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

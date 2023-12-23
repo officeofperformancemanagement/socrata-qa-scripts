@@ -1,0 +1,334 @@
+{
+    "id": "ki5n-4muk",
+    "name": "EPB Form 477: June 2018",
+    "assetType": "dataset",
+    "attribution": "FCC",
+    "attributionLink": "https://opendata.fcc.gov/Wireline/Fixed-Broadband-Deployment-Data-Jun-2018-Status-V1/ehbi-rr4z/",
+    "averageRating": 0,
+    "createdAt": 1573575199,
+    "description": "Form 477 data for EPB showing geographic internet access area by census blocks. Data is provided by https://opendata.fcc.gov. For more information please visit the Form 477 Resources page here: https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources.",
+    "displayType": "table",
+    "downloadCount": 63,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1573576321,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32841674,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1573575889,
+    "publicationGroup": 16700822,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1573575888,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16700822,
+    "totalTimesRated": 0,
+    "viewCount": 117,
+    "viewLastModified": 1573576317,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1573575967,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1482176,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1573575889,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1573575967,
+                "failureCount": 0,
+                "startedAt": 1573575967,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 438037065,
+            "name": "Logical Record Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "logical_record_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 90643640,
+            "format": {}
+        },
+        {
+            "id": 438037062,
+            "name": "Provider ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "provider_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 90643637,
+            "format": {}
+        },
+        {
+            "id": 438037064,
+            "name": "FRN",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "frn",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 90643639,
+            "format": {}
+        },
+        {
+            "id": 438037050,
+            "name": "Provider Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "provider_name",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 90643625,
+            "format": {}
+        },
+        {
+            "id": 438037051,
+            "name": "DBA Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "dba_name",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 90643626,
+            "format": {}
+        },
+        {
+            "id": 438037052,
+            "name": "Holding Company Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "holding_company_name",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 90643627,
+            "format": {}
+        },
+        {
+            "id": 438037049,
+            "name": "Holding Company Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "holding_company_number",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 90643624,
+            "format": {}
+        },
+        {
+            "id": 438037053,
+            "name": "Holding Company Final",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "holding_company_final",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 90643628,
+            "format": {}
+        },
+        {
+            "id": 438037054,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 90643629,
+            "format": {}
+        },
+        {
+            "id": 438037066,
+            "name": "Census Block FIPS Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "census_block_fips_code",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 90643641,
+            "format": {}
+        },
+        {
+            "id": 438037060,
+            "name": "Technology Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "technology_code",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 90643635,
+            "format": {}
+        },
+        {
+            "id": 438037055,
+            "name": "Consumer",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "consumer",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 90643630,
+            "format": {}
+        },
+        {
+            "id": 438037056,
+            "name": "Max Advertised Downstream Speed (mbps)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "max_advertised_downstream",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 90643631,
+            "format": {}
+        },
+        {
+            "id": 438037057,
+            "name": "Max Advertised Upstream Speed (mbps)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "max_advertised_upstream_speed",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 90643632,
+            "format": {}
+        },
+        {
+            "id": 438037063,
+            "name": "Business",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "business",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 90643638,
+            "format": {}
+        },
+        {
+            "id": 438037058,
+            "name": "Max CIR Downstream Speed (mbps)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "max_cir_downstream_speed",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 90643633,
+            "format": {}
+        },
+        {
+            "id": 438037059,
+            "name": "Max CIR Upstream Speed (mbps)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "max_cir_upstream_speed_mbps",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 90643634,
+            "format": {}
+        },
+        {
+            "id": 438037061,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 18,
+            "renderTypeName": "polygon",
+            "tableColumnId": 90643636,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "477",
+        "form 477",
+        "epb",
+        "internet"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

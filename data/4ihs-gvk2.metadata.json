@@ -1,0 +1,290 @@
+{
+    "id": "4ihs-gvk2",
+    "name": "2010 Census Population",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1569007988,
+    "description": "Population and demographics data from the 2010 census for tracts in Hamilton County",
+    "displayType": "table",
+    "downloadCount": 68,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571147917,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32445332,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1569008181,
+    "publicationGroup": 16569888,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1569008181,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16569888,
+    "totalTimesRated": 0,
+    "viewCount": 129,
+    "viewLastModified": 1569008181,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1569008256,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1243878,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1569008182,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1569008256,
+                "failureCount": 0,
+                "startedAt": 1569008256,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 429287128,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87834397,
+            "format": {}
+        },
+        {
+            "id": 429287130,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87834399,
+            "format": {}
+        },
+        {
+            "id": 429287139,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87834408,
+            "format": {}
+        },
+        {
+            "id": 429287132,
+            "name": "Total Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_population",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 87834401,
+            "format": {}
+        },
+        {
+            "id": 429287134,
+            "name": "White Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_alone",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87834403,
+            "format": {}
+        },
+        {
+            "id": 429287133,
+            "name": "White Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_percent",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 87834402,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 429287135,
+            "name": "Minority",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "minority",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87834404,
+            "format": {}
+        },
+        {
+            "id": 429287131,
+            "name": "Minority Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "minority_percent",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87834400,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 429287136,
+            "name": "Black or African American Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_or_african_american",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 87834405,
+            "format": {}
+        },
+        {
+            "id": 429287129,
+            "name": "Black or African American Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_or_african_american_1",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 87834398,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 429287137,
+            "name": "Hispanic or Latino",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hispanic_or_latino",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 87834406,
+            "format": {}
+        },
+        {
+            "id": 429287140,
+            "name": "Hispanic or Latino Percent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hispanic_or_latino_percent",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 87834409,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 429287138,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 13,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87834407,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

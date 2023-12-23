@@ -1,0 +1,190 @@
+{
+    "id": "x6i8-rstq",
+    "name": "Public Library Circulation Year to Year",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1659463158,
+    "description": "Public Library Circulation counts from multiple years",
+    "displayType": "table",
+    "downloadCount": 83,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38890406,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1664213043,
+    "publicationGroup": 18806323,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1664213036,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 18884444,
+    "totalTimesRated": 0,
+    "viewCount": 31,
+    "viewLastModified": 1666192520,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1662558779,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4999175,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1662558719,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1662558779,
+                "failureCount": 0,
+                "startedAt": 1662558779,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 565926326,
+            "name": "Report Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "report_month",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 143180560,
+            "format": {}
+        },
+        {
+            "id": 565926327,
+            "name": "Report Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "report_year",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 143182301,
+            "format": {}
+        },
+        {
+            "id": 565926328,
+            "name": "Circulation Category",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "circulation_category",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 143180558,
+            "format": {}
+        },
+        {
+            "id": 565926329,
+            "name": "Circulation Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "circulation_count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 143180557,
+            "format": {}
+        },
+        {
+            "id": 565926330,
+            "name": "Report Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "report_date",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 143195739,
+            "format": {}
+        },
+        {
+            "id": 565926331,
+            "name": "Fiscal Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 143206050,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Department": "Public Library",
+                "Data Steward Name": "Joshua Hardin",
+                "How often are data values updated?": "Monthly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 565926332,
+        "rowLabel": "Circulation",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,208 @@
+{
+    "id": "piit-fzp3",
+    "name": "2017 Tract households",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1557156032,
+    "description": "Number of households by tract from the 2017 ACS survey.",
+    "displayType": "table",
+    "downloadCount": 80,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562357139,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31437548,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557156459,
+    "publicationGroup": 16177875,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557156459,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16177875,
+    "totalTimesRated": 0,
+    "viewCount": 92,
+    "viewLastModified": 1562357132,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557156509,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 535627,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557156460,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557156509,
+                "failureCount": 0,
+                "startedAt": 1557156509,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407305175,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80510886,
+            "format": {}
+        },
+        {
+            "id": 407305174,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80510885,
+            "format": {}
+        },
+        {
+            "id": 407305176,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80510887,
+            "format": {}
+        },
+        {
+            "id": 407305177,
+            "name": "Family households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "family_households",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80510888,
+            "format": {}
+        },
+        {
+            "id": 407305178,
+            "name": "Nonfamily households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nonfamily_households",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 80510889,
+            "format": {}
+        },
+        {
+            "id": 407305179,
+            "name": "Total households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_households",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 80510890,
+            "format": {}
+        },
+        {
+            "id": 407305180,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 7,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80510891,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract 4 and 11"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

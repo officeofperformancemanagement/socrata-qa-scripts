@@ -1,0 +1,190 @@
+{
+    "id": "py3r-wj4t",
+    "name": "COVID County Risk Level",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1601394399,
+    "description": "COVID risk level , daily new cases, daily new cases per 100k, and rank for US counties",
+    "displayType": "table",
+    "downloadCount": 91,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35363760,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1601410289,
+    "publicationGroup": 17608217,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1601411841,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17608679,
+    "totalTimesRated": 0,
+    "viewCount": 175,
+    "viewLastModified": 1666189546,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1601405477,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2746435,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1601394677,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1601405477,
+                "failureCount": 0,
+                "startedAt": 1601405477,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 498615563,
+            "name": "County",
+            "dataTypeName": "text",
+            "description": "County data represents",
+            "fieldName": "county",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 117250357,
+            "format": {}
+        },
+        {
+            "id": 498615564,
+            "name": "Metric",
+            "dataTypeName": "text",
+            "description": "Metric this row describes",
+            "fieldName": "metric",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 117250356,
+            "format": {}
+        },
+        {
+            "id": 498615565,
+            "name": "Metric Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the data is for",
+            "fieldName": "metric_date",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 117250354,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 498615566,
+            "name": "Metric Value",
+            "dataTypeName": "number",
+            "description": "Value of the metric on this date",
+            "fieldName": "metric_value",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 117257076,
+            "format": {}
+        },
+        {
+            "id": 498615567,
+            "name": "Metric Risk Level",
+            "dataTypeName": "text",
+            "description": "Risk level on this date",
+            "fieldName": "metric_risk_level",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 117259839,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "County level metric on a specific date",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid",
+        "county"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,660 @@
+{
+    "id": "n7qs-sa9u",
+    "name": "2017 5-Year English as Second Language",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1568121540,
+    "description": "English as a second language data for census tracts in Chattanooga. Data from ACS",
+    "displayType": "table",
+    "downloadCount": 63,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571335504,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32332918,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1568121936,
+    "publicationGroup": 16505789,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568827189,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16505789,
+    "totalTimesRated": 0,
+    "viewCount": 153,
+    "viewLastModified": 1568827188,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568121969,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1173282,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568121936,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568121969,
+                "failureCount": 0,
+                "startedAt": 1568121969,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 427665956,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87262128,
+            "format": {}
+        },
+        {
+            "id": 427665940,
+            "name": "Id2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id2",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87262112,
+            "format": {}
+        },
+        {
+            "id": 427665932,
+            "name": "tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87262104,
+            "format": {}
+        },
+        {
+            "id": 427665957,
+            "name": "Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geography",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 87262129,
+            "format": {}
+        },
+        {
+            "id": 427665933,
+            "name": "ESL Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "esl_spanish",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87262105,
+            "format": {}
+        },
+        {
+            "id": 427665918,
+            "name": "ESL Spanish 1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "esl_spanish_1",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 87262090,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427665925,
+            "name": "Total; Estimate; All households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_estimate_all_households",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87262097,
+            "format": {}
+        },
+        {
+            "id": 427665930,
+            "name": "Total; Margin of Error; All households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_margin_of_error_all",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87262102,
+            "format": {}
+        },
+        {
+            "id": 427665939,
+            "name": "Percent; Estimate; All households",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "percent_estimate_all",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 87262111,
+            "format": {}
+        },
+        {
+            "id": 427665922,
+            "name": "Percent; Margin of Error; All households",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "percent_margin_of_error_all",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 87262094,
+            "format": {}
+        },
+        {
+            "id": 427665952,
+            "name": "Limited English-speaking households; Estimate; All households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 87262124,
+            "format": {}
+        },
+        {
+            "id": 427665923,
+            "name": "Limited English-speaking households; Margin of Error; All households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_1",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 87262095,
+            "format": {}
+        },
+        {
+            "id": 427665949,
+            "name": "Percent limited English-speaking households; Estimate; All households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 87262121,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 427665943,
+            "name": "Percent limited English-speaking households; Margin of Error; All households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_1",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 87262115,
+            "format": {}
+        },
+        {
+            "id": 427665934,
+            "name": "Total; Estimate; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_estimate_households",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 87262106,
+            "format": {}
+        },
+        {
+            "id": 427665947,
+            "name": "Total; Margin of Error; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_margin_of_error",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 87262119,
+            "format": {}
+        },
+        {
+            "id": 427665931,
+            "name": "Percent; Estimate; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_estimate_households",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 87262103,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427665919,
+            "name": "Percent; Margin of Error; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_margin_of_error",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 87262091,
+            "format": {}
+        },
+        {
+            "id": 427665945,
+            "name": "Limited English-speaking households; Estimate; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_2",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 87262117,
+            "format": {}
+        },
+        {
+            "id": 427665955,
+            "name": "Limited English-speaking households; Margin of Error; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_3",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 87262127,
+            "format": {}
+        },
+        {
+            "id": 427665936,
+            "name": "Percent limited English-speaking households; Estimate; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_2",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 87262108,
+            "format": {}
+        },
+        {
+            "id": 427665926,
+            "name": "Percent limited English-speaking households; Margin of Error; Households speaking -- - Spanish",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_3",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 87262098,
+            "format": {}
+        },
+        {
+            "id": 427665946,
+            "name": "Total; Estimate; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_estimate_households_1",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 87262118,
+            "format": {}
+        },
+        {
+            "id": 427665928,
+            "name": "Total; Margin of Error; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_margin_of_error_1",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 87262100,
+            "format": {}
+        },
+        {
+            "id": 427665913,
+            "name": "Percent; Estimate; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_estimate_households_1",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 87262085,
+            "format": {}
+        },
+        {
+            "id": 427665958,
+            "name": "Percent; Margin of Error; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_margin_of_error_1",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 87262130,
+            "format": {}
+        },
+        {
+            "id": 427665942,
+            "name": "Limited English-speaking households; Estimate; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_4",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 87262114,
+            "format": {}
+        },
+        {
+            "id": 427665917,
+            "name": "Limited English-speaking households; Margin of Error; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_5",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 87262089,
+            "format": {}
+        },
+        {
+            "id": 427665954,
+            "name": "Percent limited English-speaking households; Estimate; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_4",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 87262126,
+            "format": {}
+        },
+        {
+            "id": 427665929,
+            "name": "Percent limited English-speaking households; Margin of Error; Households speaking -- - Other Indo-European languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_5",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 87262101,
+            "format": {}
+        },
+        {
+            "id": 427665950,
+            "name": "Total; Estimate; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_estimate_households_2",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 87262122,
+            "format": {}
+        },
+        {
+            "id": 427665924,
+            "name": "Total; Margin of Error; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_margin_of_error_2",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 87262096,
+            "format": {}
+        },
+        {
+            "id": 427665937,
+            "name": "Percent; Estimate; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_estimate_households_2",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 87262109,
+            "format": {}
+        },
+        {
+            "id": 427665948,
+            "name": "Percent; Margin of Error; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_margin_of_error_2",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 87262120,
+            "format": {}
+        },
+        {
+            "id": 427665944,
+            "name": "Limited English-speaking households; Estimate; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_6",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 87262116,
+            "format": {}
+        },
+        {
+            "id": 427665916,
+            "name": "Limited English-speaking households; Margin of Error; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_7",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 87262088,
+            "format": {}
+        },
+        {
+            "id": 427665951,
+            "name": "Percent limited English-speaking households; Estimate; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_6",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 87262123,
+            "format": {}
+        },
+        {
+            "id": 427665941,
+            "name": "Percent limited English-speaking households; Margin of Error; Households speaking -- - Asian and Pacific Island languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_7",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 87262113,
+            "format": {}
+        },
+        {
+            "id": 427665953,
+            "name": "Total; Estimate; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_estimate_households_3",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 87262125,
+            "format": {}
+        },
+        {
+            "id": 427665938,
+            "name": "Total; Margin of Error; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_margin_of_error_3",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 87262110,
+            "format": {}
+        },
+        {
+            "id": 427665927,
+            "name": "Percent; Estimate; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_estimate_households_3",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 87262099,
+            "format": {}
+        },
+        {
+            "id": 427665915,
+            "name": "Percent; Margin of Error; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_margin_of_error_3",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 87262087,
+            "format": {}
+        },
+        {
+            "id": 427665914,
+            "name": "Limited English-speaking households; Estimate; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_8",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 87262086,
+            "format": {}
+        },
+        {
+            "id": 427665959,
+            "name": "Limited English-speaking households; Margin of Error; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "limited_english_speaking_9",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 87262131,
+            "format": {}
+        },
+        {
+            "id": 427665921,
+            "name": "Percent limited English-speaking households; Estimate; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_8",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 87262093,
+            "format": {}
+        },
+        {
+            "id": 427665935,
+            "name": "Percent limited English-speaking households; Margin of Error; Households speaking -- - Other languages",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_limited_english_9",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 87262107,
+            "format": {}
+        },
+        {
+            "id": 427665920,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 47,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87262092,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "acs",
+        "esl"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

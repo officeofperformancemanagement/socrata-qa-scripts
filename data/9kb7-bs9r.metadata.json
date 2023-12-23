@@ -1,0 +1,624 @@
+{
+    "id": "9kb7-bs9r",
+    "name": "TDOT Traffic Counts",
+    "assetType": "dataset",
+    "attribution": "TDOT",
+    "attributionLink": "https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1588085114,
+    "description": "Data pulled from TDOTs traffic history webmap (https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354).",
+    "displayType": "table",
+    "downloadCount": 694,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34011674,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1588085530,
+    "publicationGroup": 17071934,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1588085529,
+    "rowsUpdatedBy": "iiwc-mbju",
+    "tableId": 17071934,
+    "totalTimesRated": 0,
+    "viewCount": 177,
+    "viewLastModified": 1588085530,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1588085595,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2133094,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1588085530,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1588085595,
+                "failureCount": 0,
+                "startedAt": 1588085595,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 464309132,
+            "name": "the_geom",
+            "dataTypeName": "multipoint",
+            "description": "",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multipoint",
+            "tableColumnId": 100012801,
+            "format": {}
+        },
+        {
+            "id": 464309114,
+            "name": "STATION_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "station_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 100012783,
+            "format": {}
+        },
+        {
+            "id": 464309146,
+            "name": "STN_NUMBER",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stn_number",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 100012815,
+            "format": {}
+        },
+        {
+            "id": 464309136,
+            "name": "COUNTY",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 100012805,
+            "format": {}
+        },
+        {
+            "id": 464309129,
+            "name": "LOCATION",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 100012798,
+            "format": {}
+        },
+        {
+            "id": 464309140,
+            "name": "RTE_NUMBER",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rte_number",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 100012809,
+            "format": {}
+        },
+        {
+            "id": 464309121,
+            "name": "AADT_2018",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2018",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 100012790,
+            "format": {}
+        },
+        {
+            "id": 464309155,
+            "name": "AADT_2017",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2017",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 100012824,
+            "format": {}
+        },
+        {
+            "id": 464309139,
+            "name": "AADT_2016",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2016",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 100012808,
+            "format": {}
+        },
+        {
+            "id": 464309138,
+            "name": "AADT_2015",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2015",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 100012807,
+            "format": {}
+        },
+        {
+            "id": 464309119,
+            "name": "AADT_2014",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2014",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 100012788,
+            "format": {}
+        },
+        {
+            "id": 464309118,
+            "name": "AADT_2013",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2013",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 100012787,
+            "format": {}
+        },
+        {
+            "id": 464309122,
+            "name": "AADT_2012",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2012",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 100012791,
+            "format": {}
+        },
+        {
+            "id": 464309115,
+            "name": "AADT_2011",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2011",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 100012784,
+            "format": {}
+        },
+        {
+            "id": 464309135,
+            "name": "AADT_2010",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2010",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 100012804,
+            "format": {}
+        },
+        {
+            "id": 464309142,
+            "name": "AADT_2009",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2009",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 100012811,
+            "format": {}
+        },
+        {
+            "id": 464309133,
+            "name": "AADT_2008",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2008",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 100012802,
+            "format": {}
+        },
+        {
+            "id": 464309128,
+            "name": "AADT_2007",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2007",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 100012797,
+            "format": {}
+        },
+        {
+            "id": 464309137,
+            "name": "AADT_2006",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2006",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 100012806,
+            "format": {}
+        },
+        {
+            "id": 464309124,
+            "name": "AADT_2005",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2005",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 100012793,
+            "format": {}
+        },
+        {
+            "id": 464309143,
+            "name": "AADT_2004",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2004",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 100012812,
+            "format": {}
+        },
+        {
+            "id": 464309120,
+            "name": "AADT_2003",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2003",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 100012789,
+            "format": {}
+        },
+        {
+            "id": 464309131,
+            "name": "AADT_2002",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2002",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 100012800,
+            "format": {}
+        },
+        {
+            "id": 464309156,
+            "name": "AADT_2001",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2001",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 100012825,
+            "format": {}
+        },
+        {
+            "id": 464309127,
+            "name": "AADT_2000",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_2000",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 100012796,
+            "format": {}
+        },
+        {
+            "id": 464309147,
+            "name": "AADT_1999",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1999",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 100012816,
+            "format": {}
+        },
+        {
+            "id": 464309151,
+            "name": "AADT_1998",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1998",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 100012820,
+            "format": {}
+        },
+        {
+            "id": 464309145,
+            "name": "AADT_1997",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1997",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 100012814,
+            "format": {}
+        },
+        {
+            "id": 464309130,
+            "name": "AADT_1996",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1996",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 100012799,
+            "format": {}
+        },
+        {
+            "id": 464309144,
+            "name": "AADT_1995",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1995",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 100012813,
+            "format": {}
+        },
+        {
+            "id": 464309149,
+            "name": "AADT_1994",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1994",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 100012818,
+            "format": {}
+        },
+        {
+            "id": 464309148,
+            "name": "AADT_1993",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1993",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 100012817,
+            "format": {}
+        },
+        {
+            "id": 464309150,
+            "name": "AADT_1992",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1992",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 100012819,
+            "format": {}
+        },
+        {
+            "id": 464309126,
+            "name": "AADT_1991",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1991",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 100012795,
+            "format": {}
+        },
+        {
+            "id": 464309116,
+            "name": "AADT_1990",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1990",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 100012785,
+            "format": {}
+        },
+        {
+            "id": 464309152,
+            "name": "AADT_1989",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1989",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 100012821,
+            "format": {}
+        },
+        {
+            "id": 464309134,
+            "name": "AADT_1988",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1988",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 100012803,
+            "format": {}
+        },
+        {
+            "id": 464309154,
+            "name": "AADT_1987",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1987",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 100012823,
+            "format": {}
+        },
+        {
+            "id": 464309113,
+            "name": "AADT_1986",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1986",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 100012782,
+            "format": {}
+        },
+        {
+            "id": 464309153,
+            "name": "AADT_1985",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1985",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 100012822,
+            "format": {}
+        },
+        {
+            "id": 464309117,
+            "name": "AADT_1984",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1984",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 100012786,
+            "format": {}
+        },
+        {
+            "id": 464309125,
+            "name": "AADT_1983",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt_1983",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 100012794,
+            "format": {}
+        },
+        {
+            "id": 464309123,
+            "name": "X",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "x",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 100012792,
+            "format": {}
+        },
+        {
+            "id": 464309141,
+            "name": "Y",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "y",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 100012810,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "kdoyle@chattanooga.gov ",
+                "Department": "Transportation",
+                "Data Steward Name": "Ken Doyle ",
+                "How often are data values updated?": "Yearly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "traffic count",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "traffic",
+        "counts"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

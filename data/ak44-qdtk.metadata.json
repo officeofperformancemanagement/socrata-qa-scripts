@@ -1,0 +1,289 @@
+{
+    "id": "ak44-qdtk",
+    "name": "Housing Types",
+    "assetType": "dataset",
+    "attribution": "ACS",
+    "averageRating": 0,
+    "createdAt": 1568118324,
+    "description": "Percentage of housing types by census tract. Data from ACS",
+    "displayType": "table",
+    "downloadCount": 61,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571248277,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32332692,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1568118569,
+    "publicationGroup": 16505746,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568118568,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16505746,
+    "totalTimesRated": 0,
+    "viewCount": 130,
+    "viewLastModified": 1568118569,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568118595,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1173089,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568118569,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568118595,
+                "failureCount": 0,
+                "startedAt": 1568118595,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 427660120,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87261049,
+            "format": {}
+        },
+        {
+            "id": 427660123,
+            "name": "Id2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id2",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87261052,
+            "format": {}
+        },
+        {
+            "id": 427660125,
+            "name": "tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87261054,
+            "format": {}
+        },
+        {
+            "id": 427660121,
+            "name": "Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geography",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 87261050,
+            "format": {}
+        },
+        {
+            "id": 427660122,
+            "name": "SF Lower Quartile (59.09%)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sf_lower_quartile_59_09",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87261051,
+            "format": {}
+        },
+        {
+            "id": 427660119,
+            "name": "Single Family",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "single_family",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 87261048,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427660128,
+            "name": "Townhome",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "townhome",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87261057,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427660117,
+            "name": "Small Rental (2-9)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "small_rental_2_9",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87261046,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427660118,
+            "name": "Larger Rental (10 or more)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "larger_rental_10_or_more",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 87261047,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427660126,
+            "name": "Manufactured Home",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "manufactured_home",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 87261055,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427660127,
+            "name": "Other",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "other",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 87261056,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427660124,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 12,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87261053,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "acs",
+        "housing types"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

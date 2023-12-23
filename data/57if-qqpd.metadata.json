@@ -1,0 +1,377 @@
+{
+    "id": "57if-qqpd",
+    "name": "Sidewalk 311 Service Requests",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1563193722,
+    "description": "311 SRs for Sidewalks only",
+    "displayType": "table",
+    "downloadCount": 123,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "k7eh-65x3",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39707135,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1563193819,
+    "publicationGroup": 15950137,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703254044,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19190800,
+    "totalTimesRated": 0,
+    "viewCount": 206,
+    "viewLastModified": 1563193819,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1563193833,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5587943,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1563193819,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1563193833,
+                "failureCount": 0,
+                "startedAt": 1563193833,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 577284939,
+            "name": "service_request_key",
+            "dataTypeName": "text",
+            "description": "Unique identifier of the service request in the Accela system.",
+            "fieldName": "service_request_key",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76762095,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284940,
+            "name": "created_date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the service request was created.",
+            "fieldName": "created_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76762084,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284942,
+            "name": "request_type",
+            "dataTypeName": "text",
+            "description": "The type of the service request created.",
+            "fieldName": "request_type",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76762086,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284943,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "Description of the service request often populated by the constituent submitting the request.",
+            "fieldName": "description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76762087,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284944,
+            "name": "request_type_code",
+            "dataTypeName": "text",
+            "description": "Urgency of the request, (Urgent, Emergency, Standard, None, etc.).",
+            "fieldName": "request_type_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76762088,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284945,
+            "name": "status_code",
+            "dataTypeName": "text",
+            "description": "Status of the request, Open, New, and Closed.",
+            "fieldName": "status_code",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76762089,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284946,
+            "name": "intake_form",
+            "dataTypeName": "text",
+            "description": "How the request was submitted.",
+            "fieldName": "intake_form",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76762090,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284947,
+            "name": "days_to_complete",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "days_to_complete",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 81399746,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284948,
+            "name": "sla_fy_2019",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sla_fy_2019",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 82038591,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284949,
+            "name": "on_time_indicator",
+            "dataTypeName": "text",
+            "description": "Indicator if the request is completed at or before the due date.",
+            "fieldName": "on_time_indicator",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76829311,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284950,
+            "name": "completed_at",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is completed.",
+            "fieldName": "completed_at",
+            "position": 11,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975646,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284951,
+            "name": "due_at",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is due.",
+            "fieldName": "due_at",
+            "position": 12,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975647,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284952,
+            "name": "ispublic",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ispublic",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 80865363,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284953,
+            "name": "council_district",
+            "dataTypeName": "text",
+            "description": "Council District in which the requests was submitted for",
+            "fieldName": "council_district",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 81939070,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284954,
+            "name": "loc",
+            "dataTypeName": "point",
+            "description": "Column created from a SoQL query.",
+            "fieldName": "loc",
+            "position": 16,
+            "renderTypeName": "point",
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Transportation",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "filterCondition": {
+            "type": "operator",
+            "value": "AND",
+            "children": [
+                {
+                    "type": "operator",
+                    "value": "OR",
+                    "children": [
+                        {
+                            "type": "operator",
+                            "value": "STARTS_WITH",
+                            "children": [
+                                {
+                                    "columnId": 577284942,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "Sidewalk"
+                                }
+                            ],
+                            "metadata": {
+                                "freeform": true
+                            }
+                        }
+                    ],
+                    "metadata": {
+                        "tableColumnId": {
+                            "15950137": 76762086
+                        },
+                        "operator": "STARTS_WITH"
+                    }
+                }
+            ],
+            "metadata": {
+                "unifiedVersion": 2
+            }
+        }
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

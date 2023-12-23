@@ -1,0 +1,568 @@
+{
+    "id": "9sad-9wyu",
+    "name": "All Part 1 Property Crimes",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1562680870,
+    "description": "All Part 1 Property Crime Incidents CPD responds to.",
+    "displayType": "table",
+    "downloadCount": 275,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "jvkg-79ss",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39108777,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1562683352,
+    "publicationGroup": 15936287,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703242961,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18984805,
+    "totalTimesRated": 0,
+    "viewCount": 823,
+    "viewLastModified": 1562683352,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562681075,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5149105,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562681033,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562681075,
+                "failureCount": 0,
+                "startedAt": 1562681075,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 568778276,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "Generalized address of incident",
+            "fieldName": "address",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76585105,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778277,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "City of incident",
+            "fieldName": "city",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 76585106,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778278,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "State of incident",
+            "fieldName": "state",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76585107,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778279,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "Zip of incident",
+            "fieldName": "zip",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76585108,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778280,
+            "name": "Date_Incident",
+            "dataTypeName": "calendar_date",
+            "description": "Date incident occurred",
+            "fieldName": "date_incident",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76585109,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778281,
+            "name": "Jurisdiction",
+            "dataTypeName": "text",
+            "description": "Jurisdiction of responding unit",
+            "fieldName": "jurisdiction",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76585110,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778282,
+            "name": "Incident_Tract",
+            "dataTypeName": "text",
+            "description": "Police district where incident occurred",
+            "fieldName": "incident_tract",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76585111,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778283,
+            "name": "Zone",
+            "dataTypeName": "text",
+            "description": "Zone where incident occurred",
+            "fieldName": "zone",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76585112,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778284,
+            "name": "UCR_Incident_Code",
+            "dataTypeName": "text",
+            "description": "UCR stands for Uniform Crime Reporting. The program was conceived in 1929 by the International Association of Chiefs of Police to meet the need for reliable uniform crime statistics for the nation. In 1930, the FBI was tasked with collecting, publishing, and archiving those statistics.",
+            "fieldName": "ucr_incident_code",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76585104,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778285,
+            "name": "Incident_Description",
+            "dataTypeName": "text",
+            "description": "Description of incident",
+            "fieldName": "incident_description",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76585113,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778286,
+            "name": "Incident_Type",
+            "dataTypeName": "text",
+            "description": "Type of incident",
+            "fieldName": "incident_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76585114,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778287,
+            "name": "Case_Number",
+            "dataTypeName": "text",
+            "description": "Case number",
+            "fieldName": "case_number",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 76585115,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778288,
+            "name": "Case_Status",
+            "dataTypeName": "text",
+            "description": "Case status code",
+            "fieldName": "case_status",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76585103,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778289,
+            "name": "Case_Status_Description",
+            "dataTypeName": "text",
+            "description": "Description for case status code",
+            "fieldName": "case_status_description",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76585116,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778291,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Approximate latitude of incident",
+            "fieldName": "latitude",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 76585117,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778292,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Approximate longitude of incident",
+            "fieldName": "longitude",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 76585118,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778293,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "Approximate location of incident in well known text format",
+            "fieldName": "location",
+            "position": 17,
+            "renderTypeName": "point",
+            "tableColumnId": 76585119,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778295,
+            "name": "citydst",
+            "dataTypeName": "text",
+            "description": "Council district where incident occurred",
+            "fieldName": "citydst",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 81996682,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568778300,
+            "name": "Council",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 83911300,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "filterCondition": {
+            "type": "operator",
+            "value": "AND",
+            "children": [
+                {
+                    "type": "operator",
+                    "value": "OR",
+                    "children": [
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "220"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "240"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23A"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23B"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23C"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23D"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23E"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23F"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23G"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "operator",
+                            "value": "EQUALS",
+                            "children": [
+                                {
+                                    "columnId": 568778284,
+                                    "type": "column"
+                                },
+                                {
+                                    "type": "literal",
+                                    "value": "23H"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "police",
+        "part 1 crimes",
+        "part 1",
+        "property crime",
+        "burglary",
+        "stolen vehicle",
+        "shoplifting",
+        "safety"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

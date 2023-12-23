@@ -1,0 +1,371 @@
+{
+    "id": "sp42-d42z",
+    "name": "Bicycle Parking Locations in the City of Chattanooga",
+    "assetType": "dataset",
+    "attribution": "Transportation Department",
+    "attributionLink": "https://github.com/cityofchattanooga/Bicycle-Parking",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1404191562,
+    "description": "This dataset contains the bicycle parking locations. It also contains the type and capacity for each bicycle parking at each location.",
+    "displayType": "table",
+    "downloadCount": 369,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1455047487,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 8577002,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1407189330,
+    "publicationGroup": 1634018,
+    "publicationStage": "published",
+    "resourceName": "bicycle-parking-locations-in-the-city-of-chattanooga",
+    "rowClass": "",
+    "rowsUpdatedAt": 1407214099,
+    "rowsUpdatedBy": "hgsw-frcm",
+    "tableId": 1672185,
+    "totalTimesRated": 0,
+    "viewCount": 956,
+    "viewLastModified": 1455046806,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1407189330,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366692,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1407189330,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "b77b-kr9r",
+                "displayName": "Sean Brewer"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 160490894,
+            "name": "Name",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 20551973,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 160490896,
+            "name": "Type",
+            "dataTypeName": "text",
+            "fieldName": "type",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 20551975,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 160490897,
+            "name": "Capacity",
+            "dataTypeName": "number",
+            "fieldName": "capacity",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 20551976,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 160490898,
+            "name": "Location 1",
+            "dataTypeName": "point",
+            "fieldName": "location_1",
+            "position": 4,
+            "renderTypeName": "point",
+            "tableColumnId": 20551977,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 404484231,
+            "name": "Location 1 (address)",
+            "dataTypeName": "text",
+            "fieldName": "location_1_address",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 79497042,
+            "format": {}
+        },
+        {
+            "id": 404484229,
+            "name": "Location 1 (city)",
+            "dataTypeName": "text",
+            "fieldName": "location_1_city",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 79497040,
+            "format": {}
+        },
+        {
+            "id": 404484230,
+            "name": "Location 1 (state)",
+            "dataTypeName": "text",
+            "fieldName": "location_1_state",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 79497041,
+            "format": {}
+        },
+        {
+            "id": 404484228,
+            "name": "Location 1 (zip)",
+            "dataTypeName": "text",
+            "fieldName": "location_1_zip",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 79497039,
+            "format": {}
+        },
+        {
+            "id": 404484232,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 79497043,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404484233,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 79497044,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404484234,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 79497045,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404484235,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 79497046,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404484236,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 79497047,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404484237,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 79497048,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404484238,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 79497049,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404484239,
+            "name": "Council_data 2",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ap6c_9ws7",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 79497050,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_1"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ap6c-9ws7",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "rowLabel": "bicycle parking location",
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "b77b-kr9r",
+        "displayName": "Sean Brewer",
+        "screenName": "Sean Brewer",
+        "type": "interactive"
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "b77b-kr9r",
+        "displayName": "Sean Brewer",
+        "screenName": "Sean Brewer",
+        "type": "interactive"
+    },
+    "tags": [
+        "bicycle parking",
+        "parking",
+        "bicycle"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

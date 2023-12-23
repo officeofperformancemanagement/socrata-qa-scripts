@@ -1,0 +1,497 @@
+{
+    "id": "tdq7-y7yk",
+    "name": "Open Checkbook Distributions",
+    "assetType": "dataset",
+    "attributionLink": "https://checkbook.chattanooga.gov/#!/year/2021/",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1580408274,
+    "description": "This contains data on all City of Chattanooga distributions from non-personnel accounts. Powers the City's Open Checkbook site at https://checkbook.chattanooga.gov/",
+    "displayType": "table",
+    "downloadCount": 161,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33421620,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1580999025,
+    "publicationGroup": 16861507,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1638821280,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16873537,
+    "totalTimesRated": 0,
+    "viewCount": 371,
+    "viewLastModified": 1638820660,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583521253,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1941129,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583521231,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583521253,
+                "failureCount": 0,
+                "startedAt": 1583521253,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 450284345,
+            "name": "Ledger Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ledger_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 94070575,
+            "format": {}
+        },
+        {
+            "id": 450284346,
+            "name": "Operating Unit",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "operating_unit",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 94070576,
+            "format": {}
+        },
+        {
+            "id": 450284347,
+            "name": "Vendor",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "vendor",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 94070578,
+            "format": {}
+        },
+        {
+            "id": 450284349,
+            "name": "Invoice Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_number",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 94070580,
+            "format": {}
+        },
+        {
+            "id": 450284350,
+            "name": "Invoice Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "invoice_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94070581,
+            "format": {}
+        },
+        {
+            "id": 450284351,
+            "name": "Invoice Amount",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "invoice_amount",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 94070599,
+            "format": {}
+        },
+        {
+            "id": 450284352,
+            "name": "Invoice Creation Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "invoice_creation_date",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94070600,
+            "format": {}
+        },
+        {
+            "id": 450284353,
+            "name": "Invoice Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_description",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 94070601,
+            "format": {}
+        },
+        {
+            "id": 450284354,
+            "name": "Invoice Base Amount",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_base_amount",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 94070602,
+            "format": {}
+        },
+        {
+            "id": 450284355,
+            "name": "Invoice Amount Paid",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "invoice_amount_paid",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 94070604,
+            "format": {}
+        },
+        {
+            "id": 450284356,
+            "name": "Invoice Cancelled Amount",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_cancelled_amount",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 94070606,
+            "format": {}
+        },
+        {
+            "id": 450284357,
+            "name": "Invoice Cancelled By",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_cancelled_by",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 94070608,
+            "format": {}
+        },
+        {
+            "id": 450284358,
+            "name": "Invoice Cancelled Date",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_cancelled_date",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 94070610,
+            "format": {}
+        },
+        {
+            "id": 450284359,
+            "name": "Invoice Created By",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_created_by",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 94070603,
+            "format": {}
+        },
+        {
+            "id": 450284360,
+            "name": "Invoice Gl Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "invoice_gl_date",
+            "position": 16,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94070612,
+            "format": {}
+        },
+        {
+            "id": 450284361,
+            "name": "Invoice Payables Account",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_payables_account",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 94070574,
+            "format": {}
+        },
+        {
+            "id": 450284362,
+            "name": "Invoice Payment Status",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "invoice_payment_status",
+            "position": 18,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 94070613,
+            "format": {}
+        },
+        {
+            "id": 450284363,
+            "name": "Invoice Pay Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_pay_group",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 94070614,
+            "format": {}
+        },
+        {
+            "id": 450284364,
+            "name": "Invoice Pay Method",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_pay_method",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 94070615,
+            "format": {}
+        },
+        {
+            "id": 450284365,
+            "name": "Invoice Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "invoice_type",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 94070616,
+            "format": {}
+        },
+        {
+            "id": 450284366,
+            "name": "Account Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "account_description",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 94070617,
+            "format": {}
+        },
+        {
+            "id": 450284367,
+            "name": "Cost Center",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cost_center",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 94070618,
+            "format": {}
+        },
+        {
+            "id": 450284368,
+            "name": "Fund",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fund",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 94070619,
+            "format": {}
+        },
+        {
+            "id": 450284369,
+            "name": "Activity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "activity",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 94070620,
+            "format": {}
+        },
+        {
+            "id": 450284370,
+            "name": "Distribution Amount",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "distribution_amount",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 94070621,
+            "format": {}
+        },
+        {
+            "id": 450284371,
+            "name": "Work Location",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "work_location",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 94070622,
+            "format": {}
+        },
+        {
+            "id": 450284372,
+            "name": "Vendor Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "vendor_id",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 94070611,
+            "format": {}
+        },
+        {
+            "id": 450284373,
+            "name": "Department",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "department",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 94070623,
+            "format": {}
+        },
+        {
+            "id": 450284374,
+            "name": "Fiscal Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 94070577,
+            "format": {}
+        },
+        {
+            "id": 450284375,
+            "name": "Fiscal Month",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "fiscal_month",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 94076813,
+            "format": {}
+        },
+        {
+            "id": 450284376,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 94104863,
+            "format": {}
+        },
+        {
+            "id": 450284377,
+            "name": "Unit Price",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unit_price",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 94255510,
+            "format": {}
+        },
+        {
+            "id": 450284378,
+            "name": "Quantity",
+            "dataTypeName": "number",
+            "description": "Quantity of units bought.  May not be the actual number of units especially related to IT Services.",
+            "fieldName": "quantity",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 94255509,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Distributions",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "open checkbook",
+        "checkbook",
+        "spending"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,869 @@
+{
+    "id": "izcq-5s4b",
+    "name": "CDC PLACES: Hamilton County Census Tract Data, 2020 Release",
+    "assetType": "dataset",
+    "attribution": "CDC",
+    "attributionLink": "https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2020-/yjkw-uj5s",
+    "averageRating": 0,
+    "createdAt": 1622638401,
+    "description": "Health data from the CDC's 500 cities project expanded to all census tracts. For more information on this project check out the source data here:  https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2020-/yjkw-uj5s",
+    "displayType": "table",
+    "downloadCount": 70,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37265093,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1622640678,
+    "publicationGroup": 18336792,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1622640672,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18336792,
+    "totalTimesRated": 0,
+    "viewCount": 119,
+    "viewLastModified": 1622640739,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1622640723,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3683172,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1622640678,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1622640723,
+                "failureCount": 0,
+                "startedAt": 1622640723,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 541661871,
+            "name": "StateAbbr",
+            "dataTypeName": "text",
+            "description": "State abbreviation",
+            "fieldName": "stateabbr",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 138183062,
+            "format": {}
+        },
+        {
+            "id": 541661870,
+            "name": "StateDesc",
+            "dataTypeName": "text",
+            "description": "State name",
+            "fieldName": "statedesc",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 138183061,
+            "format": {}
+        },
+        {
+            "id": 541661850,
+            "name": "CountyName",
+            "dataTypeName": "text",
+            "description": "County name",
+            "fieldName": "countyname",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 138183041,
+            "format": {}
+        },
+        {
+            "id": 541661799,
+            "name": "CountyFIPS",
+            "dataTypeName": "text",
+            "description": "County FIPS code",
+            "fieldName": "countyfips",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 138183014,
+            "format": {}
+        },
+        {
+            "id": 541661863,
+            "name": "TractFIPS",
+            "dataTypeName": "text",
+            "description": "Census tract FIPS code",
+            "fieldName": "tractfips",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 138183054,
+            "format": {}
+        },
+        {
+            "id": 541661859,
+            "name": "TotalPopulation",
+            "dataTypeName": "number",
+            "description": "2010 Census population count",
+            "fieldName": "totalpopulation",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 138183050,
+            "format": {}
+        },
+        {
+            "id": 541661817,
+            "name": "ACCESS2_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of current lack of health insurance among adults aged 18-64 years, 2018",
+            "fieldName": "access2_crudeprev",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 138183032,
+            "format": {}
+        },
+        {
+            "id": 541661842,
+            "name": "ACCESS2_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of current lack of health insurance among adults aged 18 - 64 years",
+            "fieldName": "access2_crude95ci",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 138183037,
+            "format": {}
+        },
+        {
+            "id": 541661803,
+            "name": "ARTHRITIS_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of arthritis among adults aged >=18 years, 2018",
+            "fieldName": "arthritis_crudeprev",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 138183018,
+            "format": {}
+        },
+        {
+            "id": 541661812,
+            "name": "ARTHRITIS_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of arthritis among adults aged ≥18 years",
+            "fieldName": "arthritis_crude95ci",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 138183027,
+            "format": {}
+        },
+        {
+            "id": 541661801,
+            "name": "BINGE_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of binge drinking among adults aged >=18 years, 2018",
+            "fieldName": "binge_crudeprev",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 138183016,
+            "format": {}
+        },
+        {
+            "id": 541661901,
+            "name": "BINGE_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of binge drinking among adults aged >=18 years",
+            "fieldName": "binge_crude95ci",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 138183068,
+            "format": {}
+        },
+        {
+            "id": 541661860,
+            "name": "BPHIGH_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of high blood pressure among adults aged >=18 years, 2017",
+            "fieldName": "bphigh_crudeprev",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 138183051,
+            "format": {}
+        },
+        {
+            "id": 541661847,
+            "name": "BPHIGH_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of high blood pressure among adults aged >=18 years",
+            "fieldName": "bphigh_crude95ci",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 138183038,
+            "format": {}
+        },
+        {
+            "id": 541661800,
+            "name": "BPMED_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of taking medicine for high blood pressure control among adults aged >=18 years with high blood pressure, 2017",
+            "fieldName": "bpmed_crudeprev",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 138183015,
+            "format": {}
+        },
+        {
+            "id": 541661849,
+            "name": "BPMED_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of taking medicine for high blood pressure control among adults aged >=18 years with high blood pressure",
+            "fieldName": "bpmed_crude95ci",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 138183040,
+            "format": {}
+        },
+        {
+            "id": 541661804,
+            "name": "CANCER_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of cancer (excluding skin cancer) among adults aged >=18 years, 2018",
+            "fieldName": "cancer_crudeprev",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 138183019,
+            "format": {}
+        },
+        {
+            "id": 541661816,
+            "name": "CANCER_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of cancer (excluding skin cancer) among adults aged >=18 years",
+            "fieldName": "cancer_crude95ci",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 138183031,
+            "format": {}
+        },
+        {
+            "id": 541661899,
+            "name": "CASTHMA_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of current asthma among adults aged >=18 years, 2018",
+            "fieldName": "casthma_crudeprev",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 138183066,
+            "format": {}
+        },
+        {
+            "id": 541661808,
+            "name": "CASTHMA_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of current asthma among adults aged >=18 years",
+            "fieldName": "casthma_crude95ci",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 138183023,
+            "format": {}
+        },
+        {
+            "id": 541661866,
+            "name": "CERVICAL_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of cervical cancer screening among adult women aged 21–65 years, 2018",
+            "fieldName": "cervical_crudeprev",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 138183057,
+            "format": {}
+        },
+        {
+            "id": 541661872,
+            "name": "CERVICAL_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of cervical cancer screening among adult women aged 21–65 years",
+            "fieldName": "cervical_crude95ci",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 138183063,
+            "format": {}
+        },
+        {
+            "id": 541661898,
+            "name": "CHD_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of coronary heart disease among adults aged >=18 years, 2018",
+            "fieldName": "chd_crudeprev",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 138183065,
+            "format": {}
+        },
+        {
+            "id": 541661858,
+            "name": "CHD_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of coronary heart disease among adults aged >=18 years",
+            "fieldName": "chd_crude95ci",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 138183049,
+            "format": {}
+        },
+        {
+            "id": 541661822,
+            "name": "CHECKUP_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of visits to doctor for routine checkup within the past year among adults aged >=18 years, 2018",
+            "fieldName": "checkup_crudeprev",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 138183036,
+            "format": {}
+        },
+        {
+            "id": 541661857,
+            "name": "CHECKUP_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of visits to doctor for routine checkup within the past year among adults aged >=18 years",
+            "fieldName": "checkup_crude95ci",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 138183048,
+            "format": {}
+        },
+        {
+            "id": 541661769,
+            "name": "CHOLSCREEN_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of cholesterol screening among adults aged >=18 years, 2017",
+            "fieldName": "cholscreen_crudeprev",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 138183008,
+            "format": {}
+        },
+        {
+            "id": 541661851,
+            "name": "CHOLSCREEN_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of cholesterol screening among adults aged >=18 years",
+            "fieldName": "cholscreen_crude95ci",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 138183042,
+            "format": {}
+        },
+        {
+            "id": 541661782,
+            "name": "COLON_SCREEN_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50–75 years, 2018",
+            "fieldName": "colon_screen_crudeprev",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 138183010,
+            "format": {}
+        },
+        {
+            "id": 541661813,
+            "name": "COLON_SCREEN_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of fecal occult blood test, sigmoidoscopy, or colonoscopy among adults aged 50–75 years",
+            "fieldName": "colon_screen_crude95ci",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 138183028,
+            "format": {}
+        },
+        {
+            "id": 541661856,
+            "name": "COPD_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of chronic obstructive pulmonary disease among adults aged >=18 years, 2018",
+            "fieldName": "copd_crudeprev",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 138183047,
+            "format": {}
+        },
+        {
+            "id": 541661880,
+            "name": "COPD_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of chronic obstructive pulmonary disease among adults aged >=18 years",
+            "fieldName": "copd_crude95ci",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 138183064,
+            "format": {}
+        },
+        {
+            "id": 541661818,
+            "name": "COREM_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of older adult men aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, 2018",
+            "fieldName": "corem_crudeprev",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 138183033,
+            "format": {}
+        },
+        {
+            "id": 541661810,
+            "name": "COREM_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of older adult men aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening",
+            "fieldName": "corem_crude95ci",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 138183025,
+            "format": {}
+        },
+        {
+            "id": 541661767,
+            "name": "COREW_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of older adult women aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years, 2018",
+            "fieldName": "corew_crudeprev",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 138183006,
+            "format": {}
+        },
+        {
+            "id": 541661797,
+            "name": "COREW_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of older adult women aged >=65 years who are up to date on a core set of clinical preventive services: Flu shot past year, PPV shot ever, Colorectal cancer screening, and Mammogram past 2 years",
+            "fieldName": "corew_crude95ci",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 138183012,
+            "format": {}
+        },
+        {
+            "id": 541661862,
+            "name": "CSMOKING_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of current smoking among adults aged >=18 years, 2018",
+            "fieldName": "csmoking_crudeprev",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 138183053,
+            "format": {}
+        },
+        {
+            "id": 541661809,
+            "name": "CSMOKING_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of current smoking among adults aged >=18 years",
+            "fieldName": "csmoking_crude95ci",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 138183024,
+            "format": {}
+        },
+        {
+            "id": 541661814,
+            "name": "DENTAL_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of visits to dentist or dental clinic among adults aged >=18 years, 2018",
+            "fieldName": "dental_crudeprev",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 138183029,
+            "format": {}
+        },
+        {
+            "id": 541661806,
+            "name": "DENTAL_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of visits to dentist or dental clinic among adults aged >=18 years",
+            "fieldName": "dental_crude95ci",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 138183021,
+            "format": {}
+        },
+        {
+            "id": 541661768,
+            "name": "DIABETES_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of diagnosed diabetes among adults aged >=18 years, 2018",
+            "fieldName": "diabetes_crudeprev",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 138183007,
+            "format": {}
+        },
+        {
+            "id": 541661861,
+            "name": "DIABETES_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of diagnosed diabetes among adults aged >=18 years",
+            "fieldName": "diabetes_crude95ci",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 138183052,
+            "format": {}
+        },
+        {
+            "id": 541661865,
+            "name": "HIGHCHOL_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of high cholesterol among adults aged >=18 years who have been screened in the past 5 years, 2017",
+            "fieldName": "highchol_crudeprev",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 138183056,
+            "format": {}
+        },
+        {
+            "id": 541661869,
+            "name": "HIGHCHOL_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of high cholesterol among adults aged >=18 years who have been screened in the past 5 years",
+            "fieldName": "highchol_crude95ci",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 138183060,
+            "format": {}
+        },
+        {
+            "id": 541661819,
+            "name": "KIDNEY_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of chronic kidney disease among adults aged >=18 years, 2018",
+            "fieldName": "kidney_crudeprev",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 138183034,
+            "format": {}
+        },
+        {
+            "id": 541661820,
+            "name": "KIDNEY_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of chronic kidney disease among adults aged >=18 years",
+            "fieldName": "kidney_crude95ci",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 138183035,
+            "format": {}
+        },
+        {
+            "id": 541661854,
+            "name": "LPA_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of no leisure-time physical activity among adults aged >=18 years, 2018",
+            "fieldName": "lpa_crudeprev",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 138183045,
+            "format": {}
+        },
+        {
+            "id": 541661900,
+            "name": "LPA_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of no leisure-time physical activity among adults aged >=18 years",
+            "fieldName": "lpa_crude95ci",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 138183067,
+            "format": {}
+        },
+        {
+            "id": 541661848,
+            "name": "MAMMOUSE_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of mammography use among women aged 50–74 years, 2018",
+            "fieldName": "mammouse_crudeprev",
+            "position": 49,
+            "renderTypeName": "number",
+            "tableColumnId": 138183039,
+            "format": {}
+        },
+        {
+            "id": 541661798,
+            "name": "MAMMOUSE_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of mammography use among women aged 50–74 years",
+            "fieldName": "mammouse_crude95ci",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 138183013,
+            "format": {}
+        },
+        {
+            "id": 541661796,
+            "name": "MHLTH_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of mental health not good for >=14 days among adults aged >=18 years, 2018",
+            "fieldName": "mhlth_crudeprev",
+            "position": 51,
+            "renderTypeName": "number",
+            "tableColumnId": 138183011,
+            "format": {}
+        },
+        {
+            "id": 541661867,
+            "name": "MHLTH_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of mental health not good for >=14 days among adults aged >=18 years",
+            "fieldName": "mhlth_crude95ci",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 138183058,
+            "format": {}
+        },
+        {
+            "id": 541661805,
+            "name": "OBESITY_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of obesity among adults aged >=18 years, 2018",
+            "fieldName": "obesity_crudeprev",
+            "position": 53,
+            "renderTypeName": "number",
+            "tableColumnId": 138183020,
+            "format": {}
+        },
+        {
+            "id": 541661864,
+            "name": "OBESITY_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of obesity among adults aged >=18 years",
+            "fieldName": "obesity_crude95ci",
+            "position": 54,
+            "renderTypeName": "text",
+            "tableColumnId": 138183055,
+            "format": {}
+        },
+        {
+            "id": 541661868,
+            "name": "PHLTH_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of physical health not good for >=14 days among adults aged >=18 years, 2018",
+            "fieldName": "phlth_crudeprev",
+            "position": 55,
+            "renderTypeName": "number",
+            "tableColumnId": 138183059,
+            "format": {}
+        },
+        {
+            "id": 541661811,
+            "name": "PHLTH_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of physical health not good for >=14 days among adults aged >=18 years",
+            "fieldName": "phlth_crude95ci",
+            "position": 56,
+            "renderTypeName": "text",
+            "tableColumnId": 138183026,
+            "format": {}
+        },
+        {
+            "id": 541661852,
+            "name": "SLEEP_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of sleeping less than 7 hours among adults aged >=18 years, 2018",
+            "fieldName": "sleep_crudeprev",
+            "position": 57,
+            "renderTypeName": "number",
+            "tableColumnId": 138183043,
+            "format": {}
+        },
+        {
+            "id": 541661802,
+            "name": "SLEEP_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of sleeping less than 7 hours among adults aged >=18 years",
+            "fieldName": "sleep_crude95ci",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 138183017,
+            "format": {}
+        },
+        {
+            "id": 541661815,
+            "name": "STROKE_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of stroke among adults aged >=18 years, 2018",
+            "fieldName": "stroke_crudeprev",
+            "position": 59,
+            "renderTypeName": "number",
+            "tableColumnId": 138183030,
+            "format": {}
+        },
+        {
+            "id": 541661807,
+            "name": "STROKE_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of stroke among adults aged >=18 years",
+            "fieldName": "stroke_crude95ci",
+            "position": 60,
+            "renderTypeName": "text",
+            "tableColumnId": 138183022,
+            "format": {}
+        },
+        {
+            "id": 541661855,
+            "name": "TEETHLOST_CrudePrev",
+            "dataTypeName": "number",
+            "description": "Model-based estimate for crude prevalence of all teeth lost among adults aged >=65 years, 2018",
+            "fieldName": "teethlost_crudeprev",
+            "position": 61,
+            "renderTypeName": "number",
+            "tableColumnId": 138183046,
+            "format": {}
+        },
+        {
+            "id": 541661853,
+            "name": "TEETHLOST_Crude95CI",
+            "dataTypeName": "text",
+            "description": "Estimated confidence interval for crude prevalence of all teeth lost among adults aged >=65 years",
+            "fieldName": "teethlost_crude95ci",
+            "position": 62,
+            "renderTypeName": "text",
+            "tableColumnId": 138183044,
+            "format": {}
+        },
+        {
+            "id": 541661770,
+            "name": "Geolocation",
+            "dataTypeName": "point",
+            "description": "Point location in well known text format",
+            "fieldName": "geolocation",
+            "position": 63,
+            "renderTypeName": "point",
+            "tableColumnId": 138183009,
+            "format": {}
+        },
+        {
+            "id": 541661902,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'geolocation' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 64,
+            "renderTypeName": "number",
+            "tableColumnId": 138183069,
+            "computationStrategy": {
+                "source_columns": [
+                    "geolocation"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 541661903,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'geolocation' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 65,
+            "renderTypeName": "number",
+            "tableColumnId": 138183070,
+            "computationStrategy": {
+                "source_columns": [
+                    "geolocation"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "cdc",
+        "500 cities",
+        "health"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

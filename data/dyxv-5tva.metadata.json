@@ -1,0 +1,210 @@
+{
+    "id": "dyxv-5tva",
+    "name": "First 100 Days Tracker",
+    "assetType": "filter",
+    "attribution": "Mayor's Office",
+    "averageRating": 0,
+    "createdAt": 1627328008,
+    "displayType": "table",
+    "downloadCount": 54,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "PUBLIC_DOMAIN",
+    "modifyingViewUid": "s4b7-pfjh",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37488613,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1627328267,
+    "publicationGroup": 18236949,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1653330925,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18396957,
+    "totalTimesRated": 0,
+    "viewCount": 20,
+    "viewLastModified": 1627328268,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1627400281,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3866473,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1627328287,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1627400282,
+                "failureCount": 0,
+                "startedAt": 1627400281,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 545620986,
+            "name": "ID",
+            "dataTypeName": "text",
+            "description": "Row id",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 137956736,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 545620987,
+            "name": "Priority Area",
+            "dataTypeName": "text",
+            "description": "Item priority area",
+            "fieldName": "priority_area",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 136017852,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 545620988,
+            "name": "Action Item",
+            "dataTypeName": "text",
+            "description": "Action item description",
+            "fieldName": "action_item",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 136017851,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 545620989,
+            "name": "Actions Taken",
+            "dataTypeName": "text",
+            "description": "Action taken towards completion",
+            "fieldName": "actions_taken",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 136017850,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 545620990,
+            "name": "Status",
+            "dataTypeName": "text",
+            "description": "Status of action",
+            "fieldName": "status",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 136017848,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 545620991,
+            "name": "Date Completed",
+            "dataTypeName": "calendar_date",
+            "description": "Item completion date",
+            "fieldName": "date_completed",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 136017846,
+            "width": 100,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 545620992,
+            "name": "Date (Hidden)",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_hidden_",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 137977784,
+            "width": 100,
+            "format": {
+                "view": "date"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

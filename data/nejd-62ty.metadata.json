@@ -1,0 +1,355 @@
+{
+    "id": "nejd-62ty",
+    "name": "Public 311 Odor Complaints",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1695924848,
+    "displayType": "table",
+    "downloadCount": 56,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "8qb9-5fja",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40010131,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1695924907,
+    "publicationGroup": 15950137,
+    "publicationStage": "published",
+    "queryString": "SELECT\n  `service_request_key`,\n  `created_date`,\n  `due_at`,\n  `completed_at`,\n  `on_time_indicator`,\n  `department`,\n  `request_type`,\n  `description`,\n  `request_type_code`,\n  `status_code`,\n  `intake_form`,\n  `actual_days_to_complete_working`,\n  `sla_fy_2019`,\n  `ispublic`,\n  `citydst`,\n  `publiclocation`\nWHERE\n  (`ispublic` == \"yes\") AND caseless_contains(`request_type`, \"odor\")\nORDER BY `created_date` DESC NULL LAST",
+    "rowsUpdatedAt": 1703254044,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19190800,
+    "totalTimesRated": 0,
+    "viewCount": 6,
+    "viewLastModified": 1695924908,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1695925496,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5802697,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1695925476,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "kp5y-vgiw",
+                "displayName": "Katharine Clem"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1695925497,
+                "failureCount": 0,
+                "startedAt": 1695925496,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "kp5y-vgiw",
+                "displayName": "Katharine Clem"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 581840795,
+            "name": "Service Request Key",
+            "dataTypeName": "text",
+            "description": "Unique identifier of the service request in the Accela system.",
+            "fieldName": "service_request_key",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76762095,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840796,
+            "name": "Created Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the service request was created.",
+            "fieldName": "created_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76762084,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840797,
+            "name": "Due At",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is due.",
+            "fieldName": "due_at",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975647,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840798,
+            "name": "Completed At",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is completed.",
+            "fieldName": "completed_at",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975646,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840799,
+            "name": "On Time Indicator",
+            "dataTypeName": "text",
+            "description": "Indicator if the request is completed at or before the due date.",
+            "fieldName": "on_time_indicator",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76829311,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840800,
+            "name": "Department",
+            "dataTypeName": "text",
+            "description": "Department service request is routed to",
+            "fieldName": "department",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 92262849,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840801,
+            "name": "Request Type",
+            "dataTypeName": "text",
+            "description": "The type of the service request created.",
+            "fieldName": "request_type",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76762086,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840802,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "Description of the service request often populated by the constituent submitting the request.",
+            "fieldName": "description",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76762087,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840803,
+            "name": "Request Type Code",
+            "dataTypeName": "text",
+            "description": "Urgency of the request, (Urgent, Emergency, Standard, None, etc.).",
+            "fieldName": "request_type_code",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76762088,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840804,
+            "name": "Status Code",
+            "dataTypeName": "text",
+            "description": "Status of the request, Open, New, and Closed.",
+            "fieldName": "status_code",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76762089,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840805,
+            "name": "Intake Form",
+            "dataTypeName": "text",
+            "description": "How the request was submitted.",
+            "fieldName": "intake_form",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76762090,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840806,
+            "name": "Actual Days to Complete - Working",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "actual_days_to_complete_working",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 81399746,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840807,
+            "name": "SLA FY 2019",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sla_fy_2019",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 82038591,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840808,
+            "name": "isPublic",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ispublic",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 80865363,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840809,
+            "name": "Council District",
+            "dataTypeName": "text",
+            "description": "Council District in which the requests was submitted for",
+            "fieldName": "citydst",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 81939070,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 581840810,
+            "name": "PublicLocation",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "publiclocation",
+            "position": 16,
+            "renderTypeName": "point",
+            "tableColumnId": 106332869,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Public Works",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "kp5y-vgiw",
+        "displayName": "Katharine Clem",
+        "profileImageUrlLarge": "/api/users/kp5y-vgiw/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/kp5y-vgiw/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/kp5y-vgiw/profile_images/TINY",
+        "screenName": "Katharine Clem",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

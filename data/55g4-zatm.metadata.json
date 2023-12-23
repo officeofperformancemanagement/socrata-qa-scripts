@@ -1,0 +1,177 @@
+{
+    "id": "55g4-zatm",
+    "name": "Traffic Flow by Month",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1559324904,
+    "displayType": "table",
+    "downloadCount": 116,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575392667,
+    "modifyingViewUid": "snq3-3zj3",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31610141,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1559325029,
+    "publicationGroup": 16218484,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1703277356,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16220781,
+    "totalTimesRated": 0,
+    "viewCount": 147,
+    "viewLastModified": 1562356796,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561121703,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 820482,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561121646,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561121703,
+                "failureCount": 0,
+                "startedAt": 1561121703,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 410966829,
+            "name": "Report Month",
+            "dataTypeName": "calendar_date",
+            "description": "Report Month",
+            "fieldName": "reportmonth",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 81351260,
+            "width": 100,
+            "format": {
+                "align": "left",
+                "group_function": "date_ym"
+            }
+        },
+        {
+            "id": 410966830,
+            "name": "Traffic Level",
+            "dataTypeName": "text",
+            "description": "Traffic Level",
+            "fieldName": "trafficlevel",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 81351259,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 410966831,
+            "name": "Traffic Flow",
+            "dataTypeName": "number",
+            "description": "Traffic Flow Values",
+            "fieldName": "trafficflow",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 81351258,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "socrata@chattanooga.gov",
+                "Department": "Transportation",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

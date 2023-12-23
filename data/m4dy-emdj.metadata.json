@@ -1,0 +1,253 @@
+{
+    "id": "m4dy-emdj",
+    "name": "Bike Chattanooga Stations",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1562333274,
+    "description": "Bike Chattanooga station locations",
+    "displayType": "table",
+    "downloadCount": 123,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "iconUrl": "fileId:76932ea9-3177-4c35-9fbe-9c59f5eb400c",
+    "indexUpdatedAt": 1562357097,
+    "modifyingViewUid": "3d4k-7tqf",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31870351,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1562333697,
+    "publicationGroup": 16336093,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1562333909,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 16336093,
+    "totalTimesRated": 0,
+    "viewCount": 122,
+    "viewLastModified": 1562357089,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562333555,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 867197,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562333522,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562333555,
+                "failureCount": 0,
+                "startedAt": 1562333555,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 416240530,
+            "name": "Station ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "station_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 83705649,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 416240531,
+            "name": "Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 83705650,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 416240532,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 83705651,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 416240533,
+            "name": "Capacity",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "capacity",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 83705652,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 416240534,
+            "name": "Physical Configuration",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "physical_configuration",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 83705653,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 416240536,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 83705655,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 416240537,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 83705656,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 416240538,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location",
+            "position": 9,
+            "renderTypeName": "point",
+            "tableColumnId": 83705657,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Transportation",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "bike station bikes bike chattanooga stations"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

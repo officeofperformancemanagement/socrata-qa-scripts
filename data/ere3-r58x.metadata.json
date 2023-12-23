@@ -1,0 +1,1431 @@
+{
+    "id": "ere3-r58x",
+    "name": "Community Survey Summary Results - 2012 to 2018",
+    "assetType": "dataset",
+    "attribution": "Internal Audit",
+    "attributionLink": "http://www.chattanooga.gov/internal-audit/community-surveys",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1457059509,
+    "description": "The Office of Internal Audit (OIA) conducts an annual survey of Chattanooga residents to gather their views of city services. This dataset is a summary file of the overall satisfaction scores from 2012 to 2018.  - See more at: http://www.chattanooga.gov/internal-audit/community-surveys",
+    "displayType": "table",
+    "downloadCount": 329,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1556048113,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31343911,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1556048103,
+    "publicationGroup": 8628788,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1547843268,
+    "tableId": 16146401,
+    "totalTimesRated": 0,
+    "viewCount": 1404,
+    "viewLastModified": 1556048103,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1478008433,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 517368,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1478008433,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 405310060,
+            "name": "Year (Date)",
+            "dataTypeName": "calendar_date",
+            "fieldName": "year_date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 34791803,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 405310061,
+            "name": "Year",
+            "dataTypeName": "text",
+            "fieldName": "year",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 34791501,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 405310062,
+            "name": "1a",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of life in Chattanooga as a place to live. (Very Good & Good)",
+            "fieldName": "_1a",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 34791505,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310063,
+            "name": "1b",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of life in your neighborhood as a place to live.  (Very Good & Good)",
+            "fieldName": "_1b",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 34791507,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310064,
+            "name": "1c",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of life in Chattanooga as a place to work.  (Very Good & Good)",
+            "fieldName": "_1c",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 34791508,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310065,
+            "name": "1d",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of life in Chattanooga as a place to raise children.  (Very Good & Good)",
+            "fieldName": "_1d",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 34791509,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310066,
+            "name": "1e",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of life in Chattanooga as a place to retire.  (Very Good & Good)",
+            "fieldName": "_1e",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 34791510,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310067,
+            "name": "2a",
+            "dataTypeName": "number",
+            "description": "How safe would you feel walking alone during the day in your neighborhood? (Very Safe & Safe)",
+            "fieldName": "_2a",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 34791511,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310068,
+            "name": "2b",
+            "dataTypeName": "number",
+            "description": "How safe would you feel walking alone during the day in the park closest to you? (Very Safe & Safe)",
+            "fieldName": "_2b",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 34791512,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310069,
+            "name": "2c",
+            "dataTypeName": "number",
+            "description": "How safe would you feel walking alone during the day downtown? (Very Safe & Safe)",
+            "fieldName": "_2c",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 34791513,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310070,
+            "name": "3a",
+            "dataTypeName": "number",
+            "description": "How safe would you feel walking alone during at night in your neighborhood? (Very Safe & Safe)",
+            "fieldName": "_3a",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 34791514,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310071,
+            "name": "3b",
+            "dataTypeName": "number",
+            "description": "How safe would you feel walking alone during at night in the park closest to you? (Very Safe & Safe)",
+            "fieldName": "_3b",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 34791515,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310072,
+            "name": "3c",
+            "dataTypeName": "number",
+            "description": "How safe would you feel walking alone during at night downtown? (Very Safe & Safe)",
+            "fieldName": "_3c",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 34791516,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310073,
+            "name": "4a",
+            "dataTypeName": "number",
+            "description": "Did anyone break into, or burglarize, your home during the last 12 months? (Yes)",
+            "fieldName": "_4a",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 34791517,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310074,
+            "name": "4b",
+            "dataTypeName": "number",
+            "description": "If yes, was it reported to the police? (yes)",
+            "fieldName": "_4b",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 34791518,
+            "width": 664,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310075,
+            "name": "5a",
+            "dataTypeName": "number",
+            "description": "Did anyone break into, or attempt to break into, any vehicles belonging to your household during the last 12 months? (Yes)",
+            "fieldName": "_5a",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 34791519,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310076,
+            "name": "5b",
+            "dataTypeName": "number",
+            "description": "If yes, was it reported to the police? (Yes)",
+            "fieldName": "_5b",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 34791520,
+            "width": 664,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310077,
+            "name": "6a",
+            "dataTypeName": "number",
+            "description": "Did you call 9-1-1 for an emergency during the last 12 months? (Yes)",
+            "fieldName": "_6a",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 34791521,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310078,
+            "name": "6b",
+            "dataTypeName": "number",
+            "description": "If yes, how do you rate the services you received on the the phone from the 9-1-1 calltaker? (Very Good & Good)",
+            "fieldName": "_6b",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 34791522,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310079,
+            "name": "7a",
+            "dataTypeName": "number",
+            "description": "How do you rate police services on the overall quality of services? (Very Good & Good)",
+            "fieldName": "_7a",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 34791523,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310080,
+            "name": "7b",
+            "dataTypeName": "number",
+            "description": "How do you rate police services on the conduct of police officers? (Very Good & Good)",
+            "fieldName": "_7b",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 34791524,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310081,
+            "name": "7c",
+            "dataTypeName": "number",
+            "description": "How do you rate police services on the speed of emergency police response? (Very Good & Good)",
+            "fieldName": "_7c",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 34791525,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310082,
+            "name": "8a",
+            "dataTypeName": "number",
+            "description": "Did you use fire or emergency medical services during the last 12 months? (Yes)",
+            "fieldName": "_8a",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 34791526,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310083,
+            "name": "8b",
+            "dataTypeName": "number",
+            "description": "If yes, how do you rate the services you received on overall quality of services? (Very Good & Good)",
+            "fieldName": "_8b",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 34791527,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310084,
+            "name": "8c",
+            "dataTypeName": "number",
+            "description": "If yes, how do you rate the services you received on speed of emergency response? (Very Good & Good)",
+            "fieldName": "_8c",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 34791528,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310085,
+            "name": "9a",
+            "dataTypeName": "number",
+            "description": "How do you rate your satisfaction with the following City services: Garbage Pick-up? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_9a",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 34791529,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310086,
+            "name": "9b",
+            "dataTypeName": "number",
+            "description": "How do you rate your satisfaction with the following City services: Yard-waste Pick-up? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_9b",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 34791530,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310087,
+            "name": "9c",
+            "dataTypeName": "number",
+            "description": "How do you rate your satisfaction with the following City services: Curbside Recycling? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_9c",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 34791531,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310088,
+            "name": "9d",
+            "dataTypeName": "number",
+            "description": "How do you rate your satisfaction with the following City services: Water Quality of Lakes and Streams? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_9d",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 34791532,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310089,
+            "name": "9e",
+            "dataTypeName": "number",
+            "description": "How do you rate your satisfaction with the following City services: Storm Drainage? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_9e",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 34791533,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310090,
+            "name": "9f",
+            "dataTypeName": "number",
+            "description": "How do you rate your satisfaction with the following City services: Sewers? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_9f",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 34791534,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310091,
+            "name": "9ave",
+            "dataTypeName": "number",
+            "description": "How do you rate your satisfaction with City services? (average of surveyed city services)",
+            "fieldName": "_9ave",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 34791804,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310092,
+            "name": "10a",
+            "dataTypeName": "number",
+            "description": "In the past 12 months, how many times did you: Visit any city park? (Daily & Weekly)",
+            "fieldName": "_10a",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 34791535,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310093,
+            "name": "10b",
+            "dataTypeName": "number",
+            "description": "In the past 12 months, how many times did you: Visit a city park near your home?  (Daily & Weekly)",
+            "fieldName": "_10b",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 34791536,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310094,
+            "name": "11a",
+            "dataTypeName": "number",
+            "description": "How do you rate the quality of the parks near your home for well-maintained landscaping? (Very Good & Good)",
+            "fieldName": "_11a",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 34791537,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310095,
+            "name": "11b",
+            "dataTypeName": "number",
+            "description": "How do you rate the quality of the parks near your home for well-maintained facilities? (Very Good & Good)",
+            "fieldName": "_11b",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 34791538,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310096,
+            "name": "11c",
+            "dataTypeName": "number",
+            "description": "How do you rate the quality of the parks near your home for well-maintained playgrounds? (Very Good & Good)",
+            "fieldName": "_11c",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 34791539,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310097,
+            "name": "12",
+            "dataTypeName": "number",
+            "description": "In the past 12 months, did anyone in your household participate in a Chattanooga Parks and Recreation activity? (Yes)",
+            "fieldName": "_12",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 34791540,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310098,
+            "name": "13a",
+            "dataTypeName": "number",
+            "description": "How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Affordability? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_13a",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 34791541,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310099,
+            "name": "13b",
+            "dataTypeName": "number",
+            "description": "How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Variety? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_13b",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 34791542,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310100,
+            "name": "13c",
+            "dataTypeName": "number",
+            "description": "How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Quality of instruction, coaching, leadership, etc? (Very Satisfied & Somewhat Satisfied)",
+            "fieldName": "_13c",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 34791543,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310101,
+            "name": "14a",
+            "dataTypeName": "number",
+            "description": "How do you rate traffic flow (congestion) on major streets and thoroughfares, excluding freeways during peak hours, that is 7-9am and 3:30-6pm? (Very Good & Good)",
+            "fieldName": "_14a",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 34791544,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310102,
+            "name": "14b",
+            "dataTypeName": "number",
+            "description": "How do you rate traffic flow (congestion) on major streets and thoroughfares, excluding freeways during off-peak traffic hours? (Very Good & Good)",
+            "fieldName": "_14b",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 34791545,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310103,
+            "name": "15a",
+            "dataTypeName": "number",
+            "description": "How do you rate City streets on smoothness? (Very Good & Good)",
+            "fieldName": "_15a",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 34791546,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310104,
+            "name": "15b",
+            "dataTypeName": "number",
+            "description": "How do you rate City streets on cleanliness? (Very Good & Good)",
+            "fieldName": "_15b",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 34791547,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310105,
+            "name": "15c",
+            "dataTypeName": "number",
+            "description": "How do you rate City streets on speeding vehicles? (Very Good & Good)",
+            "fieldName": "_15c",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 34791548,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310106,
+            "name": "15d",
+            "dataTypeName": "number",
+            "description": "How do you rate City streets on safety of pedestrians? (Very Good & Good)",
+            "fieldName": "_15d",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 34791549,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310107,
+            "name": "15e",
+            "dataTypeName": "number",
+            "description": "How do you rate City streets on safety of bicyclists? (Very Good & Good)",
+            "fieldName": "_15e",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 34791550,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310108,
+            "name": "16a",
+            "dataTypeName": "number",
+            "description": "Has a new commercial development been completed in or near your neighborhood in the last 12 months? (Yes)",
+            "fieldName": "_16a",
+            "position": 49,
+            "renderTypeName": "number",
+            "tableColumnId": 34791551,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310109,
+            "name": "16b",
+            "dataTypeName": "number",
+            "description": "If yes, how do you rate it on attractiveness? (Very Good & Good)",
+            "fieldName": "_16b",
+            "position": 50,
+            "renderTypeName": "number",
+            "tableColumnId": 34791552,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310110,
+            "name": "16c",
+            "dataTypeName": "number",
+            "description": "If yes, how do you rate it on  improvement to your neighborhood as a place to live? (Very Good & Good)",
+            "fieldName": "_16c",
+            "position": 51,
+            "renderTypeName": "number",
+            "tableColumnId": 34791553,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310111,
+            "name": "17a",
+            "dataTypeName": "number",
+            "description": "Has a new residentail development been completed in or near your neighborhood in the last 12 months? (Yes)",
+            "fieldName": "_17a",
+            "position": 52,
+            "renderTypeName": "number",
+            "tableColumnId": 34791554,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310112,
+            "name": "17b",
+            "dataTypeName": "number",
+            "description": "If yes, how do you rate it on attractiveness? (Very Good & Good)",
+            "fieldName": "_17b",
+            "position": 53,
+            "renderTypeName": "number",
+            "tableColumnId": 34791555,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310113,
+            "name": "17c",
+            "dataTypeName": "number",
+            "description": "If yes, how do you rate it on improvement to your neighborhood as a place to live? (Very Good & Good)",
+            "fieldName": "_17c",
+            "position": 54,
+            "renderTypeName": "number",
+            "tableColumnId": 34791556,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310114,
+            "name": "18a",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on housing affordability? (Very Good & Good)",
+            "fieldName": "_18a",
+            "position": 55,
+            "renderTypeName": "number",
+            "tableColumnId": 34791557,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310115,
+            "name": "18b",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on physical condition of housing? (Very Good & Good)",
+            "fieldName": "_18b",
+            "position": 56,
+            "renderTypeName": "number",
+            "tableColumnId": 34791558,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310116,
+            "name": "18c",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on closeness of parks or open spaces? (Very Good & Good)",
+            "fieldName": "_18c",
+            "position": 57,
+            "renderTypeName": "number",
+            "tableColumnId": 34791559,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310117,
+            "name": "18d",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on walking distance to public transit? (Very Good & Good)",
+            "fieldName": "_18d",
+            "position": 58,
+            "renderTypeName": "number",
+            "tableColumnId": 34791560,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310118,
+            "name": "18e",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on access to shopping and other services? (Very Good & Good)",
+            "fieldName": "_18e",
+            "position": 59,
+            "renderTypeName": "number",
+            "tableColumnId": 34791561,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310119,
+            "name": "18f",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on on-street parking? (Very Good & Good)",
+            "fieldName": "_18f",
+            "position": 60,
+            "renderTypeName": "number",
+            "tableColumnId": 34791562,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310120,
+            "name": "18g",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on street lighting? (Very Good & Good)",
+            "fieldName": "_18g",
+            "position": 61,
+            "renderTypeName": "number",
+            "tableColumnId": 34791563,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310121,
+            "name": "18h",
+            "dataTypeName": "number",
+            "description": "How do you rate your neighborhood on availability of sidewalks? (Very Good & Good)",
+            "fieldName": "_18h",
+            "position": 62,
+            "renderTypeName": "number",
+            "tableColumnId": 34791564,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310122,
+            "name": "19a",
+            "dataTypeName": "number",
+            "description": "How do you rate Chattanooga as a place to do business? (Very Good & Good)",
+            "fieldName": "_19a",
+            "position": 63,
+            "renderTypeName": "number",
+            "tableColumnId": 34791565,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310123,
+            "name": "19b",
+            "dataTypeName": "number",
+            "description": "Do you own a business in Chattanooga? (Yes)",
+            "fieldName": "_19b",
+            "position": 64,
+            "renderTypeName": "number",
+            "tableColumnId": 34791566,
+            "width": 664,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310124,
+            "name": "19c",
+            "dataTypeName": "number",
+            "description": "If yes, how many employees does your business employ? (50 or less)",
+            "fieldName": "_19c",
+            "position": 65,
+            "renderTypeName": "number",
+            "tableColumnId": 34791567,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310125,
+            "name": "20a",
+            "dataTypeName": "number",
+            "description": "In the last 12 months, about how many times, if ever, have you or other household members called 3-1-1 about public services? (1 time to more than 10)",
+            "fieldName": "_20a",
+            "position": 66,
+            "renderTypeName": "number",
+            "tableColumnId": 34791568,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 405310126,
+            "name": "20b",
+            "dataTypeName": "number",
+            "description": "In the last 12 months, about how many times, if ever, have you or other household members ridden a local bus (CARTA)? (1 time to more than 10)",
+            "fieldName": "_20b",
+            "position": 67,
+            "renderTypeName": "number",
+            "tableColumnId": 34791569,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 405310127,
+            "name": "20c",
+            "dataTypeName": "number",
+            "description": "In the last 12 months, about how many times, if ever, have you or other household members visited a Chattanooga Public Library branch? (1 time to more than 10)",
+            "fieldName": "_20c",
+            "position": 68,
+            "renderTypeName": "number",
+            "tableColumnId": 34791570,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 405310128,
+            "name": "20d",
+            "dataTypeName": "number",
+            "description": "In the last 12 months, about how many times, if ever, have you or other household members attended an event at Memorial Auditorium or Tivoli? (1 time to more than 10)",
+            "fieldName": "_20d",
+            "position": 69,
+            "renderTypeName": "number",
+            "tableColumnId": 34791571,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 405310129,
+            "name": "20e",
+            "dataTypeName": "number",
+            "description": "In the last 12 months, about how many times, if ever, have you or other household members used/visited McKamey Animal Center? (1 time to more than 10)",
+            "fieldName": "_20e",
+            "position": 70,
+            "renderTypeName": "number",
+            "tableColumnId": 34791572,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 405310130,
+            "name": "20f",
+            "dataTypeName": "number",
+            "description": "In the last 12 months, about how many times, if ever, have you or other household members visited the Chattanooga.gov website? (1 time to more than 10)",
+            "fieldName": "_20f",
+            "position": 71,
+            "renderTypeName": "number",
+            "tableColumnId": 34791573,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 405310131,
+            "name": "20g",
+            "dataTypeName": "number",
+            "description": "In the last 12 months, about how many times, if ever, have you or other household members been involved in a community project or attended a public meeting? (1 time to more than 10)",
+            "fieldName": "_20g",
+            "position": 72,
+            "renderTypeName": "number",
+            "tableColumnId": 34791574,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 405310132,
+            "name": "21a",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of 3-1-1? (Very Good & Good)",
+            "fieldName": "_21a",
+            "position": 73,
+            "renderTypeName": "number",
+            "tableColumnId": 34791575,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310133,
+            "name": "21b",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of bus services (CARTA)? (Very Good & Good)",
+            "fieldName": "_21b",
+            "position": 74,
+            "renderTypeName": "number",
+            "tableColumnId": 34791576,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310134,
+            "name": "21c",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of experiences at Memorial Auditorium and/or Tivoli? (Very Good & Good)",
+            "fieldName": "_21c",
+            "position": 75,
+            "renderTypeName": "number",
+            "tableColumnId": 34791577,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310135,
+            "name": "21d",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of animal control (McKamey)? (Very Good & Good)",
+            "fieldName": "_21d",
+            "position": 76,
+            "renderTypeName": "number",
+            "tableColumnId": 34791578,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310136,
+            "name": "21e",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of public libraries? (Very Good & Good)",
+            "fieldName": "_21e",
+            "position": 77,
+            "renderTypeName": "number",
+            "tableColumnId": 34791579,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310137,
+            "name": "21f",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate the quality of chattanooga.gov website? (Very Good & Good)",
+            "fieldName": "_21f",
+            "position": 78,
+            "renderTypeName": "number",
+            "tableColumnId": 34791580,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310138,
+            "name": "22a",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate following aspects of City government performance: Value of services for City taxes paid? (Very Good & Good)",
+            "fieldName": "_22a",
+            "position": 79,
+            "renderTypeName": "number",
+            "tableColumnId": 34791581,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310139,
+            "name": "22b",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate following aspects of City government performance: Overall direction the City is taking? (Very Good & Good)",
+            "fieldName": "_22b",
+            "position": 80,
+            "renderTypeName": "number",
+            "tableColumnId": 34791582,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 405310140,
+            "name": "22c",
+            "dataTypeName": "number",
+            "description": "Overall, how do you rate following aspects of City government performance: Welcoming citizen involvement? (Very Good & Good)",
+            "fieldName": "_22c",
+            "position": 81,
+            "renderTypeName": "number",
+            "tableColumnId": 34791583,
+            "width": 700,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Yearly"
+            }
+        },
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,371 @@
+{
+    "id": "xewn-4b8f",
+    "name": "NoogaNet Locations",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1538016537,
+    "displayType": "table",
+    "downloadCount": 174,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1549978028,
+    "locale": "en_US",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 29782111,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1538018616,
+    "publicationGroup": 15543239,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1549311111,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 15543266,
+    "totalTimesRated": 0,
+    "viewCount": 376,
+    "viewLastModified": 1553867150,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1549978020,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367072,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1549978020,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 376576051,
+            "name": "NoogaNet Location Name",
+            "dataTypeName": "text",
+            "description": "Name of the Location for the free NoogaNet wifi spot. ",
+            "fieldName": "nooganet_location_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 69774417,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 376576053,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 69774419,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 376576052,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 69774418,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 376576455,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location",
+            "position": 4,
+            "renderTypeName": "point",
+            "tableColumnId": 69775333,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 376577816,
+            "name": "Location (address)",
+            "dataTypeName": "text",
+            "fieldName": "location_address",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 69776666,
+            "format": {}
+        },
+        {
+            "id": 376577814,
+            "name": "Location (city)",
+            "dataTypeName": "text",
+            "fieldName": "location_city",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 69776664,
+            "format": {}
+        },
+        {
+            "id": 376577818,
+            "name": "Location (state)",
+            "dataTypeName": "text",
+            "fieldName": "location_state",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 69776668,
+            "format": {}
+        },
+        {
+            "id": 376577817,
+            "name": "Location (zip)",
+            "dataTypeName": "text",
+            "fieldName": "location_zip",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 69776667,
+            "format": {}
+        },
+        {
+            "id": 376577819,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council_data' (9h6x-8jgn) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 69776669,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 376577820,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'CPD Districts' (ve3d-9xnd) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 69776670,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 376577821,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council Districts' (4vzv-2fju) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 69776671,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 376577822,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Zip Codes' (p3ri-5gm3) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 69776672,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 376577823,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (wp8v-7sj9) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 69776673,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 376577824,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Neighborhood Associations' (pwng-4mvk) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 69776674,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 376577825,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Neighborhood Associations_data' (fri7-gnnk) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 69776675,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 376577826,
+            "name": "Council_data 2",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council_data' (ap6c-9ws7) the point in column 'location' is located. This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_ap6c_9ws7",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 69776676,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ap6c-9ws7",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "id": "c72g-ksjy",
+    "name": "HCDE Zones - Zones",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Education",
+    "createdAt": 1599761257,
+    "description": "Zones tab from HCDE Zones file",
+    "displayType": "table",
+    "downloadCount": 91,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35191390,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1599761413,
+    "publicationGroup": 17540923,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1599761412,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17540923,
+    "totalTimesRated": 0,
+    "viewCount": 181,
+    "viewLastModified": 1666190872,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1599762639,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2669555,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1599761413,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1599762639,
+                "failureCount": 0,
+                "startedAt": 1599762639,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 494297239,
+            "name": "ID2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id2",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 115086485,
+            "format": {}
+        },
+        {
+            "id": 494297240,
+            "name": "PR",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pr",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 115086486,
+            "format": {}
+        },
+        {
+            "id": 494297241,
+            "name": "STREET_NAME",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 115086487,
+            "format": {}
+        },
+        {
+            "id": 494297242,
+            "name": "TYPE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 115086488,
+            "format": {}
+        },
+        {
+            "id": 494297243,
+            "name": "SF",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sf",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 115086489,
+            "format": {}
+        },
+        {
+            "id": 494297235,
+            "name": "LOW_ODD",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "low_odd",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 115086481,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 494297246,
+            "name": "HIGH_ODD",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "high_odd",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 115086492,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 494297244,
+            "name": "LOW_EVEN",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "low_even",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 115086490,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 494297236,
+            "name": "HIGH_EVEN",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "high_even",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 115086482,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 494297245,
+            "name": "WHOLE_STREET",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "whole_street",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 115086491,
+            "format": {}
+        },
+        {
+            "id": 494297237,
+            "name": "SCHOOL_NUM",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "school_num",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 115086483,
+            "format": {}
+        },
+        {
+            "id": 494297238,
+            "name": "PREVIOUS_ZONE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "previous_zone",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 115086484,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "hcde",
+        "education"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

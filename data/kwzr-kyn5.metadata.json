@@ -1,0 +1,183 @@
+{
+    "id": "kwzr-kyn5",
+    "name": "Chattanooga Area Zip Codes",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1569520128,
+    "description": "Zip codes intersecting the Chattanooga city limits",
+    "displayType": "table",
+    "downloadCount": 110,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39946734,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1694448065,
+    "publicationGroup": 16590713,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1694448058,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 19283695,
+    "totalTimesRated": 0,
+    "viewCount": 209,
+    "viewLastModified": 1694448065,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1569520266,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5756594,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1569520253,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1569520266,
+                "failureCount": 0,
+                "startedAt": 1569520266,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 580737312,
+            "name": "Zip Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 88198533,
+            "format": {}
+        },
+        {
+            "id": 580737313,
+            "name": "geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 2,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 88198532,
+            "format": {}
+        },
+        {
+            "id": 580737314,
+            "name": "RowNum",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "rownum",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 148392911,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "columnFieldName": "zip_code",
+                    "ascending": true
+                }
+            ]
+        },
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 580737312,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "zip",
+        "zip code",
+        "zip codes"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

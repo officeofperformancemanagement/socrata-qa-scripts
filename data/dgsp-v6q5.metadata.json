@@ -1,0 +1,208 @@
+{
+    "id": "dgsp-v6q5",
+    "name": "2017 Tract Population - Total and Undergrad",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1556645721,
+    "description": "Population by tract with total, undergrad and nonundergrad fields",
+    "displayType": "table",
+    "downloadCount": 82,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562356961,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31394896,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1556645958,
+    "publicationGroup": 16163022,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1556645957,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16163022,
+    "totalTimesRated": 0,
+    "viewCount": 140,
+    "viewLastModified": 1562356953,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557336535,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 537874,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557336524,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557336535,
+                "failureCount": 0,
+                "startedAt": 1557336535,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 406450568,
+            "name": "STATEFP",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "statefp",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 80216890,
+            "format": {}
+        },
+        {
+            "id": 406450571,
+            "name": "COUNTYFP",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "countyfp",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 80216893,
+            "format": {}
+        },
+        {
+            "id": 406450585,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80216907,
+            "format": {}
+        },
+        {
+            "id": 406450574,
+            "name": "POP_2017",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop_2017",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80216896,
+            "format": {}
+        },
+        {
+            "id": 406450578,
+            "name": "undergrad_pop",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "undergrad_pop",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 80216900,
+            "format": {}
+        },
+        {
+            "id": 406450580,
+            "name": "non_undergrad_pop",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "non_undergrad_pop",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 80216902,
+            "format": {}
+        },
+        {
+            "id": 406450583,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 7,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80216905,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract 4 and 11"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

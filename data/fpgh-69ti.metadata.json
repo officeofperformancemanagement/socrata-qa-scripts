@@ -1,0 +1,298 @@
+{
+    "id": "fpgh-69ti",
+    "name": "CDOT Vehicle Detection",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1581345559,
+    "description": "Vehicle volume counts for intersections with GridSmart cameras. Data represents volume in a specific direction for a given 15 minute interval.",
+    "displayType": "table",
+    "downloadCount": 196,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "rgnc-ua3n",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33546244,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1582638762,
+    "publicationGroup": 16871797,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1698739822,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16879401,
+    "totalTimesRated": 0,
+    "viewCount": 282,
+    "viewLastModified": 1666017547,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583522352,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1941143,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583522316,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583522353,
+                "failureCount": 0,
+                "startedAt": 1583522352,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 452961944,
+            "name": "Site Name",
+            "dataTypeName": "text",
+            "description": "GridSmart camera location name",
+            "fieldName": "site_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 94288822,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961945,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of volume count",
+            "fieldName": "date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94288835,
+            "width": 100,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961946,
+            "name": "Day of Week",
+            "dataTypeName": "text",
+            "description": "Week day of volume count",
+            "fieldName": "day_of_week",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 94288823,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961947,
+            "name": "Is Weekend",
+            "dataTypeName": "text",
+            "description": "Indicates if a row represents a weekend",
+            "fieldName": "is_weekend",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 94472425,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961948,
+            "name": "Begin Time",
+            "dataTypeName": "text",
+            "description": "Start time of count interval",
+            "fieldName": "begin_time",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 94288824,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961949,
+            "name": "End Time",
+            "dataTypeName": "text",
+            "description": "End time of count interval",
+            "fieldName": "end_time",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 94288825,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961950,
+            "name": "Direction",
+            "dataTypeName": "text",
+            "description": "Direction of volume count",
+            "fieldName": "direction",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 94288826,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961951,
+            "name": "Direction Value",
+            "dataTypeName": "number",
+            "description": "Value of direction count",
+            "fieldName": "direction_value",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 94288827,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961952,
+            "name": "Begin Time 24 Hour",
+            "dataTypeName": "number",
+            "description": "Begin time in decimal 24 hour format",
+            "fieldName": "begin_time_24_hour",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 94288828,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961953,
+            "name": "End Time 24 Hour",
+            "dataTypeName": "number",
+            "description": "End time in decimal 24 hour format",
+            "fieldName": "end_time_24_hour",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 94288829,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 452961957,
+            "name": "geom",
+            "dataTypeName": "point",
+            "description": "Camera location",
+            "fieldName": "geom",
+            "position": 14,
+            "renderTypeName": "point",
+            "tableColumnId": 94288833,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Transportation",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "gridsmart",
+        "volume",
+        "traffic"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,240 @@
+{
+    "id": "seyr-2szy",
+    "name": "View based on 2017 Tract Population - Education",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1562846142,
+    "displayType": "table",
+    "downloadCount": 119,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571327119,
+    "modifyingViewUid": "w4j8-ucsa",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31912743,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1562846665,
+    "publicationGroup": 16171761,
+    "publicationStage": "published",
+    "queryString": "SELECT \n  state_fip,\n  county_fip,\n  tract_id,\n  less_than_high_school_graduate,\n  high_school_graduate_includes,\n  some_college_or_associate,\n  bachelor_degree,\n  graduate_or_professional,\n  total_25_and_older,\n  geometry_wkt,\n  bachelor_degree+graduate_or_professional as higher_ed",
+    "rowsUpdatedAt": 1562848016,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 16351945,
+    "totalTimesRated": 0,
+    "viewCount": 118,
+    "viewLastModified": 1562846667,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562846162,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 886076,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562846149,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562846162,
+                "failureCount": 0,
+                "startedAt": 1562846162,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 417330847,
+            "name": "state_fip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80385551,
+            "format": {}
+        },
+        {
+            "id": 417330848,
+            "name": "county_fip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80385559,
+            "format": {}
+        },
+        {
+            "id": 417330849,
+            "name": "tract_id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80385550,
+            "format": {}
+        },
+        {
+            "id": 417330850,
+            "name": "less_than_high_school_graduate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "less_than_high_school_graduate",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80385552,
+            "format": {}
+        },
+        {
+            "id": 417330851,
+            "name": "high_school_graduate_includes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "high_school_graduate_includes",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 80385553,
+            "format": {}
+        },
+        {
+            "id": 417330852,
+            "name": "some_college_or_associate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "some_college_or_associate",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 80385554,
+            "format": {}
+        },
+        {
+            "id": 417330853,
+            "name": "bachelor_degree",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "bachelor_degree",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 80385555,
+            "format": {}
+        },
+        {
+            "id": 417330854,
+            "name": "graduate_or_professional",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "graduate_or_professional",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 80385556,
+            "format": {}
+        },
+        {
+            "id": 417330855,
+            "name": "total_25_and_older",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_25_and_older",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 80385557,
+            "format": {}
+        },
+        {
+            "id": 417330856,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 10,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80385558,
+            "format": {}
+        },
+        {
+            "id": 417330857,
+            "name": "higher_ed",
+            "dataTypeName": "number",
+            "description": "Column created from a SoQL query.",
+            "fieldName": "higher_ed",
+            "position": 11,
+            "renderTypeName": "number",
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

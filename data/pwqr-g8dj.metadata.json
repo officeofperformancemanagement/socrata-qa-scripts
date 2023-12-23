@@ -1,0 +1,269 @@
+{
+    "id": "pwqr-g8dj",
+    "name": "Capital Project Details",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1628619423,
+    "description": "This dataset contains information regarding the details of Capital Projects that feeds into the open budget application.",
+    "displayType": "table",
+    "downloadCount": 51,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "qh7g-pisr",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37537599,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1628619488,
+    "publicationGroup": 17078714,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1688570313,
+    "rowsUpdatedBy": "kp5y-vgiw",
+    "tableId": 18410011,
+    "totalTimesRated": 0,
+    "viewCount": 21,
+    "viewLastModified": 1628619489,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1628619501,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3908287,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1628619489,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1628619501,
+                "failureCount": 0,
+                "startedAt": 1628619501,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 546381219,
+            "name": "Id",
+            "dataTypeName": "text",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 100227325,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381220,
+            "name": "Project ID",
+            "dataTypeName": "text",
+            "fieldName": "project_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 100227326,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381221,
+            "name": "Project Name",
+            "dataTypeName": "text",
+            "fieldName": "project_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 100227327,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381222,
+            "name": "Project Description",
+            "dataTypeName": "text",
+            "fieldName": "project_description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 100227328,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381223,
+            "name": "Current Phase",
+            "dataTypeName": "text",
+            "fieldName": "current_phase",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 100227329,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381224,
+            "name": "Current Phase Type",
+            "dataTypeName": "text",
+            "fieldName": "current_phase_type",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 100227330,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381225,
+            "name": "Project Details URL",
+            "dataTypeName": "text",
+            "fieldName": "project_details_url",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 100227331,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381226,
+            "name": "Council Districts",
+            "dataTypeName": "text",
+            "fieldName": "council_districts",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 100227332,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381227,
+            "name": "Address",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 100227333,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381228,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "fieldName": "latitude",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 100227334,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381229,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "fieldName": "longitude",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 100227335,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 546381230,
+            "name": "New Georeferenced Column",
+            "dataTypeName": "point",
+            "fieldName": "new_georeferenced_column",
+            "position": 12,
+            "renderTypeName": "point",
+            "tableColumnId": 100227336,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "capital",
+        "infrastructure",
+        "details"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

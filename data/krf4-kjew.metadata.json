@@ -1,0 +1,157 @@
+{
+    "id": "krf4-kjew",
+    "name": "City Health Dashboard Cities",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1572459598,
+    "description": "Cities with City Health Dashboard data currently in Chattadata",
+    "displayType": "table",
+    "downloadCount": 109,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1572459843,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32750855,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1572459786,
+    "publicationGroup": 16672599,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1572459785,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16672599,
+    "totalTimesRated": 0,
+    "viewCount": 335,
+    "viewLastModified": 1666191744,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1572459842,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1426750,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1572459786,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1572459842,
+                "failureCount": 0,
+                "startedAt": 1572459842,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 436117931,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 90056909,
+            "format": {}
+        },
+        {
+            "id": 436117932,
+            "name": "point",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "point",
+            "position": 2,
+            "renderTypeName": "point",
+            "tableColumnId": 90056910,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "cities",
+        "city",
+        "chd",
+        "city health"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

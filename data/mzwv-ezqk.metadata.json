@@ -1,0 +1,433 @@
+{
+    "id": "mzwv-ezqk",
+    "name": "2019 Permit Inspections",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1571841539,
+    "description": "Permit inspections with a 2019 inspection date.",
+    "displayType": "table",
+    "downloadCount": 122,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "ji54-r9qw",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35999541,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1571886088,
+    "publicationGroup": 15989879,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703242070,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17864112,
+    "totalTimesRated": 0,
+    "viewCount": 174,
+    "viewLastModified": 1666021073,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1571842284,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3027720,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1571842250,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1571842284,
+                "failureCount": 0,
+                "startedAt": 1571842284,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 514343611,
+            "name": "PermitNum",
+            "dataTypeName": "text",
+            "description": "Permit ID",
+            "fieldName": "permitnum",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 77273500,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343612,
+            "name": "InspType",
+            "dataTypeName": "text",
+            "description": "Type of Permit Inspection",
+            "fieldName": "insptype",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77273481,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343613,
+            "name": "InspTypeMapped",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "insptypemapped",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 77273482,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343614,
+            "name": "Result",
+            "dataTypeName": "text",
+            "description": "Result of Inspection",
+            "fieldName": "result",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77273483,
+            "width": 186,
+            "format": {}
+        },
+        {
+            "id": 514343615,
+            "name": "ContractorCompanyName",
+            "dataTypeName": "text",
+            "description": "Contractor Name",
+            "fieldName": "contractorcompanyname",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 80147069,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343616,
+            "name": "ResultMapped",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "resultmapped",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77273484,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343617,
+            "name": "ScheduledDate",
+            "dataTypeName": "calendar_date",
+            "description": "Date Scheduled for Inspection",
+            "fieldName": "scheduleddate",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77273485,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343618,
+            "name": "InspectedDate",
+            "dataTypeName": "calendar_date",
+            "description": "Date of Inspection",
+            "fieldName": "inspecteddate",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77273486,
+            "width": 153,
+            "format": {}
+        },
+        {
+            "id": 514343619,
+            "name": "Inspection Day",
+            "dataTypeName": "text",
+            "description": "Day of Inspection",
+            "fieldName": "inspection_day",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 81662347,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343620,
+            "name": "InspectionNotes",
+            "dataTypeName": "text",
+            "description": "Notes About Inspection",
+            "fieldName": "inspectionnotes",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77273487,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343621,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "Description of Inspection",
+            "fieldName": "description",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 77273488,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343622,
+            "name": "Final",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "final",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77273489,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343623,
+            "name": "RequestDate",
+            "dataTypeName": "calendar_date",
+            "description": "Requested Date of Inspection",
+            "fieldName": "requestdate",
+            "position": 13,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77273490,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343624,
+            "name": "RequestTime",
+            "dataTypeName": "text",
+            "description": "Requested Time of Inspection",
+            "fieldName": "requesttime",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 77273491,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343625,
+            "name": "DesiredDate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "desireddate",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 77273492,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343626,
+            "name": "DesiredTime",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "desiredtime",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 77273493,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343627,
+            "name": "ScheduledTime",
+            "dataTypeName": "text",
+            "description": "Scheduled Time of Inspection",
+            "fieldName": "scheduledtime",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 77273494,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343628,
+            "name": "InspectedTime",
+            "dataTypeName": "text",
+            "description": "Time of Inspection",
+            "fieldName": "inspectedtime",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 77273495,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343629,
+            "name": "ReInspection",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reinspection",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 77273496,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343630,
+            "name": "Inspector",
+            "dataTypeName": "text",
+            "description": "Inspector",
+            "fieldName": "inspector",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 77273497,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343631,
+            "name": "ExtraFields",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "extrafields",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 77273498,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343632,
+            "name": "InspectionID",
+            "dataTypeName": "text",
+            "description": "ID for Inspection",
+            "fieldName": "inspectionid",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 77273499,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343633,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Location Latitude",
+            "fieldName": "latitude",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 80147190,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343634,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Location Longitude",
+            "fieldName": "longitude",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 80147191,
+            "width": 94,
+            "format": {}
+        },
+        {
+            "id": 514343635,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "Well Known Text ",
+            "fieldName": "location_wkt",
+            "position": 25,
+            "renderTypeName": "point",
+            "tableColumnId": 80147189,
+            "width": 94,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

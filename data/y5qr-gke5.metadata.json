@@ -1,0 +1,686 @@
+{
+    "id": "y5qr-gke5",
+    "name": "Biased Based Policing Overview",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1596735753,
+    "description": "This dataset contains high level summary statistics from multiple Chattanooga Police Department data sources broken down by Race and Census tract.  Following guidelines from the Center for Policing Equity, the data set seeks to highlight any disproportional outcomes based on population and other factors.",
+    "displayType": "table",
+    "downloadCount": 59,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34873557,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1596735983,
+    "publicationGroup": 17413287,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1596735982,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 17413287,
+    "totalTimesRated": 0,
+    "viewCount": 134,
+    "viewLastModified": 1596735983,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1598368065,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2606664,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1598368050,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1598368066,
+                "failureCount": 0,
+                "startedAt": 1598368065,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 486204908,
+            "name": "County FIP Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 111069873,
+            "format": {}
+        },
+        {
+            "id": 486204915,
+            "name": "Census Tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "census_tract_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 111069880,
+            "format": {}
+        },
+        {
+            "id": 486204911,
+            "name": "Black Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_population",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 111069876,
+            "format": {}
+        },
+        {
+            "id": 486204890,
+            "name": "Two or More Races Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "two_or_more_races_population",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 111069855,
+            "format": {}
+        },
+        {
+            "id": 486204910,
+            "name": "Some Other Race Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "some_other_race_population",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 111069875,
+            "format": {}
+        },
+        {
+            "id": 486204906,
+            "name": "White Alone Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_alone_population",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 111069871,
+            "format": {}
+        },
+        {
+            "id": 486204881,
+            "name": "State FIP Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip_code",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 111069846,
+            "format": {}
+        },
+        {
+            "id": 486204912,
+            "name": "TotalPop",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "totalpop",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 111069877,
+            "format": {}
+        },
+        {
+            "id": 486204879,
+            "name": "Arrests",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "arrests",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 111069844,
+            "format": {}
+        },
+        {
+            "id": 486204885,
+            "name": "911 Incidents",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_911_incidents",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 111069850,
+            "format": {}
+        },
+        {
+            "id": 486204897,
+            "name": "Arrests Per Incidents",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "arrests_per_incidents",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 111069862,
+            "format": {}
+        },
+        {
+            "id": 486204901,
+            "name": "Arrests Per Capita",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "arrests_per_capita",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 111069866,
+            "format": {}
+        },
+        {
+            "id": 486204884,
+            "name": "White Arrests",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_arrests",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 111069849,
+            "format": {}
+        },
+        {
+            "id": 486204904,
+            "name": "Black Arrests",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_arrests",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 111069869,
+            "format": {}
+        },
+        {
+            "id": 486204875,
+            "name": "White Arrests Per Capita",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_arrests_per_capita",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 111069840,
+            "format": {}
+        },
+        {
+            "id": 486204870,
+            "name": "Black Arrests Per Capita",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_arrests_per_capita",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 111069835,
+            "format": {}
+        },
+        {
+            "id": 486204877,
+            "name": "White Arrests Per Incident",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_arrests_per_incident",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 111069842,
+            "format": {}
+        },
+        {
+            "id": 486204917,
+            "name": "_geometry",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "_geometry",
+            "position": 18,
+            "renderTypeName": "polygon",
+            "tableColumnId": 111069882,
+            "format": {}
+        },
+        {
+            "id": 486204896,
+            "name": "Black-White Per Capita Differential",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_white_per_capita",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 111069861,
+            "format": {}
+        },
+        {
+            "id": 486204916,
+            "name": "Black Arrests Per Incident",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_arrests_per_incident",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 111069881,
+            "format": {}
+        },
+        {
+            "id": 486204913,
+            "name": "Use of Force Incidents",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_incidents",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 111069878,
+            "format": {}
+        },
+        {
+            "id": 486204883,
+            "name": "Citizen Complaints",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 111069848,
+            "format": {}
+        },
+        {
+            "id": 486204892,
+            "name": "Use of Force Incidents (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_incidents_black",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 111069857,
+            "format": {}
+        },
+        {
+            "id": 486204878,
+            "name": "Use of Force Incidents (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_incidents_white",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 111069843,
+            "format": {}
+        },
+        {
+            "id": 486204898,
+            "name": "Citizen Complaints (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_black",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 111069863,
+            "format": {}
+        },
+        {
+            "id": 486204888,
+            "name": "Citizen Complaints (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_white",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 111069853,
+            "format": {}
+        },
+        {
+            "id": 486204905,
+            "name": "Citations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 111069870,
+            "format": {}
+        },
+        {
+            "id": 486204899,
+            "name": "Citations (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_black",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 111069864,
+            "format": {}
+        },
+        {
+            "id": 486204889,
+            "name": "Citations (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_white",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 111069854,
+            "format": {}
+        },
+        {
+            "id": 486204871,
+            "name": "Use of Force Per Incident",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_incident",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 111069836,
+            "format": {}
+        },
+        {
+            "id": 486204873,
+            "name": "Use of Force Per Capita",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_capita",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 111069838,
+            "format": {}
+        },
+        {
+            "id": 486204891,
+            "name": "Use of Force Per Arrest",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_arrest",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 111069856,
+            "format": {}
+        },
+        {
+            "id": 486204907,
+            "name": "Use of Force Per Incident (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_incident_1",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 111069872,
+            "format": {}
+        },
+        {
+            "id": 486204886,
+            "name": "Use of Force Per Capita (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_capita_black",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 111069851,
+            "format": {}
+        },
+        {
+            "id": 486204903,
+            "name": "Use of Force Per Arrest (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_arrest_black",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 111069868,
+            "format": {}
+        },
+        {
+            "id": 486204880,
+            "name": "Use of Force Per Incident (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_incident_2",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 111069845,
+            "format": {}
+        },
+        {
+            "id": 486204919,
+            "name": "Use of Force Per Capita (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_capita_white",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 111069884,
+            "format": {}
+        },
+        {
+            "id": 486204902,
+            "name": "Use of Force Per Arrest (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "use_of_force_per_arrest_white",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 111069867,
+            "format": {}
+        },
+        {
+            "id": 486204895,
+            "name": "Citizen Complaints Per Incident",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_per",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 111069860,
+            "format": {}
+        },
+        {
+            "id": 486204887,
+            "name": "Citizen Complaints Per Capita",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_per_capita",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 111069852,
+            "format": {}
+        },
+        {
+            "id": 486204893,
+            "name": "Citizen Complaints Per Incident (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_per_1",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 111069858,
+            "format": {}
+        },
+        {
+            "id": 486204900,
+            "name": "Citizen Complaints Per Capita (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_per_capita_1",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 111069865,
+            "format": {}
+        },
+        {
+            "id": 486204876,
+            "name": "Citizen Complaints Per Incident (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_per_2",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 111069841,
+            "format": {}
+        },
+        {
+            "id": 486204882,
+            "name": "Citizen Complaints Per Capita (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citizen_complaints_per_capita_2",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 111069847,
+            "format": {}
+        },
+        {
+            "id": 486204909,
+            "name": "Citations Per Incident",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_per_incident",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 111069874,
+            "format": {}
+        },
+        {
+            "id": 486204874,
+            "name": "Citations Per Capita",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_per_capita",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 111069839,
+            "format": {}
+        },
+        {
+            "id": 486204914,
+            "name": "Citations Per Incident (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_per_incident_black",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 111069879,
+            "format": {}
+        },
+        {
+            "id": 486204918,
+            "name": "Citations Per Capita (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_per_capita_black",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 111069883,
+            "format": {}
+        },
+        {
+            "id": 486204872,
+            "name": "Citations Per Incident (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_per_incident_white",
+            "position": 49,
+            "renderTypeName": "number",
+            "tableColumnId": 111069837,
+            "format": {}
+        },
+        {
+            "id": 486204894,
+            "name": "Citations Per Capita (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citations_per_capita_white",
+            "position": 50,
+            "renderTypeName": "number",
+            "tableColumnId": 111069859,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "odextract@chattanooga.gov",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "bias",
+        "biased",
+        "biased based policing",
+        "equity",
+        "black",
+        "white",
+        "use of force",
+        "complaints",
+        "complaint",
+        "internal affairs",
+        "arrests",
+        "arrest",
+        "911 incident"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "id": "g2gk-49x3",
+    "name": "Public Library Programming by Branch",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1659383472,
+    "description": "Programs made by the Public Library and participation counts.",
+    "displayType": "table",
+    "downloadCount": 54,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38890299,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1664210581,
+    "publicationGroup": 18805272,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1664210855,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 18884369,
+    "totalTimesRated": 0,
+    "viewCount": 34,
+    "viewLastModified": 1666192256,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1662558558,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4999112,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1662558376,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1662558558,
+                "failureCount": 0,
+                "startedAt": 1662558558,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 565923990,
+            "name": "Branch Name",
+            "dataTypeName": "text",
+            "description": "Name of library branch",
+            "fieldName": "branch_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 143170488,
+            "format": {}
+        },
+        {
+            "id": 565923991,
+            "name": "Report Month",
+            "dataTypeName": "text",
+            "description": "Month report was made",
+            "fieldName": "report_month",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 143170487,
+            "format": {}
+        },
+        {
+            "id": 565923992,
+            "name": "Report Year",
+            "dataTypeName": "text",
+            "description": "Year report was made",
+            "fieldName": "report_year",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 143205703,
+            "format": {}
+        },
+        {
+            "id": 565923993,
+            "name": "Program Count",
+            "dataTypeName": "number",
+            "description": "Count of programs made by the library branch",
+            "fieldName": "event_count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 143170485,
+            "format": {}
+        },
+        {
+            "id": 565923994,
+            "name": "Participant Count",
+            "dataTypeName": "number",
+            "description": "Count of participants that attended programs",
+            "fieldName": "participant_count",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 143170484,
+            "format": {}
+        },
+        {
+            "id": 565923995,
+            "name": "Report Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "report_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 143193891,
+            "format": {}
+        },
+        {
+            "id": 565923996,
+            "name": "Fiscal Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 143205704,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Department": "Public Library",
+                "Data Steward Name": "Joshua Hardin",
+                "How often are data values updated?": "Yearly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 565923997,
+        "rowLabel": "Program",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "library",
+        "programming"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

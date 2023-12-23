@@ -1,0 +1,225 @@
+{
+    "id": "nkjc-a8ee",
+    "name": "SVI Index Hamilton County",
+    "assetType": "filter",
+    "attribution": "CDC",
+    "attributionLink": "https://svi.cdc.gov/data-and-tools-download.html",
+    "averageRating": 0,
+    "createdAt": 1597262009,
+    "displayType": "table",
+    "downloadCount": 50,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "y2bw-hkax",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34930944,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1597263107,
+    "publicationGroup": 17366812,
+    "publicationStage": "published",
+    "queryString": "SELECT \n  st,\n  state,\n  st_abbr,\n  stcnty,\n  county,\n  fips,\n  rpl_themes as svi,\n  the_geom\nwhere county = \"Hamilton\" and rpl_themes != -999",
+    "rowsUpdatedAt": 1595534594,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17366812,
+    "totalTimesRated": 0,
+    "viewCount": 42,
+    "viewLastModified": 1666026041,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1597262477,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2554378,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1597262458,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1597262477,
+                "failureCount": 0,
+                "startedAt": 1597262477,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 487620448,
+            "name": "st",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "st",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 109556079,
+            "format": {}
+        },
+        {
+            "id": 487620449,
+            "name": "state",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 109556045,
+            "format": {}
+        },
+        {
+            "id": 487620450,
+            "name": "st_abbr",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "st_abbr",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 109556057,
+            "format": {}
+        },
+        {
+            "id": 487620451,
+            "name": "stcnty",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stcnty",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 109556046,
+            "format": {}
+        },
+        {
+            "id": 487620452,
+            "name": "county",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 109556016,
+            "format": {}
+        },
+        {
+            "id": 487620453,
+            "name": "fips",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fips",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 109556100,
+            "format": {}
+        },
+        {
+            "id": 487620454,
+            "name": "svi",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "svi",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 109556018,
+            "format": {}
+        },
+        {
+            "id": 487620455,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "the_geom",
+            "position": 8,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 109556072,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

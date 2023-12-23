@@ -1,0 +1,423 @@
+{
+    "id": "5fnn-ha4k",
+    "name": "TN Health Department COVID Data - County New",
+    "assetType": "dataset",
+    "attribution": "TN Department of Health",
+    "attributionLink": "https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1609360201,
+    "description": "COVID data by county in TN. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\nData dictionary provided by TN Department of Health download link: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Data-Dictionary.xlsx",
+    "displayType": "table",
+    "downloadCount": 88,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36517192,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1614019077,
+    "publicationGroup": 17900107,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 526016214,
+    "rowsUpdatedAt": 1703215474,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18064704,
+    "totalTimesRated": 0,
+    "viewCount": 313,
+    "viewLastModified": 1703215112,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1609360764,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3271610,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1609360502,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1609360764,
+                "failureCount": 0,
+                "startedAt": 1609360764,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 526016189,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 126563627,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 526016190,
+            "name": "COUNTY",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 126563613,
+            "format": {}
+        },
+        {
+            "id": 526016191,
+            "name": "TOTAL_CASES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_cases",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 126563614,
+            "format": {}
+        },
+        {
+            "id": 526016192,
+            "name": "NEW_CASES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "new_cases",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 126563615,
+            "format": {}
+        },
+        {
+            "id": 526016193,
+            "name": "TOTAL_CONFIRMED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_confirmed",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 126563616,
+            "format": {}
+        },
+        {
+            "id": 526016194,
+            "name": "NEW_CONFIRMED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_confirmed",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 126563617,
+            "format": {}
+        },
+        {
+            "id": 526016195,
+            "name": "TOTAL_PROBABLE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_probable",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 126563618,
+            "format": {}
+        },
+        {
+            "id": 526016196,
+            "name": "NEW_PROBABLE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_probable",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 126563619,
+            "format": {}
+        },
+        {
+            "id": 526016197,
+            "name": "POS_TESTS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pos_tests",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 126563620,
+            "format": {}
+        },
+        {
+            "id": 526016198,
+            "name": "NEW_POS_TESTS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_pos_tests",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 126563621,
+            "format": {}
+        },
+        {
+            "id": 526016199,
+            "name": "NEG_TESTS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "neg_tests",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 126563622,
+            "format": {}
+        },
+        {
+            "id": 526016200,
+            "name": "NEW_NEG_TESTS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_neg_tests",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 126563623,
+            "format": {}
+        },
+        {
+            "id": 526016201,
+            "name": "TOTAL_TESTS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_tests",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 126563624,
+            "format": {}
+        },
+        {
+            "id": 526016202,
+            "name": "NEW_TESTS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_tests",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 126563625,
+            "format": {}
+        },
+        {
+            "id": 526016203,
+            "name": "NEW_DEATHS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_deaths",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 126563626,
+            "format": {}
+        },
+        {
+            "id": 526016204,
+            "name": "TOTAL_DEATHS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_deaths",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 126563628,
+            "format": {}
+        },
+        {
+            "id": 526016205,
+            "name": "NEW_RECOVERED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_recovered",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 126563629,
+            "format": {}
+        },
+        {
+            "id": 526016206,
+            "name": "TOTAL_RECOVERED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_recovered",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 126563630,
+            "format": {}
+        },
+        {
+            "id": 526016207,
+            "name": "NEW_ACTIVE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_active",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 126563631,
+            "format": {}
+        },
+        {
+            "id": 526016208,
+            "name": "TOTAL_ACTIVE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_active",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 126563632,
+            "format": {}
+        },
+        {
+            "id": 526016209,
+            "name": "NEW_INACTIVE_RECOVERED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_inactive_recovered",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 126563633,
+            "format": {}
+        },
+        {
+            "id": 526016210,
+            "name": "TOTAL_INACTIVE_RECOVERED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_inactive_recovered",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 126563634,
+            "format": {}
+        },
+        {
+            "id": 526016211,
+            "name": "NEW_HOSPITALIZED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "new_hospitalized",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 126563635,
+            "format": {}
+        },
+        {
+            "id": 526016212,
+            "name": "TOTAL_HOSPITALIZED",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "total_hospitalized",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 126563636,
+            "format": {}
+        },
+        {
+            "id": 526016213,
+            "name": "TOTAL_DEATHS_BY_DOD",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_deaths_by_dod",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 126563637,
+            "format": {}
+        },
+        {
+            "id": 526016214,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "id",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 131179644,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 526016214,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tn health department covid data"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,187 @@
+{
+    "id": "7pcc-rpwf",
+    "name": "Affordability Index",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1557165677,
+    "description": "Affordability index by census tract. The affordability index is defined as the housing plus transportation costs divided by the typical regional income. Data is provided by  CNT. For more information please visit https://htaindex.cnt.org/map/.",
+    "displayType": "table",
+    "downloadCount": 87,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562356852,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31438672,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557166031,
+    "publicationGroup": 16178476,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557166031,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16178476,
+    "totalTimesRated": 0,
+    "viewCount": 168,
+    "viewLastModified": 1666207562,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557166169,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 536196,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557166032,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557166169,
+                "failureCount": 0,
+                "startedAt": 1557166169,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407329555,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80519776,
+            "format": {}
+        },
+        {
+            "id": 407329563,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80519784,
+            "format": {}
+        },
+        {
+            "id": 407329565,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80519786,
+            "format": {}
+        },
+        {
+            "id": 407329566,
+            "name": "Affordability index",
+            "dataTypeName": "number",
+            "description": "The affordability index is defined as the housing plus transportation costs divided by the typical regional income",
+            "fieldName": "affordability_index",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80519787,
+            "format": {}
+        },
+        {
+            "id": 407329567,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 5,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80519788,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract 4 and 11"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

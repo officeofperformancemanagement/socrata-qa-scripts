@@ -1,0 +1,226 @@
+{
+    "id": "75ap-66ba",
+    "name": "Automated Job Log View",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1558556932,
+    "description": "Log of workflows that update data nightly. Updates that failed are highlighted in red.",
+    "displayType": "table",
+    "downloadCount": 171,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575356731,
+    "modifyingViewUid": "kjxr-3sfh",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31904376,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1562768406,
+    "publicationGroup": 16116530,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1703272356,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16181565,
+    "totalTimesRated": 0,
+    "viewCount": 895,
+    "viewLastModified": 1562768406,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1558557187,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 878724,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1558557170,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1558557187,
+                "failureCount": 0,
+                "startedAt": 1558557187,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 417168973,
+            "name": "Job Name",
+            "dataTypeName": "text",
+            "description": "Workflow job name",
+            "fieldName": "job_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 79437221,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 417168975,
+            "name": "Started At",
+            "dataTypeName": "calendar_date",
+            "description": "Time workflow started",
+            "fieldName": "started_at",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 79437223,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 417168976,
+            "name": "Completed At",
+            "dataTypeName": "calendar_date",
+            "description": "Time workflow ended",
+            "fieldName": "completed_at",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 79437224,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 417168977,
+            "name": "Completion Time",
+            "dataTypeName": "number",
+            "description": "Time taken for workflow to complete",
+            "fieldName": "completion_time",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 79437225,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "precision": "2",
+                "align": "left"
+            }
+        },
+        {
+            "id": 417168978,
+            "name": "Successful",
+            "dataTypeName": "text",
+            "description": "Was the workflow successful",
+            "fieldName": "successful",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 80584564,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "conditionalFormatting": [
+            {
+                "condition": {
+                    "tableColumnId": 80584564,
+                    "_key": "(80584564|CONTAINS|False)",
+                    "value": "False",
+                    "operator": "CONTAINS"
+                },
+                "color": "#ea9999",
+                "description": "Unsuccessful"
+            }
+        ],
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "job log",
+        "workflow",
+        "log",
+        "data"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

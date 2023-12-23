@@ -1,0 +1,258 @@
+{
+    "id": "4gk4-yecq",
+    "name": "Operating Expenses",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1628617793,
+    "description": "This dataset contains high level data on the budgeted expenses for each Fiscal Year of City government.",
+    "displayType": "table",
+    "downloadCount": 54,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "aqwr-wcyh",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39558754,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1683060081,
+    "publicationGroup": 17068897,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1687545195,
+    "rowsUpdatedBy": "kp5y-vgiw",
+    "tableId": 18406958,
+    "totalTimesRated": 0,
+    "viewCount": 32,
+    "viewLastModified": 1683060081,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1628618126,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5485465,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1628618105,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1628618126,
+                "failureCount": 0,
+                "startedAt": 1628618126,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 575299772,
+            "name": "Fiscal Year",
+            "dataTypeName": "number",
+            "fieldName": "fiscal_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 99916420,
+            "width": 100,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 575299773,
+            "name": "Service",
+            "dataTypeName": "text",
+            "fieldName": "service",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 99916421,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299774,
+            "name": "Department",
+            "dataTypeName": "text",
+            "fieldName": "department",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 99916422,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299775,
+            "name": "Program",
+            "dataTypeName": "text",
+            "fieldName": "program",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 99916423,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299776,
+            "name": "Expense Category",
+            "dataTypeName": "text",
+            "fieldName": "expense_category",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 99916424,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299777,
+            "name": "Recommended Amount",
+            "dataTypeName": "number",
+            "fieldName": "recommended_amount",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 99916425,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299778,
+            "name": "Approved Amount",
+            "dataTypeName": "number",
+            "fieldName": "approved_amount",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 99916426,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299779,
+            "name": "Fund",
+            "dataTypeName": "text",
+            "fieldName": "fund",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 99916427,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299780,
+            "name": "Fund Type",
+            "dataTypeName": "text",
+            "fieldName": "fund_type",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 99916428,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299781,
+            "name": "Description",
+            "dataTypeName": "text",
+            "fieldName": "description",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 99916436,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575299782,
+            "name": "Expense Type",
+            "dataTypeName": "text",
+            "fieldName": "expense_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 99916438,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "budget",
+        "expenses",
+        "expesnse"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

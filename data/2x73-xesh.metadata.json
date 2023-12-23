@@ -1,0 +1,404 @@
+{
+    "id": "2x73-xesh",
+    "name": "311 Service Requests Potholes and Distressed Pavement",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1568310696,
+    "description": "Pothole and paving service requests",
+    "displayType": "table",
+    "downloadCount": 106,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "k7eh-65x3",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39707116,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1568311115,
+    "publicationGroup": 15950137,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703254044,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19190800,
+    "totalTimesRated": 0,
+    "viewCount": 208,
+    "viewLastModified": 1666016794,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568311135,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5587930,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568311116,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568311135,
+                "failureCount": 0,
+                "startedAt": 1568311135,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 577284866,
+            "name": "service_request_key",
+            "dataTypeName": "text",
+            "description": "Unique identifier of the service request in the Accela system.",
+            "fieldName": "service_request_key",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76762095,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284867,
+            "name": "created_date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the service request was created.",
+            "fieldName": "created_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76762084,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284869,
+            "name": "request_type",
+            "dataTypeName": "text",
+            "description": "The type of the service request created.",
+            "fieldName": "request_type",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76762086,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284870,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "Description of the service request often populated by the constituent submitting the request.",
+            "fieldName": "description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76762087,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284871,
+            "name": "request_type_code",
+            "dataTypeName": "text",
+            "description": "Urgency of the request, (Urgent, Emergency, Standard, None, etc.).",
+            "fieldName": "request_type_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76762088,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284872,
+            "name": "status_code",
+            "dataTypeName": "text",
+            "description": "Status of the request, Open, New, and Closed.",
+            "fieldName": "status_code",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76762089,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284873,
+            "name": "intake_form",
+            "dataTypeName": "text",
+            "description": "How the request was submitted.",
+            "fieldName": "intake_form",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76762090,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284874,
+            "name": "days_to_complete",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "days_to_complete",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 81399746,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284875,
+            "name": "sla_fy_2019",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sla_fy_2019",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 82038591,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284876,
+            "name": "on_time_indicator",
+            "dataTypeName": "text",
+            "description": "Indicator if the request is completed at or before the due date.",
+            "fieldName": "on_time_indicator",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76829311,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284877,
+            "name": "completed_at",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is completed.",
+            "fieldName": "completed_at",
+            "position": 11,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975646,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284878,
+            "name": "due_at",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is due.",
+            "fieldName": "due_at",
+            "position": 12,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975647,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284879,
+            "name": "ispublic",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ispublic",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 80865363,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284880,
+            "name": "council_district",
+            "dataTypeName": "text",
+            "description": "Council District in which the requests was submitted for",
+            "fieldName": "council_district",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 81939070,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284881,
+            "name": "loc",
+            "dataTypeName": "point",
+            "description": "Column created from a SoQL query.",
+            "fieldName": "loc",
+            "position": 16,
+            "renderTypeName": "point",
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Public Works",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "filterCondition": {
+            "type": "operator",
+            "value": "OR",
+            "children": [
+                {
+                    "type": "operator",
+                    "value": "CONTAINS_INSENSITIVE",
+                    "children": [
+                        {
+                            "columnId": 577284869,
+                            "type": "column"
+                        },
+                        {
+                            "type": "literal",
+                            "value": "pothole"
+                        }
+                    ],
+                    "metadata": {
+                        "freeform": true
+                    }
+                },
+                {
+                    "type": "operator",
+                    "value": "CONTAINS_INSENSITIVE",
+                    "children": [
+                        {
+                            "columnId": 577284869,
+                            "type": "column"
+                        },
+                        {
+                            "type": "literal",
+                            "value": "distressed"
+                        }
+                    ],
+                    "metadata": {
+                        "freeform": true
+                    }
+                }
+            ],
+            "metadata": {
+                "tableColumnId": {
+                    "15950137": 76762086
+                },
+                "unifiedVersion": 2,
+                "operator": "CONTAINS_INSENSITIVE"
+            }
+        },
+        "orderBys": [
+            {
+                "ascending": false,
+                "expression": {
+                    "columnId": 577284867,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "potholes",
+        "pavement",
+        "311",
+        "service requests"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

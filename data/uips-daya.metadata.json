@@ -1,0 +1,365 @@
+{
+    "id": "uips-daya",
+    "name": "Blanket Purchase Orders",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1583248409,
+    "description": "This is a high level data set of all current blanket contracts, their expiration dates, some indicators on amount spent overall on the contract and past 365 days. There is also high level dates for key times such as 6 months, 3 months, and 1 month from the expiration date. Also, there is the top cost center that payments were made from on the blanket contract in the past 365 days.",
+    "displayType": "table",
+    "downloadCount": 190,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "gnuv-7wci",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33593543,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1583248500,
+    "publicationGroup": 16888252,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1630623345,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16888252,
+    "totalTimesRated": 0,
+    "viewCount": 194,
+    "viewLastModified": 1583248500,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583519166,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1941091,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583519082,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583519167,
+                "failureCount": 0,
+                "startedAt": 1583519166,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 453978952,
+            "name": "Po Number",
+            "dataTypeName": "text",
+            "description": "Unique purchase order number created in Oracle.",
+            "fieldName": "po_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 94674608,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978953,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "General description of the blanket purchase order",
+            "fieldName": "description",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 94674619,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978954,
+            "name": "Vendor Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "vendor_name",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 94674604,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978955,
+            "name": "Expiration Date",
+            "dataTypeName": "calendar_date",
+            "description": "Current date of expiration in Oracle.",
+            "fieldName": "expiration_date",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94674618,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978956,
+            "name": "Minority Owned",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "minority_owned",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 94674605,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978957,
+            "name": "Small Business",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "small_business",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 94674606,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978958,
+            "name": "Women Owned",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "women_owned",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 94674611,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978959,
+            "name": "Payment Total Overall",
+            "dataTypeName": "number",
+            "description": "Total approximate amount that has been paid on the Blanket Purchase Order since inception.",
+            "fieldName": "payment_total_overall",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 94674617,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978960,
+            "name": "Count of Invoices",
+            "dataTypeName": "number",
+            "description": "Count of invoices that have been paid on the Blanket Purchase Order since inception.",
+            "fieldName": "count_of_invoices",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 94674616,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978961,
+            "name": "Payment Total Past Year",
+            "dataTypeName": "number",
+            "description": "Total approximate amount that has been paid on the Blanket Purchase Order in past 365 days.",
+            "fieldName": "payment_total_past_year",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 94674615,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978962,
+            "name": "Count of Invoices Past Year",
+            "dataTypeName": "number",
+            "description": "Count of invoices that have been paid on the Blanket Purchase Order in past 365 days.",
+            "fieldName": "count_of_invoices_past_year",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 94674614,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978963,
+            "name": "Top Cost Center Past Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "top_cost_center",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 94674607,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978964,
+            "name": "Days to Expiration",
+            "dataTypeName": "number",
+            "description": "Number of days from today to the expiration date.",
+            "fieldName": "days_to_expiration",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 94674613,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978965,
+            "name": "One Month from Expiration",
+            "dataTypeName": "calendar_date",
+            "description": "Date which is one month from expiration.",
+            "fieldName": "one_month_from_expiration",
+            "position": 15,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94674612,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978966,
+            "name": "Three Months from Expiration",
+            "dataTypeName": "calendar_date",
+            "description": "Date which is three months from expiration.",
+            "fieldName": "three_months_from_expiration",
+            "position": 16,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94674610,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 453978967,
+            "name": "Six Months from Expiration",
+            "dataTypeName": "calendar_date",
+            "description": "Date which is six months from expiration.",
+            "fieldName": "six_months_from_expiration",
+            "position": 17,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94674609,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Purchasing",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "blanket",
+        "po",
+        "purchase order",
+        "renewal"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,874 @@
+{
+    "id": "nkyi-3pzf",
+    "name": "PILOT Agreements",
+    "assetType": "dataset",
+    "attribution": "Economic and Community Development Department",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1428436650,
+    "description": "PILOT Agreements through the City of Chattanooga and Hamilton County.",
+    "displayType": "table",
+    "downloadCount": 458,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1555969290,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 1,
+    "oid": 11459586,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1432736456,
+    "publicationGroup": 2626661,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1432736062,
+    "rowsUpdatedBy": "wma2-yapv",
+    "tableId": 2974108,
+    "totalTimesRated": 0,
+    "viewCount": 2172,
+    "viewLastModified": 1555969254,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1432736456,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366825,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1432736456,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 205742281,
+            "name": "Agreement Type",
+            "dataTypeName": "text",
+            "fieldName": "agreement_type",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 27492894,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 205742282,
+            "name": "Company Name",
+            "dataTypeName": "text",
+            "fieldName": "company_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 27492895,
+            "width": 313,
+            "format": {}
+        },
+        {
+            "id": 205742283,
+            "name": "Primary Tax Abated Property Address",
+            "dataTypeName": "text",
+            "fieldName": "primary_tax_abated_property_address",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 27492896,
+            "width": 308,
+            "format": {}
+        },
+        {
+            "id": 205742284,
+            "name": "All Tax Abated Properties Addresses",
+            "dataTypeName": "text",
+            "fieldName": "all_tax_abated_properties_addresses",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 27492897,
+            "width": 324,
+            "format": {}
+        },
+        {
+            "id": 205742285,
+            "name": "Primary Address Lat",
+            "dataTypeName": "number",
+            "fieldName": "primary_address_lat",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 27492898,
+            "width": 205,
+            "format": {}
+        },
+        {
+            "id": 205742286,
+            "name": "Primary Address Long",
+            "dataTypeName": "number",
+            "fieldName": "primary_address_long",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 27492899,
+            "width": 214,
+            "format": {}
+        },
+        {
+            "id": 205742287,
+            "name": "City Council Resolution Number",
+            "dataTypeName": "number",
+            "fieldName": "city_council_resolution_number",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 27492900,
+            "width": 286,
+            "format": {}
+        },
+        {
+            "id": 205742288,
+            "name": "City Council Resolution Date",
+            "dataTypeName": "calendar_date",
+            "fieldName": "city_council_resolution_date",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 27492901,
+            "width": 266,
+            "format": {
+                "view": "date",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742289,
+            "name": "City Council Resolution Agreement PDF",
+            "dataTypeName": "url",
+            "fieldName": "city_council_resolution_agreement_pdf",
+            "position": 9,
+            "renderTypeName": "url",
+            "tableColumnId": 27492906,
+            "width": 346,
+            "format": {
+                "align": "left"
+            },
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 205742290,
+            "name": "County Commission Resolution Number",
+            "dataTypeName": "text",
+            "fieldName": "county_commission_resolution_number",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 27492902,
+            "width": 333,
+            "format": {}
+        },
+        {
+            "id": 205742291,
+            "name": "County Commission Resolution Date",
+            "dataTypeName": "calendar_date",
+            "fieldName": "county_commission_resolution_date",
+            "position": 11,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 27492903,
+            "width": 308,
+            "format": {
+                "view": "date",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742292,
+            "name": "County Commission Resolution Agreement PDF",
+            "dataTypeName": "url",
+            "fieldName": "county_commission_resolution_agreement_pdf",
+            "position": 12,
+            "renderTypeName": "url",
+            "tableColumnId": 28020328,
+            "width": 387,
+            "format": {},
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 205745142,
+            "name": "Year Beginning ",
+            "dataTypeName": "text",
+            "fieldName": "year_beginning",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 27492904,
+            "width": 177,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "true",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205745242,
+            "name": "Year Ending",
+            "dataTypeName": "text",
+            "fieldName": "year_ending",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 27492905,
+            "width": 161,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "true",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742295,
+            "name": "Jobs Commitment",
+            "dataTypeName": "number",
+            "fieldName": "jobs_commitment",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 27492907,
+            "width": 191,
+            "format": {}
+        },
+        {
+            "id": 205742296,
+            "name": " Average Wage  ",
+            "dataTypeName": "number",
+            "fieldName": "average_wage",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 27492908,
+            "width": 177,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 205742297,
+            "name": "Agreement Jobs Notes",
+            "dataTypeName": "text",
+            "fieldName": "agreement_jobs_notes",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 27492909,
+            "width": 221,
+            "format": {}
+        },
+        {
+            "id": 205742298,
+            "name": " Investment ",
+            "dataTypeName": "number",
+            "fieldName": "investment",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 27492910,
+            "width": 149,
+            "format": {}
+        },
+        {
+            "id": 205742299,
+            "name": " Agreement Investment Notes ",
+            "dataTypeName": "text",
+            "fieldName": "agreement_investment_notes",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 27492911,
+            "width": 282,
+            "format": {}
+        },
+        {
+            "id": 205742300,
+            "name": "State Map No.",
+            "dataTypeName": "text",
+            "fieldName": "state_map_no",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 27492912,
+            "width": 212,
+            "format": {}
+        },
+        {
+            "id": 205742301,
+            "name": " Assessment on PILOT Properties ",
+            "dataTypeName": "number",
+            "fieldName": "assessment_on_pilot_properties",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 27492913,
+            "width": 284,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 205742302,
+            "name": " City Taxes Without PILOT Agreement ",
+            "dataTypeName": "number",
+            "description": "City of Chattanooga taxes that would have been required if the PILOT was not present. \n\nBased on the millage rate of $2.309 dollars per $100 of assessed value. ",
+            "fieldName": "city_taxes_without_pilot_agreement",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 27492914,
+            "width": 310,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742303,
+            "name": " Hamilton County General Tax Without PILOT Agreement ",
+            "dataTypeName": "number",
+            "description": "Hamilton County General taxes that would have been required if the PILOT was not present. \n\n\nBased on the General Tax portion of  Hamilton County millage rate of $2.7652 dollars per $100 of assessed value for the ",
+            "fieldName": "hamilton_county_general_tax_without_pilot_agreement",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 27492915,
+            "width": 432,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742304,
+            "name": " Hamilton County School Tax Without PILOT Agreement ",
+            "dataTypeName": "number",
+            "description": "Hamilton County School taxes that would have been required if the PILOT was not present. \n\nBased on the School Tax portion of  Hamilton County millage rate of $2.7652 dollars per $100 of assessed value for the ",
+            "fieldName": "hamilton_county_school_tax_without_pilot_agreement",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 27492916,
+            "width": 436,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742305,
+            "name": " Total Tax Without PILOT Agreement ",
+            "dataTypeName": "number",
+            "description": "Total taxes that would have been required if the PILOT was not present. ",
+            "fieldName": "total_tax_without_pilot_agreement",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 27492917,
+            "width": 308,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742306,
+            "name": " City Payments Billed in Lieu of Taxes ",
+            "dataTypeName": "number",
+            "description": "Company payments to City of Chattanooga  in lieu of taxes based on the PILOT agreement.",
+            "fieldName": "city_payments_billed_in_lieu_of_taxes",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 27492918,
+            "width": 329,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742307,
+            "name": " Hamilton County Payments Billed in Lieu of Taxes ",
+            "dataTypeName": "number",
+            "fieldName": "hamilton_county_payments_billed_in_lieu_of_taxes",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 27492919,
+            "width": 386,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 205742308,
+            "name": " Hamilton County School Payments Billed in Lieu of Taxes ",
+            "dataTypeName": "number",
+            "description": "Company payments to Hamilton County Schools  in lieu of taxes based on the PILOT agreement.",
+            "fieldName": "hamilton_county_school_payments_billed_in_lieu_of_taxes",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 27492920,
+            "width": 441,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742309,
+            "name": " Total Economic Development Fee ",
+            "dataTypeName": "number",
+            "description": "A fee sometimes included as part of PILOT agreements. ",
+            "fieldName": "total_economic_development_fee",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 27492921,
+            "width": 288,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742310,
+            "name": " Total Payments In Lieu of Taxes ",
+            "dataTypeName": "number",
+            "description": "Company total payments in lieu of taxes based on the PILOT agreement.",
+            "fieldName": "total_payments_in_lieu_of_taxes",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 27492922,
+            "width": 272,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742311,
+            "name": " City PILOT Incentives ",
+            "dataTypeName": "number",
+            "description": "Incentive received as part of the PILOT agreement. This value is the difference of the taxes that would have been paid without the PILOT and the payments in lieu of taxes received from the company. ",
+            "fieldName": "city_pilot_incentives",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 27492923,
+            "width": 221,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742312,
+            "name": " Hamilton County PILOT Incentives ",
+            "dataTypeName": "number",
+            "description": "Incentive received as part of the PILOT agreement. This value is the difference of the taxes that would have been paid without the PILOT and the payments in lieu of taxes received from the company. ",
+            "fieldName": "hamilton_county_pilot_incentives",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 27492924,
+            "width": 302,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742313,
+            "name": " Hamilton County Schools PILOT Incentives ",
+            "dataTypeName": "number",
+            "description": "Incentive received as part of the PILOT agreement. This value is the difference of the taxes that would have been paid without the PILOT and the payments in lieu of taxes received from the company. ",
+            "fieldName": "hamilton_county_schools_pilot_incentives",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 27492925,
+            "width": 351,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742314,
+            "name": " Economic Development Fee PILOT Incentives ",
+            "dataTypeName": "number",
+            "fieldName": "economic_development_fee_pilot_incentives",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 27492926,
+            "width": 362,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 205742315,
+            "name": " Total PILOT Incentive ",
+            "dataTypeName": "number",
+            "description": "Incentive received as part of the PILOT agreement. This value is the difference of the taxes that would have been paid without the PILOT and the payments in lieu of taxes received from the company. ",
+            "fieldName": "total_pilot_incentive",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 27492927,
+            "width": 214,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 205742316,
+            "name": "Primary Address Location",
+            "dataTypeName": "point",
+            "fieldName": "primary_address_location",
+            "position": 36,
+            "renderTypeName": "point",
+            "tableColumnId": 27492928,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 407377171,
+            "name": "Primary Address Location (address)",
+            "dataTypeName": "text",
+            "fieldName": "primary_address_location_address",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 80540011,
+            "format": {}
+        },
+        {
+            "id": 407377173,
+            "name": "Primary Address Location (city)",
+            "dataTypeName": "text",
+            "fieldName": "primary_address_location_city",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 80540013,
+            "format": {}
+        },
+        {
+            "id": 407377174,
+            "name": "Primary Address Location (state)",
+            "dataTypeName": "text",
+            "fieldName": "primary_address_location_state",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 80540014,
+            "format": {}
+        },
+        {
+            "id": 407377172,
+            "name": "Primary Address Location (zip)",
+            "dataTypeName": "text",
+            "fieldName": "primary_address_location_zip",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 80540012,
+            "format": {}
+        },
+        {
+            "id": 407377176,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 80540016,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407377177,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 80540017,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407377178,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 80540018,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407377179,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 80540019,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407377180,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 80540020,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407377181,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 80540021,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407377182,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 80540022,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 407377183,
+            "name": "Council_data 2",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ap6c_9ws7",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 80540023,
+            "computationStrategy": {
+                "source_columns": [
+                    "primary_address_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ap6c-9ws7",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "ascending": true,
+                    "columnFieldName": "company_name"
+                }
+            ]
+        },
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            }
+        },
+        "rowLabel": "PILOT Agreements",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 205742282,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "pilot",
+        "tax",
+        "agreements"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

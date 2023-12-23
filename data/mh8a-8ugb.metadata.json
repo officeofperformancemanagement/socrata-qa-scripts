@@ -1,0 +1,186 @@
+{
+    "id": "mh8a-8ugb",
+    "name": "Operating Revenues",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1628617220,
+    "description": "This dataset contains high level data on the budgeted revenues for each Fiscal Year of City government",
+    "displayType": "table",
+    "downloadCount": 53,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "eq8a-5dac",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39558818,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1683060532,
+    "publicationGroup": 18393422,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1682697886,
+    "rowsUpdatedBy": "kp5y-vgiw",
+    "tableId": 18393713,
+    "totalTimesRated": 0,
+    "viewCount": 51,
+    "viewLastModified": 1683060532,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1628617348,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5485509,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1628617323,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1628617348,
+                "failureCount": 0,
+                "startedAt": 1628617348,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 575300162,
+            "name": "Fiscal Year",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 138868107,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300163,
+            "name": "Revenue Type",
+            "dataTypeName": "text",
+            "fieldName": "revenue_type",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 138868097,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300164,
+            "name": "Specific Revenue Type",
+            "dataTypeName": "text",
+            "fieldName": "spec_rev_type",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 138868098,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300165,
+            "name": "Recommended Amount",
+            "dataTypeName": "number",
+            "fieldName": "recommended_amount",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 138868101,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 575300166,
+            "name": "Approved Amount",
+            "dataTypeName": "number",
+            "fieldName": "approved_amount",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 138868102,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "revenue",
+        "budget"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

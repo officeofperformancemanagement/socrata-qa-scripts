@@ -1,0 +1,688 @@
+{
+    "id": "jun6-cstd",
+    "name": "HCHD COVID Website Data",
+    "assetType": "dataset",
+    "attribution": "Hamilton County Health Department",
+    "attributionLink": "http://health.hamiltontn.org/AllServices/Coronavirus(COVID-19).aspx",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1610389498,
+    "description": "COVID data from the HCHD website with information about daily changes in COVID numbers by different population parameters. \nhttp://health.hamiltontn.org/AllServices/Coronavirus(COVID-19).aspx",
+    "displayType": "table",
+    "downloadCount": 76,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36185190,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1610392250,
+    "publicationGroup": 17931937,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 518715540,
+    "rowsUpdatedAt": 1703215287,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17931937,
+    "totalTimesRated": 0,
+    "viewCount": 147,
+    "viewLastModified": 1703214147,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1610392324,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3113171,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1610392250,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1610392324,
+                "failureCount": 0,
+                "startedAt": 1610392324,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 518715535,
+            "name": "date",
+            "dataTypeName": "calendar_date",
+            "description": "Row date",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 127580432,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 518715525,
+            "name": "cases_new",
+            "dataTypeName": "number",
+            "description": "New cases",
+            "fieldName": "cases_new",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 127580422,
+            "format": {}
+        },
+        {
+            "id": 518715550,
+            "name": "cases_total",
+            "dataTypeName": "number",
+            "description": "Total cases",
+            "fieldName": "cases_total",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 127580447,
+            "format": {}
+        },
+        {
+            "id": 518715557,
+            "name": "cases_total_inactive_recovered",
+            "dataTypeName": "number",
+            "description": "Total inactive or recovered cases",
+            "fieldName": "cases_total_inactive_recovered",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 127580454,
+            "format": {}
+        },
+        {
+            "id": 518715567,
+            "name": "cases_total_active",
+            "dataTypeName": "number",
+            "description": "Total active cases",
+            "fieldName": "cases_total_active",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 127580464,
+            "format": {}
+        },
+        {
+            "id": 518715524,
+            "name": "cases_total_epi_linked",
+            "dataTypeName": "number",
+            "description": "Total epi linked cases",
+            "fieldName": "cases_total_epi_linked",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 127580421,
+            "format": {}
+        },
+        {
+            "id": 518715545,
+            "name": "cases_total_sex_male",
+            "dataTypeName": "number",
+            "description": "Total cases sex: male",
+            "fieldName": "cases_total_sex_male",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 127580442,
+            "format": {}
+        },
+        {
+            "id": 518715554,
+            "name": "cases_total_sex_female",
+            "dataTypeName": "number",
+            "description": "Total cases sex: female",
+            "fieldName": "cases_total_sex_female",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 127580451,
+            "format": {}
+        },
+        {
+            "id": 518715536,
+            "name": "cases_total_sex_unknown",
+            "dataTypeName": "number",
+            "description": "Total cases sex: unknown",
+            "fieldName": "cases_total_sex_unknown",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 127580433,
+            "format": {}
+        },
+        {
+            "id": 518715523,
+            "name": "cases_total_race_white",
+            "dataTypeName": "number",
+            "description": "Total cases race: White",
+            "fieldName": "cases_total_race_white",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 127580420,
+            "format": {}
+        },
+        {
+            "id": 518715568,
+            "name": "cases_total_race_black",
+            "dataTypeName": "number",
+            "description": "Total cases race: Black",
+            "fieldName": "cases_total_race_black",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 127580465,
+            "format": {}
+        },
+        {
+            "id": 518715558,
+            "name": "cases_total_race_asian",
+            "dataTypeName": "number",
+            "description": "Total cases race: Asian",
+            "fieldName": "cases_total_race_asian",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 127580455,
+            "format": {}
+        },
+        {
+            "id": 518715537,
+            "name": "cases_total_race_other",
+            "dataTypeName": "number",
+            "description": "Total cases race: other",
+            "fieldName": "cases_total_race_other",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 127580434,
+            "format": {}
+        },
+        {
+            "id": 518715534,
+            "name": "cases_total_race_not_determined",
+            "dataTypeName": "number",
+            "description": "Total cases race: not determined",
+            "fieldName": "cases_total_race_not",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 127580431,
+            "format": {}
+        },
+        {
+            "id": 518715566,
+            "name": "cases_total_ethnicity_hispanic",
+            "dataTypeName": "number",
+            "description": "Total cases ethnicity: Hispanic",
+            "fieldName": "cases_total_ethnicity_hispanic",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 127580463,
+            "format": {}
+        },
+        {
+            "id": 518715543,
+            "name": "cases_total_ethnicity_non_hispanic",
+            "dataTypeName": "number",
+            "description": "Total cases ethnicity: Non-Hispanic",
+            "fieldName": "cases_total_ethnicity_non",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 127580440,
+            "format": {}
+        },
+        {
+            "id": 518715522,
+            "name": "cases_total_ethnicity_not_determined",
+            "dataTypeName": "number",
+            "description": "Total cases ethnicity: ethnicity not determined",
+            "fieldName": "cases_total_ethnicity_not",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 127580419,
+            "format": {}
+        },
+        {
+            "id": 518715547,
+            "name": "cases_total_age_0_10",
+            "dataTypeName": "number",
+            "description": "Total cases age: 0 to 10",
+            "fieldName": "cases_total_age_0_10",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 127580444,
+            "format": {}
+        },
+        {
+            "id": 518715556,
+            "name": "cases_total_age_11_20",
+            "dataTypeName": "number",
+            "description": "Total cases age: 11 to 20",
+            "fieldName": "cases_total_age_11_20",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 127580453,
+            "format": {}
+        },
+        {
+            "id": 518715519,
+            "name": "cases_total_age_21_30",
+            "dataTypeName": "number",
+            "description": "Total cases age: 21 to 30",
+            "fieldName": "cases_total_age_21_30",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 127580416,
+            "format": {}
+        },
+        {
+            "id": 518715552,
+            "name": "cases_total_age_31_40",
+            "dataTypeName": "number",
+            "description": "Total cases age: 31 to 40",
+            "fieldName": "cases_total_age_31_40",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 127580449,
+            "format": {}
+        },
+        {
+            "id": 518715529,
+            "name": "cases_total_age_41_50",
+            "dataTypeName": "number",
+            "description": "Total cases age: 41 to 50",
+            "fieldName": "cases_total_age_41_50",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 127580426,
+            "format": {}
+        },
+        {
+            "id": 518715527,
+            "name": "cases_total_age_51_60",
+            "dataTypeName": "number",
+            "description": "Total cases age: 51 to 60",
+            "fieldName": "cases_total_age_51_60",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 127580424,
+            "format": {}
+        },
+        {
+            "id": 518715539,
+            "name": "cases_total_age_61_70",
+            "dataTypeName": "number",
+            "description": "Total cases age: 61 to 70",
+            "fieldName": "cases_total_age_61_70",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 127580436,
+            "format": {}
+        },
+        {
+            "id": 518715520,
+            "name": "cases_total_age_71_80",
+            "dataTypeName": "number",
+            "description": "Total cases age: 71 to 80",
+            "fieldName": "cases_total_age_71_80",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 127580417,
+            "format": {}
+        },
+        {
+            "id": 518715565,
+            "name": "cases_total_age_81_plus",
+            "dataTypeName": "number",
+            "description": "Total cases age: 81 plus",
+            "fieldName": "cases_total_age_81_plus",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 127580462,
+            "format": {}
+        },
+        {
+            "id": 518715531,
+            "name": "cases_total_age_not_determined",
+            "dataTypeName": "number",
+            "description": "Total cases age: age not determined",
+            "fieldName": "cases_total_age_not_determined",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 127580428,
+            "format": {}
+        },
+        {
+            "id": 518715560,
+            "name": "deaths_total",
+            "dataTypeName": "number",
+            "description": "Total deaths",
+            "fieldName": "deaths_total",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 127580457,
+            "format": {}
+        },
+        {
+            "id": 518715538,
+            "name": "deaths_total_sex_male",
+            "dataTypeName": "number",
+            "description": "Total deaths sex: male",
+            "fieldName": "deaths_total_sex_male",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 127580435,
+            "format": {}
+        },
+        {
+            "id": 518715549,
+            "name": "deaths_total_sex_female",
+            "dataTypeName": "number",
+            "description": "Total deaths sex: female",
+            "fieldName": "deaths_total_sex_female",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 127580446,
+            "format": {}
+        },
+        {
+            "id": 518715542,
+            "name": "deaths_total_sex_not_determined",
+            "dataTypeName": "number",
+            "description": "Total deaths sex: not determined",
+            "fieldName": "deaths_total_sex_not",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 127580439,
+            "format": {}
+        },
+        {
+            "id": 518715563,
+            "name": "deaths_total_race_white",
+            "dataTypeName": "number",
+            "description": "Total deaths race: White",
+            "fieldName": "deaths_total_race_white",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 127580460,
+            "format": {}
+        },
+        {
+            "id": 518715546,
+            "name": "deaths_total_race_black",
+            "dataTypeName": "number",
+            "description": "Total deaths race: Black",
+            "fieldName": "deaths_total_race_black",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 127580443,
+            "format": {}
+        },
+        {
+            "id": 518715553,
+            "name": "deaths_total_race_asian",
+            "dataTypeName": "number",
+            "description": "Total deaths race: Asian",
+            "fieldName": "deaths_total_race_asian",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 127580450,
+            "format": {}
+        },
+        {
+            "id": 518715533,
+            "name": "deaths_total_race_other",
+            "dataTypeName": "number",
+            "description": "Total deaths race: other",
+            "fieldName": "deaths_total_race_other",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 127580430,
+            "format": {}
+        },
+        {
+            "id": 518715521,
+            "name": "deaths_total_race_not_determined",
+            "dataTypeName": "number",
+            "description": "Total deaths race: not determined",
+            "fieldName": "deaths_total_race_not",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 127580418,
+            "format": {}
+        },
+        {
+            "id": 518715532,
+            "name": "deaths_total_ethnicity_hispanic",
+            "dataTypeName": "number",
+            "description": "Total deaths ethnicity: Hispanic",
+            "fieldName": "deaths_total_ethnicity",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 127580429,
+            "format": {}
+        },
+        {
+            "id": 518715555,
+            "name": "deaths_total_ethnicity_non_hispanic",
+            "dataTypeName": "number",
+            "description": "Total deaths ethnicity: Non-Hispanic",
+            "fieldName": "deaths_total_ethnicity_non",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 127580452,
+            "format": {}
+        },
+        {
+            "id": 518715564,
+            "name": "deaths_total_ethnicity_not_determined",
+            "dataTypeName": "number",
+            "description": "Total deaths ethnicity: not determined",
+            "fieldName": "deaths_total_ethnicity_not",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 127580461,
+            "format": {}
+        },
+        {
+            "id": 518715541,
+            "name": "deaths_total_age_0_10",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 0 to 10",
+            "fieldName": "deaths_total_age_0_10",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 127580438,
+            "format": {}
+        },
+        {
+            "id": 518715562,
+            "name": "deaths_total_age_11_20",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 11 to 20",
+            "fieldName": "deaths_total_age_11_20",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 127580459,
+            "format": {}
+        },
+        {
+            "id": 518715559,
+            "name": "deaths_total_age_21_30",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 21 to 30",
+            "fieldName": "deaths_total_age_21_30",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 127580456,
+            "format": {}
+        },
+        {
+            "id": 518715530,
+            "name": "deaths_total_age_31_40",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 31 to 40",
+            "fieldName": "deaths_total_age_31_40",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 127580427,
+            "format": {}
+        },
+        {
+            "id": 518715548,
+            "name": "deaths_total_age_41_50",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 41 to 50",
+            "fieldName": "deaths_total_age_41_50",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 127580445,
+            "format": {}
+        },
+        {
+            "id": 518715544,
+            "name": "deaths_total_age_51_60",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 51 to 60",
+            "fieldName": "deaths_total_age_51_60",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 127580441,
+            "format": {}
+        },
+        {
+            "id": 518715561,
+            "name": "deaths_total_age_61_70",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 61 to 70",
+            "fieldName": "deaths_total_age_61_70",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 127580458,
+            "format": {}
+        },
+        {
+            "id": 518715528,
+            "name": "deaths_total_age_71_80",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 71 to 80",
+            "fieldName": "deaths_total_age_71_80",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 127580425,
+            "format": {}
+        },
+        {
+            "id": 518715526,
+            "name": "deaths_total_age_81_plus",
+            "dataTypeName": "number",
+            "description": "Total deaths age: 81 plus",
+            "fieldName": "deaths_total_age_81_plus",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 127580423,
+            "format": {}
+        },
+        {
+            "id": 518715551,
+            "name": "deaths_total_age_not_determined",
+            "dataTypeName": "number",
+            "description": "Total deaths age: age not determined",
+            "fieldName": "deaths_total_age_not",
+            "position": 49,
+            "renderTypeName": "number",
+            "tableColumnId": 127580448,
+            "format": {}
+        },
+        {
+            "id": 518715540,
+            "name": "row_id",
+            "dataTypeName": "text",
+            "description": "Row id",
+            "fieldName": "row_id",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 127580437,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 518715540,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid",
+        "hchd"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

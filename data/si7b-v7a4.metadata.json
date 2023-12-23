@@ -1,0 +1,269 @@
+{
+    "id": "si7b-v7a4",
+    "name": "Pass Visit Report",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1552935869,
+    "description": "Visits to YFD centers.",
+    "displayType": "table",
+    "downloadCount": 109,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575351309,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31709268,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1560439764,
+    "publicationGroup": 16048752,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1689888154,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16274954,
+    "totalTimesRated": 0,
+    "viewCount": 349,
+    "viewLastModified": 1703196853,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583523243,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1941162,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583523164,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583523243,
+                "failureCount": 0,
+                "startedAt": 1583523243,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 412884441,
+            "name": "Visit Location",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "visit_location",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 78091406,
+            "format": {}
+        },
+        {
+            "id": 412884442,
+            "name": "Location Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location_desc",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 78091407,
+            "format": {}
+        },
+        {
+            "id": 412884443,
+            "name": "Date Time",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_time",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78091410,
+            "format": {
+                "view": "date_time"
+            }
+        },
+        {
+            "id": 412884444,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78091405,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 412884445,
+            "name": "Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "time",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 78091408,
+            "format": {}
+        },
+        {
+            "id": 412884446,
+            "name": "Visit Hr",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "visit_hr",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 78091523,
+            "format": {}
+        },
+        {
+            "id": 412884448,
+            "name": "Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 82425612,
+            "format": {}
+        },
+        {
+            "id": 412884447,
+            "name": "Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "count",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 82425611,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "columnFieldName": "count",
+                    "ascending": false
+                },
+                {
+                    "columnFieldName": "count",
+                    "ascending": true
+                },
+                {
+                    "columnFieldName": "count",
+                    "ascending": true
+                }
+            ]
+        },
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Smarter Students Stronger Families",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Parks and Outdoors",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Visit",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": false,
+                "expression": {
+                    "columnId": 412884447,
+                    "type": "column"
+                }
+            },
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 412884447,
+                    "type": "column"
+                }
+            },
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 412884447,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "yfd",
+        "parks and outdoors",
+        "parks",
+        "recreation",
+        "activity visits"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

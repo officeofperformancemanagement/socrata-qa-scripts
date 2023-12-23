@@ -1,0 +1,363 @@
+{
+    "id": "i68g-hwuq",
+    "name": "Long Term Vacancy Estimate",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1568052812,
+    "description": "Long term vacancy estimate for census tracts in Hamilton County",
+    "displayType": "table",
+    "downloadCount": 69,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571261765,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32326124,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1568053020,
+    "publicationGroup": 16502762,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568053019,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16502762,
+    "totalTimesRated": 0,
+    "viewCount": 136,
+    "viewLastModified": 1568053020,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568053127,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1169125,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568053020,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568053128,
+                "failureCount": 0,
+                "startedAt": 1568053127,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 427542748,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87215581,
+            "format": {}
+        },
+        {
+            "id": 427542768,
+            "name": "Id2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id2",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87215601,
+            "format": {}
+        },
+        {
+            "id": 427542767,
+            "name": "tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87215600,
+            "format": {}
+        },
+        {
+            "id": 427542749,
+            "name": "Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geography",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 87215582,
+            "format": {}
+        },
+        {
+            "id": 427542750,
+            "name": "Estimate; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87215583,
+            "format": {}
+        },
+        {
+            "id": 427542751,
+            "name": "Margin of Error; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 87215584,
+            "format": {}
+        },
+        {
+            "id": 427542752,
+            "name": "Estimate; Total: - For rent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_for_rent",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87215585,
+            "format": {}
+        },
+        {
+            "id": 427542753,
+            "name": "Margin of Error; Total: - For rent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_for",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87215586,
+            "format": {}
+        },
+        {
+            "id": 427542754,
+            "name": "Estimate; Total: - Rented, not occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_rented_not",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 87215587,
+            "format": {}
+        },
+        {
+            "id": 427542755,
+            "name": "Margin of Error; Total: - Rented, not occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_rented",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 87215588,
+            "format": {}
+        },
+        {
+            "id": 427542756,
+            "name": "Estimate; Total: - For sale only",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_for_sale_only",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 87215589,
+            "format": {}
+        },
+        {
+            "id": 427542757,
+            "name": "Margin of Error; Total: - For sale only",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_for_1",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 87215590,
+            "format": {}
+        },
+        {
+            "id": 427542758,
+            "name": "Estimate; Total: - Sold, not occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_sold_not",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 87215591,
+            "format": {}
+        },
+        {
+            "id": 427542759,
+            "name": "Margin of Error; Total: - Sold, not occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_sold",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 87215592,
+            "format": {}
+        },
+        {
+            "id": 427542760,
+            "name": "Estimate; Total: - For seasonal, recreational, or occasional use",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_for_seasonal",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 87215593,
+            "format": {}
+        },
+        {
+            "id": 427542761,
+            "name": "Margin of Error; Total: - For seasonal, recreational, or occasional use",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_for_2",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 87215594,
+            "format": {}
+        },
+        {
+            "id": 427542762,
+            "name": "Estimate; Total: - For migrant workers",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_for_migrant",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 87215595,
+            "format": {}
+        },
+        {
+            "id": 427542763,
+            "name": "Margin of Error; Total: - For migrant workers",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_for_3",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 87215596,
+            "format": {}
+        },
+        {
+            "id": 427542764,
+            "name": "Estimate; Total: - Other vacant",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_other_vacant",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 87215597,
+            "format": {}
+        },
+        {
+            "id": 427542765,
+            "name": "Margin of Error; Total: - Other vacant",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_other",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 87215598,
+            "format": {}
+        },
+        {
+            "id": 427542766,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 21,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87215599,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "acs",
+        "vacancy"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,243 @@
+{
+    "id": "wk5k-ripj",
+    "name": "Activity Visit Report Internal View",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1561470993,
+    "description": "Activity Visit Report for Chattanooga YFD",
+    "displayType": "table",
+    "downloadCount": 116,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575352209,
+    "modifyingViewUid": "qct7-baq5",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31793911,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1561471189,
+    "publicationGroup": 16049958,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1679002039,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16307262,
+    "totalTimesRated": 0,
+    "viewCount": 231,
+    "viewLastModified": 1666018358,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583523311,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1941165,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583523280,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583523311,
+                "failureCount": 0,
+                "startedAt": 1583523311,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 414656585,
+            "name": "Actv/Sec",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "actv_sec",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 83105168,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 414656586,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 83105169,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 414656587,
+            "name": "DateTime",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "datetime",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 83105170,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 414656588,
+            "name": "Visit Hr",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "visit_hr",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 83105171,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 414656589,
+            "name": "Pass",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pass",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 83105172,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 414656591,
+            "name": "Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 83105173,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 414656592,
+            "name": "Visit Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "visit_type",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 83105174,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Smarter Students Stronger Families",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Parks and Outdoors",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "recreation",
+        "yfd",
+        "activity visits",
+        "parks and outdoors",
+        "parks"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

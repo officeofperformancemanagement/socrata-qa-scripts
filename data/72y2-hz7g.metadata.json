@@ -1,0 +1,482 @@
+{
+    "id": "72y2-hz7g",
+    "name": "2017 5 Year Housing Age",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1568209600,
+    "description": "Housing age from 2017 5 year ACS for tracts in Hamilton County",
+    "displayType": "table",
+    "downloadCount": 63,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1571313749,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32352771,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1568209978,
+    "publicationGroup": 16520076,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568209977,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16520076,
+    "totalTimesRated": 0,
+    "viewCount": 105,
+    "viewLastModified": 1568209978,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568210010,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1182910,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568209978,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568210010,
+                "failureCount": 0,
+                "startedAt": 1568210010,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 427834822,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87318124,
+            "format": {}
+        },
+        {
+            "id": 427834819,
+            "name": "Id2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id2",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87318121,
+            "format": {}
+        },
+        {
+            "id": 427834820,
+            "name": "tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87318122,
+            "format": {}
+        },
+        {
+            "id": 427834823,
+            "name": "Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geography",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 87318125,
+            "format": {}
+        },
+        {
+            "id": 427834824,
+            "name": "Old Homes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "old_homes",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87318126,
+            "format": {}
+        },
+        {
+            "id": 427834825,
+            "name": "New Homes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "new_homes",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 87318127,
+            "format": {}
+        },
+        {
+            "id": 427834826,
+            "name": "Estimate; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87318128,
+            "format": {}
+        },
+        {
+            "id": 427834827,
+            "name": "Margin of Error; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87318129,
+            "format": {}
+        },
+        {
+            "id": 427834821,
+            "name": "New Homes (2000+)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "new_homes_2000",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 87318123,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427834818,
+            "name": "Old Homes(<1960)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "old_homes_1960",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 87318120,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427834828,
+            "name": "Estimate; Total: - Built 2014 or later",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_2014",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 87318130,
+            "format": {}
+        },
+        {
+            "id": 427834829,
+            "name": "Margin of Error; Total: - Built 2014 or later",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 87318131,
+            "format": {}
+        },
+        {
+            "id": 427834830,
+            "name": "Estimate; Total: - Built 2010 to 2013",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_2010",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 87318132,
+            "format": {}
+        },
+        {
+            "id": 427834831,
+            "name": "Margin of Error; Total: - Built 2010 to 2013",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_1",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 87318133,
+            "format": {}
+        },
+        {
+            "id": 427834832,
+            "name": "Estimate; Total: - Built 2000 to 2009",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_2000",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 87318134,
+            "format": {}
+        },
+        {
+            "id": 427834833,
+            "name": "Margin of Error; Total: - Built 2000 to 2009",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_2",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 87318135,
+            "format": {}
+        },
+        {
+            "id": 427834834,
+            "name": "Estimate; Total: - Built 1990 to 1999",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_1990",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 87318136,
+            "format": {}
+        },
+        {
+            "id": 427834835,
+            "name": "Margin of Error; Total: - Built 1990 to 1999",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_3",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 87318137,
+            "format": {}
+        },
+        {
+            "id": 427834836,
+            "name": "Estimate; Total: - Built 1980 to 1989",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_1980",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 87318138,
+            "format": {}
+        },
+        {
+            "id": 427834837,
+            "name": "Margin of Error; Total: - Built 1980 to 1989",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_4",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 87318139,
+            "format": {}
+        },
+        {
+            "id": 427834838,
+            "name": "Estimate; Total: - Built 1970 to 1979",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_1970",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 87318140,
+            "format": {}
+        },
+        {
+            "id": 427834839,
+            "name": "Margin of Error; Total: - Built 1970 to 1979",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_5",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 87318141,
+            "format": {}
+        },
+        {
+            "id": 427834840,
+            "name": "Estimate; Total: - Built 1960 to 1969",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_1960",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 87318142,
+            "format": {}
+        },
+        {
+            "id": 427834841,
+            "name": "Margin of Error; Total: - Built 1960 to 1969",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_6",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 87318143,
+            "format": {}
+        },
+        {
+            "id": 427834842,
+            "name": "Estimate; Total: - Built 1950 to 1959",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_1950",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 87318144,
+            "format": {}
+        },
+        {
+            "id": 427834843,
+            "name": "Margin of Error; Total: - Built 1950 to 1959",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_7",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 87318145,
+            "format": {}
+        },
+        {
+            "id": 427834844,
+            "name": "Estimate; Total: - Built 1940 to 1949",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_1940",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 87318146,
+            "format": {}
+        },
+        {
+            "id": 427834845,
+            "name": "Margin of Error; Total: - Built 1940 to 1949",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_8",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 87318147,
+            "format": {}
+        },
+        {
+            "id": 427834846,
+            "name": "Estimate; Total: - Built 1939 or earlier",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total_built_1939",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 87318148,
+            "format": {}
+        },
+        {
+            "id": 427834847,
+            "name": "Margin of Error; Total: - Built 1939 or earlier",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total_built_9",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 87318149,
+            "format": {}
+        },
+        {
+            "id": 427834848,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 31,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87318150,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "acs",
+        "housing age",
+        "housing"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

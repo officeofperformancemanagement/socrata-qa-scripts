@@ -1,0 +1,193 @@
+{
+    "id": "scen-y53z",
+    "name": "Public Library Borrower Demographic",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1659384344,
+    "description": "Demographic breakdown of Public Library borrowers",
+    "displayType": "table",
+    "downloadCount": 56,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38890368,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1664212564,
+    "publicationGroup": 18805286,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1664212557,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 18884421,
+    "totalTimesRated": 0,
+    "viewCount": 48,
+    "viewLastModified": 1666192098,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1662558556,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4999149,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1662558364,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1662558557,
+                "failureCount": 0,
+                "startedAt": 1662558556,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 565924656,
+            "name": "Borrower Demographic",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "borrower_demographic",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 143170654,
+            "format": {}
+        },
+        {
+            "id": 565924657,
+            "name": "Report Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "report_month",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 143170653,
+            "format": {}
+        },
+        {
+            "id": 565924658,
+            "name": "Report Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "report_year",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 143182296,
+            "format": {}
+        },
+        {
+            "id": 565924659,
+            "name": "Borrower Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "borrower_count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 143170651,
+            "format": {}
+        },
+        {
+            "id": 565924660,
+            "name": "Report Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "report_date",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 143195780,
+            "format": {}
+        },
+        {
+            "id": 565924661,
+            "name": "Fiscal Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 143205710,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Department": "Public Library",
+                "Data Steward Name": "Joshua Hardin",
+                "How often are data values updated?": "Yearly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 565924662,
+        "rowLabel": "Borrower",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "library"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

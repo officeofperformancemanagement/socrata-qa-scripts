@@ -1,0 +1,525 @@
+{
+    "id": "gmm6-4z4q",
+    "name": "Property Tax and Water Quality Fees",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1646393437,
+    "description": "This is a dataset that contains the current balances for property taxes and water quality fees for all parcels within the City of Chattanooga. At a high level, this data can be used to better understand where late payments are occurring, which may be an indicator of financial stress; or the data can be used to describe where revenues are coming from within the City. This does NOT contain data on PILOTs.",
+    "displayType": "table",
+    "downloadCount": 72,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "3ca9-qb46",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38243321,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1646393588,
+    "publicationGroup": 16650244,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1700039341,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18107757,
+    "totalTimesRated": 0,
+    "viewCount": 33,
+    "viewLastModified": 1646393588,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1646393613,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4480903,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1646393588,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1646393613,
+                "failureCount": 0,
+                "startedAt": 1646393613,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 556759407,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "This is the address for the property.",
+            "fieldName": "address",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 89551570,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759408,
+            "name": "Land Use Code",
+            "dataTypeName": "text",
+            "description": "This indicates the Land Use Code for the property, which can be looked up using the County Assessors code guide",
+            "fieldName": "land_use_code",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 89551591,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759410,
+            "name": "Due Date",
+            "dataTypeName": "calendar_date",
+            "description": "This is the due date for the tax.",
+            "fieldName": "due_date",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 89551571,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759411,
+            "name": "Effective Date",
+            "dataTypeName": "calendar_date",
+            "description": "This is the effective date or date the bills went out.",
+            "fieldName": "effective_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 89551573,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759412,
+            "name": "Bill Year",
+            "dataTypeName": "text",
+            "description": "This is the year the bill was sent out and what year it corresponds to.",
+            "fieldName": "bill_year",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 89551572,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759413,
+            "name": "Tax Due",
+            "dataTypeName": "number",
+            "description": "This is the total amount of Property Tax due.",
+            "fieldName": "tax_due",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 89551574,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759414,
+            "name": "Water Quality Fee Due",
+            "dataTypeName": "number",
+            "description": "This is the total amount of Water Quality Fee due.",
+            "fieldName": "water_quality_fee_due",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 89551575,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759415,
+            "name": "Interest Due",
+            "dataTypeName": "number",
+            "description": "This is the total amount of Interest due should there be any balance unpaid after the Due Date.",
+            "fieldName": "interest_due",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 89551576,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759416,
+            "name": "Total Due",
+            "dataTypeName": "number",
+            "description": "This is the total amount overall due.",
+            "fieldName": "total_due",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 89551577,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759417,
+            "name": "Interest Balance",
+            "dataTypeName": "number",
+            "description": "This is the current balance of Interest unpaid.",
+            "fieldName": "interest_balance",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 89551578,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759418,
+            "name": "Tax Balance",
+            "dataTypeName": "number",
+            "description": "This is the current balance of Property Tax unpaid.",
+            "fieldName": "tax_balance",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 89551579,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759419,
+            "name": "Water Quality Balance",
+            "dataTypeName": "number",
+            "description": "This is the current balance of Water Quality Fee unpaid.",
+            "fieldName": "water_quality_balance",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 89551580,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759420,
+            "name": "Total Balance",
+            "dataTypeName": "number",
+            "description": "This is the total balance still unpaid.",
+            "fieldName": "total_balance",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 89551581,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759421,
+            "name": "Tax Map",
+            "dataTypeName": "text",
+            "description": "This is a unique identifier to tie to County Assessor data.",
+            "fieldName": "tax_map",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 89551582,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759422,
+            "name": "Taxes Paid",
+            "dataTypeName": "number",
+            "description": "This is the amount of Property Taxes currently paid.",
+            "fieldName": "taxes_paid",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 89551583,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759423,
+            "name": "Water Quality Fee Paid",
+            "dataTypeName": "number",
+            "description": "This is the amount of Water Quality Fee currently paid.",
+            "fieldName": "water_quality_fee_paid",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 89551584,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759424,
+            "name": "Interest Paid",
+            "dataTypeName": "number",
+            "description": "This is the amount of Interest currently paid.",
+            "fieldName": "interest_paid",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 89551585,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759425,
+            "name": "Total Paid",
+            "dataTypeName": "number",
+            "description": "This is the total amount that has been paid on the bill.",
+            "fieldName": "total_paid",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 89551586,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759426,
+            "name": "Water Quality Last Payment Date",
+            "dataTypeName": "calendar_date",
+            "description": "This is the date indicating the last time a Water Quality fee was paid on this bill.",
+            "fieldName": "water_quality_last_payment",
+            "position": 21,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 89551587,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759427,
+            "name": "Taxes Last Payment Date",
+            "dataTypeName": "calendar_date",
+            "description": "This is the date indicating the last time Property Taxes were paid on this bill.",
+            "fieldName": "taxes_last_payment_date",
+            "position": 22,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 89551588,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759428,
+            "name": "Interest Last Payment Date",
+            "dataTypeName": "calendar_date",
+            "description": "This is the date indicating the last time Interest was paid on this bill.",
+            "fieldName": "interest_last_payment_date",
+            "position": 23,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 123211923,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759429,
+            "name": "Days from Effective to Last Payment",
+            "dataTypeName": "number",
+            "description": "This is a calculated number of days between the latest payment on the bill and the effective date.",
+            "fieldName": "days_from_effective_to_last",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 89551590,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759430,
+            "name": "Last Payment Date On Account",
+            "dataTypeName": "calendar_date",
+            "description": "This is a date indicating the last time a payment was made on the account.",
+            "fieldName": "last_payment_date_on_account",
+            "position": 25,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 89551592,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759431,
+            "name": "Late Indicator",
+            "dataTypeName": "text",
+            "description": "This is marked Y for Yes",
+            "fieldName": "late_indicator",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 89551594,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759432,
+            "name": "geom",
+            "dataTypeName": "multipolygon",
+            "description": "This is the geometry associated with the parcel.",
+            "fieldName": "geom",
+            "position": 27,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 89551593,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 556759434,
+            "name": "Current Use",
+            "dataTypeName": "text",
+            "description": "This indicates the current use, with the most common being RS (Residential), CO (Commercial), and MF (MultiFamily)",
+            "fieldName": "current_use",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 132200464,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "attachments": [
+            {
+                "filename": "AssessorExtractLayout.pdf",
+                "assetId": "06bac0aa-95bc-48af-afd3-55b8d73da78f",
+                "name": "AssessorExtractLayout.pdf"
+            }
+        ],
+        "custom_fields": {
+            "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance and Administration",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tax",
+        "taxes",
+        "property",
+        "water quality",
+        "wq",
+        "fees",
+        "levy"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

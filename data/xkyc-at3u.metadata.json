@@ -1,0 +1,186 @@
+{
+    "id": "xkyc-at3u",
+    "name": "Chattanooga: Project Phase List",
+    "assetType": "dataset",
+    "attribution": "Finance and Administration Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1432646996,
+    "description": "for budget.chattanooga.com",
+    "displayType": "table",
+    "downloadCount": 335,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1455053992,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 11443242,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1432647010,
+    "publicationGroup": 2962304,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1432647006,
+    "rowsUpdatedBy": "rtsy-vt72",
+    "tableId": 2962304,
+    "totalTimesRated": 0,
+    "viewCount": 689,
+    "viewLastModified": 1455046800,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1432647571,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366824,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1432647571,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 205600332,
+            "name": "Phase Type",
+            "dataTypeName": "text",
+            "fieldName": "phase_type",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 28552587,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 205600334,
+            "name": "Phase Step Number",
+            "dataTypeName": "number",
+            "fieldName": "phase_step_number",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 28552589,
+            "width": 304,
+            "format": {}
+        },
+        {
+            "id": 205600335,
+            "name": "Phase Step Name",
+            "dataTypeName": "text",
+            "fieldName": "phase_step_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 28552590,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 205600336,
+            "name": "Phase Step Description",
+            "dataTypeName": "text",
+            "fieldName": "phase_step_description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 28552591,
+            "width": 364,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Transparency App": {
+                "Application": "Open Budget"
+            },
+            "Org / Gov": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Yearly"
+            }
+        },
+        "rowIdentifier": "0",
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "operating budget",
+        "fy 2015-2016"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

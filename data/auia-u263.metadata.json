@@ -1,0 +1,232 @@
+{
+    "id": "auia-u263",
+    "name": "Code Enforcement - Activities - Simplified",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1576262237,
+    "description": "A simple data set of Activities.  Full data set can be viewed by selecting source data.",
+    "displayType": "table",
+    "downloadCount": 170,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "x3fy-9pn5",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39124484,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1576262423,
+    "publicationGroup": 16057859,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703213964,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18989873,
+    "totalTimesRated": 0,
+    "viewCount": 154,
+    "viewLastModified": 1576262423,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1576262435,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5161062,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1576262423,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1576262435,
+                "failureCount": 0,
+                "startedAt": 1576262435,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 569002713,
+            "name": "Case Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "case_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 78302025,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002715,
+            "name": "Activity Descriptions",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "activity_descriptions",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 78302027,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002716,
+            "name": "Date Entered",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_entered",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78302038,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002717,
+            "name": "Date Completed",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_completed",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78302036,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002718,
+            "name": "Date Required",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_required",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78302037,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime",
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002719,
+            "name": "Outcome",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "outcome",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 78302028,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 569002721,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 78302031,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

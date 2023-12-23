@@ -1,0 +1,182 @@
+{
+    "id": "c6he-bpas",
+    "name": "City Comparison Data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1478529258,
+    "displayType": "table",
+    "downloadCount": 179,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1548180239,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 24837327,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1478533086,
+    "publicationGroup": 13888694,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1555548051,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 13888694,
+    "totalTimesRated": 0,
+    "viewCount": 232,
+    "viewLastModified": 1555548041,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1546969455,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366957,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1546969455,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 276339268,
+            "name": "Category",
+            "dataTypeName": "text",
+            "fieldName": "category",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 40001022,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 276339269,
+            "name": "Measure",
+            "dataTypeName": "text",
+            "fieldName": "measure",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 40001023,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 276339270,
+            "name": "Location",
+            "dataTypeName": "text",
+            "fieldName": "location",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 40001024,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 276339271,
+            "name": "Year",
+            "dataTypeName": "text",
+            "fieldName": "year",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 40001025,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 276339272,
+            "name": "Indicator Value",
+            "dataTypeName": "number",
+            "fieldName": "indicator_value",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 40001026,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 276339275,
+            "name": "Measure Type",
+            "dataTypeName": "text",
+            "fieldName": "measure_type",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 40001029,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 276339273,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "fieldName": "date",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 40001027,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 276339274,
+            "name": "Notes",
+            "dataTypeName": "text",
+            "fieldName": "notes",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 40001028,
+            "width": 160,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

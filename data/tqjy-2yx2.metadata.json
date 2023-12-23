@@ -1,0 +1,3536 @@
+{
+    "id": "tqjy-2yx2",
+    "name": "County Health Rankings 2023",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1693327946,
+    "description": "Data is coming from TN 2023 County Health Rankings public datasets https://www.countyhealthrankings.org/explore-health-rankings/tennessee/data-and-resources",
+    "displayType": "table",
+    "downloadCount": 78,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40035295,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1696518225,
+    "publicationGroup": 19270754,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1696518191,
+    "rowsUpdatedBy": "vjqq-neb8",
+    "tableId": 19313697,
+    "totalTimesRated": 0,
+    "viewCount": 37,
+    "viewLastModified": 1696518225,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1698858421,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5890387,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1698858285,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1698858421,
+                "failureCount": 0,
+                "startedAt": 1698858421,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 582348998,
+            "name": "FIPS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fips",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 148217785,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582348999,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 148217923,
+            "format": {}
+        },
+        {
+            "id": 582349000,
+            "name": "County",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 148217866,
+            "format": {}
+        },
+        {
+            "id": 582349001,
+            "name": "Unreliable",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unreliable",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 148217964,
+            "format": {}
+        },
+        {
+            "id": 582349002,
+            "name": "Deaths",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "deaths",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 148217932,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349003,
+            "name": "Years of Potential Life Lost Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "years_of_potential_life_lost",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 148217974,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349004,
+            "name": "95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 148217833,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349005,
+            "name": "95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 148217806,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349006,
+            "name": "Z-Score",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 148217848,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349007,
+            "name": "YPLL Rate (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_aian",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 148217901,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349008,
+            "name": "YPLL Rate (AIAN) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_aian_95_ci_low",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 148217949,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349009,
+            "name": "YPLL Rate (AIAN) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_aian_95_ci_high",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 148217942,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349010,
+            "name": "YPLL Rate (AIAN) Unreliable",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ypll_rate_aian_unreliable",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 148217895,
+            "format": {}
+        },
+        {
+            "id": 582349011,
+            "name": "YPLL Rate (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_asian",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 148217958,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349012,
+            "name": "YPLL Rate (Asian) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_asian_95_ci_low",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 148217846,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349013,
+            "name": "YPLL Rate (Asian) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_asian_95_ci_high",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 148217877,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349014,
+            "name": "YPLL Rate (Asian) Unreliable",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ypll_rate_asian_unreliable",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 148217773,
+            "format": {}
+        },
+        {
+            "id": 582349015,
+            "name": "YPLL Rate (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_black",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 148217767,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349016,
+            "name": "YPLL Rate (Black) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_black_95_ci_low",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 148217981,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349017,
+            "name": "YPLL Rate (Black) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_black_95_ci_high",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 148217867,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349018,
+            "name": "YPLL Rate (Black) Unreliable",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ypll_rate_black_unreliable",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 148217997,
+            "format": {}
+        },
+        {
+            "id": 582349019,
+            "name": "YPLL Rate (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_hispanic",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 148217842,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349020,
+            "name": "YPLL Rate (Hispanic) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_hispanic_95_ci",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 148217878,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349021,
+            "name": "YPLL Rate (Hispanic) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_hispanic_95_ci_1",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 148217784,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349022,
+            "name": "YPLL Rate (Hispanic) Unreliable",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ypll_rate_hispanic_unreliable",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 148217922,
+            "format": {}
+        },
+        {
+            "id": 582349023,
+            "name": "YPLL Rate (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_white",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 148217972,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349024,
+            "name": "YPLL Rate (White) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_white_95_ci_low",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 148217861,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349025,
+            "name": "YPLL Rate (White) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "ypll_rate_white_95_ci_high",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 148217845,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349026,
+            "name": "YPLL Rate (White) Unreliable",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ypll_rate_white_unreliable",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 148217963,
+            "format": {}
+        },
+        {
+            "id": 582349027,
+            "name": "% Fair or Poor Health",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "fair_or_poor_health",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 148217805,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349028,
+            "name": "95% CI - Low 1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_1",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 148218001,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349029,
+            "name": "95% CI - High 1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_1",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 148217792,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349030,
+            "name": "Z-Score 1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_1",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 148217897,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349031,
+            "name": "Average Number of Physically Unhealthy Days",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "average_number_of_physically",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 148217999,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349032,
+            "name": "95% CI - Low 2",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_2",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 148217890,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349033,
+            "name": "95% CI - High 2",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_2",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 148217977,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349034,
+            "name": "Z-Score 2",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_2",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 148217906,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349035,
+            "name": "Average Number of Mentally Unhealthy Days",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "average_number_of_mentally",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 148217865,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349036,
+            "name": "95% CI - Low 3",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_3",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 148217851,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349037,
+            "name": "95% CI - High 3",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_3",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 148217933,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349038,
+            "name": "Z-Score 3",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_3",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 148217859,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349039,
+            "name": "Unreliable 1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "unreliable_1",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 148217946,
+            "format": {}
+        },
+        {
+            "id": 582349040,
+            "name": "% Low Birthweight",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "low_birthweight",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 148217774,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349041,
+            "name": "95% CI - Low 4",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_4",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 148217937,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349042,
+            "name": "95% CI - High 4",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_4",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 148217768,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349043,
+            "name": "Z-Score 4",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_4",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 148217802,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349044,
+            "name": "% LBW (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_aian",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 148217852,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349045,
+            "name": "% LBW (AIAN) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_aian_95_ci_low",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 148217808,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349046,
+            "name": "% LBW (AIAN) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_aian_95_ci_high",
+            "position": 49,
+            "renderTypeName": "number",
+            "tableColumnId": 148217880,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349047,
+            "name": "% LBW (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_asian",
+            "position": 50,
+            "renderTypeName": "number",
+            "tableColumnId": 148217777,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349048,
+            "name": "% LBW (Asian) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_asian_95_ci_low",
+            "position": 51,
+            "renderTypeName": "number",
+            "tableColumnId": 148217934,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349049,
+            "name": "% LBW (Asian) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_asian_95_ci_high",
+            "position": 52,
+            "renderTypeName": "number",
+            "tableColumnId": 148217796,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349050,
+            "name": "% LBW (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_black",
+            "position": 53,
+            "renderTypeName": "number",
+            "tableColumnId": 148218007,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349051,
+            "name": "% LBW (Black) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_black_95_ci_low",
+            "position": 54,
+            "renderTypeName": "number",
+            "tableColumnId": 148217856,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349052,
+            "name": "% LBW (Black) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_black_95_ci_high",
+            "position": 55,
+            "renderTypeName": "number",
+            "tableColumnId": 148217936,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349053,
+            "name": "% LBW (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_hispanic",
+            "position": 56,
+            "renderTypeName": "number",
+            "tableColumnId": 148217827,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349054,
+            "name": "% LBW (Hispanic) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_hispanic_95_ci_low",
+            "position": 57,
+            "renderTypeName": "number",
+            "tableColumnId": 148217888,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349055,
+            "name": "% LBW (Hispanic) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_hispanic_95_ci_high",
+            "position": 58,
+            "renderTypeName": "number",
+            "tableColumnId": 148217990,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349056,
+            "name": "% LBW (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_white",
+            "position": 59,
+            "renderTypeName": "number",
+            "tableColumnId": 148217879,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349057,
+            "name": "% LBW (White) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_white_95_ci_low",
+            "position": 60,
+            "renderTypeName": "number",
+            "tableColumnId": 148217797,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349058,
+            "name": "% LBW (White) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lbw_white_95_ci_high",
+            "position": 61,
+            "renderTypeName": "number",
+            "tableColumnId": 148217904,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349059,
+            "name": "% Adults Reporting Currently Smoking",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "adults_reporting_currently",
+            "position": 62,
+            "renderTypeName": "number",
+            "tableColumnId": 148217828,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349060,
+            "name": "95% CI - Low 5",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_5",
+            "position": 63,
+            "renderTypeName": "number",
+            "tableColumnId": 148217914,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349061,
+            "name": "95% CI - High 5",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_5",
+            "position": 64,
+            "renderTypeName": "number",
+            "tableColumnId": 148217950,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349062,
+            "name": "Z-Score 5",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_5",
+            "position": 65,
+            "renderTypeName": "number",
+            "tableColumnId": 148217952,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349063,
+            "name": "% Adults with Obesity",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "adults_with_obesity",
+            "position": 66,
+            "renderTypeName": "number",
+            "tableColumnId": 148217957,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349064,
+            "name": "95% CI - Low 6",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_6",
+            "position": 67,
+            "renderTypeName": "number",
+            "tableColumnId": 148217875,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349065,
+            "name": "95% CI - High 6",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_6",
+            "position": 68,
+            "renderTypeName": "number",
+            "tableColumnId": 148217954,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349066,
+            "name": "Z-Score 6",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_6",
+            "position": 69,
+            "renderTypeName": "number",
+            "tableColumnId": 148217944,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349067,
+            "name": "Food Environment Index",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "food_environment_index",
+            "position": 70,
+            "renderTypeName": "number",
+            "tableColumnId": 148217780,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349068,
+            "name": "Z-Score 7",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_7",
+            "position": 71,
+            "renderTypeName": "number",
+            "tableColumnId": 148217771,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349069,
+            "name": "% Physically Inactive",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "physically_inactive",
+            "position": 72,
+            "renderTypeName": "number",
+            "tableColumnId": 148217868,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349070,
+            "name": "95% CI - Low 7",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_7",
+            "position": 73,
+            "renderTypeName": "number",
+            "tableColumnId": 148217835,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349071,
+            "name": "95% CI - High 7",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_7",
+            "position": 74,
+            "renderTypeName": "number",
+            "tableColumnId": 148217920,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349072,
+            "name": "Z-Score 8",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_8",
+            "position": 75,
+            "renderTypeName": "number",
+            "tableColumnId": 148217962,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349073,
+            "name": "% With Access to Exercise Opportunities",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "with_access_to_exercise",
+            "position": 76,
+            "renderTypeName": "number",
+            "tableColumnId": 148217816,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349074,
+            "name": "Z-Score 9",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_9",
+            "position": 77,
+            "renderTypeName": "number",
+            "tableColumnId": 148217849,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349075,
+            "name": "% Excessive Drinking",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "excessive_drinking",
+            "position": 78,
+            "renderTypeName": "number",
+            "tableColumnId": 148217834,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349076,
+            "name": "95% CI - Low 8",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_8",
+            "position": 79,
+            "renderTypeName": "number",
+            "tableColumnId": 148217789,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349077,
+            "name": "95% CI - High 8",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_8",
+            "position": 80,
+            "renderTypeName": "number",
+            "tableColumnId": 148217960,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349078,
+            "name": "Z-Score 10",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_10",
+            "position": 81,
+            "renderTypeName": "number",
+            "tableColumnId": 148217770,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349079,
+            "name": "# Alcohol-Impaired Driving Deaths",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "alcohol_impaired_driving",
+            "position": 82,
+            "renderTypeName": "number",
+            "tableColumnId": 148218011,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349080,
+            "name": "# Driving Deaths",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "driving_deaths",
+            "position": 83,
+            "renderTypeName": "number",
+            "tableColumnId": 148217985,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349081,
+            "name": "% Driving Deaths with Alcohol Involvement",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "driving_deaths_with_alcohol",
+            "position": 84,
+            "renderTypeName": "number",
+            "tableColumnId": 148217965,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349082,
+            "name": "95% CI - Low 9",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_9",
+            "position": 85,
+            "renderTypeName": "number",
+            "tableColumnId": 148217840,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349083,
+            "name": "95% CI - High 9",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_9",
+            "position": 86,
+            "renderTypeName": "number",
+            "tableColumnId": 148217947,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349084,
+            "name": "Z-Score 11",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_11",
+            "position": 87,
+            "renderTypeName": "number",
+            "tableColumnId": 148217918,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349085,
+            "name": "# Chlamydia Cases",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "chlamydia_cases",
+            "position": 88,
+            "renderTypeName": "number",
+            "tableColumnId": 148217905,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349086,
+            "name": "Chlamydia Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "chlamydia_rate",
+            "position": 89,
+            "renderTypeName": "number",
+            "tableColumnId": 148217817,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349087,
+            "name": "Z-Score 12",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_12",
+            "position": 90,
+            "renderTypeName": "number",
+            "tableColumnId": 148217790,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349088,
+            "name": "Teen Birth Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate",
+            "position": 91,
+            "renderTypeName": "number",
+            "tableColumnId": 148217991,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349089,
+            "name": "95% CI - Low 10",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_10",
+            "position": 92,
+            "renderTypeName": "number",
+            "tableColumnId": 148217978,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349090,
+            "name": "95% CI - High 10",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_10",
+            "position": 93,
+            "renderTypeName": "number",
+            "tableColumnId": 148217900,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349091,
+            "name": "Z-Score 13",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_13",
+            "position": 94,
+            "renderTypeName": "number",
+            "tableColumnId": 148217853,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349092,
+            "name": "Teen Birth Rate (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_aian",
+            "position": 95,
+            "renderTypeName": "number",
+            "tableColumnId": 148217988,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349093,
+            "name": "Teen Birth Rate (AIAN) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_aian_95_ci",
+            "position": 96,
+            "renderTypeName": "number",
+            "tableColumnId": 148217836,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349094,
+            "name": "Teen Birth Rate (AIAN) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_aian_95_ci_1",
+            "position": 97,
+            "renderTypeName": "number",
+            "tableColumnId": 148217931,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349095,
+            "name": "Teen Birth Rate (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_asian",
+            "position": 98,
+            "renderTypeName": "number",
+            "tableColumnId": 148217948,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349096,
+            "name": "Teen Birth Rate (Asian) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_asian_95",
+            "position": 99,
+            "renderTypeName": "number",
+            "tableColumnId": 148217894,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349097,
+            "name": "Teen Birth Rate (Asian) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_asian_95_1",
+            "position": 100,
+            "renderTypeName": "number",
+            "tableColumnId": 148217809,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349098,
+            "name": "Teen Birth Rate (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_black",
+            "position": 101,
+            "renderTypeName": "number",
+            "tableColumnId": 148217909,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349099,
+            "name": "Teen Birth Rate (Black) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_black_95",
+            "position": 102,
+            "renderTypeName": "number",
+            "tableColumnId": 148217839,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349100,
+            "name": "Teen Birth Rate (Black) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_black_95_1",
+            "position": 103,
+            "renderTypeName": "number",
+            "tableColumnId": 148217829,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349101,
+            "name": "Teen Birth Rate (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_hispanic",
+            "position": 104,
+            "renderTypeName": "number",
+            "tableColumnId": 148217930,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349102,
+            "name": "Teen Birth Rate (Hispanic) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_hispanic_1",
+            "position": 105,
+            "renderTypeName": "number",
+            "tableColumnId": 148217815,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349103,
+            "name": "Teen Birth Rate (Hispanic) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_hispanic_2",
+            "position": 106,
+            "renderTypeName": "number",
+            "tableColumnId": 148217850,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349104,
+            "name": "Teen Birth Rate (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_white",
+            "position": 107,
+            "renderTypeName": "number",
+            "tableColumnId": 148217803,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349105,
+            "name": "Teen Birth Rate (White) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_white_95",
+            "position": 108,
+            "renderTypeName": "number",
+            "tableColumnId": 148217824,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349106,
+            "name": "Teen Birth Rate (White) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "teen_birth_rate_white_95_1",
+            "position": 109,
+            "renderTypeName": "number",
+            "tableColumnId": 148217874,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349107,
+            "name": "# Uninsured",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "uninsured",
+            "position": 110,
+            "renderTypeName": "number",
+            "tableColumnId": 148217772,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349108,
+            "name": "% Uninsured",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "uninsured_1",
+            "position": 111,
+            "renderTypeName": "number",
+            "tableColumnId": 148217998,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349109,
+            "name": "95% CI - Low 11",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_11",
+            "position": 112,
+            "renderTypeName": "number",
+            "tableColumnId": 148217943,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349110,
+            "name": "95% CI - High 11",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_11",
+            "position": 113,
+            "renderTypeName": "number",
+            "tableColumnId": 148217993,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349111,
+            "name": "Z-Score 14",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_14",
+            "position": 114,
+            "renderTypeName": "number",
+            "tableColumnId": 148217787,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349112,
+            "name": "# Primary Care Physicians",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "primary_care_physicians",
+            "position": 115,
+            "renderTypeName": "number",
+            "tableColumnId": 148217911,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349113,
+            "name": "Primary Care Physicians Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "primary_care_physicians_rate",
+            "position": 116,
+            "renderTypeName": "number",
+            "tableColumnId": 148217779,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349114,
+            "name": "Primary Care Physicians Ratio",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "primary_care_physicians_ratio",
+            "position": 117,
+            "renderTypeName": "text",
+            "tableColumnId": 148217841,
+            "format": {}
+        },
+        {
+            "id": 582349115,
+            "name": "Z-Score 15",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_15",
+            "position": 118,
+            "renderTypeName": "number",
+            "tableColumnId": 148217908,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349116,
+            "name": "# Dentists",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "dentists",
+            "position": 119,
+            "renderTypeName": "number",
+            "tableColumnId": 148218000,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349117,
+            "name": "Dentist Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "dentist_rate",
+            "position": 120,
+            "renderTypeName": "number",
+            "tableColumnId": 148217804,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349118,
+            "name": "Dentist Ratio",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "dentist_ratio",
+            "position": 121,
+            "renderTypeName": "text",
+            "tableColumnId": 148217863,
+            "format": {}
+        },
+        {
+            "id": 582349119,
+            "name": "Z-Score 16",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_16",
+            "position": 122,
+            "renderTypeName": "number",
+            "tableColumnId": 148217873,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349120,
+            "name": "# Mental Health Providers",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "mental_health_providers",
+            "position": 123,
+            "renderTypeName": "number",
+            "tableColumnId": 148218003,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349121,
+            "name": "Mental Health Provider Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "mental_health_provider_rate",
+            "position": 124,
+            "renderTypeName": "number",
+            "tableColumnId": 148217939,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349122,
+            "name": "Mental Health Provider Ratio",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mental_health_provider_ratio",
+            "position": 125,
+            "renderTypeName": "text",
+            "tableColumnId": 148217891,
+            "format": {}
+        },
+        {
+            "id": 582349123,
+            "name": "Z-Score 17",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_17",
+            "position": 126,
+            "renderTypeName": "number",
+            "tableColumnId": 148217798,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349124,
+            "name": "Preventable Hospitalization Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "preventable_hospitalization",
+            "position": 127,
+            "renderTypeName": "number",
+            "tableColumnId": 148217912,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349125,
+            "name": "Z-Score 18",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_18",
+            "position": 128,
+            "renderTypeName": "number",
+            "tableColumnId": 148217825,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349126,
+            "name": "Preventable Hosp. Rate (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "preventable_hosp_rate_aian",
+            "position": 129,
+            "renderTypeName": "number",
+            "tableColumnId": 148217795,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349127,
+            "name": "Preventable Hosp. Rate (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "preventable_hosp_rate_asian",
+            "position": 130,
+            "renderTypeName": "number",
+            "tableColumnId": 148217887,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349128,
+            "name": "Preventable Hosp. Rate (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "preventable_hosp_rate_black",
+            "position": 131,
+            "renderTypeName": "number",
+            "tableColumnId": 148217996,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349129,
+            "name": "Preventable Hosp. Rate (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "preventable_hosp_rate_hispanic",
+            "position": 132,
+            "renderTypeName": "number",
+            "tableColumnId": 148217959,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349130,
+            "name": "Preventable Hosp. Rate (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "preventable_hosp_rate_white",
+            "position": 133,
+            "renderTypeName": "number",
+            "tableColumnId": 148217811,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349131,
+            "name": "% with Annual Mammogram",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "with_annual_mammogram",
+            "position": 134,
+            "renderTypeName": "number",
+            "tableColumnId": 148217810,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349132,
+            "name": "Z-Score 19",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_19",
+            "position": 135,
+            "renderTypeName": "number",
+            "tableColumnId": 148217992,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349133,
+            "name": "% Screened (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "screened_aian",
+            "position": 136,
+            "renderTypeName": "number",
+            "tableColumnId": 148217927,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349134,
+            "name": "% Screened (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "screened_asian",
+            "position": 137,
+            "renderTypeName": "number",
+            "tableColumnId": 148217924,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349135,
+            "name": "% Screened (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "screened_black",
+            "position": 138,
+            "renderTypeName": "number",
+            "tableColumnId": 148217766,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349136,
+            "name": "% Screened (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "screened_hispanic",
+            "position": 139,
+            "renderTypeName": "number",
+            "tableColumnId": 148217983,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349137,
+            "name": "% Screened (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "screened_white",
+            "position": 140,
+            "renderTypeName": "number",
+            "tableColumnId": 148217903,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349138,
+            "name": "% Vaccinated",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "vaccinated",
+            "position": 141,
+            "renderTypeName": "number",
+            "tableColumnId": 148217807,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349139,
+            "name": "Z-Score 20",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_20",
+            "position": 142,
+            "renderTypeName": "number",
+            "tableColumnId": 148217860,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349140,
+            "name": "% Vaccinated (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "vaccinated_aian",
+            "position": 143,
+            "renderTypeName": "number",
+            "tableColumnId": 148217886,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349141,
+            "name": "% Vaccinated (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "vaccinated_asian",
+            "position": 144,
+            "renderTypeName": "number",
+            "tableColumnId": 148217822,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349142,
+            "name": "% Vaccinated (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "vaccinated_black",
+            "position": 145,
+            "renderTypeName": "number",
+            "tableColumnId": 148217781,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349143,
+            "name": "% Vaccinated (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "vaccinated_hispanic",
+            "position": 146,
+            "renderTypeName": "number",
+            "tableColumnId": 148217799,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349144,
+            "name": "% Vaccinated (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "vaccinated_white",
+            "position": 147,
+            "renderTypeName": "number",
+            "tableColumnId": 148217940,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349145,
+            "name": "# Completed High School",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "completed_high_school",
+            "position": 148,
+            "renderTypeName": "number",
+            "tableColumnId": 148218002,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349146,
+            "name": "Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population",
+            "position": 149,
+            "renderTypeName": "number",
+            "tableColumnId": 148217794,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349147,
+            "name": "% Completed High School",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "completed_high_school_1",
+            "position": 150,
+            "renderTypeName": "number",
+            "tableColumnId": 148218010,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349148,
+            "name": "95% CI - Low 12",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_12",
+            "position": 151,
+            "renderTypeName": "number",
+            "tableColumnId": 148217869,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349149,
+            "name": "95% CI - High 12",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_12",
+            "position": 152,
+            "renderTypeName": "number",
+            "tableColumnId": 148217769,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349150,
+            "name": "Z-Score 21",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_21",
+            "position": 153,
+            "renderTypeName": "number",
+            "tableColumnId": 148217913,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349151,
+            "name": "# Some College",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "some_college",
+            "position": 154,
+            "renderTypeName": "number",
+            "tableColumnId": 148217980,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349152,
+            "name": "Population 1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population_1",
+            "position": 155,
+            "renderTypeName": "number",
+            "tableColumnId": 148217994,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349153,
+            "name": "% Some College",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "some_college_1",
+            "position": 156,
+            "renderTypeName": "number",
+            "tableColumnId": 148217831,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349154,
+            "name": "95% CI - Low 13",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_13",
+            "position": 157,
+            "renderTypeName": "number",
+            "tableColumnId": 148218008,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349155,
+            "name": "95% CI - High 13",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_13",
+            "position": 158,
+            "renderTypeName": "number",
+            "tableColumnId": 148217982,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349156,
+            "name": "Z-Score 22",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_22",
+            "position": 159,
+            "renderTypeName": "number",
+            "tableColumnId": 148217854,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349157,
+            "name": "# Unemployed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unemployed",
+            "position": 160,
+            "renderTypeName": "number",
+            "tableColumnId": 148217871,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349158,
+            "name": "Labor Force",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "labor_force",
+            "position": 161,
+            "renderTypeName": "number",
+            "tableColumnId": 148217926,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349159,
+            "name": "% Unemployed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unemployed_1",
+            "position": 162,
+            "renderTypeName": "number",
+            "tableColumnId": 148217925,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349160,
+            "name": "Z-Score 23",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_23",
+            "position": 163,
+            "renderTypeName": "number",
+            "tableColumnId": 148217955,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349161,
+            "name": "% Children in Poverty",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_poverty",
+            "position": 164,
+            "renderTypeName": "number",
+            "tableColumnId": 148218004,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349162,
+            "name": "95% CI - Low 14",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_14",
+            "position": 165,
+            "renderTypeName": "number",
+            "tableColumnId": 148217979,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349163,
+            "name": "95% CI - High 14",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_14",
+            "position": 166,
+            "renderTypeName": "number",
+            "tableColumnId": 148217862,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349164,
+            "name": "Z-Score 24",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_24",
+            "position": 167,
+            "renderTypeName": "number",
+            "tableColumnId": 148217838,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349165,
+            "name": "% Children in Poverty (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_poverty_aian",
+            "position": 168,
+            "renderTypeName": "number",
+            "tableColumnId": 148217823,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349166,
+            "name": "% Children in Poverty (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_poverty_asian",
+            "position": 169,
+            "renderTypeName": "number",
+            "tableColumnId": 148217791,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349167,
+            "name": "% Children in Poverty (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_poverty_black",
+            "position": 170,
+            "renderTypeName": "number",
+            "tableColumnId": 148218006,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349168,
+            "name": "% Children in Poverty (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_poverty_hispanic",
+            "position": 171,
+            "renderTypeName": "number",
+            "tableColumnId": 148217837,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349169,
+            "name": "% Children in Poverty (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_poverty_white",
+            "position": 172,
+            "renderTypeName": "number",
+            "tableColumnId": 148217968,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349170,
+            "name": "80th Percentile Income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_80th_percentile_income",
+            "position": 173,
+            "renderTypeName": "number",
+            "tableColumnId": 148217782,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349171,
+            "name": "20th Percentile Income",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_20th_percentile_income",
+            "position": 174,
+            "renderTypeName": "number",
+            "tableColumnId": 148217864,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349172,
+            "name": "Income Ratio",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "income_ratio",
+            "position": 175,
+            "renderTypeName": "number",
+            "tableColumnId": 148217876,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349173,
+            "name": "Z-Score 25",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_25",
+            "position": 176,
+            "renderTypeName": "number",
+            "tableColumnId": 148217812,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349174,
+            "name": "# Children in Single-Parent Households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_single_parent",
+            "position": 177,
+            "renderTypeName": "number",
+            "tableColumnId": 148217870,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349175,
+            "name": "# Children in Households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_households",
+            "position": 178,
+            "renderTypeName": "number",
+            "tableColumnId": 148217843,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349176,
+            "name": "% Children in Single-Parent Households",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "children_in_single_parent_1",
+            "position": 179,
+            "renderTypeName": "number",
+            "tableColumnId": 148217786,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349177,
+            "name": "95% CI - Low 15",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_15",
+            "position": 180,
+            "renderTypeName": "number",
+            "tableColumnId": 148217938,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349178,
+            "name": "95% CI - High 15",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_15",
+            "position": 181,
+            "renderTypeName": "number",
+            "tableColumnId": 148217986,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349179,
+            "name": "Z-Score 26",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_26",
+            "position": 182,
+            "renderTypeName": "number",
+            "tableColumnId": 148217953,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349180,
+            "name": "# Associations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "associations",
+            "position": 183,
+            "renderTypeName": "number",
+            "tableColumnId": 148217899,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349181,
+            "name": "Social Association Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "social_association_rate",
+            "position": 184,
+            "renderTypeName": "number",
+            "tableColumnId": 148217941,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349182,
+            "name": "Z-Score 27",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_27",
+            "position": 185,
+            "renderTypeName": "number",
+            "tableColumnId": 148217916,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349183,
+            "name": "# Injury Deaths",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_deaths",
+            "position": 186,
+            "renderTypeName": "number",
+            "tableColumnId": 148217951,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349184,
+            "name": "Injury Death Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate",
+            "position": 187,
+            "renderTypeName": "number",
+            "tableColumnId": 148217892,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349185,
+            "name": "95% CI - Low 16",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_16",
+            "position": 188,
+            "renderTypeName": "number",
+            "tableColumnId": 148217956,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349186,
+            "name": "95% CI - High 16",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_16",
+            "position": 189,
+            "renderTypeName": "number",
+            "tableColumnId": 148218005,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349187,
+            "name": "Z-Score 28",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_28",
+            "position": 190,
+            "renderTypeName": "number",
+            "tableColumnId": 148217919,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349188,
+            "name": "Injury Death Rate (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_aian",
+            "position": 191,
+            "renderTypeName": "number",
+            "tableColumnId": 148217883,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349189,
+            "name": "Injury Death Rate (AIAN) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_aian_95",
+            "position": 192,
+            "renderTypeName": "number",
+            "tableColumnId": 148217857,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349190,
+            "name": "Injury Death Rate (AIAN) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_aian_95_1",
+            "position": 193,
+            "renderTypeName": "number",
+            "tableColumnId": 148217928,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349191,
+            "name": "Injury Death Rate (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_asian",
+            "position": 194,
+            "renderTypeName": "number",
+            "tableColumnId": 148217844,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349192,
+            "name": "Injury Death Rate (Asian) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_asian_95",
+            "position": 195,
+            "renderTypeName": "number",
+            "tableColumnId": 148217935,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349193,
+            "name": "Injury Death Rate (Asian) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_asian_95_1",
+            "position": 196,
+            "renderTypeName": "number",
+            "tableColumnId": 148217907,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349194,
+            "name": "Injury Death Rate (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_black",
+            "position": 197,
+            "renderTypeName": "number",
+            "tableColumnId": 148217881,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349195,
+            "name": "Injury Death Rate (Black) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_black_95",
+            "position": 198,
+            "renderTypeName": "number",
+            "tableColumnId": 148217847,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349196,
+            "name": "Injury Death Rate (Black) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_black_95_1",
+            "position": 199,
+            "renderTypeName": "number",
+            "tableColumnId": 148217971,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349197,
+            "name": "Injury Death Rate (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_hispanic",
+            "position": 200,
+            "renderTypeName": "number",
+            "tableColumnId": 148217801,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349198,
+            "name": "Injury Death Rate (Hispanic) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_hispanic_1",
+            "position": 201,
+            "renderTypeName": "number",
+            "tableColumnId": 148217813,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349199,
+            "name": "Injury Death Rate (Hispanic) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_hispanic_2",
+            "position": 202,
+            "renderTypeName": "number",
+            "tableColumnId": 148217915,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349200,
+            "name": "Injury Death Rate (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_white",
+            "position": 203,
+            "renderTypeName": "number",
+            "tableColumnId": 148217885,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349201,
+            "name": "Injury Death Rate (White) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_white_95",
+            "position": 204,
+            "renderTypeName": "number",
+            "tableColumnId": 148217967,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349202,
+            "name": "Injury Death Rate (White) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "injury_death_rate_white_95_1",
+            "position": 205,
+            "renderTypeName": "number",
+            "tableColumnId": 148217995,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349203,
+            "name": "Average Daily PM2.5",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "average_daily_pm2_5",
+            "position": 206,
+            "renderTypeName": "number",
+            "tableColumnId": 148217800,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349204,
+            "name": "Z-Score 29",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_29",
+            "position": 207,
+            "renderTypeName": "number",
+            "tableColumnId": 148217855,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349205,
+            "name": "Presence of Water Violation",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "presence_of_water_violation",
+            "position": 208,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 148217882,
+            "format": {}
+        },
+        {
+            "id": 582349206,
+            "name": "Z-Score 30",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_30",
+            "position": 209,
+            "renderTypeName": "number",
+            "tableColumnId": 148218009,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349207,
+            "name": "% Severe Housing Problems",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "severe_housing_problems",
+            "position": 210,
+            "renderTypeName": "number",
+            "tableColumnId": 148217902,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349208,
+            "name": "95% CI - Low 17",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_17",
+            "position": 211,
+            "renderTypeName": "number",
+            "tableColumnId": 148217987,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349209,
+            "name": "95% CI - High 17",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_17",
+            "position": 212,
+            "renderTypeName": "number",
+            "tableColumnId": 148217832,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349210,
+            "name": "Severe Housing Cost Burden",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "severe_housing_cost_burden",
+            "position": 213,
+            "renderTypeName": "number",
+            "tableColumnId": 148217821,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349211,
+            "name": "Severe Housing Cost Burden 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "severe_housing_cost_burden_1",
+            "position": 214,
+            "renderTypeName": "number",
+            "tableColumnId": 148217893,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349212,
+            "name": "Severe Housing Cost Burden 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "severe_housing_cost_burden_2",
+            "position": 215,
+            "renderTypeName": "number",
+            "tableColumnId": 148217818,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349213,
+            "name": "Overcrowding",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overcrowding",
+            "position": 216,
+            "renderTypeName": "number",
+            "tableColumnId": 148217778,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349214,
+            "name": "Overcrowding 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overcrowding_95_ci_low",
+            "position": 217,
+            "renderTypeName": "number",
+            "tableColumnId": 148217788,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349215,
+            "name": "Overcrowding 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overcrowding_95_ci_high",
+            "position": 218,
+            "renderTypeName": "number",
+            "tableColumnId": 148217961,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349216,
+            "name": "Inadequate Facilities",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "inadequate_facilities",
+            "position": 219,
+            "renderTypeName": "number",
+            "tableColumnId": 148217793,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349217,
+            "name": "Inadequate Facilities 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "inadequate_facilities_95",
+            "position": 220,
+            "renderTypeName": "number",
+            "tableColumnId": 148217775,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349218,
+            "name": "Inadequate Facilities 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "inadequate_facilities_95_1",
+            "position": 221,
+            "renderTypeName": "number",
+            "tableColumnId": 148217976,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349219,
+            "name": "Z-Score 31",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_31",
+            "position": 222,
+            "renderTypeName": "number",
+            "tableColumnId": 148217989,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349220,
+            "name": "% Drive Alone to Work",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_to_work",
+            "position": 223,
+            "renderTypeName": "number",
+            "tableColumnId": 148217898,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349221,
+            "name": "95% CI - Low 18",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_18",
+            "position": 224,
+            "renderTypeName": "number",
+            "tableColumnId": 148217830,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349222,
+            "name": "95% CI - High 18",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_18",
+            "position": 225,
+            "renderTypeName": "number",
+            "tableColumnId": 148217970,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349223,
+            "name": "Z-Score 32",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_32",
+            "position": 226,
+            "renderTypeName": "number",
+            "tableColumnId": 148217921,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349224,
+            "name": "% Drive Alone (AIAN)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_aian",
+            "position": 227,
+            "renderTypeName": "number",
+            "tableColumnId": 148217917,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349225,
+            "name": "% Drive Alone (AIAN) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_aian_95_ci_low",
+            "position": 228,
+            "renderTypeName": "number",
+            "tableColumnId": 148217929,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349226,
+            "name": "% Drive Alone (AIAN) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_aian_95_ci_high",
+            "position": 229,
+            "renderTypeName": "number",
+            "tableColumnId": 148217975,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349227,
+            "name": "% Drive Alone (Asian)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_asian",
+            "position": 230,
+            "renderTypeName": "number",
+            "tableColumnId": 148217783,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349228,
+            "name": "% Drive Alone (Asian) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_asian_95_ci_low",
+            "position": 231,
+            "renderTypeName": "number",
+            "tableColumnId": 148217966,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349229,
+            "name": "% Drive Alone (Asian) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_asian_95_ci_high",
+            "position": 232,
+            "renderTypeName": "number",
+            "tableColumnId": 148217945,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349230,
+            "name": "% Drive Alone (Black)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_black",
+            "position": 233,
+            "renderTypeName": "number",
+            "tableColumnId": 148217776,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349231,
+            "name": "% Drive Alone (Black) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_black_95_ci_low",
+            "position": 234,
+            "renderTypeName": "number",
+            "tableColumnId": 148217814,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349232,
+            "name": "% Drive Alone (Black) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_black_95_ci_high",
+            "position": 235,
+            "renderTypeName": "number",
+            "tableColumnId": 148217973,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349233,
+            "name": "% Drive Alone (Hispanic)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_hispanic",
+            "position": 236,
+            "renderTypeName": "number",
+            "tableColumnId": 148217819,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349234,
+            "name": "% Drive Alone (Hispanic) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_hispanic_95_ci",
+            "position": 237,
+            "renderTypeName": "number",
+            "tableColumnId": 148217896,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349235,
+            "name": "% Drive Alone (Hispanic) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_hispanic_95_ci_1",
+            "position": 238,
+            "renderTypeName": "number",
+            "tableColumnId": 148217820,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349236,
+            "name": "% Drive Alone (White)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_white",
+            "position": 239,
+            "renderTypeName": "number",
+            "tableColumnId": 148217884,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349237,
+            "name": "% Drive Alone (White) 95% CI - Low",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_white_95_ci_low",
+            "position": 240,
+            "renderTypeName": "number",
+            "tableColumnId": 148217969,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349238,
+            "name": "% Drive Alone (White) 95% CI - High",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "drive_alone_white_95_ci_high",
+            "position": 241,
+            "renderTypeName": "number",
+            "tableColumnId": 148217889,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349239,
+            "name": "# Workers who Drive Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "workers_who_drive_alone",
+            "position": 242,
+            "renderTypeName": "number",
+            "tableColumnId": 148217858,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349240,
+            "name": "% Long Commute - Drives Alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "long_commute_drives_alone",
+            "position": 243,
+            "renderTypeName": "number",
+            "tableColumnId": 148217984,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349241,
+            "name": "95% CI - Low 19",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_low_19",
+            "position": 244,
+            "renderTypeName": "number",
+            "tableColumnId": 148217910,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349242,
+            "name": "95% CI - High 19",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_95_ci_high_19",
+            "position": 245,
+            "renderTypeName": "number",
+            "tableColumnId": 148217826,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349243,
+            "name": "Z-Score 33",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "z_score_33",
+            "position": 246,
+            "renderTypeName": "number",
+            "tableColumnId": 148217872,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 582349244,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 247,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 148948980,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Community Health",
+                "How often are data values updated?": "Yearly"
+            }
+        },
+        "rowLabel": "County",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "vjqq-neb8",
+        "displayName": "Brenna Leigh Dotson",
+        "screenName": "Brenna Leigh Dotson",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "vjqq-neb8",
+        "displayName": "Brenna Leigh Dotson",
+        "screenName": "Brenna Leigh Dotson",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

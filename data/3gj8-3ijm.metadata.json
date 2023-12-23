@@ -1,0 +1,643 @@
+{
+    "id": "3gj8-3ijm",
+    "name": "TN Child Care",
+    "assetType": "dataset",
+    "attribution": "TN Department of Human Services",
+    "attributionLink": "https://www.tn.gov/humanservices/for-families/child-care-services/find-child-care.html",
+    "averageRating": 0,
+    "category": "Education",
+    "createdAt": 1650906759,
+    "description": "This map shows child care agencies operating in the Greater Chattanooga area. This map focuses on the location of the agency, program  certification status for the facility, and children age acceptance.",
+    "displayType": "table",
+    "downloadCount": 72,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38664438,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1657648205,
+    "publicationGroup": 18680764,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 563128507,
+    "rowsUpdatedAt": 1668613596,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18776294,
+    "totalTimesRated": 0,
+    "viewCount": 121,
+    "viewLastModified": 1668613529,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1654874161,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4826385,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1651853416,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1654874162,
+                "failureCount": 0,
+                "startedAt": 1654874161,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "9ry9-rb4y",
+                "displayName": "KaDeadra McNealy"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 563128468,
+            "name": "County",
+            "dataTypeName": "text",
+            "description": "The name of the county the facility is located",
+            "fieldName": "county",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 141934632,
+            "format": {}
+        },
+        {
+            "id": 563128469,
+            "name": "Agency Name",
+            "dataTypeName": "text",
+            "description": "The name of the agency ",
+            "fieldName": "agency_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 141934634,
+            "format": {}
+        },
+        {
+            "id": 563128470,
+            "name": "Location Street",
+            "dataTypeName": "text",
+            "description": "The street location of the agency",
+            "fieldName": "location_street",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 141934626,
+            "format": {}
+        },
+        {
+            "id": 563128471,
+            "name": "Location City",
+            "dataTypeName": "text",
+            "description": "The city location of the agency",
+            "fieldName": "location_city",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 141934617,
+            "format": {}
+        },
+        {
+            "id": 563128472,
+            "name": "Location State",
+            "dataTypeName": "text",
+            "description": "The state location of the agency",
+            "fieldName": "location_state",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 141934631,
+            "format": {}
+        },
+        {
+            "id": 563128473,
+            "name": "Location ZIP",
+            "dataTypeName": "text",
+            "description": "The zip code where the agency is located",
+            "fieldName": "location_zip",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 141992352,
+            "format": {}
+        },
+        {
+            "id": 563128474,
+            "name": "Agency Phone",
+            "dataTypeName": "text",
+            "description": "The agency's phone",
+            "fieldName": "agency_phone",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 141934616,
+            "format": {}
+        },
+        {
+            "id": 563128475,
+            "name": "Agency Contact",
+            "dataTypeName": "text",
+            "description": "The agency's representative to contact ",
+            "fieldName": "agency_contact",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 141934627,
+            "format": {}
+        },
+        {
+            "id": 563128476,
+            "name": "Mailing Street",
+            "dataTypeName": "text",
+            "description": "The street mailing address for the agency",
+            "fieldName": "mailing_street",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 141934619,
+            "format": {}
+        },
+        {
+            "id": 563128477,
+            "name": "Mailing City",
+            "dataTypeName": "text",
+            "description": "The city of the mailing address for the agency",
+            "fieldName": "mailing_city",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 141934611,
+            "format": {}
+        },
+        {
+            "id": 563128478,
+            "name": "Mialing State",
+            "dataTypeName": "text",
+            "description": "the state of the mailing address for the agency",
+            "fieldName": "mialing_state",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 141934624,
+            "format": {}
+        },
+        {
+            "id": 563128479,
+            "name": "Mailing ZIP",
+            "dataTypeName": "text",
+            "description": "The zip code of the mailing address for the agency",
+            "fieldName": "mailing_zip",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 141992353,
+            "format": {}
+        },
+        {
+            "id": 563128480,
+            "name": "Minimum Age",
+            "dataTypeName": "text",
+            "description": "The minimum age the agency accepts",
+            "fieldName": "minimum_age",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 141934639,
+            "format": {}
+        },
+        {
+            "id": 563128481,
+            "name": "Maximum Age",
+            "dataTypeName": "text",
+            "description": "The maximum age the agency accepts",
+            "fieldName": "maximum_age",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 141934621,
+            "format": {}
+        },
+        {
+            "id": 563128482,
+            "name": "Star Rating",
+            "dataTypeName": "text",
+            "description": "rating system of the agency",
+            "fieldName": "star_rating",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 141934643,
+            "format": {}
+        },
+        {
+            "id": 563128483,
+            "name": "Agency Type",
+            "dataTypeName": "text",
+            "description": "The agency is either classified as a \"center\" or a \"group\"",
+            "fieldName": "agency_type",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 141934640,
+            "format": {}
+        },
+        {
+            "id": 563128484,
+            "name": "Capacity",
+            "dataTypeName": "number",
+            "description": "The number of child the agency is able to accept",
+            "fieldName": "capacity",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 141934647,
+            "format": {}
+        },
+        {
+            "id": 563128485,
+            "name": "Open Time",
+            "dataTypeName": "text",
+            "description": "Time the agency starts operations each day",
+            "fieldName": "open_time",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 141934629,
+            "format": {}
+        },
+        {
+            "id": 563128486,
+            "name": "Close Time",
+            "dataTypeName": "text",
+            "description": "Time the agency closes operations each day",
+            "fieldName": "close_time",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 141934613,
+            "format": {}
+        },
+        {
+            "id": 563128487,
+            "name": "Certificate Program Participant",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency is a participate in any certificate programs ",
+            "fieldName": "certificate_program",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 141992340,
+            "format": {}
+        },
+        {
+            "id": 563128488,
+            "name": "Offers Scholarships",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency offers scholarships for children",
+            "fieldName": "offers_scholarships",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 141992350,
+            "format": {}
+        },
+        {
+            "id": 563128489,
+            "name": "Offers Sliding Scale Fee",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency offers a sliding scale fee for children",
+            "fieldName": "offers_sliding_scale_fee",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 141992592,
+            "format": {}
+        },
+        {
+            "id": 563128490,
+            "name": "Offers Multi Child Discount",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency offers more than one discount for children",
+            "fieldName": "offers_multi_child_discount",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 141992347,
+            "format": {}
+        },
+        {
+            "id": 563128491,
+            "name": "Approved For Transportation",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency is approved to provide transportation",
+            "fieldName": "approved_for_transportation",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 141992342,
+            "format": {}
+        },
+        {
+            "id": 563128492,
+            "name": "Charges Fee for Transportation",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency charges for transportation services",
+            "fieldName": "charges_fee_for_transportation",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 141992344,
+            "format": {}
+        },
+        {
+            "id": 563128493,
+            "name": "Regulatory Agency",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "regulatory_agency",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 141934636,
+            "format": {}
+        },
+        {
+            "id": 563128494,
+            "name": "Regulatory Status",
+            "dataTypeName": "text",
+            "description": "The current status of the agency and it's approve with the regulatory agency. This status will slow \"approved\" or \"licensed\" ",
+            "fieldName": "regulatory_status",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 141934618,
+            "format": {}
+        },
+        {
+            "id": 563128495,
+            "name": "License Approval Date",
+            "dataTypeName": "calendar_date",
+            "description": "Indicates the approval date the agency received it's license",
+            "fieldName": "license_approval_date",
+            "position": 28,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 141934609,
+            "format": {}
+        },
+        {
+            "id": 563128496,
+            "name": "Date Open",
+            "dataTypeName": "calendar_date",
+            "description": "The date the agency opened",
+            "fieldName": "date_open",
+            "position": 29,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 141934622,
+            "format": {}
+        },
+        {
+            "id": 563128497,
+            "name": "Near Public Transportation",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency is near public transportation",
+            "fieldName": "near_public_transportation",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 141992351,
+            "format": {}
+        },
+        {
+            "id": 563128498,
+            "name": "Wheel Chair Accessible",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency is wheel chair accessible ",
+            "fieldName": "wheel_chair_accessible",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 141992348,
+            "format": {}
+        },
+        {
+            "id": 563128499,
+            "name": "No Smoking",
+            "dataTypeName": "text",
+            "description": "Non-Smoking - Smoking within child care agencies is prohibited by law. However, children could still be exposed to thirdhand smoke if individuals who smoke work or reside in the agency. A \"Y\" in this column indicates that none of the individuals who work or reside in the facility smoke.",
+            "fieldName": "no_smoking",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 141992341,
+            "format": {}
+        },
+        {
+            "id": 563128500,
+            "name": "No Dogs",
+            "dataTypeName": "text",
+            "description": "Indicates if dogs are on the property of the agency",
+            "fieldName": "no_dogs",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 141992343,
+            "format": {}
+        },
+        {
+            "id": 563128501,
+            "name": "No Cats",
+            "dataTypeName": "text",
+            "description": "indicates if cats are on the property of the agency",
+            "fieldName": "no_cats",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 141992346,
+            "format": {}
+        },
+        {
+            "id": 563128502,
+            "name": "No Pets",
+            "dataTypeName": "text",
+            "description": "indicates if pets are on the property of the agency",
+            "fieldName": "no_pets",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 141992345,
+            "format": {}
+        },
+        {
+            "id": 563128503,
+            "name": "Child and Adult Care Food Program Participant",
+            "dataTypeName": "text",
+            "description": "Indicates whether or not the agency participates in a child and adult care food program",
+            "fieldName": "child_and_adult_care_food",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 141992349,
+            "format": {}
+        },
+        {
+            "id": 563128504,
+            "name": "Program Evaluator",
+            "dataTypeName": "text",
+            "description": "The agency's program evaluator",
+            "fieldName": "program_evaluator",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 141934610,
+            "format": {}
+        },
+        {
+            "id": 563128505,
+            "name": "Program Evaluator Phone Number",
+            "dataTypeName": "text",
+            "description": "the phone number of the agency's program evaluator",
+            "fieldName": "program_evaluator_phone_number",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 141934630,
+            "format": {}
+        },
+        {
+            "id": 563128506,
+            "name": "Location Point",
+            "dataTypeName": "point",
+            "description": "the exact GIS location of the agency",
+            "fieldName": "location_point",
+            "position": 39,
+            "renderTypeName": "point",
+            "tableColumnId": 141934633,
+            "format": {}
+        },
+        {
+            "id": 563128507,
+            "name": "Unique ID",
+            "dataTypeName": "text",
+            "description": "The agency's name and the agency's street location",
+            "fieldName": "unique_id",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 141993299,
+            "format": {}
+        },
+        {
+            "id": 563128508,
+            "name": "Report Date Beginning of Month",
+            "dataTypeName": "calendar_date",
+            "description": "The last date the information was updated for the agency. This information is updated monthly via State of Tennessee's Department of Human Services",
+            "fieldName": "report_date_beginning_of_month",
+            "position": 41,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 142028999,
+            "format": {}
+        },
+        {
+            "id": 563128509,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'location_point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 141934648,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 563128510,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'location_point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 141934649,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 563128511,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 142947295,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "kmcnealy@chattanooga.gov",
+                "Department": "Youth and Family Development",
+                "Data Steward Name": "KaDeadra M",
+                "How often are data values updated?": "Monthly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 563128507,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "9ry9-rb4y",
+        "displayName": "KaDeadra McNealy",
+        "screenName": "KaDeadra McNealy",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "9ry9-rb4y",
+        "displayName": "KaDeadra McNealy",
+        "screenName": "KaDeadra McNealy",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "child care",
+        "early learning"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

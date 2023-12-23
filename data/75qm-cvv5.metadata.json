@@ -1,0 +1,203 @@
+{
+    "id": "75qm-cvv5",
+    "name": "TN Counties COVID-19 Vaccination Demographics",
+    "assetType": "dataset",
+    "attribution": "TN Department of Health",
+    "attributionLink": "https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1611858209,
+    "description": "Demographic vaccination data by county and date in TN",
+    "displayType": "table",
+    "downloadCount": 62,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36518738,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1614023833,
+    "publicationGroup": 17975643,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 526024683,
+    "rowsUpdatedAt": 1703216110,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18065485,
+    "totalTimesRated": 0,
+    "viewCount": 205,
+    "viewLastModified": 1703214181,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1611858465,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3273241,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1611858433,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1611858465,
+                "failureCount": 0,
+                "startedAt": 1611858465,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 526024678,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "Date of recipient count",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 128936829,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 526024679,
+            "name": "COUNTY",
+            "dataTypeName": "text",
+            "description": "County of recipient count",
+            "fieldName": "county",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 128936833,
+            "format": {}
+        },
+        {
+            "id": 526024680,
+            "name": "CATEGORY",
+            "dataTypeName": "text",
+            "description": "Category of recipient count grouping",
+            "fieldName": "category",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 128936832,
+            "format": {}
+        },
+        {
+            "id": 526024681,
+            "name": "CAT_DETAIL",
+            "dataTypeName": "text",
+            "description": "Detailed category of recipient count grouping",
+            "fieldName": "cat_detail",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 128936831,
+            "format": {}
+        },
+        {
+            "id": 526024682,
+            "name": "RECIPIENT_COUNT",
+            "dataTypeName": "number",
+            "description": "Count of recipient for the given date, county, and category",
+            "fieldName": "recipient_count",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 128936830,
+            "format": {}
+        },
+        {
+            "id": 526024683,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "id",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 131182852,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 526024683,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tn health department covid data"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

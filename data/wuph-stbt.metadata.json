@@ -1,0 +1,324 @@
+{
+    "id": "wuph-stbt",
+    "name": "City of Chattanooga Data Inventory",
+    "assetType": "dataset",
+    "attribution": "Office of Performance Management and Open Data",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1444328482,
+    "description": "This dataset contains an inventory of all city datasets. It is updated systematically annually and also periodically throughout the year as needed.",
+    "displayType": "table",
+    "downloadCount": 908,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1556030533,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31341854,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1556030521,
+    "publicationGroup": 4709135,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1689278584,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 16145864,
+    "totalTimesRated": 0,
+    "viewCount": 1194,
+    "viewLastModified": 1689278577,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1542040388,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 517216,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1542040388,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 405266568,
+            "name": "Dataset Title",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "dataset_title",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 31920067,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 405266569,
+            "name": "Department",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "department",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 31920068,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 405266570,
+            "name": "Division",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "division",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 31920069,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 405266571,
+            "name": "Data Steward Email Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "data_steward_s_email_address",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 31920070,
+            "width": 460,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 405266572,
+            "name": "Contents",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "contents",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 31920071,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 405266573,
+            "name": "System of Record",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "system_of_record",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 31920072,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 405266574,
+            "name": "Contains Sensitive Data",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "contains_sensitive_data",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 31920073,
+            "width": 376,
+            "format": {}
+        },
+        {
+            "id": 405266575,
+            "name": "Sensitive Data Comments",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sensitive_data_comments",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 31920074,
+            "width": 376,
+            "format": {}
+        },
+        {
+            "id": 405266576,
+            "name": "Data Quality",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "data_quality",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 31920075,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 405266577,
+            "name": "Data Value",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "data_value",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 31920076,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 405266578,
+            "name": "Data Accessibility",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "data_accessibility",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 31920078,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 405266579,
+            "name": "Internal Priority Score",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "internal_priority_score",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 31920081,
+            "width": 376,
+            "format": {}
+        },
+        {
+            "id": 405266580,
+            "name": "Workflow Status",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workflow_status",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 31920082,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 405266581,
+            "name": "Workflow Status Comment",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workflow_status_comment",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 31920083,
+            "width": 376,
+            "format": {}
+        },
+        {
+            "id": 405266582,
+            "name": "Published Link (description)",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "published_link_description",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 79818145,
+            "format": {}
+        },
+        {
+            "id": 405266584,
+            "name": "Published Link",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "published_link",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 79848116,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Yearly"
+            }
+        },
+        "rowLabel": "",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "data",
+        "data inventory",
+        "inventory"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

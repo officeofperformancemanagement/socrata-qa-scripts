@@ -1,0 +1,157 @@
+{
+    "id": "t6h3-v5ms",
+    "name": "Library Circulation",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Education",
+    "createdAt": 1562859871,
+    "displayType": "table",
+    "downloadCount": 139,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562859915,
+    "modifyingViewUid": "8tr3-m26m",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31913884,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1562859912,
+    "publicationGroup": 16352222,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1562859853,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 16352222,
+    "totalTimesRated": 0,
+    "viewCount": 158,
+    "viewLastModified": 1562859913,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562859934,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 886252,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562859913,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562859934,
+                "failureCount": 0,
+                "startedAt": 1562859934,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 417353149,
+            "name": "Report Date",
+            "dataTypeName": "calendar_date",
+            "fieldName": "report_date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 84025052,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 417353150,
+            "name": "Circulation Count",
+            "dataTypeName": "number",
+            "fieldName": "circulation_count",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 84025053,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Smarter Students Stronger Families",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Public Library",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Quarterly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "circulation",
+        "library",
+        "books"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

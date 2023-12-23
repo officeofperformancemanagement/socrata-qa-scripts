@@ -1,0 +1,289 @@
+{
+    "id": "4xcm-j4rx",
+    "name": "Chattanooga: Operating Budget",
+    "assetType": "dataset",
+    "attribution": "Finance and Administration Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1432647278,
+    "description": "for budget.chattanooga.com",
+    "displayType": "table",
+    "downloadCount": 940,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34429960,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1592321510,
+    "publicationGroup": 2962347,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1593613101,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17235082,
+    "totalTimesRated": 0,
+    "viewCount": 4136,
+    "viewLastModified": 1593613084,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1531487537,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 2324292,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1531487537,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 474974820,
+            "name": "Fiscal Year",
+            "dataTypeName": "number",
+            "fieldName": "fiscal_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 28552684,
+            "width": 232,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "true",
+                "align": "right"
+            }
+        },
+        {
+            "id": 474974821,
+            "name": "Service",
+            "dataTypeName": "text",
+            "fieldName": "service",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 28552685,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 474974822,
+            "name": "Department",
+            "dataTypeName": "text",
+            "fieldName": "department",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 28552686,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 474974823,
+            "name": "Program",
+            "dataTypeName": "text",
+            "fieldName": "program",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 28552687,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 474974824,
+            "name": "Expense Category",
+            "dataTypeName": "text",
+            "fieldName": "expense_category",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 28552688,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 474974825,
+            "name": "Recommended Amount",
+            "dataTypeName": "number",
+            "description": "Amount Requested by Department",
+            "fieldName": "recommended_amount",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 28552689,
+            "width": 316,
+            "format": {
+                "precisionStyle": "currency",
+                "humane": "false",
+                "currencyStyle": "USD",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 474974826,
+            "name": "Approved Amount",
+            "dataTypeName": "number",
+            "fieldName": "approved_amount",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 28552690,
+            "width": 280,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 474974827,
+            "name": "Fund",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fund",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 28552691,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 474974828,
+            "name": "Fund Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fund_type",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 28552692,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 474974829,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 28552693,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 474974830,
+            "name": "Expense Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "expense_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 28552694,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 474974831,
+            "name": "amended",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "amended",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 105304906,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Transparency App": {
+                "Application": "Open Budget"
+            },
+            "Org / Gov": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Yearly"
+            }
+        },
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "operating budget",
+        "fy 2015-2017"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

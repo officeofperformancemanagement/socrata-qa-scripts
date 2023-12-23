@@ -1,0 +1,533 @@
+{
+    "id": "br4j-7khg",
+    "name": "Pedestrian Involved Vehicle Incidents",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1561656702,
+    "displayType": "table",
+    "downloadCount": 144,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "38wp-yztm",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39108425,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1563205808,
+    "publicationGroup": 15972539,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703193463,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18984786,
+    "totalTimesRated": 0,
+    "viewCount": 270,
+    "viewLastModified": 1563205808,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1563206028,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5148869,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1563205962,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1563206028,
+                "failureCount": 0,
+                "startedAt": 1563206028,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 568775047,
+            "name": "Incident Number",
+            "dataTypeName": "text",
+            "description": "CPD Incident Number that is unique to each incident.",
+            "fieldName": "incident_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 77062687,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775048,
+            "name": "Incident Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the vehicle incident occurred.",
+            "fieldName": "incident_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77062688,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775049,
+            "name": "Time Num",
+            "dataTypeName": "number",
+            "description": "24 hour time rounded to the nearest half hour saved as a number data type",
+            "fieldName": "time_num",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 80572166,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775050,
+            "name": "Street",
+            "dataTypeName": "text",
+            "description": "Street address the incident occurred.",
+            "fieldName": "street",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77062689,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775051,
+            "name": "Alt Street",
+            "dataTypeName": "text",
+            "description": "Alternative name for the street if it is a state highway.",
+            "fieldName": "alt_street",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77062690,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775052,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "City the incident occurred.",
+            "fieldName": "city",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77062691,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775053,
+            "name": "County",
+            "dataTypeName": "text",
+            "description": "County the incident occurred.",
+            "fieldName": "county",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 77062692,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775054,
+            "name": "Intersection",
+            "dataTypeName": "text",
+            "description": "Closest intersecting street to the vehicle incident that occurred.",
+            "fieldName": "intersection",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 77062693,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775055,
+            "name": "Mile Post",
+            "dataTypeName": "number",
+            "description": "Mile post the incident occurred if applicable.",
+            "fieldName": "mile_post",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 77062694,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775057,
+            "name": "Accident Type",
+            "dataTypeName": "text",
+            "description": "General type of vehicle incident that occurred.",
+            "fieldName": "accident_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 77062695,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775058,
+            "name": "Collision Type",
+            "dataTypeName": "text",
+            "description": "Type of collision that occurred, description of how it occurred.",
+            "fieldName": "collision_type",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77062696,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775059,
+            "name": "Hit and Run",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates the incident was a hit and run.",
+            "fieldName": "hit_and_run",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 80721077,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775061,
+            "name": "Involved Fatal Injury",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates the incident involves a fatal injury.",
+            "fieldName": "involved_fatal_injury",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 80721078,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775062,
+            "name": "Involved Medical Transport",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates medical transport was needed for the incident.",
+            "fieldName": "involved_medical_transport",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 80721079,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775063,
+            "name": "Involved Placarded Truck",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates the incident involves a truck.",
+            "fieldName": "involved_placarded_truck",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 80721072,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775064,
+            "name": "Posted Speed",
+            "dataTypeName": "number",
+            "description": "The posted speed of the address the incident occurred.",
+            "fieldName": "posted_speed",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 77062701,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775065,
+            "name": "Total Vehicles Involved",
+            "dataTypeName": "number",
+            "description": "Total number of vehicles involved in the incident.",
+            "fieldName": "total_vehicles_involved",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 77062702,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775066,
+            "name": "Weather Code",
+            "dataTypeName": "text",
+            "description": "Describes the condition of the weather at the time.",
+            "fieldName": "weather_code",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 77062703,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775067,
+            "name": "Pedestrian Involved",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates the incident involves a pedestrian.",
+            "fieldName": "pedestrian_involved",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 80721076,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775068,
+            "name": "Bicycle Involved",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates the incident involves a bicycle.",
+            "fieldName": "bicycle_involved",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 80721073,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775070,
+            "name": "Drug Involved",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates the incident involves drugs.",
+            "fieldName": "drug_involved",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 80721074,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775071,
+            "name": "Alcohol Involved",
+            "dataTypeName": "text",
+            "description": "Checked (true), this indicates the incident involves a alcohol.",
+            "fieldName": "alcohol_involved",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 80721075,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775072,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 77062707,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775073,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 77062708,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775074,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location_wkt",
+            "position": 27,
+            "renderTypeName": "point",
+            "tableColumnId": 77062709,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775075,
+            "name": "Location",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 77062710,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775076,
+            "name": "Light Condition",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "light_condition",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 81951366,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775092,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 88990517,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

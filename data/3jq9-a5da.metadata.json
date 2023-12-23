@@ -1,0 +1,790 @@
+{
+    "id": "3jq9-a5da",
+    "name": "2017 5 Year Race Ethnicity",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1568655712,
+    "description": "5 year race and ethnicity data for tracts in Hamilton County. Data from ACS.",
+    "displayType": "table",
+    "downloadCount": 74,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1574082406,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32395750,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1568656277,
+    "publicationGroup": 16541513,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568656276,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16541513,
+    "totalTimesRated": 0,
+    "viewCount": 155,
+    "viewLastModified": 1568656277,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568656554,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1212307,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568656277,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568656554,
+                "failureCount": 0,
+                "startedAt": 1568656554,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 428538391,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 87589066,
+            "format": {}
+        },
+        {
+            "id": 428538427,
+            "name": "Id2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id2",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 87589102,
+            "format": {}
+        },
+        {
+            "id": 428538426,
+            "name": "tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 87589101,
+            "format": {}
+        },
+        {
+            "id": 428538433,
+            "name": "Geography",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geography",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 87589108,
+            "format": {}
+        },
+        {
+            "id": 428538435,
+            "name": "White, Not Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_not_hispanic",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87589110,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538439,
+            "name": "Black/African American, not Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_african_american_not",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 87589114,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538384,
+            "name": "Asian. Not Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "asian_not_hispanic",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87589059,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538403,
+            "name": "Native American or Alaska Native, not Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "native_american_or_alaska",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87589078,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538406,
+            "name": "Pacific Islander, not Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pacific_islander_not_hispanic",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 87589081,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538386,
+            "name": "Other, not Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "other_not_hispanic",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 87589061,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538425,
+            "name": "Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hispanic",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 87589100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538390,
+            "name": "Minority %",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "minority",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 87589065,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 428538424,
+            "name": "Threshold Hamilton County (28.61%)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "threshold_hamilton_county",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 87589099,
+            "format": {}
+        },
+        {
+            "id": 428538411,
+            "name": "Threshold Chattanooga City (43.48%)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "threshold_chattanooga_city",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 87589086,
+            "format": {}
+        },
+        {
+            "id": 428538415,
+            "name": "Estimate; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_total",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 87589090,
+            "format": {}
+        },
+        {
+            "id": 428538413,
+            "name": "Margin of Error; Total:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_total",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 87589088,
+            "format": {}
+        },
+        {
+            "id": 428538422,
+            "name": "Estimate; Not Hispanic or Latino:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 87589097,
+            "format": {}
+        },
+        {
+            "id": 428538395,
+            "name": "Margin of Error; Not Hispanic or Latino:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 87589070,
+            "format": {}
+        },
+        {
+            "id": 428538400,
+            "name": "Estimate; Not Hispanic or Latino: - White alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_1",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 87589075,
+            "format": {}
+        },
+        {
+            "id": 428538388,
+            "name": "Margin of Error; Not Hispanic or Latino: - White alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_1",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 87589063,
+            "format": {}
+        },
+        {
+            "id": 428538407,
+            "name": "Estimate; Not Hispanic or Latino: - Black or African American alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_2",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 87589082,
+            "format": {}
+        },
+        {
+            "id": 428538437,
+            "name": "Margin of Error; Not Hispanic or Latino: - Black or African American alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_2",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 87589112,
+            "format": {}
+        },
+        {
+            "id": 428538420,
+            "name": "Estimate; Not Hispanic or Latino: - American Indian and Alaska Native alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_3",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 87589095,
+            "format": {}
+        },
+        {
+            "id": 428538430,
+            "name": "Margin of Error; Not Hispanic or Latino: - American Indian and Alaska Native alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_3",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 87589105,
+            "format": {}
+        },
+        {
+            "id": 428538389,
+            "name": "Estimate; Not Hispanic or Latino: - Asian alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_4",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 87589064,
+            "format": {}
+        },
+        {
+            "id": 428538398,
+            "name": "Margin of Error; Not Hispanic or Latino: - Asian alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_4",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 87589073,
+            "format": {}
+        },
+        {
+            "id": 428538417,
+            "name": "Estimate; Not Hispanic or Latino: - Native Hawaiian and Other Pacific Islander alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_5",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 87589092,
+            "format": {}
+        },
+        {
+            "id": 428538393,
+            "name": "Margin of Error; Not Hispanic or Latino: - Native Hawaiian and Other Pacific Islander alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_5",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 87589068,
+            "format": {}
+        },
+        {
+            "id": 428538431,
+            "name": "Estimate; Not Hispanic or Latino: - Some other race alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_6",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 87589106,
+            "format": {}
+        },
+        {
+            "id": 428538428,
+            "name": "Margin of Error; Not Hispanic or Latino: - Some other race alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_6",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 87589103,
+            "format": {}
+        },
+        {
+            "id": 428538401,
+            "name": "Estimate; Not Hispanic or Latino: - Two or more races:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_7",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 87589076,
+            "format": {}
+        },
+        {
+            "id": 428538419,
+            "name": "Margin of Error; Not Hispanic or Latino: - Two or more races:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_7",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 87589094,
+            "format": {}
+        },
+        {
+            "id": 428538410,
+            "name": "Estimate; Not Hispanic or Latino: - Two or more races: - Two races including Some other race",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_8",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 87589085,
+            "format": {}
+        },
+        {
+            "id": 428538392,
+            "name": "Margin of Error; Not Hispanic or Latino: - Two or more races: - Two races including Some other race",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_8",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 87589067,
+            "format": {}
+        },
+        {
+            "id": 428538412,
+            "name": "Estimate; Not Hispanic or Latino: - Two or more races: - Two races excluding Some other race, and three or more races",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_not_hispanic_or_9",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 87589087,
+            "format": {}
+        },
+        {
+            "id": 428538396,
+            "name": "Margin of Error; Not Hispanic or Latino: - Two or more races: - Two races excluding Some other race, and three or more races",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_not_hispanic_9",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 87589071,
+            "format": {}
+        },
+        {
+            "id": 428538409,
+            "name": "Estimate; Hispanic or Latino:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 87589084,
+            "format": {}
+        },
+        {
+            "id": 428538402,
+            "name": "Margin of Error; Hispanic or Latino:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 87589077,
+            "format": {}
+        },
+        {
+            "id": 428538423,
+            "name": "Estimate; Hispanic or Latino: - White alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_1",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 87589098,
+            "format": {}
+        },
+        {
+            "id": 428538418,
+            "name": "Margin of Error; Hispanic or Latino: - White alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_1",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 87589093,
+            "format": {}
+        },
+        {
+            "id": 428538399,
+            "name": "Estimate; Hispanic or Latino: - Black or African American alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_2",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 87589074,
+            "format": {}
+        },
+        {
+            "id": 428538436,
+            "name": "Margin of Error; Hispanic or Latino: - Black or African American alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_2",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 87589111,
+            "format": {}
+        },
+        {
+            "id": 428538432,
+            "name": "Estimate; Hispanic or Latino: - American Indian and Alaska Native alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_3",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 87589107,
+            "format": {}
+        },
+        {
+            "id": 428538397,
+            "name": "Margin of Error; Hispanic or Latino: - American Indian and Alaska Native alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_3",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 87589072,
+            "format": {}
+        },
+        {
+            "id": 428538385,
+            "name": "Estimate; Hispanic or Latino: - Asian alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_4",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 87589060,
+            "format": {}
+        },
+        {
+            "id": 428538429,
+            "name": "Margin of Error; Hispanic or Latino: - Asian alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_4",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 87589104,
+            "format": {}
+        },
+        {
+            "id": 428538394,
+            "name": "Estimate; Hispanic or Latino: - Native Hawaiian and Other Pacific Islander alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_5",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 87589069,
+            "format": {}
+        },
+        {
+            "id": 428538434,
+            "name": "Margin of Error; Hispanic or Latino: - Native Hawaiian and Other Pacific Islander alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_5",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 87589109,
+            "format": {}
+        },
+        {
+            "id": 428538408,
+            "name": "Estimate; Hispanic or Latino: - Some other race alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_6",
+            "position": 49,
+            "renderTypeName": "number",
+            "tableColumnId": 87589083,
+            "format": {}
+        },
+        {
+            "id": 428538416,
+            "name": "Margin of Error; Hispanic or Latino: - Some other race alone",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_6",
+            "position": 50,
+            "renderTypeName": "number",
+            "tableColumnId": 87589091,
+            "format": {}
+        },
+        {
+            "id": 428538438,
+            "name": "Estimate; Hispanic or Latino: - Two or more races:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_7",
+            "position": 51,
+            "renderTypeName": "number",
+            "tableColumnId": 87589113,
+            "format": {}
+        },
+        {
+            "id": 428538404,
+            "name": "Margin of Error; Hispanic or Latino: - Two or more races:",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_7",
+            "position": 52,
+            "renderTypeName": "number",
+            "tableColumnId": 87589079,
+            "format": {}
+        },
+        {
+            "id": 428538387,
+            "name": "Estimate; Hispanic or Latino: - Two or more races: - Two races including Some other race",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_8",
+            "position": 53,
+            "renderTypeName": "number",
+            "tableColumnId": 87589062,
+            "format": {}
+        },
+        {
+            "id": 428538414,
+            "name": "Margin of Error; Hispanic or Latino: - Two or more races: - Two races including Some other race",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_8",
+            "position": 54,
+            "renderTypeName": "number",
+            "tableColumnId": 87589089,
+            "format": {}
+        },
+        {
+            "id": 428538421,
+            "name": "Estimate; Hispanic or Latino: - Two or more races: - Two races excluding Some other race, and three or more races",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "estimate_hispanic_or_latino_9",
+            "position": 55,
+            "renderTypeName": "number",
+            "tableColumnId": 87589096,
+            "format": {}
+        },
+        {
+            "id": 428538383,
+            "name": "Margin of Error; Hispanic or Latino: - Two or more races: - Two races excluding Some other race, and three or more races",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "margin_of_error_hispanic_9",
+            "position": 56,
+            "renderTypeName": "number",
+            "tableColumnId": 87589058,
+            "format": {}
+        },
+        {
+            "id": 428538405,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 57,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87589080,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "acs"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

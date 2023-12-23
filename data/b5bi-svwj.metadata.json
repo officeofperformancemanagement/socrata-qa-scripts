@@ -1,0 +1,250 @@
+{
+    "id": "b5bi-svwj",
+    "name": "Hamilton County Cases by Zip Code",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1590689760,
+    "displayType": "table",
+    "downloadCount": 156,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35506543,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1602788094,
+    "publicationGroup": 17171806,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1691980138,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17668954,
+    "totalTimesRated": 0,
+    "viewCount": 375,
+    "viewLastModified": 1703215364,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1590690197,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 2806149,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1590690197,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1590690197,
+                "failureCount": 0,
+                "startedAt": 1590690197,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 502276799,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 103184036,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 502276800,
+            "name": "CATEGORY",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "category",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 103184009,
+            "format": {}
+        },
+        {
+            "id": 502276801,
+            "name": "CAT_DETAIL",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cat_detail",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 103184008,
+            "format": {}
+        },
+        {
+            "id": 502276802,
+            "name": "CAT_CASES_TOTAL",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_total",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 103184012,
+            "format": {}
+        },
+        {
+            "id": 502276803,
+            "name": "CAT_CASES_TOTAL_PERCENT",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_total_percent",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 103184006,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 502276804,
+            "name": "CAT_CASES_TOTAL_PER1K",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_total_per1k",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 103184018,
+            "format": {}
+        },
+        {
+            "id": 502276805,
+            "name": "CAT_CASES_NEW_PER1K",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_new_per1k",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 109215865,
+            "format": {}
+        },
+        {
+            "id": 502276806,
+            "name": "CAT_CASES_NEW",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_new",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 103184027,
+            "format": {}
+        },
+        {
+            "id": 502276808,
+            "name": "New Cases Past 7 Days",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "new_cases_past_7_days",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 109331600,
+            "format": {}
+        },
+        {
+            "id": 502276809,
+            "name": "New Cases Per 1k Past 7 Days",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "new_cases_per_1k_past_7_days",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 109331599,
+            "format": {}
+        },
+        {
+            "id": 502276810,
+            "name": "Most Recent Date",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "most_recent_date",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 103184004,
+            "format": {}
+        },
+        {
+            "id": 502276811,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 13,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 103184034,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid",
+        "health department"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

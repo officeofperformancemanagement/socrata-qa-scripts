@@ -1,0 +1,673 @@
+{
+    "id": "mpms-yy3n",
+    "name": "Fire Incidents",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1561576070,
+    "description": "This dataset contains fire incident data from 2001 to the current date. For a more detailed view of the data containing information on all responding units check out this dataset: https://chattanooga-internal.data.socrata.com/Public-Safety/Fire-Incidents-Detailed/5dtg-25r9",
+    "displayType": "table",
+    "downloadCount": 2101,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "ndjw-zxwd",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39108455,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1646249908,
+    "publicationGroup": 15947569,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703240691,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18984793,
+    "totalTimesRated": 0,
+    "viewCount": 852,
+    "viewLastModified": 1670959019,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562076002,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5148880,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561576544,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562076006,
+                "failureCount": 0,
+                "startedAt": 1562076002,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 568775542,
+            "name": "Incident Number",
+            "dataTypeName": "text",
+            "description": "Incident ID number",
+            "fieldName": "incident_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76731147,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775543,
+            "name": "Incident Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of incident",
+            "fieldName": "incident_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76731148,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775544,
+            "name": "Shift Color",
+            "dataTypeName": "text",
+            "description": "Shift color for date of incident",
+            "fieldName": "shift_color",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76731149,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775545,
+            "name": "Specific Incident Code and Description",
+            "dataTypeName": "text",
+            "description": "Incident code and description",
+            "fieldName": "specific_incident_code_and",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76731150,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775546,
+            "name": "Generic Incident Code",
+            "dataTypeName": "text",
+            "description": "Incident code",
+            "fieldName": "generic_incident_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76731170,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775547,
+            "name": "Generic Incident Description",
+            "dataTypeName": "text",
+            "description": "Description of incident",
+            "fieldName": "generic_incident_description",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76731151,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775548,
+            "name": "Incident Category",
+            "dataTypeName": "text",
+            "description": "Category of incident",
+            "fieldName": "incident_category",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76731152,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775549,
+            "name": "StreetNumber",
+            "dataTypeName": "text",
+            "description": "Address street number",
+            "fieldName": "streetnumber",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76731171,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775550,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "Single line address",
+            "fieldName": "address",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 130122851,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775551,
+            "name": "StreetPrefix",
+            "dataTypeName": "text",
+            "description": "Address street prefix",
+            "fieldName": "streetprefix",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76731153,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775552,
+            "name": "StreetName",
+            "dataTypeName": "text",
+            "description": "Address street",
+            "fieldName": "streetname",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76731154,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775553,
+            "name": "StreetType",
+            "dataTypeName": "text",
+            "description": "Address street type",
+            "fieldName": "streettype",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 76731155,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775554,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "Incident city",
+            "fieldName": "city",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76731156,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775555,
+            "name": "Civilian Casualty",
+            "dataTypeName": "number",
+            "description": "Civilian casualty count",
+            "fieldName": "civilian_casualty",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 76731157,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775556,
+            "name": "Firefighter Casualty",
+            "dataTypeName": "number",
+            "description": "Firefighter casualty count",
+            "fieldName": "firefighter_casualty",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 76731158,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775557,
+            "name": "Property Loss",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "property_loss",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 76731159,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775558,
+            "name": "Property Value",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "property_value",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 76731160,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775559,
+            "name": "Reporting District Number",
+            "dataTypeName": "text",
+            "description": "Incident district",
+            "fieldName": "reporting_district_number",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 76731161,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775560,
+            "name": "Reporting District Station",
+            "dataTypeName": "text",
+            "description": "District of reporting station",
+            "fieldName": "reporting_district_station",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 76731162,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775561,
+            "name": "Average In District Response Time",
+            "dataTypeName": "number",
+            "description": "Average response time for in district units",
+            "fieldName": "average_in_district_response",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 76731163,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775562,
+            "name": "Average Out District Response Time",
+            "dataTypeName": "number",
+            "description": "Average response time for out of district units",
+            "fieldName": "average_out_district_response",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 76731164,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775563,
+            "name": "Average Response Time (Minutes)",
+            "dataTypeName": "number",
+            "description": "Average response time for all units",
+            "fieldName": "average_response_time_minutes",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 76731165,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775564,
+            "name": "MutualAid",
+            "dataTypeName": "text",
+            "description": "Mutual aid indicator",
+            "fieldName": "mutualaid",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 77143171,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775565,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Incident latitude",
+            "fieldName": "latitude",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 76731166,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775566,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Incident longitude",
+            "fieldName": "longitude",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 76731167,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775567,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "Incident location in well known text format",
+            "fieldName": "location",
+            "position": 26,
+            "renderTypeName": "point",
+            "tableColumnId": 76731168,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775568,
+            "name": "Incident Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "incident_count",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 76731169,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775569,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "Incident zip",
+            "fieldName": "zip",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 78144972,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775570,
+            "name": "ExposureNum",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "exposurenum",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 80877730,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775571,
+            "name": "citydst",
+            "dataTypeName": "text",
+            "description": "City council district where incident occurred",
+            "fieldName": "citydst",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 81941563,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 568775573,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 144806402,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568775574,
+            "name": "Chattanooga Redistricting - New Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_hr78_d3nd",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 144806728,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_hr78-d3nd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568775575,
+            "name": "Chattanooga Historic Red Lining",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_tdua_xyxp",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 144858796,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_tdua-xyxp",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 568775576,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 144869799,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569035187,
+            "name": "Hamilton County 2020 Census Tracts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_ymb6_j43f",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 144874445,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ymb6-j43f",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Fire",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "fire fires firetruck unit response time emergency alarm false ems cfd"
+    ],
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

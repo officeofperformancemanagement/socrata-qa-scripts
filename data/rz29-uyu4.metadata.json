@@ -1,0 +1,650 @@
+{
+    "id": "rz29-uyu4",
+    "name": "Address Data",
+    "assetType": "dataset",
+    "attribution": "Public Works",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1435338023,
+    "description": "Addressing point file for the City of Chattanooga.",
+    "displayType": "table",
+    "downloadCount": 1739,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1546021103,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 13001505,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1440512088,
+    "publicationGroup": 3312076,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1546021085,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 4104888,
+    "totalTimesRated": 0,
+    "viewCount": 3463,
+    "viewLastModified": 1546021012,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1440512088,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366852,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1440512088,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 219132286,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 29292691,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 219132288,
+            "name": "STNUM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "stnum",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 29292693,
+            "width": 160,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 219132289,
+            "name": "DIRPFX",
+            "dataTypeName": "text",
+            "fieldName": "dirpfx",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 29292694,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 219132290,
+            "name": "PRETYPE",
+            "dataTypeName": "text",
+            "fieldName": "pretype",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 29292695,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 219132291,
+            "name": "STNAME",
+            "dataTypeName": "text",
+            "fieldName": "stname",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 29292696,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 219132292,
+            "name": "TYPESFX",
+            "dataTypeName": "text",
+            "fieldName": "typesfx",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 29292697,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 219132293,
+            "name": "DIRSFX",
+            "dataTypeName": "text",
+            "fieldName": "dirsfx",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 29292698,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 219132294,
+            "name": "CATEGORY",
+            "dataTypeName": "text",
+            "fieldName": "category",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 29292699,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 219132295,
+            "name": "UNIT",
+            "dataTypeName": "text",
+            "fieldName": "unit",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 29292700,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 219132296,
+            "name": "BUILDING",
+            "dataTypeName": "text",
+            "fieldName": "building",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 29292701,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 219132297,
+            "name": "ADDRESS",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 29292702,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 219132298,
+            "name": "ALTERNATE",
+            "dataTypeName": "text",
+            "fieldName": "alternate",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 29292703,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 219132299,
+            "name": "DETAILS",
+            "dataTypeName": "text",
+            "fieldName": "details",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 29292704,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 219132300,
+            "name": "DATELM",
+            "dataTypeName": "calendar_date",
+            "fieldName": "datelm",
+            "position": 14,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 29292705,
+            "width": 172,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 219132301,
+            "name": "USERLM",
+            "dataTypeName": "text",
+            "fieldName": "userlm",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 29292706,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 219132302,
+            "name": "METHOD",
+            "dataTypeName": "text",
+            "fieldName": "method",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 29292707,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 219132303,
+            "name": "STATUS",
+            "dataTypeName": "text",
+            "fieldName": "status",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 29292708,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 219132304,
+            "name": "TAX_MAP_NO",
+            "dataTypeName": "text",
+            "fieldName": "tax_map_no",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 29292709,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 219132305,
+            "name": "PB",
+            "dataTypeName": "number",
+            "fieldName": "pb",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 29292710,
+            "width": 124,
+            "format": {}
+        },
+        {
+            "id": 219132306,
+            "name": "PG",
+            "dataTypeName": "number",
+            "fieldName": "pg",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 29292711,
+            "width": 124,
+            "format": {}
+        },
+        {
+            "id": 219132307,
+            "name": "SUBID",
+            "dataTypeName": "number",
+            "fieldName": "subid",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 29292712,
+            "width": 160,
+            "format": {}
+        },
+        {
+            "id": 219132308,
+            "name": "DocLink",
+            "dataTypeName": "text",
+            "fieldName": "doclink",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 29292713,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 219132309,
+            "name": "CITY",
+            "dataTypeName": "text",
+            "fieldName": "city",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 29292714,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 219132310,
+            "name": "ZIPCODE",
+            "dataTypeName": "text",
+            "fieldName": "zipcode",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 29292715,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 219132311,
+            "name": "VP_Num",
+            "dataTypeName": "number",
+            "fieldName": "vp_num",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 29292716,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 219132312,
+            "name": "TOWER_ADDY",
+            "dataTypeName": "text",
+            "fieldName": "tower_addy",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 29292717,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 219132313,
+            "name": "PREV_NUM",
+            "dataTypeName": "text",
+            "fieldName": "prev_num",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 29292718,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 219132314,
+            "name": "PREV_DIR",
+            "dataTypeName": "text",
+            "fieldName": "prev_dir",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 29292719,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 219132315,
+            "name": "PREV_NAME",
+            "dataTypeName": "text",
+            "fieldName": "prev_name",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 29292720,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 219132316,
+            "name": "PREV_TYPE",
+            "dataTypeName": "text",
+            "fieldName": "prev_type",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 29292721,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 219132317,
+            "name": "OIRID",
+            "dataTypeName": "text",
+            "fieldName": "oirid",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 29292722,
+            "width": 160,
+            "format": {}
+        },
+        {
+            "id": 219132883,
+            "name": "LONGITUDE",
+            "dataTypeName": "number",
+            "fieldName": "longitude",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 29292723,
+            "width": 208,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 219134658,
+            "name": "LATITUDE",
+            "dataTypeName": "number",
+            "fieldName": "latitude",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 29292724,
+            "width": 196,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 219132320,
+            "name": "location",
+            "dataTypeName": "point",
+            "fieldName": "location",
+            "position": 34,
+            "renderTypeName": "point",
+            "tableColumnId": 29292725,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 219135841,
+            "name": "location (address)",
+            "dataTypeName": "text",
+            "fieldName": "location_address",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 30808563,
+            "format": {}
+        },
+        {
+            "id": 219135843,
+            "name": "location (city)",
+            "dataTypeName": "text",
+            "fieldName": "location_city",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 30808565,
+            "format": {}
+        },
+        {
+            "id": 219135840,
+            "name": "location (state)",
+            "dataTypeName": "text",
+            "fieldName": "location_state",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 30808562,
+            "format": {}
+        },
+        {
+            "id": 219135842,
+            "name": "location (zip)",
+            "dataTypeName": "text",
+            "fieldName": "location_zip",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 30808564,
+            "format": {}
+        },
+        {
+            "id": 219135844,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 30808566,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 219135845,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 30808567,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 219135846,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 30808568,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 219135847,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 30808569,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 219135848,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 30808570,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Weekly"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "address",
+        "gis"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,157 @@
+{
+    "id": "n6u4-ufwx",
+    "name": "CARTA Routes - GTFS",
+    "assetType": "dataset",
+    "attribution": "CARTA",
+    "attributionLink": "https://www.gocarta.org/about/developers-center/",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1622141792,
+    "description": "Routes from the CARTA GTFS file on 5/27/2021",
+    "displayType": "table",
+    "downloadCount": 57,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37244876,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1622141970,
+    "publicationGroup": 18331663,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1622141969,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18331663,
+    "totalTimesRated": 0,
+    "viewCount": 86,
+    "viewLastModified": 1666192639,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1622142000,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3666017,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1622141970,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1622142000,
+                "failureCount": 0,
+                "startedAt": 1622142000,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 541343232,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Feature id",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 138126232,
+            "format": {}
+        },
+        {
+            "id": 541343231,
+            "name": "geometry",
+            "dataTypeName": "line",
+            "description": "Geometry in well known text format",
+            "fieldName": "geometry",
+            "position": 2,
+            "renderTypeName": "line",
+            "tableColumnId": 138126231,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "gtfs",
+        "carta",
+        "bus"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

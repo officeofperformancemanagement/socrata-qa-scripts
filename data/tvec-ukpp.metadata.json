@@ -1,0 +1,638 @@
+{
+    "id": "tvec-ukpp",
+    "name": "Chattanooga Marathon",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1551368386,
+    "description": "Results for the Erlanger Chattanooga Marathon.",
+    "displayType": "table",
+    "downloadCount": 504,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1551708091,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30962326,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1551474234,
+    "publicationGroup": 16001619,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 397791971,
+    "rowsUpdatedAt": 1551708091,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 16005735,
+    "totalTimesRated": 0,
+    "viewCount": 908,
+    "viewLastModified": 1551708084,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1551474234,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367211,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1551474234,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 397791971,
+            "name": "Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 77436205,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 397791972,
+            "name": "First Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "first_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77400469,
+            "format": {}
+        },
+        {
+            "id": 397791973,
+            "name": "Last Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "last_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 77400470,
+            "format": {}
+        },
+        {
+            "id": 397791974,
+            "name": "Division",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "division",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77400444,
+            "format": {}
+        },
+        {
+            "id": 397791975,
+            "name": "Overall",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overall",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 77400456,
+            "format": {}
+        },
+        {
+            "id": 397791976,
+            "name": "Division Place",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "division_place",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77400443,
+            "format": {}
+        },
+        {
+            "id": 397791977,
+            "name": "Sex Place",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sex_place",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 77400471,
+            "format": {}
+        },
+        {
+            "id": 397791978,
+            "name": "Guntime",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "guntime",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 77400465,
+            "format": {}
+        },
+        {
+            "id": 397791979,
+            "name": "Guntime DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "guntime_dm",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 77400460,
+            "format": {}
+        },
+        {
+            "id": 397791980,
+            "name": "Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "time",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77400452,
+            "format": {}
+        },
+        {
+            "id": 397791981,
+            "name": "Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "time_dm",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 77400455,
+            "format": {}
+        },
+        {
+            "id": 397791982,
+            "name": "Pace",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pace",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77400448,
+            "format": {}
+        },
+        {
+            "id": 397791983,
+            "name": "Pace DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pace_dm",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 77400468,
+            "format": {}
+        },
+        {
+            "id": 397791984,
+            "name": "5K Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_5k_time",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 77400472,
+            "format": {}
+        },
+        {
+            "id": 397791985,
+            "name": "5K Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_5k_time_dm",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 77400475,
+            "format": {}
+        },
+        {
+            "id": 397791986,
+            "name": "5K Rate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_5k_rate",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 77400478,
+            "format": {}
+        },
+        {
+            "id": 397791987,
+            "name": "5K Rate DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_5k_rate_dm",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 77400463,
+            "format": {}
+        },
+        {
+            "id": 397791988,
+            "name": "5K Rank",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_5k_rank",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 77400454,
+            "format": {}
+        },
+        {
+            "id": 397791989,
+            "name": "10K Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_10k_time",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 77400462,
+            "format": {}
+        },
+        {
+            "id": 397791990,
+            "name": "10K Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_10k_time_dm",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 77400457,
+            "format": {}
+        },
+        {
+            "id": 397791991,
+            "name": "10K Rate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_10k_rate",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 77400479,
+            "format": {}
+        },
+        {
+            "id": 397791992,
+            "name": "10K Rate DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_10k_rate_dm",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 77400446,
+            "format": {}
+        },
+        {
+            "id": 397791993,
+            "name": "10K Rank",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_10k_rank",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 77400459,
+            "format": {}
+        },
+        {
+            "id": 397791994,
+            "name": "15K Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_15k_time",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 77400467,
+            "format": {}
+        },
+        {
+            "id": 397791995,
+            "name": "15K Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_15k_time_dm",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 77400484,
+            "format": {}
+        },
+        {
+            "id": 397791996,
+            "name": "15K Rate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_15k_rate",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 77400458,
+            "format": {}
+        },
+        {
+            "id": 397791997,
+            "name": "15K Rate DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_15k_rate_dm",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 77400449,
+            "format": {}
+        },
+        {
+            "id": 397791998,
+            "name": "15K Rank",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_15k_rank",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 77400482,
+            "format": {}
+        },
+        {
+            "id": 397791999,
+            "name": "10 Mile Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_10_mile_time",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 77400451,
+            "format": {}
+        },
+        {
+            "id": 397792000,
+            "name": "10 Mile Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_10_mile_time_dm",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 77400453,
+            "format": {}
+        },
+        {
+            "id": 397792001,
+            "name": "10 Mile Rate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_10_mile_rate",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 77400445,
+            "format": {}
+        },
+        {
+            "id": 397792002,
+            "name": "10 Mile Rate DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_10_mile_rate_dm",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 77400480,
+            "format": {}
+        },
+        {
+            "id": 397792003,
+            "name": "10 Mile Rank",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_10_mile_rank",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 77400474,
+            "format": {}
+        },
+        {
+            "id": 397792004,
+            "name": "Half Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "half_time",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 77400447,
+            "format": {}
+        },
+        {
+            "id": 397792005,
+            "name": "Half Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "half_time_dm",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 77400483,
+            "format": {}
+        },
+        {
+            "id": 397792006,
+            "name": "Last Half Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "last_half_time",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 77400476,
+            "format": {}
+        },
+        {
+            "id": 397792007,
+            "name": "Last Half Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "last_half_time_dm",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 77400477,
+            "format": {}
+        },
+        {
+            "id": 397792008,
+            "name": "20 Mile Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_20_mile_time",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 77400466,
+            "format": {}
+        },
+        {
+            "id": 397792009,
+            "name": "20 Mile Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_20_mile_time_dm",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 77400473,
+            "format": {}
+        },
+        {
+            "id": 397792010,
+            "name": "Last 10K Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "last_10k_time",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 77400461,
+            "format": {}
+        },
+        {
+            "id": 397792011,
+            "name": "Last 10K Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "last_10k_time_dm",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 77400442,
+            "format": {}
+        },
+        {
+            "id": 397792012,
+            "name": "Last 5K Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "last_5k_time",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 77400450,
+            "format": {}
+        },
+        {
+            "id": 397792013,
+            "name": "Last 5K Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "last_5k_time_dm",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 77400481,
+            "format": {}
+        },
+        {
+            "id": 397792014,
+            "name": "Sex",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sex",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 77439873,
+            "format": {}
+        },
+        {
+            "id": 397792015,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 45,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77437112,
+            "format": {}
+        },
+        {
+            "id": 397792016,
+            "name": "Year",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "year",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 77448914,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 397792017,
+            "name": "Age Range",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "age_range",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 77455153,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "rowIdentifier": 397791971,
+        "rowLabel": "Individual Result",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "marathon"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

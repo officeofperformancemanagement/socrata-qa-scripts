@@ -1,0 +1,1521 @@
+{
+    "id": "bcsf-zcb7",
+    "name": "Chattanooga City Parcels",
+    "assetType": "filter",
+    "attribution": "Hamilton County",
+    "attributionLink": "https://mapsdev.hamiltontn.gov/hcwa03/rest/services",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1562180859,
+    "description": "Chattanooga city parcel data contains data on all parcels within the City of Chattanooga.  Common interested data fields include information about the owner of the property, sale and appraisal values, and general information on the parcel itself.  For a complete understanding of the fields and their values, please reference the attached PDF.",
+    "displayType": "table",
+    "downloadCount": 1153,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "modifyingViewUid": "fg88-myy3",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37017362,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1618592048,
+    "publicationGroup": 16036449,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1703230881,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16871762,
+    "totalTimesRated": 0,
+    "viewCount": 566,
+    "viewLastModified": 1618592048,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562181155,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3529815,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562181121,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562181155,
+                "failureCount": 0,
+                "startedAt": 1562181155,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 536593882,
+            "name": "ADDRESS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 77864272,
+            "width": 296,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593883,
+            "name": "APPVALUE",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "appvalue",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 77864229,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593884,
+            "name": "ASSVALUE",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "assvalue",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 77864218,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593885,
+            "name": "BCKTAXYRS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bcktaxyrs",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77864276,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593886,
+            "name": "BNKRPTIND",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "bnkrptind",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77864214,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593887,
+            "name": "BUILDVALUE",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "buildvalue",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 77864215,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593888,
+            "name": "CALCACRES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "calcacres",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 77864287,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593889,
+            "name": "CNYTAXAMT",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cnytaxamt",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 77864266,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593890,
+            "name": "CONTROLMAP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "controlmap",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 77864212,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593891,
+            "name": "CURRENTUSE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "currentuse",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77864217,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593892,
+            "name": "DEEDACRES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "deedacres",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 77864211,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593893,
+            "name": "DIRPFX",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "dirpfx",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77864220,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593894,
+            "name": "DISTRICT",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 77864225,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593895,
+            "name": "EXEMPTCODE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "exemptcode",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 77864244,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593896,
+            "name": "GDB_GEOMATTR_DATA",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "gdb_geomattr_data",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 77864205,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593897,
+            "name": "GISLINK",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "gislink",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 77864282,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593898,
+            "name": "GROUP_",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "group_",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 77864236,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593899,
+            "name": "IMPCODE",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "impcode",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 77864263,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593900,
+            "name": "LANDVALUE",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "landvalue",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 77864284,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593901,
+            "name": "LEGALDESC1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc1",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 77864224,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593902,
+            "name": "LEGALDESC2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc2",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 77864288,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593903,
+            "name": "LEGALDESC3",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc3",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 77864231,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593904,
+            "name": "LEGALDESC4",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc4",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 77864238,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593905,
+            "name": "LEGALDESC5",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc5",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 77864223,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593906,
+            "name": "LEGALDESC6",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc6",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 77864213,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593907,
+            "name": "LEGALDESC7",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc7",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 77864204,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593908,
+            "name": "LEGALDESC8",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc8",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 77864247,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593909,
+            "name": "LOTDIM1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lotdim1",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 77864245,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593910,
+            "name": "LOTDIM2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lotdim2",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 77864221,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593911,
+            "name": "LUCODE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lucode",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 77864290,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593912,
+            "name": "LYRBILLNUM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lyrbillnum",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 77864252,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593913,
+            "name": "MACITY",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "macity",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 77864237,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593914,
+            "name": "MADIRPFX",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "madirpfx",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 77864228,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593915,
+            "name": "MALINE2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "maline2",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 77864227,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593916,
+            "name": "MAP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "map",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 77864234,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593917,
+            "name": "MAPACRES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "mapacres",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 77864293,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593918,
+            "name": "MASTATE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mastate",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 77864261,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593919,
+            "name": "MASTNAME",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mastname",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 77864273,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593920,
+            "name": "MASTNUM",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mastnum",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 77864216,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593921,
+            "name": "MATYPESFX",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "matypesfx",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 77864292,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593922,
+            "name": "MAZIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mazip",
+            "position": 41,
+            "renderTypeName": "text",
+            "tableColumnId": 77864264,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593923,
+            "name": "MORTACCNUM",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mortaccnum",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 77864295,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593924,
+            "name": "MORTCO",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mortco",
+            "position": 43,
+            "renderTypeName": "text",
+            "tableColumnId": 77864281,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593925,
+            "name": "MUNTAXAMT",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "muntaxamt",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 77864269,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593926,
+            "name": "NEIGHCODE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "neighcode",
+            "position": 45,
+            "renderTypeName": "text",
+            "tableColumnId": 77864262,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593927,
+            "name": "OBJECTID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "objectid",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 77864246,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593928,
+            "name": "OWNERNAME1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ownername1",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 77864285,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593929,
+            "name": "OWNERNAME2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ownername2",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 77864294,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593930,
+            "name": "PARCEL",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "parcel",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 77864203,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593931,
+            "name": "PARCEL_TYPE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "parcel_type",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 77864270,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593932,
+            "name": "PBA_NUM",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pba_num",
+            "position": 51,
+            "renderTypeName": "text",
+            "tableColumnId": 77864283,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593933,
+            "name": "PLAT1BOOK",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1book",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 77864256,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593934,
+            "name": "PLAT1LOT",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1lot",
+            "position": 53,
+            "renderTypeName": "text",
+            "tableColumnId": 77864232,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593935,
+            "name": "PLAT1PAGE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1page",
+            "position": 54,
+            "renderTypeName": "text",
+            "tableColumnId": 77864278,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593936,
+            "name": "PLAT1PG",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1pg",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 77864297,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593937,
+            "name": "PLAT2BOOK",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat2book",
+            "position": 56,
+            "renderTypeName": "text",
+            "tableColumnId": 77864296,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593938,
+            "name": "PLAT2LOT",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat2lot",
+            "position": 57,
+            "renderTypeName": "text",
+            "tableColumnId": 77864233,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593939,
+            "name": "PLAT2PAGE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat2page",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 77864253,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593940,
+            "name": "PLAT2PG",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat2pg",
+            "position": 59,
+            "renderTypeName": "text",
+            "tableColumnId": 77864222,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593941,
+            "name": "PRINTMAP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "printmap",
+            "position": 60,
+            "renderTypeName": "text",
+            "tableColumnId": 77864207,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593942,
+            "name": "PROPTYPE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "proptype",
+            "position": 61,
+            "renderTypeName": "text",
+            "tableColumnId": 77864251,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593943,
+            "name": "RecordsOnlineLink",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "recordsonlinelink",
+            "position": 62,
+            "renderTypeName": "text",
+            "tableColumnId": 94287703,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593944,
+            "name": "SALE1BOOK",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1book",
+            "position": 63,
+            "renderTypeName": "text",
+            "tableColumnId": 77864243,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593945,
+            "name": "SALE1CONF",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1conf",
+            "position": 64,
+            "renderTypeName": "text",
+            "tableColumnId": 77864279,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593946,
+            "name": "SALE1CONSD",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sale1consd",
+            "position": 65,
+            "renderTypeName": "number",
+            "tableColumnId": 77864235,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593947,
+            "name": "SALE1DATE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1date",
+            "position": 66,
+            "renderTypeName": "text",
+            "tableColumnId": 77864219,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593948,
+            "name": "SALE1PAGE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1page",
+            "position": 67,
+            "renderTypeName": "text",
+            "tableColumnId": 77864268,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593949,
+            "name": "SALE1TYPE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1type",
+            "position": 68,
+            "renderTypeName": "text",
+            "tableColumnId": 77864257,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593950,
+            "name": "SALE2BOOK",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2book",
+            "position": 69,
+            "renderTypeName": "text",
+            "tableColumnId": 77864242,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593951,
+            "name": "SALE2CONF",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2conf",
+            "position": 70,
+            "renderTypeName": "text",
+            "tableColumnId": 77864209,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593952,
+            "name": "SALE2CONSD",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sale2consd",
+            "position": 71,
+            "renderTypeName": "number",
+            "tableColumnId": 77864258,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593953,
+            "name": "SALE2DATE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2date",
+            "position": 72,
+            "renderTypeName": "text",
+            "tableColumnId": 77864260,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593954,
+            "name": "SALE2PAGE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2page",
+            "position": 73,
+            "renderTypeName": "text",
+            "tableColumnId": 77864254,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593955,
+            "name": "SALE2TYPE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2type",
+            "position": 74,
+            "renderTypeName": "text",
+            "tableColumnId": 77864250,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593956,
+            "name": "SALE3BOOK",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3book",
+            "position": 75,
+            "renderTypeName": "text",
+            "tableColumnId": 77864239,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593957,
+            "name": "SALE3CONF",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3conf",
+            "position": 76,
+            "renderTypeName": "text",
+            "tableColumnId": 77864226,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593958,
+            "name": "SALE3CONSD",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sale3consd",
+            "position": 77,
+            "renderTypeName": "number",
+            "tableColumnId": 77864271,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593959,
+            "name": "SALE3DATE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3date",
+            "position": 78,
+            "renderTypeName": "text",
+            "tableColumnId": 77864230,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593960,
+            "name": "SALE3PAGE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3page",
+            "position": 79,
+            "renderTypeName": "text",
+            "tableColumnId": 77864255,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593961,
+            "name": "SALE3TYPE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3type",
+            "position": 80,
+            "renderTypeName": "text",
+            "tableColumnId": 77864240,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593962,
+            "name": "SALE4BOOK",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4book",
+            "position": 81,
+            "renderTypeName": "text",
+            "tableColumnId": 77864208,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593963,
+            "name": "SALE4CONF",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4conf",
+            "position": 82,
+            "renderTypeName": "text",
+            "tableColumnId": 77864265,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593964,
+            "name": "SALE4CONSD",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4consd",
+            "position": 83,
+            "renderTypeName": "text",
+            "tableColumnId": 77864248,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593965,
+            "name": "SALE4DATE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4date",
+            "position": 84,
+            "renderTypeName": "text",
+            "tableColumnId": 77864275,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593966,
+            "name": "SALE4PAGE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4page",
+            "position": 85,
+            "renderTypeName": "text",
+            "tableColumnId": 77865594,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593967,
+            "name": "SALE4TYPE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4type",
+            "position": 86,
+            "renderTypeName": "text",
+            "tableColumnId": 77864202,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593968,
+            "name": "SORTDIST",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sortdist",
+            "position": 87,
+            "renderTypeName": "text",
+            "tableColumnId": 77864289,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593969,
+            "name": "STNAME",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stname",
+            "position": 88,
+            "renderTypeName": "text",
+            "tableColumnId": 77864259,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593970,
+            "name": "STNUM",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stnum",
+            "position": 89,
+            "renderTypeName": "text",
+            "tableColumnId": 77864241,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593971,
+            "name": "SUBDIVNAME",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "subdivname",
+            "position": 90,
+            "renderTypeName": "text",
+            "tableColumnId": 77864277,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593972,
+            "name": "TAX_MAP_NO",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tax_map_no",
+            "position": 91,
+            "renderTypeName": "text",
+            "tableColumnId": 77864206,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593973,
+            "name": "TAXRLFCODE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "taxrlfcode",
+            "position": 92,
+            "renderTypeName": "text",
+            "tableColumnId": 77864249,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593974,
+            "name": "TXBILLNUM",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "txbillnum",
+            "position": 93,
+            "renderTypeName": "text",
+            "tableColumnId": 77864280,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593975,
+            "name": "TYPESFX",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "typesfx",
+            "position": 94,
+            "renderTypeName": "text",
+            "tableColumnId": 77864210,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593976,
+            "name": "YardItemsValue",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "yarditemsvalue",
+            "position": 95,
+            "renderTypeName": "number",
+            "tableColumnId": 77864274,
+            "width": 97,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 536593977,
+            "name": "geometry_wkt",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 96,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 77864966,
+            "width": 97,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "attachments": [
+            {
+                "filename": "AssessorExtractLayout.pdf",
+                "assetId": "b5addde9-3ead-4f34-9862-21b4f32c9508",
+                "name": "AssessorExtractLayout.pdf"
+            }
+        ],
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "parcel",
+        "city",
+        "chattanooga",
+        "sale",
+        "property",
+        "properties",
+        "assessor",
+        "assessment",
+        "appraisal",
+        "building",
+        "land use"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

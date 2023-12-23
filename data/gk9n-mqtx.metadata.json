@@ -1,0 +1,177 @@
+{
+    "id": "gk9n-mqtx",
+    "name": "Fire Station Locations",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1551388827,
+    "displayType": "table",
+    "downloadCount": 145,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1572895860,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32787541,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1572895858,
+    "publicationGroup": 16002291,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1572895857,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16685649,
+    "totalTimesRated": 0,
+    "viewCount": 262,
+    "viewLastModified": 1666190545,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557322984,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1449275,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1551388901,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557322985,
+                "failureCount": 0,
+                "startedAt": 1557322984,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 436857495,
+            "name": "Name",
+            "dataTypeName": "text",
+            "description": "Fire station name",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 77412738,
+            "format": {}
+        },
+        {
+            "id": 436857496,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "Fire station description",
+            "fieldName": "description",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77412739,
+            "format": {}
+        },
+        {
+            "id": 436857493,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Longitude of fire station",
+            "fieldName": "longitude",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 77412736,
+            "format": {}
+        },
+        {
+            "id": 436857494,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Latitude of fire station",
+            "fieldName": "latitude",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 77412737,
+            "format": {}
+        },
+        {
+            "id": 436857498,
+            "name": "geom",
+            "dataTypeName": "point",
+            "description": "Location of fire station in Well Known Text format",
+            "fieldName": "geom",
+            "position": 5,
+            "renderTypeName": "point",
+            "tableColumnId": 77412741,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "socrata@chattanooga.gov",
+                "Department": "Fire",
+                "Data Steward Name": "Socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

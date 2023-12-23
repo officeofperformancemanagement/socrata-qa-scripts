@@ -1,0 +1,242 @@
+{
+    "id": "trui-8987",
+    "name": "YFD Reservations",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1562340435,
+    "description": "Reservation data for Youth and Family Development",
+    "displayType": "table",
+    "downloadCount": 96,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575352509,
+    "modifyingViewUid": "28h7-ftr9",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31870916,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1562340632,
+    "publicationGroup": 16336225,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1700086758,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16336225,
+    "totalTimesRated": 0,
+    "viewCount": 152,
+    "viewLastModified": 1666024407,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583523412,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1941167,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583523390,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583523413,
+                "failureCount": 0,
+                "startedAt": 1583523412,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 416250938,
+            "name": "Facil",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "facil",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 83708924,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 416250939,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 83708922,
+            "width": 100,
+            "format": {
+                "view": "date_monthdy_shorttime",
+                "align": "left"
+            }
+        },
+        {
+            "id": 416250940,
+            "name": "Arvl Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "arvl_date",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 83708929,
+            "width": 100,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 416250941,
+            "name": "BeginTime",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "begintime",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 83708925,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 416250942,
+            "name": "Amt Paid",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "amt_paid",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 83708926,
+            "width": 100,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "align": "left"
+            }
+        },
+        {
+            "id": 416250943,
+            "name": "Fee Paid",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "fee_paid",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 83708927,
+            "width": 100,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "align": "left"
+            }
+        },
+        {
+            "id": 416250944,
+            "name": "Total Due",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_due",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 83708923,
+            "width": 100,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Youth and Family Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "reservation yfd facility"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

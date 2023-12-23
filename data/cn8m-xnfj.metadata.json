@@ -1,0 +1,177 @@
+{
+    "id": "cn8m-xnfj",
+    "name": "Hamilton County Census Tracts - 2010",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1576255691,
+    "description": "Hamilton County tract spatial boundaries from the 2010 census",
+    "displayType": "table",
+    "downloadCount": 288,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33051691,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1576256226,
+    "publicationGroup": 16761063,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1576256225,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16761063,
+    "totalTimesRated": 0,
+    "viewCount": 104,
+    "viewLastModified": 1576256226,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1576256250,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1613705,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1576256226,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1576256251,
+                "failureCount": 0,
+                "startedAt": 1576256250,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 442635010,
+            "name": "State FIP",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 92052626,
+            "format": {}
+        },
+        {
+            "id": 442635011,
+            "name": "County FIP",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 92052627,
+            "format": {}
+        },
+        {
+            "id": 442635013,
+            "name": "Tract ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 92052629,
+            "format": {}
+        },
+        {
+            "id": 442635012,
+            "name": "geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 4,
+            "renderTypeName": "polygon",
+            "tableColumnId": 92052628,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "ODEXTRACT",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract",
+        "gis",
+        "spatial",
+        "census"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

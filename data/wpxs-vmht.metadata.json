@@ -1,0 +1,615 @@
+{
+    "id": "wpxs-vmht",
+    "name": "Ptax Property Data 5 Yr",
+    "assetType": "dataset",
+    "attribution": "Finance and Administration Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1400877654,
+    "displayType": "table",
+    "downloadCount": 385,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1479383662,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 8059775,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1401306055,
+    "publicationGroup": 1593009,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1400878842,
+    "rowsUpdatedBy": "wma2-yapv",
+    "tableId": 1593009,
+    "totalTimesRated": 0,
+    "viewCount": 6661,
+    "viewLastModified": 1433338135,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1401547996,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366659,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1401547996,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 149723841,
+            "name": "STATE_TAX_MAP",
+            "dataTypeName": "text",
+            "fieldName": "state_tax_map",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 19908264,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 149723842,
+            "name": "TAX_YEAR",
+            "dataTypeName": "number",
+            "fieldName": "tax_year",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 19908265,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 149723843,
+            "name": "BILL_NBR",
+            "dataTypeName": "number",
+            "fieldName": "bill_nbr",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 19908266,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 149723844,
+            "name": "OWNER_NAME_1",
+            "dataTypeName": "text",
+            "fieldName": "owner_name_1",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 19908267,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 149723845,
+            "name": "OWNER_NAME_2",
+            "dataTypeName": "text",
+            "fieldName": "owner_name_2",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 19908268,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 149723846,
+            "name": "OWNER_ADDRESS_1",
+            "dataTypeName": "text",
+            "fieldName": "owner_address_1",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 19908269,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723847,
+            "name": "OWNER_ADDRESS_2",
+            "dataTypeName": "text",
+            "fieldName": "owner_address_2",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 19908270,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723848,
+            "name": "PROPERTY_ADDRESS",
+            "dataTypeName": "text",
+            "fieldName": "property_address",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 19908271,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 149723849,
+            "name": "TAX_AMOUNT_DUE",
+            "dataTypeName": "number",
+            "fieldName": "tax_amount_due",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 19908272,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723850,
+            "name": "ASSESSED_TAXES",
+            "dataTypeName": "number",
+            "fieldName": "assessed_taxes",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 19908273,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723851,
+            "name": "ASSESSED_VALUE",
+            "dataTypeName": "number",
+            "fieldName": "assessed_value",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 19908274,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723852,
+            "name": "TAX_AMT_PAID",
+            "dataTypeName": "number",
+            "fieldName": "tax_amt_paid",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 19908275,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 149723853,
+            "name": "DELQ_TAX_AMT_PAID",
+            "dataTypeName": "number",
+            "fieldName": "delq_tax_amt_paid",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 19908276,
+            "width": 304,
+            "format": {}
+        },
+        {
+            "id": 149723854,
+            "name": "AMOUNT_PAID",
+            "dataTypeName": "number",
+            "fieldName": "amount_paid",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 19908277,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 149723855,
+            "name": "DATE_TAXES_PAID",
+            "dataTypeName": "calendar_date",
+            "fieldName": "date_taxes_paid",
+            "position": 15,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 19908278,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723856,
+            "name": "TAX_CHANGE",
+            "dataTypeName": "calendar_date",
+            "fieldName": "tax_change",
+            "position": 16,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 19908279,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 149723857,
+            "name": "TAX_REFUND",
+            "dataTypeName": "number",
+            "fieldName": "tax_refund",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 19908280,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 149723858,
+            "name": "PENALTY_AMT_PAID",
+            "dataTypeName": "number",
+            "fieldName": "penalty_amt_paid",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 19908281,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 149723859,
+            "name": "PENALTY_REFUND",
+            "dataTypeName": "number",
+            "fieldName": "penalty_refund",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 19908282,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723860,
+            "name": "OVERPAYMENT_AMT_PAID",
+            "dataTypeName": "number",
+            "fieldName": "overpayment_amt_paid",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 19908283,
+            "width": 340,
+            "format": {}
+        },
+        {
+            "id": 149723861,
+            "name": "OVERPAYMENT_REFUND",
+            "dataTypeName": "number",
+            "fieldName": "overpayment_refund",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 19908284,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 149723862,
+            "name": "DISCOUNT_AMT_CREDITED",
+            "dataTypeName": "number",
+            "fieldName": "discount_amt_credited",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 19908285,
+            "width": 352,
+            "format": {}
+        },
+        {
+            "id": 149723863,
+            "name": "DISCOUNT_REFUND",
+            "dataTypeName": "number",
+            "fieldName": "discount_refund",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 19908286,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723864,
+            "name": "COMM_FEE_REFUND",
+            "dataTypeName": "number",
+            "fieldName": "comm_fee_refund",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 19908287,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723865,
+            "name": "COMMISSION_FEE",
+            "dataTypeName": "number",
+            "fieldName": "commission_fee",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 19908288,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723866,
+            "name": "DELQ_COMMISSION_FEE_PAID",
+            "dataTypeName": "number",
+            "fieldName": "delq_commission_fee_paid",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 19908289,
+            "width": 388,
+            "format": {}
+        },
+        {
+            "id": 149723867,
+            "name": "INTEREST_PENALTY",
+            "dataTypeName": "number",
+            "fieldName": "interest_penalty",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 19908290,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 149723868,
+            "name": "DELQ_PENALTY_AMT_PAID",
+            "dataTypeName": "number",
+            "fieldName": "delq_penalty_amt_paid",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 19908291,
+            "width": 352,
+            "format": {}
+        },
+        {
+            "id": 149723869,
+            "name": "COURT_COST",
+            "dataTypeName": "number",
+            "fieldName": "court_cost",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 19908292,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 149723870,
+            "name": "COURT_COST_PAID",
+            "dataTypeName": "number",
+            "fieldName": "court_cost_paid",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 19908293,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723871,
+            "name": "ACV_CREDITED",
+            "dataTypeName": "number",
+            "fieldName": "acv_credited",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 19908294,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 149723872,
+            "name": "TAXES_DUE_AT_ROLLOVER",
+            "dataTypeName": "number",
+            "fieldName": "taxes_due_at_rollover",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 19908295,
+            "width": 352,
+            "format": {}
+        },
+        {
+            "id": 149723873,
+            "name": "MTG_CPNY_CODE",
+            "dataTypeName": "text",
+            "fieldName": "mtg_cpny_code",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 19908296,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 149723874,
+            "name": "WQ_FEE_ASSESSED",
+            "dataTypeName": "number",
+            "fieldName": "wq_fee_assessed",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 19908297,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723875,
+            "name": "WQ_INTEREST_COMPOUNDED",
+            "dataTypeName": "number",
+            "fieldName": "wq_interest_compounded",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 19908298,
+            "width": 364,
+            "format": {}
+        },
+        {
+            "id": 149723876,
+            "name": "WQ_FEE_TOTAL_PAID",
+            "dataTypeName": "number",
+            "fieldName": "wq_fee_total_paid",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 19908299,
+            "width": 304,
+            "format": {}
+        },
+        {
+            "id": 149723877,
+            "name": "WQ_INT_TOTAL_PAID",
+            "dataTypeName": "number",
+            "fieldName": "wq_int_total_paid",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 19908300,
+            "width": 304,
+            "format": {}
+        },
+        {
+            "id": 149723878,
+            "name": "WQ_BALANCE_DUE",
+            "dataTypeName": "number",
+            "fieldName": "wq_balance_due",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 19908301,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723879,
+            "name": "WQ_FEE_TOTAL_REFUND",
+            "dataTypeName": "number",
+            "fieldName": "wq_fee_total_refund",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 19908302,
+            "width": 328,
+            "format": {}
+        },
+        {
+            "id": 149723880,
+            "name": "WQ_INT_TOTAL_REFUND",
+            "dataTypeName": "number",
+            "fieldName": "wq_int_total_refund",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 19908303,
+            "width": 328,
+            "format": {}
+        },
+        {
+            "id": 149723881,
+            "name": "BANKRUPTCY_IND",
+            "dataTypeName": "number",
+            "fieldName": "bankruptcy_ind",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 19908304,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723882,
+            "name": "DELINQUENT_IND",
+            "dataTypeName": "number",
+            "fieldName": "delinquent_ind",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 19908305,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 149723883,
+            "name": "TYPE_OF_TAX_IND",
+            "dataTypeName": "number",
+            "fieldName": "type_of_tax_ind",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 19908306,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 149723884,
+            "name": "CREATE_DATE",
+            "dataTypeName": "calendar_date",
+            "fieldName": "create_date",
+            "position": 44,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 19908307,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 149723885,
+            "name": "MAINT_DATE",
+            "dataTypeName": "calendar_date",
+            "fieldName": "maint_date",
+            "position": 45,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 19908308,
+            "width": 220,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            }
+        },
+        "rowIdentifier": "0"
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "property tax"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

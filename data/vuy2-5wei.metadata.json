@@ -1,0 +1,190 @@
+{
+    "id": "vuy2-5wei",
+    "name": "Places of Worship",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1597255476,
+    "description": "Place of Worship category types from SafeGraph and Google POI data.",
+    "displayType": "table",
+    "downloadCount": 52,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "8fb4-nix5",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34927488,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1597255637,
+    "publicationGroup": 17114788,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1589401052,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17114788,
+    "totalTimesRated": 0,
+    "viewCount": 17,
+    "viewLastModified": 1666025602,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1597255675,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2553253,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1597255637,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1597255675,
+                "failureCount": 0,
+                "startedAt": 1597255675,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 487583701,
+            "name": "id",
+            "dataTypeName": "text",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 101412409,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 487583703,
+            "name": "name",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 101412405,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 487583704,
+            "name": "address",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 101412406,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 487583706,
+            "name": "category",
+            "dataTypeName": "text",
+            "fieldName": "category",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 101412407,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 487583708,
+            "name": "geometry",
+            "dataTypeName": "point",
+            "fieldName": "geometry",
+            "position": 5,
+            "renderTypeName": "point",
+            "tableColumnId": 101412408,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

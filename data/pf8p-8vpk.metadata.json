@@ -1,0 +1,183 @@
+{
+    "id": "pf8p-8vpk",
+    "name": "Reference Map",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1557338295,
+    "description": "Reference map",
+    "displayType": "table",
+    "downloadCount": 104,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562357138,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31454001,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557338390,
+    "publicationGroup": 16183681,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557338390,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16183681,
+    "totalTimesRated": 0,
+    "viewCount": 125,
+    "viewLastModified": 1562357129,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557338412,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 537935,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557338391,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557338412,
+                "failureCount": 0,
+                "startedAt": 1557338412,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407650279,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80633706,
+            "format": {}
+        },
+        {
+            "id": 407650282,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80633709,
+            "format": {}
+        },
+        {
+            "id": 407650278,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80633705,
+            "format": {}
+        },
+        {
+            "id": 407650280,
+            "name": "highlighted",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "highlighted",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 80633707,
+            "format": {}
+        },
+        {
+            "id": 407650281,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 5,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80633708,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

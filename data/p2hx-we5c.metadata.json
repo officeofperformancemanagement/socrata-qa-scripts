@@ -1,0 +1,443 @@
+{
+    "id": "p2hx-we5c",
+    "name": "Fire Risk Score - 2019 Fires",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1600803858,
+    "description": "Fire risk score. Data from 2017 and 2018 combined with parcel data give a fire risk score to non residential addresses in Chattanooga. The fire indicator column shows whether or not a fire actually occurred at this address in 2019.",
+    "displayType": "table",
+    "downloadCount": 74,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35456760,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1602254865,
+    "publicationGroup": 17584588,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1602255060,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17648847,
+    "totalTimesRated": 0,
+    "viewCount": 105,
+    "viewLastModified": 1666192797,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1609878292,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3094741,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1609877810,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1609878292,
+                "failureCount": 0,
+                "startedAt": 1609878292,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 501011711,
+            "name": "ADDRESS",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 116490610,
+            "format": {}
+        },
+        {
+            "id": 501011712,
+            "name": "Fire Indicator 2019",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fire_indicator_2019",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 116490622,
+            "format": {}
+        },
+        {
+            "id": 501011713,
+            "name": "Code743Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "code743count",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 116490611,
+            "format": {}
+        },
+        {
+            "id": 501011714,
+            "name": "Code745Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "code745count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 116490612,
+            "format": {}
+        },
+        {
+            "id": 501011715,
+            "name": "Code651Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "code651count",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 116490613,
+            "format": {}
+        },
+        {
+            "id": 501011716,
+            "name": "Code522Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "code522count",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 116490614,
+            "format": {}
+        },
+        {
+            "id": 501011717,
+            "name": "Code531Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "code531count",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 116490615,
+            "format": {}
+        },
+        {
+            "id": 501011718,
+            "name": "Code412Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "code412count",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 116490616,
+            "format": {}
+        },
+        {
+            "id": 501011719,
+            "name": "LANDVALUE",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "landvalue",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 116490617,
+            "format": {}
+        },
+        {
+            "id": 501011720,
+            "name": "CALCACRES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "calcacres",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 116490618,
+            "format": {}
+        },
+        {
+            "id": 501011721,
+            "name": "CURRENTUSE",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "currentuse",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 116490619,
+            "format": {}
+        },
+        {
+            "id": 501011722,
+            "name": "Fire Risk Index",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "fire_risk_index",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 116490621,
+            "format": {
+                "precision": "3"
+            }
+        },
+        {
+            "id": 501011723,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 13,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 116490620,
+            "format": {}
+        },
+        {
+            "id": 501011724,
+            "name": "Fire Risk Cat",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fire_risk_cat",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 116601121,
+            "format": {}
+        },
+        {
+            "id": 501011725,
+            "name": "Most Recent Insp",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "most_recent_insp",
+            "position": 15,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 116822647,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 501011726,
+            "name": "Years Since Last Inspection",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "years_since_last_inspection",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 116823209,
+            "format": {}
+        },
+        {
+            "id": 501011727,
+            "name": "Building Age",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "building_age",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 118225914,
+            "format": {}
+        },
+        {
+            "id": 501011728,
+            "name": "Stories",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "stories",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 118225904,
+            "format": {}
+        },
+        {
+            "id": 501011729,
+            "name": "Year Built",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "year_built",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 118225913,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 501011733,
+            "name": "Hyd Dist",
+            "dataTypeName": "number",
+            "description": "Distance to nearest hydrant in feet",
+            "fieldName": "hyd_dist",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 118547884,
+            "format": {}
+        },
+        {
+            "id": 501011732,
+            "name": "Hyd Address",
+            "dataTypeName": "text",
+            "description": "Nearest hydrant address",
+            "fieldName": "hyd_address",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 118547883,
+            "format": {}
+        },
+        {
+            "id": 501011730,
+            "name": "Hyd Desc",
+            "dataTypeName": "text",
+            "description": "Nearest hydrant description",
+            "fieldName": "hyd_desc",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 118547881,
+            "format": {}
+        },
+        {
+            "id": 501011731,
+            "name": "Hyd id",
+            "dataTypeName": "text",
+            "description": "Nearest hydrant id",
+            "fieldName": "hyd_id",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 118547882,
+            "format": {}
+        },
+        {
+            "id": 501011734,
+            "name": "Hyd Location",
+            "dataTypeName": "point",
+            "description": "Nearest hydrant WKT location",
+            "fieldName": "hyd_location",
+            "position": 24,
+            "renderTypeName": "point",
+            "tableColumnId": 118547885,
+            "format": {}
+        },
+        {
+            "id": 501011735,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'hyd_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 118547886,
+            "computationStrategy": {
+                "source_columns": [
+                    "hyd_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 501011736,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'hyd_location' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 118547887,
+            "computationStrategy": {
+                "source_columns": [
+                    "hyd_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Fire",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "fire"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

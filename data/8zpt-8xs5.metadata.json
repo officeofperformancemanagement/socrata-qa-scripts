@@ -1,0 +1,194 @@
+{
+    "id": "8zpt-8xs5",
+    "name": "TDH Vaccine County Age Groups Census Aggregated 85+",
+    "assetType": "dataset",
+    "attribution": "TN Department of Health",
+    "attributionLink": "https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1618498916,
+    "description": "This data contains the same information as TDH Vaccine County Age Groups Census (https://www.chattadata.org/dataset/TDH-Vaccine-County-Age-Groups-Census/4giv-dvmp/), but 85+ categories have been aggregated to match census age groups.\n\nVaccine County Age Group Census file from TDH website: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "displayType": "table",
+    "downloadCount": 67,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37011185,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1618506337,
+    "publicationGroup": 18226105,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 536436752,
+    "rowsUpdatedAt": 1703215955,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18226172,
+    "totalTimesRated": 0,
+    "viewCount": 76,
+    "viewLastModified": 1703215604,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1618506158,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3526151,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1618506043,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1618506158,
+                "failureCount": 0,
+                "startedAt": 1618506158,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 536436748,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "Date of vaccine",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 135693846,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 536436749,
+            "name": "PATIENT_COUNTY",
+            "dataTypeName": "text",
+            "description": "County of vaccine recpient",
+            "fieldName": "patient_county",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 135693849,
+            "format": {}
+        },
+        {
+            "id": 536436750,
+            "name": "AGE_GROUP_CENSUS",
+            "dataTypeName": "text",
+            "description": "Age group of vaccine recipient",
+            "fieldName": "age_group_census",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 135693845,
+            "format": {}
+        },
+        {
+            "id": 536436751,
+            "name": "RECIPIENT_COUNT",
+            "dataTypeName": "number",
+            "description": "Count of vaccines for the given date, county, and age group",
+            "fieldName": "recipient_count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 135693848,
+            "format": {}
+        },
+        {
+            "id": 536436752,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 135693847,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 536436752,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid",
+        "tdh",
+        "vaccine"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,211 @@
+{
+    "id": "jjgr-pgwd",
+    "name": "CARTA GTFS stops",
+    "assetType": "dataset",
+    "attribution": "CARTA",
+    "attributionLink": "https://www.gocarta.org/about/developers-center/",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1614794103,
+    "description": "Stops data from the CARTA GTFS file. Source file can be found on the CARTA website here https://www.gocarta.org/about/developers-center/",
+    "displayType": "table",
+    "downloadCount": 102,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36599278,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1614794327,
+    "publicationGroup": 18101890,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1614794322,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18101890,
+    "totalTimesRated": 0,
+    "viewCount": 168,
+    "viewLastModified": 1666024374,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1614794356,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3318705,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1614794328,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1614794356,
+                "failureCount": 0,
+                "startedAt": 1614794356,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 527688951,
+            "name": "stop_id",
+            "dataTypeName": "number",
+            "description": "Stop id",
+            "fieldName": "stop_id",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 132025501,
+            "format": {}
+        },
+        {
+            "id": 527688950,
+            "name": "stop_name",
+            "dataTypeName": "text",
+            "description": "Stop name",
+            "fieldName": "stop_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 132025500,
+            "format": {}
+        },
+        {
+            "id": 527688949,
+            "name": "geometry",
+            "dataTypeName": "point",
+            "description": "Stop geometry in wkt format",
+            "fieldName": "geometry",
+            "position": 3,
+            "renderTypeName": "point",
+            "tableColumnId": 132025499,
+            "format": {}
+        },
+        {
+            "id": 527688952,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 132025502,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 527688953,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 132025503,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Stop",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "carta",
+        "gtfs",
+        "stops"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

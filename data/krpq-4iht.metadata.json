@@ -1,0 +1,1029 @@
+{
+    "id": "krpq-4iht",
+    "name": "Hamilton County Property Appraisal Information",
+    "assetType": "dataset",
+    "attribution": "Hamilton County Assessor of Property",
+    "attributionLink": "http://www.hamiltontn.gov/assessor/AssessorFileDownload.aspx",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1407869773,
+    "description": "Property appraisal information for Hamilton County.",
+    "displayType": "table",
+    "downloadCount": 372,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1549054112,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 2,
+    "oid": 30426029,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1545408652,
+    "publicationGroup": 1681633,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1554313787,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 15800083,
+    "totalTimesRated": 0,
+    "viewCount": 5712,
+    "viewLastModified": 1554313565,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1545408652,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367111,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1545408652,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "b77b-kr9r",
+                "displayName": "Sean Brewer"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 388814860,
+            "name": "GISLink",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "gislink",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 21367146,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 388814861,
+            "name": "OwnerName1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ownername1",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 21367147,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814862,
+            "name": "OwnerName2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ownername2",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 21367148,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814863,
+            "name": "OwnerName3",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ownername3",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 21367149,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814864,
+            "name": "PropStNum",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "propstnum",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 74772509,
+            "format": {}
+        },
+        {
+            "id": 388814865,
+            "name": "PropDirPfx",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "propdirpfx",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 21367151,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814866,
+            "name": "PropStName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "propstname",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 21367152,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814867,
+            "name": "PropSfx",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "propsfx",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 21367153,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 388814868,
+            "name": "PropAddrUnit",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "propaddrunit",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 21367154,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 388814869,
+            "name": "Map",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "map",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 21367155,
+            "width": 136,
+            "format": {}
+        },
+        {
+            "id": 388814870,
+            "name": "Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "group",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 21367156,
+            "width": 160,
+            "format": {}
+        },
+        {
+            "id": 388814871,
+            "name": "Parcel",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "parcel",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 74772476,
+            "format": {}
+        },
+        {
+            "id": 388814872,
+            "name": "TaxMapNumber",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "taxmapnumber",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 21367158,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 388814873,
+            "name": "MailStNum",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailstnum",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 21367159,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814874,
+            "name": "MailStDirPfx",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailstdirpfx",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 21367160,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 388814875,
+            "name": "MailStName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailstname",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 21367161,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814876,
+            "name": "MailTypeSfx",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailtypesfx",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 21367162,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 388814877,
+            "name": "MailUnit",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailunit",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 21367163,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 388814878,
+            "name": "MailAddrLine2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailaddrline2",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 21367164,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 388814879,
+            "name": "MailCity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailcity",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 21367165,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 388814880,
+            "name": "MailState",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailstate",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 74770778,
+            "format": {}
+        },
+        {
+            "id": 388814881,
+            "name": "MailZip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mailzip",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 74772065,
+            "format": {}
+        },
+        {
+            "id": 388814882,
+            "name": "LegalDesc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "legaldesc",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 74770779,
+            "format": {}
+        },
+        {
+            "id": 388814883,
+            "name": "LotDim1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lotdim1",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 21367175,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 388814884,
+            "name": "LotDim2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lotdim2",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 21367176,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 388814885,
+            "name": "CalcAcres",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "calcacres",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 74772443,
+            "format": {}
+        },
+        {
+            "id": 388814886,
+            "name": "MapAcres",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "mapacres",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 74772449,
+            "format": {}
+        },
+        {
+            "id": 388814887,
+            "name": "DeedAcres",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "deedacres",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 74772451,
+            "format": {}
+        },
+        {
+            "id": 388814888,
+            "name": "LUCode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lucode",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 74772488,
+            "format": {}
+        },
+        {
+            "id": 388814889,
+            "name": "NeighborhoodCode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "neighborhoodcode",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 21367181,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 388814939,
+            "name": "LandValue",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "landvalue",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 74773039,
+            "format": {}
+        },
+        {
+            "id": 388814938,
+            "name": "BuildingValue",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "buildingvalue",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 74773038,
+            "format": {}
+        },
+        {
+            "id": 388814941,
+            "name": "AppraisedValue",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "appraisedvalue",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 74773041,
+            "format": {}
+        },
+        {
+            "id": 388814940,
+            "name": "AssessedValue",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "assessedvalue",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 74773040,
+            "format": {}
+        },
+        {
+            "id": 388814894,
+            "name": "District",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 74772432,
+            "format": {}
+        },
+        {
+            "id": 388814895,
+            "name": "ControlMap",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "controlmap",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 21367187,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814896,
+            "name": "Zoning",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zoning",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 21367188,
+            "width": 172,
+            "format": {}
+        },
+        {
+            "id": 388814897,
+            "name": "PropType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "proptype",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 74772454,
+            "format": {}
+        },
+        {
+            "id": 388814898,
+            "name": "ExemptCode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "exemptcode",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 21367191,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 388814899,
+            "name": "Plat1Book",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1book",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 74772515,
+            "format": {}
+        },
+        {
+            "id": 388814900,
+            "name": "Plat1Page",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1page",
+            "position": 41,
+            "renderTypeName": "text",
+            "tableColumnId": 74772520,
+            "format": {}
+        },
+        {
+            "id": 388814901,
+            "name": "Plat1PG",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1pg",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 21367194,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 388814902,
+            "name": "Plat1Lot",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat1lot",
+            "position": 43,
+            "renderTypeName": "text",
+            "tableColumnId": 21367195,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 388814903,
+            "name": "Plat2Book",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat2book",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 21367196,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814904,
+            "name": "Plat2PG",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat2pg",
+            "position": 45,
+            "renderTypeName": "text",
+            "tableColumnId": 21367198,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 388814905,
+            "name": "Plat2Lot",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "plat2lot",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 21367199,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 388814906,
+            "name": "Sale1Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1year",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 74772518,
+            "format": {}
+        },
+        {
+            "id": 388814907,
+            "name": "Sale1Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1month",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 74772441,
+            "format": {}
+        },
+        {
+            "id": 388814908,
+            "name": "Sale1Day",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1day",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 74772467,
+            "format": {}
+        },
+        {
+            "id": 388814909,
+            "name": "Sale1Book",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1book",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 74772446,
+            "format": {}
+        },
+        {
+            "id": 388814910,
+            "name": "Sale1Page",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1page",
+            "position": 51,
+            "renderTypeName": "text",
+            "tableColumnId": 74772458,
+            "format": {}
+        },
+        {
+            "id": 388814911,
+            "name": "Sale1Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1type",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 21367212,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814912,
+            "name": "Sale1Conf",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale1conf",
+            "position": 53,
+            "renderTypeName": "text",
+            "tableColumnId": 21367214,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814913,
+            "name": "Sale2Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2year",
+            "position": 54,
+            "renderTypeName": "text",
+            "tableColumnId": 74772438,
+            "format": {}
+        },
+        {
+            "id": 388814914,
+            "name": "Sale2Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2month",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 74772464,
+            "format": {}
+        },
+        {
+            "id": 388814915,
+            "name": "Sale2Day",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2day",
+            "position": 56,
+            "renderTypeName": "text",
+            "tableColumnId": 74772479,
+            "format": {}
+        },
+        {
+            "id": 388814916,
+            "name": "Sale2Book",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2book",
+            "position": 57,
+            "renderTypeName": "text",
+            "tableColumnId": 74772491,
+            "format": {}
+        },
+        {
+            "id": 388814917,
+            "name": "Sale2Page",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2page",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 74772499,
+            "format": {}
+        },
+        {
+            "id": 388814918,
+            "name": "Sale2Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2type",
+            "position": 59,
+            "renderTypeName": "text",
+            "tableColumnId": 21367224,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814919,
+            "name": "Sale2Conf",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale2conf",
+            "position": 60,
+            "renderTypeName": "text",
+            "tableColumnId": 21367225,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814920,
+            "name": "Sale3Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3year",
+            "position": 61,
+            "renderTypeName": "text",
+            "tableColumnId": 74772512,
+            "format": {}
+        },
+        {
+            "id": 388814921,
+            "name": "Sale3Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3month",
+            "position": 62,
+            "renderTypeName": "text",
+            "tableColumnId": 74772496,
+            "format": {}
+        },
+        {
+            "id": 388814922,
+            "name": "Sale3Day",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3day",
+            "position": 63,
+            "renderTypeName": "text",
+            "tableColumnId": 74772493,
+            "format": {}
+        },
+        {
+            "id": 388814923,
+            "name": "Sale3Book",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3book",
+            "position": 64,
+            "renderTypeName": "text",
+            "tableColumnId": 74772473,
+            "format": {}
+        },
+        {
+            "id": 388814924,
+            "name": "Sale3Page",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3page",
+            "position": 65,
+            "renderTypeName": "text",
+            "tableColumnId": 74772456,
+            "format": {}
+        },
+        {
+            "id": 388814925,
+            "name": "Sale3Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3type",
+            "position": 66,
+            "renderTypeName": "text",
+            "tableColumnId": 21367237,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814926,
+            "name": "Sale3Conf",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale3conf",
+            "position": 67,
+            "renderTypeName": "text",
+            "tableColumnId": 21367238,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814927,
+            "name": "Sale4Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4year",
+            "position": 68,
+            "renderTypeName": "text",
+            "tableColumnId": 74772461,
+            "format": {}
+        },
+        {
+            "id": 388814928,
+            "name": "Sale4Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4month",
+            "position": 69,
+            "renderTypeName": "text",
+            "tableColumnId": 74772506,
+            "format": {}
+        },
+        {
+            "id": 388814929,
+            "name": "Sale4Day",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4day",
+            "position": 70,
+            "renderTypeName": "text",
+            "tableColumnId": 74772482,
+            "format": {}
+        },
+        {
+            "id": 388814930,
+            "name": "Sale4Book",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4book",
+            "position": 71,
+            "renderTypeName": "text",
+            "tableColumnId": 74772470,
+            "format": {}
+        },
+        {
+            "id": 388814931,
+            "name": "Sale4Page",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4page",
+            "position": 72,
+            "renderTypeName": "text",
+            "tableColumnId": 74772485,
+            "format": {}
+        },
+        {
+            "id": 388814932,
+            "name": "Sale4Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4type",
+            "position": 73,
+            "renderTypeName": "text",
+            "tableColumnId": 21367245,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814933,
+            "name": "Sale4Conf",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sale4conf",
+            "position": 74,
+            "renderTypeName": "text",
+            "tableColumnId": 21367246,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 388814934,
+            "name": "Subdivision",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "subdivision",
+            "position": 75,
+            "renderTypeName": "text",
+            "tableColumnId": 21367248,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 388814935,
+            "name": "SortDist",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sortdist",
+            "position": 76,
+            "renderTypeName": "text",
+            "tableColumnId": 21367249,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 388814936,
+            "name": "ReferenceNum",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "referencenum",
+            "position": 77,
+            "renderTypeName": "text",
+            "tableColumnId": 74772429,
+            "format": {}
+        },
+        {
+            "id": 388814937,
+            "name": "CurrentUse",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "currentuse",
+            "position": 78,
+            "renderTypeName": "text",
+            "tableColumnId": 74771128,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "attachments": [
+            {
+                "filename": "AssessorExtractLayout.pdf",
+                "assetId": "CtD9-L-hPruihDB81ALHJTaOgrw3AqAQkLEJdnpkj5w",
+                "name": "AssessorExtractLayout.pdf"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            }
+        },
+        "rowLabel": "Hamilton County Parcel Record",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "b77b-kr9r",
+        "displayName": "Sean Brewer",
+        "screenName": "Sean Brewer",
+        "type": "interactive"
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "b77b-kr9r",
+        "displayName": "Sean Brewer",
+        "screenName": "Sean Brewer",
+        "type": "interactive"
+    },
+    "tags": [
+        "property",
+        "appraisal",
+        "hamilton"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,283 @@
+{
+    "id": "an5k-bh4m",
+    "name": "Bias Incidents",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1571766573,
+    "displayType": "table",
+    "downloadCount": 76,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575302109,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32686873,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1571766666,
+    "publicationGroup": 16653453,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1616071233,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16653453,
+    "totalTimesRated": 0,
+    "viewCount": 163,
+    "viewLastModified": 1616071224,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1582579301,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1899683,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1582579276,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1582579302,
+                "failureCount": 0,
+                "startedAt": 1582579301,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 434589900,
+            "name": "Date_Incident",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_incident",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 89628215,
+            "format": {}
+        },
+        {
+            "id": 434589902,
+            "name": "Jurisdiction",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "jurisdiction",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 89628217,
+            "format": {}
+        },
+        {
+            "id": 434589903,
+            "name": "Incident_Tract",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "incident_tract",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 89628218,
+            "format": {}
+        },
+        {
+            "id": 434589904,
+            "name": "Zone",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zone",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 89628219,
+            "format": {}
+        },
+        {
+            "id": 434589905,
+            "name": "UCR_Incident_Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ucr_incident_code",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 89628220,
+            "format": {}
+        },
+        {
+            "id": 434589907,
+            "name": "Incident_Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "incident_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 89628222,
+            "format": {}
+        },
+        {
+            "id": 434589909,
+            "name": "Case_Status_Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "case_status_description",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 89628224,
+            "format": {}
+        },
+        {
+            "id": 434589910,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 89628225,
+            "format": {}
+        },
+        {
+            "id": 434589911,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 89628226,
+            "format": {}
+        },
+        {
+            "id": 434589912,
+            "name": "Location",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location",
+            "position": 17,
+            "renderTypeName": "point",
+            "tableColumnId": 89628227,
+            "format": {}
+        },
+        {
+            "id": 434589913,
+            "name": "citydst",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citydst",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 89628228,
+            "format": {}
+        },
+        {
+            "id": 434589917,
+            "name": "Overall Bias Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "overall_bias_type",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 89628232,
+            "format": {}
+        },
+        {
+            "id": 434589919,
+            "name": "Specific Bias",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "specific_bias",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 89628234,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "columnFieldName": "date_incident",
+                    "ascending": true
+                }
+            ]
+        },
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "ODEXTRACT",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 434589900,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

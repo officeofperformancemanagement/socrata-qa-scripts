@@ -1,0 +1,273 @@
+{
+    "id": "vcwc-f3gy",
+    "name": "Census Response Rate by Tract",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1592914419,
+    "description": "Response rate for the 2020 decennial census broken down by Tract for Hamilton County.",
+    "displayType": "table",
+    "downloadCount": 316,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34492311,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1592914597,
+    "publicationGroup": 17260315,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 476576364,
+    "rowsUpdatedAt": 1612440060,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17260315,
+    "totalTimesRated": 0,
+    "viewCount": 113,
+    "viewLastModified": 1612439591,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1592914652,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2352344,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1592914597,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1592914653,
+                "failureCount": 0,
+                "startedAt": 1592914652,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 476576376,
+            "name": "State FIPS Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fips_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 106110297,
+            "format": {}
+        },
+        {
+            "id": 476576365,
+            "name": "GEO_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geo_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 106110286,
+            "format": {}
+        },
+        {
+            "id": 476576366,
+            "name": "Place Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "place_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 106110287,
+            "format": {}
+        },
+        {
+            "id": 476576367,
+            "name": "Cumulative Response Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cumulative_response_rate",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 106110288,
+            "format": {}
+        },
+        {
+            "id": 476576368,
+            "name": "Daily Response Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "daily_response_rate",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 106110289,
+            "format": {}
+        },
+        {
+            "id": 476576369,
+            "name": "Cumulative Internet Response Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cumulative_internet_response",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 106110290,
+            "format": {}
+        },
+        {
+            "id": 476576370,
+            "name": "Daily Internet Response Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "daily_internet_response_rate",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 106110291,
+            "format": {}
+        },
+        {
+            "id": 476576371,
+            "name": "Response Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "response_date",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 106110292,
+            "format": {}
+        },
+        {
+            "id": 476576364,
+            "name": "UniqueID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "uniqueid",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 106110285,
+            "format": {}
+        },
+        {
+            "id": 476576375,
+            "name": "Most Recent Date Indicator",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "most_recent_date_indicator",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 106110296,
+            "format": {}
+        },
+        {
+            "id": 476576373,
+            "name": "County Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_code",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 106110294,
+            "format": {}
+        },
+        {
+            "id": 476576374,
+            "name": "Tract",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 106110295,
+            "format": {}
+        },
+        {
+            "id": 476576372,
+            "name": "_geom",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "_geom",
+            "position": 13,
+            "renderTypeName": "polygon",
+            "tableColumnId": 106110293,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "odextract@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 476576364,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census",
+        "response",
+        "response rate",
+        "tract"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

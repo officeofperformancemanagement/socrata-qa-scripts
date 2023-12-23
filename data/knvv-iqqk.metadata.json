@@ -1,0 +1,237 @@
+{
+    "id": "knvv-iqqk",
+    "name": "First 100 Days Tracker",
+    "assetType": "filter",
+    "attribution": "Mayor's Office",
+    "averageRating": 0,
+    "createdAt": 1623870814,
+    "displayType": "table",
+    "downloadCount": 49,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "PUBLIC_DOMAIN",
+    "modifyingViewUid": "s4b7-pfjh",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37489290,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1627488013,
+    "publicationGroup": 18236949,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1653330925,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18396957,
+    "totalTimesRated": 0,
+    "viewCount": 30,
+    "viewLastModified": 1627488013,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1627400280,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3867000,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1627305750,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1627400280,
+                "failureCount": 0,
+                "startedAt": 1627400280,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 545631889,
+            "name": "ID",
+            "dataTypeName": "text",
+            "description": "Row id",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 137956736,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545631890,
+            "name": "Priority Area",
+            "dataTypeName": "text",
+            "description": "Item priority area",
+            "fieldName": "priority_area",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 136017852,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545631891,
+            "name": "Action Item",
+            "dataTypeName": "text",
+            "description": "Action item description",
+            "fieldName": "action_item",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 136017851,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545631892,
+            "name": "Actions Taken",
+            "dataTypeName": "text",
+            "description": "Action taken towards completion",
+            "fieldName": "actions_taken",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 136017850,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545631894,
+            "name": "Status",
+            "dataTypeName": "text",
+            "description": "Status of action",
+            "fieldName": "status",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 136017848,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545631898,
+            "name": "Project Folder",
+            "dataTypeName": "url",
+            "description": "Link to project folder",
+            "fieldName": "project_folder",
+            "position": 10,
+            "renderTypeName": "url",
+            "tableColumnId": 137956735,
+            "width": 100,
+            "format": {
+                "align": "left"
+            },
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 545631900,
+            "name": "Action Item Budget Dependent",
+            "dataTypeName": "text",
+            "description": "If Marked as True, action item is budget dependent. ",
+            "fieldName": "action_item_budget_dependent",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 138905291,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "tmoreland@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Tim Moreland",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,180 @@
+{
+    "id": "uuky-tt6g",
+    "name": "Jams by Month",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1559324180,
+    "displayType": "table",
+    "downloadCount": 151,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "SEE_TERMS_OF_USE",
+    "modifyingViewUid": "tt32-2xqr",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33215074,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1559324564,
+    "publicationGroup": 16153179,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703277331,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16819167,
+    "totalTimesRated": 0,
+    "viewCount": 203,
+    "viewLastModified": 1562357240,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561121701,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1711870,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561121659,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561121701,
+                "failureCount": 0,
+                "startedAt": 1561121701,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 445870916,
+            "name": "DateTime",
+            "dataTypeName": "calendar_date",
+            "description": "Publication date",
+            "fieldName": "report_month",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 80016353,
+            "width": 100,
+            "format": {
+                "view": "date_time",
+                "align": "left",
+                "group_function": "date_ym"
+            }
+        },
+        {
+            "id": 445870915,
+            "name": "pubMillis",
+            "dataTypeName": "number",
+            "description": "Publication date UTC+00:00 (Unix time – milliseconds since epoch)",
+            "fieldName": "jamcount",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 80016352,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 445870925,
+            "name": "delay",
+            "dataTypeName": "number",
+            "description": "Delay of jam compared to free flow speed, in seconds (in case of block, -1)",
+            "fieldName": "secondsdelay",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 80016359,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "precision": "2",
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "See Terms of Use"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "socrata@chattanooga.gov",
+                "Department": "Transportation",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

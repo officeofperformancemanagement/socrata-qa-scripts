@@ -1,0 +1,201 @@
+{
+    "id": "x796-g6sv",
+    "name": "Percent receiving food stamps or SNAP - 2017",
+    "assetType": "filter",
+    "attribution": "ACS",
+    "averageRating": 0,
+    "createdAt": 1562598940,
+    "description": "Percent of households receiving food stamps or SNAP in 2017. Data from ACS.",
+    "displayType": "table",
+    "downloadCount": 113,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562599097,
+    "modifyingViewUid": "y9zj-8y2g",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31889543,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1562599058,
+    "publicationGroup": 16344012,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1562598895,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16344012,
+    "totalTimesRated": 0,
+    "viewCount": 159,
+    "viewLastModified": 1562599093,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562599074,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 872048,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562599058,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562599074,
+                "failureCount": 0,
+                "startedAt": 1562599074,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 416609984,
+            "name": "Percent households receiving food stamps or SNAP",
+            "dataTypeName": "number",
+            "fieldName": "percent_households_receiving",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 83861922,
+            "width": 100,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 416609985,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "fieldName": "state_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 83861921,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 416609986,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "fieldName": "county_fip",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 83861923,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 416609987,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "fieldName": "tract_id",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 83861924,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 416609988,
+            "name": "geometry",
+            "dataTypeName": "polygon",
+            "fieldName": "geometry",
+            "position": 5,
+            "renderTypeName": "polygon",
+            "tableColumnId": 83861920,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "snap",
+        "food stamps",
+        "acs",
+        "poverty"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

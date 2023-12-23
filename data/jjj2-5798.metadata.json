@@ -1,0 +1,242 @@
+{
+    "id": "jjj2-5798",
+    "name": "Chattanooga: BFO Data",
+    "assetType": "dataset",
+    "attribution": "Finance and Administration Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1432647163,
+    "description": "for budget.chattanooga.com",
+    "displayType": "table",
+    "downloadCount": 770,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34561310,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1593614187,
+    "publicationGroup": 2962331,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1593615396,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17286678,
+    "totalTimesRated": 0,
+    "viewCount": 3557,
+    "viewLastModified": 1593615379,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1531487675,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 2385716,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1531487675,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 478316717,
+            "name": "Fiscal Year",
+            "dataTypeName": "number",
+            "fieldName": "fiscal_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 28552669,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "true",
+                "align": "left"
+            }
+        },
+        {
+            "id": 478316718,
+            "name": "Resuts Area",
+            "dataTypeName": "text",
+            "fieldName": "resuts_area",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 28552670,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 478316719,
+            "name": "Offer Name",
+            "dataTypeName": "text",
+            "fieldName": "offer_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 28552671,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 478316720,
+            "name": "Department",
+            "dataTypeName": "text",
+            "fieldName": "department",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 28552672,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 478316721,
+            "name": "Proposed",
+            "dataTypeName": "number",
+            "fieldName": "proposed",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 28552673,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 478316722,
+            "name": "Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 28552674,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 478316723,
+            "name": "Fund",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fund",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 28552675,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 478316724,
+            "name": "amended",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "amended",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 105304968,
+            "format": {}
+        },
+        {
+            "id": 478316725,
+            "name": "approved",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "approved",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 106978619,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Transparency App": {
+                "Application": "Open Budget"
+            },
+            "Update Frequency": {
+                "Period": "Yearly"
+            }
+        },
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "operating budget",
+        "fy 2015-2017",
+        "bfo",
+        "budgeting for outcomes"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

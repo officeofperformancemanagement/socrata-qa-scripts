@@ -1,0 +1,197 @@
+{
+    "id": "u4eg-etxc",
+    "name": "2017 Tract Population - Sex",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1556648212,
+    "description": "2017 tract population data categorized by sex.",
+    "displayType": "table",
+    "downloadCount": 74,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562357225,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31395071,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1556648359,
+    "publicationGroup": 16163134,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557173723,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16163134,
+    "totalTimesRated": 0,
+    "viewCount": 143,
+    "viewLastModified": 1562357220,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557173751,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 536934,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557173738,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557173751,
+                "failureCount": 0,
+                "startedAt": 1557173751,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 406453971,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80220001,
+            "format": {}
+        },
+        {
+            "id": 406453966,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80219996,
+            "format": {}
+        },
+        {
+            "id": 406453967,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80219997,
+            "format": {}
+        },
+        {
+            "id": 406453968,
+            "name": "Total Female Pop",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_female_pop",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80219998,
+            "format": {}
+        },
+        {
+            "id": 406453969,
+            "name": "Total Male Pop",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_male_pop",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 80219999,
+            "format": {}
+        },
+        {
+            "id": 406453970,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 6,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80220000,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract 4 and 11"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,421 @@
+{
+    "id": "hy6d-xcyb",
+    "name": "Hamilton County E911 Active Calls",
+    "assetType": "dataset",
+    "attribution": "E911",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1424708967,
+    "description": "Please note that this data is no longer updated as E911 has updated the terms of service for their website as we are no longer able to scrape data from it. \r\n\r\nHamilton county E911 active calls scraped from http://hamilton911.discoveregov.com/ \r\n\r\nSome records have been removed to be in compliance with TN Ann. Code §§ 37-1-409; 37-1-612 for the confidential of records of child abuse .",
+    "displayType": "table",
+    "downloadCount": 25102,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1557961285,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31503045,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1557961243,
+    "publicationGroup": 2305297,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowIdentifierColumnId": 408653845,
+    "rowsUpdatedAt": 1557961241,
+    "rowsUpdatedBy": "ve7v-b5px",
+    "tableId": 16200157,
+    "totalTimesRated": 0,
+    "viewCount": 85974,
+    "viewLastModified": 1557961243,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1439566801,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 567373,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1439566801,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 408653845,
+            "name": "entry_id",
+            "dataTypeName": "text",
+            "fieldName": "entry_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 25518234,
+            "width": 160,
+            "format": {}
+        },
+        {
+            "id": 408653853,
+            "name": "created",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "created",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 80978475,
+            "width": 180,
+            "format": {}
+        },
+        {
+            "id": 408653847,
+            "name": "agency",
+            "dataTypeName": "text",
+            "fieldName": "agency",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 25518236,
+            "width": 227,
+            "format": {}
+        },
+        {
+            "id": 408653848,
+            "name": "incident_type",
+            "dataTypeName": "text",
+            "fieldName": "incident_type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 25518243,
+            "width": 293,
+            "format": {}
+        },
+        {
+            "id": 408653849,
+            "name": "address",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 25518263,
+            "width": 601,
+            "format": {}
+        },
+        {
+            "id": 408653850,
+            "name": "latitude",
+            "dataTypeName": "number",
+            "fieldName": "latitude",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 25518286,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 408653851,
+            "name": "longitude",
+            "dataTypeName": "number",
+            "fieldName": "longitude",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 25518298,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 408653852,
+            "name": "location",
+            "dataTypeName": "point",
+            "fieldName": "location",
+            "position": 8,
+            "renderTypeName": "point",
+            "tableColumnId": 25518345,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 404489519,
+            "name": "location (address)",
+            "dataTypeName": "text",
+            "fieldName": "location_address",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 79501318,
+            "format": {}
+        },
+        {
+            "id": 404489521,
+            "name": "location (city)",
+            "dataTypeName": "text",
+            "fieldName": "location_city",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 79501320,
+            "format": {}
+        },
+        {
+            "id": 404489518,
+            "name": "location (state)",
+            "dataTypeName": "text",
+            "fieldName": "location_state",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 79501317,
+            "format": {}
+        },
+        {
+            "id": 404489520,
+            "name": "location (zip)",
+            "dataTypeName": "text",
+            "fieldName": "location_zip",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 79501319,
+            "format": {}
+        },
+        {
+            "id": 404489522,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 79501321,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404489523,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 79501322,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404489524,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 79501323,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404489525,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 79501324,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404489526,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 79501325,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404489527,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 79501326,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404489528,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 79501327,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 404489529,
+            "name": "Council_data 2",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ap6c_9ws7",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 79501328,
+            "computationStrategy": {
+                "source_columns": [
+                    "location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ap6c-9ws7",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Daily "
+            }
+        },
+        "rowIdentifier": 408653845,
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "police",
+        "fire",
+        "ems"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

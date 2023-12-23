@@ -1,0 +1,291 @@
+{
+    "id": "6yym-j4ji",
+    "name": "Chattanooga Redistricting - New Districts",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1650400921,
+    "description": "This is the new districts for the City Council of Chattanooga.  The new proposed districts have officially been adopted by the City Council of Chattanooga.",
+    "displayType": "table",
+    "downloadCount": 59,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38409823,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1650401120,
+    "publicationGroup": 18676211,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1650401113,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 18676211,
+    "totalTimesRated": 0,
+    "viewCount": 17,
+    "viewLastModified": 1664307051,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1650401161,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4633292,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1650401121,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1650401161,
+                "failureCount": 0,
+                "startedAt": 1650401161,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 559196529,
+            "name": "Black Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "black_population",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 141864650,
+            "format": {}
+        },
+        {
+            "id": 559196523,
+            "name": "Deviation",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "deviation",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 141864644,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 559196517,
+            "name": "District Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 141864638,
+            "format": {}
+        },
+        {
+            "id": 559196518,
+            "name": "Hispanic Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hispanic_population",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 141864639,
+            "format": {}
+        },
+        {
+            "id": 559196519,
+            "name": "Other Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "other_population",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 141864640,
+            "format": {}
+        },
+        {
+            "id": 559196524,
+            "name": "Percent Black",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_black",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 141864645,
+            "format": {
+                "precisionStyle": "standard",
+                "percentScale": "1",
+                "noCommas": "false",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 559196525,
+            "name": "Percent Deviation",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_deviation",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 141864646,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 559196527,
+            "name": "Percent Hispanic",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_hispanic",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 141864648,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 559196526,
+            "name": "Percent Other",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_other",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 141864647,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 559196528,
+            "name": "Percent White",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_white",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 141864649,
+            "width": 244,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 559196520,
+            "name": "Total Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_population",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 141864641,
+            "format": {}
+        },
+        {
+            "id": 559196521,
+            "name": "White Population",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "white_population",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 141864642,
+            "format": {}
+        },
+        {
+            "id": 559196522,
+            "name": "polygon",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "polygon",
+            "position": 13,
+            "renderTypeName": "polygon",
+            "tableColumnId": 141864643,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Council District",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "district",
+        "districts",
+        "redistrict",
+        "place redistricting",
+        "city council",
+        "council",
+        "population"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,268 @@
+{
+    "id": "kcrp-xmaw",
+    "name": "Chattanooga 5K",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1551473212,
+    "description": "Results for the Erlanger Chattanooga 5K.",
+    "displayType": "table",
+    "downloadCount": 281,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1551713805,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30967839,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1551539803,
+    "publicationGroup": 16005706,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 397887266,
+    "rowsUpdatedAt": 1551713803,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 16007842,
+    "totalTimesRated": 0,
+    "viewCount": 258,
+    "viewLastModified": 1551713798,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1551539803,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367213,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1551539803,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 397887266,
+            "name": "Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 77454710,
+            "format": {}
+        },
+        {
+            "id": 397887267,
+            "name": "First Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "first_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77454712,
+            "format": {}
+        },
+        {
+            "id": 397887268,
+            "name": "Last Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "last_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 77454713,
+            "format": {}
+        },
+        {
+            "id": 397887269,
+            "name": "Division",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "division",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77454714,
+            "format": {}
+        },
+        {
+            "id": 397887270,
+            "name": "Overall",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "overall",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 77454715,
+            "format": {}
+        },
+        {
+            "id": 397887271,
+            "name": "Division Place",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "division_place",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77454716,
+            "format": {}
+        },
+        {
+            "id": 397887272,
+            "name": "Sex Place",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sex_place",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 77454717,
+            "format": {}
+        },
+        {
+            "id": 397887273,
+            "name": "Time",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "time",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 77454718,
+            "format": {}
+        },
+        {
+            "id": 397887274,
+            "name": "Time DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "time_dm",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 77454719,
+            "format": {}
+        },
+        {
+            "id": 397887275,
+            "name": "Pace",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pace",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77454720,
+            "format": {}
+        },
+        {
+            "id": 397887276,
+            "name": "Pace DM",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pace_dm",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 77454721,
+            "format": {}
+        },
+        {
+            "id": 397887277,
+            "name": "Sex",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sex",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77454722,
+            "format": {}
+        },
+        {
+            "id": 397887280,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 13,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77486124,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 397887279,
+            "name": "Year",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "year",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 77454711,
+            "format": {
+                "noCommas": "true"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            }
+        },
+        "rowIdentifier": 397887266,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

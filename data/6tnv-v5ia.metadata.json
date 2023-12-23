@@ -1,0 +1,241 @@
+{
+    "id": "6tnv-v5ia",
+    "name": "Chattanooga: Capital Budget",
+    "assetType": "dataset",
+    "attribution": "Finance and Administration Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1432647453,
+    "description": "for budget.chattanooga.com",
+    "displayType": "table",
+    "downloadCount": 412,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1558377962,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31534040,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1558377967,
+    "publicationGroup": 2962374,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1592249987,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16210712,
+    "totalTimesRated": 0,
+    "viewCount": 1168,
+    "viewLastModified": 1592249982,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1529936600,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 578177,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1529936600,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "displayName": "Deleted User",
+                "flags": [
+                    "deleted"
+                ]
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 409378946,
+            "name": "Fiscal Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 81199737,
+            "width": 99,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "true",
+                "align": "right"
+            }
+        },
+        {
+            "id": 409378929,
+            "name": "Service",
+            "dataTypeName": "text",
+            "fieldName": "service",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 28552759,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 409378930,
+            "name": "Department",
+            "dataTypeName": "text",
+            "fieldName": "department",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 28552760,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 409378931,
+            "name": "Project",
+            "dataTypeName": "text",
+            "fieldName": "project",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 28552761,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 409378932,
+            "name": "Project ID",
+            "dataTypeName": "text",
+            "fieldName": "project_id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 28552762,
+            "width": 220,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 409378933,
+            "name": "Fund Type",
+            "dataTypeName": "text",
+            "fieldName": "fund_type",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 28552763,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 409378934,
+            "name": "Fund",
+            "dataTypeName": "text",
+            "fieldName": "fund",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 28552764,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 409378935,
+            "name": "Thru FY Actuals",
+            "dataTypeName": "number",
+            "fieldName": "thru_fy_actuals",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 28552765,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 409378936,
+            "name": "FY Approved",
+            "dataTypeName": "number",
+            "fieldName": "fy_approved",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 28552766,
+            "width": 232,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Transparency App": {
+                "Application": "Open Budget"
+            },
+            "Org / Gov": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            }
+        },
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "hn68-w99i",
+        "createdAt": 1675709239,
+        "displayName": "Deleted User",
+        "email": "deleted-user-di-support@tylertech.com",
+        "screenName": "Deleted User",
+        "type": "deleted_user_surrogate"
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "hn68-w99i",
+        "createdAt": 1675709239,
+        "displayName": "Deleted User",
+        "email": "deleted-user-di-support@tylertech.com",
+        "screenName": "Deleted User",
+        "type": "deleted_user_surrogate"
+    },
+    "tags": [
+        "capital budget",
+        "fy 2015-2016"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

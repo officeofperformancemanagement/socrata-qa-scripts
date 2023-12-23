@@ -1,0 +1,154 @@
+{
+    "id": "rxi2-hh7w",
+    "name": "Form Based Code Boundary",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1617212329,
+    "description": "Form based code boundary",
+    "displayType": "table",
+    "downloadCount": 55,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36845717,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1617212435,
+    "publicationGroup": 18183600,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1617212434,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18183600,
+    "totalTimesRated": 0,
+    "viewCount": 57,
+    "viewLastModified": 1617212435,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1617212455,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3443629,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1617212435,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1617212455,
+                "failureCount": 0,
+                "startedAt": 1617212455,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 533125954,
+            "name": "feature",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "feature",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 134428202,
+            "format": {}
+        },
+        {
+            "id": 533125955,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 2,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 134428203,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "gis",
+        "zoning",
+        "zone"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

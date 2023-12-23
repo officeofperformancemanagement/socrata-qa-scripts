@@ -1,0 +1,201 @@
+{
+    "id": "mb3s-t2pi",
+    "name": "FY2022 Budget Public Input Results",
+    "assetType": "dataset",
+    "attribution": "City of Chattanooga - Mayor's Office",
+    "attributionLink": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRiBYFmkdKchOKUXU46iw_nfAJM5XAu9LYtzdwVF4n8ydY_HiUiF6IX3jpDBq1-9VAmV-ESHi-WH0Bs/pub?output=xlsx",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1609877614,
+    "description": "Results of public input sessions and surveys conducted in Fall 2020 for the FY22 City of Chattanooga Budget. Data is separated by responses collected by Zoom group discussions, online surveys, and paper surveys.",
+    "displayType": "table",
+    "downloadCount": 57,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36142496,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1609879109,
+    "publicationGroup": 17914577,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1609879109,
+    "rowsUpdatedBy": "krw7-fne6",
+    "tableId": 17914595,
+    "totalTimesRated": 0,
+    "viewCount": 107,
+    "viewLastModified": 1666193127,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1610658112,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3126607,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1610658084,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1610658112,
+                "failureCount": 0,
+                "startedAt": 1610658112,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 517684585,
+            "name": "Idea",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "idea",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 127039015,
+            "format": {}
+        },
+        {
+            "id": 517684584,
+            "name": "Category",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "category",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 127039014,
+            "format": {}
+        },
+        {
+            "id": 517684583,
+            "name": "Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "districts",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 127039013,
+            "format": {}
+        },
+        {
+            "id": 517684581,
+            "name": "ZipCode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zipcode",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 127039011,
+            "format": {}
+        },
+        {
+            "id": 517684580,
+            "name": "Source",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "source",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 127039010,
+            "format": {}
+        },
+        {
+            "id": 517684582,
+            "name": "Specific Location",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 127039012,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "tyount@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Tyler Yount",
+                "How often are data values updated?": "Yearly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Response",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "budget",
+        "public input"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

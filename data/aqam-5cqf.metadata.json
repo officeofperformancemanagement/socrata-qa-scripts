@@ -1,0 +1,262 @@
+{
+    "id": "aqam-5cqf",
+    "name": "Smarter Students Stronger Families",
+    "assetType": "dataset",
+    "attribution": "Mayor's Office",
+    "averageRating": 0,
+    "category": "Education",
+    "createdAt": 1453644886,
+    "description": "Data feeding into the ChattaData Smarter Students Stronger Families goals.",
+    "displayType": "table",
+    "downloadCount": 319,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1545419198,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 23519793,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1472666506,
+    "publicationGroup": 7380427,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1554082226,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 12845943,
+    "totalTimesRated": 0,
+    "viewCount": 686,
+    "viewLastModified": 1554082221,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1472666506,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366929,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1472666506,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 268736875,
+            "name": "Month",
+            "dataTypeName": "calendar_date",
+            "fieldName": "month",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 34005649,
+            "width": 160,
+            "format": {
+                "view": "date_monthy",
+                "align": "left"
+            }
+        },
+        {
+            "id": 268736876,
+            "name": "Improve Iiteracy: Number of Active Students in Lexia Reading Program",
+            "dataTypeName": "number",
+            "fieldName": "improve_iiteracy_number_of_active_students_in_lexia_reading_program",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 34005650,
+            "width": 520,
+            "format": {}
+        },
+        {
+            "id": 268736877,
+            "name": "Improve Iiteracy: Average Learning Units Gained in Lexia Reading Program",
+            "dataTypeName": "number",
+            "fieldName": "improve_iiteracy_average_learning_units_gained_in_lexia_reading_program",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 34005651,
+            "width": 543,
+            "format": {}
+        },
+        {
+            "id": 268736878,
+            "name": "Improve Iiteracy: Average Weekly Usage (Minutes) of Lexia Reading Program",
+            "dataTypeName": "number",
+            "fieldName": "improve_iiteracy_average_weekly_usage_minutes_of_lexia_reading_program",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 34005652,
+            "width": 558,
+            "format": {}
+        },
+        {
+            "id": 268736879,
+            "name": "Improve Iiteracy: Active Students Doing Lessons At Grade Level or Above in the Lexia Reading Program",
+            "dataTypeName": "number",
+            "fieldName": "improve_iiteracy_active_students_doing_lessons_at_grade_level_or_above_in_the_lexia_reading_program",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 34005653,
+            "width": 712,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "100",
+                "view": "percent_bar_and_text"
+            }
+        },
+        {
+            "id": 268736880,
+            "name": "Improve Iiteracy: Number of Children Using YFD Centers",
+            "dataTypeName": "number",
+            "fieldName": "improve_iiteracy_number_of_children_using_yfd_centers",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 34005654,
+            "width": 424,
+            "format": {
+                "align": "right"
+            }
+        },
+        {
+            "id": 268736881,
+            "name": "Improve Iiteracy: Number of Adults Using YFD Centers",
+            "dataTypeName": "number",
+            "fieldName": "improve_iiteracy_number_of_adults_using_yfd_centers",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 34005655,
+            "width": 424,
+            "format": {}
+        },
+        {
+            "id": 268736882,
+            "name": "Early Childhood Education: Number of Children Served in Head Start",
+            "dataTypeName": "number",
+            "fieldName": "early_childhood_education_number_of_children_served_in_head_start",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 34005656,
+            "width": 520,
+            "format": {}
+        },
+        {
+            "id": 268736883,
+            "name": "Early Childhood Education: Number of Children Served in Early Head Start",
+            "dataTypeName": "number",
+            "fieldName": "early_childhood_education_number_of_children_served_in_early_head_start",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 34005657,
+            "width": 541,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "ascending": true,
+                    "columnFieldName": "month"
+                }
+            ]
+        },
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            },
+            "Data Description": {
+                "Data Dictionary": ""
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "rowLabel": "Row",
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 268736875,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "students",
+        "families",
+        "chattadata"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

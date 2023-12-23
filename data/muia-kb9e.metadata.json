@@ -1,0 +1,156 @@
+{
+    "id": "muia-kb9e",
+    "name": "Pedestrian Incidents",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1570540204,
+    "description": "Data only on pedestrian incidents broken down by Race and Age with no geocoding.",
+    "displayType": "table",
+    "downloadCount": 56,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1570540288,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32575772,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1570540287,
+    "publicationGroup": 16619458,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1570540286,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 16619458,
+    "totalTimesRated": 0,
+    "viewCount": 35,
+    "viewLastModified": 1666190136,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1623942799,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3726713,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1623942785,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1623942799,
+                "failureCount": 0,
+                "startedAt": 1623942799,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 432262160,
+            "name": "Age",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "age",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 88897969,
+            "format": {}
+        },
+        {
+            "id": 432262161,
+            "name": "Date of Incident",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_of_incident",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 88897970,
+            "format": {}
+        },
+        {
+            "id": 432262162,
+            "name": "Race",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 88897971,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "asevigny@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Andrew Sevigny",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,613 @@
+{
+    "id": "q2g4-sexh",
+    "name": "Chattanooga Parcel Reassessment and Tax Impact",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1628019297,
+    "description": "This data set contains the prior assessment values compared to the new. A new budgeted tax rate for Fiscal Year 2022 is then applied to the New Assessed values.  Several calculated fields are then created to numerically describe the impacts the reassessment combined with the budgeted tax rate will have on Chattanoogans compared to prior tax amounts and assessed values.",
+    "displayType": "table",
+    "downloadCount": 61,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "ubv6-9x4p",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37537477,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1628615341,
+    "publicationGroup": 18270272,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1629379920,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 18410528,
+    "totalTimesRated": 0,
+    "viewCount": 129,
+    "viewLastModified": 1628615343,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1628619651,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3908298,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1628619635,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1628619651,
+                "failureCount": 0,
+                "startedAt": 1628619651,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 546378565,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "This is the address of the property as listed by the Hamilton County assessor.",
+            "fieldName": "address",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 137014999,
+            "format": {}
+        },
+        {
+            "id": 546378566,
+            "name": "Owner Name",
+            "dataTypeName": "text",
+            "description": "This is the Owner Name according to the Hamilton County assessor file.",
+            "fieldName": "owner_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 137014998,
+            "format": {}
+        },
+        {
+            "id": 546378567,
+            "name": "Current Use",
+            "dataTypeName": "text",
+            "description": "This is the indicated current use of the property. RS - Residential, MF - Multifamily, CO - Commercial, EX - Exempt, and IN - Industrial.",
+            "fieldName": "current_use",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 137014987,
+            "format": {}
+        },
+        {
+            "id": 546378568,
+            "name": "Land Use Code",
+            "dataTypeName": "text",
+            "description": "This is the specific land use code per the Hamilton County assessor. To look up values, download the PDF in the data attachments.",
+            "fieldName": "land_use_code",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 137015006,
+            "format": {}
+        },
+        {
+            "id": 546378569,
+            "name": "Exempt Code",
+            "dataTypeName": "text",
+            "description": "Indicates if the parcel is exempt from taxes.",
+            "fieldName": "exempt_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 137015011,
+            "format": {}
+        },
+        {
+            "id": 546378570,
+            "name": "Calculated Acres",
+            "dataTypeName": "number",
+            "description": "Calculated number of acres per the Hamilton County Assessor.",
+            "fieldName": "calculated_acres",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 137015013,
+            "format": {}
+        },
+        {
+            "id": 546378571,
+            "name": "Census",
+            "dataTypeName": "text",
+            "description": "Census tract. per 2010 US Census Tract boundaries.",
+            "fieldName": "census",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 137015002,
+            "format": {}
+        },
+        {
+            "id": 546378572,
+            "name": "Census Tract ID",
+            "dataTypeName": "text",
+            "description": "Census tract per 2010 US Census Tract boundaries.",
+            "fieldName": "census_tract_id",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 137014975,
+            "format": {}
+        },
+        {
+            "id": 546378573,
+            "name": "Block Group ID",
+            "dataTypeName": "text",
+            "description": "Census block group per 2010 US Census Tract boundaries.",
+            "fieldName": "block_group_id",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 137014990,
+            "format": {}
+        },
+        {
+            "id": 546378574,
+            "name": "City Council District",
+            "dataTypeName": "text",
+            "description": "City Council District in which the parcel resides.",
+            "fieldName": "city_council_district",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 137015009,
+            "format": {}
+        },
+        {
+            "id": 546378575,
+            "name": "ZIP Code",
+            "dataTypeName": "text",
+            "description": "ZIP Code in which the parcel resides.",
+            "fieldName": "zip_code",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 137014980,
+            "format": {}
+        },
+        {
+            "id": 546378576,
+            "name": "Geographic Area Name",
+            "dataTypeName": "text",
+            "description": "Common name of the census tract.",
+            "fieldName": "geographic_area_name",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 137014993,
+            "format": {}
+        },
+        {
+            "id": 546378577,
+            "name": "Estimated Tax Nominal Percentile Citywide",
+            "dataTypeName": "number",
+            "description": "This is the percentile by which the dollar change in the tax amount from prior years for the parcel falls. A parcel with a high dollar increase would be in a higher percentile 0.5-1.0 compared to a parcel with a low dollar increase or even negative tax difference 0.0-0.5.",
+            "fieldName": "input_nominal_percentile",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 137015012,
+            "format": {}
+        },
+        {
+            "id": 546378578,
+            "name": "Estimated Tax Percentile Citywide",
+            "dataTypeName": "number",
+            "description": "This is the percentile by which the percent change in the tax amount from prior years for the parcel falls. A parcel with a high percent increase would be in a higher percentile 0.5-1.0 compared to a parcel with a low percent increase or even negative tax difference 0.0-0.5.",
+            "fieldName": "input_percentile_citywide",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 137014982,
+            "format": {}
+        },
+        {
+            "id": 546378579,
+            "name": "Estimated Tax Amount",
+            "dataTypeName": "number",
+            "description": "This is the estimated tax amount based on the budgeted tax rate.",
+            "fieldName": "input_tax_amount",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 137014988,
+            "format": {}
+        },
+        {
+            "id": 546378580,
+            "name": "Estimated Tax Nominal Difference",
+            "dataTypeName": "number",
+            "description": "This is the estimated dollar difference between the estimated new tax dollar amount and the prior tax dollar amount.",
+            "fieldName": "input_tax_nominal_difference",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 137015010,
+            "format": {}
+        },
+        {
+            "id": 546378581,
+            "name": "Estimated Tax Percent Difference",
+            "dataTypeName": "number",
+            "description": "This is the estimated percent difference between the estimated new tax dollar amount and the prior tax dollar amount.",
+            "fieldName": "input_tax_percent_difference",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 137015008,
+            "format": {}
+        },
+        {
+            "id": 546378582,
+            "name": "Estimated Tax Difference as Percent of Median Income",
+            "dataTypeName": "number",
+            "description": "This is a calculation of the estimated tax nominal difference divided by the estimated household median income of the census tract the parcel resides in. This can be interpreted as a potential cost of living change.",
+            "fieldName": "input_as_percent_of_median",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 137014997,
+            "format": {}
+        },
+        {
+            "id": 546378583,
+            "name": "Median Income",
+            "dataTypeName": "number",
+            "description": "Estimated Median household income per US Census American Community Survey",
+            "fieldName": "median_income",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 137014974,
+            "format": {}
+        },
+        {
+            "id": 546378584,
+            "name": "New Appraisal Value",
+            "dataTypeName": "number",
+            "description": "\t This is the New Appraisal Value per the Hamilton County Assessor.",
+            "fieldName": "new_appraisal_value",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 137015004,
+            "format": {}
+        },
+        {
+            "id": 546378585,
+            "name": "New Assessed Value",
+            "dataTypeName": "number",
+            "description": "This is the New Assessed Value per the Hamilton County Assessor.",
+            "fieldName": "new_assessed_value",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 137014994,
+            "format": {}
+        },
+        {
+            "id": 546378586,
+            "name": "New Building Value",
+            "dataTypeName": "number",
+            "description": "This is the New Building Value per the Hamilton County Assessor.",
+            "fieldName": "new_building_value",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 137014977,
+            "format": {}
+        },
+        {
+            "id": 546378587,
+            "name": "New Land Value",
+            "dataTypeName": "number",
+            "description": "This is the New Land Value per the Hamilton County Assessor.",
+            "fieldName": "new_land_value",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 137014981,
+            "format": {}
+        },
+        {
+            "id": 546378588,
+            "name": "New Yards Items Value",
+            "dataTypeName": "number",
+            "description": "This is the New Yard Items Value per the Hamilton County Assessor.",
+            "fieldName": "new_yards_items_value",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 137014985,
+            "format": {}
+        },
+        {
+            "id": 546378589,
+            "name": "Prior Appraised Value",
+            "dataTypeName": "number",
+            "description": "This is the Prior Appraisal Value per the Hamilton County Assessor.",
+            "fieldName": "prior_appraised_value",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 137014983,
+            "format": {}
+        },
+        {
+            "id": 546378590,
+            "name": "Prior Assessed Value",
+            "dataTypeName": "number",
+            "description": "This is the Prior Assessed Value per the Hamilton County Assessor.",
+            "fieldName": "prior_assessed_value",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 137014989,
+            "format": {}
+        },
+        {
+            "id": 546378591,
+            "name": "Prior Building Value",
+            "dataTypeName": "number",
+            "description": "This is the Prior Building Value per the Hamilton County Assessor.",
+            "fieldName": "prior_building_value",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 137014979,
+            "format": {}
+        },
+        {
+            "id": 546378592,
+            "name": "Prior Land Value",
+            "dataTypeName": "number",
+            "description": "This is the Prior Land Value per the Hamilton County Assessor.",
+            "fieldName": "prior_land_value",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 137014992,
+            "format": {}
+        },
+        {
+            "id": 546378593,
+            "name": "Prior Tax Amount",
+            "dataTypeName": "number",
+            "description": "This is the Prior Tax amount based on the prior assessed values.",
+            "fieldName": "prior_tax_amount",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 137014991,
+            "format": {}
+        },
+        {
+            "id": 546378594,
+            "name": "Prior Yard Items Value",
+            "dataTypeName": "number",
+            "description": "This is the Prior Yard Items Value per the Hamilton County Assessor.",
+            "fieldName": "prior_yard_items_value",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 137015003,
+            "format": {}
+        },
+        {
+            "id": 546378595,
+            "name": "multipolygon",
+            "dataTypeName": "multipolygon",
+            "description": "Geometry of the parcel.",
+            "fieldName": "multipolygon",
+            "position": 31,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 137014973,
+            "format": {}
+        },
+        {
+            "id": 546378596,
+            "name": "point",
+            "dataTypeName": "point",
+            "description": "Point within the parcel used for regional map creation.",
+            "fieldName": "point",
+            "position": 32,
+            "renderTypeName": "point",
+            "tableColumnId": 137017649,
+            "format": {}
+        },
+        {
+            "id": 546378600,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 137017650,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 546378601,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 34,
+            "renderTypeName": "number",
+            "tableColumnId": 137017653,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 546378602,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 137018004,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 546378603,
+            "name": "Hamilton County Block Group Populations - 2018",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_kf5v_eqyj",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 137018182,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_kf5v-eqyj",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 546378597,
+            "name": "Fire Services Amount",
+            "dataTypeName": "number",
+            "description": "This is the estimated dollars of the estimated tax difference that would go towards Fire Services.",
+            "fieldName": "fire_services_amount",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 139013022,
+            "format": {}
+        },
+        {
+            "id": 546378599,
+            "name": "Essential Services Amount",
+            "dataTypeName": "number",
+            "description": "This is the estimated dollars of the estimated tax difference that would go towards Essential Services.",
+            "fieldName": "essential_services_amount",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 139013071,
+            "format": {}
+        },
+        {
+            "id": 546378690,
+            "name": "Police Services Amount",
+            "dataTypeName": "number",
+            "description": "This is the estimated dollars of the estimated tax difference that would go towards Police Services.",
+            "fieldName": "police_services_amount",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 139013665,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "attachments": [
+            {
+                "filename": "AssessorExtractLayout__1_.pdf",
+                "assetId": "d10401dc-a909-46c2-9a9b-a77f25d29044",
+                "blobId": "",
+                "name": "AssessorExtractLayout__1_.pdf"
+            }
+        ],
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tax",
+        "assessment",
+        "reassessment",
+        "impact",
+        "increase",
+        "percent",
+        "dollar"
+    ],
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

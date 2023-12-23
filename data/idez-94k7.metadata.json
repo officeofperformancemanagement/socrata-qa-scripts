@@ -1,0 +1,259 @@
+{
+    "id": "idez-94k7",
+    "name": "High Performing Government",
+    "assetType": "dataset",
+    "attribution": "Mayor's Office",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1453645056,
+    "description": "Data feeding into the ChattaData High Performing Government goals.",
+    "displayType": "table",
+    "downloadCount": 346,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1495257775,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 17927761,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1455771946,
+    "publicationGroup": 7380494,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1495257649,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 8171651,
+    "totalTimesRated": 0,
+    "viewCount": 656,
+    "viewLastModified": 1554082240,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1455771946,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366878,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1455771946,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 242871102,
+            "name": "Month",
+            "dataTypeName": "calendar_date",
+            "fieldName": "month",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 34005672,
+            "width": 160,
+            "format": {
+                "view": "date_monthy",
+                "align": "left"
+            }
+        },
+        {
+            "id": 242871103,
+            "name": "Engage Diverse Business Entities: Number of DBE Vendors",
+            "dataTypeName": "number",
+            "fieldName": "engage_diverse_business_entities_number_of_dbe_vendors",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 34005673,
+            "width": 459,
+            "format": {}
+        },
+        {
+            "id": 242871104,
+            "name": "Engage Diverse Business Entities: DBE Vender Engagement Percentage",
+            "dataTypeName": "number",
+            "fieldName": "engage_diverse_business_entities_dbe_vender_engagement_percentage",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 34005674,
+            "width": 516,
+            "format": {
+                "percentScale": "100",
+                "precisionStyle": "percentage",
+                "view": "percent_bar_and_text",
+                "noCommas": "false",
+                "precision": "0",
+                "align": "right"
+            }
+        },
+        {
+            "id": 242871105,
+            "name": "Engage Diverse Business Entities: DBE Workshop Attendance",
+            "dataTypeName": "number",
+            "fieldName": "engage_diverse_business_entities_dbe_workshop_attendance",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 34005675,
+            "width": 470,
+            "format": {}
+        },
+        {
+            "id": 242871106,
+            "name": "Purchase Order Processing Costs: Cost Per Purchase Order",
+            "dataTypeName": "number",
+            "fieldName": "purchase_order_processing_costs_cost_per_purchase_order",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 34005676,
+            "width": 456,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 242871107,
+            "name": "Purchase Order Processing Costs: Purchase Order Processed",
+            "dataTypeName": "number",
+            "fieldName": "purchase_order_processing_costs_purchase_order_processed",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 34005677,
+            "width": 464,
+            "format": {}
+        },
+        {
+            "id": 242871108,
+            "name": "Purchase Order Processing Costs: Operational Costs",
+            "dataTypeName": "number",
+            "fieldName": "purchase_order_processing_costs_operational_costs",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 34005678,
+            "width": 471,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 242871109,
+            "name": "Maintain S and P Bond Rating of AAA: Current Bond Rating",
+            "dataTypeName": "text",
+            "fieldName": "maintain_s_and_p_bond_rating_of_aaa_current_bond_rating",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 34005679,
+            "width": 475,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "ascending": true,
+                    "columnFieldName": "month"
+                }
+            ]
+        },
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            },
+            "Data Description": {
+                "Data Dictionary": ""
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "rowLabel": "Row",
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 242871102,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "government",
+        "chattadata"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

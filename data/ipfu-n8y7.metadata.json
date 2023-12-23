@@ -1,0 +1,484 @@
+{
+    "id": "ipfu-n8y7",
+    "name": "Internal Affairs Allegations - Public",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1596116511,
+    "description": "This is a data set of all Allegations against CPD Officers since January 1, 2018. When a Complaint is filed, a chain of command investigation began, or an Internal Affairs investigation began, Allegations of different types are made against officers. Each row represents an individual allegation as multiple can be made in one incident.",
+    "displayType": "table",
+    "downloadCount": 59,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "ikcv-byqe",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35046799,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1598377440,
+    "publicationGroup": 17370019,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1699061825,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17370019,
+    "totalTimesRated": 0,
+    "viewCount": 196,
+    "viewLastModified": 1598377440,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1598368022,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2606921,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1598367998,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1598368022,
+                "failureCount": 0,
+                "startedAt": 1598368022,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 490590526,
+            "name": "AIO Number",
+            "dataTypeName": "text",
+            "description": "AIO number is a unique ID useful in linking the data set to the Internal Affairs Allegations data set.",
+            "fieldName": "aio_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 109661138,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590527,
+            "name": "Disposition",
+            "dataTypeName": "text",
+            "description": "Indicates the disposition of the incident whether Exonerated, Sustained, Unfounded,Within Policy, etc. depending on the incident type.",
+            "fieldName": "disposition",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 109661150,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590528,
+            "name": "Complainant Race",
+            "dataTypeName": "text",
+            "description": "Race of the complainant or use of force involved person.",
+            "fieldName": "complainant_race",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 109661139,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590529,
+            "name": "Complainant Sex",
+            "dataTypeName": "text",
+            "description": "Sex of the complainant or use of force involved person.",
+            "fieldName": "complainant_sex",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 109661160,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590530,
+            "name": "Allegation Number",
+            "dataTypeName": "text",
+            "description": "Unique number assigned in the system for each unique allegation.",
+            "fieldName": "allegation_number",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 109661159,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590531,
+            "name": "Incident Number",
+            "dataTypeName": "text",
+            "description": "Incident number is a unique ID for the overall incident in the IA database.",
+            "fieldName": "incident_number",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 109661134,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590532,
+            "name": "Case Number",
+            "dataTypeName": "text",
+            "description": "This is the accompanying Police Incident number if associated with a police incident.",
+            "fieldName": "case_number",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 109661136,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590533,
+            "name": "File Number",
+            "dataTypeName": "text",
+            "description": "This is the file name given by IA for the incident.",
+            "fieldName": "file_number",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 109661137,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590534,
+            "name": "Allegation",
+            "dataTypeName": "text",
+            "description": "Allegation of the officer involved in the incident, may be multiple rows for one officer in one incident.",
+            "fieldName": "allegation",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 109661162,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590535,
+            "name": "Finding",
+            "dataTypeName": "text",
+            "description": "Finding of the specific related allegation.",
+            "fieldName": "finding",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 109661128,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590536,
+            "name": "Incident Type",
+            "dataTypeName": "text",
+            "description": "This is the type of incident in the system.",
+            "fieldName": "incident_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 109661158,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590537,
+            "name": "Incident Status",
+            "dataTypeName": "text",
+            "description": "This is the current status.  Only Completed incidents are made public.",
+            "fieldName": "incident_status",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 109661132,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590538,
+            "name": "Allegation Finding Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of the final allegation finding.",
+            "fieldName": "allegation_finding_date",
+            "position": 13,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 109661129,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590539,
+            "name": "Allegation Created Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of the creation of the allegation.",
+            "fieldName": "allegation_created_date",
+            "position": 14,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 109661163,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590540,
+            "name": "Incident Created Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the incident is created in the Internal Affairs database.",
+            "fieldName": "incident_created_date",
+            "position": 15,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 109661146,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590541,
+            "name": "Incident Occurred Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the incident occurred in the IA system.",
+            "fieldName": "incident_occurred_date",
+            "position": 16,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 109661152,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590542,
+            "name": "Incident Received Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the incident is received by Internal Affairs.",
+            "fieldName": "incident_received_date",
+            "position": 17,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 109661135,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590548,
+            "name": "Beat",
+            "dataTypeName": "text",
+            "description": "General area that the officer involved, if an officer, worked during this time.",
+            "fieldName": "beat",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 109661155,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590549,
+            "name": "Officer Role",
+            "dataTypeName": "text",
+            "description": "If an officer, indicates if the officer is a witness or involved officer.",
+            "fieldName": "officer_role",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 109661140,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590550,
+            "name": "Person Type",
+            "dataTypeName": "text",
+            "description": "Since each row is an individual involved, this indicates the involvement of the individual on an incident.",
+            "fieldName": "person_type",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 109661161,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590552,
+            "name": "Officer Race",
+            "dataTypeName": "text",
+            "description": "Race of the officer involved.",
+            "fieldName": "officer_race",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 109661141,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590553,
+            "name": "Officer Sex",
+            "dataTypeName": "text",
+            "description": "Sex of the officer involved.",
+            "fieldName": "officer_sex",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 109661142,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590555,
+            "name": "Officer Number",
+            "dataTypeName": "text",
+            "description": "Anonymized number given to identify unique officers.",
+            "fieldName": "officer_number",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 109661157,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 490590557,
+            "name": "Command",
+            "dataTypeName": "text",
+            "description": "General area the officer is assigned to.",
+            "fieldName": "command",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 109661147,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "attachments": [
+            {
+                "filename": "ADM-16-Code-of-Conduct.pdf",
+                "assetId": "5d24dc62-99c3-4baa-a86f-f7f94e560638",
+                "name": "ADM-16-Code-of-Conduct.pdf"
+            },
+            {
+                "filename": "ADM-05-Use-of-Force.pdf",
+                "assetId": "55860dc6-237e-4ff8-aa33-9b6e39d24747",
+                "name": "ADM-05-Use-of-Force.pdf"
+            }
+        ],
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "internal affairs",
+        "ia",
+        "complaint",
+        "use of force"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

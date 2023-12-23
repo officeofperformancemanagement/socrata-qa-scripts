@@ -1,0 +1,171 @@
+{
+    "id": "k66t-kwyr",
+    "name": "Capital Project Phases Dataset - Staging",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1588277041,
+    "description": "Staging data for budget app",
+    "displayType": "table",
+    "downloadCount": 65,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34032192,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1588277106,
+    "publicationGroup": 17078737,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1588277105,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17078737,
+    "totalTimesRated": 0,
+    "viewCount": 96,
+    "viewLastModified": 1666025232,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1588277318,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2143124,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1588277106,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1588277318,
+                "failureCount": 0,
+                "startedAt": 1588277318,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 464858714,
+            "name": "Phase Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "phase_type",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 100227507,
+            "format": {}
+        },
+        {
+            "id": 464858715,
+            "name": "Phase Step Number",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "phase_step_number",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 100227508,
+            "format": {}
+        },
+        {
+            "id": 464858716,
+            "name": "Phase Step Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "phase_step_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 100227509,
+            "format": {}
+        },
+        {
+            "id": 464858717,
+            "name": "Phase Step Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "phase_step_description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 100227510,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

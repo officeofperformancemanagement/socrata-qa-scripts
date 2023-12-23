@@ -1,0 +1,224 @@
+{
+    "id": "hr34-nqkq",
+    "name": "Outdoor Chattanooga Users",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1582143605,
+    "description": "User list from CivicRec",
+    "displayType": "table",
+    "downloadCount": 107,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35555975,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1603299500,
+    "publicationGroup": 16896969,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1661439549,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17692385,
+    "totalTimesRated": 0,
+    "viewCount": 162,
+    "viewLastModified": 1666020697,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583522769,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2827162,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583522723,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583522769,
+                "failureCount": 0,
+                "startedAt": 1583522769,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 503508093,
+            "name": "Age",
+            "dataTypeName": "number",
+            "description": "User age",
+            "fieldName": "age",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 94892469,
+            "format": {}
+        },
+        {
+            "id": 503508094,
+            "name": "Gender",
+            "dataTypeName": "text",
+            "description": "User sex",
+            "fieldName": "gender",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 94892470,
+            "format": {}
+        },
+        {
+            "id": 503508095,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "User city",
+            "fieldName": "city",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 94892471,
+            "format": {}
+        },
+        {
+            "id": 503508096,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "User state",
+            "fieldName": "state",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 94892472,
+            "format": {}
+        },
+        {
+            "id": 503508097,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "User zip",
+            "fieldName": "zip",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 94892474,
+            "format": {}
+        },
+        {
+            "id": 503508101,
+            "name": "Race/Ethnicity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race_ethnicity",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 119868352,
+            "format": {}
+        },
+        {
+            "id": 503508099,
+            "name": "Created",
+            "dataTypeName": "calendar_date",
+            "description": "User creation date",
+            "fieldName": "created",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94892468,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 503508100,
+            "name": "geom",
+            "dataTypeName": "multipolygon",
+            "description": "Zip code geometry",
+            "fieldName": "geom",
+            "position": 9,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 94892473,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Parks and Outdoors",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "parks and outdoors",
+        "parks",
+        "recreation",
+        "outdoor chattanooga"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

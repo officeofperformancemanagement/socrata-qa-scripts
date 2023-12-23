@@ -1,0 +1,501 @@
+{
+    "id": "t8ph-y8y5",
+    "name": "Asset Inventory",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1546267236,
+    "description": "This dataset is an inventory of the assets on the site. Here you can track the performance of data publishing, metadata maintenance, as well as present an overview of what data exists on the site.\n\nNote: This is only updated once per day.",
+    "displayType": "table",
+    "downloadCount": 783,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35755250,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1605228624,
+    "publicationGroup": 15820671,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 508736921,
+    "rowsUpdatedAt": 1605228621,
+    "rowsUpdatedBy": "yr49-udwp",
+    "tableId": 17778489,
+    "totalTimesRated": 0,
+    "viewCount": 259,
+    "viewLastModified": 1605228624,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561383076,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2909593,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561383067,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561383077,
+                "failureCount": 0,
+                "startedAt": 1561383076,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 508736920,
+            "name": "URL",
+            "dataTypeName": "text",
+            "fieldName": "dataset_link",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 75126824,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736921,
+            "name": "U ID",
+            "dataTypeName": "text",
+            "fieldName": "u_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 75126825,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736922,
+            "name": "Public",
+            "dataTypeName": "text",
+            "description": "Public or Private",
+            "fieldName": "public",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 75126826,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736923,
+            "name": "Derived View",
+            "dataTypeName": "text",
+            "description": "if the row represents a view/map/data_lens page etc. that is derived from another dataset = True",
+            "fieldName": "derived_view",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 75126827,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736924,
+            "name": "Parent UID",
+            "dataTypeName": "text",
+            "description": "if the row represents a view/map/data_lens page etc. the underlying parent dataset UID populates",
+            "fieldName": "parent_uid",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 75126828,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736925,
+            "name": "Domain",
+            "dataTypeName": "text",
+            "description": "if data is federated, the source domain will populate here",
+            "fieldName": "domain",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 75126829,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736926,
+            "name": "Type",
+            "dataTypeName": "text",
+            "fieldName": "type",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 75126830,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736927,
+            "name": "Name",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 75126831,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736928,
+            "name": "Description",
+            "dataTypeName": "text",
+            "fieldName": "description",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 75126832,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736929,
+            "name": "Visits",
+            "dataTypeName": "number",
+            "fieldName": "visits",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 75126833,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736930,
+            "name": "Creation Date",
+            "dataTypeName": "date",
+            "fieldName": "creation_date",
+            "position": 11,
+            "renderTypeName": "date",
+            "tableColumnId": 75126834,
+            "width": 188,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736931,
+            "name": "Last Update Date (data)",
+            "dataTypeName": "date",
+            "description": "Last update of tabular data only, will not reflect metadata or shapefiles",
+            "fieldName": "last_update_date_data",
+            "position": 12,
+            "renderTypeName": "date",
+            "tableColumnId": 75126835,
+            "width": 178,
+            "format": {
+                "view": "date_time",
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736932,
+            "name": "Category",
+            "dataTypeName": "text",
+            "fieldName": "category",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 75126836,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736933,
+            "name": "Keywords",
+            "dataTypeName": "text",
+            "fieldName": "keywords",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 75126837,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736934,
+            "name": "Downloads",
+            "dataTypeName": "number",
+            "fieldName": "downloads",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 75126838,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736935,
+            "name": "Owner",
+            "dataTypeName": "text",
+            "description": "Dataset Owner Name",
+            "fieldName": "owner",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 75126839,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736936,
+            "name": "Owner UID",
+            "dataTypeName": "text",
+            "description": "UID of asset owner",
+            "fieldName": "owner_uid",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 75126840,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736937,
+            "name": "Contact Email",
+            "dataTypeName": "text",
+            "description": "contact email for the dataset listed in private metadata",
+            "fieldName": "contactemail",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 75126841,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736938,
+            "name": "License",
+            "dataTypeName": "text",
+            "fieldName": "license",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 75126842,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736939,
+            "name": "Publication Stage",
+            "dataTypeName": "text",
+            "description": "\n    Has four possible values:\n\n    * Unpublished: Does not show up in catalog. Waiting to be published.\n    * Published: The authoritative and broadly available current copy of a dataset\n    * Snapshotted: An older copy of the dataset which has been saved for reference\n    * Copying: A dataset which is in the process of being copied internally. This is an ephemeral state.\n    ",
+            "fieldName": "publication_stage",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 75126843,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736940,
+            "name": "Published Version Name",
+            "dataTypeName": "text",
+            "description": "The name of the currently published version of this dataset",
+            "fieldName": "published_version_name",
+            "position": 21,
+            "rdfProperties": "",
+            "renderTypeName": "text",
+            "tableColumnId": 75126844,
+            "width": 100,
+            "format": {
+                "rdf": "",
+                "align": "left"
+            }
+        },
+        {
+            "id": 508736941,
+            "name": "Published Version UID",
+            "dataTypeName": "text",
+            "description": "The uid of the currently published version of this dataset",
+            "fieldName": "published_version_uid",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 75126845,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736942,
+            "name": "Data Provided By",
+            "dataTypeName": "text",
+            "description": "The source of the provided data",
+            "fieldName": "data_provided_by",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 75126846,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736943,
+            "name": "Source Link",
+            "dataTypeName": "text",
+            "description": "The source link of the provided data",
+            "fieldName": "source_link",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 75126847,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 508736944,
+            "name": "api_endpoint",
+            "dataTypeName": "text",
+            "fieldName": "api_endpoint",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 75126938,
+            "format": {}
+        },
+        {
+            "id": 508736945,
+            "name": "provenance",
+            "dataTypeName": "text",
+            "fieldName": "provenance",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 75126939,
+            "format": {}
+        },
+        {
+            "id": 508736946,
+            "name": "Data Steward Name",
+            "dataTypeName": "text",
+            "fieldName": "data_steward_name",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 76902190,
+            "format": {}
+        },
+        {
+            "id": 508736948,
+            "name": "Dataset Sensitivity",
+            "dataTypeName": "text",
+            "fieldName": "dataset_sensitivity",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 76902191,
+            "format": {}
+        },
+        {
+            "id": 508736950,
+            "name": "How often are data values updated?",
+            "dataTypeName": "text",
+            "fieldName": "how_often_are_data_values_updated",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 76902192,
+            "format": {}
+        },
+        {
+            "id": 508736952,
+            "name": "Department",
+            "dataTypeName": "text",
+            "fieldName": "department",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 76902193,
+            "format": {}
+        },
+        {
+            "id": 508736954,
+            "name": "Public Dataset Contact",
+            "dataTypeName": "text",
+            "fieldName": "public_dataset_contact",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 76902194,
+            "format": {}
+        },
+        {
+            "id": 508736956,
+            "name": "Results Area",
+            "dataTypeName": "text",
+            "fieldName": "results_area",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 76902195,
+            "format": {}
+        },
+        {
+            "id": 508736958,
+            "name": "Data Steward Email",
+            "dataTypeName": "text",
+            "fieldName": "data_steward_email",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 76902196,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rowIdentifier": 508736921,
+        "rowLabel": "asset"
+    },
+    "owner": {
+        "id": "yr49-udwp",
+        "displayName": "Socrata",
+        "profileImageUrlLarge": "/api/users/yr49-udwp/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/yr49-udwp/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/yr49-udwp/profile_images/TINY",
+        "screenName": "Socrata",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "yr49-udwp",
+        "displayName": "Socrata",
+        "profileImageUrlLarge": "/api/users/yr49-udwp/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/yr49-udwp/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/yr49-udwp/profile_images/TINY",
+        "screenName": "Socrata",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,461 @@
+{
+    "id": "dswu-uwj7",
+    "name": "Invoices with Payments",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1583170768,
+    "description": "This data is all invoices with payments that have been processed in accounts payable. A single invoice may have separate payments under different checks, and this would show up as multiple rows in the data set. A single payment may have multiple invoices involved, and this would show up as multiple rows within the data set.",
+    "displayType": "table",
+    "downloadCount": 350,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "5h62-9b9y",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36258191,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1583436800,
+    "publicationGroup": 16885965,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1638849497,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17957213,
+    "totalTimesRated": 0,
+    "viewCount": 1042,
+    "viewLastModified": 1583436800,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583517311,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3147258,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583517253,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583517312,
+                "failureCount": 0,
+                "startedAt": 1583517311,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 520392188,
+            "name": "Supplier Name",
+            "dataTypeName": "text",
+            "description": "Name of the supplier or vendor receiving payment.",
+            "fieldName": "supplier_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 94617559,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392189,
+            "name": "Supplier Number",
+            "dataTypeName": "text",
+            "description": "Number assigned in Oracle.",
+            "fieldName": "supplier_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 94617547,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392190,
+            "name": "Payment Number",
+            "dataTypeName": "text",
+            "description": "Payment number assigned in Oracle.",
+            "fieldName": "payment_number",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 94617548,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392191,
+            "name": "Payment Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date payment was processed in Oracle.",
+            "fieldName": "payment_date",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94617558,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392192,
+            "name": "Invoice Number",
+            "dataTypeName": "text",
+            "description": "Payment number assigned in Oracle.",
+            "fieldName": "invoice_number",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 94617557,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392193,
+            "name": "Invoice Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of invoice based on invoice document.",
+            "fieldName": "invoice_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94617556,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392194,
+            "name": "Payment Total",
+            "dataTypeName": "number",
+            "description": "Amount paid on the invoice.",
+            "fieldName": "payment_total",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 94617555,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392196,
+            "name": "Po Number",
+            "dataTypeName": "text",
+            "description": "Purchase Order number in Oracle if any.",
+            "fieldName": "po_number",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 94617549,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392197,
+            "name": "Receipt Number",
+            "dataTypeName": "text",
+            "description": "Receipt number assigned in Oracle.",
+            "fieldName": "receipt_number",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 94617550,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392198,
+            "name": "Department",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "department",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 94617543,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392199,
+            "name": "Account Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "account_description",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 94617544,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392200,
+            "name": "Fund Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fund_description",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 94617545,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392201,
+            "name": "Cost Center Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cost_center_description",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 94617546,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392202,
+            "name": "Minority Owned",
+            "dataTypeName": "text",
+            "description": "Indicates if the supplier is minority owned per Oracle.",
+            "fieldName": "minority_owned",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 94617551,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392203,
+            "name": "Small Business",
+            "dataTypeName": "text",
+            "description": "Indicates if the supplier is a small business per Oracle.",
+            "fieldName": "small_business",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 94617552,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392204,
+            "name": "Women Owned",
+            "dataTypeName": "text",
+            "description": "Indicates if the supplier is women owned per Oracle.",
+            "fieldName": "women_owned",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 94617553,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392206,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 94617536,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392207,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 94617537,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392208,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 94617540,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392209,
+            "name": "Country",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "country",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 94617538,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392210,
+            "name": "Vendor Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "vendor_id",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 94617541,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392212,
+            "name": "Days to Pay",
+            "dataTypeName": "number",
+            "description": "Length of days from Invoice Date to Payment Date it took to pay.",
+            "fieldName": "days_to_pay",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 94617554,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 520392213,
+            "name": "Compliant Indicator",
+            "dataTypeName": "text",
+            "description": "Yes if Invoice paid within 30 days and No if not",
+            "fieldName": "compliant_indicator",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 94629388,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "invoices",
+        "payments",
+        "invoice",
+        "payment",
+        "on time",
+        "compliance",
+        "vendor",
+        "check"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

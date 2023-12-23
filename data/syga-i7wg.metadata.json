@@ -1,0 +1,216 @@
+{
+    "id": "syga-i7wg",
+    "name": "TN Health Department COVID Data - MMWR Week Case Count",
+    "assetType": "dataset",
+    "attribution": "TN Department of Health",
+    "attributionLink": "https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1609432834,
+    "description": "Case counts by county by specimen collection date and MMWR week. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\nData dictionary provided by TN Department of Health download link: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Data-Dictionary.xlsx",
+    "displayType": "table",
+    "downloadCount": 90,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37169454,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1620756593,
+    "publicationGroup": 17902304,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 540325191,
+    "rowsUpdatedAt": 1703215451,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18303464,
+    "totalTimesRated": 0,
+    "viewCount": 233,
+    "viewLastModified": 1703215181,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1609433466,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3604861,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1609433232,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1609433466,
+                "failureCount": 0,
+                "startedAt": 1609433466,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 540325186,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 126640774,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 540325187,
+            "name": "COUNTY",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 126640775,
+            "format": {}
+        },
+        {
+            "id": 540325188,
+            "name": "POPULATION",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 126640776,
+            "format": {}
+        },
+        {
+            "id": 540325193,
+            "name": "NEW_CASES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "new_cases",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 137942621,
+            "format": {}
+        },
+        {
+            "id": 540325190,
+            "name": "MMWR_WEEK",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "mmwr_week",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 126640773,
+            "format": {}
+        },
+        {
+            "id": 540325192,
+            "name": "MMWR_YEAR",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "mmwr_year",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 137942620,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 540325191,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Unique row id",
+            "fieldName": "id",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 131182365,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 540325191,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tn health department covid data"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

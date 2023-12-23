@@ -1,0 +1,325 @@
+{
+    "id": "q7mb-natz",
+    "name": "Chattanooga Marathon 5K Route 2019",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1551631369,
+    "description": "Note: Route is approximate and not the official length.",
+    "displayType": "table",
+    "downloadCount": 145,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1551631436,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30973534,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1551631427,
+    "publicationGroup": 16009953,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1551631426,
+    "rowsUpdatedBy": "wma2-yapv",
+    "tableId": 16009953,
+    "totalTimesRated": 0,
+    "viewCount": 251,
+    "viewLastModified": 1551631427,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1551631427,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367217,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1551631427,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 397983144,
+            "name": "the_geom",
+            "dataTypeName": "multiline",
+            "description": "",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multiline",
+            "tableColumnId": 77520832,
+            "format": {}
+        },
+        {
+            "id": 397983145,
+            "name": "dirprefix",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "dirprefix",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77520833,
+            "format": {}
+        },
+        {
+            "id": 397983146,
+            "name": "dirsuffix",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "dirsuffix",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 77520834,
+            "format": {}
+        },
+        {
+            "id": 397983147,
+            "name": "fullname",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fullname",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77520835,
+            "format": {}
+        },
+        {
+            "id": 397983148,
+            "name": "functclass",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "functclass",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77520836,
+            "format": {}
+        },
+        {
+            "id": 397983149,
+            "name": "leftfrom",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "leftfrom",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 77520837,
+            "format": {}
+        },
+        {
+            "id": 397983150,
+            "name": "leftto",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "leftto",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 77520838,
+            "format": {}
+        },
+        {
+            "id": 397983151,
+            "name": "maxaddress",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "maxaddress",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 77520839,
+            "format": {}
+        },
+        {
+            "id": 397983152,
+            "name": "minaddress",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "minaddress",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 77520840,
+            "format": {}
+        },
+        {
+            "id": 397983153,
+            "name": "name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77520841,
+            "format": {}
+        },
+        {
+            "id": 397983154,
+            "name": "objectid",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "objectid",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 77520842,
+            "format": {}
+        },
+        {
+            "id": 397983155,
+            "name": "oddside",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "oddside",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77520843,
+            "format": {}
+        },
+        {
+            "id": 397983156,
+            "name": "ownership",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ownership",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 77520844,
+            "format": {}
+        },
+        {
+            "id": 397983157,
+            "name": "rightfrom",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "rightfrom",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 77520845,
+            "format": {}
+        },
+        {
+            "id": 397983158,
+            "name": "rightto",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "rightto",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 77520846,
+            "format": {}
+        },
+        {
+            "id": 397983159,
+            "name": "streetid",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "streetid",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 77520847,
+            "format": {}
+        },
+        {
+            "id": 397983160,
+            "name": "streetstat",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "streetstat",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 77520848,
+            "format": {}
+        },
+        {
+            "id": 397983161,
+            "name": "typeprefix",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "typeprefix",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 77520849,
+            "format": {}
+        },
+        {
+            "id": 397983162,
+            "name": "typesuffix",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "typesuffix",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 77520850,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

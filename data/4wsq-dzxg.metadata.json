@@ -1,0 +1,143 @@
+{
+    "id": "4wsq-dzxg",
+    "name": "District Map for Capital Project Explorer",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1559221273,
+    "displayType": "table",
+    "downloadCount": 111,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1565964764,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31601021,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1559221312,
+    "publicationGroup": 16232904,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1559221312,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16232904,
+    "totalTimesRated": 0,
+    "viewCount": 176,
+    "viewLastModified": 1559221312,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1565964763,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 1055184,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1565964763,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1565964763,
+                "failureCount": 0,
+                "startedAt": 1565964763,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 410793853,
+            "name": "district_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 81660936,
+            "format": {}
+        },
+        {
+            "id": 410793851,
+            "name": "district_name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 81660934,
+            "format": {}
+        },
+        {
+            "id": 410793852,
+            "name": "geometry_wkt",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 3,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 81660935,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

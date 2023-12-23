@@ -1,0 +1,201 @@
+{
+    "id": "b3de-5ta3",
+    "name": "Public Library Items Owned",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1659462759,
+    "description": "Items owned by the Public Library by branch including digital items",
+    "displayType": "table",
+    "downloadCount": 84,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38890360,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1664212405,
+    "publicationGroup": 18806318,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1664212440,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 18884416,
+    "totalTimesRated": 0,
+    "viewCount": 38,
+    "viewLastModified": 1666190817,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1662558554,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4999139,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1662558403,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1662558554,
+                "failureCount": 0,
+                "startedAt": 1662558554,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 565924593,
+            "name": "Branch Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "branch_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 143180474,
+            "format": {}
+        },
+        {
+            "id": 565924594,
+            "name": "Report Month",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "report_month",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 143180473,
+            "format": {}
+        },
+        {
+            "id": 565924595,
+            "name": "Report Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "report_year",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 143205924,
+            "format": {}
+        },
+        {
+            "id": 565924596,
+            "name": "Item Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "item_type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 143180471,
+            "format": {}
+        },
+        {
+            "id": 565924597,
+            "name": "Item Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "item_count",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 143180470,
+            "format": {}
+        },
+        {
+            "id": 565924598,
+            "name": "Report Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "report_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 143195786,
+            "format": {}
+        },
+        {
+            "id": 565924599,
+            "name": "Fiscal Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 143205925,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Department": "Public Library",
+                "Data Steward Name": "Joshua Hardin",
+                "How often are data values updated?": "Yearly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 565924600,
+        "rowLabel": "Item",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

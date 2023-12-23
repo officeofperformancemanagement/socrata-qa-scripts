@@ -1,0 +1,218 @@
+{
+    "id": "hx9e-czkb",
+    "name": "Census Tract Unemployment Rate 2013 - 2018",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1588701500,
+    "description": "Unemployment rate data for census tracts in Hamilton County from 2013 to 2018",
+    "displayType": "table",
+    "downloadCount": 62,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34070374,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1588704480,
+    "publicationGroup": 17093860,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1588702410,
+    "tableId": 17093922,
+    "totalTimesRated": 0,
+    "viewCount": 135,
+    "viewLastModified": 1666191353,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1588702462,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2160894,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1588702411,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1588702463,
+                "failureCount": 0,
+                "startedAt": 1588702462,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 465853612,
+            "name": "Tract ID",
+            "dataTypeName": "text",
+            "description": "Census tract id",
+            "fieldName": "tract_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 100722072,
+            "format": {}
+        },
+        {
+            "id": 465853613,
+            "name": "Unemployment Rate",
+            "dataTypeName": "number",
+            "description": "Census tract unemployment rate",
+            "fieldName": "unemployment_rate",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 100722074,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 465853614,
+            "name": "Unemployment Rate Change",
+            "dataTypeName": "number",
+            "description": "Change in unemployment rate from previous year",
+            "fieldName": "unemployment_rate_change",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 100722075,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 465853615,
+            "name": "Year",
+            "dataTypeName": "number",
+            "description": "Year of data",
+            "fieldName": "year",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 100722078,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 465853616,
+            "name": "City Council District",
+            "dataTypeName": "text",
+            "description": "City council district where census tract centroid is located",
+            "fieldName": "city_council_district",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 100722073,
+            "format": {}
+        },
+        {
+            "id": 465853617,
+            "name": "tract geometry",
+            "dataTypeName": "polygon",
+            "description": "Geometry of census tract",
+            "fieldName": "tract_geometry",
+            "position": 6,
+            "renderTypeName": "polygon",
+            "tableColumnId": 100722076,
+            "format": {}
+        },
+        {
+            "id": 465853618,
+            "name": "centoid geometry",
+            "dataTypeName": "point",
+            "description": "Geometry of census tract centroid",
+            "fieldName": "centoid_geometry",
+            "position": 7,
+            "renderTypeName": "point",
+            "tableColumnId": 100722077,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "census",
+        "unemployment",
+        "economy",
+        "jobs"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

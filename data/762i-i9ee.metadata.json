@@ -1,0 +1,250 @@
+{
+    "id": "762i-i9ee",
+    "name": "Testing Locations",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1597254426,
+    "description": "Data from testing map 8/12/20 spreadsheet",
+    "displayType": "table",
+    "downloadCount": 61,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34927433,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1597254503,
+    "publicationGroup": 17435367,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1597254497,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17435367,
+    "totalTimesRated": 0,
+    "viewCount": 61,
+    "viewLastModified": 1666190709,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1597254630,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2553187,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1597254504,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1597254630,
+                "failureCount": 0,
+                "startedAt": 1597254630,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 487582725,
+            "name": "Site",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "site",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 111791312,
+            "format": {}
+        },
+        {
+            "id": 487582726,
+            "name": "Location",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "location",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 111791313,
+            "format": {}
+        },
+        {
+            "id": 487582727,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 111791314,
+            "format": {}
+        },
+        {
+            "id": 487582731,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 111791318,
+            "format": {}
+        },
+        {
+            "id": 487582728,
+            "name": "lat",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lat",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 111791315,
+            "format": {}
+        },
+        {
+            "id": 487582729,
+            "name": "long",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "long",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 111791316,
+            "format": {}
+        },
+        {
+            "id": 487582730,
+            "name": "geometry",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 7,
+            "renderTypeName": "point",
+            "tableColumnId": 111791317,
+            "format": {}
+        },
+        {
+            "id": 487582732,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 111791319,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 487582733,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 111791320,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "testing"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,296 @@
+{
+    "id": "syxf-r9dw",
+    "name": "2017 Tract Population - Age Simplified",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1557254661,
+    "description": "2017 generalized tract population categorized by age. Data from ACS.",
+    "displayType": "table",
+    "downloadCount": 88,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1572012485,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32713411,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1572011500,
+    "publicationGroup": 16181521,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1572011496,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16662478,
+    "totalTimesRated": 0,
+    "viewCount": 137,
+    "viewLastModified": 1572011500,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557254918,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1403704,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557254898,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557254918,
+                "failureCount": 0,
+                "startedAt": 1557254918,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 435181746,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80583957,
+            "format": {}
+        },
+        {
+            "id": 435181747,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80583945,
+            "format": {}
+        },
+        {
+            "id": 435181748,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80583946,
+            "format": {}
+        },
+        {
+            "id": 435181749,
+            "name": "Under 9 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "under_9_years",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80583947,
+            "format": {}
+        },
+        {
+            "id": 435181750,
+            "name": "10 to 19 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_10_to_19_years",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 80583948,
+            "format": {}
+        },
+        {
+            "id": 435181752,
+            "name": "Population 19 or Under",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population_19_or_under",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 89806130,
+            "format": {}
+        },
+        {
+            "id": 435181753,
+            "name": "20 to 29 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_20_to_29_years",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 80583949,
+            "format": {}
+        },
+        {
+            "id": 435181754,
+            "name": "30 to 39 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_30_to_39_years",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 80583950,
+            "format": {}
+        },
+        {
+            "id": 435181755,
+            "name": "40 to 49 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_40_to_49_years",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 80583951,
+            "format": {}
+        },
+        {
+            "id": 435181756,
+            "name": "50 to 59 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_50_to_59_years",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 80583952,
+            "format": {}
+        },
+        {
+            "id": 435181757,
+            "name": "60 to 69 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_60_to_69_years",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 80583953,
+            "format": {}
+        },
+        {
+            "id": 435181758,
+            "name": "70 to 79 years",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_70_to_79_years",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 80583954,
+            "format": {}
+        },
+        {
+            "id": 435181759,
+            "name": "80 years and over",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "_80_years_and_over",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 80583955,
+            "format": {}
+        },
+        {
+            "id": 435181761,
+            "name": "Population 60 or Older",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "population_60_or_older",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 89806129,
+            "format": {}
+        },
+        {
+            "id": 435181762,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 17,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80583956,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract 4 and 11"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

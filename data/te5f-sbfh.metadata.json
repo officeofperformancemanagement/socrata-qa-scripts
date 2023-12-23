@@ -1,0 +1,447 @@
+{
+    "id": "te5f-sbfh",
+    "name": "Parking Meters",
+    "assetType": "dataset",
+    "attribution": "CARTA",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1548273221,
+    "description": "Parking meters and parking kiosks.",
+    "displayType": "table",
+    "downloadCount": 174,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1549635865,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30664433,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1548362799,
+    "publicationGroup": 15883686,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1548362799,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 15886478,
+    "totalTimesRated": 0,
+    "viewCount": 414,
+    "viewLastModified": 1549635860,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1549635860,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367127,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1549635860,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 392952054,
+            "name": "CARTA ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "carta_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76018447,
+            "format": {}
+        },
+        {
+            "id": 392952055,
+            "name": "Zone Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zone_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 76018438,
+            "format": {}
+        },
+        {
+            "id": 392952056,
+            "name": "Block Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "block_number",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76018439,
+            "format": {}
+        },
+        {
+            "id": 392952057,
+            "name": "Street Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_name",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76018440,
+            "format": {}
+        },
+        {
+            "id": 392952058,
+            "name": "Street Dir",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_dir",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76018441,
+            "format": {}
+        },
+        {
+            "id": 392952059,
+            "name": "Coins Accepted",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "coins_accepted",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76018448,
+            "format": {}
+        },
+        {
+            "id": 392952060,
+            "name": "Time Limit",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "time_limit",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76018442,
+            "format": {}
+        },
+        {
+            "id": 392952061,
+            "name": "Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76018443,
+            "format": {}
+        },
+        {
+            "id": 392952062,
+            "name": "Credit Card Accpt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "credit_card_accpt",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76018437,
+            "format": {}
+        },
+        {
+            "id": 392952064,
+            "name": "Block Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "block_latitude",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 76018445,
+            "format": {}
+        },
+        {
+            "id": 392952065,
+            "name": "Block Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "block_longitude",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 76018446,
+            "format": {}
+        },
+        {
+            "id": 392952066,
+            "name": "Block Location",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "block_location",
+            "position": 12,
+            "renderTypeName": "point",
+            "tableColumnId": 76018436,
+            "format": {}
+        },
+        {
+            "id": 392952105,
+            "name": "Block Location (address)",
+            "dataTypeName": "text",
+            "fieldName": "block_location_address",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76059634,
+            "format": {}
+        },
+        {
+            "id": 392952107,
+            "name": "Block Location (city)",
+            "dataTypeName": "text",
+            "fieldName": "block_location_city",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76059636,
+            "format": {}
+        },
+        {
+            "id": 392952106,
+            "name": "Block Location (state)",
+            "dataTypeName": "text",
+            "fieldName": "block_location_state",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 76059635,
+            "format": {}
+        },
+        {
+            "id": 392952104,
+            "name": "Block Location (zip)",
+            "dataTypeName": "text",
+            "fieldName": "block_location_zip",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 76059633,
+            "format": {}
+        },
+        {
+            "id": 392952108,
+            "name": "Council_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_9h6x_8jgn",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 76059637,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_9h6x-8jgn",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 392952109,
+            "name": "CPD Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ve3d_9xnd",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 76059638,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ve3d-9xnd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 392952110,
+            "name": "Council Districts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_4vzv_2fju",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 76059639,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_4vzv-2fju",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 392952111,
+            "name": "Zip Codes",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_p3ri_5gm3",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 76059640,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_p3ri-5gm3",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 392952112,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_wp8v_7sj9",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 76059641,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_wp8v-7sj9",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 392952113,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_pwng_4mvk",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 76059642,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_pwng-4mvk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 392952114,
+            "name": "Neighborhood Associations_data",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_fri7_gnnk",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 76059643,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_fri7-gnnk",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 392952115,
+            "name": "Council_data 2",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_ap6c_9ws7",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 76059644,
+            "computationStrategy": {
+                "source_columns": [
+                    "block_location"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ap6c-9ws7",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "parking",
+        "meter"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

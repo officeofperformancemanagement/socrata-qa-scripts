@@ -1,0 +1,1106 @@
+{
+    "id": "fkir-6ve6",
+    "name": "Community Survey Results",
+    "assetType": "filter",
+    "attribution": "Internal Audit",
+    "attributionLink": "https://chattanooga.gov/internal-audit/community-surveys",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1562954391,
+    "description": "Data from the annual community survey conducted by the City of Chattanooga Internal Audit to evaluate citizen's satisfaction with the City.",
+    "displayType": "table",
+    "downloadCount": 102,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "p6mj-ef7e",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39938620,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1572283319,
+    "publicationGroup": 16202115,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1694441866,
+    "rowsUpdatedBy": "iiwc-mbju",
+    "tableId": 19280646,
+    "totalTimesRated": 0,
+    "viewCount": 335,
+    "viewLastModified": 1572283327,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562954521,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5749968,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562954503,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562954521,
+                "failureCount": 0,
+                "startedAt": 1562954521,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 580607654,
+            "name": "Year",
+            "dataTypeName": "text",
+            "description": "Year the survey was administered",
+            "fieldName": "year",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 89958340,
+            "format": {}
+        },
+        {
+            "id": 580607655,
+            "name": "Format",
+            "dataTypeName": "text",
+            "description": "The published format which was employed.Coded Values = TEXT - Paper: Scanning, Paper: Keyed, Online",
+            "fieldName": "format",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 81011355,
+            "format": {}
+        },
+        {
+            "id": 580607656,
+            "name": "1a Overall, how do you rate the quality of life in Chattanooga as a place to live.",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_1a_overall_how_do_you_rate",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 81011334,
+            "format": {}
+        },
+        {
+            "id": 580607657,
+            "name": "1b Overall, how do you rate the quality of life in your neighborhood as a place to live.",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_1b_overall_how_do_you_rate",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 81011358,
+            "format": {}
+        },
+        {
+            "id": 580607658,
+            "name": "1c Overall, how do you rate the quality of life in Chattanooga as a place to work.",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_1c_overall_how_do_you_rate",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 81011399,
+            "format": {}
+        },
+        {
+            "id": 580607659,
+            "name": "1d Overall, how do you rate the quality of life in Chattanooga as a place to raise children.",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_1d_overall_how_do_you_rate",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 81011394,
+            "format": {}
+        },
+        {
+            "id": 580607660,
+            "name": "1e Overall, how do you rate the quality of life in Chattanooga as a place to retire.",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_1e_overall_how_do_you_rate",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 81011363,
+            "format": {}
+        },
+        {
+            "id": 580607661,
+            "name": "2a How safe would you feel walking alone during the day in your neighborhood?",
+            "dataTypeName": "number",
+            "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
+            "fieldName": "_2a_how_safe_would_you_feel",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 81011396,
+            "format": {}
+        },
+        {
+            "id": 580607662,
+            "name": "2b How safe would you feel walking alone during the day in the park closest to you?",
+            "dataTypeName": "number",
+            "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
+            "fieldName": "_2b_how_safe_would_you_feel",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 81011376,
+            "format": {}
+        },
+        {
+            "id": 580607663,
+            "name": "2c How safe would you feel walking alone during the day downtown?",
+            "dataTypeName": "number",
+            "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
+            "fieldName": "_2c_how_safe_would_you_feel",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 81011317,
+            "format": {}
+        },
+        {
+            "id": 580607664,
+            "name": "3a How safe would you feel walking alone during at night in your neighborhood?",
+            "dataTypeName": "number",
+            "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
+            "fieldName": "_3a_how_safe_would_you_feel",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 81011341,
+            "format": {}
+        },
+        {
+            "id": 580607665,
+            "name": "3b How safe would you feel walking alone during at night in the park closest to you?",
+            "dataTypeName": "number",
+            "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
+            "fieldName": "_3b_how_safe_would_you_feel",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 81011370,
+            "format": {}
+        },
+        {
+            "id": 580607666,
+            "name": "3c How safe would you feel walking alone during at night downtown?",
+            "dataTypeName": "number",
+            "description": "Likert  Scale - Very Safe=5, Safe=4, Neutral=3, Unsafe,=2 Very Unsafe=1, Don't Know=BLANK",
+            "fieldName": "_3c_how_safe_would_you_feel",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 81011332,
+            "format": {}
+        },
+        {
+            "id": 580607667,
+            "name": "4a Did anyone break into, or burglarize, your home during the last 12 months?",
+            "dataTypeName": "text",
+            "description": "TEXT - Yes / No",
+            "fieldName": "_4a_did_anyone_break_into",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 89958339,
+            "format": {}
+        },
+        {
+            "id": 580607668,
+            "name": "4b If yes, was it reported to the police?",
+            "dataTypeName": "text",
+            "description": "TEXT - Yes / No",
+            "fieldName": "_4b_if_yes_was_it_reported",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 89958333,
+            "format": {}
+        },
+        {
+            "id": 580607669,
+            "name": "5a Did anyone break into, or attempt to break into, any vehicles belonging to your household during the last 12 months?",
+            "dataTypeName": "text",
+            "description": "TEXT - Yes / No",
+            "fieldName": "_5a_did_anyone_break_into",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 89958329,
+            "format": {}
+        },
+        {
+            "id": 580607670,
+            "name": "5b If yes, was it reported to the police?",
+            "dataTypeName": "text",
+            "description": "TEXT - Yes / No",
+            "fieldName": "_5b_if_yes_was_it_reported",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 89958335,
+            "format": {}
+        },
+        {
+            "id": 580607671,
+            "name": "6a Did you call 9-1-1 for an emergency during the last 12 months?",
+            "dataTypeName": "text",
+            "description": "TEXT - Yes / No (Question discontinued in 2022)",
+            "fieldName": "_6a_did_you_call_9_1_1_for",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 89958337,
+            "format": {}
+        },
+        {
+            "id": 580607672,
+            "name": "6b If yes, how do you rate the services you received on the the phone from the 9-1-1 calltaker?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK  (Discontinued in 2022)",
+            "fieldName": "_6b_if_yes_how_do_you_rate",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 81011384,
+            "format": {}
+        },
+        {
+            "id": 580607673,
+            "name": "7a How do you rate police services on the overall quality of services?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_7a_how_do_you_rate_police",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 81011378,
+            "format": {}
+        },
+        {
+            "id": 580607674,
+            "name": "7b How do you rate police services on the conduct of police officers?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_7b_how_do_you_rate_police",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 81011350,
+            "format": {}
+        },
+        {
+            "id": 580607675,
+            "name": "7c How do you rate police services on the speed of emergency police response?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_7c_how_do_you_rate_police",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 81011380,
+            "format": {}
+        },
+        {
+            "id": 580607676,
+            "name": "8a Did you use fire or emergency medical services during the last 12 months?",
+            "dataTypeName": "text",
+            "description": "TEXT - Yes / No (Discontinued in 2022)",
+            "fieldName": "_8a_did_you_use_fire_or",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 89958330,
+            "format": {}
+        },
+        {
+            "id": 580607677,
+            "name": "8b If yes, how do you rate the services you received on overall quality of services?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_8b_if_yes_how_do_you_rate",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 81011367,
+            "format": {}
+        },
+        {
+            "id": 580607678,
+            "name": "8c If yes, how do you rate the services you received on speed of emergency response?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_8c_if_yes_how_do_you_rate",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 81011356,
+            "format": {}
+        },
+        {
+            "id": 580607679,
+            "name": "9a How do you rate your satisfaction with the following City services: Garbage Pick-up?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
+            "fieldName": "_9a_how_do_you_rate_your",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 81011397,
+            "format": {}
+        },
+        {
+            "id": 580607680,
+            "name": "9b How do you rate your satisfaction with the following City services: Yard-waste Pick-up?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
+            "fieldName": "_9b_how_do_you_rate_your",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 81011343,
+            "format": {}
+        },
+        {
+            "id": 580607681,
+            "name": "9c How do you rate your satisfaction with the following City services: Curbside Recycling?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
+            "fieldName": "_9c_how_do_you_rate_your",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 81011336,
+            "format": {}
+        },
+        {
+            "id": 580607682,
+            "name": "9d How do you rate your satisfaction with the following City services: Water Quality of Lakes and Streams?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
+            "fieldName": "_9d_how_do_you_rate_your",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 81011377,
+            "format": {}
+        },
+        {
+            "id": 580607683,
+            "name": "9e How do you rate your satisfaction with the following City services: Storm Drainage?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK (Discontinued in 2022 and combined with 9f in a new question 9g))",
+            "fieldName": "_9e_how_do_you_rate_your",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 148346373,
+            "format": {}
+        },
+        {
+            "id": 580607684,
+            "name": "9f How do you rate your satisfaction with the following City services: Sewers?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK (Discontinued in 2022 and combined with 9e in a new question 9g)",
+            "fieldName": "_9f_how_do_you_rate_your",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 81011324,
+            "format": {}
+        },
+        {
+            "id": 580607685,
+            "name": "10a In the past 12 months, how many times did you: Visit any city park?",
+            "dataTypeName": "text",
+            "description": "TEXT - Daily, Weekly, Monthly, A Few Times, Never, Don't Know",
+            "fieldName": "_10a_in_the_past_12_months",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 81011318,
+            "format": {}
+        },
+        {
+            "id": 580607686,
+            "name": "10b In the past 12 months, how many times did you: Visit a city park near your home?",
+            "dataTypeName": "text",
+            "description": "TEXT - Daily, Weekly, Monthly, A Few Times, Never, Don't Know",
+            "fieldName": "_10b_in_the_past_12_months",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 81011388,
+            "format": {}
+        },
+        {
+            "id": 580607687,
+            "name": "11a How do you rate the quality of the parks near your home for well-maintained landscaping?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Discontinued in 2022)",
+            "fieldName": "_11a_how_do_you_rate_the",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 81011390,
+            "format": {}
+        },
+        {
+            "id": 580607688,
+            "name": "11b How do you rate the quality of the parks near your home for well-maintained facilities?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Reworded in 2022: \"11b How do you rate the quality of the parks near your home for well-maintained facilities?\")",
+            "fieldName": "_11b_how_do_you_rate_the",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 81011346,
+            "format": {}
+        },
+        {
+            "id": 580607689,
+            "name": "11c How do you rate the quality of the parks near your home for well-maintained playgrounds?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Reworded in 2022: \"11b How do you rate the quality of the parks near your home for well-maintained playgrounds?\")",
+            "fieldName": "_11c_how_do_you_rate_the",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 81011335,
+            "format": {}
+        },
+        {
+            "id": 580607691,
+            "name": "13a How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Affordability?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
+            "fieldName": "_13a_how_satisfied_are_you",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 81011365,
+            "format": {}
+        },
+        {
+            "id": 580607692,
+            "name": "13b How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Variety?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
+            "fieldName": "_13b_how_satisfied_are_you",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 81011329,
+            "format": {}
+        },
+        {
+            "id": 580607693,
+            "name": "13c How satisfied are you with the City's recreation programs, classes and events held at community centers, pools, or sports facilities: Quality of instruction, coaching, leadership, etc?",
+            "dataTypeName": "number",
+            "description": "Likert Scale - Very Satisfied=5, Somewhat Satisfied=4, Neutral=3, Somewhat Dissatisfied=2, Very Dissatisfied=1, Don't Know=BLANK",
+            "fieldName": "_13c_how_satisfied_are_you",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 81011345,
+            "format": {}
+        },
+        {
+            "id": 580607694,
+            "name": "14a How do you rate traffic flow (congestion) on major streets and thoroughfares, excluding freeways during peak hours, that is 7-9am and 3:30-6pm?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_14a_how_do_you_rate_traffic",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 81011366,
+            "format": {}
+        },
+        {
+            "id": 580607695,
+            "name": "14b How do you rate traffic flow (congestion) on major streets and thoroughfares, excluding freeways during off-peak traffic hours?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_14b_how_do_you_rate_traffic",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 81011374,
+            "format": {}
+        },
+        {
+            "id": 580607696,
+            "name": "15a How do you rate City streets on smoothness?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_15a_how_do_you_rate_city",
+            "position": 44,
+            "renderTypeName": "number",
+            "tableColumnId": 81011321,
+            "format": {}
+        },
+        {
+            "id": 580607697,
+            "name": "15b How do you rate City streets on cleanliness?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_15b_how_do_you_rate_city",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 81011313,
+            "format": {}
+        },
+        {
+            "id": 580607698,
+            "name": "15c How do you rate City streets on speeding vehicles?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_15c_how_do_you_rate_city",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 81011395,
+            "format": {}
+        },
+        {
+            "id": 580607699,
+            "name": "15d How do you rate City streets on safety of pedestrians?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_15d_how_do_you_rate_city",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 81011387,
+            "format": {}
+        },
+        {
+            "id": 580607700,
+            "name": "15e How do you rate City streets on safety of bicyclists?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_15e_how_do_you_rate_city",
+            "position": 48,
+            "renderTypeName": "number",
+            "tableColumnId": 81011389,
+            "format": {}
+        },
+        {
+            "id": 580607701,
+            "name": "16a Has a new commercial development been completed in or near your neighborhood in the last 12 months?",
+            "dataTypeName": "text",
+            "description": " TEXT - Yes / No",
+            "fieldName": "_16a_has_a_new_commercial",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 89958334,
+            "format": {}
+        },
+        {
+            "id": 580607702,
+            "name": "16b If yes, how do you rate it on attractiveness?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_16b_if_yes_how_do_you_rate",
+            "position": 50,
+            "renderTypeName": "number",
+            "tableColumnId": 81011393,
+            "format": {}
+        },
+        {
+            "id": 580607703,
+            "name": "16c If yes, how do you rate it on  improvement to your neighborhood as a place to live?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_16c_if_yes_how_do_you_rate",
+            "position": 51,
+            "renderTypeName": "number",
+            "tableColumnId": 81011361,
+            "format": {}
+        },
+        {
+            "id": 580607704,
+            "name": "17a Has a new residentail development been completed in or near your neighborhood in the last 12 months?",
+            "dataTypeName": "text",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_17a_has_a_new_residentail",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 89958332,
+            "format": {}
+        },
+        {
+            "id": 580607705,
+            "name": "17b If yes, how do you rate it on attractiveness?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_17b_if_yes_how_do_you_rate",
+            "position": 53,
+            "renderTypeName": "number",
+            "tableColumnId": 81011362,
+            "format": {}
+        },
+        {
+            "id": 580607706,
+            "name": "17c If yes, how do you rate it on improvement to your neighborhood as a place to live?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_17c_if_yes_how_do_you_rate",
+            "position": 54,
+            "renderTypeName": "number",
+            "tableColumnId": 81011337,
+            "format": {}
+        },
+        {
+            "id": 580607707,
+            "name": "18a How do you rate your neighborhood on housing affordability?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18a_how_do_you_rate_your",
+            "position": 55,
+            "renderTypeName": "number",
+            "tableColumnId": 81011379,
+            "format": {}
+        },
+        {
+            "id": 580607708,
+            "name": "18b How do you rate your neighborhood on physical condition of housing?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18b_how_do_you_rate_your",
+            "position": 56,
+            "renderTypeName": "number",
+            "tableColumnId": 81011342,
+            "format": {}
+        },
+        {
+            "id": 580607709,
+            "name": "18c How do you rate your neighborhood on closeness of parks or open spaces?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18c_how_do_you_rate_your",
+            "position": 57,
+            "renderTypeName": "number",
+            "tableColumnId": 81011319,
+            "format": {}
+        },
+        {
+            "id": 580607710,
+            "name": "18d How do you rate your neighborhood on walking distance to public transit?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18d_how_do_you_rate_your",
+            "position": 58,
+            "renderTypeName": "number",
+            "tableColumnId": 81011373,
+            "format": {}
+        },
+        {
+            "id": 580607711,
+            "name": "18e How do you rate your neighborhood on access to shopping and other services?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18e_how_do_you_rate_your",
+            "position": 59,
+            "renderTypeName": "number",
+            "tableColumnId": 81011325,
+            "format": {}
+        },
+        {
+            "id": 580607712,
+            "name": "18f How do you rate your neighborhood on on-street parking?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18f_how_do_you_rate_your",
+            "position": 60,
+            "renderTypeName": "number",
+            "tableColumnId": 81011372,
+            "format": {}
+        },
+        {
+            "id": 580607713,
+            "name": "18g How do you rate your neighborhood on street lighting?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18g_how_do_you_rate_your",
+            "position": 61,
+            "renderTypeName": "number",
+            "tableColumnId": 81011369,
+            "format": {}
+        },
+        {
+            "id": 580607714,
+            "name": "18h How do you rate your neighborhood on availability of sidewalks?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_18h_how_do_you_rate_your",
+            "position": 62,
+            "renderTypeName": "number",
+            "tableColumnId": 81011357,
+            "format": {}
+        },
+        {
+            "id": 580607715,
+            "name": "19a How do you rate Chattanooga as a place to do business?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_19a_how_do_you_rate",
+            "position": 63,
+            "renderTypeName": "number",
+            "tableColumnId": 81011359,
+            "format": {}
+        },
+        {
+            "id": 580607716,
+            "name": "19b Do you own a business in Chattanooga?",
+            "dataTypeName": "text",
+            "description": " TEXT - Yes / No",
+            "fieldName": "_19b_do_you_own_a_business",
+            "position": 64,
+            "renderTypeName": "text",
+            "tableColumnId": 89958327,
+            "format": {}
+        },
+        {
+            "id": 580607717,
+            "name": "19c If yes, how many employees does your business employ?",
+            "dataTypeName": "text",
+            "description": "TEXT - Self, 1, 2-10, 11-50, 51-150, 151+",
+            "fieldName": "_19c_if_yes_how_many_employees",
+            "position": 65,
+            "renderTypeName": "text",
+            "tableColumnId": 81011381,
+            "format": {}
+        },
+        {
+            "id": 580607718,
+            "name": "20a In the last 12 months, about how many times, if ever, have you or other household members called 3-1-1 about public services?",
+            "dataTypeName": "text",
+            "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
+            "fieldName": "_20a_in_the_last_12_months",
+            "position": 66,
+            "renderTypeName": "text",
+            "tableColumnId": 81011330,
+            "format": {}
+        },
+        {
+            "id": 580607719,
+            "name": "20b In the last 12 months, about how many times, if ever, have you or other household members ridden a local bus (CARTA)? (",
+            "dataTypeName": "text",
+            "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
+            "fieldName": "_20b_in_the_last_12_months",
+            "position": 67,
+            "renderTypeName": "text",
+            "tableColumnId": 81011344,
+            "format": {}
+        },
+        {
+            "id": 580607720,
+            "name": "20c In the last 12 months, about how many times, if ever, have you or other household members visited a Chattanooga Public Library branch?",
+            "dataTypeName": "text",
+            "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
+            "fieldName": "_20c_in_the_last_12_months",
+            "position": 68,
+            "renderTypeName": "text",
+            "tableColumnId": 81011314,
+            "format": {}
+        },
+        {
+            "id": 580607721,
+            "name": "20d In the last 12 months, about how many times, if ever, have you or other household members attended an event at Memorial Auditorium or Tivoli?",
+            "dataTypeName": "text",
+            "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times (Question discontinued in 2022)",
+            "fieldName": "_20d_in_the_last_12_months",
+            "position": 69,
+            "renderTypeName": "text",
+            "tableColumnId": 81011351,
+            "format": {}
+        },
+        {
+            "id": 580607722,
+            "name": "20e In the last 12 months, about how many times, if ever, have you or other household members used/visited McKamey Animal Center?",
+            "dataTypeName": "text",
+            "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
+            "fieldName": "_20e_in_the_last_12_months",
+            "position": 70,
+            "renderTypeName": "text",
+            "tableColumnId": 81011392,
+            "format": {}
+        },
+        {
+            "id": 580607723,
+            "name": "20f In the last 12 months, about how many times, if ever, have you or other household members visited the Chattanooga.gov website?",
+            "dataTypeName": "text",
+            "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times (Question discontinued in 2022)",
+            "fieldName": "_20f_in_the_last_12_months",
+            "position": 71,
+            "renderTypeName": "text",
+            "tableColumnId": 81011340,
+            "format": {}
+        },
+        {
+            "id": 580607724,
+            "name": "20g In the last 12 months, about how many times, if ever, have you or other household members been involved in a community project or attended a public meeting?",
+            "dataTypeName": "text",
+            "description": "TEXT - Never, Once or Twice, 3 to 5 Times, 6 to 10 Times, More than 10 Times",
+            "fieldName": "_20g_in_the_last_12_months",
+            "position": 72,
+            "renderTypeName": "text",
+            "tableColumnId": 81011353,
+            "format": {}
+        },
+        {
+            "id": 580607725,
+            "name": "21a Overall, how do you rate the quality of 3-1-1?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_21a_overall_how_do_you_rate",
+            "position": 73,
+            "renderTypeName": "number",
+            "tableColumnId": 81011338,
+            "format": {}
+        },
+        {
+            "id": 580607726,
+            "name": "21b Overall, how do you rate the quality of bus services (CARTA)?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_21b_overall_how_do_you_rate",
+            "position": 74,
+            "renderTypeName": "number",
+            "tableColumnId": 81011348,
+            "format": {}
+        },
+        {
+            "id": 580607727,
+            "name": "21c Overall, how do you rate the quality of experiences at Memorial Auditorium and/or Tivoli?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Question discontinued in 2022)",
+            "fieldName": "_21c_overall_how_do_you_rate",
+            "position": 75,
+            "renderTypeName": "number",
+            "tableColumnId": 81011327,
+            "format": {}
+        },
+        {
+            "id": 580607728,
+            "name": "21d Overall, how do you rate the quality of animal control (McKamey)?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_21d_overall_how_do_you_rate",
+            "position": 76,
+            "renderTypeName": "number",
+            "tableColumnId": 81011322,
+            "format": {}
+        },
+        {
+            "id": 580607729,
+            "name": "21e Overall, how do you rate the quality of public libraries?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_21e_overall_how_do_you_rate",
+            "position": 77,
+            "renderTypeName": "number",
+            "tableColumnId": 81011398,
+            "format": {}
+        },
+        {
+            "id": 580607730,
+            "name": "21f Overall, how do you rate the quality of chattanooga.gov website?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK (Question discontinued in 2022)",
+            "fieldName": "_21f_overall_how_do_you_rate",
+            "position": 78,
+            "renderTypeName": "number",
+            "tableColumnId": 81011382,
+            "format": {}
+        },
+        {
+            "id": 580607731,
+            "name": "22a Overall, how do you rate following aspects of City government performance: Value of services for City taxes paid?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_22a_overall_how_do_you_rate",
+            "position": 79,
+            "renderTypeName": "number",
+            "tableColumnId": 81011352,
+            "format": {}
+        },
+        {
+            "id": 580607732,
+            "name": "22b Overall, how do you rate following aspects of City government performance: Overall direction the City is taking?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_22b_overall_how_do_you_rate",
+            "position": 80,
+            "renderTypeName": "number",
+            "tableColumnId": 81011331,
+            "format": {}
+        },
+        {
+            "id": 580607733,
+            "name": "22c Overall, how do you rate following aspects of City government performance: Welcoming citizen involvement?",
+            "dataTypeName": "number",
+            "description": "Likert Scale- Very Good=5, Good=4, Neutral=3, Bad,=2 Very Bad=1, Don't Know=BLANK",
+            "fieldName": "_22c_overall_how_do_you_rate",
+            "position": 81,
+            "renderTypeName": "number",
+            "tableColumnId": 81011386,
+            "format": {}
+        },
+        {
+            "id": 580607734,
+            "name": "Sex",
+            "dataTypeName": "text",
+            "description": "TEXT - Male / Female",
+            "fieldName": "sex",
+            "position": 82,
+            "renderTypeName": "text",
+            "tableColumnId": 81011385,
+            "format": {}
+        },
+        {
+            "id": 580607735,
+            "name": "Age",
+            "dataTypeName": "text",
+            "description": "TEXT - Under 20, 20-29, 30-44, 45-59, 60-74, Over 74",
+            "fieldName": "age",
+            "position": 83,
+            "renderTypeName": "text",
+            "tableColumnId": 81011383,
+            "format": {}
+        },
+        {
+            "id": 580607736,
+            "name": "Length of Stay in Chattanooga",
+            "dataTypeName": "text",
+            "description": "TEXT - Less than 5, 5-10 years, 11-20 years, More than 20 years",
+            "fieldName": "length_of_stay_in_chattanooga",
+            "position": 84,
+            "renderTypeName": "text",
+            "tableColumnId": 81011339,
+            "format": {}
+        },
+        {
+            "id": 580607737,
+            "name": "Own or Rent",
+            "dataTypeName": "text",
+            "description": "TEXT - Own, Rent, Live with Someone (rent-free)",
+            "fieldName": "own_or_rent",
+            "position": 85,
+            "renderTypeName": "text",
+            "tableColumnId": 81011323,
+            "format": {}
+        },
+        {
+            "id": 580607738,
+            "name": "Individual Income",
+            "dataTypeName": "text",
+            "description": "TEXT - No income, Less than $20,000, $20,000-$34,999, $35,000-$74,999, $75,000-$149,999, $150,000 or more",
+            "fieldName": "individual_income",
+            "position": 86,
+            "renderTypeName": "text",
+            "tableColumnId": 81011315,
+            "format": {}
+        },
+        {
+            "id": 580607739,
+            "name": "Ethnicity",
+            "dataTypeName": "text",
+            "description": "TEXT - Caucasian/White, African-American/Black, Asian or Pacific Islander, Native American/Indian, Hispanic/Latino, Other",
+            "fieldName": "ethnicity",
+            "position": 87,
+            "renderTypeName": "text",
+            "tableColumnId": 81011391,
+            "format": {}
+        },
+        {
+            "id": 580607740,
+            "name": "Education",
+            "dataTypeName": "text",
+            "description": "TEXT - Elementary, Some high school, High school grad or equivalent, Some college, College grad or more",
+            "fieldName": "education",
+            "position": 88,
+            "renderTypeName": "text",
+            "tableColumnId": 81011354,
+            "format": {}
+        },
+        {
+            "id": 580607741,
+            "name": "Zip Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip_code",
+            "position": 89,
+            "renderTypeName": "text",
+            "tableColumnId": 89958338,
+            "format": {}
+        },
+        {
+            "id": 580607742,
+            "name": "Council District",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "council_district",
+            "position": 90,
+            "renderTypeName": "text",
+            "tableColumnId": 89958328,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Yearly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "survey",
+        "community survey",
+        "internal audit",
+        "satisfaction",
+        "citizen"
+    ],
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

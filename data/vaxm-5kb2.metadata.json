@@ -1,0 +1,240 @@
+{
+    "id": "vaxm-5kb2",
+    "name": "2017 5-Year Occupancy Status",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1568041592,
+    "description": "5 year occupancy status for tracts in Hamilton County. Data provided by ACS.",
+    "displayType": "table",
+    "downloadCount": 73,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1568991370,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32325255,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1568046597,
+    "publicationGroup": 16502496,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1568046597,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16502496,
+    "totalTimesRated": 0,
+    "viewCount": 96,
+    "viewLastModified": 1568046597,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1568046608,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1168718,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1568046598,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1568046608,
+                "failureCount": 0,
+                "startedAt": 1568046608,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 427525957,
+            "name": "Total Vacant",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_vacant",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 87210932,
+            "format": {}
+        },
+        {
+            "id": 427525963,
+            "name": "Percent Vacant",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_vacant",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 87210938,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427525958,
+            "name": "Total Occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_occupied",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 87210933,
+            "format": {}
+        },
+        {
+            "id": 427525964,
+            "name": "Percent Occupied",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "percent_occupied",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 87210939,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 427525959,
+            "name": "Total",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 87210934,
+            "format": {}
+        },
+        {
+            "id": 427525956,
+            "name": "tract",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 87210931,
+            "format": {}
+        },
+        {
+            "id": 427525960,
+            "name": "county",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "county",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 87210935,
+            "format": {}
+        },
+        {
+            "id": 427525961,
+            "name": "state",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "state",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 87210936,
+            "format": {}
+        },
+        {
+            "id": 427525962,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 9,
+            "renderTypeName": "polygon",
+            "tableColumnId": 87210937,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "acs",
+        "tract",
+        "occupancy"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

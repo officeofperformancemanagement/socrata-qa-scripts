@@ -1,0 +1,612 @@
+{
+    "id": "4qjh-fdm6",
+    "name": "Asset Row Count Checker",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1612809043,
+    "description": "This dataset tracks the number of days since the row count on a dataset asset has changed. It's purpose is to ensure datasets are updating as expected. This dataset is identical to the Socrata Asset Inventory with added Checkpoint Date and Days Since Row Count Change attributes.",
+    "displayType": "table",
+    "downloadCount": 129,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36581367,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1614608244,
+    "publicationGroup": 18008932,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 527294125,
+    "rowsUpdatedAt": 1703247665,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18096005,
+    "totalTimesRated": 0,
+    "viewCount": 145,
+    "viewLastModified": 1703247446,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1612810647,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3309131,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1612810574,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1612810648,
+                "failureCount": 0,
+                "startedAt": 1612810647,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 527294086,
+            "name": "UID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "uid",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 129881814,
+            "format": {}
+        },
+        {
+            "id": 527294087,
+            "name": "Checkpoint Date",
+            "dataTypeName": "calendar_date",
+            "description": "Last date this dataset was checked against new asset inventory",
+            "fieldName": "checkpoint_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 129881798,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 527294088,
+            "name": "Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 129881804,
+            "format": {}
+        },
+        {
+            "id": 527294089,
+            "name": "Owner",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "owner",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 129881794,
+            "format": {}
+        },
+        {
+            "id": 527294090,
+            "name": "Owner UID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "owner_uid",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 129881805,
+            "format": {}
+        },
+        {
+            "id": 527294091,
+            "name": "Publication Stage",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "publication_stage",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 129881806,
+            "format": {}
+        },
+        {
+            "id": 527294092,
+            "name": "Audience",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "audience",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 129881799,
+            "format": {}
+        },
+        {
+            "id": 527294093,
+            "name": "Approval Status",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "approval_status",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 129881817,
+            "format": {}
+        },
+        {
+            "id": 527294094,
+            "name": "Provenance",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "provenance",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 129881816,
+            "format": {}
+        },
+        {
+            "id": 527294095,
+            "name": "Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 129881803,
+            "format": {}
+        },
+        {
+            "id": 527294096,
+            "name": "Category",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "category",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 129881815,
+            "format": {}
+        },
+        {
+            "id": 527294097,
+            "name": "Tags",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tags",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 129881793,
+            "format": {}
+        },
+        {
+            "id": 527294098,
+            "name": "URL",
+            "dataTypeName": "url",
+            "description": "",
+            "fieldName": "url",
+            "position": 14,
+            "renderTypeName": "url",
+            "tableColumnId": 129881824,
+            "format": {},
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 527294099,
+            "name": "API Endpoint",
+            "dataTypeName": "url",
+            "description": "",
+            "fieldName": "api_endpoint",
+            "position": 15,
+            "renderTypeName": "url",
+            "tableColumnId": 129881821,
+            "format": {},
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 527294100,
+            "name": "Creation Date (UTC)",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "creation_date_utc",
+            "position": 16,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 129881810,
+            "format": {
+                "view": "date_time"
+            }
+        },
+        {
+            "id": 527294101,
+            "name": "Last Metadata Updated Date (UTC)",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "last_metadata_updated_date",
+            "position": 17,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 129881809,
+            "format": {
+                "view": "date_time"
+            }
+        },
+        {
+            "id": 527294102,
+            "name": "Last Data Updated Date (UTC)",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "last_data_updated_date_utc",
+            "position": 18,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 129881797,
+            "format": {
+                "view": "date_time"
+            }
+        },
+        {
+            "id": 527294103,
+            "name": "Domain",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "domain",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 129881828,
+            "format": {}
+        },
+        {
+            "id": 527294104,
+            "name": "Derived View",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "derived_view",
+            "position": 20,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 129881811,
+            "format": {}
+        },
+        {
+            "id": 527294105,
+            "name": "Visits",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "visits",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 129881813,
+            "format": {}
+        },
+        {
+            "id": 527294106,
+            "name": "Downloads",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "downloads",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 129881819,
+            "format": {}
+        },
+        {
+            "id": 527294107,
+            "name": "Row Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "row_count",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 129881802,
+            "format": {}
+        },
+        {
+            "id": 527294108,
+            "name": "Days Since Row Count Change",
+            "dataTypeName": "number",
+            "description": "Days since row count for this asset was updated",
+            "fieldName": "days_since_row_count_change",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 129881823,
+            "format": {}
+        },
+        {
+            "id": 527294109,
+            "name": "Column Count",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "column_count",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 129881825,
+            "format": {}
+        },
+        {
+            "id": 527294110,
+            "name": "Contact Email",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "contact_email",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 129881796,
+            "format": {
+                "displayStyle": "email"
+            }
+        },
+        {
+            "id": 527294111,
+            "name": "License",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "license",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 129881801,
+            "format": {}
+        },
+        {
+            "id": 527294113,
+            "name": "Attribution Link",
+            "dataTypeName": "url",
+            "description": "",
+            "fieldName": "attribution_link",
+            "position": 29,
+            "renderTypeName": "url",
+            "tableColumnId": 129881820,
+            "format": {},
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 527294114,
+            "name": "Published Version Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "published_version_name",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 129881808,
+            "format": {}
+        },
+        {
+            "id": 527294115,
+            "name": "Published Version UID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "published_version_uid",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 129881829,
+            "format": {}
+        },
+        {
+            "id": 527294116,
+            "name": "Parent UID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "parent_uid",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 129881812,
+            "format": {}
+        },
+        {
+            "id": 527294117,
+            "name": "Internal: Results Area",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "internal_results_area",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 129881792,
+            "format": {}
+        },
+        {
+            "id": 527294118,
+            "name": "Internal: Department",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "internal_department",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 129881795,
+            "format": {}
+        },
+        {
+            "id": 527294119,
+            "name": "Internal: How often are data values updated?",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "internal_how_often_are_data",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 129881826,
+            "format": {}
+        },
+        {
+            "id": 527294120,
+            "name": "Public: Public Dataset Contact",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "public_public_dataset_contact",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 129881800,
+            "format": {
+                "displayStyle": "email"
+            }
+        },
+        {
+            "id": 527294121,
+            "name": "Internal: Data Steward Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "internal_data_steward_name",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 129881807,
+            "format": {}
+        },
+        {
+            "id": 527294122,
+            "name": "Internal: Dataset Sensitivity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "internal_dataset_sensitivity",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 129881827,
+            "format": {}
+        },
+        {
+            "id": 527294123,
+            "name": "Internal: Data Steward Email",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "internal_data_steward_email",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 129881831,
+            "format": {
+                "displayStyle": "email"
+            }
+        },
+        {
+            "id": 527294124,
+            "name": "Test: Notes",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "test_notes",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 129881818,
+            "format": {}
+        },
+        {
+            "id": 527294125,
+            "name": "row_id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "row_id",
+            "position": 41,
+            "renderTypeName": "text",
+            "tableColumnId": 129962986,
+            "format": {}
+        },
+        {
+            "id": 527294126,
+            "name": "Most Recent Date",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "most_recent_date",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 130119224,
+            "format": {}
+        },
+        {
+            "id": 527294127,
+            "name": "Tracked",
+            "dataTypeName": "text",
+            "description": "Specifies if row count needs to be tracked",
+            "fieldName": "tracked",
+            "position": 43,
+            "renderTypeName": "text",
+            "tableColumnId": 130213012,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 527294125,
+        "rowLabel": "Asset",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "asset",
+        "inventory",
+        "views"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

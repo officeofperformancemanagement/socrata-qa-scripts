@@ -1,0 +1,320 @@
+{
+    "id": "q5b3-5r7s",
+    "name": "Code Enforcement - Cases",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1562007655,
+    "description": "Code enforcement cases for the City of Chattanooga from 1999 to present date.",
+    "displayType": "table",
+    "downloadCount": 157,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "qmcu-45tc",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34640856,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1573827037,
+    "publicationGroup": 15952472,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703213590,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17320071,
+    "totalTimesRated": 0,
+    "viewCount": 616,
+    "viewLastModified": 1573827037,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562008060,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2420944,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562007824,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562008060,
+                "failureCount": 0,
+                "startedAt": 1562008060,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 480345355,
+            "name": "Case Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "case_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76796326,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345356,
+            "name": "311 Case Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "_311_case_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 76796327,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345357,
+            "name": "Date Entered",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_entered",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76796328,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345358,
+            "name": "Date Closed",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_closed",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76796329,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345359,
+            "name": "Violation Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "violation_description",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76796330,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345360,
+            "name": "Status",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "status",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76796331,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345361,
+            "name": "Street Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_number",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76796333,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345362,
+            "name": "Street Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_name",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76796332,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345363,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76796334,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345364,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76796335,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345365,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 76796337,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345366,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 76796336,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 480345367,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location_wkt",
+            "position": 13,
+            "renderTypeName": "point",
+            "tableColumnId": 76873483,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Economic and Community Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "code enforcement case violation overgrowth litter"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

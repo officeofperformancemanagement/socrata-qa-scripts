@@ -1,0 +1,220 @@
+{
+    "id": "xxm3-xbeq",
+    "name": "Four State Census Block Groups",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1620937142,
+    "description": "Block group shapes and centroids for Tennessee, Alabama, Georgia, and North Carolina.",
+    "displayType": "table",
+    "downloadCount": 69,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37178450,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1620938297,
+    "publicationGroup": 18304830,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1620938291,
+    "rowsUpdatedBy": "t226-dtne",
+    "tableId": 18304852,
+    "totalTimesRated": 0,
+    "viewCount": 90,
+    "viewLastModified": 1620938297,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1620940393,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3611475,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1620940380,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1620940393,
+                "failureCount": 0,
+                "startedAt": 1620940393,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 540486716,
+            "name": "State FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 137970883,
+            "format": {}
+        },
+        {
+            "id": 540486717,
+            "name": "County FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 137970881,
+            "format": {}
+        },
+        {
+            "id": 540486718,
+            "name": "Tract Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_code",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 137970876,
+            "format": {}
+        },
+        {
+            "id": 540486719,
+            "name": "Block Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "block_group",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 137970875,
+            "format": {}
+        },
+        {
+            "id": 540486720,
+            "name": "AFFGEOID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "affgeoid",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 137970877,
+            "format": {}
+        },
+        {
+            "id": 540486721,
+            "name": "GEOID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "geoid",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 137970880,
+            "format": {}
+        },
+        {
+            "id": 540486722,
+            "name": "NAME",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 137970879,
+            "format": {}
+        },
+        {
+            "id": 540486723,
+            "name": "Boundary",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "boundary",
+            "position": 8,
+            "renderTypeName": "polygon",
+            "tableColumnId": 137970882,
+            "format": {}
+        },
+        {
+            "id": 540486727,
+            "name": "Centroid",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "centroid",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 137971210,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "odextract@chattanooga.gov",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

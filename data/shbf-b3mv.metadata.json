@@ -1,0 +1,688 @@
+{
+    "id": "shbf-b3mv",
+    "name": "Human Resources Turnover and Actives - Public",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1583437298,
+    "description": "This is a data set used to calculate turnover metrics for the Human Resources department. This data also contains pertinent  active employee demographic data as it pulls nightly from the active employees and updates this information in the most recent report month. When the month changes, the date set creates a new row for all active employees on the first of that month and begins capturing data.",
+    "displayType": "table",
+    "downloadCount": 120,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "g2y5-spzt",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37085272,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1619544948,
+    "publicationGroup": 16826510,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1644517452,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16898383,
+    "totalTimesRated": 0,
+    "viewCount": 346,
+    "viewLastModified": 1619544948,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583518329,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3563317,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583518319,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583518329,
+                "failureCount": 0,
+                "startedAt": 1583518329,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 538261700,
+            "name": "Beg Report Date",
+            "dataTypeName": "calendar_date",
+            "description": "Beginning report day and month",
+            "fieldName": "beg_report_date",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 93275155,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261701,
+            "name": "Report Date",
+            "dataTypeName": "calendar_date",
+            "description": "End report day any month that can be used to interpret the other fields in this row were values during this month",
+            "fieldName": "report_date",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 93275167,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261706,
+            "name": "Department Name",
+            "dataTypeName": "text",
+            "description": "Name of department employee is in",
+            "fieldName": "department_name",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 93275138,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261707,
+            "name": "Organization Name",
+            "dataTypeName": "text",
+            "description": "The organization or division the employee works for",
+            "fieldName": "organization_name",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 93275161,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261709,
+            "name": "Last Hire Date",
+            "dataTypeName": "calendar_date",
+            "description": "This is the original hire date of the employee",
+            "fieldName": "last_hire_date",
+            "position": 12,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 93275146,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261710,
+            "name": "Overall Tenure",
+            "dataTypeName": "number",
+            "description": "This is the monthly tenure of the employee",
+            "fieldName": "overall_tenure",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 93275160,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261711,
+            "name": "Current Role Tenure",
+            "dataTypeName": "number",
+            "description": "If the employee has changed positions, this is their current monthly tenure in that role by that report date",
+            "fieldName": "current_role_tenure",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 93275147,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261712,
+            "name": "Years of Service",
+            "dataTypeName": "number",
+            "description": "A calculated field in Oracle for years spent working at the City of Chattanooga",
+            "fieldName": "years_of_service",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 93275141,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261713,
+            "name": "Work Location",
+            "dataTypeName": "text",
+            "description": "Location of work if available",
+            "fieldName": "work_location",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 93275152,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261714,
+            "name": "Job Code",
+            "dataTypeName": "text",
+            "description": "Job code used in conjunction with Job name",
+            "fieldName": "job_code",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 93275148,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261715,
+            "name": "Job Function",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "job_function",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 93275136,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261717,
+            "name": "FLSA Overtime Status",
+            "dataTypeName": "text",
+            "description": "FLSA Overtime status of the employee at that time",
+            "fieldName": "flsa_overtime_status",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 93275165,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261718,
+            "name": "EEO Category",
+            "dataTypeName": "text",
+            "description": "EEO category of the employee at that report date",
+            "fieldName": "eeo_category",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 93275163,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261719,
+            "name": "Assignment Category",
+            "dataTypeName": "text",
+            "description": "Assignment category to which an employee falls into",
+            "fieldName": "assignment_category",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 93275177,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261720,
+            "name": "People Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "people_group",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 93275149,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261721,
+            "name": "Standard Hours",
+            "dataTypeName": "number",
+            "description": "Standard hours worked for the employee",
+            "fieldName": "standard_hours",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 93275164,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261722,
+            "name": "Payroll Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "payroll_name",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 93275159,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261723,
+            "name": "Pay Basis",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pay_basis",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 93275162,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261724,
+            "name": "Range",
+            "dataTypeName": "text",
+            "description": "The grade in which the employee's position falls under the budget salary grades",
+            "fieldName": "range",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 93275137,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261725,
+            "name": "Hourly Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hourly_rate",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 93275144,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261726,
+            "name": "Period Rate",
+            "dataTypeName": "number",
+            "description": "Pay period rate of the employee",
+            "fieldName": "period_rate",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 93275173,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261727,
+            "name": "Salary Rate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "salary_rate",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 93275139,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261728,
+            "name": "Pay Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pay_group",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 93275153,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261729,
+            "name": "Position Seniority Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of most recent position change if any",
+            "fieldName": "position_seniority_date",
+            "position": 32,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 93275154,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261730,
+            "name": "Adjusted Service Date",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "adjusted_service_date",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 93275150,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261731,
+            "name": "Continuous Service Date",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "continuous_service_date",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 93275169,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261732,
+            "name": "Retirement Count",
+            "dataTypeName": "number",
+            "description": "Value is 1 if the employee retires that month, otherwise 0",
+            "fieldName": "retirement_count",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 93275174,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261734,
+            "name": "Resignation Count",
+            "dataTypeName": "number",
+            "description": "Value is 1 if the employee resigns that month, otherwise 0",
+            "fieldName": "resignation_count",
+            "position": 37,
+            "renderTypeName": "number",
+            "tableColumnId": 93275168,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261735,
+            "name": "All Other Turnover",
+            "dataTypeName": "number",
+            "description": "Value is 1 if the employee terminated employment but did not resign or retire",
+            "fieldName": "all_other_turnover",
+            "position": 38,
+            "renderTypeName": "number",
+            "tableColumnId": 93275158,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261736,
+            "name": "Turnover Count",
+            "dataTypeName": "number",
+            "description": "Value is 1 if the employee terminated employment in that report month",
+            "fieldName": "turnover_count",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 93275166,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261737,
+            "name": "Actual Termination Date",
+            "dataTypeName": "calendar_date",
+            "description": "Actual date of termination of the employee, which can be interpreted as their last day",
+            "fieldName": "actual_termination_date",
+            "position": 40,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 93275145,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261738,
+            "name": "Leaving Reason",
+            "dataTypeName": "text",
+            "description": "For terminations, this is the reason given for termination",
+            "fieldName": "leaving_reason",
+            "position": 41,
+            "renderTypeName": "text",
+            "tableColumnId": 93275178,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261739,
+            "name": "Monthly Exposure",
+            "dataTypeName": "number",
+            "description": "Used to calculate monthly turnover rates, set to 1",
+            "fieldName": "monthly_exposure",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 93275175,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261740,
+            "name": "Annual Exposure",
+            "dataTypeName": "number",
+            "description": "Used to calculate annual turnover rates, set to 1/12",
+            "fieldName": "annual_exposure",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 93275171,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261741,
+            "name": "Retirement Eligible",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "retirement_eligible",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 94907109,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261742,
+            "name": "Retirement Eligible Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "retirement_eligible_date",
+            "position": 45,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94907110,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261743,
+            "name": "Transfer Count",
+            "dataTypeName": "number",
+            "description": "Indicates if the employee transferred positions or departments.",
+            "fieldName": "transfer_count",
+            "position": 46,
+            "renderTypeName": "number",
+            "tableColumnId": 94925138,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 538261744,
+            "name": "New Hire Count",
+            "dataTypeName": "number",
+            "description": "Indicates if the employee was hired that report month.",
+            "fieldName": "new_hire_count",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 94925139,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Human Resources",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "hr",
+        "human resources",
+        "new hire",
+        "turnover",
+        "retire",
+        "retirement",
+        "personnel",
+        "payroll",
+        "salary"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

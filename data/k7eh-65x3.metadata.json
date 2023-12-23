@@ -1,0 +1,349 @@
+{
+    "id": "k7eh-65x3",
+    "name": "311 Service Requests",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1560170392,
+    "description": "311 service request for the city of Chattanooga. Data is from 2017 to the present date. For service requests prior to 2017 please see the following dataset. https://data.chattlibrary.org/Government/Service-Requests/e968-fnk9\r\n\r\n311 data guide. Use this if you are new to this dataset and want to understand what it is all about. https://docs.google.com/document/d/1QjqBeZ7HWelUJpTyCfDYAXAugyHMIDjFHsG-6PLuzMk/edit?usp=sharing",
+    "displayType": "table",
+    "downloadCount": 205,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "vfem-a47f",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39707056,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1656006171,
+    "publicationGroup": 15950137,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703254044,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 19190800,
+    "totalTimesRated": 0,
+    "viewCount": 1624,
+    "viewLastModified": 1656006173,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561382609,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5587924,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561382593,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561382615,
+                "failureCount": 0,
+                "startedAt": 1561382609,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 577284624,
+            "name": "service_request_key",
+            "dataTypeName": "text",
+            "description": "Unique identifier of the service request in the Accela system.",
+            "fieldName": "service_request_key",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76762095,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284625,
+            "name": "created_date",
+            "dataTypeName": "calendar_date",
+            "description": "Date the service request was created.",
+            "fieldName": "created_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76762084,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284626,
+            "name": "department",
+            "dataTypeName": "text",
+            "description": "Department service request is routed to",
+            "fieldName": "department",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 92262849,
+            "format": {}
+        },
+        {
+            "id": 577284627,
+            "name": "request_type",
+            "dataTypeName": "text",
+            "description": "The type of the service request created.",
+            "fieldName": "request_type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76762086,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284628,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "Description of the service request often populated by the constituent submitting the request.",
+            "fieldName": "description",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76762087,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284629,
+            "name": "request_type_code",
+            "dataTypeName": "text",
+            "description": "Urgency of the request, (Urgent, Emergency, Standard, None, etc.).",
+            "fieldName": "request_type_code",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 76762088,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284630,
+            "name": "status_code",
+            "dataTypeName": "text",
+            "description": "Status of the request, Open, New, and Closed.",
+            "fieldName": "status_code",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76762089,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284631,
+            "name": "intake_form",
+            "dataTypeName": "text",
+            "description": "How the request was submitted.",
+            "fieldName": "intake_form",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76762090,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284632,
+            "name": "days_to_complete",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "days_to_complete",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 81399746,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284633,
+            "name": "sla_fy_2019",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sla_fy_2019",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 82038591,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284634,
+            "name": "on_time_indicator",
+            "dataTypeName": "text",
+            "description": "Indicator if the request is completed at or before the due date.",
+            "fieldName": "on_time_indicator",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76829311,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284635,
+            "name": "completed_at",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is completed.",
+            "fieldName": "completed_at",
+            "position": 12,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975646,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284636,
+            "name": "due_at",
+            "dataTypeName": "calendar_date",
+            "description": "Date the request is due.",
+            "fieldName": "due_at",
+            "position": 13,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76975647,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284637,
+            "name": "ispublic",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ispublic",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 80865363,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284638,
+            "name": "council_district",
+            "dataTypeName": "text",
+            "description": "Council District in which the requests was submitted for",
+            "fieldName": "council_district",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 81939070,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 577284639,
+            "name": "loc",
+            "dataTypeName": "point",
+            "description": "Column created from a SoQL query.",
+            "fieldName": "loc",
+            "position": 16,
+            "renderTypeName": "point",
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "311",
+        "service requests",
+        "sr",
+        "srs",
+        "brush",
+        "trash",
+        "pothole",
+        "sidewalk"
+    ],
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

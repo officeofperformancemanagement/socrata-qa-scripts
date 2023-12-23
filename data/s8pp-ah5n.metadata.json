@@ -1,0 +1,286 @@
+{
+    "id": "s8pp-ah5n",
+    "name": "Spending by the City of Chattanooga",
+    "assetType": "dataset",
+    "attribution": "Finance and Administration Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1436899586,
+    "description": "This dataset contains the spending by the city and feeds the city's Open Checkbook visualization application.",
+    "displayType": "table",
+    "downloadCount": 559,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1460297892,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 12945177,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1440187330,
+    "publicationGroup": 3554809,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1460286807,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 4063009,
+    "totalTimesRated": 0,
+    "viewCount": 3966,
+    "viewLastModified": 1461160427,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1444759412,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366851,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1444759412,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 218652555,
+            "name": "fiscal_year",
+            "dataTypeName": "number",
+            "fieldName": "fiscal_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 29759767,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 218652556,
+            "name": "fiscal_year_period",
+            "dataTypeName": "number",
+            "fieldName": "fiscal_year_period",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 29759768,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 218652557,
+            "name": "fund",
+            "dataTypeName": "text",
+            "fieldName": "fund",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 29759772,
+            "width": 148,
+            "format": {}
+        },
+        {
+            "id": 218652558,
+            "name": "service",
+            "dataTypeName": "text",
+            "fieldName": "service",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 29759769,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 218652559,
+            "name": "department",
+            "dataTypeName": "text",
+            "fieldName": "department",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 29841323,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 218652560,
+            "name": "program",
+            "dataTypeName": "text",
+            "fieldName": "program",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 29759770,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 218652564,
+            "name": "expense_category",
+            "dataTypeName": "text",
+            "fieldName": "expense_category",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 29759771,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 218652569,
+            "name": "invoice_id",
+            "dataTypeName": "text",
+            "fieldName": "invoice_id",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 29759773,
+            "width": 220,
+            "format": {}
+        },
+        {
+            "id": 218652573,
+            "name": "invoice_date",
+            "dataTypeName": "calendar_date",
+            "fieldName": "invoice_date",
+            "position": 9,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 29759774,
+            "width": 244,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 218652579,
+            "name": "amount",
+            "dataTypeName": "number",
+            "fieldName": "amount",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 29759775,
+            "width": 172,
+            "format": {
+                "precisionStyle": "currency",
+                "currencyStyle": "USD",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 218652586,
+            "name": "description",
+            "dataTypeName": "text",
+            "fieldName": "description",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 29759776,
+            "width": 232,
+            "format": {}
+        },
+        {
+            "id": 218652587,
+            "name": "vendor_id",
+            "dataTypeName": "text",
+            "fieldName": "vendor_id",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 29759777,
+            "width": 208,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 218652588,
+            "name": "vendor_name",
+            "dataTypeName": "text",
+            "fieldName": "vendor_name",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 29759778,
+            "width": 232,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Daily "
+            }
+        },
+        "rowIdentifier": "0",
+        "rowLabel": "Spending",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "open checkbook",
+        "spending"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

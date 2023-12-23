@@ -1,0 +1,147 @@
+{
+    "id": "nrfa-5knw",
+    "name": "City Council Spatial Lens",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1565119906,
+    "description": "City council district dataset used to build spatial lens.",
+    "displayType": "table",
+    "downloadCount": 118,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1565123408,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32094787,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1565120074,
+    "publicationGroup": 16415140,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1565120073,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16415140,
+    "totalTimesRated": 0,
+    "viewCount": 267,
+    "viewLastModified": 1565120101,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1565120074,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 1029193,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1565120074,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1565120074,
+                "failureCount": 0,
+                "startedAt": 1565120074,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 421712113,
+            "name": "CityDST",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "citydst",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 85409381,
+            "format": {}
+        },
+        {
+            "id": 421712114,
+            "name": "CityRep",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cityrep",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 85409382,
+            "format": {}
+        },
+        {
+            "id": 421712115,
+            "name": "geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 3,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 85409383,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "76k4-ifet",
+        "displayName": "Ryan Wedell",
+        "screenName": "Ryan Wedell",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "spatial lens"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

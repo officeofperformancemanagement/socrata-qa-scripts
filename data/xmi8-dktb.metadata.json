@@ -1,0 +1,355 @@
+{
+    "id": "xmi8-dktb",
+    "name": "Hamilton County Zip Codes by Age - 2019 ACS",
+    "assetType": "dataset",
+    "attribution": "ACS",
+    "attributionLink": "https://data.census.gov/cedsci/table?g=8600000US37302,37308,37311,37315,37336,37338,37341,37343,37350,37351,37353,37363,37373,37377,37379,37402,37403,37404,37405,37406,37407,37408,37409,37410,37411,37412,37415,37416,37419,37421&tid=ACSST5Y2019.S0101",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1624371326,
+    "description": "Population estimates for zip codes in Hamilton County broken down by age groups. Data from the ACS can be found here https://data.census.gov/cedsci/table?g=8600000US37302,37308,37311,37315,37336,37338,37341,37343,37350,37351,37353,37363,37373,37377,37379,37402,37403,37404,37405,37406,37407,37408,37409,37410,37411,37412,37415,37416,37419,37421&tid=ACSST5Y2019.S0101",
+    "displayType": "table",
+    "downloadCount": 841,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37349834,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1624371922,
+    "publicationGroup": 18362373,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1624371921,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18362373,
+    "totalTimesRated": 0,
+    "viewCount": 61,
+    "viewLastModified": 1666190947,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1624372114,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3752372,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1624371922,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1624372114,
+                "failureCount": 0,
+                "startedAt": 1624372114,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 543078391,
+            "name": "ZipCode",
+            "dataTypeName": "text",
+            "description": "Zip code of population",
+            "fieldName": "zipcode",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 138473921,
+            "format": {}
+        },
+        {
+            "id": 543078390,
+            "name": "Total population",
+            "dataTypeName": "number",
+            "description": "Total population for zip code",
+            "fieldName": "total_population",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 138473920,
+            "format": {}
+        },
+        {
+            "id": 543078389,
+            "name": "Under 5 years",
+            "dataTypeName": "number",
+            "description": "Zip code population under 5 years",
+            "fieldName": "under_5_years",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 138473919,
+            "format": {}
+        },
+        {
+            "id": 543078388,
+            "name": "5 to 9 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 5 to 9 years",
+            "fieldName": "_5_to_9_years",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 138473918,
+            "format": {}
+        },
+        {
+            "id": 543078387,
+            "name": "10 to 14 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 10 to 14 years",
+            "fieldName": "_10_to_14_years",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 138473917,
+            "format": {}
+        },
+        {
+            "id": 543078386,
+            "name": "15 to 19 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 15 to 19 years",
+            "fieldName": "_15_to_19_years",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 138473916,
+            "format": {}
+        },
+        {
+            "id": 543078385,
+            "name": "20 to 24 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 20 to 24 years",
+            "fieldName": "_20_to_24_years",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 138473915,
+            "format": {}
+        },
+        {
+            "id": 543078384,
+            "name": "25 to 29 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 25 to 29 years",
+            "fieldName": "_25_to_29_years",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 138473914,
+            "format": {}
+        },
+        {
+            "id": 543078383,
+            "name": "30 to 34 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 30 to 34 years",
+            "fieldName": "_30_to_34_years",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 138473913,
+            "format": {}
+        },
+        {
+            "id": 543078382,
+            "name": "35 to 39 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 35 to 39 years",
+            "fieldName": "_35_to_39_years",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 138473912,
+            "format": {}
+        },
+        {
+            "id": 543078381,
+            "name": "40 to 44 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 40 to 44 years",
+            "fieldName": "_40_to_44_years",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 138473911,
+            "format": {}
+        },
+        {
+            "id": 543078380,
+            "name": "45 to 49 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 45 to 49 years",
+            "fieldName": "_45_to_49_years",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 138473910,
+            "format": {}
+        },
+        {
+            "id": 543078379,
+            "name": "50 to 54 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 50 to 54 years",
+            "fieldName": "_50_to_54_years",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 138473909,
+            "format": {}
+        },
+        {
+            "id": 543078378,
+            "name": "55 to 59 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 55 to 59 years",
+            "fieldName": "_55_to_59_years",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 138473908,
+            "format": {}
+        },
+        {
+            "id": 543078377,
+            "name": "60 to 64 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 60 to 64 years",
+            "fieldName": "_60_to_64_years",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 138473907,
+            "format": {}
+        },
+        {
+            "id": 543078376,
+            "name": "65 to 69 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 65 to 69 years",
+            "fieldName": "_65_to_69_years",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 138473906,
+            "format": {}
+        },
+        {
+            "id": 543078375,
+            "name": "70 to 74 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 70 to 74 years",
+            "fieldName": "_70_to_74_years",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 138473905,
+            "format": {}
+        },
+        {
+            "id": 543078394,
+            "name": "75 to 79 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 75 to 79 years",
+            "fieldName": "_75_to_79_years",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 138473924,
+            "format": {}
+        },
+        {
+            "id": 543078393,
+            "name": "80 to 84 years",
+            "dataTypeName": "number",
+            "description": "Zip code population 80 to 84 years",
+            "fieldName": "_80_to_84_years",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 138473923,
+            "format": {}
+        },
+        {
+            "id": 543078392,
+            "name": "85 years and over",
+            "dataTypeName": "number",
+            "description": "Zip code population 85 years and over",
+            "fieldName": "_85_years_and_over",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 138473922,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "zip code",
+        "census",
+        "acs"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

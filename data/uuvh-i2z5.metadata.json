@@ -1,0 +1,251 @@
+{
+    "id": "uuvh-i2z5",
+    "name": "YFD Centers",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1572010014,
+    "description": "YFD locations and center information",
+    "displayType": "table",
+    "downloadCount": 108,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39104076,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1670338115,
+    "publicationGroup": 16662437,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1572012135,
+    "tableId": 18983381,
+    "totalTimesRated": 0,
+    "viewCount": 264,
+    "viewLastModified": 1670338115,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1572010157,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5145567,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1572010151,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1572010157,
+                "failureCount": 0,
+                "startedAt": 1572010157,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 568700503,
+            "name": "YFD Facility Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "yfd_facility_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 89805171,
+            "format": {}
+        },
+        {
+            "id": 568700504,
+            "name": "Facility Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "facility_type",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 89805172,
+            "format": {}
+        },
+        {
+            "id": 568700505,
+            "name": "Facility Available",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "facility_available",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 89805173,
+            "format": {}
+        },
+        {
+            "id": 568700506,
+            "name": "Hours of Operation",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hours_of_operation",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 89805174,
+            "format": {}
+        },
+        {
+            "id": 568700507,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 89805175,
+            "format": {}
+        },
+        {
+            "id": 568700508,
+            "name": "Phone",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "phone",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 89805176,
+            "format": {}
+        },
+        {
+            "id": 568700509,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 89805177,
+            "format": {}
+        },
+        {
+            "id": 568700510,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 89805178,
+            "format": {}
+        },
+        {
+            "id": 568700511,
+            "name": "geom",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geom",
+            "position": 9,
+            "renderTypeName": "point",
+            "tableColumnId": 89805179,
+            "format": {}
+        },
+        {
+            "id": 568700512,
+            "name": "Chattanooga Historic Red Lining",
+            "dataTypeName": "number",
+            "fieldName": ":@computed_region_tdua_xyxp",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 144855068,
+            "computationStrategy": {
+                "source_columns": [
+                    "geom"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_tdua-xyxp",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Smarter Students Stronger Families",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Development",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "yfd",
+        "community development",
+        "community centers"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

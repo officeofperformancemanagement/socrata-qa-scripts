@@ -1,0 +1,1019 @@
+{
+    "id": "v7br-pci3",
+    "name": "All Permit Data",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1561570722,
+    "description": "All Permits within the City of Chattanooga applied for to the Development Review and Permitting Office of Public Works.",
+    "displayType": "table",
+    "downloadCount": 4648,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "3uq3-wdfx",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39125093,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1657896120,
+    "publicationGroup": 15953030,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703242192,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18990104,
+    "totalTimesRated": 0,
+    "viewCount": 1949,
+    "viewLastModified": 1670958778,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561640497,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5161680,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561570948,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561640497,
+                "failureCount": 0,
+                "startedAt": 1561640497,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 569018275,
+            "name": "permitnum",
+            "dataTypeName": "text",
+            "description": "Permit number",
+            "fieldName": "permitnum",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 76806200,
+            "format": {}
+        },
+        {
+            "id": 569018276,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "Permit Description",
+            "fieldName": "description",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 76806205,
+            "format": {}
+        },
+        {
+            "id": 569018277,
+            "name": "applieddate",
+            "dataTypeName": "calendar_date",
+            "description": "Applied for date",
+            "fieldName": "applieddate",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76806189,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 569018278,
+            "name": "issueddate",
+            "dataTypeName": "calendar_date",
+            "description": "Issue date",
+            "fieldName": "issueddate",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76806191,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 569018279,
+            "name": "days_to_issue",
+            "dataTypeName": "number",
+            "description": "Days from applied to issued",
+            "fieldName": "days_to_issue",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 76806199,
+            "format": {}
+        },
+        {
+            "id": 569018280,
+            "name": "completeddate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "completeddate",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76806172,
+            "format": {}
+        },
+        {
+            "id": 569018281,
+            "name": "originaladdress1",
+            "dataTypeName": "text",
+            "description": " Permit address",
+            "fieldName": "originaladdress1",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 76806175,
+            "format": {}
+        },
+        {
+            "id": 569018282,
+            "name": "originaladdress2",
+            "dataTypeName": "text",
+            "description": "Permit address 2",
+            "fieldName": "originaladdress2",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76806158,
+            "format": {}
+        },
+        {
+            "id": 569018283,
+            "name": "originalcity",
+            "dataTypeName": "text",
+            "description": "Permit city",
+            "fieldName": "originalcity",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76806156,
+            "format": {}
+        },
+        {
+            "id": 569018284,
+            "name": "originalstate",
+            "dataTypeName": "text",
+            "description": "Permit state",
+            "fieldName": "originalstate",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76806185,
+            "format": {}
+        },
+        {
+            "id": 569018285,
+            "name": "originalzip",
+            "dataTypeName": "text",
+            "description": "Permit zip",
+            "fieldName": "originalzip",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76806160,
+            "format": {}
+        },
+        {
+            "id": 569018286,
+            "name": "permitclass",
+            "dataTypeName": "text",
+            "description": "Class of permit",
+            "fieldName": "permitclass",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 76806190,
+            "format": {}
+        },
+        {
+            "id": 569018287,
+            "name": "permitclassmapped",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "permitclassmapped",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76806159,
+            "format": {}
+        },
+        {
+            "id": 569018288,
+            "name": "statuscurrent",
+            "dataTypeName": "text",
+            "description": "Current permit status",
+            "fieldName": "statuscurrent",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76806149,
+            "format": {}
+        },
+        {
+            "id": 569018289,
+            "name": "statuscurrentmapped",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "statuscurrentmapped",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 76806178,
+            "format": {}
+        },
+        {
+            "id": 569018290,
+            "name": "statusdate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "statusdate",
+            "position": 16,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76806157,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 569018291,
+            "name": "workclass",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workclass",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 76806203,
+            "format": {}
+        },
+        {
+            "id": 569018292,
+            "name": "workclassmapped",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "workclassmapped",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 76806161,
+            "format": {}
+        },
+        {
+            "id": 569018293,
+            "name": "permittype",
+            "dataTypeName": "text",
+            "description": "Type of permit",
+            "fieldName": "permittype",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 76806187,
+            "format": {}
+        },
+        {
+            "id": 569018294,
+            "name": "permittypemapped",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "permittypemapped",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 76806153,
+            "format": {}
+        },
+        {
+            "id": 569018295,
+            "name": "permittypedesc",
+            "dataTypeName": "text",
+            "description": "Permit type description",
+            "fieldName": "permittypedesc",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 76806194,
+            "format": {}
+        },
+        {
+            "id": 569018296,
+            "name": "permitsubtype",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "permitsubtype",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 79790309,
+            "format": {}
+        },
+        {
+            "id": 569018297,
+            "name": "link",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "link",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 76806193,
+            "format": {}
+        },
+        {
+            "id": 569018298,
+            "name": "units",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "units",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 76806165,
+            "format": {}
+        },
+        {
+            "id": 569018299,
+            "name": "contractorcompanyname",
+            "dataTypeName": "text",
+            "description": "Contractor company",
+            "fieldName": "contractorcompanyname",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 76806201,
+            "format": {}
+        },
+        {
+            "id": 569018300,
+            "name": "contractortrade",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "contractortrade",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 76806154,
+            "format": {}
+        },
+        {
+            "id": 569018301,
+            "name": "contractortrademapped",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "contractortrademapped",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 76806155,
+            "format": {}
+        },
+        {
+            "id": 569018302,
+            "name": "contractorlicnum",
+            "dataTypeName": "text",
+            "description": "Contractor license number",
+            "fieldName": "contractorlicnum",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 76806186,
+            "format": {}
+        },
+        {
+            "id": 569018303,
+            "name": "contractorstatelic",
+            "dataTypeName": "text",
+            "description": "Contractor license state",
+            "fieldName": "contractorstatelic",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 76806192,
+            "format": {}
+        },
+        {
+            "id": 569018304,
+            "name": "contractorcompanydesc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "contractorcompanydesc",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 76806162,
+            "format": {}
+        },
+        {
+            "id": 569018305,
+            "name": "contractoraddress1",
+            "dataTypeName": "text",
+            "description": "Contractor address",
+            "fieldName": "contractoraddress1",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 76806181,
+            "format": {}
+        },
+        {
+            "id": 569018306,
+            "name": "contractoraddress2",
+            "dataTypeName": "text",
+            "description": "Contractor address 2",
+            "fieldName": "contractoraddress2",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 76806170,
+            "format": {}
+        },
+        {
+            "id": 569018307,
+            "name": "contractorcity",
+            "dataTypeName": "text",
+            "description": "Contractor city",
+            "fieldName": "contractorcity",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 76806208,
+            "format": {}
+        },
+        {
+            "id": 569018308,
+            "name": "contractorstate",
+            "dataTypeName": "text",
+            "description": "Contractor state",
+            "fieldName": "contractorstate",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 76806198,
+            "format": {}
+        },
+        {
+            "id": 569018309,
+            "name": "contractorzip",
+            "dataTypeName": "text",
+            "description": "Contractor zip",
+            "fieldName": "contractorzip",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 76806174,
+            "format": {}
+        },
+        {
+            "id": 569018310,
+            "name": "contractoremail",
+            "dataTypeName": "text",
+            "description": "Contractor email",
+            "fieldName": "contractoremail",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 76806207,
+            "format": {
+                "displayStyle": "email"
+            }
+        },
+        {
+            "id": 569018311,
+            "name": "contractorfullname",
+            "dataTypeName": "text",
+            "description": "Contractor name",
+            "fieldName": "contractorfullname",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 76806168,
+            "format": {}
+        },
+        {
+            "id": 569018312,
+            "name": "contractorphone",
+            "dataTypeName": "text",
+            "description": "Contractor phone",
+            "fieldName": "contractorphone",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 76806152,
+            "format": {}
+        },
+        {
+            "id": 569018313,
+            "name": "estprojectcost",
+            "dataTypeName": "number",
+            "description": "Estimated project cost",
+            "fieldName": "estprojectcost",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 76806169,
+            "format": {}
+        },
+        {
+            "id": 569018314,
+            "name": "estprojectcostdec",
+            "dataTypeName": "number",
+            "description": "Estimated project cost",
+            "fieldName": "estprojectcostdec",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 76806179,
+            "format": {}
+        },
+        {
+            "id": 569018315,
+            "name": "estprojectcosttext",
+            "dataTypeName": "number",
+            "description": "Estimated project cost",
+            "fieldName": "estprojectcosttext",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 76806184,
+            "format": {}
+        },
+        {
+            "id": 569018316,
+            "name": "masterpermitnum",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "masterpermitnum",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 76806151,
+            "format": {}
+        },
+        {
+            "id": 569018317,
+            "name": "expiresdate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "expiresdate",
+            "position": 43,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 105422013,
+            "format": {}
+        },
+        {
+            "id": 569018318,
+            "name": "coissueddate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "coissueddate",
+            "position": 44,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 105422014,
+            "format": {}
+        },
+        {
+            "id": 569018319,
+            "name": "holddate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "holddate",
+            "position": 45,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 105422016,
+            "format": {}
+        },
+        {
+            "id": 569018320,
+            "name": "voiddate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "voiddate",
+            "position": 46,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 105422015,
+            "format": {}
+        },
+        {
+            "id": 569018321,
+            "name": "projectname",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "projectname",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 76806182,
+            "format": {}
+        },
+        {
+            "id": 569018322,
+            "name": "projectid",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "projectid",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 76806206,
+            "format": {}
+        },
+        {
+            "id": 569018323,
+            "name": "pin",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "pin",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 76806173,
+            "format": {}
+        },
+        {
+            "id": 569018324,
+            "name": "totalsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "totalsqft",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 76806195,
+            "format": {}
+        },
+        {
+            "id": 569018325,
+            "name": "addedsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "addedsqft",
+            "position": 51,
+            "renderTypeName": "text",
+            "tableColumnId": 76806176,
+            "format": {}
+        },
+        {
+            "id": 569018326,
+            "name": "totalaccsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "totalaccsqft",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 76806150,
+            "format": {}
+        },
+        {
+            "id": 569018327,
+            "name": "totalfinishedsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "totalfinishedsqft",
+            "position": 53,
+            "renderTypeName": "text",
+            "tableColumnId": 76806171,
+            "format": {}
+        },
+        {
+            "id": 569018328,
+            "name": "totalheatedsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "totalheatedsqft",
+            "position": 54,
+            "renderTypeName": "text",
+            "tableColumnId": 76806196,
+            "format": {}
+        },
+        {
+            "id": 569018329,
+            "name": "totalsprinkledsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "totalsprinkledsqft",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 76806188,
+            "format": {}
+        },
+        {
+            "id": 569018330,
+            "name": "totalunfinishedsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "totalunfinishedsqft",
+            "position": 56,
+            "renderTypeName": "text",
+            "tableColumnId": 76806164,
+            "format": {}
+        },
+        {
+            "id": 569018331,
+            "name": "totalunheatedsqft",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "totalunheatedsqft",
+            "position": 57,
+            "renderTypeName": "text",
+            "tableColumnId": 76806163,
+            "format": {}
+        },
+        {
+            "id": 569018332,
+            "name": "publisher",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "publisher",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 76806180,
+            "format": {}
+        },
+        {
+            "id": 569018333,
+            "name": "fee",
+            "dataTypeName": "number",
+            "description": "Permit fee",
+            "fieldName": "fee",
+            "position": 59,
+            "renderTypeName": "number",
+            "tableColumnId": 76806202,
+            "format": {}
+        },
+        {
+            "id": 569018334,
+            "name": "permittedto",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "permittedto",
+            "position": 60,
+            "renderTypeName": "text",
+            "tableColumnId": 111249690,
+            "format": {}
+        },
+        {
+            "id": 569018335,
+            "name": "lastupdated",
+            "dataTypeName": "calendar_date",
+            "description": "Last updated date",
+            "fieldName": "lastupdated",
+            "position": 61,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 76806312,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 569018336,
+            "name": "latitude",
+            "dataTypeName": "number",
+            "description": "Permit latitude",
+            "fieldName": "latitude",
+            "position": 62,
+            "renderTypeName": "number",
+            "tableColumnId": 76806166,
+            "format": {}
+        },
+        {
+            "id": 569018337,
+            "name": "longitude",
+            "dataTypeName": "number",
+            "description": "Permit longitude",
+            "fieldName": "longitude",
+            "position": 63,
+            "renderTypeName": "number",
+            "tableColumnId": 76806210,
+            "format": {}
+        },
+        {
+            "id": 569018338,
+            "name": "location_wkt",
+            "dataTypeName": "point",
+            "description": "Permit location in well know text format",
+            "fieldName": "location_wkt",
+            "position": 64,
+            "renderTypeName": "point",
+            "tableColumnId": 76806204,
+            "format": {}
+        },
+        {
+            "id": 569018339,
+            "name": "type",
+            "dataTypeName": "text",
+            "description": "Column created from a SoQL query.",
+            "fieldName": "type",
+            "position": 65,
+            "renderTypeName": "text",
+            "format": {}
+        },
+        {
+            "id": 569018340,
+            "name": ":@computed_region_q7y7_kk3x",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 66,
+            "renderTypeName": "number",
+            "tableColumnId": 92051577,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569018341,
+            "name": ":@computed_region_c8ia_b5u2",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 67,
+            "renderTypeName": "number",
+            "tableColumnId": 92053011,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569034332,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 68,
+            "renderTypeName": "number",
+            "tableColumnId": 144944871,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569034333,
+            "name": "Hamilton County 2020 Census Tracts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_ymb6_j43f",
+            "position": 69,
+            "renderTypeName": "number",
+            "tableColumnId": 144942995,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_ymb6-j43f",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569034334,
+            "name": "Chattanooga Redistricting - New Districts",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_hr78_d3nd",
+            "position": 70,
+            "renderTypeName": "number",
+            "tableColumnId": 144942524,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_hr78-d3nd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569034335,
+            "name": "Chattanooga Historic Red Lining",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_tdua_xyxp",
+            "position": 71,
+            "renderTypeName": "number",
+            "tableColumnId": 144941981,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_tdua-xyxp",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 569034336,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 72,
+            "renderTypeName": "number",
+            "tableColumnId": 144941702,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "socrata@chattanooga.gov",
+                "Department": "Public Works",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "permits",
+        "permit",
+        "ldo",
+        "ecd",
+        "building",
+        "demolition",
+        "land",
+        "construction",
+        "application",
+        "development review and permitting",
+        "public works"
+    ],
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

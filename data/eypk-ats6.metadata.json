@@ -1,0 +1,364 @@
+{
+    "id": "eypk-ats6",
+    "name": "Business Licenses",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1561651039,
+    "description": "Business license information from 1990 to current date.",
+    "displayType": "table",
+    "downloadCount": 2321,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "e7fw-jj5v",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37489344,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1627488597,
+    "publicationGroup": 15991326,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703195538,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18395892,
+    "totalTimesRated": 0,
+    "viewCount": 722,
+    "viewLastModified": 1627488597,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1561651359,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3867049,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561651325,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1561651359,
+                "failureCount": 0,
+                "startedAt": 1561651359,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 545633096,
+            "name": "Issue Date",
+            "dataTypeName": "calendar_date",
+            "description": "Issue date of license",
+            "fieldName": "issue_date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 83911951,
+            "width": 100,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633097,
+            "name": "Business Name",
+            "dataTypeName": "text",
+            "description": "Name of business",
+            "fieldName": "business_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 77307962,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633098,
+            "name": "Business Startdate",
+            "dataTypeName": "calendar_date",
+            "description": "Start date of business",
+            "fieldName": "business_startdate",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 77307955,
+            "width": 100,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633099,
+            "name": "Reason for Applying",
+            "dataTypeName": "text",
+            "description": "Reason for applying for business application",
+            "fieldName": "reason_for_applying",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 77307950,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633100,
+            "name": "Business Class",
+            "dataTypeName": "text",
+            "description": "Type of business",
+            "fieldName": "business_class",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 77307949,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633101,
+            "name": "Street Number",
+            "dataTypeName": "text",
+            "description": "Business address number",
+            "fieldName": "street_number",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 77307953,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633102,
+            "name": "Street Direction",
+            "dataTypeName": "text",
+            "description": "Business address street direction",
+            "fieldName": "street_direction",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 77307956,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633103,
+            "name": "Street Name",
+            "dataTypeName": "text",
+            "description": "Business address street name",
+            "fieldName": "street_name",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 77307957,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633104,
+            "name": "Street Suffix",
+            "dataTypeName": "text",
+            "description": "Suffix for business address",
+            "fieldName": "street_suffix",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 77307954,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633105,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "City of business address",
+            "fieldName": "city",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 77307958,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633106,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "State of business address",
+            "fieldName": "state",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 77307948,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633107,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "Zip of business address",
+            "fieldName": "zip",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 77307952,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633108,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Latitude of business address",
+            "fieldName": "latitude",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 77307959,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633109,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Longitude of business address",
+            "fieldName": "longitude",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 77307960,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633110,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "Geometry of business address",
+            "fieldName": "location_wkt",
+            "position": 15,
+            "renderTypeName": "point",
+            "tableColumnId": 77307961,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 545633119,
+            "name": "Council District",
+            "dataTypeName": "text",
+            "description": "Council district of business license",
+            "fieldName": "council_district",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 95863555,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Growing Economy",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Finance",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "business license permit economy"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

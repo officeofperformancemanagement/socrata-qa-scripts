@@ -1,0 +1,329 @@
+{
+    "id": "uhpu-wauq",
+    "name": "2017 Tract Population - Occupation",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1557151330,
+    "description": "2017 tract population categorized by occupation. Data from ACS. More information on occupation categories can be found on page 35 here https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2017_ACS_Code_Lists.pdf?#",
+    "displayType": "table",
+    "downloadCount": 81,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1568055390,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31437285,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557151599,
+    "publicationGroup": 16177742,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557151599,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16177742,
+    "totalTimesRated": 0,
+    "viewCount": 129,
+    "viewLastModified": 1562357340,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557151646,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 535602,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557151599,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557151647,
+                "failureCount": 0,
+                "startedAt": 1557151646,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407299099,
+            "name": "STATE_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state_fip",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 80507731,
+            "format": {}
+        },
+        {
+            "id": 407299098,
+            "name": "COUNTY_FIP",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county_fip",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 80507730,
+            "format": {}
+        },
+        {
+            "id": 407299100,
+            "name": "TRACT_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "tract_id",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 80507732,
+            "format": {}
+        },
+        {
+            "id": 407299101,
+            "name": "Civilian employed population 16 years and over",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "civilian_employed_population",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 80507733,
+            "format": {}
+        },
+        {
+            "id": 407299102,
+            "name": "Agriculture forestry fishing and hunting and mining",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "agriculture_forestry_fishing",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 80507734,
+            "format": {}
+        },
+        {
+            "id": 407299103,
+            "name": "Construction",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "construction",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 80507735,
+            "format": {}
+        },
+        {
+            "id": 407299104,
+            "name": "Manufacturing",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "manufacturing",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 80507736,
+            "format": {}
+        },
+        {
+            "id": 407299105,
+            "name": "Wholesale trade",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "wholesale_trade",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 80507737,
+            "format": {}
+        },
+        {
+            "id": 407299106,
+            "name": "Retail trade",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "retail_trade",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 80507738,
+            "format": {}
+        },
+        {
+            "id": 407299107,
+            "name": "Transportation and warehousing and utilities",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "transportation_and_warehousing",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 80507739,
+            "format": {}
+        },
+        {
+            "id": 407299108,
+            "name": "Information",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "information",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 80507740,
+            "format": {}
+        },
+        {
+            "id": 407299109,
+            "name": "Finance and insurance and real estate and rental and leasing",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "finance_and_insurance_and",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 80507741,
+            "format": {}
+        },
+        {
+            "id": 407299110,
+            "name": "Professional scientific and management and administrative and waste management services",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "professional_scientific_and",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 80507742,
+            "format": {}
+        },
+        {
+            "id": 407299111,
+            "name": "Educational services and health care and social assistance",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "educational_services_and",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 80507743,
+            "format": {}
+        },
+        {
+            "id": 407299112,
+            "name": "Arts entertainment and recreation and accommodation and food services",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "arts_entertainment_and",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 80507744,
+            "format": {}
+        },
+        {
+            "id": 407299113,
+            "name": "Other services except public administration",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "other_services_except_public",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 80507745,
+            "format": {}
+        },
+        {
+            "id": 407299114,
+            "name": "Public administration",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "public_administration",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 80507746,
+            "format": {}
+        },
+        {
+            "id": 407299115,
+            "name": "geometry_wkt",
+            "dataTypeName": "polygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 18,
+            "renderTypeName": "polygon",
+            "tableColumnId": 80507747,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "tract 4 and 11"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

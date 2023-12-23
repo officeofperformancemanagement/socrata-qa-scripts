@@ -1,0 +1,177 @@
+{
+    "id": "wumz-uiv5",
+    "name": "CPD Districts",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1573748565,
+    "displayType": "table",
+    "downloadCount": 94,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1573827951,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32857257,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1573748671,
+    "publicationGroup": 16705127,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1573748969,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16705127,
+    "totalTimesRated": 0,
+    "viewCount": 238,
+    "viewLastModified": 1666190063,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1573748681,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1491756,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1573748672,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1573748681,
+                "failureCount": 0,
+                "startedAt": 1573748681,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 438374045,
+            "name": "District",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 90737560,
+            "format": {}
+        },
+        {
+            "id": 438374046,
+            "name": "Sector",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sector",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 90737561,
+            "format": {}
+        },
+        {
+            "id": 438374047,
+            "name": "Zone",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zone",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 90737562,
+            "format": {}
+        },
+        {
+            "id": 438374048,
+            "name": "geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geom",
+            "position": 4,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 90737563,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "cpd",
+        "district",
+        "districts"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

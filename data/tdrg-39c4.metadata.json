@@ -1,0 +1,278 @@
+{
+    "id": "tdrg-39c4",
+    "name": "Bike Chattanooga Trip Data",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Recreation",
+    "createdAt": 1562168574,
+    "description": "Trip data for the Bike Chattanooga system. Includes data from the start of the system to date. Data is updated about every 6 months.",
+    "displayType": "table",
+    "downloadCount": 193,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "s2f2-e5vh",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38949492,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1666018621,
+    "publicationGroup": 16330947,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1656080211,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18374204,
+    "totalTimesRated": 0,
+    "viewCount": 1029,
+    "viewLastModified": 1666018621,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562168778,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5034380,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562168726,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562168778,
+                "failureCount": 0,
+                "startedAt": 1562168778,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 566731022,
+            "name": "Member Type",
+            "dataTypeName": "text",
+            "description": "Type of member (subscriber or customer)",
+            "fieldName": "member_type",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 83599372,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731023,
+            "name": "BikeID",
+            "dataTypeName": "text",
+            "description": "ID of the bike",
+            "fieldName": "bikeid",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 83599373,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731024,
+            "name": "Start Time",
+            "dataTypeName": "calendar_date",
+            "description": "Date and time bike was checked out",
+            "fieldName": "start_time",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 83599371,
+            "width": 100,
+            "format": {
+                "view": "date_time"
+            }
+        },
+        {
+            "id": 566731025,
+            "name": "Start Station Name",
+            "dataTypeName": "text",
+            "description": "Name of starting station",
+            "fieldName": "start_station_name",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 83599374,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731026,
+            "name": "Start Station ID",
+            "dataTypeName": "text",
+            "description": "ID of starting station",
+            "fieldName": "start_station_id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 83599380,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731027,
+            "name": "Start Location",
+            "dataTypeName": "point",
+            "description": "Location of starting station in well known text format",
+            "fieldName": "start_location",
+            "position": 6,
+            "renderTypeName": "point",
+            "tableColumnId": 83599375,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731028,
+            "name": "End Time",
+            "dataTypeName": "calendar_date",
+            "description": "Date and time bike was returned",
+            "fieldName": "end_time",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 83599370,
+            "width": 100,
+            "format": {
+                "view": "date_time"
+            }
+        },
+        {
+            "id": 566731029,
+            "name": "End Station Name",
+            "dataTypeName": "text",
+            "description": "Name of station where bike was returned",
+            "fieldName": "end_station_name",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 83599376,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731030,
+            "name": "End Station ID",
+            "dataTypeName": "text",
+            "description": "ID of station where bike was returned",
+            "fieldName": "end_station_id",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 83599379,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731031,
+            "name": "End Location",
+            "dataTypeName": "point",
+            "description": "Location of station where bike was returned in well known text format",
+            "fieldName": "end_location",
+            "position": 10,
+            "renderTypeName": "point",
+            "tableColumnId": 83599377,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 566731032,
+            "name": "TripDurationMin",
+            "dataTypeName": "number",
+            "description": "Duration of trip in decimal minutes",
+            "fieldName": "tripdurationmin",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 83599378,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Parks and Outdoors",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "bike chattanooga",
+        "parks and outdoors",
+        "parks",
+        "recreation"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

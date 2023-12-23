@@ -1,0 +1,279 @@
+{
+    "id": "wkra-6q22",
+    "name": "Chattanooga: Capital Project List",
+    "assetType": "dataset",
+    "attribution": "Finance and Administration Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1432647073,
+    "description": "for budget.chattanooga.com",
+    "displayType": "table",
+    "downloadCount": 556,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1559245253,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31603685,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1559245253,
+    "publicationGroup": 2962319,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 410837935,
+    "rowsUpdatedAt": 1593532845,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16233506,
+    "totalTimesRated": 0,
+    "viewCount": 1184,
+    "viewLastModified": 1593532838,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1529936601,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 630881,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1529936601,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 410837935,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 31249875,
+            "width": 201,
+            "format": {}
+        },
+        {
+            "id": 410837936,
+            "name": "Project ID",
+            "dataTypeName": "text",
+            "fieldName": "project_id",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 28552649,
+            "width": 220,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 410837937,
+            "name": "Project Name",
+            "dataTypeName": "text",
+            "fieldName": "project_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 28552650,
+            "width": 244,
+            "format": {}
+        },
+        {
+            "id": 410837938,
+            "name": "Project Description",
+            "dataTypeName": "text",
+            "fieldName": "project_description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 28552651,
+            "width": 328,
+            "format": {}
+        },
+        {
+            "id": 410837939,
+            "name": "Current Phase",
+            "dataTypeName": "text",
+            "fieldName": "current_phase",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 28552652,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 410837940,
+            "name": "Current Phase Type",
+            "dataTypeName": "text",
+            "fieldName": "current_phase_type",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 28552653,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 410837941,
+            "name": "Project Details URL",
+            "dataTypeName": "text",
+            "fieldName": "project_details_url",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 28552654,
+            "width": 328,
+            "format": {}
+        },
+        {
+            "id": 410837942,
+            "name": "Council Districts",
+            "dataTypeName": "text",
+            "fieldName": "regions",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 28552655,
+            "width": 184,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "false",
+                "align": "right"
+            }
+        },
+        {
+            "id": 410837943,
+            "name": "Address",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 28552656,
+            "width": 184,
+            "format": {}
+        },
+        {
+            "id": 410837944,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "fieldName": "latitude",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 28552657,
+            "width": 196,
+            "format": {}
+        },
+        {
+            "id": 410837945,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "fieldName": "longitude",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 28552658,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 410837951,
+            "name": "New Georeferenced Column",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geocoded_column",
+            "position": 12,
+            "renderTypeName": "point",
+            "tableColumnId": 81200418,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Transparency App": {
+                "Application": "Open Budget"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            }
+        },
+        "rowIdentifier": 410837935,
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "capital budget",
+        "fy 2015-2017"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

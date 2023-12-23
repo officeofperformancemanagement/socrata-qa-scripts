@@ -1,0 +1,390 @@
+{
+    "id": "v9y9-uavb",
+    "name": "Public CPD Arrest Charges",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1579720178,
+    "description": "This dataset represents individual charges in an arrest. For single arrest data please visit: https://internal.chattadata.org/Public-Safety/Public-CPD-Arrests/hhdc-a448\r\n\r\nThe data provided in this public portal/website represents general data of incidents based on the Tennessee Incident Based Reporting System (TIBRS). Incidents involving protected classes (juveniles, domestic abuse victims) by Tennessee law have been removed. Additionally, some incident addresses have been generalized to block level and randomly offset to protect the privacy of victims of crime. All crime data posted is preliminary and may or may not have been reviewed and approved by the Chattanooga Police Department’s (CPD) quality control process; therefore, the data may change upon further investigation.\r\n\r\nThe City of Chattanooga and the Chattanooga Police Department caution against using crime data provided in this public portal to make decisions regarding the safety of, amount of or type of crime occurring in a particular area. Users should not make decisions as it relates to safety solely based on the data provided on this website, but should seek independent verification directly through CPD’s Crime Analyst Unit.\r\n\r\nThe information in this portal is provided strictly as a courtesy to the public.",
+    "displayType": "table",
+    "downloadCount": 115,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "wt73-k92q",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34927472,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1597255238,
+    "publicationGroup": 16725814,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703201756,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17435374,
+    "totalTimesRated": 0,
+    "viewCount": 803,
+    "viewLastModified": 1597255238,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1579720449,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2553199,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1579720286,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1579720449,
+                "failureCount": 0,
+                "startedAt": 1579720449,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 487583190,
+            "name": "Arrest Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of arrest",
+            "fieldName": "arrest_date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 91250882,
+            "width": 100,
+            "format": {
+                "view": "date_time",
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583191,
+            "name": "Case Number",
+            "dataTypeName": "text",
+            "description": "Case number of arrest",
+            "fieldName": "case_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 91250889,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583192,
+            "name": "TCA Code",
+            "dataTypeName": "text",
+            "description": "Tennessee Code Annotated",
+            "fieldName": "tca_code",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 91250891,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583193,
+            "name": "Statute Description",
+            "dataTypeName": "text",
+            "description": "Description of statute",
+            "fieldName": "statute_description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 91250892,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583194,
+            "name": "UCR Code",
+            "dataTypeName": "text",
+            "description": "Universal Crime Reporting code",
+            "fieldName": "ucr_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 91250893,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583195,
+            "name": "UCR Description",
+            "dataTypeName": "text",
+            "description": "UCR description",
+            "fieldName": "ucr_description",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 91250894,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583196,
+            "name": "Charges",
+            "dataTypeName": "text",
+            "description": "Arrest charges",
+            "fieldName": "charges",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 91250895,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583197,
+            "name": "Address Number",
+            "dataTypeName": "text",
+            "description": "Generalized arrest address number",
+            "fieldName": "address_number",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 91250902,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583198,
+            "name": "Street Name",
+            "dataTypeName": "text",
+            "description": "Arrest street name",
+            "fieldName": "street_name",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 91250896,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583199,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "Arrest city",
+            "fieldName": "city",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 91250897,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583200,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "Arrest zip",
+            "fieldName": "zip",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 91250903,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583201,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Approximate arrest latitude",
+            "fieldName": "latitude",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 91250898,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583202,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Approximate arrest longitude",
+            "fieldName": "longitude",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 91250899,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583203,
+            "name": "geom",
+            "dataTypeName": "point",
+            "description": "Approximate location of arrest in well known text format",
+            "fieldName": "geom",
+            "position": 14,
+            "renderTypeName": "point",
+            "tableColumnId": 91250900,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583206,
+            "name": "Race",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "race",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 103996767,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583207,
+            "name": "Sex",
+            "dataTypeName": "text",
+            "description": "Sex of arrested party.",
+            "fieldName": "sex",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 106217832,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583221,
+            "name": "Council District",
+            "dataTypeName": "text",
+            "description": "City council district.",
+            "fieldName": "council_district",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 111791086,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 487583223,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "text",
+            "description": "Census tract.",
+            "fieldName": "hamilton_county_census_tracts_2010",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 111791085,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "arrest",
+        "arrests",
+        "cpd",
+        "police"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

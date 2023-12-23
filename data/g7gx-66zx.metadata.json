@@ -1,0 +1,192 @@
+{
+    "id": "g7gx-66zx",
+    "name": "HCHD Cases by Race, Ethnicity, Sex - TDH Format",
+    "assetType": "dataset",
+    "attribution": "Hamilton County Health Department",
+    "attributionLink": "http://health.hamiltontn.org/en-us/allservices/coronavirus(covid-19).aspx",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1613415666,
+    "description": "COVID race, ethnicity, and sex case counts from the HCHD website. Data reshaped to match TDH format.",
+    "displayType": "table",
+    "downloadCount": 64,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36461387,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1613417085,
+    "publicationGroup": 18042414,
+    "publicationStage": "published",
+    "rowIdentifierColumnId": 524755984,
+    "rowsUpdatedAt": 1703215299,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 18042429,
+    "totalTimesRated": 0,
+    "viewCount": 87,
+    "viewLastModified": 1703214149,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1613416136,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3245424,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1613416115,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1613416136,
+                "failureCount": 0,
+                "startedAt": 1613416136,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 524755980,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of case count",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 130534513,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 524755981,
+            "name": "Category",
+            "dataTypeName": "text",
+            "description": "Category of detail",
+            "fieldName": "category",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 130534516,
+            "format": {}
+        },
+        {
+            "id": 524755982,
+            "name": "CAT_DETAIL",
+            "dataTypeName": "text",
+            "description": "Specific category of case count",
+            "fieldName": "cat_detail",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 130534515,
+            "format": {}
+        },
+        {
+            "id": 524755983,
+            "name": "Cat_CaseCount",
+            "dataTypeName": "number",
+            "description": "Case count for the cat_detail and date",
+            "fieldName": "cat_casecount",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 130534514,
+            "format": {}
+        },
+        {
+            "id": 524755984,
+            "name": "id",
+            "dataTypeName": "text",
+            "description": "Row id",
+            "fieldName": "id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 130534571,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": 524755984,
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

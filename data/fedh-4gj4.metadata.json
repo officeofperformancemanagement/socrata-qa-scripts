@@ -1,0 +1,249 @@
+{
+    "id": "fedh-4gj4",
+    "name": "Hamilton County Cases by Zip Code",
+    "assetType": "dataset",
+    "attribution": "Hamilton County Health Dept",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1590077859,
+    "description": "COVID-19 cases by zip code from the Hamilton County Health Department website",
+    "displayType": "table",
+    "downloadCount": 157,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35506327,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1602787821,
+    "publicationGroup": 17144997,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1691980090,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17668952,
+    "totalTimesRated": 0,
+    "viewCount": 1222,
+    "viewLastModified": 1703215320,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1590078338,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2806097,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1590078063,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1590078338,
+                "failureCount": 0,
+                "startedAt": 1590078338,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 502273753,
+            "name": "DATE",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 103180771,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 502273754,
+            "name": "CATEGORY",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "category",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 103180772,
+            "format": {}
+        },
+        {
+            "id": 502273755,
+            "name": "CAT_DETAIL",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cat_detail",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 103180780,
+            "format": {}
+        },
+        {
+            "id": 502273756,
+            "name": "CAT_CASES_TOTAL",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_total",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 103180773,
+            "format": {}
+        },
+        {
+            "id": 502273757,
+            "name": "CAT_CASES_TOTAL_PERCENT",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_total_percent",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 103180774,
+            "format": {
+                "precisionStyle": "percentage",
+                "percentScale": "1"
+            }
+        },
+        {
+            "id": 502273758,
+            "name": "CAT_CASES_TOTAL_PER1K",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_total_per1k",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 103180776,
+            "format": {}
+        },
+        {
+            "id": 502273759,
+            "name": "CAT_CASES_NEW_PER1K",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_new_per1k",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 109219135,
+            "format": {}
+        },
+        {
+            "id": 502273760,
+            "name": "CAT_CASES_NEW",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cat_cases_new",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 103180777,
+            "format": {}
+        },
+        {
+            "id": 502273762,
+            "name": "Most Recent Date",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "most_recent_date",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 103180770,
+            "format": {}
+        },
+        {
+            "id": 502273763,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 11,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 103180779,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid",
+        "health department",
+        "zip"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

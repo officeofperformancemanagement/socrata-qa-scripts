@@ -1,0 +1,214 @@
+{
+    "id": "2yfe-nzw5",
+    "name": "Hamilton County 2020 Census Blocks",
+    "assetType": "dataset",
+    "attribution": "Census",
+    "attributionLink": "https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/47_TENNESSEE/47065/",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1618409783,
+    "description": "Hamilton County 2020 census blocks spatial data",
+    "displayType": "table",
+    "downloadCount": 57,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37002332,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1618409992,
+    "publicationGroup": 18222758,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1618409991,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 18222758,
+    "totalTimesRated": 0,
+    "viewCount": 58,
+    "viewLastModified": 1666189932,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1618410021,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 3520800,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1618409992,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1618410022,
+                "failureCount": 0,
+                "startedAt": 1618410021,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 536225854,
+            "name": "STATEFP20",
+            "dataTypeName": "text",
+            "description": "State id",
+            "fieldName": "statefp20",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 135602813,
+            "format": {}
+        },
+        {
+            "id": 536225853,
+            "name": "COUNTYFP20",
+            "dataTypeName": "text",
+            "description": "County id",
+            "fieldName": "countyfp20",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 135602812,
+            "format": {}
+        },
+        {
+            "id": 536225852,
+            "name": "TRACTCE20",
+            "dataTypeName": "text",
+            "description": "Tract id",
+            "fieldName": "tractce20",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 135602811,
+            "format": {}
+        },
+        {
+            "id": 536225851,
+            "name": "BLOCKCE20",
+            "dataTypeName": "text",
+            "description": "Block id",
+            "fieldName": "blockce20",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 135602810,
+            "format": {}
+        },
+        {
+            "id": 536225850,
+            "name": "GEOID20",
+            "dataTypeName": "text",
+            "description": "Geo id",
+            "fieldName": "geoid20",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 135602809,
+            "format": {}
+        },
+        {
+            "id": 536225856,
+            "name": "NAME20",
+            "dataTypeName": "text",
+            "description": "Block name",
+            "fieldName": "name20",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 135602815,
+            "format": {}
+        },
+        {
+            "id": 536225855,
+            "name": "geometry",
+            "dataTypeName": "polygon",
+            "description": "Geometry in well known text format",
+            "fieldName": "geometry",
+            "position": 7,
+            "renderTypeName": "polygon",
+            "tableColumnId": 135602814,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Census Block",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "gis",
+        "hamilton",
+        "census",
+        "blocks"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

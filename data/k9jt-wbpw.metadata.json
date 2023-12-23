@@ -1,0 +1,252 @@
+{
+    "id": "k9jt-wbpw",
+    "name": "City Limits",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1553799199,
+    "description": "Chattanooga city limits",
+    "displayType": "table",
+    "downloadCount": 88,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1562357074,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31453866,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1557336356,
+    "publicationGroup": 16073537,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1557337477,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16183634,
+    "totalTimesRated": 0,
+    "viewCount": 140,
+    "viewLastModified": 1562357068,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1557335510,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 537872,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1557335501,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1557335510,
+                "failureCount": 0,
+                "startedAt": 1557335510,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 407647157,
+            "name": "NAME",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 78623859,
+            "format": {}
+        },
+        {
+            "id": 407647155,
+            "name": "ACRES",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "acres",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 78623857,
+            "format": {}
+        },
+        {
+            "id": 407647160,
+            "name": "POP1930",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop1930",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 78623862,
+            "format": {}
+        },
+        {
+            "id": 407647161,
+            "name": "POP1940",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop1940",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 78623863,
+            "format": {}
+        },
+        {
+            "id": 407647162,
+            "name": "POP1950",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop1950",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 78623864,
+            "format": {}
+        },
+        {
+            "id": 407647163,
+            "name": "POP1960",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop1960",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 78623865,
+            "format": {}
+        },
+        {
+            "id": 407647164,
+            "name": "POP1970",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop1970",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 78623866,
+            "format": {}
+        },
+        {
+            "id": 407647165,
+            "name": "POP1980",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop1980",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 78623867,
+            "format": {}
+        },
+        {
+            "id": 407647166,
+            "name": "POP1990",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop1990",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 78623868,
+            "format": {}
+        },
+        {
+            "id": 407647159,
+            "name": "POP_2000",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pop_2000",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 78623861,
+            "format": {}
+        },
+        {
+            "id": 407647168,
+            "name": "geometry_wkt",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "geometry_wkt",
+            "position": 11,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 80632421,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "city limits gis"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

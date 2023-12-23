@@ -1,0 +1,329 @@
+{
+    "id": "hin7-689s",
+    "name": "City Court Citations",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1596797658,
+    "description": "Data since January 1, 2016 on City Court Citations.  These are high level citations where each row represents an individual who may be cited for multiple infractions in one instance.",
+    "displayType": "table",
+    "downloadCount": 61,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "vqtk-wvf9",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 39247863,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1676924072,
+    "publicationGroup": 17306765,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703193655,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17311372,
+    "totalTimesRated": 0,
+    "viewCount": 122,
+    "viewLastModified": 1676924072,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1596797798,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 5307786,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1596797778,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1596797798,
+                "failureCount": 0,
+                "startedAt": 1596797798,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 570999449,
+            "name": "Citation Year",
+            "dataTypeName": "number",
+            "description": "Yea citation was issued",
+            "fieldName": "citation_year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 107648270,
+            "width": 100,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 570999450,
+            "name": "Citation Number",
+            "dataTypeName": "text",
+            "description": "Citation id number",
+            "fieldName": "citation_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 107648269,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999451,
+            "name": "Case_Number",
+            "dataTypeName": "text",
+            "description": "Case number for citation",
+            "fieldName": "case_number",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 107648271,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999452,
+            "name": "Charges",
+            "dataTypeName": "text",
+            "description": "Comma separated charges for this citation",
+            "fieldName": "charges",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 107790812,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999453,
+            "name": "Race of Offender",
+            "dataTypeName": "text",
+            "description": "Race of person issued citation",
+            "fieldName": "race_of_offender",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 107648272,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999454,
+            "name": "Sex of Offender",
+            "dataTypeName": "text",
+            "description": "Sex of person issued citation",
+            "fieldName": "sex_of_offender",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 107648273,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999455,
+            "name": "Violation Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date of citation",
+            "fieldName": "violation_date",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 107648274,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999456,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "Address where citation occurred",
+            "fieldName": "address",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 107648275,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999457,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "Longitude where citation occurred",
+            "fieldName": "longitude",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 107648276,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999458,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "Latitude where citation occurred",
+            "fieldName": "latitude",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 107648277,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999459,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "Location where citation occurred in well known text format",
+            "fieldName": "location_wkt",
+            "position": 11,
+            "renderTypeName": "point",
+            "tableColumnId": 107648278,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999460,
+            "name": "Agency",
+            "dataTypeName": "text",
+            "description": "Agency issuing citation",
+            "fieldName": "agency",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 107648279,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 570999466,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 107648281,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 570999463,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 107648280,
+            "computationStrategy": {
+                "source_columns": [
+                    "location_wkt"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Safer Streets",
+                "Data Steward Email": "odextract@chattanooga.gov",
+                "Department": "Police",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "citation",
+        "court",
+        "city court",
+        "traffic",
+        "speeding",
+        "registration",
+        "auto"
+    ],
+    "flags": [
+        "calculatedView",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType",
+        "soqlBasedView"
+    ]
+}

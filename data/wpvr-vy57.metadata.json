@@ -1,0 +1,296 @@
+{
+    "id": "wpvr-vy57",
+    "name": "TN COVID Testing Sites",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1588076963,
+    "description": "COVID testing sites in TN",
+    "displayType": "table",
+    "downloadCount": 94,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34010763,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1588077866,
+    "publicationGroup": 17071803,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1624856928,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17071803,
+    "totalTimesRated": 0,
+    "viewCount": 154,
+    "viewLastModified": 1666189937,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1588077990,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2132588,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1588077866,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1588077990,
+                "failureCount": 0,
+                "startedAt": 1588077990,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 464290488,
+            "name": "Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 100009857,
+            "format": {}
+        },
+        {
+            "id": 464290489,
+            "name": "Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "address",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 100009858,
+            "format": {}
+        },
+        {
+            "id": 464290490,
+            "name": "Phone",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "phone",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 100009859,
+            "format": {}
+        },
+        {
+            "id": 464290491,
+            "name": "County",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "county",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 100009860,
+            "format": {}
+        },
+        {
+            "id": 464290492,
+            "name": "State",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "state",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 100009861,
+            "format": {}
+        },
+        {
+            "id": 464290478,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 100009847,
+            "format": {}
+        },
+        {
+            "id": 464290487,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 100009856,
+            "format": {}
+        },
+        {
+            "id": 464290479,
+            "name": "Availability",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "availability",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 100009848,
+            "format": {}
+        },
+        {
+            "id": 464290480,
+            "name": "Notes",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "notes",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 100009849,
+            "format": {}
+        },
+        {
+            "id": 464290481,
+            "name": "AccessType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "accesstype",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 100009850,
+            "format": {}
+        },
+        {
+            "id": 464290482,
+            "name": "WkEndHrs",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "wkendhrs",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 100009851,
+            "format": {}
+        },
+        {
+            "id": 464290483,
+            "name": "Hours",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hours",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 100009852,
+            "format": {}
+        },
+        {
+            "id": 464290485,
+            "name": "FID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fid",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 100009854,
+            "format": {}
+        },
+        {
+            "id": 464290486,
+            "name": "Id",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "id",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 100009855,
+            "format": {}
+        },
+        {
+            "id": 464290484,
+            "name": "geometry",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 15,
+            "renderTypeName": "point",
+            "tableColumnId": 100009853,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Health",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "covid"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

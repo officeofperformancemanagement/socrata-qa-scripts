@@ -1,0 +1,163 @@
+{
+    "id": "fik7-5xve",
+    "name": "Publicly Owned Sidewalks",
+    "assetType": "filter",
+    "averageRating": 0,
+    "createdAt": 1564489001,
+    "description": "Polygons of City Owned Sidewalks",
+    "displayType": "table",
+    "downloadCount": 120,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1564489083,
+    "modifyingViewUid": "y66e-t7ai",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32045636,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1564489079,
+    "publicationGroup": 16315517,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1563813283,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16380051,
+    "totalTimesRated": 0,
+    "viewCount": 139,
+    "viewLastModified": 1564489079,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1564489090,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1013529,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1564489079,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1564489090,
+                "failureCount": 0,
+                "startedAt": 1564489090,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 420673558,
+            "name": "Owner",
+            "dataTypeName": "text",
+            "description": "Sidewalk owner",
+            "fieldName": "owner",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 83253002,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 420673559,
+            "name": "geometry",
+            "dataTypeName": "multipolygon",
+            "description": "Feature geometry in well known text format",
+            "fieldName": "geometry",
+            "position": 3,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 84600563,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Transportation",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "sidewalks",
+        "sidewalk",
+        "right of way",
+        "row"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

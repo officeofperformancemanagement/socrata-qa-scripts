@@ -1,0 +1,242 @@
+{
+    "id": "8c7r-yciv",
+    "name": "HCDE Zones - Schools",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Education",
+    "createdAt": 1599753925,
+    "description": "Schools tab from HCDE Zones file",
+    "displayType": "table",
+    "downloadCount": 63,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35191121,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1599754133,
+    "publicationGroup": 17540796,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1599754132,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17540796,
+    "totalTimesRated": 0,
+    "viewCount": 125,
+    "viewLastModified": 1666191057,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1599762643,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2669476,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1599754133,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1599762643,
+                "failureCount": 0,
+                "startedAt": 1599762643,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 494289763,
+            "name": "Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 115083355,
+            "format": {}
+        },
+        {
+            "id": 494289764,
+            "name": "School_Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "school_code",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 115083356,
+            "format": {}
+        },
+        {
+            "id": 494289765,
+            "name": "School_Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "school_name",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 115083357,
+            "format": {}
+        },
+        {
+            "id": 494289756,
+            "name": "School_Address",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "school_address",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 115083348,
+            "format": {}
+        },
+        {
+            "id": 494289757,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 115083349,
+            "format": {}
+        },
+        {
+            "id": 494289758,
+            "name": "St",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "st",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 115083350,
+            "format": {}
+        },
+        {
+            "id": 494289762,
+            "name": "Zip",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "zip",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 115083354,
+            "format": {}
+        },
+        {
+            "id": 494289759,
+            "name": "Phone",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "phone",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 115083351,
+            "format": {}
+        },
+        {
+            "id": 494289760,
+            "name": "Fax",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fax",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 115083352,
+            "format": {}
+        },
+        {
+            "id": 494289761,
+            "name": "Grade",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "grade",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 115083353,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "hcde",
+        "education"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

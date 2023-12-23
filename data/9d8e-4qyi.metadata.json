@@ -1,0 +1,456 @@
+{
+    "id": "9d8e-4qyi",
+    "name": "Safer Streets",
+    "assetType": "dataset",
+    "attribution": "Mayor's Office",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1453644073,
+    "description": "Data feeding into the ChattaData Safer Streets goals.",
+    "displayType": "table",
+    "downloadCount": 776,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1546914896,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 29792700,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1538148823,
+    "publicationGroup": 7380104,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1554082220,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 15547004,
+    "totalTimesRated": 0,
+    "viewCount": 1071,
+    "viewLastModified": 1554082215,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1538148823,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 367074,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1538148823,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 376786324,
+            "name": "Month",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "month",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 34005475,
+            "width": 160,
+            "format": {
+                "view": "date_monthy",
+                "align": "left"
+            }
+        },
+        {
+            "id": 376786325,
+            "name": "Reduce Violent Crime: Number of Shootings",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_violent_crime_number_of_shootings",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 34005476,
+            "width": 346,
+            "format": {}
+        },
+        {
+            "id": 376786326,
+            "name": "Reduce Violent Crime: Homicides",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_violent_crime_homicides",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 34005477,
+            "width": 301,
+            "format": {}
+        },
+        {
+            "id": 376786327,
+            "name": "Reduce Violent Crime: Rapes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_violent_crime_rapes",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 34005478,
+            "width": 274,
+            "format": {}
+        },
+        {
+            "id": 376786328,
+            "name": "Reduce Violent Crime: Robberies",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_violent_crime_robberies",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 34005479,
+            "width": 286,
+            "format": {}
+        },
+        {
+            "id": 376786329,
+            "name": "Reduce Violent Crime: Agg. Assaults",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_violent_crime_agg_assaults",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 34005480,
+            "width": 323,
+            "format": {}
+        },
+        {
+            "id": 376786330,
+            "name": "Reduce Violent Crime: Part 1 Violent Crime",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_violent_crime_part_1_violent_crime",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 34005481,
+            "width": 357,
+            "format": {}
+        },
+        {
+            "id": 376786331,
+            "name": "Reduce Violent Crime: Agg. Assaults Non-Domestic Violence",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_violent_crime_agg_assaults_non_domestic_violence",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 34009123,
+            "width": 454,
+            "format": {}
+        },
+        {
+            "id": 376786332,
+            "name": "Reduce Family Violence: Domestic Violence Homicides",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_family_violence_domestic_violence_homicides",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 34005482,
+            "width": 426,
+            "format": {}
+        },
+        {
+            "id": 376786333,
+            "name": "Reduce Family Violence: Domestic Violence Rapes",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_family_violence_domestic_violence_rapes",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 34005483,
+            "width": 395,
+            "format": {}
+        },
+        {
+            "id": 376786334,
+            "name": "Reduce Family Violence: Domestic Violence Robberies",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_family_violence_domestic_violence_robberies",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 34005484,
+            "width": 415,
+            "format": {}
+        },
+        {
+            "id": 376786335,
+            "name": "Reduce Family Violence: Domestic Violence Agg. Assaults",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_family_violence_domestic_violence_agg_assaults",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 34005485,
+            "width": 460,
+            "format": {}
+        },
+        {
+            "id": 376786336,
+            "name": "Reduce Family Violence: Total Domestic Violence Part 1 Violent Crimes ",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_family_violence_total_domestic_violence_part_1_violent_crimes",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 34005486,
+            "width": 520,
+            "format": {}
+        },
+        {
+            "id": 376786337,
+            "name": "Reduce Family Violence: Domestic Violence Simple Assaults",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_family_violence_domestic_violence_simple_assaults",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 34005487,
+            "width": 476,
+            "format": {}
+        },
+        {
+            "id": 376786338,
+            "name": "Reduce Family Violence: Total Domestic Crime",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_family_violence_total_domestic_crime",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 34005488,
+            "width": 381,
+            "format": {}
+        },
+        {
+            "id": 376786339,
+            "name": "Reduce Property Crimes: Burglary",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_property_crimes_burglary",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 39973818,
+            "width": 298,
+            "format": {}
+        },
+        {
+            "id": 376786340,
+            "name": "Reduce Property Crimes: Auto Theft",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_property_crimes_auto_theft",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 39973819,
+            "width": 305,
+            "format": {}
+        },
+        {
+            "id": 376786341,
+            "name": "Reduce Property Crimes: Theft from Motor Vehicle",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_property_crimes_theft_from_motor_vehicle",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 39973825,
+            "width": 387,
+            "format": {}
+        },
+        {
+            "id": 376786342,
+            "name": "Reduce Property Crimes: Theft - Other",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_property_crimes_theft_other",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 39973826,
+            "width": 326,
+            "format": {}
+        },
+        {
+            "id": 376786343,
+            "name": "Reduce Property Crimes: Part 1 Property Crime",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_property_crimes_part_1_property_crime",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 39973827,
+            "width": 367,
+            "format": {}
+        },
+        {
+            "id": 376786344,
+            "name": "Reduce Fire Incidents: Number of Fires",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_fire_incidents_number_of_fires",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 34005489,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 376786345,
+            "name": "Reduce Fire Incidents: Number of Non Fire Calls",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_fire_incidents_number_of_non_fire_calls",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 34005490,
+            "width": 397,
+            "format": {}
+        },
+        {
+            "id": 376786346,
+            "name": "Reduce Fire Incidents: Number of False Calls",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_fire_incidents_number_of_false_calls",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 34005491,
+            "width": 362,
+            "format": {}
+        },
+        {
+            "id": 376786347,
+            "name": "Reduce Fire Incidents: Number of Inspections",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_fire_incidents_number_of_inspections",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 34005492,
+            "width": 369,
+            "format": {}
+        },
+        {
+            "id": 376786348,
+            "name": "Reduce Fire Incidents: In-District Response Time (minutes)",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reduce_fire_incidents_in_district_response_time_minutes",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 34005493,
+            "width": 449,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "jsonQuery": {
+            "order": [
+                {
+                    "columnFieldName": "month",
+                    "ascending": true
+                }
+            ]
+        },
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Monthly"
+            },
+            "Data Description": {
+                "Data Dictionary": ""
+            }
+        },
+        "rowLabel": "Row",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": true,
+                "expression": {
+                    "columnId": 376786324,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "public safety",
+        "chattadata"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

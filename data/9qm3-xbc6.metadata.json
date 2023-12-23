@@ -1,0 +1,304 @@
+{
+    "id": "9qm3-xbc6",
+    "name": "Code Violation - Letters",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Economy",
+    "createdAt": 1561742286,
+    "description": "The dataset contains all instances of \"letters\" being created within the Cityview system related to code violations.",
+    "displayType": "table",
+    "downloadCount": 185,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575345691,
+    "modifyingViewUid": "i2eu-fh3b",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31821715,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1561742375,
+    "publicationGroup": 16056535,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1703213525,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16162566,
+    "totalTimesRated": 0,
+    "viewCount": 604,
+    "viewLastModified": 1666019707,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562167814,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 856030,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1561742375,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562167814,
+                "failureCount": 0,
+                "startedAt": 1562167814,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 415272797,
+            "name": "Case Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "case_number",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 78262940,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272798,
+            "name": "Date Entered",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date_entered",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 78262946,
+            "width": 100,
+            "format": {
+                "view": "date",
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272799,
+            "name": "Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 78262941,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272800,
+            "name": "Type Code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type_code",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 78262942,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272801,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 78262943,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272802,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 78262944,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272803,
+            "name": "Location WKT",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "location_wkt",
+            "position": 8,
+            "renderTypeName": "point",
+            "tableColumnId": 78262945,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272804,
+            "name": "Street Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_number",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 78263275,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272805,
+            "name": "Street Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_name",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 78263273,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272806,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 78263271,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 415272807,
+            "name": "isOwnerOccupied",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "isowneroccupied",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 80199198,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "rdfClass": "",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "Stronger Neighborhoods",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Community Development",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "code enforcement",
+        "letters",
+        "code",
+        "enforcement",
+        "code violations",
+        "violation",
+        "community development",
+        "cityview"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

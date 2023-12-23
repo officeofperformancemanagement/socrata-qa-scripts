@@ -1,0 +1,160 @@
+{
+    "id": "y67m-pif9",
+    "name": "Domestic Violence Count - ChattaData",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1562179083,
+    "description": "Count of incidents involving domestic violence recorded by CPD.",
+    "displayType": "table",
+    "downloadCount": 122,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575344419,
+    "modifyingViewUid": "u7i7-8ajg",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 31903494,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1562760431,
+    "publicationGroup": 16099687,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1703195714,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16331290,
+    "totalTimesRated": 0,
+    "viewCount": 258,
+    "viewLastModified": 1666017529,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1562760360,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 878425,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1562180605,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1562760360,
+                "failureCount": 0,
+                "startedAt": 1562760360,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 417152033,
+            "name": "Report Month",
+            "dataTypeName": "calendar_date",
+            "description": "Report month in which the incident occurred",
+            "fieldName": "date_incident",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 79274430,
+            "width": 100,
+            "format": {
+                "view": "date",
+                "align": "left",
+                "group_function": "date_ym"
+            }
+        },
+        {
+            "id": 417152034,
+            "name": "Domestic Violent Incident Count",
+            "dataTypeName": "text",
+            "description": "Count of incidents CPD responded to",
+            "fieldName": "domestic_violence",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 83606246,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Data Steward Name": "Ryan Wedell"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "domestic violence chattadata"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

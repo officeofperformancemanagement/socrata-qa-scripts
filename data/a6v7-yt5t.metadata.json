@@ -1,0 +1,490 @@
+{
+    "id": "a6v7-yt5t",
+    "name": "Building Assessor Raw Data",
+    "assetType": "filter",
+    "attribution": "Hamilton County Assessor",
+    "attributionLink": "http://www.hamiltontn.gov/assessor/AssessorFileDownload.aspx",
+    "averageRating": 0,
+    "createdAt": 1567694644,
+    "description": "Building assessor data. Raw download can be found at the Hamilton County Assessor website here: http://www.hamiltontn.gov/assessor/AssessorFileDownload.aspx",
+    "displayType": "table",
+    "downloadCount": 140,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "bd52-u34m",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 34542143,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1567694822,
+    "publicationGroup": 16457674,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1595981201,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17279716,
+    "totalTimesRated": 0,
+    "viewCount": 237,
+    "viewLastModified": 1666017577,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1567694845,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2375428,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1567694822,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1567694845,
+                "failureCount": 0,
+                "startedAt": 1567694845,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 477842035,
+            "name": "Account Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "account_number",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 86335644,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842014,
+            "name": "Map",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "map",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 86335645,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842015,
+            "name": "Group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "group",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 86335571,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842016,
+            "name": "Parcel",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "parcel",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 86335649,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842018,
+            "name": "Building Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "building_type",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 86335646,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842019,
+            "name": "Building Type Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "building_type_desc",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 86335572,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842020,
+            "name": "Land Use",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "land_use",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 86335650,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842021,
+            "name": "Land Use Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "land_use_desc",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 86335573,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842022,
+            "name": "Year Built",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "year_built",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 86335648,
+            "width": 100,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 477842023,
+            "name": "Size Area",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "size_area",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 86335574,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842024,
+            "name": "Storys",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "storys",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 86335575,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842025,
+            "name": "Roof Structure",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "roof_structure",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 86335576,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842026,
+            "name": "Roof Structure Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "roof_structure_desc",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 86335588,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842027,
+            "name": "Roof Cover",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "roof_cover",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 86335629,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842028,
+            "name": "Roof Cover Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "roof_cover_desc",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 86335630,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842029,
+            "name": "Exterior Wall",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "exterior_wall",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 86335631,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842030,
+            "name": "Exterior Wall Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "exterior_wall_desc",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 86335632,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842031,
+            "name": "Exterior Wall 2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "exterior_wall_2",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 86335633,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842032,
+            "name": "Exterior Wall Desc 2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "exterior_wall_desc_2",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 86335634,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842033,
+            "name": "Heat",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "heat",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 86335635,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842034,
+            "name": "Heat Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "heat_desc",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 86335636,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842036,
+            "name": "Card Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "card_number",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 86335643,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842037,
+            "name": "Street Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_number",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 86335647,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842038,
+            "name": "Street Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street_name",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 86335637,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842039,
+            "name": "Current Use",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "current_use",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 86335638,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842040,
+            "name": "Current Use Desc",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "current_use_desc",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 86335639,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842041,
+            "name": "City",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "city",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 86335640,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842042,
+            "name": "Full Bath",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "full_bath",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 86335641,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 477842043,
+            "name": "Three Quarter Bath",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "three_quarter_bath",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 86335642,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "Ryan Wedell",
+                "How often are data values updated?": "Weekly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "assessor",
+        "building",
+        "property",
+        "parcel"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

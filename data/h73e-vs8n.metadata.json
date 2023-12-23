@@ -1,0 +1,212 @@
+{
+    "id": "h73e-vs8n",
+    "name": "Open Data Automated Job Log",
+    "assetType": "filter",
+    "attribution": "Information Technology Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1435696210,
+    "description": "This job log show the status and run time of the nightly automated jobs for the City of Chattanooga open datasets. Each night the open datasets listed here are checked for updates and if there are any updates they are added to the dataset.",
+    "displayType": "table",
+    "downloadCount": 299,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1561148066,
+    "licenseId": "PUBLIC_DOMAIN",
+    "modifyingViewUid": "9sai-pzce",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 12159163,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1436468688,
+    "publicationGroup": 3312608,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1561148058,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 3467628,
+    "totalTimesRated": 0,
+    "viewCount": 3682,
+    "viewLastModified": 1550064530,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1436468688,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366844,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1436468688,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 212216717,
+            "name": "Job Name",
+            "dataTypeName": "text",
+            "fieldName": "job_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 29294073,
+            "width": 237,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 212216719,
+            "name": "Started At",
+            "dataTypeName": "calendar_date",
+            "fieldName": "started_at",
+            "position": 3,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 29294086,
+            "width": 154,
+            "format": {
+                "view": "date_time",
+                "align": "left"
+            }
+        },
+        {
+            "id": 212216720,
+            "name": "Completed At",
+            "dataTypeName": "calendar_date",
+            "fieldName": "completed_at",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 29367958,
+            "width": 150,
+            "format": {
+                "view": "date_time",
+                "align": "left"
+            }
+        },
+        {
+            "id": 212216721,
+            "name": "Completion Time",
+            "dataTypeName": "number",
+            "description": "Workflow completion time in minutes.",
+            "fieldName": "completion_time",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 29368091,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "noCommas": "false",
+                "precision": "2",
+                "align": "right"
+            }
+        },
+        {
+            "id": 212216722,
+            "name": "Successful",
+            "dataTypeName": "text",
+            "fieldName": "successful",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 29294074,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "conditionalFormatting": [
+            {
+                "condition": {
+                    "tableColumnId": 29294074,
+                    "_key": "(29294074|EQUALS|False)",
+                    "value": "False",
+                    "operator": "EQUALS"
+                },
+                "color": "#ff0000"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Daily "
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {
+        "orderBys": [
+            {
+                "ascending": false,
+                "expression": {
+                    "columnId": 212216720,
+                    "type": "column"
+                }
+            }
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "ipyd-bu8g",
+        "displayName": "Adrian",
+        "screenName": "Adrian",
+        "type": "interactive"
+    },
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

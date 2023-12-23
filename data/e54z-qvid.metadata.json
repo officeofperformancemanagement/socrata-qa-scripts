@@ -1,0 +1,391 @@
+{
+    "id": "e54z-qvid",
+    "name": "Capital Project Explorer Staging Data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1579878204,
+    "description": "This is testing data for the capital project explorer",
+    "displayType": "table",
+    "downloadCount": 77,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33337463,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1579878582,
+    "publicationGroup": 16851586,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1580218501,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 16851586,
+    "totalTimesRated": 0,
+    "viewCount": 125,
+    "viewLastModified": 1580218500,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1579878590,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 1785009,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1579878582,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1579878590,
+                "failureCount": 0,
+                "startedAt": 1579878590,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 448520652,
+            "name": "project_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "project_id",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 93832476,
+            "format": {}
+        },
+        {
+            "id": 448520653,
+            "name": "project_name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "project_name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 93832477,
+            "format": {}
+        },
+        {
+            "id": 448520654,
+            "name": "project_description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "project_description",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 93832478,
+            "format": {}
+        },
+        {
+            "id": 448520655,
+            "name": "project_image",
+            "dataTypeName": "url",
+            "description": "",
+            "fieldName": "project_image",
+            "position": 4,
+            "renderTypeName": "url",
+            "tableColumnId": 93832479,
+            "format": {},
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 448520656,
+            "name": "project_stage_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "project_stage_id",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 93832480,
+            "format": {}
+        },
+        {
+            "id": 448520657,
+            "name": "project_start_date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "project_start_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 93832481,
+            "format": {}
+        },
+        {
+            "id": 448520658,
+            "name": "project_end_date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "project_end_date",
+            "position": 7,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 93832482,
+            "format": {}
+        },
+        {
+            "id": 448520659,
+            "name": "budget",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "budget",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 93832483,
+            "format": {}
+        },
+        {
+            "id": 448520674,
+            "name": "budget2",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "budget2",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 93832498,
+            "format": {}
+        },
+        {
+            "id": 448520661,
+            "name": "amount_spent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "amount_spent",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 93832485,
+            "format": {}
+        },
+        {
+            "id": 448520660,
+            "name": "project_website",
+            "dataTypeName": "url",
+            "description": "",
+            "fieldName": "project_website",
+            "position": 11,
+            "renderTypeName": "url",
+            "tableColumnId": 93832484,
+            "format": {},
+            "subColumnTypes": [
+                "url",
+                "description"
+            ]
+        },
+        {
+            "id": 448520673,
+            "name": "district_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "district_id",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 93832497,
+            "format": {}
+        },
+        {
+            "id": 448520662,
+            "name": "category_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "category_id",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 93832486,
+            "format": {}
+        },
+        {
+            "id": 448520663,
+            "name": "subcategory_ID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "subcategory_id",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 93832487,
+            "format": {}
+        },
+        {
+            "id": 448520664,
+            "name": "project_icon",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "project_icon",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 93832488,
+            "format": {}
+        },
+        {
+            "id": 448520665,
+            "name": "initiative_icon",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "initiative_icon",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 93832489,
+            "format": {}
+        },
+        {
+            "id": 448520666,
+            "name": "budget_indicator",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "budget_indicator",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 93832490,
+            "format": {}
+        },
+        {
+            "id": 448520667,
+            "name": "Budget_indicator_narrative",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "budget_indicator_narrative",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 93832491,
+            "format": {}
+        },
+        {
+            "id": 448520668,
+            "name": "schedule_indicator",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "schedule_indicator",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 93832492,
+            "format": {}
+        },
+        {
+            "id": 448520669,
+            "name": "schedule_indicator_narrative",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "schedule_indicator_narrative",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 93832493,
+            "format": {}
+        },
+        {
+            "id": 448520670,
+            "name": "optional_indicator",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "optional_indicator",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 93832494,
+            "format": {}
+        },
+        {
+            "id": 448520671,
+            "name": "optional_indicator_narrative",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "optional_indicator_narrative",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 93832495,
+            "format": {}
+        },
+        {
+            "id": 448520672,
+            "name": "last_updated_date",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "last_updated_date",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 93832496,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Mayor's Office",
+                "Data Steward Name": "odextract",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "capital project"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

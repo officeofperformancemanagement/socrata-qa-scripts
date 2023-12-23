@@ -1,0 +1,337 @@
+{
+    "id": "pr4n-wt8t",
+    "name": "All Permit Contractors Information",
+    "assetType": "dataset",
+    "attribution": "Economic and Community Development Department",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1435176105,
+    "description": "Contractors information from all permits from the City of Chattanooga. Data is provided from May 1st 2006 to current date.",
+    "displayType": "table",
+    "downloadCount": 568,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1486675094,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 25416139,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1486674693,
+    "publicationGroup": 3291249,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1486674615,
+    "rowsUpdatedBy": "wma2-yapv",
+    "tableId": 14034482,
+    "totalTimesRated": 0,
+    "viewCount": 3100,
+    "viewLastModified": 1486674693,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1486674693,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 366965,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1486674693,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 289538961,
+            "name": "PermitNum",
+            "dataTypeName": "text",
+            "fieldName": "permitnum",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 29252645,
+            "width": 208,
+            "format": {}
+        },
+        {
+            "id": 289538950,
+            "name": "ContractorCompanyName",
+            "dataTypeName": "text",
+            "fieldName": "contractorcompanyname",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 29252634,
+            "width": 352,
+            "format": {}
+        },
+        {
+            "id": 289538957,
+            "name": "ContractorTrade",
+            "dataTypeName": "text",
+            "fieldName": "contractortrade",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 29252641,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 289538958,
+            "name": "ContractorTradeMapped",
+            "dataTypeName": "text",
+            "fieldName": "contractortrademapped",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 29252642,
+            "width": 352,
+            "format": {}
+        },
+        {
+            "id": 289538953,
+            "name": "ContractorLicNum",
+            "dataTypeName": "text",
+            "fieldName": "contractorlicnum",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 29252637,
+            "width": 292,
+            "format": {}
+        },
+        {
+            "id": 289538956,
+            "name": "ContractorStateLic",
+            "dataTypeName": "text",
+            "fieldName": "contractorstatelic",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 29252640,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 289538952,
+            "name": "ContractorFullName",
+            "dataTypeName": "text",
+            "fieldName": "contractorfullname",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 29252636,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 289538949,
+            "name": "ContractorCompanyDesc",
+            "dataTypeName": "text",
+            "fieldName": "contractorcompanydesc",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 29252633,
+            "width": 352,
+            "format": {}
+        },
+        {
+            "id": 289538946,
+            "name": "ContractorAddress1",
+            "dataTypeName": "text",
+            "fieldName": "contractoraddress1",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 29252630,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 289538947,
+            "name": "ContractorAddress2",
+            "dataTypeName": "text",
+            "fieldName": "contractoraddress2",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 29252631,
+            "width": 316,
+            "format": {}
+        },
+        {
+            "id": 289538948,
+            "name": "ContractorCity",
+            "dataTypeName": "text",
+            "fieldName": "contractorcity",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 29252632,
+            "width": 268,
+            "format": {}
+        },
+        {
+            "id": 289538955,
+            "name": "ContractorState",
+            "dataTypeName": "text",
+            "fieldName": "contractorstate",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 29252639,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 289538959,
+            "name": "ContractorZip",
+            "dataTypeName": "text",
+            "fieldName": "contractorzip",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 29252643,
+            "width": 256,
+            "format": {}
+        },
+        {
+            "id": 289538951,
+            "name": "ContractorEmail",
+            "dataTypeName": "text",
+            "fieldName": "contractoremail",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 29252635,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 289538954,
+            "name": "ContractorPhone",
+            "dataTypeName": "text",
+            "fieldName": "contractorphone",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 29252638,
+            "width": 280,
+            "format": {}
+        },
+        {
+            "id": 289538960,
+            "name": "LastUpdated",
+            "dataTypeName": "calendar_date",
+            "fieldName": "lastupdated",
+            "position": 16,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 29252644,
+            "width": 232,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 289538992,
+            "name": "LAT",
+            "dataTypeName": "number",
+            "fieldName": "lat",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 43629014,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 289538993,
+            "name": "LON",
+            "dataTypeName": "number",
+            "fieldName": "lon",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 43629015,
+            "width": 116,
+            "format": {}
+        },
+        {
+            "id": 289538994,
+            "name": "OriginalAddressLocation",
+            "dataTypeName": "number",
+            "fieldName": "originaladdresslocation",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 43629016,
+            "width": 234,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Daily "
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "permit",
+        "blds"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

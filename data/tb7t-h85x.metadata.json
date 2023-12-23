@@ -1,0 +1,192 @@
+{
+    "id": "tb7t-h85x",
+    "name": "Public Library Website",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1659384562,
+    "description": "Visit and visitor count information for the Public Library website",
+    "displayType": "table",
+    "downloadCount": 59,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38740853,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1659622296,
+    "publicationGroup": 18805294,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1664212248,
+    "rowsUpdatedBy": "w5hb-qra3",
+    "tableId": 18809165,
+    "totalTimesRated": 0,
+    "viewCount": 28,
+    "viewLastModified": 1666192451,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1662558341,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4960708,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1662558261,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1662558341,
+                "failureCount": 0,
+                "startedAt": 1662558341,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "w5hb-qra3",
+                "displayName": "Joshua Hardin"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 564197479,
+            "name": "Report Year",
+            "dataTypeName": "text",
+            "description": "Year report was made",
+            "fieldName": "report_year",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 143182213,
+            "format": {}
+        },
+        {
+            "id": 564197480,
+            "name": "Report Month",
+            "dataTypeName": "text",
+            "description": "Month report was made",
+            "fieldName": "report_month",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 143170672,
+            "format": {}
+        },
+        {
+            "id": 564197481,
+            "name": "Visitor Count",
+            "dataTypeName": "number",
+            "description": "Count of individual visitors to the site",
+            "fieldName": "visitor_count",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 143170671,
+            "format": {}
+        },
+        {
+            "id": 564197482,
+            "name": "Site Visit Count",
+            "dataTypeName": "number",
+            "description": "Count of visits to site",
+            "fieldName": "site_visit_count",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 143170670,
+            "format": {}
+        },
+        {
+            "id": 564197483,
+            "name": "Report Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "report_date",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 143195734,
+            "format": {}
+        },
+        {
+            "id": 564197484,
+            "name": "Fiscal Year",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fiscal_year",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 143205917,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Department": "Public Library",
+                "Data Steward Name": "Joshua Hardin",
+                "How often are data values updated?": "Yearly"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "rowLabel": "Visit",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "w5hb-qra3",
+        "displayName": "Joshua Hardin",
+        "screenName": "Joshua Hardin",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "library"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

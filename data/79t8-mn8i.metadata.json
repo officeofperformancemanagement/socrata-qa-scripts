@@ -1,0 +1,227 @@
+{
+    "id": "79t8-mn8i",
+    "name": "Solid Waste and Recycling Website Data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "City Services",
+    "createdAt": 1586368611,
+    "description": "Data from the solid waste and recycling program. Visuals are pushed to the solid waste and recycling program website.",
+    "displayType": "table",
+    "downloadCount": 122,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33848471,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1586368980,
+    "publicationGroup": 17007767,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1698091343,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 17007767,
+    "totalTimesRated": 0,
+    "viewCount": 188,
+    "viewLastModified": 1703192544,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1586369200,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2059092,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1586368981,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1586369201,
+                "failureCount": 0,
+                "startedAt": 1586369200,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "nfms-ud8q",
+                "displayName": "ODEXTRACT"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 460145626,
+            "name": "Year",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "year",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 97957653,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 460145627,
+            "name": "Garbage Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "garbage_tons_collected",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 97957654,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 460145628,
+            "name": "Refuse Collection Centers Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "refuse_collection_centers",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 97957655,
+            "format": {
+                "noCommas": "false",
+                "precision": "2"
+            }
+        },
+        {
+            "id": 460145629,
+            "name": "Trash Flash Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "trash_flash_tons_collected",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 97957656,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 460145632,
+            "name": "Curbside Recycling Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "curbside_recycling_tons",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 97957659,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 460145630,
+            "name": "Recycling Centers Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "recycling_centers_tons",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 97957657,
+            "format": {
+                "precision": "2"
+            }
+        },
+        {
+            "id": 460145631,
+            "name": "Brush Pickup Tons Collected",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "brush_pickup_tons_collected",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 97957658,
+            "format": {
+                "precision": "2"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Public Works",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "recycling",
+        "recycle",
+        "solid waste",
+        "cws",
+        "waste"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

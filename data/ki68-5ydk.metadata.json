@@ -1,0 +1,599 @@
+{
+    "id": "ki68-5ydk",
+    "name": "Fleet Work Orders",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1645895811,
+    "description": "This dataset contains data on individual work orders submitted to the City of Chattanooga's Department of Public Works' Fleet Division. The Fleet division maintains and conducts repairs on many of the vehicles owned by the City. When a City owned vehicle needs repairs or maintenance, a work order is created to track the costs and other values associated with the repairs/maintenance. Each row in the dataset represents an individual work order for a single repair/maintenance.",
+    "displayType": "table",
+    "downloadCount": 70,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "6dh4-rcg9",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38230175,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1645895892,
+    "publicationGroup": 16417798,
+    "publicationStage": "published",
+    "rowClass": "",
+    "rowsUpdatedAt": 1703199345,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16850159,
+    "totalTimesRated": 0,
+    "viewCount": 28,
+    "viewLastModified": 1645895892,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1645896575,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 4468472,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1645896564,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1645896575,
+                "failureCount": 0,
+                "startedAt": 1645896575,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 556545812,
+            "name": "Class Code",
+            "dataTypeName": "text",
+            "description": "This is a detailed class code for the description of the work order and can be ignored.",
+            "fieldName": "class_code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 85462193,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545813,
+            "name": "Current Facility",
+            "dataTypeName": "text",
+            "description": "This indicates the current facility the vehicle is stored at.",
+            "fieldName": "current_facility",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 85462188,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545814,
+            "name": "Fuel Type",
+            "dataTypeName": "text",
+            "description": "This is the fuel type used by the vehicle with Unleaded Gasoline (U) and Diesel (D) being the most common.",
+            "fieldName": "fuel_type",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 85462212,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545815,
+            "name": "In Service Date",
+            "dataTypeName": "calendar_date",
+            "description": "This indicates when the vehicle began being in use for the City of Chattanooga operations",
+            "fieldName": "in_service_date",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 85931174,
+            "width": 100,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 556545816,
+            "name": "Purchase Price",
+            "dataTypeName": "number",
+            "description": "This is the original purchase price of the vehicle.",
+            "fieldName": "purchase_price",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 85462208,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545817,
+            "name": "Vehicle Number",
+            "dataTypeName": "text",
+            "description": "This is the unique vehicle number assigned to each vehicle.",
+            "fieldName": "vehicle_number",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 85462210,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545818,
+            "name": "Vehicle Class",
+            "dataTypeName": "text",
+            "description": "This is the class of vehicle with Heavy (H), Medium (M), Light (L), and Other (O) being the most comon.",
+            "fieldName": "vehicle_class",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 85462204,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545819,
+            "name": "Vehicle Location",
+            "dataTypeName": "text",
+            "description": "This is the current location of the vehicle.",
+            "fieldName": "vehicle_location",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 85462211,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545820,
+            "name": "Vehicle Make",
+            "dataTypeName": "text",
+            "description": "General make of the vehicle.",
+            "fieldName": "vehicle_make",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 85462194,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545821,
+            "name": "Vehicle Model",
+            "dataTypeName": "text",
+            "description": "General model of the vehicle.",
+            "fieldName": "vehicle_model",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 85462186,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545822,
+            "name": "Vehicle Year",
+            "dataTypeName": "number",
+            "description": "Year of production of the vehicle.",
+            "fieldName": "vehicle_year",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 85462206,
+            "width": 100,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 556545823,
+            "name": "Division Owner",
+            "dataTypeName": "text",
+            "description": "This indicates which department and/or division own the vehicle.",
+            "fieldName": "division_owner",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 85462190,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545824,
+            "name": "Work Order Number",
+            "dataTypeName": "text",
+            "description": "This is the unique work order number created when the work order is created.",
+            "fieldName": "work_order_number",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 85462215,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545825,
+            "name": "Open Indicator",
+            "dataTypeName": "text",
+            "description": "This indicates if the work order is still open meaning work is still being done.",
+            "fieldName": "open_indicator",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 85462191,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545826,
+            "name": "Priority Code",
+            "dataTypeName": "number",
+            "description": "This can be ignored.",
+            "fieldName": "priority_code",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 85462221,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545827,
+            "name": "Shop Name",
+            "dataTypeName": "text",
+            "description": "This indicates which shop is performing the work with 12th Street (12T) and Amnicola (AMN) being the most common.",
+            "fieldName": "shop_name",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 85462195,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545828,
+            "name": "Work Order Begin Date",
+            "dataTypeName": "calendar_date",
+            "description": "This indicates when the work order began, meaning work began on the vehicle.",
+            "fieldName": "work_order_begin_date",
+            "position": 17,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 85931762,
+            "width": 100,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 556545829,
+            "name": "Work Order Finish Date",
+            "dataTypeName": "calendar_date",
+            "description": "This indicates when the work order is completed.",
+            "fieldName": "work_order_finish_date",
+            "position": 18,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 85931764,
+            "width": 100,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 556545830,
+            "name": "Days to Complete",
+            "dataTypeName": "number",
+            "description": "This is the number of calendar days it took to complete the work order.",
+            "fieldName": "days_to_complete",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 85462203,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545831,
+            "name": "Expected Hours",
+            "dataTypeName": "number",
+            "description": "This is how many expected labor hours the work order should take.",
+            "fieldName": "expected_hours",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 85462197,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545832,
+            "name": "Actual Hours",
+            "dataTypeName": "number",
+            "description": "This is how many actual labor hours the work order took once completed.",
+            "fieldName": "actual_hours",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 85462185,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545833,
+            "name": "Out of Shop Tires Cost",
+            "dataTypeName": "number",
+            "description": "Any costs associated with purchasing tires outside of City inventory.",
+            "fieldName": "out_of_shop_tires_cost",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 85462209,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545834,
+            "name": "Tires Cost",
+            "dataTypeName": "number",
+            "description": "Any costs associated with tires in City inventory.",
+            "fieldName": "tires_cost",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 85462198,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545835,
+            "name": "Labor Cost",
+            "dataTypeName": "number",
+            "description": "Any labor costs done by City employees.",
+            "fieldName": "labor_cost",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 85462214,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545836,
+            "name": "Misc Cost",
+            "dataTypeName": "number",
+            "description": "Any miscellaneous costs",
+            "fieldName": "misc_cost",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 85462213,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545837,
+            "name": "Out of Shop Labor Cost",
+            "dataTypeName": "number",
+            "description": "Any out of shop labor costs, meaning work not done by City employees.",
+            "fieldName": "out_of_shop_labor_cost",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 85462202,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545838,
+            "name": "Out of Shop Parts Cost",
+            "dataTypeName": "number",
+            "description": "Any out of shop parts that needed to be purchased, meaning not in stock parts.",
+            "fieldName": "out_of_shop_parts_cost",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 85462196,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545839,
+            "name": "Parts Cost",
+            "dataTypeName": "number",
+            "description": "Any parts costs that were in stock.",
+            "fieldName": "parts_cost",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 85462205,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545840,
+            "name": "Warranty Labor Cost",
+            "dataTypeName": "number",
+            "description": "Any labor that was covered under warranty.",
+            "fieldName": "warranty_labor_cost",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 85462200,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545841,
+            "name": "Warranty Parts Cost",
+            "dataTypeName": "number",
+            "description": "Any parts cost that was covered under warranty.",
+            "fieldName": "warranty_parts_cost",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 85462187,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545842,
+            "name": "Total Out Shop Cost",
+            "dataTypeName": "number",
+            "description": "Total costs spent on parts and services outside of City fleet division.",
+            "fieldName": "total_out_shop_cost",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 85462189,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545843,
+            "name": "Total In Shop Cost",
+            "dataTypeName": "number",
+            "description": "Total costs spent on parts and services done by City mechanics.",
+            "fieldName": "total_in_shop_cost",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 85462220,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545844,
+            "name": "Total Cost",
+            "dataTypeName": "number",
+            "description": "Total cost related to the work order.",
+            "fieldName": "total_cost",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 85462199,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545845,
+            "name": "WO Vehicle Facility",
+            "dataTypeName": "text",
+            "fieldName": "wo_vehicle_facility",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 85462192,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545846,
+            "name": "WO Vehicle Odometer",
+            "dataTypeName": "number",
+            "description": "Odometer reading of the vehicle when it came into the shop for the work order.",
+            "fieldName": "wo_vehicle_odom",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 85462201,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545847,
+            "name": "Invoice Month Year",
+            "dataTypeName": "text",
+            "fieldName": "invoice_monthyear",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 85462218,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545848,
+            "name": "WO Reason",
+            "dataTypeName": "text",
+            "description": "General reason for the work order with the most common being repairs and maintenance.",
+            "fieldName": "wo_reason",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 85462217,
+            "width": 100,
+            "format": {}
+        },
+        {
+            "id": 556545849,
+            "name": "On Time Indicator",
+            "dataTypeName": "text",
+            "description": "Value is Y for Yes if the Actual Hours is at or below the Expected Hours.  Otherwise, it is N for No.",
+            "fieldName": "on_time_indicator",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 93792062,
+            "width": 100,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfClass": "",
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Department of Public Works",
+                "Data Steward Name": "opendata@chattanooga.gov",
+                "How often are data values updated?": "Daily"
+            }
+        },
+        "rowIdentifier": "0",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "fleet",
+        "vehicle",
+        "service",
+        "repair",
+        "oil change",
+        "vehicle maintenace",
+        "garage",
+        "car",
+        "truck"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

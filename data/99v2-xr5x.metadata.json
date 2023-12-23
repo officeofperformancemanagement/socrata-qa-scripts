@@ -1,0 +1,2240 @@
+{
+    "id": "99v2-xr5x",
+    "name": "Hamilton County Railroad Crossings",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1598974061,
+    "description": "Railroad crossings in Hamilton county. Data from https://safetydata.fra.dot.gov/OfficeofSafety/publicsite/DownloadCrossingInventoryData.aspx\nData dictionary: https://safetydata.fra.dot.gov/gcis/Help/ReferenceDocuments/GCIS_Data_Dictionary_External_Use_v2.10.1.0_Rel_04-30-2020.pdf",
+    "displayType": "table",
+    "downloadCount": 89,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 35109385,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1598982488,
+    "publicationGroup": 17510286,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1598982482,
+    "rowsUpdatedBy": "76k4-ifet",
+    "tableId": 17510286,
+    "totalTimesRated": 0,
+    "viewCount": 98,
+    "viewLastModified": 1666191144,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1598982637,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2633052,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1598982489,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1598982637,
+                "failureCount": 0,
+                "startedAt": 1598982637,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "76k4-ifet",
+                "displayName": "Ryan Wedell"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 492254224,
+            "name": "CrossingID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "crossingid",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 114098519,
+            "format": {}
+        },
+        {
+            "id": 492254303,
+            "name": "SubmissionType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "submissiontype",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 114098598,
+            "format": {}
+        },
+        {
+            "id": 492254196,
+            "name": "ReportBaseId",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reportbaseid",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 114098491,
+            "format": {}
+        },
+        {
+            "id": 492254360,
+            "name": "ParentReportBaseId",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "parentreportbaseid",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 114098655,
+            "format": {}
+        },
+        {
+            "id": 492254353,
+            "name": "CrossingClosed",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "crossingclosed",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 114098648,
+            "format": {}
+        },
+        {
+            "id": 492254272,
+            "name": "ReportingAgencyTypeID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reportingagencytypeid",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 114098567,
+            "format": {}
+        },
+        {
+            "id": 492254278,
+            "name": "ReportingAgencyID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reportingagencyid",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 114098573,
+            "format": {}
+        },
+        {
+            "id": 492254270,
+            "name": "RevisionDate",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "revisiondate",
+            "position": 8,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 114098565,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 492254375,
+            "name": "ReasonID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reasonid",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 114098670,
+            "format": {}
+        },
+        {
+            "id": 492254384,
+            "name": "CrossingIdSuffix",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "crossingidsuffix",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 114098679,
+            "format": {}
+        },
+        {
+            "id": 492254381,
+            "name": "ReportStatus",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reportstatus",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 114098676,
+            "format": {}
+        },
+        {
+            "id": 492254378,
+            "name": "LastUpdated",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "lastupdated",
+            "position": 12,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 114098673,
+            "format": {
+                "view": "date"
+            }
+        },
+        {
+            "id": 492254293,
+            "name": "Railroad",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "railroad",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 114098588,
+            "format": {}
+        },
+        {
+            "id": 492254366,
+            "name": "StateCD",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "statecd",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 114098661,
+            "format": {}
+        },
+        {
+            "id": 492254363,
+            "name": "StateName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "statename",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 114098658,
+            "format": {}
+        },
+        {
+            "id": 492254247,
+            "name": "CntyCD",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cntycd",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 114098542,
+            "format": {}
+        },
+        {
+            "id": 492254292,
+            "name": "CountyName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "countyname",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 114098587,
+            "format": {}
+        },
+        {
+            "id": 492254277,
+            "name": "Nearest",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "nearest",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 114098572,
+            "format": {}
+        },
+        {
+            "id": 492254199,
+            "name": "CityCD",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "citycd",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 114098494,
+            "format": {}
+        },
+        {
+            "id": 492254355,
+            "name": "CityName",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cityname",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 114098650,
+            "format": {}
+        },
+        {
+            "id": 492254309,
+            "name": "Street",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "street",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 114098604,
+            "format": {}
+        },
+        {
+            "id": 492254291,
+            "name": "BlockNumb",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "blocknumb",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 114098586,
+            "format": {}
+        },
+        {
+            "id": 492254397,
+            "name": "Highway",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "highway",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 114098692,
+            "format": {}
+        },
+        {
+            "id": 492254251,
+            "name": "SepInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sepind",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 114098546,
+            "format": {}
+        },
+        {
+            "id": 492254380,
+            "name": "SepRr1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "seprr1",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 114098675,
+            "format": {}
+        },
+        {
+            "id": 492254223,
+            "name": "SepRr2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "seprr2",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 114098518,
+            "format": {}
+        },
+        {
+            "id": 492254235,
+            "name": "SepRr3",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "seprr3",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 114098530,
+            "format": {}
+        },
+        {
+            "id": 492254294,
+            "name": "SepRr4",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "seprr4",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 114098589,
+            "format": {}
+        },
+        {
+            "id": 492254218,
+            "name": "MultFrmsFiLed",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "multfrmsfiled",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 114098513,
+            "format": {}
+        },
+        {
+            "id": 492254185,
+            "name": "SameInd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sameind",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 114098480,
+            "format": {}
+        },
+        {
+            "id": 492254250,
+            "name": "SameRr1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "samerr1",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 114098545,
+            "format": {}
+        },
+        {
+            "id": 492254182,
+            "name": "SameRr2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "samerr2",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 114098477,
+            "format": {}
+        },
+        {
+            "id": 492254306,
+            "name": "SameRr3",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "samerr3",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 114098601,
+            "format": {}
+        },
+        {
+            "id": 492254392,
+            "name": "SameRr4",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "samerr4",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 114098687,
+            "format": {}
+        },
+        {
+            "id": 492254203,
+            "name": "RrID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrid",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 114098498,
+            "format": {}
+        },
+        {
+            "id": 492254376,
+            "name": "Ttstn",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ttstn",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 114098671,
+            "format": {}
+        },
+        {
+            "id": 492254173,
+            "name": "TtstnNam",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ttstnnam",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 114098468,
+            "format": {}
+        },
+        {
+            "id": 492254276,
+            "name": "RrMain",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrmain",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 114098571,
+            "format": {}
+        },
+        {
+            "id": 492254187,
+            "name": "XingOwnr",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "xingownr",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 114098482,
+            "format": {}
+        },
+        {
+            "id": 492254176,
+            "name": "TypeXing",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "typexing",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 114098471,
+            "format": {}
+        },
+        {
+            "id": 492254301,
+            "name": "XPurpose",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "xpurpose",
+            "position": 41,
+            "renderTypeName": "text",
+            "tableColumnId": 114098596,
+            "format": {}
+        },
+        {
+            "id": 492254205,
+            "name": "PosXing",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "posxing",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 114098500,
+            "format": {}
+        },
+        {
+            "id": 492254372,
+            "name": "OpenPub",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "openpub",
+            "position": 43,
+            "renderTypeName": "text",
+            "tableColumnId": 114098667,
+            "format": {}
+        },
+        {
+            "id": 492254368,
+            "name": "TypeTrnSrvcIDs",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "typetrnsrvcids",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 114098663,
+            "format": {}
+        },
+        {
+            "id": 492254260,
+            "name": "DevelTypID",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "develtypid",
+            "position": 45,
+            "renderTypeName": "text",
+            "tableColumnId": 114098555,
+            "format": {}
+        },
+        {
+            "id": 492254313,
+            "name": "XingAdj",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "xingadj",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 114098608,
+            "format": {}
+        },
+        {
+            "id": 492254390,
+            "name": "XngAdjNo",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "xngadjno",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 114098685,
+            "format": {}
+        },
+        {
+            "id": 492254396,
+            "name": "Whistban",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "whistban",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 114098691,
+            "format": {}
+        },
+        {
+            "id": 492254217,
+            "name": "WhistDate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "whistdate",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 114098512,
+            "format": {}
+        },
+        {
+            "id": 492254183,
+            "name": "HscoRrid",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hscorrid",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 114098478,
+            "format": {}
+        },
+        {
+            "id": 492254271,
+            "name": "SfxHscoRrid",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sfxhscorrid",
+            "position": 51,
+            "renderTypeName": "text",
+            "tableColumnId": 114098566,
+            "format": {}
+        },
+        {
+            "id": 492254304,
+            "name": "Latitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "latitude",
+            "position": 52,
+            "renderTypeName": "number",
+            "tableColumnId": 114098599,
+            "format": {}
+        },
+        {
+            "id": 492254210,
+            "name": "Longitude",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "longitude",
+            "position": 53,
+            "renderTypeName": "number",
+            "tableColumnId": 114098505,
+            "format": {}
+        },
+        {
+            "id": 492254377,
+            "name": "geometry",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "geometry",
+            "position": 54,
+            "renderTypeName": "point",
+            "tableColumnId": 114098672,
+            "format": {}
+        },
+        {
+            "id": 492254237,
+            "name": "LLsource",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "llsource",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 114098532,
+            "format": {}
+        },
+        {
+            "id": 492254307,
+            "name": "RrNarr1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrnarr1",
+            "position": 56,
+            "renderTypeName": "text",
+            "tableColumnId": 114098602,
+            "format": {}
+        },
+        {
+            "id": 492254197,
+            "name": "RrNarr2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrnarr2",
+            "position": 57,
+            "renderTypeName": "text",
+            "tableColumnId": 114098492,
+            "format": {}
+        },
+        {
+            "id": 492254209,
+            "name": "RrNarr3",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrnarr3",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 114098504,
+            "format": {}
+        },
+        {
+            "id": 492254373,
+            "name": "RrNarr4",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrnarr4",
+            "position": 59,
+            "renderTypeName": "text",
+            "tableColumnId": 114098668,
+            "format": {}
+        },
+        {
+            "id": 492254228,
+            "name": "StNarr1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stnarr1",
+            "position": 60,
+            "renderTypeName": "text",
+            "tableColumnId": 114098523,
+            "format": {}
+        },
+        {
+            "id": 492254393,
+            "name": "StNarr2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stnarr2",
+            "position": 61,
+            "renderTypeName": "text",
+            "tableColumnId": 114098688,
+            "format": {}
+        },
+        {
+            "id": 492254179,
+            "name": "StNarr3",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stnarr3",
+            "position": 62,
+            "renderTypeName": "text",
+            "tableColumnId": 114098474,
+            "format": {}
+        },
+        {
+            "id": 492254394,
+            "name": "StNarr4",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stnarr4",
+            "position": 63,
+            "renderTypeName": "text",
+            "tableColumnId": 114098689,
+            "format": {}
+        },
+        {
+            "id": 492254227,
+            "name": "RrNarr",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrnarr",
+            "position": 64,
+            "renderTypeName": "text",
+            "tableColumnId": 114098522,
+            "format": {}
+        },
+        {
+            "id": 492254379,
+            "name": "StNarr",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "stnarr",
+            "position": 65,
+            "renderTypeName": "text",
+            "tableColumnId": 114098674,
+            "format": {}
+        },
+        {
+            "id": 492254299,
+            "name": "PolCont",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "polcont",
+            "position": 66,
+            "renderTypeName": "text",
+            "tableColumnId": 114098594,
+            "format": {}
+        },
+        {
+            "id": 492254367,
+            "name": "RrCont",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrcont",
+            "position": 67,
+            "renderTypeName": "text",
+            "tableColumnId": 114098662,
+            "format": {}
+        },
+        {
+            "id": 492254255,
+            "name": "HwyCont",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hwycont",
+            "position": 68,
+            "renderTypeName": "text",
+            "tableColumnId": 114098550,
+            "format": {}
+        },
+        {
+            "id": 492254369,
+            "name": "THRRequestNo",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "thrrequestno",
+            "position": 69,
+            "renderTypeName": "text",
+            "tableColumnId": 114098664,
+            "format": {}
+        },
+        {
+            "id": 492254192,
+            "name": "CCMQzid",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ccmqzid",
+            "position": 70,
+            "renderTypeName": "text",
+            "tableColumnId": 114098487,
+            "format": {}
+        },
+        {
+            "id": 492254266,
+            "name": "OperatingRailroadCode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "operatingrailroadcode",
+            "position": 71,
+            "renderTypeName": "text",
+            "tableColumnId": 114098561,
+            "format": {}
+        },
+        {
+            "id": 492254358,
+            "name": "OperatingRailroadType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "operatingrailroadtype",
+            "position": 72,
+            "renderTypeName": "text",
+            "tableColumnId": 114098653,
+            "format": {}
+        },
+        {
+            "id": 492254242,
+            "name": "RrDiv",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrdiv",
+            "position": 73,
+            "renderTypeName": "text",
+            "tableColumnId": 114098537,
+            "format": {}
+        },
+        {
+            "id": 492254267,
+            "name": "RrSubDiv",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "rrsubdiv",
+            "position": 74,
+            "renderTypeName": "text",
+            "tableColumnId": 114098562,
+            "format": {}
+        },
+        {
+            "id": 492254282,
+            "name": "Branch",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "branch",
+            "position": 75,
+            "renderTypeName": "text",
+            "tableColumnId": 114098577,
+            "format": {}
+        },
+        {
+            "id": 492254188,
+            "name": "PrfxMilePost",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "prfxmilepost",
+            "position": 76,
+            "renderTypeName": "text",
+            "tableColumnId": 114098483,
+            "format": {}
+        },
+        {
+            "id": 492254194,
+            "name": "MilePost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "milepost",
+            "position": 77,
+            "renderTypeName": "number",
+            "tableColumnId": 114098489,
+            "format": {}
+        },
+        {
+            "id": 492254389,
+            "name": "SfxMilePost",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sfxmilepost",
+            "position": 78,
+            "renderTypeName": "text",
+            "tableColumnId": 114098684,
+            "format": {}
+        },
+        {
+            "id": 492254300,
+            "name": "Lt1PassMov",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lt1passmov",
+            "position": 79,
+            "renderTypeName": "text",
+            "tableColumnId": 114098595,
+            "format": {}
+        },
+        {
+            "id": 492254290,
+            "name": "PassCnt",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "passcnt",
+            "position": 80,
+            "renderTypeName": "text",
+            "tableColumnId": 114098585,
+            "format": {}
+        },
+        {
+            "id": 492254240,
+            "name": "DayThru",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "daythru",
+            "position": 81,
+            "renderTypeName": "number",
+            "tableColumnId": 114098535,
+            "format": {}
+        },
+        {
+            "id": 492254200,
+            "name": "NghtThru",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nghtthru",
+            "position": 82,
+            "renderTypeName": "number",
+            "tableColumnId": 114098495,
+            "format": {}
+        },
+        {
+            "id": 492254239,
+            "name": "TotalSwt",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "totalswt",
+            "position": 83,
+            "renderTypeName": "number",
+            "tableColumnId": 114098534,
+            "format": {}
+        },
+        {
+            "id": 492254234,
+            "name": "TotalLtr",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "totalltr",
+            "position": 84,
+            "renderTypeName": "number",
+            "tableColumnId": 114098529,
+            "format": {}
+        },
+        {
+            "id": 492254253,
+            "name": "Lt1Mov",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lt1mov",
+            "position": 85,
+            "renderTypeName": "number",
+            "tableColumnId": 114098548,
+            "format": {}
+        },
+        {
+            "id": 492254208,
+            "name": "WeekTrnMov",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "weektrnmov",
+            "position": 86,
+            "renderTypeName": "number",
+            "tableColumnId": 114098503,
+            "format": {}
+        },
+        {
+            "id": 492254370,
+            "name": "YearTrnMov",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "yeartrnmov",
+            "position": 87,
+            "renderTypeName": "number",
+            "tableColumnId": 114098665,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 492254180,
+            "name": "MaxTtSpd",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "maxttspd",
+            "position": 88,
+            "renderTypeName": "number",
+            "tableColumnId": 114098475,
+            "format": {}
+        },
+        {
+            "id": 492254212,
+            "name": "MinSpd",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "minspd",
+            "position": 89,
+            "renderTypeName": "number",
+            "tableColumnId": 114098507,
+            "format": {}
+        },
+        {
+            "id": 492254256,
+            "name": "MaxSpd",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "maxspd",
+            "position": 90,
+            "renderTypeName": "number",
+            "tableColumnId": 114098551,
+            "format": {}
+        },
+        {
+            "id": 492254204,
+            "name": "MainTrk",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "maintrk",
+            "position": 91,
+            "renderTypeName": "text",
+            "tableColumnId": 114098499,
+            "format": {}
+        },
+        {
+            "id": 492254207,
+            "name": "SidingTrk",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sidingtrk",
+            "position": 92,
+            "renderTypeName": "text",
+            "tableColumnId": 114098502,
+            "format": {}
+        },
+        {
+            "id": 492254177,
+            "name": "YardTrk",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "yardtrk",
+            "position": 93,
+            "renderTypeName": "text",
+            "tableColumnId": 114098472,
+            "format": {}
+        },
+        {
+            "id": 492254362,
+            "name": "TransitTrk",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "transittrk",
+            "position": 94,
+            "renderTypeName": "text",
+            "tableColumnId": 114098657,
+            "format": {}
+        },
+        {
+            "id": 492254231,
+            "name": "IndustryTrk",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "industrytrk",
+            "position": 95,
+            "renderTypeName": "text",
+            "tableColumnId": 114098526,
+            "format": {}
+        },
+        {
+            "id": 492254254,
+            "name": "OthrTrk",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "othrtrk",
+            "position": 96,
+            "renderTypeName": "text",
+            "tableColumnId": 114098549,
+            "format": {}
+        },
+        {
+            "id": 492254175,
+            "name": "OthrTrkDes",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "othrtrkdes",
+            "position": 97,
+            "renderTypeName": "text",
+            "tableColumnId": 114098470,
+            "format": {}
+        },
+        {
+            "id": 492254259,
+            "name": "SpselIDs",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "spselids",
+            "position": 98,
+            "renderTypeName": "text",
+            "tableColumnId": 114098554,
+            "format": {}
+        },
+        {
+            "id": 492254257,
+            "name": "Sgnleqp",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "sgnleqp",
+            "position": 99,
+            "renderTypeName": "text",
+            "tableColumnId": 114098552,
+            "format": {}
+        },
+        {
+            "id": 492254193,
+            "name": "EMonitorDvce",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "emonitordvce",
+            "position": 100,
+            "renderTypeName": "text",
+            "tableColumnId": 114098488,
+            "format": {}
+        },
+        {
+            "id": 492254289,
+            "name": "HealthMonitor",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "healthmonitor",
+            "position": 101,
+            "renderTypeName": "text",
+            "tableColumnId": 114098584,
+            "format": {}
+        },
+        {
+            "id": 492254310,
+            "name": "NoSigns",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "nosigns",
+            "position": 102,
+            "renderTypeName": "number",
+            "tableColumnId": 114098605,
+            "format": {}
+        },
+        {
+            "id": 492254244,
+            "name": "XBuck",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "xbuck",
+            "position": 103,
+            "renderTypeName": "number",
+            "tableColumnId": 114098539,
+            "format": {}
+        },
+        {
+            "id": 492254359,
+            "name": "StopStd",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "stopstd",
+            "position": 104,
+            "renderTypeName": "number",
+            "tableColumnId": 114098654,
+            "format": {}
+        },
+        {
+            "id": 492254243,
+            "name": "YieldStd",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "yieldstd",
+            "position": 105,
+            "renderTypeName": "number",
+            "tableColumnId": 114098538,
+            "format": {}
+        },
+        {
+            "id": 492254225,
+            "name": "AdvWarn",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "advwarn",
+            "position": 106,
+            "renderTypeName": "number",
+            "tableColumnId": 114098520,
+            "format": {}
+        },
+        {
+            "id": 492254374,
+            "name": "AdvW10_1",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "advw10_1",
+            "position": 107,
+            "renderTypeName": "text",
+            "tableColumnId": 114098669,
+            "format": {}
+        },
+        {
+            "id": 492254284,
+            "name": "AdvW10_2",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "advw10_2",
+            "position": 108,
+            "renderTypeName": "text",
+            "tableColumnId": 114098579,
+            "format": {}
+        },
+        {
+            "id": 492254249,
+            "name": "AdvW10_3",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "advw10_3",
+            "position": 109,
+            "renderTypeName": "text",
+            "tableColumnId": 114098544,
+            "format": {}
+        },
+        {
+            "id": 492254281,
+            "name": "AdvW10_4",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "advw10_4",
+            "position": 110,
+            "renderTypeName": "text",
+            "tableColumnId": 114098576,
+            "format": {}
+        },
+        {
+            "id": 492254308,
+            "name": "AdvW10_11",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "advw10_11",
+            "position": 111,
+            "renderTypeName": "text",
+            "tableColumnId": 114098603,
+            "format": {}
+        },
+        {
+            "id": 492254269,
+            "name": "AdvW10_12",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "advw10_12",
+            "position": 112,
+            "renderTypeName": "text",
+            "tableColumnId": 114098564,
+            "format": {}
+        },
+        {
+            "id": 492254298,
+            "name": "Low_Grnd",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "low_grnd",
+            "position": 113,
+            "renderTypeName": "text",
+            "tableColumnId": 114098593,
+            "format": {}
+        },
+        {
+            "id": 492254201,
+            "name": "Low_GrndSigns",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "low_grndsigns",
+            "position": 114,
+            "renderTypeName": "text",
+            "tableColumnId": 114098496,
+            "format": {}
+        },
+        {
+            "id": 492254264,
+            "name": "PaveMrkIDs",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pavemrkids",
+            "position": 115,
+            "renderTypeName": "number",
+            "tableColumnId": 114098559,
+            "format": {}
+        },
+        {
+            "id": 492254312,
+            "name": "Channel",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "channel",
+            "position": 116,
+            "renderTypeName": "number",
+            "tableColumnId": 114098607,
+            "format": {}
+        },
+        {
+            "id": 492254220,
+            "name": "Exempt",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "exempt",
+            "position": 117,
+            "renderTypeName": "number",
+            "tableColumnId": 114098515,
+            "format": {}
+        },
+        {
+            "id": 492254296,
+            "name": "EnsSign",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "enssign",
+            "position": 118,
+            "renderTypeName": "number",
+            "tableColumnId": 114098591,
+            "format": {}
+        },
+        {
+            "id": 492254186,
+            "name": "OthSgn",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "othsgn",
+            "position": 119,
+            "renderTypeName": "number",
+            "tableColumnId": 114098481,
+            "format": {}
+        },
+        {
+            "id": 492254283,
+            "name": "OthSgn1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "othsgn1",
+            "position": 120,
+            "renderTypeName": "number",
+            "tableColumnId": 114098578,
+            "format": {}
+        },
+        {
+            "id": 492254302,
+            "name": "OthDes1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "othdes1",
+            "position": 121,
+            "renderTypeName": "number",
+            "tableColumnId": 114098597,
+            "format": {}
+        },
+        {
+            "id": 492254395,
+            "name": "OthSgn2",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "othsgn2",
+            "position": 122,
+            "renderTypeName": "number",
+            "tableColumnId": 114098690,
+            "format": {}
+        },
+        {
+            "id": 492254365,
+            "name": "OthDes2",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "othdes2",
+            "position": 123,
+            "renderTypeName": "number",
+            "tableColumnId": 114098660,
+            "format": {}
+        },
+        {
+            "id": 492254297,
+            "name": "OthSgn3",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "othsgn3",
+            "position": 124,
+            "renderTypeName": "number",
+            "tableColumnId": 114098592,
+            "format": {}
+        },
+        {
+            "id": 492254356,
+            "name": "OthDes3",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "othdes3",
+            "position": 125,
+            "renderTypeName": "number",
+            "tableColumnId": 114098651,
+            "format": {}
+        },
+        {
+            "id": 492254178,
+            "name": "PrvxSign",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "prvxsign",
+            "position": 126,
+            "renderTypeName": "number",
+            "tableColumnId": 114098473,
+            "format": {}
+        },
+        {
+            "id": 492254181,
+            "name": "Led",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "led",
+            "position": 127,
+            "renderTypeName": "text",
+            "tableColumnId": 114098476,
+            "format": {}
+        },
+        {
+            "id": 492254273,
+            "name": "Gates",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "gates",
+            "position": 128,
+            "renderTypeName": "number",
+            "tableColumnId": 114098568,
+            "format": {}
+        },
+        {
+            "id": 492254261,
+            "name": "GatePed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "gateped",
+            "position": 129,
+            "renderTypeName": "number",
+            "tableColumnId": 114098556,
+            "format": {}
+        },
+        {
+            "id": 492254311,
+            "name": "GateConf",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "gateconf",
+            "position": 130,
+            "renderTypeName": "number",
+            "tableColumnId": 114098606,
+            "format": {}
+        },
+        {
+            "id": 492254190,
+            "name": "GateConfType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "gateconftype",
+            "position": 131,
+            "renderTypeName": "text",
+            "tableColumnId": 114098485,
+            "format": {}
+        },
+        {
+            "id": 492254229,
+            "name": "FlashOv",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "flashov",
+            "position": 132,
+            "renderTypeName": "number",
+            "tableColumnId": 114098524,
+            "format": {}
+        },
+        {
+            "id": 492254387,
+            "name": "FlashNov",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "flashnov",
+            "position": 133,
+            "renderTypeName": "number",
+            "tableColumnId": 114098682,
+            "format": {}
+        },
+        {
+            "id": 492254206,
+            "name": "CFlashType",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "cflashtype",
+            "position": 134,
+            "renderTypeName": "number",
+            "tableColumnId": 114098501,
+            "format": {}
+        },
+        {
+            "id": 492254248,
+            "name": "FlashPost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "flashpost",
+            "position": 135,
+            "renderTypeName": "number",
+            "tableColumnId": 114098543,
+            "format": {}
+        },
+        {
+            "id": 492254258,
+            "name": "FlashPostType",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "flashposttype",
+            "position": 136,
+            "renderTypeName": "number",
+            "tableColumnId": 114098553,
+            "format": {}
+        },
+        {
+            "id": 492254241,
+            "name": "Bkl_FlashPost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "bkl_flashpost",
+            "position": 137,
+            "renderTypeName": "number",
+            "tableColumnId": 114098536,
+            "format": {}
+        },
+        {
+            "id": 492254386,
+            "name": "Sdl_FlashPost",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sdl_flashpost",
+            "position": 138,
+            "renderTypeName": "number",
+            "tableColumnId": 114098681,
+            "format": {}
+        },
+        {
+            "id": 492254246,
+            "name": "FlashPai",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "flashpai",
+            "position": 139,
+            "renderTypeName": "number",
+            "tableColumnId": 114098541,
+            "format": {}
+        },
+        {
+            "id": 492254238,
+            "name": "AwdIDate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "awdidate",
+            "position": 140,
+            "renderTypeName": "number",
+            "tableColumnId": 114098533,
+            "format": {}
+        },
+        {
+            "id": 492254275,
+            "name": "AwhornChk",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "awhornchk",
+            "position": 141,
+            "renderTypeName": "number",
+            "tableColumnId": 114098570,
+            "format": {}
+        },
+        {
+            "id": 492254361,
+            "name": "AwhornlDate",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "awhornldate",
+            "position": 142,
+            "renderTypeName": "text",
+            "tableColumnId": 114098656,
+            "format": {}
+        },
+        {
+            "id": 492254236,
+            "name": "HwyTrafSignl",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwytrafsignl",
+            "position": 143,
+            "renderTypeName": "number",
+            "tableColumnId": 114098531,
+            "format": {}
+        },
+        {
+            "id": 492254174,
+            "name": "Wigwags",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "wigwags",
+            "position": 144,
+            "renderTypeName": "number",
+            "tableColumnId": 114098469,
+            "format": {}
+        },
+        {
+            "id": 492254383,
+            "name": "Bells",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "bells",
+            "position": 145,
+            "renderTypeName": "number",
+            "tableColumnId": 114098678,
+            "format": {}
+        },
+        {
+            "id": 492254305,
+            "name": "SpecPro",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "specpro",
+            "position": 146,
+            "renderTypeName": "number",
+            "tableColumnId": 114098600,
+            "format": {}
+        },
+        {
+            "id": 492254215,
+            "name": "FlashOth",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "flashoth",
+            "position": 147,
+            "renderTypeName": "number",
+            "tableColumnId": 114098510,
+            "format": {}
+        },
+        {
+            "id": 492254214,
+            "name": "FlashOthDes",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "flashothdes",
+            "position": 148,
+            "renderTypeName": "text",
+            "tableColumnId": 114098509,
+            "format": {}
+        },
+        {
+            "id": 492254202,
+            "name": "HwynrSig",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwynrsig",
+            "position": 149,
+            "renderTypeName": "number",
+            "tableColumnId": 114098497,
+            "format": {}
+        },
+        {
+            "id": 492254263,
+            "name": "Intrprmp",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "intrprmp",
+            "position": 150,
+            "renderTypeName": "number",
+            "tableColumnId": 114098558,
+            "format": {}
+        },
+        {
+            "id": 492254382,
+            "name": "PrempType",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "premptype",
+            "position": 151,
+            "renderTypeName": "number",
+            "tableColumnId": 114098677,
+            "format": {}
+        },
+        {
+            "id": 492254354,
+            "name": "HwtrfPsig",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwtrfpsig",
+            "position": 152,
+            "renderTypeName": "number",
+            "tableColumnId": 114098649,
+            "format": {}
+        },
+        {
+            "id": 492254226,
+            "name": "HwtrfPsigsdis",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwtrfpsigsdis",
+            "position": 153,
+            "renderTypeName": "number",
+            "tableColumnId": 114098521,
+            "format": {}
+        },
+        {
+            "id": 492254222,
+            "name": "HwtrfPsiglndis",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwtrfpsiglndis",
+            "position": 154,
+            "renderTypeName": "number",
+            "tableColumnId": 114098517,
+            "format": {}
+        },
+        {
+            "id": 492254198,
+            "name": "MonitorDev",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "monitordev",
+            "position": 155,
+            "renderTypeName": "number",
+            "tableColumnId": 114098493,
+            "format": {}
+        },
+        {
+            "id": 492254364,
+            "name": "WdCode",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "wdcode",
+            "position": 156,
+            "renderTypeName": "number",
+            "tableColumnId": 114098659,
+            "format": {}
+        },
+        {
+            "id": 492254221,
+            "name": "TraficLn",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "traficln",
+            "position": 157,
+            "renderTypeName": "number",
+            "tableColumnId": 114098516,
+            "format": {}
+        },
+        {
+            "id": 492254280,
+            "name": "TraflnType",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "traflntype",
+            "position": 158,
+            "renderTypeName": "number",
+            "tableColumnId": 114098575,
+            "format": {}
+        },
+        {
+            "id": 492254233,
+            "name": "HwyPved",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwypved",
+            "position": 159,
+            "renderTypeName": "number",
+            "tableColumnId": 114098528,
+            "format": {}
+        },
+        {
+            "id": 492254245,
+            "name": "Downst",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "downst",
+            "position": 160,
+            "renderTypeName": "number",
+            "tableColumnId": 114098540,
+            "format": {}
+        },
+        {
+            "id": 492254195,
+            "name": "Illumina",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "illumina",
+            "position": 161,
+            "renderTypeName": "number",
+            "tableColumnId": 114098490,
+            "format": {}
+        },
+        {
+            "id": 492254268,
+            "name": "XSurfDate",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "xsurfdate",
+            "position": 162,
+            "renderTypeName": "number",
+            "tableColumnId": 114098563,
+            "format": {}
+        },
+        {
+            "id": 492254388,
+            "name": "XSurfWidth",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "xsurfwidth",
+            "position": 163,
+            "renderTypeName": "number",
+            "tableColumnId": 114098683,
+            "format": {}
+        },
+        {
+            "id": 492254219,
+            "name": "XSurfLength",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "xsurflength",
+            "position": 164,
+            "renderTypeName": "number",
+            "tableColumnId": 114098514,
+            "format": {}
+        },
+        {
+            "id": 492254216,
+            "name": "XSurfaceIDs",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "xsurfaceids",
+            "position": 165,
+            "renderTypeName": "number",
+            "tableColumnId": 114098511,
+            "format": {}
+        },
+        {
+            "id": 492254295,
+            "name": "XSurOthr",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "xsurothr",
+            "position": 166,
+            "renderTypeName": "text",
+            "tableColumnId": 114098590,
+            "format": {}
+        },
+        {
+            "id": 492254252,
+            "name": "HwyNear",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwynear",
+            "position": 167,
+            "renderTypeName": "number",
+            "tableColumnId": 114098547,
+            "format": {}
+        },
+        {
+            "id": 492254287,
+            "name": "HwynDist",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwyndist",
+            "position": 168,
+            "renderTypeName": "number",
+            "tableColumnId": 114098582,
+            "format": {}
+        },
+        {
+            "id": 492254211,
+            "name": "XAngle",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "xangle",
+            "position": 169,
+            "renderTypeName": "number",
+            "tableColumnId": 114098506,
+            "format": {}
+        },
+        {
+            "id": 492254288,
+            "name": "ComPower",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "compower",
+            "position": 170,
+            "renderTypeName": "number",
+            "tableColumnId": 114098583,
+            "format": {}
+        },
+        {
+            "id": 492254265,
+            "name": "HwySys",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwysys",
+            "position": 171,
+            "renderTypeName": "number",
+            "tableColumnId": 114098560,
+            "format": {}
+        },
+        {
+            "id": 492254285,
+            "name": "HwyClassCD",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwyclasscd",
+            "position": 172,
+            "renderTypeName": "number",
+            "tableColumnId": 114098580,
+            "format": {}
+        },
+        {
+            "id": 492254274,
+            "name": "HwyClassrdtpID",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwyclassrdtpid",
+            "position": 173,
+            "renderTypeName": "number",
+            "tableColumnId": 114098569,
+            "format": {}
+        },
+        {
+            "id": 492254184,
+            "name": "StHwy1",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sthwy1",
+            "position": 174,
+            "renderTypeName": "number",
+            "tableColumnId": 114098479,
+            "format": {}
+        },
+        {
+            "id": 492254230,
+            "name": "HwySpeed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwyspeed",
+            "position": 175,
+            "renderTypeName": "number",
+            "tableColumnId": 114098525,
+            "format": {}
+        },
+        {
+            "id": 492254391,
+            "name": "HwySpeedps",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "hwyspeedps",
+            "position": 176,
+            "renderTypeName": "number",
+            "tableColumnId": 114098686,
+            "format": {}
+        },
+        {
+            "id": 492254352,
+            "name": "LrsRouteid",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lrsrouteid",
+            "position": 177,
+            "renderTypeName": "text",
+            "tableColumnId": 114098647,
+            "format": {}
+        },
+        {
+            "id": 492254286,
+            "name": "LrsMilePost",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "lrsmilepost",
+            "position": 178,
+            "renderTypeName": "text",
+            "tableColumnId": 114098581,
+            "format": {}
+        },
+        {
+            "id": 492254189,
+            "name": "Aadt",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadt",
+            "position": 179,
+            "renderTypeName": "number",
+            "tableColumnId": 114098484,
+            "format": {}
+        },
+        {
+            "id": 492254398,
+            "name": "AadtYear",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "aadtyear",
+            "position": 180,
+            "renderTypeName": "number",
+            "tableColumnId": 114098693,
+            "format": {
+                "noCommas": "true"
+            }
+        },
+        {
+            "id": 492254371,
+            "name": "PctTruk",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "pcttruk",
+            "position": 181,
+            "renderTypeName": "number",
+            "tableColumnId": 114098666,
+            "format": {}
+        },
+        {
+            "id": 492254262,
+            "name": "SchlBusChk",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "schlbuschk",
+            "position": 182,
+            "renderTypeName": "number",
+            "tableColumnId": 114098557,
+            "format": {}
+        },
+        {
+            "id": 492254279,
+            "name": "SchlBsCnt",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "schlbscnt",
+            "position": 183,
+            "renderTypeName": "number",
+            "tableColumnId": 114098574,
+            "format": {}
+        },
+        {
+            "id": 492254385,
+            "name": "HazmtVeh",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "hazmtveh",
+            "position": 184,
+            "renderTypeName": "text",
+            "tableColumnId": 114098680,
+            "format": {}
+        },
+        {
+            "id": 492254191,
+            "name": "EmrgncySrvc",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "emrgncysrvc",
+            "position": 185,
+            "renderTypeName": "number",
+            "tableColumnId": 114098486,
+            "format": {}
+        },
+        {
+            "id": 492254213,
+            "name": "ReportYear",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "reportyear",
+            "position": 186,
+            "renderTypeName": "number",
+            "tableColumnId": 114098508,
+            "format": {}
+        },
+        {
+            "id": 492254232,
+            "name": "ReportType",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "reporttype",
+            "position": 187,
+            "renderTypeName": "text",
+            "tableColumnId": 114098527,
+            "format": {}
+        },
+        {
+            "id": 492254399,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 188,
+            "renderTypeName": "number",
+            "tableColumnId": 114098694,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 492254400,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 189,
+            "renderTypeName": "number",
+            "tableColumnId": 114098695,
+            "computationStrategy": {
+                "source_columns": [
+                    "geometry"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Other",
+                "Data Steward Name": "socrata",
+                "How often are data values updated?": "As Needed"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "railroad",
+        "crossing",
+        "trains"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

@@ -1,0 +1,431 @@
+{
+    "id": "s9jb-zdxn",
+    "name": "Purchasing Requisitions",
+    "assetType": "filter",
+    "averageRating": 0,
+    "category": "Finance",
+    "createdAt": 1583165941,
+    "description": "Data on individual requisitions submitted to purchasing. This data contains key metrics on requisitions submitted such as amounts, supplier information, blanket or standard identifiers, and how long it took from requisition created to purchase order created or requisitions created to release created for blankets.",
+    "displayType": "table",
+    "downloadCount": 123,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "modifyingViewUid": "k53u-6dia",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 33721990,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationDate": 1583166056,
+    "publicationGroup": 16886614,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1638851528,
+    "rowsUpdatedBy": "nfms-ud8q",
+    "tableId": 16955891,
+    "totalTimesRated": 0,
+    "viewCount": 214,
+    "viewLastModified": 1583166056,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1583519165,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 2001622,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1583519137,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1583519165,
+                "failureCount": 0,
+                "startedAt": 1583519165,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "t226-dtne",
+                "displayName": "Andrew Sevigny"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 456913004,
+            "name": "Requisition Nbr",
+            "dataTypeName": "text",
+            "description": "Unique requisition number assigned in Oracle.",
+            "fieldName": "requisition_nbr",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 94634370,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913005,
+            "name": "Req Create Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "req_create_date",
+            "position": 2,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94634378,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913006,
+            "name": "PO Number",
+            "dataTypeName": "text",
+            "description": "Purchase order number related to the requisition. May be unique or not depending on Purchase Order type.",
+            "fieldName": "po_number",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 94634369,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913007,
+            "name": "Po Create Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "po_create_date",
+            "position": 4,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94634379,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913008,
+            "name": "Release Create Date",
+            "dataTypeName": "calendar_date",
+            "description": "Date release is created for a blanket.",
+            "fieldName": "release_create_date",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 94634374,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913010,
+            "name": "Requestor Organization",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "requestor_organization",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 94634381,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913011,
+            "name": "Vendor Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "vendor_name",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 94634382,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913012,
+            "name": "Cost Center Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "cost_center_description",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 94634383,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913013,
+            "name": "Account Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "account_description",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 94634384,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913014,
+            "name": "Po Type",
+            "dataTypeName": "text",
+            "description": "Type of purchase order is either Blanket or Standard.",
+            "fieldName": "po_type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 94634373,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913015,
+            "name": "Fund Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "fund_description",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 94634385,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913016,
+            "name": "Department Description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "department_description",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 94634386,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913017,
+            "name": "Requisition to Release Days",
+            "dataTypeName": "number",
+            "description": "Amount of time it took in calendar days from requisition created date to release created date for blankets.",
+            "fieldName": "requisition_to_release_days",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 94634372,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913018,
+            "name": "Requisition to Purchase Order Days",
+            "dataTypeName": "number",
+            "description": "Amount of time it took in calendar days from requisition created date to purchase order created date for standards.",
+            "fieldName": "requisition_to_purchase_order",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 94634371,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913019,
+            "name": "Supplier Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "supplier_name",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 94634387,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913020,
+            "name": "Supplier Number",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "supplier_number",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 94634375,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913021,
+            "name": "Minority Owned",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "minority_owned",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 94634390,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913022,
+            "name": "Small Business",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "small_business",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 94634377,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913023,
+            "name": "Women Owned",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "women_owned",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 94634376,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913024,
+            "name": "Amount Functional",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "amount_functional",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 94634388,
+            "width": 100,
+            "format": {
+                "precisionStyle": "standard",
+                "align": "left"
+            }
+        },
+        {
+            "id": 456913025,
+            "name": "Amount Range",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "amount_range",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 94634389,
+            "width": 100,
+            "format": {
+                "align": "left"
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "rdfSubject": "0",
+        "custom_fields": {
+            "Internal": {
+                "Results Area": "High Performing Government",
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Purchasing",
+                "Data Steward Name": "Open Data",
+                "How often are data values updated?": "Daily"
+            },
+            "Public": {
+                "Public Dataset Contact": "opendata@chattanooga.gov"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ],
+        "renderTypeConfig": {
+            "visible": {
+                "table": true
+            }
+        }
+    },
+    "owner": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "t226-dtne",
+        "displayName": "Andrew Sevigny",
+        "screenName": "Andrew Sevigny",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "purchase",
+        "purchasing",
+        "requisitions",
+        "blankets",
+        "banket"
+    ],
+    "flags": [
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
