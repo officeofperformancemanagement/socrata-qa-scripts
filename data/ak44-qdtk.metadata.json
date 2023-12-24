@@ -7,7 +7,7 @@
     "createdAt": 1568118324,
     "description": "Percentage of housing types by census tract. Data from ACS",
     "displayType": "table",
-    "downloadCount": 61,
+    "downloadCount": 62,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571248277,

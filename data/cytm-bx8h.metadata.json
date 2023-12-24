@@ -7,7 +7,7 @@
     "createdAt": 1562759950,
     "description": "Data for violent crimes per Police Incident Data taken from the records managment sysmte",
     "displayType": "table",
-    "downloadCount": 171,
+    "downloadCount": 172,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "jvkg-79ss",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984805,
     "totalTimesRated": 0,
-    "viewCount": 1283,
+    "viewCount": 1284,
     "viewLastModified": 1562760267,
     "viewType": "tabular",
     "approvals": [
