@@ -7,7 +7,7 @@
     "createdAt": 1659384344,
     "description": "Demographic breakdown of Public Library borrowers",
     "displayType": "table",
-    "downloadCount": 58,
+    "downloadCount": 59,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
