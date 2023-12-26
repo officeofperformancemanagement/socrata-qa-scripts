@@ -7,7 +7,7 @@
     "createdAt": 1588076963,
     "description": "COVID testing sites in TN",
     "displayType": "table",
-    "downloadCount": 96,
+    "downloadCount": 97,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17071803,
     "totalTimesRated": 0,
-    "viewCount": 154,
+    "viewCount": 155,
     "viewLastModified": 1666189937,
     "viewType": "tabular",
     "approvals": [
