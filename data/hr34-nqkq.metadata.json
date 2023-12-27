@@ -7,7 +7,7 @@
     "createdAt": 1582143605,
     "description": "User list from CivicRec",
     "displayType": "table",
-    "downloadCount": 110,
+    "downloadCount": 112,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17692385,
     "totalTimesRated": 0,
-    "viewCount": 162,
+    "viewCount": 163,
     "viewLastModified": 1666020697,
     "viewType": "tabular",
     "approvals": [
