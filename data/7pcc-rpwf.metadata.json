@@ -7,7 +7,7 @@
     "createdAt": 1557165677,
     "description": "Affordability index by census tract. The affordability index is defined as the housing plus transportation costs divided by the typical regional income. Data is provided by  CNT. For more information please visit https://htaindex.cnt.org/map/.",
     "displayType": "table",
-    "downloadCount": 91,
+    "downloadCount": 92,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562356852,

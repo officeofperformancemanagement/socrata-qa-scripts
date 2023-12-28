@@ -7,7 +7,7 @@
     "createdAt": 1588087155,
     "description": "Intersections in Chattanooga",
     "displayType": "table",
-    "downloadCount": 69,
+    "downloadCount": 71,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17071955,
     "totalTimesRated": 0,
-    "viewCount": 104,
+    "viewCount": 105,
     "viewLastModified": 1666191790,
     "viewType": "tabular",
     "approvals": [
