@@ -7,7 +7,7 @@
     "createdAt": 1659383472,
     "description": "Programs made by the Public Library and participation counts.",
     "displayType": "table",
-    "downloadCount": 60,
+    "downloadCount": 62,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 18884369,
     "totalTimesRated": 0,
-    "viewCount": 34,
+    "viewCount": 35,
     "viewLastModified": 1666192256,
     "viewType": "tabular",
     "approvals": [
