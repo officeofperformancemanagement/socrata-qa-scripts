@@ -9,7 +9,7 @@
     "createdAt": 1613415666,
     "description": "COVID race, ethnicity, and sex case counts from the HCHD website. Data reshaped to match TDH format.",
     "displayType": "table",
-    "downloadCount": 71,
+    "downloadCount": 72,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 18042414,
     "publicationStage": "published",
     "rowIdentifierColumnId": 524755984,
-    "rowsUpdatedAt": 1703719662,
+    "rowsUpdatedAt": 1703806061,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18042429,
     "totalTimesRated": 0,
     "viewCount": 88,
-    "viewLastModified": 1703718163,
+    "viewLastModified": 1703804562,
     "viewType": "tabular",
     "approvals": [
         {

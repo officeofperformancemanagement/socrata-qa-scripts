@@ -7,30 +7,30 @@
     "createdAt": 1693327946,
     "description": "Data is coming from TN 2023 County Health Rankings public datasets https://www.countyhealthrankings.org/explore-health-rankings/tennessee/data-and-resources",
     "displayType": "table",
-    "downloadCount": 87,
+    "downloadCount": 88,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40035295,
+    "oid": 40316911,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1696518225,
+    "publicationDate": 1703782850,
     "publicationGroup": 19270754,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1696518191,
+    "rowsUpdatedAt": 1703782822,
     "rowsUpdatedBy": "vjqq-neb8",
-    "tableId": 19313697,
+    "tableId": 19412282,
     "totalTimesRated": 0,
-    "viewCount": 38,
-    "viewLastModified": 1696518225,
+    "viewCount": 47,
+    "viewLastModified": 1703782850,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1698858421,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 5890387,
+            "submissionId": 6024827,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1698858285,
@@ -61,7 +61,7 @@
     },
     "columns": [
         {
-            "id": 582348998,
+            "id": 587587940,
             "name": "FIPS",
             "dataTypeName": "text",
             "description": "",
@@ -75,7 +75,7 @@
             }
         },
         {
-            "id": 582348999,
+            "id": 587587941,
             "name": "State",
             "dataTypeName": "text",
             "description": "",
@@ -86,7 +86,7 @@
             "format": {}
         },
         {
-            "id": 582349000,
+            "id": 587587942,
             "name": "County",
             "dataTypeName": "text",
             "description": "",
@@ -97,7 +97,7 @@
             "format": {}
         },
         {
-            "id": 582349001,
+            "id": 587587943,
             "name": "Unreliable",
             "dataTypeName": "text",
             "description": "",
@@ -108,7 +108,7 @@
             "format": {}
         },
         {
-            "id": 582349002,
+            "id": 587587944,
             "name": "Deaths",
             "dataTypeName": "number",
             "description": "",
@@ -122,7 +122,7 @@
             }
         },
         {
-            "id": 582349003,
+            "id": 587587945,
             "name": "Years of Potential Life Lost Rate",
             "dataTypeName": "number",
             "description": "",
@@ -136,7 +136,7 @@
             }
         },
         {
-            "id": 582349004,
+            "id": 587587946,
             "name": "95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -150,7 +150,7 @@
             }
         },
         {
-            "id": 582349005,
+            "id": 587587947,
             "name": "95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -164,7 +164,7 @@
             }
         },
         {
-            "id": 582349006,
+            "id": 587587948,
             "name": "Z-Score",
             "dataTypeName": "number",
             "description": "",
@@ -178,7 +178,7 @@
             }
         },
         {
-            "id": 582349007,
+            "id": 587587949,
             "name": "YPLL Rate (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -192,7 +192,7 @@
             }
         },
         {
-            "id": 582349008,
+            "id": 587587950,
             "name": "YPLL Rate (AIAN) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -206,7 +206,7 @@
             }
         },
         {
-            "id": 582349009,
+            "id": 587587951,
             "name": "YPLL Rate (AIAN) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -220,7 +220,7 @@
             }
         },
         {
-            "id": 582349010,
+            "id": 587587952,
             "name": "YPLL Rate (AIAN) Unreliable",
             "dataTypeName": "text",
             "description": "",
@@ -231,7 +231,7 @@
             "format": {}
         },
         {
-            "id": 582349011,
+            "id": 587587953,
             "name": "YPLL Rate (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -245,7 +245,7 @@
             }
         },
         {
-            "id": 582349012,
+            "id": 587587954,
             "name": "YPLL Rate (Asian) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -259,7 +259,7 @@
             }
         },
         {
-            "id": 582349013,
+            "id": 587587955,
             "name": "YPLL Rate (Asian) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -273,7 +273,7 @@
             }
         },
         {
-            "id": 582349014,
+            "id": 587587956,
             "name": "YPLL Rate (Asian) Unreliable",
             "dataTypeName": "text",
             "description": "",
@@ -284,7 +284,7 @@
             "format": {}
         },
         {
-            "id": 582349015,
+            "id": 587587957,
             "name": "YPLL Rate (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -298,7 +298,7 @@
             }
         },
         {
-            "id": 582349016,
+            "id": 587587958,
             "name": "YPLL Rate (Black) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -312,7 +312,7 @@
             }
         },
         {
-            "id": 582349017,
+            "id": 587587959,
             "name": "YPLL Rate (Black) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -326,7 +326,7 @@
             }
         },
         {
-            "id": 582349018,
+            "id": 587587960,
             "name": "YPLL Rate (Black) Unreliable",
             "dataTypeName": "text",
             "description": "",
@@ -337,7 +337,7 @@
             "format": {}
         },
         {
-            "id": 582349019,
+            "id": 587587961,
             "name": "YPLL Rate (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -351,7 +351,7 @@
             }
         },
         {
-            "id": 582349020,
+            "id": 587587962,
             "name": "YPLL Rate (Hispanic) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -365,7 +365,7 @@
             }
         },
         {
-            "id": 582349021,
+            "id": 587587963,
             "name": "YPLL Rate (Hispanic) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -379,7 +379,7 @@
             }
         },
         {
-            "id": 582349022,
+            "id": 587587964,
             "name": "YPLL Rate (Hispanic) Unreliable",
             "dataTypeName": "text",
             "description": "",
@@ -390,7 +390,7 @@
             "format": {}
         },
         {
-            "id": 582349023,
+            "id": 587587965,
             "name": "YPLL Rate (White)",
             "dataTypeName": "number",
             "description": "",
@@ -404,7 +404,7 @@
             }
         },
         {
-            "id": 582349024,
+            "id": 587587966,
             "name": "YPLL Rate (White) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -418,7 +418,7 @@
             }
         },
         {
-            "id": 582349025,
+            "id": 587587967,
             "name": "YPLL Rate (White) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -432,7 +432,7 @@
             }
         },
         {
-            "id": 582349026,
+            "id": 587587968,
             "name": "YPLL Rate (White) Unreliable",
             "dataTypeName": "text",
             "description": "",
@@ -443,7 +443,7 @@
             "format": {}
         },
         {
-            "id": 582349027,
+            "id": 587587969,
             "name": "% Fair or Poor Health",
             "dataTypeName": "number",
             "description": "",
@@ -457,7 +457,7 @@
             }
         },
         {
-            "id": 582349028,
+            "id": 587587970,
             "name": "95% CI - Low 1",
             "dataTypeName": "number",
             "description": "",
@@ -471,7 +471,7 @@
             }
         },
         {
-            "id": 582349029,
+            "id": 587587971,
             "name": "95% CI - High 1",
             "dataTypeName": "number",
             "description": "",
@@ -485,7 +485,7 @@
             }
         },
         {
-            "id": 582349030,
+            "id": 587587972,
             "name": "Z-Score 1",
             "dataTypeName": "number",
             "description": "",
@@ -499,7 +499,7 @@
             }
         },
         {
-            "id": 582349031,
+            "id": 587587973,
             "name": "Average Number of Physically Unhealthy Days",
             "dataTypeName": "number",
             "description": "",
@@ -513,7 +513,7 @@
             }
         },
         {
-            "id": 582349032,
+            "id": 587587974,
             "name": "95% CI - Low 2",
             "dataTypeName": "number",
             "description": "",
@@ -527,7 +527,7 @@
             }
         },
         {
-            "id": 582349033,
+            "id": 587587975,
             "name": "95% CI - High 2",
             "dataTypeName": "number",
             "description": "",
@@ -541,7 +541,7 @@
             }
         },
         {
-            "id": 582349034,
+            "id": 587587976,
             "name": "Z-Score 2",
             "dataTypeName": "number",
             "description": "",
@@ -555,7 +555,7 @@
             }
         },
         {
-            "id": 582349035,
+            "id": 587587977,
             "name": "Average Number of Mentally Unhealthy Days",
             "dataTypeName": "number",
             "description": "",
@@ -569,7 +569,7 @@
             }
         },
         {
-            "id": 582349036,
+            "id": 587587978,
             "name": "95% CI - Low 3",
             "dataTypeName": "number",
             "description": "",
@@ -583,7 +583,7 @@
             }
         },
         {
-            "id": 582349037,
+            "id": 587587979,
             "name": "95% CI - High 3",
             "dataTypeName": "number",
             "description": "",
@@ -597,7 +597,7 @@
             }
         },
         {
-            "id": 582349038,
+            "id": 587587980,
             "name": "Z-Score 3",
             "dataTypeName": "number",
             "description": "",
@@ -611,7 +611,7 @@
             }
         },
         {
-            "id": 582349039,
+            "id": 587587981,
             "name": "Unreliable 1",
             "dataTypeName": "text",
             "description": "",
@@ -622,7 +622,7 @@
             "format": {}
         },
         {
-            "id": 582349040,
+            "id": 587587982,
             "name": "% Low Birthweight",
             "dataTypeName": "number",
             "description": "",
@@ -636,7 +636,7 @@
             }
         },
         {
-            "id": 582349041,
+            "id": 587587983,
             "name": "95% CI - Low 4",
             "dataTypeName": "number",
             "description": "",
@@ -650,7 +650,7 @@
             }
         },
         {
-            "id": 582349042,
+            "id": 587587984,
             "name": "95% CI - High 4",
             "dataTypeName": "number",
             "description": "",
@@ -664,7 +664,7 @@
             }
         },
         {
-            "id": 582349043,
+            "id": 587587985,
             "name": "Z-Score 4",
             "dataTypeName": "number",
             "description": "",
@@ -678,7 +678,7 @@
             }
         },
         {
-            "id": 582349044,
+            "id": 587587986,
             "name": "% LBW (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -692,7 +692,7 @@
             }
         },
         {
-            "id": 582349045,
+            "id": 587587987,
             "name": "% LBW (AIAN) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -706,7 +706,7 @@
             }
         },
         {
-            "id": 582349046,
+            "id": 587587988,
             "name": "% LBW (AIAN) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -720,7 +720,7 @@
             }
         },
         {
-            "id": 582349047,
+            "id": 587587989,
             "name": "% LBW (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -734,7 +734,7 @@
             }
         },
         {
-            "id": 582349048,
+            "id": 587587990,
             "name": "% LBW (Asian) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -748,7 +748,7 @@
             }
         },
         {
-            "id": 582349049,
+            "id": 587587991,
             "name": "% LBW (Asian) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -762,7 +762,7 @@
             }
         },
         {
-            "id": 582349050,
+            "id": 587587992,
             "name": "% LBW (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -776,7 +776,7 @@
             }
         },
         {
-            "id": 582349051,
+            "id": 587587993,
             "name": "% LBW (Black) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -790,7 +790,7 @@
             }
         },
         {
-            "id": 582349052,
+            "id": 587587994,
             "name": "% LBW (Black) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -804,7 +804,7 @@
             }
         },
         {
-            "id": 582349053,
+            "id": 587587995,
             "name": "% LBW (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -818,7 +818,7 @@
             }
         },
         {
-            "id": 582349054,
+            "id": 587587996,
             "name": "% LBW (Hispanic) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -832,7 +832,7 @@
             }
         },
         {
-            "id": 582349055,
+            "id": 587587997,
             "name": "% LBW (Hispanic) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -846,7 +846,7 @@
             }
         },
         {
-            "id": 582349056,
+            "id": 587587998,
             "name": "% LBW (White)",
             "dataTypeName": "number",
             "description": "",
@@ -860,7 +860,7 @@
             }
         },
         {
-            "id": 582349057,
+            "id": 587587999,
             "name": "% LBW (White) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -874,7 +874,7 @@
             }
         },
         {
-            "id": 582349058,
+            "id": 587588000,
             "name": "% LBW (White) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -888,7 +888,7 @@
             }
         },
         {
-            "id": 582349059,
+            "id": 587588001,
             "name": "% Adults Reporting Currently Smoking",
             "dataTypeName": "number",
             "description": "",
@@ -902,7 +902,7 @@
             }
         },
         {
-            "id": 582349060,
+            "id": 587588002,
             "name": "95% CI - Low 5",
             "dataTypeName": "number",
             "description": "",
@@ -916,7 +916,7 @@
             }
         },
         {
-            "id": 582349061,
+            "id": 587588003,
             "name": "95% CI - High 5",
             "dataTypeName": "number",
             "description": "",
@@ -930,7 +930,7 @@
             }
         },
         {
-            "id": 582349062,
+            "id": 587588004,
             "name": "Z-Score 5",
             "dataTypeName": "number",
             "description": "",
@@ -944,7 +944,7 @@
             }
         },
         {
-            "id": 582349063,
+            "id": 587588005,
             "name": "% Adults with Obesity",
             "dataTypeName": "number",
             "description": "",
@@ -958,7 +958,7 @@
             }
         },
         {
-            "id": 582349064,
+            "id": 587588006,
             "name": "95% CI - Low 6",
             "dataTypeName": "number",
             "description": "",
@@ -972,7 +972,7 @@
             }
         },
         {
-            "id": 582349065,
+            "id": 587588007,
             "name": "95% CI - High 6",
             "dataTypeName": "number",
             "description": "",
@@ -986,7 +986,7 @@
             }
         },
         {
-            "id": 582349066,
+            "id": 587588008,
             "name": "Z-Score 6",
             "dataTypeName": "number",
             "description": "",
@@ -1000,7 +1000,7 @@
             }
         },
         {
-            "id": 582349067,
+            "id": 587588009,
             "name": "Food Environment Index",
             "dataTypeName": "number",
             "description": "",
@@ -1014,7 +1014,7 @@
             }
         },
         {
-            "id": 582349068,
+            "id": 587588010,
             "name": "Z-Score 7",
             "dataTypeName": "number",
             "description": "",
@@ -1028,7 +1028,7 @@
             }
         },
         {
-            "id": 582349069,
+            "id": 587588011,
             "name": "% Physically Inactive",
             "dataTypeName": "number",
             "description": "",
@@ -1042,7 +1042,7 @@
             }
         },
         {
-            "id": 582349070,
+            "id": 587588012,
             "name": "95% CI - Low 7",
             "dataTypeName": "number",
             "description": "",
@@ -1056,7 +1056,7 @@
             }
         },
         {
-            "id": 582349071,
+            "id": 587588013,
             "name": "95% CI - High 7",
             "dataTypeName": "number",
             "description": "",
@@ -1070,7 +1070,7 @@
             }
         },
         {
-            "id": 582349072,
+            "id": 587588014,
             "name": "Z-Score 8",
             "dataTypeName": "number",
             "description": "",
@@ -1084,7 +1084,7 @@
             }
         },
         {
-            "id": 582349073,
+            "id": 587588015,
             "name": "% With Access to Exercise Opportunities",
             "dataTypeName": "number",
             "description": "",
@@ -1098,7 +1098,7 @@
             }
         },
         {
-            "id": 582349074,
+            "id": 587588016,
             "name": "Z-Score 9",
             "dataTypeName": "number",
             "description": "",
@@ -1112,7 +1112,7 @@
             }
         },
         {
-            "id": 582349075,
+            "id": 587588017,
             "name": "% Excessive Drinking",
             "dataTypeName": "number",
             "description": "",
@@ -1126,7 +1126,7 @@
             }
         },
         {
-            "id": 582349076,
+            "id": 587588018,
             "name": "95% CI - Low 8",
             "dataTypeName": "number",
             "description": "",
@@ -1140,7 +1140,7 @@
             }
         },
         {
-            "id": 582349077,
+            "id": 587588019,
             "name": "95% CI - High 8",
             "dataTypeName": "number",
             "description": "",
@@ -1154,7 +1154,7 @@
             }
         },
         {
-            "id": 582349078,
+            "id": 587588020,
             "name": "Z-Score 10",
             "dataTypeName": "number",
             "description": "",
@@ -1168,7 +1168,7 @@
             }
         },
         {
-            "id": 582349079,
+            "id": 587588021,
             "name": "# Alcohol-Impaired Driving Deaths",
             "dataTypeName": "number",
             "description": "",
@@ -1182,7 +1182,7 @@
             }
         },
         {
-            "id": 582349080,
+            "id": 587588022,
             "name": "# Driving Deaths",
             "dataTypeName": "number",
             "description": "",
@@ -1196,7 +1196,7 @@
             }
         },
         {
-            "id": 582349081,
+            "id": 587588023,
             "name": "% Driving Deaths with Alcohol Involvement",
             "dataTypeName": "number",
             "description": "",
@@ -1210,7 +1210,7 @@
             }
         },
         {
-            "id": 582349082,
+            "id": 587588024,
             "name": "95% CI - Low 9",
             "dataTypeName": "number",
             "description": "",
@@ -1224,7 +1224,7 @@
             }
         },
         {
-            "id": 582349083,
+            "id": 587588025,
             "name": "95% CI - High 9",
             "dataTypeName": "number",
             "description": "",
@@ -1238,7 +1238,7 @@
             }
         },
         {
-            "id": 582349084,
+            "id": 587588026,
             "name": "Z-Score 11",
             "dataTypeName": "number",
             "description": "",
@@ -1252,7 +1252,7 @@
             }
         },
         {
-            "id": 582349085,
+            "id": 587588027,
             "name": "# Chlamydia Cases",
             "dataTypeName": "number",
             "description": "",
@@ -1266,7 +1266,7 @@
             }
         },
         {
-            "id": 582349086,
+            "id": 587588028,
             "name": "Chlamydia Rate",
             "dataTypeName": "number",
             "description": "",
@@ -1280,7 +1280,7 @@
             }
         },
         {
-            "id": 582349087,
+            "id": 587588029,
             "name": "Z-Score 12",
             "dataTypeName": "number",
             "description": "",
@@ -1294,7 +1294,7 @@
             }
         },
         {
-            "id": 582349088,
+            "id": 587588030,
             "name": "Teen Birth Rate",
             "dataTypeName": "number",
             "description": "",
@@ -1308,7 +1308,7 @@
             }
         },
         {
-            "id": 582349089,
+            "id": 587588031,
             "name": "95% CI - Low 10",
             "dataTypeName": "number",
             "description": "",
@@ -1322,7 +1322,7 @@
             }
         },
         {
-            "id": 582349090,
+            "id": 587588032,
             "name": "95% CI - High 10",
             "dataTypeName": "number",
             "description": "",
@@ -1336,7 +1336,7 @@
             }
         },
         {
-            "id": 582349091,
+            "id": 587588033,
             "name": "Z-Score 13",
             "dataTypeName": "number",
             "description": "",
@@ -1350,7 +1350,7 @@
             }
         },
         {
-            "id": 582349092,
+            "id": 587588034,
             "name": "Teen Birth Rate (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -1364,7 +1364,7 @@
             }
         },
         {
-            "id": 582349093,
+            "id": 587588035,
             "name": "Teen Birth Rate (AIAN) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -1378,7 +1378,7 @@
             }
         },
         {
-            "id": 582349094,
+            "id": 587588036,
             "name": "Teen Birth Rate (AIAN) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -1392,7 +1392,7 @@
             }
         },
         {
-            "id": 582349095,
+            "id": 587588037,
             "name": "Teen Birth Rate (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -1406,7 +1406,7 @@
             }
         },
         {
-            "id": 582349096,
+            "id": 587588038,
             "name": "Teen Birth Rate (Asian) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -1420,7 +1420,7 @@
             }
         },
         {
-            "id": 582349097,
+            "id": 587588039,
             "name": "Teen Birth Rate (Asian) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -1434,7 +1434,7 @@
             }
         },
         {
-            "id": 582349098,
+            "id": 587588040,
             "name": "Teen Birth Rate (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -1448,7 +1448,7 @@
             }
         },
         {
-            "id": 582349099,
+            "id": 587588041,
             "name": "Teen Birth Rate (Black) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -1462,7 +1462,7 @@
             }
         },
         {
-            "id": 582349100,
+            "id": 587588042,
             "name": "Teen Birth Rate (Black) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -1476,7 +1476,7 @@
             }
         },
         {
-            "id": 582349101,
+            "id": 587588043,
             "name": "Teen Birth Rate (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -1490,7 +1490,7 @@
             }
         },
         {
-            "id": 582349102,
+            "id": 587588044,
             "name": "Teen Birth Rate (Hispanic) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -1504,7 +1504,7 @@
             }
         },
         {
-            "id": 582349103,
+            "id": 587588045,
             "name": "Teen Birth Rate (Hispanic) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -1518,7 +1518,7 @@
             }
         },
         {
-            "id": 582349104,
+            "id": 587588046,
             "name": "Teen Birth Rate (White)",
             "dataTypeName": "number",
             "description": "",
@@ -1532,7 +1532,7 @@
             }
         },
         {
-            "id": 582349105,
+            "id": 587588047,
             "name": "Teen Birth Rate (White) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -1546,7 +1546,7 @@
             }
         },
         {
-            "id": 582349106,
+            "id": 587588048,
             "name": "Teen Birth Rate (White) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -1560,7 +1560,7 @@
             }
         },
         {
-            "id": 582349107,
+            "id": 587588049,
             "name": "# Uninsured",
             "dataTypeName": "number",
             "description": "",
@@ -1574,7 +1574,7 @@
             }
         },
         {
-            "id": 582349108,
+            "id": 587588050,
             "name": "% Uninsured",
             "dataTypeName": "number",
             "description": "",
@@ -1588,7 +1588,7 @@
             }
         },
         {
-            "id": 582349109,
+            "id": 587588051,
             "name": "95% CI - Low 11",
             "dataTypeName": "number",
             "description": "",
@@ -1602,7 +1602,7 @@
             }
         },
         {
-            "id": 582349110,
+            "id": 587588052,
             "name": "95% CI - High 11",
             "dataTypeName": "number",
             "description": "",
@@ -1616,7 +1616,7 @@
             }
         },
         {
-            "id": 582349111,
+            "id": 587588053,
             "name": "Z-Score 14",
             "dataTypeName": "number",
             "description": "",
@@ -1630,7 +1630,7 @@
             }
         },
         {
-            "id": 582349112,
+            "id": 587588054,
             "name": "# Primary Care Physicians",
             "dataTypeName": "number",
             "description": "",
@@ -1644,7 +1644,7 @@
             }
         },
         {
-            "id": 582349113,
+            "id": 587588055,
             "name": "Primary Care Physicians Rate",
             "dataTypeName": "number",
             "description": "",
@@ -1658,7 +1658,7 @@
             }
         },
         {
-            "id": 582349114,
+            "id": 587588056,
             "name": "Primary Care Physicians Ratio",
             "dataTypeName": "text",
             "description": "",
@@ -1669,7 +1669,7 @@
             "format": {}
         },
         {
-            "id": 582349115,
+            "id": 587588057,
             "name": "Z-Score 15",
             "dataTypeName": "number",
             "description": "",
@@ -1683,7 +1683,7 @@
             }
         },
         {
-            "id": 582349116,
+            "id": 587588058,
             "name": "# Dentists",
             "dataTypeName": "number",
             "description": "",
@@ -1697,7 +1697,7 @@
             }
         },
         {
-            "id": 582349117,
+            "id": 587588059,
             "name": "Dentist Rate",
             "dataTypeName": "number",
             "description": "",
@@ -1711,7 +1711,7 @@
             }
         },
         {
-            "id": 582349118,
+            "id": 587588060,
             "name": "Dentist Ratio",
             "dataTypeName": "text",
             "description": "",
@@ -1722,7 +1722,7 @@
             "format": {}
         },
         {
-            "id": 582349119,
+            "id": 587588061,
             "name": "Z-Score 16",
             "dataTypeName": "number",
             "description": "",
@@ -1736,7 +1736,7 @@
             }
         },
         {
-            "id": 582349120,
+            "id": 587588062,
             "name": "# Mental Health Providers",
             "dataTypeName": "number",
             "description": "",
@@ -1750,7 +1750,7 @@
             }
         },
         {
-            "id": 582349121,
+            "id": 587588063,
             "name": "Mental Health Provider Rate",
             "dataTypeName": "number",
             "description": "",
@@ -1764,7 +1764,7 @@
             }
         },
         {
-            "id": 582349122,
+            "id": 587588064,
             "name": "Mental Health Provider Ratio",
             "dataTypeName": "text",
             "description": "",
@@ -1775,7 +1775,7 @@
             "format": {}
         },
         {
-            "id": 582349123,
+            "id": 587588065,
             "name": "Z-Score 17",
             "dataTypeName": "number",
             "description": "",
@@ -1789,7 +1789,7 @@
             }
         },
         {
-            "id": 582349124,
+            "id": 587588066,
             "name": "Preventable Hospitalization Rate",
             "dataTypeName": "number",
             "description": "",
@@ -1803,7 +1803,7 @@
             }
         },
         {
-            "id": 582349125,
+            "id": 587588067,
             "name": "Z-Score 18",
             "dataTypeName": "number",
             "description": "",
@@ -1817,7 +1817,7 @@
             }
         },
         {
-            "id": 582349126,
+            "id": 587588068,
             "name": "Preventable Hosp. Rate (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -1831,7 +1831,7 @@
             }
         },
         {
-            "id": 582349127,
+            "id": 587588069,
             "name": "Preventable Hosp. Rate (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -1845,7 +1845,7 @@
             }
         },
         {
-            "id": 582349128,
+            "id": 587588070,
             "name": "Preventable Hosp. Rate (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -1859,7 +1859,7 @@
             }
         },
         {
-            "id": 582349129,
+            "id": 587588071,
             "name": "Preventable Hosp. Rate (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -1873,7 +1873,7 @@
             }
         },
         {
-            "id": 582349130,
+            "id": 587588072,
             "name": "Preventable Hosp. Rate (White)",
             "dataTypeName": "number",
             "description": "",
@@ -1887,7 +1887,7 @@
             }
         },
         {
-            "id": 582349131,
+            "id": 587588073,
             "name": "% with Annual Mammogram",
             "dataTypeName": "number",
             "description": "",
@@ -1901,7 +1901,7 @@
             }
         },
         {
-            "id": 582349132,
+            "id": 587588074,
             "name": "Z-Score 19",
             "dataTypeName": "number",
             "description": "",
@@ -1915,7 +1915,7 @@
             }
         },
         {
-            "id": 582349133,
+            "id": 587588075,
             "name": "% Screened (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -1929,7 +1929,7 @@
             }
         },
         {
-            "id": 582349134,
+            "id": 587588076,
             "name": "% Screened (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -1943,7 +1943,7 @@
             }
         },
         {
-            "id": 582349135,
+            "id": 587588077,
             "name": "% Screened (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -1957,7 +1957,7 @@
             }
         },
         {
-            "id": 582349136,
+            "id": 587588078,
             "name": "% Screened (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -1971,7 +1971,7 @@
             }
         },
         {
-            "id": 582349137,
+            "id": 587588079,
             "name": "% Screened (White)",
             "dataTypeName": "number",
             "description": "",
@@ -1985,7 +1985,7 @@
             }
         },
         {
-            "id": 582349138,
+            "id": 587588080,
             "name": "% Vaccinated",
             "dataTypeName": "number",
             "description": "",
@@ -1999,7 +1999,7 @@
             }
         },
         {
-            "id": 582349139,
+            "id": 587588081,
             "name": "Z-Score 20",
             "dataTypeName": "number",
             "description": "",
@@ -2013,7 +2013,7 @@
             }
         },
         {
-            "id": 582349140,
+            "id": 587588082,
             "name": "% Vaccinated (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -2027,7 +2027,7 @@
             }
         },
         {
-            "id": 582349141,
+            "id": 587588083,
             "name": "% Vaccinated (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -2041,7 +2041,7 @@
             }
         },
         {
-            "id": 582349142,
+            "id": 587588084,
             "name": "% Vaccinated (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -2055,7 +2055,7 @@
             }
         },
         {
-            "id": 582349143,
+            "id": 587588085,
             "name": "% Vaccinated (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -2069,7 +2069,7 @@
             }
         },
         {
-            "id": 582349144,
+            "id": 587588086,
             "name": "% Vaccinated (White)",
             "dataTypeName": "number",
             "description": "",
@@ -2083,7 +2083,7 @@
             }
         },
         {
-            "id": 582349145,
+            "id": 587588087,
             "name": "# Completed High School",
             "dataTypeName": "number",
             "description": "",
@@ -2097,7 +2097,7 @@
             }
         },
         {
-            "id": 582349146,
+            "id": 587588088,
             "name": "Population",
             "dataTypeName": "number",
             "description": "",
@@ -2111,7 +2111,7 @@
             }
         },
         {
-            "id": 582349147,
+            "id": 587588089,
             "name": "% Completed High School",
             "dataTypeName": "number",
             "description": "",
@@ -2125,7 +2125,7 @@
             }
         },
         {
-            "id": 582349148,
+            "id": 587588090,
             "name": "95% CI - Low 12",
             "dataTypeName": "number",
             "description": "",
@@ -2139,7 +2139,7 @@
             }
         },
         {
-            "id": 582349149,
+            "id": 587588091,
             "name": "95% CI - High 12",
             "dataTypeName": "number",
             "description": "",
@@ -2153,7 +2153,7 @@
             }
         },
         {
-            "id": 582349150,
+            "id": 587588092,
             "name": "Z-Score 21",
             "dataTypeName": "number",
             "description": "",
@@ -2167,7 +2167,7 @@
             }
         },
         {
-            "id": 582349151,
+            "id": 587588093,
             "name": "# Some College",
             "dataTypeName": "number",
             "description": "",
@@ -2181,7 +2181,7 @@
             }
         },
         {
-            "id": 582349152,
+            "id": 587588094,
             "name": "Population 1",
             "dataTypeName": "number",
             "description": "",
@@ -2195,7 +2195,7 @@
             }
         },
         {
-            "id": 582349153,
+            "id": 587588095,
             "name": "% Some College",
             "dataTypeName": "number",
             "description": "",
@@ -2209,7 +2209,7 @@
             }
         },
         {
-            "id": 582349154,
+            "id": 587588096,
             "name": "95% CI - Low 13",
             "dataTypeName": "number",
             "description": "",
@@ -2223,7 +2223,7 @@
             }
         },
         {
-            "id": 582349155,
+            "id": 587588097,
             "name": "95% CI - High 13",
             "dataTypeName": "number",
             "description": "",
@@ -2237,7 +2237,7 @@
             }
         },
         {
-            "id": 582349156,
+            "id": 587588098,
             "name": "Z-Score 22",
             "dataTypeName": "number",
             "description": "",
@@ -2251,7 +2251,7 @@
             }
         },
         {
-            "id": 582349157,
+            "id": 587588099,
             "name": "# Unemployed",
             "dataTypeName": "number",
             "description": "",
@@ -2265,7 +2265,7 @@
             }
         },
         {
-            "id": 582349158,
+            "id": 587588100,
             "name": "Labor Force",
             "dataTypeName": "number",
             "description": "",
@@ -2279,7 +2279,7 @@
             }
         },
         {
-            "id": 582349159,
+            "id": 587588101,
             "name": "% Unemployed",
             "dataTypeName": "number",
             "description": "",
@@ -2293,7 +2293,7 @@
             }
         },
         {
-            "id": 582349160,
+            "id": 587588102,
             "name": "Z-Score 23",
             "dataTypeName": "number",
             "description": "",
@@ -2307,7 +2307,7 @@
             }
         },
         {
-            "id": 582349161,
+            "id": 587588103,
             "name": "% Children in Poverty",
             "dataTypeName": "number",
             "description": "",
@@ -2321,7 +2321,7 @@
             }
         },
         {
-            "id": 582349162,
+            "id": 587588104,
             "name": "95% CI - Low 14",
             "dataTypeName": "number",
             "description": "",
@@ -2335,7 +2335,7 @@
             }
         },
         {
-            "id": 582349163,
+            "id": 587588105,
             "name": "95% CI - High 14",
             "dataTypeName": "number",
             "description": "",
@@ -2349,7 +2349,7 @@
             }
         },
         {
-            "id": 582349164,
+            "id": 587588106,
             "name": "Z-Score 24",
             "dataTypeName": "number",
             "description": "",
@@ -2363,7 +2363,7 @@
             }
         },
         {
-            "id": 582349165,
+            "id": 587588107,
             "name": "% Children in Poverty (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -2377,7 +2377,7 @@
             }
         },
         {
-            "id": 582349166,
+            "id": 587588108,
             "name": "% Children in Poverty (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -2391,7 +2391,7 @@
             }
         },
         {
-            "id": 582349167,
+            "id": 587588109,
             "name": "% Children in Poverty (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -2405,7 +2405,7 @@
             }
         },
         {
-            "id": 582349168,
+            "id": 587588110,
             "name": "% Children in Poverty (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -2419,7 +2419,7 @@
             }
         },
         {
-            "id": 582349169,
+            "id": 587588111,
             "name": "% Children in Poverty (White)",
             "dataTypeName": "number",
             "description": "",
@@ -2433,7 +2433,7 @@
             }
         },
         {
-            "id": 582349170,
+            "id": 587588112,
             "name": "80th Percentile Income",
             "dataTypeName": "number",
             "description": "",
@@ -2447,7 +2447,7 @@
             }
         },
         {
-            "id": 582349171,
+            "id": 587588113,
             "name": "20th Percentile Income",
             "dataTypeName": "number",
             "description": "",
@@ -2461,7 +2461,7 @@
             }
         },
         {
-            "id": 582349172,
+            "id": 587588114,
             "name": "Income Ratio",
             "dataTypeName": "number",
             "description": "",
@@ -2475,7 +2475,7 @@
             }
         },
         {
-            "id": 582349173,
+            "id": 587588115,
             "name": "Z-Score 25",
             "dataTypeName": "number",
             "description": "",
@@ -2489,7 +2489,7 @@
             }
         },
         {
-            "id": 582349174,
+            "id": 587588116,
             "name": "# Children in Single-Parent Households",
             "dataTypeName": "number",
             "description": "",
@@ -2503,7 +2503,7 @@
             }
         },
         {
-            "id": 582349175,
+            "id": 587588117,
             "name": "# Children in Households",
             "dataTypeName": "number",
             "description": "",
@@ -2517,7 +2517,7 @@
             }
         },
         {
-            "id": 582349176,
+            "id": 587588118,
             "name": "% Children in Single-Parent Households",
             "dataTypeName": "number",
             "description": "",
@@ -2531,7 +2531,7 @@
             }
         },
         {
-            "id": 582349177,
+            "id": 587588119,
             "name": "95% CI - Low 15",
             "dataTypeName": "number",
             "description": "",
@@ -2545,7 +2545,7 @@
             }
         },
         {
-            "id": 582349178,
+            "id": 587588120,
             "name": "95% CI - High 15",
             "dataTypeName": "number",
             "description": "",
@@ -2559,7 +2559,7 @@
             }
         },
         {
-            "id": 582349179,
+            "id": 587588121,
             "name": "Z-Score 26",
             "dataTypeName": "number",
             "description": "",
@@ -2573,7 +2573,7 @@
             }
         },
         {
-            "id": 582349180,
+            "id": 587588122,
             "name": "# Associations",
             "dataTypeName": "number",
             "description": "",
@@ -2587,7 +2587,7 @@
             }
         },
         {
-            "id": 582349181,
+            "id": 587588123,
             "name": "Social Association Rate",
             "dataTypeName": "number",
             "description": "",
@@ -2601,7 +2601,7 @@
             }
         },
         {
-            "id": 582349182,
+            "id": 587588124,
             "name": "Z-Score 27",
             "dataTypeName": "number",
             "description": "",
@@ -2615,7 +2615,7 @@
             }
         },
         {
-            "id": 582349183,
+            "id": 587588125,
             "name": "# Injury Deaths",
             "dataTypeName": "number",
             "description": "",
@@ -2629,7 +2629,7 @@
             }
         },
         {
-            "id": 582349184,
+            "id": 587588126,
             "name": "Injury Death Rate",
             "dataTypeName": "number",
             "description": "",
@@ -2643,7 +2643,7 @@
             }
         },
         {
-            "id": 582349185,
+            "id": 587588127,
             "name": "95% CI - Low 16",
             "dataTypeName": "number",
             "description": "",
@@ -2657,7 +2657,7 @@
             }
         },
         {
-            "id": 582349186,
+            "id": 587588128,
             "name": "95% CI - High 16",
             "dataTypeName": "number",
             "description": "",
@@ -2671,7 +2671,7 @@
             }
         },
         {
-            "id": 582349187,
+            "id": 587588129,
             "name": "Z-Score 28",
             "dataTypeName": "number",
             "description": "",
@@ -2685,7 +2685,7 @@
             }
         },
         {
-            "id": 582349188,
+            "id": 587588130,
             "name": "Injury Death Rate (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -2699,7 +2699,7 @@
             }
         },
         {
-            "id": 582349189,
+            "id": 587588131,
             "name": "Injury Death Rate (AIAN) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -2713,7 +2713,7 @@
             }
         },
         {
-            "id": 582349190,
+            "id": 587588132,
             "name": "Injury Death Rate (AIAN) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -2727,7 +2727,7 @@
             }
         },
         {
-            "id": 582349191,
+            "id": 587588133,
             "name": "Injury Death Rate (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -2741,7 +2741,7 @@
             }
         },
         {
-            "id": 582349192,
+            "id": 587588134,
             "name": "Injury Death Rate (Asian) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -2755,7 +2755,7 @@
             }
         },
         {
-            "id": 582349193,
+            "id": 587588135,
             "name": "Injury Death Rate (Asian) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -2769,7 +2769,7 @@
             }
         },
         {
-            "id": 582349194,
+            "id": 587588136,
             "name": "Injury Death Rate (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -2783,7 +2783,7 @@
             }
         },
         {
-            "id": 582349195,
+            "id": 587588137,
             "name": "Injury Death Rate (Black) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -2797,7 +2797,7 @@
             }
         },
         {
-            "id": 582349196,
+            "id": 587588138,
             "name": "Injury Death Rate (Black) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -2811,7 +2811,7 @@
             }
         },
         {
-            "id": 582349197,
+            "id": 587588139,
             "name": "Injury Death Rate (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -2825,7 +2825,7 @@
             }
         },
         {
-            "id": 582349198,
+            "id": 587588140,
             "name": "Injury Death Rate (Hispanic) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -2839,7 +2839,7 @@
             }
         },
         {
-            "id": 582349199,
+            "id": 587588141,
             "name": "Injury Death Rate (Hispanic) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -2853,7 +2853,7 @@
             }
         },
         {
-            "id": 582349200,
+            "id": 587588142,
             "name": "Injury Death Rate (White)",
             "dataTypeName": "number",
             "description": "",
@@ -2867,7 +2867,7 @@
             }
         },
         {
-            "id": 582349201,
+            "id": 587588143,
             "name": "Injury Death Rate (White) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -2881,7 +2881,7 @@
             }
         },
         {
-            "id": 582349202,
+            "id": 587588144,
             "name": "Injury Death Rate (White) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -2895,7 +2895,7 @@
             }
         },
         {
-            "id": 582349203,
+            "id": 587588145,
             "name": "Average Daily PM2.5",
             "dataTypeName": "number",
             "description": "",
@@ -2909,7 +2909,7 @@
             }
         },
         {
-            "id": 582349204,
+            "id": 587588146,
             "name": "Z-Score 29",
             "dataTypeName": "number",
             "description": "",
@@ -2923,7 +2923,7 @@
             }
         },
         {
-            "id": 582349205,
+            "id": 587588147,
             "name": "Presence of Water Violation",
             "dataTypeName": "checkbox",
             "description": "",
@@ -2934,7 +2934,7 @@
             "format": {}
         },
         {
-            "id": 582349206,
+            "id": 587588148,
             "name": "Z-Score 30",
             "dataTypeName": "number",
             "description": "",
@@ -2948,7 +2948,7 @@
             }
         },
         {
-            "id": 582349207,
+            "id": 587588149,
             "name": "% Severe Housing Problems",
             "dataTypeName": "number",
             "description": "",
@@ -2962,7 +2962,7 @@
             }
         },
         {
-            "id": 582349208,
+            "id": 587588150,
             "name": "95% CI - Low 17",
             "dataTypeName": "number",
             "description": "",
@@ -2976,7 +2976,7 @@
             }
         },
         {
-            "id": 582349209,
+            "id": 587588151,
             "name": "95% CI - High 17",
             "dataTypeName": "number",
             "description": "",
@@ -2990,7 +2990,7 @@
             }
         },
         {
-            "id": 582349210,
+            "id": 587588152,
             "name": "Severe Housing Cost Burden",
             "dataTypeName": "number",
             "description": "",
@@ -3004,7 +3004,7 @@
             }
         },
         {
-            "id": 582349211,
+            "id": 587588153,
             "name": "Severe Housing Cost Burden 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3018,7 +3018,7 @@
             }
         },
         {
-            "id": 582349212,
+            "id": 587588154,
             "name": "Severe Housing Cost Burden 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3032,7 +3032,7 @@
             }
         },
         {
-            "id": 582349213,
+            "id": 587588155,
             "name": "Overcrowding",
             "dataTypeName": "number",
             "description": "",
@@ -3046,7 +3046,7 @@
             }
         },
         {
-            "id": 582349214,
+            "id": 587588156,
             "name": "Overcrowding 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3060,7 +3060,7 @@
             }
         },
         {
-            "id": 582349215,
+            "id": 587588157,
             "name": "Overcrowding 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3074,7 +3074,7 @@
             }
         },
         {
-            "id": 582349216,
+            "id": 587588158,
             "name": "Inadequate Facilities",
             "dataTypeName": "number",
             "description": "",
@@ -3088,7 +3088,7 @@
             }
         },
         {
-            "id": 582349217,
+            "id": 587588159,
             "name": "Inadequate Facilities 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3102,7 +3102,7 @@
             }
         },
         {
-            "id": 582349218,
+            "id": 587588160,
             "name": "Inadequate Facilities 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3116,7 +3116,7 @@
             }
         },
         {
-            "id": 582349219,
+            "id": 587588161,
             "name": "Z-Score 31",
             "dataTypeName": "number",
             "description": "",
@@ -3130,7 +3130,7 @@
             }
         },
         {
-            "id": 582349220,
+            "id": 587588162,
             "name": "% Drive Alone to Work",
             "dataTypeName": "number",
             "description": "",
@@ -3144,7 +3144,7 @@
             }
         },
         {
-            "id": 582349221,
+            "id": 587588163,
             "name": "95% CI - Low 18",
             "dataTypeName": "number",
             "description": "",
@@ -3158,7 +3158,7 @@
             }
         },
         {
-            "id": 582349222,
+            "id": 587588164,
             "name": "95% CI - High 18",
             "dataTypeName": "number",
             "description": "",
@@ -3172,7 +3172,7 @@
             }
         },
         {
-            "id": 582349223,
+            "id": 587588165,
             "name": "Z-Score 32",
             "dataTypeName": "number",
             "description": "",
@@ -3186,7 +3186,7 @@
             }
         },
         {
-            "id": 582349224,
+            "id": 587588166,
             "name": "% Drive Alone (AIAN)",
             "dataTypeName": "number",
             "description": "",
@@ -3200,7 +3200,7 @@
             }
         },
         {
-            "id": 582349225,
+            "id": 587588167,
             "name": "% Drive Alone (AIAN) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3214,7 +3214,7 @@
             }
         },
         {
-            "id": 582349226,
+            "id": 587588168,
             "name": "% Drive Alone (AIAN) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3228,7 +3228,7 @@
             }
         },
         {
-            "id": 582349227,
+            "id": 587588169,
             "name": "% Drive Alone (Asian)",
             "dataTypeName": "number",
             "description": "",
@@ -3242,7 +3242,7 @@
             }
         },
         {
-            "id": 582349228,
+            "id": 587588170,
             "name": "% Drive Alone (Asian) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3256,7 +3256,7 @@
             }
         },
         {
-            "id": 582349229,
+            "id": 587588171,
             "name": "% Drive Alone (Asian) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3270,7 +3270,7 @@
             }
         },
         {
-            "id": 582349230,
+            "id": 587588172,
             "name": "% Drive Alone (Black)",
             "dataTypeName": "number",
             "description": "",
@@ -3284,7 +3284,7 @@
             }
         },
         {
-            "id": 582349231,
+            "id": 587588173,
             "name": "% Drive Alone (Black) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3298,7 +3298,7 @@
             }
         },
         {
-            "id": 582349232,
+            "id": 587588174,
             "name": "% Drive Alone (Black) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3312,7 +3312,7 @@
             }
         },
         {
-            "id": 582349233,
+            "id": 587588175,
             "name": "% Drive Alone (Hispanic)",
             "dataTypeName": "number",
             "description": "",
@@ -3326,7 +3326,7 @@
             }
         },
         {
-            "id": 582349234,
+            "id": 587588176,
             "name": "% Drive Alone (Hispanic) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3340,7 +3340,7 @@
             }
         },
         {
-            "id": 582349235,
+            "id": 587588177,
             "name": "% Drive Alone (Hispanic) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3354,7 +3354,7 @@
             }
         },
         {
-            "id": 582349236,
+            "id": 587588178,
             "name": "% Drive Alone (White)",
             "dataTypeName": "number",
             "description": "",
@@ -3368,7 +3368,7 @@
             }
         },
         {
-            "id": 582349237,
+            "id": 587588179,
             "name": "% Drive Alone (White) 95% CI - Low",
             "dataTypeName": "number",
             "description": "",
@@ -3382,7 +3382,7 @@
             }
         },
         {
-            "id": 582349238,
+            "id": 587588180,
             "name": "% Drive Alone (White) 95% CI - High",
             "dataTypeName": "number",
             "description": "",
@@ -3396,7 +3396,7 @@
             }
         },
         {
-            "id": 582349239,
+            "id": 587588181,
             "name": "# Workers who Drive Alone",
             "dataTypeName": "number",
             "description": "",
@@ -3410,7 +3410,7 @@
             }
         },
         {
-            "id": 582349240,
+            "id": 587588182,
             "name": "% Long Commute - Drives Alone",
             "dataTypeName": "number",
             "description": "",
@@ -3424,7 +3424,7 @@
             }
         },
         {
-            "id": 582349241,
+            "id": 587588183,
             "name": "95% CI - Low 19",
             "dataTypeName": "number",
             "description": "",
@@ -3438,7 +3438,7 @@
             }
         },
         {
-            "id": 582349242,
+            "id": 587588184,
             "name": "95% CI - High 19",
             "dataTypeName": "number",
             "description": "",
@@ -3452,7 +3452,7 @@
             }
         },
         {
-            "id": 582349243,
+            "id": 587588185,
             "name": "Z-Score 33",
             "dataTypeName": "number",
             "description": "",
@@ -3466,7 +3466,7 @@
             }
         },
         {
-            "id": 582349244,
+            "id": 587588186,
             "name": "Date",
             "dataTypeName": "calendar_date",
             "description": "",
@@ -3478,6 +3478,17 @@
                 "view": "date",
                 "align": "left"
             }
+        },
+        {
+            "id": 587588187,
+            "name": "Timestamp",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "timestamp",
+            "position": 248,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 150691589,
+            "format": {}
         }
     ],
     "grants": [
