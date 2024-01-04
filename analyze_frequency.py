@@ -69,6 +69,7 @@ fieldnames = [
     "data_updated_at",
     "updated_at",
     "most_recent_found",
+    "oldest_found",
     "frequency",
     "status",
     "median_days_between_entries",
@@ -149,6 +150,7 @@ for i, (base, asset) in enumerate(assets):
     print(f"[{id}] date_columns:", ",".join([col["name"] for col in date_columns]))
 
     most_recent = None
+    oldest = None
     median_time_between_entries = None
 
     if temporal:
@@ -208,6 +210,15 @@ for i, (base, asset) in enumerate(assets):
                             }
                             # print("set most_recent")
 
+                        if oldest is None or timestamp < oldest["timestamp"]:
+                            oldest = {
+                                "str": datestr,
+                                "datetime": dt,
+                                "timestamp": timestamp,
+                                "row": row,
+                            }
+                            # print("set oldest")
+
                 # print("most_recent:", most_recent)
 
                 # print("column_dates:", column_dates)
@@ -238,6 +249,8 @@ for i, (base, asset) in enumerate(assets):
         )
 
     mostRecentFound = most_recent["datetime"].isoformat() if most_recent else "n/a"
+
+    oldestFound = oldest["datetime"].isoformat() if oldest else "n/a"
     # print("mostRecentFound:", mostRecentFound)
 
     if "assetType" not in metadata:
@@ -254,6 +267,7 @@ for i, (base, asset) in enumerate(assets):
                 "data_updated_at": asset["dataUpdatedAt"].split("T")[0],
                 "updated_at": asset["updatedAt"].split("T")[0],
                 "most_recent_found": mostRecentFound.split("T")[0],
+                "oldest_found": oldestFound.split("T")[0],
                 "frequency": frequency,
                 "status": ("ok" if recentlyUpdated else "needs review"),
                 "median_days_between_entries": median_days_between_entries,
