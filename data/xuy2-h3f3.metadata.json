@@ -6,7 +6,7 @@
     "createdAt": 1581362916,
     "description": "Total for each direction and each camera grouped by date",
     "displayType": "table",
-    "downloadCount": 111,
+    "downloadCount": 118,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "fpgh-69ti",
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16879401,
     "totalTimesRated": 0,
-    "viewCount": 190,
+    "viewCount": 191,
     "viewLastModified": 1666025088,
     "viewType": "tabular",
     "approvals": [

@@ -6,7 +6,7 @@
     "createdAt": 1576255691,
     "description": "Hamilton County tract spatial boundaries from the 2010 census",
     "displayType": "table",
-    "downloadCount": 295,
+    "downloadCount": 297,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16761063,
     "totalTimesRated": 0,
-    "viewCount": 104,
+    "viewCount": 105,
     "viewLastModified": 1576256226,
     "viewType": "tabular",
     "approvals": [

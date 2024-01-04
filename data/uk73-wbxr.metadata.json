@@ -9,7 +9,7 @@
     "createdAt": 1617136234,
     "description": "Parcel, building, and zoning data from HCGIS. Data is for reference and is not the official assessor's parcel file.",
     "displayType": "table",
-    "downloadCount": 60,
+    "downloadCount": 68,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18205774,
     "totalTimesRated": 0,
-    "viewCount": 98,
+    "viewCount": 100,
     "viewLastModified": 1666207298,
     "viewType": "tabular",
     "approvals": [

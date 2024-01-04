@@ -8,7 +8,7 @@
     "createdAt": 1571072272,
     "description": "Five year age group statistics for tracts in Hamilton County.",
     "displayType": "table",
-    "downloadCount": 74,
+    "downloadCount": 76,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571334984,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16632784,
     "totalTimesRated": 0,
-    "viewCount": 104,
+    "viewCount": 105,
     "viewLastModified": 1666191257,
     "viewType": "tabular",
     "approvals": [
