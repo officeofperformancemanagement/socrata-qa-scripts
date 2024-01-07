@@ -7,7 +7,7 @@
     "createdAt": 1576778947,
     "description": "Data from the Bureau of Labor Statistics",
     "displayType": "table",
-    "downloadCount": 124,
+    "downloadCount": 125,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -19,12 +19,12 @@
     "publicationGroup": 16771741,
     "publicationStage": "published",
     "rowIdentifierColumnId": 443594850,
-    "rowsUpdatedAt": 1704410517,
+    "rowsUpdatedAt": 1704496879,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16773600,
     "totalTimesRated": 0,
     "viewCount": 247,
-    "viewLastModified": 1704410487,
+    "viewLastModified": 1704496873,
     "viewType": "tabular",
     "approvals": [
         {

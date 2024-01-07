@@ -7,7 +7,7 @@
     "createdAt": 1560434230,
     "description": "2017 block group population categorized by age. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 202,
+    "downloadCount": 203,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1560434602,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16274830,
     "totalTimesRated": 0,
-    "viewCount": 223,
+    "viewCount": 224,
     "viewLastModified": 1560434589,
     "viewType": "tabular",
     "approvals": [

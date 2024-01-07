@@ -7,7 +7,7 @@
     "createdAt": 1560351900,
     "description": "2017 tract population categorized by age. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 159,
+    "downloadCount": 160,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1560359184,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16270611,
     "totalTimesRated": 0,
-    "viewCount": 285,
+    "viewCount": 286,
     "viewLastModified": 1560357439,
     "viewType": "tabular",
     "approvals": [
