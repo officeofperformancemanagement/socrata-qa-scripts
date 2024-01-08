@@ -8,7 +8,7 @@
     "createdAt": 1424708967,
     "description": "Please note that this data is no longer updated as E911 has updated the terms of service for their website as we are no longer able to scrape data from it. \r\n\r\nHamilton county E911 active calls scraped from http://hamilton911.discoveregov.com/ \r\n\r\nSome records have been removed to be in compliance with TN Ann. Code §§ 37-1-409; 37-1-612 for the confidential of records of child abuse .",
     "displayType": "table",
-    "downloadCount": 25273,
+    "downloadCount": 25283,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1557961285,
@@ -27,7 +27,7 @@
     "rowsUpdatedBy": "ve7v-b5px",
     "tableId": 16200157,
     "totalTimesRated": 0,
-    "viewCount": 86060,
+    "viewCount": 86062,
     "viewLastModified": 1557961243,
     "viewType": "tabular",
     "approvals": [

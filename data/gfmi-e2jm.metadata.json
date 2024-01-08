@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1695929647,
     "displayType": "table",
-    "downloadCount": 99,
+    "downloadCount": 100,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "tableId": 19304553,
     "totalTimesRated": 0,
     "viewCount": 50,
-    "viewLastModified": 1704499238,
+    "viewLastModified": 1704585636,
     "viewType": "tabular",
     "approvals": [
         {

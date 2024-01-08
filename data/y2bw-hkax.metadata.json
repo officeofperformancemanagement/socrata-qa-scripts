@@ -9,7 +9,7 @@
     "createdAt": 1595533792,
     "description": "Social Vulnerability Index data for Census Tracts from the CDC. For more information and field definitions visit  https://svi.cdc.gov/Documents/Data/2018_SVI_Data/SVI2018Documentation-508.pdf",
     "displayType": "table",
-    "downloadCount": 100,
+    "downloadCount": 101,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
