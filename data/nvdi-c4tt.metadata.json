@@ -7,7 +7,7 @@
     "createdAt": 1561052490,
     "description": "Vehicle incidents recorded in Chattanooga, TN since 2018. Location information for incidents remains unchanged from the source data. Data is pulled from CPD's RMS system.",
     "displayType": "table",
-    "downloadCount": 195,
+    "downloadCount": 196,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "38wp-yztm",
