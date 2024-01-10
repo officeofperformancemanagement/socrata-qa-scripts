@@ -7,7 +7,7 @@
     "createdAt": 1572010014,
     "description": "YFD locations and center information",
     "displayType": "table",
-    "downloadCount": 122,
+    "downloadCount": 123,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "rowsUpdatedAt": 1572012135,
     "tableId": 18983381,
     "totalTimesRated": 0,
-    "viewCount": 268,
+    "viewCount": 269,
     "viewLastModified": 1670338115,
     "viewType": "tabular",
     "approvals": [

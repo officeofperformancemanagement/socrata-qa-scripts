@@ -7,7 +7,7 @@
     "createdAt": 1581962425,
     "description": "Activity participation from CivicRec reporting",
     "displayType": "table",
-    "downloadCount": 130,
+    "downloadCount": 131,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16910251,
     "totalTimesRated": 0,
-    "viewCount": 176,
+    "viewCount": 177,
     "viewLastModified": 1666019915,
     "viewType": "tabular",
     "approvals": [
