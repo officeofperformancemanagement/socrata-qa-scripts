@@ -7,7 +7,7 @@
     "createdAt": 1588701500,
     "description": "Unemployment rate data for census tracts in Hamilton County from 2013 to 2018",
     "displayType": "table",
-    "downloadCount": 83,
+    "downloadCount": 84,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,

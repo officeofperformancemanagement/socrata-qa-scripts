@@ -6,7 +6,7 @@
     "createdAt": 1579878204,
     "description": "This is testing data for the capital project explorer",
     "displayType": "table",
-    "downloadCount": 92,
+    "downloadCount": 93,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16851586,
     "totalTimesRated": 0,
-    "viewCount": 126,
+    "viewCount": 127,
     "viewLastModified": 1580218500,
     "viewType": "tabular",
     "approvals": [
