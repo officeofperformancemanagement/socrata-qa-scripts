@@ -6,7 +6,7 @@
     "createdAt": 1620320916,
     "description": "This is a dataset of all 2020 Census Block Groups within the THRIVE 16 county region.  Data includes names of the block groups as well as 2019 ACS total population estimates.",
     "displayType": "table",
-    "downloadCount": 86,
+    "downloadCount": 87,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
