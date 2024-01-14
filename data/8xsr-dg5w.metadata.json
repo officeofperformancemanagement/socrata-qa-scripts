@@ -6,7 +6,7 @@
     "createdAt": 1569263089,
     "description": "Owner occupied data for tracts in Hamilton County. Data from 2010 Census.",
     "displayType": "table",
-    "downloadCount": 89,
+    "downloadCount": 90,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1569505051,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16578655,
     "totalTimesRated": 0,
-    "viewCount": 136,
+    "viewCount": 137,
     "viewLastModified": 1666020543,
     "viewType": "tabular",
     "approvals": [

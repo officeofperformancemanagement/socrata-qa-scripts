@@ -6,7 +6,7 @@
     "createdAt": 1562868738,
     "description": "Data on the percentage of the population insured. Data from 2017 ACS.",
     "displayType": "table",
-    "downloadCount": 130,
+    "downloadCount": 131,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562953458,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16352497,
     "totalTimesRated": 0,
-    "viewCount": 180,
+    "viewCount": 181,
     "viewLastModified": 1666017747,
     "viewType": "tabular",
     "approvals": [
