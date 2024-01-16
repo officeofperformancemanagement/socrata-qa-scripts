@@ -7,7 +7,7 @@
     "createdAt": 1615322375,
     "description": "Sewer subbasins",
     "displayType": "table",
-    "downloadCount": 98,
+    "downloadCount": 99,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18120105,
     "totalTimesRated": 0,
-    "viewCount": 121,
+    "viewCount": 122,
     "viewLastModified": 1666191944,
     "viewType": "tabular",
     "approvals": [
