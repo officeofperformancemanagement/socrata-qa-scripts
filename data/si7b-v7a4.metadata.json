@@ -7,7 +7,7 @@
     "createdAt": 1552935869,
     "description": "Visits to YFD centers.",
     "displayType": "table",
-    "downloadCount": 130,
+    "downloadCount": 131,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575351309,
@@ -24,7 +24,7 @@
     "tableId": 16274954,
     "totalTimesRated": 0,
     "viewCount": 350,
-    "viewLastModified": 1705356856,
+    "viewLastModified": 1705443255,
     "viewType": "tabular",
     "approvals": [
         {
