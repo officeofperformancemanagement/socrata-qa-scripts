@@ -6,7 +6,7 @@
     "createdAt": 1557151330,
     "description": "2017 tract population categorized by occupation. Data from ACS. More information on occupation categories can be found on page 35 here https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2017_ACS_Code_Lists.pdf?#",
     "displayType": "table",
-    "downloadCount": 103,
+    "downloadCount": 104,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568055390,

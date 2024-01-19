@@ -6,7 +6,7 @@
     "createdAt": 1592834131,
     "description": "Data pulled from the US Census Bureau for response rates by City/Place for the US decennial 2020 census.",
     "displayType": "table",
-    "downloadCount": 347,
+    "downloadCount": 348,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17256735,
     "totalTimesRated": 0,
-    "viewCount": 105,
+    "viewCount": 107,
     "viewLastModified": 1612439611,
     "viewType": "tabular",
     "approvals": [

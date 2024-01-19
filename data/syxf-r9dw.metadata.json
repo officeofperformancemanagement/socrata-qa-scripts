@@ -6,7 +6,7 @@
     "createdAt": 1557254661,
     "description": "2017 generalized tract population categorized by age. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 110,
+    "downloadCount": 111,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1572012485,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16662478,
     "totalTimesRated": 0,
-    "viewCount": 138,
+    "viewCount": 139,
     "viewLastModified": 1572011500,
     "viewType": "tabular",
     "approvals": [
