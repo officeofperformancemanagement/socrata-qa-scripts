@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1695929647,
     "displayType": "table",
-    "downloadCount": 113,
+    "downloadCount": 114,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -20,8 +20,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19304553,
     "totalTimesRated": 0,
-    "viewCount": 50,
-    "viewLastModified": 1705708834,
+    "viewCount": 51,
+    "viewLastModified": 1705795237,
     "viewType": "tabular",
     "approvals": [
         {

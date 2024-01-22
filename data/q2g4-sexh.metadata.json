@@ -7,7 +7,7 @@
     "createdAt": 1628019297,
     "description": "This data set contains the prior assessment values compared to the new. A new budgeted tax rate for Fiscal Year 2022 is then applied to the New Assessed values.  Several calculated fields are then created to numerically describe the impacts the reassessment combined with the budgeted tax rate will have on Chattanoogans compared to prior tax amounts and assessed values.",
     "displayType": "table",
-    "downloadCount": 92,
+    "downloadCount": 93,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ubv6-9x4p",
