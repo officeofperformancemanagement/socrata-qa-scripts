@@ -7,7 +7,7 @@
     "createdAt": 1592914419,
     "description": "Response rate for the 2020 decennial census broken down by Tract for Hamilton County.",
     "displayType": "table",
-    "downloadCount": 349,
+    "downloadCount": 351,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17260315,
     "totalTimesRated": 0,
-    "viewCount": 115,
+    "viewCount": 117,
     "viewLastModified": 1612439591,
     "viewType": "tabular",
     "approvals": [
