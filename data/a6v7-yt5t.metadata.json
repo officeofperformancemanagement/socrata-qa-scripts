@@ -8,7 +8,7 @@
     "createdAt": 1567694644,
     "description": "Building assessor data. Raw download can be found at the Hamilton County Assessor website here: http://www.hamiltontn.gov/assessor/AssessorFileDownload.aspx",
     "displayType": "table",
-    "downloadCount": 167,
+    "downloadCount": 168,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "bd52-u34m",
