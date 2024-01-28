@@ -9,7 +9,7 @@
     "createdAt": 1610485254,
     "description": "Zip Code COVID data from HCHD website.",
     "displayType": "table",
-    "downloadCount": 97,
+    "downloadCount": 98,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17935080,
     "publicationStage": "published",
     "rowIdentifierColumnId": 518938650,
-    "rowsUpdatedAt": 1706229131,
+    "rowsUpdatedAt": 1706315399,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17935080,
     "totalTimesRated": 0,
     "viewCount": 256,
-    "viewLastModified": 1706223799,
+    "viewLastModified": 1706310205,
     "viewType": "tabular",
     "approvals": [
         {
