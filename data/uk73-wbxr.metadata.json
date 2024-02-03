@@ -9,7 +9,7 @@
     "createdAt": 1617136234,
     "description": "Parcel, building, and zoning data from HCGIS. Data is for reference and is not the official assessor's parcel file.",
     "displayType": "table",
-    "downloadCount": 97,
+    "downloadCount": 98,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
