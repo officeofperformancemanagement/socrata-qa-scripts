@@ -9,7 +9,7 @@
     "createdAt": 1609877614,
     "description": "Results of public input sessions and surveys conducted in Fall 2020 for the FY22 City of Chattanooga Budget. Data is separated by responses collected by Zoom group discussions, online surveys, and paper surveys.",
     "displayType": "table",
-    "downloadCount": 101,
+    "downloadCount": 102,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "krw7-fne6",
     "tableId": 17914595,
     "totalTimesRated": 0,
-    "viewCount": 108,
+    "viewCount": 109,
     "viewLastModified": 1666193127,
     "viewType": "tabular",
     "approvals": [
