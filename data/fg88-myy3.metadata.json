@@ -9,7 +9,7 @@
     "createdAt": 1552414078,
     "description": "Parcel data for the City of Chattanooga",
     "displayType": "table",
-    "downloadCount": 1110,
+    "downloadCount": 1112,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -26,7 +26,7 @@
     "tableId": 16871762,
     "totalTimesRated": 0,
     "viewCount": 363,
-    "viewLastModified": 1706859238,
+    "viewLastModified": 1706945652,
     "viewType": "tabular",
     "approvals": [
         {
