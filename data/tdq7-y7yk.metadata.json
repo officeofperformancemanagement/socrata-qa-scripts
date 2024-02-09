@@ -8,7 +8,7 @@
     "createdAt": 1580408274,
     "description": "This contains data on all City of Chattanooga distributions from non-personnel accounts. Powers the City's Open Checkbook site at https://checkbook.chattanooga.gov/",
     "displayType": "table",
-    "downloadCount": 251,
+    "downloadCount": 254,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16873537,
     "totalTimesRated": 0,
-    "viewCount": 380,
+    "viewCount": 381,
     "viewLastModified": 1638820660,
     "viewType": "tabular",
     "approvals": [
