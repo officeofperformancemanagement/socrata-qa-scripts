@@ -9,7 +9,7 @@
     "createdAt": 1681409578,
     "description": "Data provided in partnership with Tellus Sensors and the Enterprise Center. More information about the air quality sensors can be found at https://www.tellusensors.com/",
     "displayType": "table",
-    "downloadCount": 153,
+    "downloadCount": 154,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -23,12 +23,12 @@
     "publicationGroup": 19125538,
     "publicationStage": "published",
     "rowIdentifierColumnId": 575652360,
-    "rowsUpdatedAt": 1707295554,
+    "rowsUpdatedAt": 1707381955,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19152217,
     "totalTimesRated": 0,
     "viewCount": 84,
-    "viewLastModified": 1707295540,
+    "viewLastModified": 1707381941,
     "viewType": "tabular",
     "approvals": [
         {
