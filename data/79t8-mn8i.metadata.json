@@ -7,7 +7,7 @@
     "createdAt": 1586368611,
     "description": "Data from the solid waste and recycling program. Visuals are pushed to the solid waste and recycling program website.",
     "displayType": "table",
-    "downloadCount": 177,
+    "downloadCount": 178,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17007767,
     "totalTimesRated": 0,
     "viewCount": 197,
-    "viewLastModified": 1707598952,
+    "viewLastModified": 1707685350,
     "viewType": "tabular",
     "approvals": [
         {
