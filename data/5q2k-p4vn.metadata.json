@@ -7,7 +7,7 @@
     "createdAt": 1557494640,
     "description": "Median income by tract in the past 12 months. Data from ACS 2017.",
     "displayType": "table",
-    "downloadCount": 137,
+    "downloadCount": 138,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1570212856,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16607135,
     "totalTimesRated": 0,
-    "viewCount": 123,
+    "viewCount": 124,
     "viewLastModified": 1570120771,
     "viewType": "tabular",
     "approvals": [
