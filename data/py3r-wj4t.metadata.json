@@ -7,7 +7,7 @@
     "createdAt": 1601394399,
     "description": "COVID risk level , daily new cases, daily new cases per 100k, and rank for US counties",
     "displayType": "table",
-    "downloadCount": 154,
+    "downloadCount": 155,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,

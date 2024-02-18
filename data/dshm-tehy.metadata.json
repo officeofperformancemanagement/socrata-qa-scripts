@@ -7,7 +7,7 @@
     "createdAt": 1557514025,
     "description": "Per Capita Chattanooga income from 2011 - 2017. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 140,
+    "downloadCount": 141,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562356961,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16188459,
     "totalTimesRated": 0,
-    "viewCount": 132,
+    "viewCount": 133,
     "viewLastModified": 1562356951,
     "viewType": "tabular",
     "approvals": [

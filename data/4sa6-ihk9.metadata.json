@@ -7,7 +7,7 @@
     "createdAt": 1550610010,
     "description": "Historical vehicle incident data recorded in Chattanooga from 2011 through 2017. For data after 2017 please visit our current dataset located at https://data.chattlibrary.org/Transportation/Vehicle-Incidents/2stp-d3ym.",
     "displayType": "table",
-    "downloadCount": 229,
+    "downloadCount": 231,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1550755638,

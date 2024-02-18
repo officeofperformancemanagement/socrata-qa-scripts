@@ -7,7 +7,7 @@
     "createdAt": 1561575235,
     "description": "Data within the Cityview system used by Code Enforcement contains a table of all code violations found regardless of if they were cited or not.",
     "displayType": "table",
-    "downloadCount": 427,
+    "downloadCount": 429,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "2fvt-etki",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18886118,
     "totalTimesRated": 0,
-    "viewCount": 444,
+    "viewCount": 445,
     "viewLastModified": 1562357147,
     "viewType": "tabular",
     "approvals": [
