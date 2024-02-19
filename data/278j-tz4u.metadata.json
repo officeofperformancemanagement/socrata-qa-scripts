@@ -6,7 +6,7 @@
     "createdAt": 1586979021,
     "description": "Average damage assessment for areas in tornado path.",
     "displayType": "table",
-    "downloadCount": 131,
+    "downloadCount": 132,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17032106,
     "totalTimesRated": 0,
-    "viewCount": 173,
+    "viewCount": 174,
     "viewLastModified": 1587048245,
     "viewType": "tabular",
     "approvals": [

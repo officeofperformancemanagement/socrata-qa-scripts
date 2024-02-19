@@ -9,7 +9,7 @@
     "createdAt": 1624371326,
     "description": "Population estimates for zip codes in Hamilton County broken down by age groups. Data from the ACS can be found here https://data.census.gov/cedsci/table?g=8600000US37302,37308,37311,37315,37336,37338,37341,37343,37350,37351,37353,37363,37373,37377,37379,37402,37403,37404,37405,37406,37407,37408,37409,37410,37411,37412,37415,37416,37419,37421&tid=ACSST5Y2019.S0101",
     "displayType": "table",
-    "downloadCount": 954,
+    "downloadCount": 956,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,

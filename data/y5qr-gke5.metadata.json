@@ -6,7 +6,7 @@
     "createdAt": 1596735753,
     "description": "This dataset contains high level summary statistics from multiple Chattanooga Police Department data sources broken down by Race and Census tract.  Following guidelines from the Center for Policing Equity, the data set seeks to highlight any disproportional outcomes based on population and other factors.",
     "displayType": "table",
-    "downloadCount": 119,
+    "downloadCount": 120,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
