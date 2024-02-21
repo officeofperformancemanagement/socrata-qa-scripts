@@ -7,7 +7,7 @@
     "createdAt": 1560354310,
     "description": "City limits of Chattanooga",
     "displayType": "table",
-    "downloadCount": 229,
+    "downloadCount": 231,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1560354578,
@@ -23,8 +23,8 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16270477,
     "totalTimesRated": 0,
-    "viewCount": 549,
-    "viewLastModified": 1560354575,
+    "viewCount": 552,
+    "viewLastModified": 1708375399,
     "viewType": "tabular",
     "approvals": [
         {
@@ -204,9 +204,12 @@
         ]
     },
     "owner": {
-        "id": "76k4-ifet",
-        "displayName": "Ryan Wedell",
-        "screenName": "Ryan Wedell",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -218,9 +221,12 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "76k4-ifet",
-        "displayName": "Ryan Wedell",
-        "screenName": "Ryan Wedell",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",

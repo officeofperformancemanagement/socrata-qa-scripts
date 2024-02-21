@@ -9,7 +9,7 @@
     "createdAt": 1549379669,
     "description": "Computer generated building footprints for the Tennessee. Comes out of the open source project by Microsoft to map all the buildings in the USA. More details can be found at https://github.com/Microsoft/USBuildingFootprints",
     "displayType": "table",
-    "downloadCount": 287,
+    "downloadCount": 290,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1550701035,
@@ -26,7 +26,7 @@
     "rowsUpdatedBy": "wma2-yapv",
     "tableId": 15931094,
     "totalTimesRated": 0,
-    "viewCount": 979,
+    "viewCount": 981,
     "viewLastModified": 1549380580,
     "viewType": "tabular",
     "approvals": [

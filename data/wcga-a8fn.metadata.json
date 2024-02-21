@@ -2,12 +2,13 @@
     "id": "wcga-a8fn",
     "name": "2017 Median Household Income",
     "assetType": "dataset",
+    "attribution": "U.S. Census Bureau",
     "averageRating": 0,
     "category": "Economy",
     "createdAt": 1557496319,
     "description": "Median household income for 2017. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 137,
+    "downloadCount": 138,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571231936,
@@ -23,8 +24,8 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16187929,
     "totalTimesRated": 0,
-    "viewCount": 187,
-    "viewLastModified": 1562357279,
+    "viewCount": 188,
+    "viewLastModified": 1708376728,
     "viewType": "tabular",
     "approvals": [
         {
@@ -135,7 +136,7 @@
                 "Data Steward Email": "rwedell@chattanooga.gov",
                 "Department": "Other",
                 "Data Steward Name": "Ryan Wedell",
-                "How often are data values updated?": "As Needed"
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"
