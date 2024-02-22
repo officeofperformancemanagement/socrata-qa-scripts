@@ -8,7 +8,7 @@
     "category": "Economy",
     "createdAt": 1490015320,
     "displayType": "table",
-    "downloadCount": 266,
+    "downloadCount": 269,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1552695040,
@@ -25,8 +25,8 @@
     "rowsUpdatedBy": "xh73-m9wd",
     "tableId": 15868311,
     "totalTimesRated": 0,
-    "viewCount": 643,
-    "viewLastModified": 1554250213,
+    "viewCount": 645,
+    "viewLastModified": 1708454699,
     "viewType": "tabular",
     "approvals": [
         {
@@ -518,20 +518,12 @@
     },
     "metadata": {
         "rdfSubject": "0",
-        "jsonQuery": {
-            "order": [
-                {
-                    "columnFieldName": "id_number",
-                    "ascending": true
-                }
-            ]
-        },
         "custom_fields": {
             "Organization": {
                 "Name": "City of Chattanooga"
             },
             "Update Frequency": {
-                "Period": "Daily "
+                "Period": "As Needed"
             }
         },
         "filterCondition": {

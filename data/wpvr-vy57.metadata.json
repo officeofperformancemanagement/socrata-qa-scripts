@@ -7,7 +7,7 @@
     "createdAt": 1588076963,
     "description": "COVID testing sites in TN",
     "displayType": "table",
-    "downloadCount": 157,
+    "downloadCount": 159,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,8 +22,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17071803,
     "totalTimesRated": 0,
-    "viewCount": 161,
-    "viewLastModified": 1666189937,
+    "viewCount": 164,
+    "viewLastModified": 1708443855,
     "viewType": "tabular",
     "approvals": [
         {
@@ -242,7 +242,7 @@
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
                 "Data Steward Name": "socrata",
-                "How often are data values updated?": "As Needed"
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

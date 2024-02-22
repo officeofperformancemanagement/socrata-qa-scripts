@@ -7,7 +7,7 @@
     "createdAt": 1601394399,
     "description": "COVID risk level , daily new cases, daily new cases per 100k, and rank for US counties",
     "displayType": "table",
-    "downloadCount": 158,
+    "downloadCount": 160,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,8 +22,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17608679,
     "totalTimesRated": 0,
-    "viewCount": 184,
-    "viewLastModified": 1666189546,
+    "viewCount": 188,
+    "viewLastModified": 1708445380,
     "viewType": "tabular",
     "approvals": [
         {
@@ -134,7 +134,7 @@
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
                 "Data Steward Name": "socrata",
-                "How often are data values updated?": "As Needed"
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

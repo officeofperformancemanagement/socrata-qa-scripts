@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1590689760,
     "displayType": "table",
-    "downloadCount": 233,
+    "downloadCount": 236,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -20,8 +20,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17668954,
     "totalTimesRated": 0,
-    "viewCount": 388,
-    "viewLastModified": 1708386454,
+    "viewCount": 391,
+    "viewLastModified": 1708472888,
     "viewType": "tabular",
     "approvals": [
         {
@@ -205,6 +205,9 @@
         "custom_fields": {
             "Organization": {
                 "Name": "Other"
+            },
+            "Update Frequency": {
+                "Period": "Historical (no longer updated)"
             }
         },
         "availableDisplayTypes": [
@@ -214,9 +217,12 @@
         ]
     },
     "owner": {
-        "id": "76k4-ifet",
-        "displayName": "Ryan Wedell",
-        "screenName": "Ryan Wedell",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -228,9 +234,12 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "76k4-ifet",
-        "displayName": "Ryan Wedell",
-        "screenName": "Ryan Wedell",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",

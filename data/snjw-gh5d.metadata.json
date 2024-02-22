@@ -6,7 +6,7 @@
     "category": "Public Safety",
     "createdAt": 1586759401,
     "displayType": "table",
-    "downloadCount": 267,
+    "downloadCount": 268,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,8 +21,8 @@
     "rowsUpdatedBy": "iiwc-mbju",
     "tableId": 17021990,
     "totalTimesRated": 0,
-    "viewCount": 530,
-    "viewLastModified": 1666193132,
+    "viewCount": 532,
+    "viewLastModified": 1708454878,
     "viewType": "tabular",
     "approvals": [
         {
@@ -98,7 +98,7 @@
                 "Data Steward Email": "tmoreland@chattanooga.gov",
                 "Department": "Other",
                 "Data Steward Name": "Tim Moreland",
-                "How often are data values updated?": "As Needed"
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"
@@ -140,6 +140,9 @@
             "mayBeStoriesCoOwner"
         ]
     },
+    "tags": [
+        "historical"
+    ],
     "flags": [
         "default",
         "ownerMayBeContacted",

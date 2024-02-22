@@ -9,7 +9,7 @@
     "createdAt": 1618409783,
     "description": "Hamilton County 2020 census blocks spatial data",
     "displayType": "table",
-    "downloadCount": 120,
+    "downloadCount": 122,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,8 +24,8 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18222758,
     "totalTimesRated": 0,
-    "viewCount": 62,
-    "viewLastModified": 1666189932,
+    "viewCount": 67,
+    "viewLastModified": 1708438920,
     "viewType": "tabular",
     "approvals": [
         {
@@ -156,7 +156,7 @@
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
                 "Data Steward Name": "socrata",
-                "How often are data values updated?": "As Needed"
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"
@@ -203,7 +203,8 @@
         "gis",
         "hamilton",
         "census",
-        "blocks"
+        "blocks",
+        "historical"
     ],
     "flags": [
         "default",

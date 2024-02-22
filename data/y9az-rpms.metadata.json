@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1595346244,
     "displayType": "table",
-    "downloadCount": 122,
+    "downloadCount": 124,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -222,9 +222,12 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "76k4-ifet",
-        "displayName": "Ryan Wedell",
-        "screenName": "Ryan Wedell",
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
         "type": "interactive",
         "flags": [
             "acceptedEula",

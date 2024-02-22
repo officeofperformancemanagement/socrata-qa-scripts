@@ -9,7 +9,7 @@
     "createdAt": 1562180859,
     "description": "Chattanooga city parcel data contains data on all parcels within the City of Chattanooga.  Common interested data fields include information about the owner of the property, sale and appraisal values, and general information on the parcel itself.  For a complete understanding of the fields and their values, please reference the attached PDF.",
     "displayType": "table",
-    "downloadCount": 1242,
+    "downloadCount": 1244,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -1488,16 +1488,67 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "nfms-ud8q",
-        "displayName": "ODEXTRACT",
-        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
-        "screenName": "ODEXTRACT",
-        "type": "interactive",
-        "flags": [
-            "acceptedEula",
-            "mayBeStoriesCoOwner"
+        "id": "w4m5-iykv",
+        "createdAt": 1549571376,
+        "displayName": "OPMOD",
+        "screenName": "OPMOD",
+        "type": "team",
+        "members": [
+            {
+                "id": "t226-dtne",
+                "createdAt": 1510673919,
+                "displayName": "Andrew Sevigny",
+                "email": "asevigny@chattanooga.gov",
+                "screenName": "Andrew Sevigny",
+                "teamId": 1162784,
+                "teamRole": "owner",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "76k4-ifet",
+                "createdAt": 1542728494,
+                "displayName": "Ryan Wedell",
+                "email": "rwedell@chattanooga.gov",
+                "screenName": "Ryan Wedell",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "xh73-m9wd",
+                "createdAt": 1435154281,
+                "displayName": "socrata account",
+                "email": "socrata@chattanooga.gov",
+                "screenName": "socrata account",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "iiwc-mbju",
+                "createdAt": 1546447158,
+                "displayName": "Tim Moreland",
+                "email": "tmoreland@chattanooga.gov",
+                "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+                "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+                "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+                "screenName": "Tim Moreland",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            }
         ]
     },
     "tags": [

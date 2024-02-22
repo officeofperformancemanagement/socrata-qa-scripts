@@ -7,7 +7,7 @@
     "createdAt": 1657117202,
     "description": "City Council district and representative information from year 2022-2023",
     "displayType": "table",
-    "downloadCount": 122,
+    "downloadCount": 123,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,8 +22,8 @@
     "rowsUpdatedBy": "kp5y-vgiw",
     "tableId": 18769720,
     "totalTimesRated": 0,
-    "viewCount": 11,
-    "viewLastModified": 1700062163,
+    "viewCount": 13,
+    "viewLastModified": 1708448389,
     "viewType": "tabular",
     "approvals": [
         {
@@ -124,16 +124,67 @@
         ]
     },
     "owner": {
-        "id": "kp5y-vgiw",
-        "displayName": "Katharine Clem",
-        "profileImageUrlLarge": "/api/users/kp5y-vgiw/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/kp5y-vgiw/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/kp5y-vgiw/profile_images/TINY",
-        "screenName": "Katharine Clem",
-        "type": "interactive",
-        "flags": [
-            "acceptedEula",
-            "mayBeStoriesCoOwner"
+        "id": "w4m5-iykv",
+        "createdAt": 1549571376,
+        "displayName": "OPMOD",
+        "screenName": "OPMOD",
+        "type": "team",
+        "members": [
+            {
+                "id": "t226-dtne",
+                "createdAt": 1510673919,
+                "displayName": "Andrew Sevigny",
+                "email": "asevigny@chattanooga.gov",
+                "screenName": "Andrew Sevigny",
+                "teamId": 1162784,
+                "teamRole": "owner",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "76k4-ifet",
+                "createdAt": 1542728494,
+                "displayName": "Ryan Wedell",
+                "email": "rwedell@chattanooga.gov",
+                "screenName": "Ryan Wedell",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "xh73-m9wd",
+                "createdAt": 1435154281,
+                "displayName": "socrata account",
+                "email": "socrata@chattanooga.gov",
+                "screenName": "socrata account",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "iiwc-mbju",
+                "createdAt": 1546447158,
+                "displayName": "Tim Moreland",
+                "email": "tmoreland@chattanooga.gov",
+                "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+                "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+                "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+                "screenName": "Tim Moreland",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            }
         ]
     },
     "query": {},
@@ -141,16 +192,67 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "kp5y-vgiw",
-        "displayName": "Katharine Clem",
-        "profileImageUrlLarge": "/api/users/kp5y-vgiw/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/kp5y-vgiw/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/kp5y-vgiw/profile_images/TINY",
-        "screenName": "Katharine Clem",
-        "type": "interactive",
-        "flags": [
-            "acceptedEula",
-            "mayBeStoriesCoOwner"
+        "id": "w4m5-iykv",
+        "createdAt": 1549571376,
+        "displayName": "OPMOD",
+        "screenName": "OPMOD",
+        "type": "team",
+        "members": [
+            {
+                "id": "t226-dtne",
+                "createdAt": 1510673919,
+                "displayName": "Andrew Sevigny",
+                "email": "asevigny@chattanooga.gov",
+                "screenName": "Andrew Sevigny",
+                "teamId": 1162784,
+                "teamRole": "owner",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "76k4-ifet",
+                "createdAt": 1542728494,
+                "displayName": "Ryan Wedell",
+                "email": "rwedell@chattanooga.gov",
+                "screenName": "Ryan Wedell",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "xh73-m9wd",
+                "createdAt": 1435154281,
+                "displayName": "socrata account",
+                "email": "socrata@chattanooga.gov",
+                "screenName": "socrata account",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            },
+            {
+                "id": "iiwc-mbju",
+                "createdAt": 1546447158,
+                "displayName": "Tim Moreland",
+                "email": "tmoreland@chattanooga.gov",
+                "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+                "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+                "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+                "screenName": "Tim Moreland",
+                "teamId": 1162784,
+                "teamRole": "member",
+                "type": "interactive",
+                "flags": [
+                    "siteMember"
+                ]
+            }
         ]
     },
     "flags": [

@@ -6,8 +6,9 @@
     "averageRating": 0,
     "category": "Government",
     "createdAt": 1400877654,
+    "description": "Property tax information for years 2009-2013 for properties in City of Chattanooga",
     "displayType": "table",
-    "downloadCount": 470,
+    "downloadCount": 473,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1479383662,
@@ -25,8 +26,8 @@
     "rowsUpdatedBy": "wma2-yapv",
     "tableId": 1593009,
     "totalTimesRated": 0,
-    "viewCount": 6731,
-    "viewLastModified": 1433338135,
+    "viewCount": 6735,
+    "viewLastModified": 1708446584,
     "viewType": "tabular",
     "approvals": [
         {
@@ -571,9 +572,17 @@
         "custom_fields": {
             "Organization": {
                 "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Historical (no longer updated)"
             }
         },
-        "rowIdentifier": "0"
+        "rowLabel": "Property tax record",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
     },
     "owner": {
         "id": "wma2-yapv",
