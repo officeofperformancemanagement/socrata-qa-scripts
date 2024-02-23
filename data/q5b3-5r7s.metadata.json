@@ -7,7 +7,7 @@
     "createdAt": 1562007655,
     "description": "Code enforcement cases for the City of Chattanooga from 1999 to present date.",
     "displayType": "table",
-    "downloadCount": 219,
+    "downloadCount": 220,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "qmcu-45tc",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17320071,
     "totalTimesRated": 0,
-    "viewCount": 624,
+    "viewCount": 625,
     "viewLastModified": 1573827037,
     "viewType": "tabular",
     "approvals": [

@@ -7,7 +7,7 @@
     "createdAt": 1598974061,
     "description": "Railroad crossings in Hamilton county. Data from https://safetydata.fra.dot.gov/OfficeofSafety/publicsite/DownloadCrossingInventoryData.aspx\nData dictionary: https://safetydata.fra.dot.gov/gcis/Help/ReferenceDocuments/GCIS_Data_Dictionary_External_Use_v2.10.1.0_Rel_04-30-2020.pdf",
     "displayType": "table",
-    "downloadCount": 153,
+    "downloadCount": 154,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 17510286,
     "totalTimesRated": 0,
-    "viewCount": 102,
+    "viewCount": 103,
     "viewLastModified": 1666191144,
     "viewType": "tabular",
     "approvals": [
