@@ -7,7 +7,7 @@
     "createdAt": 1569007988,
     "description": "Population and demographics data from the 2010 census for tracts in Hamilton County",
     "displayType": "table",
-    "downloadCount": 126,
+    "downloadCount": 127,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571147917,
@@ -25,7 +25,7 @@
     "tableId": 16569888,
     "totalTimesRated": 0,
     "viewCount": 140,
-    "viewLastModified": 1708454005,
+    "viewLastModified": 1708630624,
     "viewType": "tabular",
     "approvals": [
         {
@@ -241,7 +241,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

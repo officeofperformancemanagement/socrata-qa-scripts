@@ -7,7 +7,7 @@
     "createdAt": 1645895811,
     "description": "This dataset contains data on individual work orders submitted to the City of Chattanooga's Department of Public Works' Fleet Division. The Fleet division maintains and conducts repairs on many of the vehicles owned by the City. When a City owned vehicle needs repairs or maintenance, a work order is created to track the costs and other values associated with the repairs/maintenance. Each row in the dataset represents an individual work order for a single repair/maintenance.",
     "displayType": "table",
-    "downloadCount": 135,
+    "downloadCount": 136,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "6dh4-rcg9",
@@ -20,12 +20,12 @@
     "publicationGroup": 16417798,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1708556182,
+    "rowsUpdatedAt": 1708642557,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16850159,
     "totalTimesRated": 0,
     "viewCount": 30,
-    "viewLastModified": 1645895892,
+    "viewLastModified": 1708630520,
     "viewType": "tabular",
     "approvals": [
         {
@@ -541,7 +541,7 @@
             "Internal": {
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Department of Public Works",
-                "Data Steward Name": "opendata@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             }
         },

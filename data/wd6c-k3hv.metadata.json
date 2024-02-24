@@ -7,7 +7,7 @@
     "createdAt": 1659383842,
     "description": "Count of items used In-House organized by library branch",
     "displayType": "table",
-    "downloadCount": 127,
+    "downloadCount": 128,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 18884389,
     "totalTimesRated": 0,
     "viewCount": 34,
-    "viewLastModified": 1666192573,
+    "viewLastModified": 1708631238,
     "viewType": "tabular",
     "approvals": [
         {
@@ -151,9 +151,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Library",
-                "Data Steward Name": "Joshua Hardin",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Yearly"
             },
             "Public": {

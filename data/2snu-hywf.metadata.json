@@ -7,7 +7,7 @@
     "createdAt": 1561649497,
     "description": "Public Works work orders from 1990 to current date. Data includes information on work orders received by Public Works. Where the work order was initiated by a CItyWorks service request, the service request number has also been included.",
     "displayType": "table",
-    "downloadCount": 35445,
+    "downloadCount": 35446,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "rs4d-hkb8",
@@ -19,12 +19,12 @@
     "publicationDate": 1584037805,
     "publicationGroup": 15947356,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708557071,
+    "rowsUpdatedAt": 1708643442,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18985374,
     "totalTimesRated": 0,
     "viewCount": 393,
-    "viewLastModified": 1671495198,
+    "viewLastModified": 1708630703,
     "viewType": "tabular",
     "approvals": [
         {
@@ -757,7 +757,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

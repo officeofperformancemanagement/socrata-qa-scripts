@@ -7,7 +7,7 @@
     "createdAt": 1562168574,
     "description": "Trip data for the Bike Chattanooga system. Includes data from the start of the system to date. Data is updated about every 6 months.",
     "displayType": "table",
-    "downloadCount": 251,
+    "downloadCount": 252,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "s2f2-e5vh",
@@ -24,8 +24,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18374204,
     "totalTimesRated": 0,
-    "viewCount": 1054,
-    "viewLastModified": 1666018621,
+    "viewCount": 1055,
+    "viewLastModified": 1708630515,
     "viewType": "tabular",
     "approvals": [
         {
@@ -216,7 +216,7 @@
                 "Results Area": "Stronger Neighborhoods",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Parks and Outdoors",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

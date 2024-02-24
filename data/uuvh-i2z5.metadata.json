@@ -7,7 +7,7 @@
     "createdAt": 1572010014,
     "description": "YFD locations and center information",
     "displayType": "table",
-    "downloadCount": 166,
+    "downloadCount": 167,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,8 +21,8 @@
     "rowsUpdatedAt": 1572012135,
     "tableId": 18983381,
     "totalTimesRated": 0,
-    "viewCount": 277,
-    "viewLastModified": 1670338115,
+    "viewCount": 278,
+    "viewLastModified": 1708630556,
     "viewType": "tabular",
     "approvals": [
         {
@@ -194,7 +194,7 @@
                 "Results Area": "Smarter Students Stronger Families",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Development",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

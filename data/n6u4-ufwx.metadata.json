@@ -9,7 +9,7 @@
     "createdAt": 1622141792,
     "description": "Routes from the CARTA GTFS file on 5/27/2021",
     "displayType": "table",
-    "downloadCount": 122,
+    "downloadCount": 123,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "tableId": 18331663,
     "totalTimesRated": 0,
     "viewCount": 90,
-    "viewLastModified": 1666192639,
+    "viewLastModified": 1708630506,
     "viewType": "tabular",
     "approvals": [
         {
@@ -100,7 +100,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

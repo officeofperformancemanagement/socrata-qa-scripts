@@ -6,7 +6,7 @@
     "createdAt": 1620995120,
     "description": "THRIVE Regional census block groups.",
     "displayType": "table",
-    "downloadCount": 120,
+    "downloadCount": 121,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 18305083,
     "totalTimesRated": 0,
     "viewCount": 38,
-    "viewLastModified": 1620995247,
+    "viewLastModified": 1708631245,
     "viewType": "tabular",
     "approvals": [
         {
@@ -194,9 +194,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "odextract@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "odextract@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

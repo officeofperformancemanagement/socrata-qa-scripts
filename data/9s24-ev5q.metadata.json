@@ -9,7 +9,7 @@
     "createdAt": 1618407897,
     "description": "Hamilton County 2020 census block groups spatial data",
     "displayType": "table",
-    "downloadCount": 120,
+    "downloadCount": 121,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "tableId": 18222713,
     "totalTimesRated": 0,
     "viewCount": 66,
-    "viewLastModified": 1666192210,
+    "viewLastModified": 1708630773,
     "viewType": "tabular",
     "approvals": [
         {
@@ -144,8 +144,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

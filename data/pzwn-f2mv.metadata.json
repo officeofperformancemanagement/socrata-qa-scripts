@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1596571048,
     "displayType": "table",
-    "downloadCount": 112,
+    "downloadCount": 113,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "8qb9-5fja",
@@ -17,12 +17,12 @@
     "publicationDate": 1596571082,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708524499,
+    "rowsUpdatedAt": 1708610824,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 53,
-    "viewLastModified": 1596571082,
+    "viewLastModified": 1708630559,
     "viewType": "tabular",
     "approvals": [
         {
@@ -296,6 +296,13 @@
         }
     ],
     "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Daily"
+            }
+        },
         "availableDisplayTypes": [
             "table",
             "fatrow",

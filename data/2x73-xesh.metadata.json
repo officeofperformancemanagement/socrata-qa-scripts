@@ -6,7 +6,7 @@
     "createdAt": 1568310696,
     "description": "Pothole and paving service requests",
     "displayType": "table",
-    "downloadCount": 165,
+    "downloadCount": 166,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "k7eh-65x3",
@@ -18,12 +18,12 @@
     "publicationDate": 1568311115,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708524499,
+    "rowsUpdatedAt": 1708610824,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 220,
-    "viewLastModified": 1666016794,
+    "viewLastModified": 1708631198,
     "viewType": "tabular",
     "approvals": [
         {
@@ -285,7 +285,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

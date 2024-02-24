@@ -6,7 +6,7 @@
     "createdAt": 1579878204,
     "description": "This is testing data for the capital project explorer",
     "displayType": "table",
-    "downloadCount": 135,
+    "downloadCount": 136,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 16851586,
     "totalTimesRated": 0,
     "viewCount": 130,
-    "viewLastModified": 1580218500,
+    "viewLastModified": 1708630625,
     "viewType": "tabular",
     "approvals": [
         {
@@ -336,7 +336,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "odextract",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

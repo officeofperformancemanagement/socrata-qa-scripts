@@ -6,7 +6,7 @@
     "createdAt": 1628619423,
     "description": "This dataset contains information regarding the details of Capital Projects that feeds into the open budget application.",
     "displayType": "table",
-    "downloadCount": 115,
+    "downloadCount": 116,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "qh7g-pisr",
@@ -24,7 +24,7 @@
     "tableId": 18410011,
     "totalTimesRated": 0,
     "viewCount": 21,
-    "viewLastModified": 1628619489,
+    "viewLastModified": 1708630421,
     "viewType": "tabular",
     "approvals": [
         {
@@ -211,7 +211,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "opendata@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

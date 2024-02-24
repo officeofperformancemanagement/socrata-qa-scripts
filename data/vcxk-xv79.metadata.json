@@ -6,7 +6,7 @@
     "createdAt": 1571252252,
     "description": "Dataset for mapping NoogaNet locations and data",
     "displayType": "table",
-    "downloadCount": 137,
+    "downloadCount": 138,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575355007,
@@ -23,7 +23,7 @@
     "tableId": 16639513,
     "totalTimesRated": 0,
     "viewCount": 176,
-    "viewLastModified": 1666025068,
+    "viewLastModified": 1708630497,
     "viewType": "tabular",
     "approvals": [
         {
@@ -153,7 +153,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Information Technology",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

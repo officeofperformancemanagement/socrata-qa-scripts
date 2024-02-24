@@ -7,7 +7,7 @@
     "createdAt": 1657117202,
     "description": "City Council district and representative information from year 2022-2023",
     "displayType": "table",
-    "downloadCount": 124,
+    "downloadCount": 125,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 18769720,
     "totalTimesRated": 0,
     "viewCount": 13,
-    "viewLastModified": 1708448389,
+    "viewLastModified": 1708631184,
     "viewType": "tabular",
     "approvals": [
         {
@@ -109,7 +109,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "Katharine",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

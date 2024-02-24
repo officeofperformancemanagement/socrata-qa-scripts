@@ -7,7 +7,7 @@
     "createdAt": 1561139504,
     "description": "All Permit inspections within the City of Chattanooga performed by the Development Review and Permitting Office of Public Works.",
     "displayType": "table",
-    "downloadCount": 215,
+    "downloadCount": 216,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ji54-r9qw",
@@ -20,12 +20,12 @@
     "publicationGroup": 15989879,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1708512950,
+    "rowsUpdatedAt": 1708599269,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17864112,
     "totalTimesRated": 0,
     "viewCount": 258,
-    "viewLastModified": 1657896277,
+    "viewLastModified": 1708630783,
     "viewType": "tabular",
     "approvals": [
         {
@@ -374,7 +374,7 @@
                 "Results Area": "Growing Economy",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

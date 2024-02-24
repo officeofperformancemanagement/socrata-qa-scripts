@@ -7,7 +7,7 @@
     "createdAt": 1576778947,
     "description": "Data from the Bureau of Labor Statistics",
     "displayType": "table",
-    "downloadCount": 172,
+    "downloadCount": 173,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -19,12 +19,12 @@
     "publicationGroup": 16771741,
     "publicationStage": "published",
     "rowIdentifierColumnId": 443594850,
-    "rowsUpdatedAt": 1708557676,
+    "rowsUpdatedAt": 1708644077,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16773600,
     "totalTimesRated": 0,
     "viewCount": 270,
-    "viewLastModified": 1708557670,
+    "viewLastModified": 1708644071,
     "viewType": "tabular",
     "approvals": [
         {
@@ -171,7 +171,7 @@
                 "Results Area": "Growing Economy",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "odextract",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

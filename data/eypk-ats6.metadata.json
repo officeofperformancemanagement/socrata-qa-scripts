@@ -7,7 +7,7 @@
     "createdAt": 1561651039,
     "description": "Business license information from 1990 to current date.",
     "displayType": "table",
-    "downloadCount": 2426,
+    "downloadCount": 2427,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "e7fw-jj5v",
@@ -19,12 +19,12 @@
     "publicationDate": 1627488597,
     "publicationGroup": 15991326,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708552363,
+    "rowsUpdatedAt": 1708638761,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18395892,
     "totalTimesRated": 0,
     "viewCount": 733,
-    "viewLastModified": 1627488597,
+    "viewLastModified": 1708630366,
     "viewType": "tabular",
     "approvals": [
         {
@@ -306,7 +306,7 @@
                 "Results Area": "Growing Economy",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

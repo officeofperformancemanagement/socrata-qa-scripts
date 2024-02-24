@@ -8,7 +8,7 @@
     "createdAt": 1557494640,
     "description": "Median income by tract in the past 12 months. Data from ACS 2017.",
     "displayType": "table",
-    "downloadCount": 144,
+    "downloadCount": 145,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1570212856,
@@ -25,7 +25,7 @@
     "tableId": 16607135,
     "totalTimesRated": 0,
     "viewCount": 172,
-    "viewLastModified": 1708376582,
+    "viewLastModified": 1708630688,
     "viewType": "tabular",
     "approvals": [
         {
@@ -159,9 +159,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

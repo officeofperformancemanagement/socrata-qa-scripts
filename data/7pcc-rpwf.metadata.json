@@ -7,7 +7,7 @@
     "createdAt": 1557165677,
     "description": "Affordability index by census tract. The affordability index is defined as the housing plus transportation costs divided by the typical regional income. Data is provided by  CNT. For more information please visit https://htaindex.cnt.org/map/.",
     "displayType": "table",
-    "downloadCount": 144,
+    "downloadCount": 145,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562356852,
@@ -24,7 +24,7 @@
     "tableId": 16178476,
     "totalTimesRated": 0,
     "viewCount": 173,
-    "viewLastModified": 1666207562,
+    "viewLastModified": 1708630791,
     "viewType": "tabular",
     "approvals": [
         {
@@ -130,9 +130,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

@@ -6,7 +6,7 @@
     "createdAt": 1557156032,
     "description": "Number of households by tract from the 2017 ACS survey.",
     "displayType": "table",
-    "downloadCount": 137,
+    "downloadCount": 138,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562357139,
@@ -23,7 +23,7 @@
     "tableId": 16177875,
     "totalTimesRated": 0,
     "viewCount": 97,
-    "viewLastModified": 1562357132,
+    "viewLastModified": 1708630549,
     "viewType": "tabular",
     "approvals": [
         {
@@ -151,10 +151,10 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Ryan Wedell",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

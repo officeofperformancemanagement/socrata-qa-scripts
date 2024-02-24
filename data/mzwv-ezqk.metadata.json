@@ -7,7 +7,7 @@
     "createdAt": 1571841539,
     "description": "Permit inspections with a 2019 inspection date.",
     "displayType": "table",
-    "downloadCount": 180,
+    "downloadCount": 182,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ji54-r9qw",
@@ -19,12 +19,12 @@
     "publicationDate": 1571886088,
     "publicationGroup": 15989879,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708512950,
+    "rowsUpdatedAt": 1708599269,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17864112,
     "totalTimesRated": 0,
     "viewCount": 181,
-    "viewLastModified": 1666021073,
+    "viewLastModified": 1708630412,
     "viewType": "tabular",
     "approvals": [
         {
@@ -378,7 +378,7 @@
                 "Results Area": "Growing Economy",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Economic and Community Development",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

@@ -9,7 +9,7 @@
     "createdAt": 1562954391,
     "description": "Data from the annual community survey conducted by the City of Chattanooga Internal Audit to evaluate citizen's satisfaction with the City.",
     "displayType": "table",
-    "downloadCount": 159,
+    "downloadCount": 160,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "p6mj-ef7e",
@@ -26,7 +26,7 @@
     "tableId": 19280646,
     "totalTimesRated": 0,
     "viewCount": 339,
-    "viewLastModified": 1572283327,
+    "viewLastModified": 1708630521,
     "viewType": "tabular",
     "approvals": [
         {
@@ -1048,7 +1048,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Yearly"
             },
             "Public": {

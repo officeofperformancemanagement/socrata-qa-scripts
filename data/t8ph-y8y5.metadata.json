@@ -6,7 +6,7 @@
     "createdAt": 1546267236,
     "description": "This dataset is an inventory of the assets on the site. Here you can track the performance of data publishing, metadata maintenance, as well as present an overview of what data exists on the site.\n\nNote: This is only updated once per day.",
     "displayType": "table",
-    "downloadCount": 844,
+    "downloadCount": 845,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17778489,
     "totalTimesRated": 0,
     "viewCount": 262,
-    "viewLastModified": 1605228624,
+    "viewLastModified": 1708631358,
     "viewType": "tabular",
     "approvals": [
         {
@@ -459,6 +459,13 @@
         }
     ],
     "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Daily"
+            }
+        },
         "rowIdentifier": 508736921,
         "rowLabel": "asset"
     },

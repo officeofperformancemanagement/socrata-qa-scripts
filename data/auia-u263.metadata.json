@@ -7,7 +7,7 @@
     "createdAt": 1576262237,
     "description": "A simple data set of Activities.  Full data set can be viewed by selecting source data.",
     "displayType": "table",
-    "downloadCount": 230,
+    "downloadCount": 231,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "x3fy-9pn5",
@@ -19,12 +19,12 @@
     "publicationDate": 1576262423,
     "publicationGroup": 16057859,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708484567,
+    "rowsUpdatedAt": 1708571052,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18989873,
     "totalTimesRated": 0,
     "viewCount": 158,
-    "viewLastModified": 1576262423,
+    "viewLastModified": 1708630316,
     "viewType": "tabular",
     "approvals": [
         {
@@ -179,7 +179,7 @@
                 "Results Area": "Stronger Neighborhoods",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Economic and Community Development",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

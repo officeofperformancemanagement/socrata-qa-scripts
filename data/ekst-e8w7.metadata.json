@@ -6,7 +6,7 @@
     "category": "Finance",
     "createdAt": 1578593492,
     "displayType": "table",
-    "downloadCount": 190,
+    "downloadCount": 191,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,8 +21,8 @@
     "rowsUpdatedBy": "krw7-fne6",
     "tableId": 16825165,
     "totalTimesRated": 0,
-    "viewCount": 239,
-    "viewLastModified": 1666193110,
+    "viewCount": 240,
+    "viewLastModified": 1708631348,
     "viewType": "tabular",
     "approvals": [
         {
@@ -106,10 +106,10 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "tyount@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "Tyler Yount",
-                "How often are data values updated?": "Yearly"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

@@ -7,7 +7,7 @@
     "createdAt": 1588076963,
     "description": "COVID testing sites in TN",
     "displayType": "table",
-    "downloadCount": 160,
+    "downloadCount": 161,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17071803,
     "totalTimesRated": 0,
     "viewCount": 164,
-    "viewLastModified": 1708443855,
+    "viewLastModified": 1708631186,
     "viewType": "tabular",
     "approvals": [
         {
@@ -241,7 +241,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

@@ -9,7 +9,7 @@
     "createdAt": 1617136234,
     "description": "Parcel, building, and zoning data from HCGIS. Data is for reference and is not the official assessor's parcel file.",
     "displayType": "table",
-    "downloadCount": 118,
+    "downloadCount": 119,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -26,7 +26,7 @@
     "tableId": 18205774,
     "totalTimesRated": 0,
     "viewCount": 105,
-    "viewLastModified": 1666207298,
+    "viewLastModified": 1708630678,
     "viewType": "tabular",
     "approvals": [
         {
@@ -184,7 +184,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

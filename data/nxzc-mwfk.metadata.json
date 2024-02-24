@@ -6,7 +6,7 @@
     "createdAt": 1568638691,
     "description": "5 year GINI economic inequality index for tracts in Hamilton County",
     "displayType": "table",
-    "downloadCount": 155,
+    "downloadCount": 156,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568640930,
@@ -23,7 +23,7 @@
     "tableId": 16540930,
     "totalTimesRated": 0,
     "viewCount": 160,
-    "viewLastModified": 1568640000,
+    "viewLastModified": 1708630780,
     "viewType": "tabular",
     "approvals": [
         {
@@ -186,8 +186,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Economic and Community Development",
-                "Data Steward Name": "Ryan Wedell",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

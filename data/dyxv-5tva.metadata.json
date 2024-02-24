@@ -6,7 +6,7 @@
     "averageRating": 0,
     "createdAt": 1627328008,
     "displayType": "table",
-    "downloadCount": 122,
+    "downloadCount": 123,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "PUBLIC_DOMAIN",
@@ -24,7 +24,7 @@
     "tableId": 18396957,
     "totalTimesRated": 0,
     "viewCount": 20,
-    "viewLastModified": 1627328268,
+    "viewLastModified": 1708631304,
     "viewType": "tabular",
     "approvals": [
         {
@@ -163,6 +163,13 @@
         "name": "Public Domain"
     },
     "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
+            }
+        },
         "availableDisplayTypes": [
             "table",
             "fatrow",

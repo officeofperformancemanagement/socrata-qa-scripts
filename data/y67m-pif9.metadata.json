@@ -7,7 +7,7 @@
     "createdAt": 1562179083,
     "description": "Count of incidents involving domestic violence recorded by CPD.",
     "displayType": "table",
-    "downloadCount": 180,
+    "downloadCount": 181,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575344419,
@@ -20,12 +20,12 @@
     "publicationDate": 1562760431,
     "publicationGroup": 16099687,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708552507,
+    "rowsUpdatedAt": 1708638917,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16331290,
     "totalTimesRated": 0,
     "viewCount": 263,
-    "viewLastModified": 1666017529,
+    "viewLastModified": 1708630639,
     "viewType": "tabular",
     "approvals": [
         {
@@ -106,7 +106,8 @@
         "custom_fields": {
             "Internal": {
                 "Data Steward Email": "opendata@chattanooga.gov",
-                "Data Steward Name": "Ryan Wedell"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Daily"
             }
         },
         "availableDisplayTypes": [

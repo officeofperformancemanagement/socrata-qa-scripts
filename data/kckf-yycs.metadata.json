@@ -7,7 +7,7 @@
     "averageRating": 0,
     "createdAt": 1588959244,
     "displayType": "table",
-    "downloadCount": 169,
+    "downloadCount": 170,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "6v8k-2rhk",
@@ -24,8 +24,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17241584,
     "totalTimesRated": 0,
-    "viewCount": 75,
-    "viewLastModified": 1666025961,
+    "viewCount": 76,
+    "viewLastModified": 1708630418,
     "viewType": "tabular",
     "approvals": [
         {
@@ -200,7 +200,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Weekly"
             },
             "Public": {

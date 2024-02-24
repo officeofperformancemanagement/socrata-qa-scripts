@@ -7,7 +7,7 @@
     "createdAt": 1552935869,
     "description": "Visits to YFD centers.",
     "displayType": "table",
-    "downloadCount": 167,
+    "downloadCount": 168,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575351309,
@@ -24,7 +24,7 @@
     "tableId": 16274954,
     "totalTimesRated": 0,
     "viewCount": 354,
-    "viewLastModified": 1708553655,
+    "viewLastModified": 1708640057,
     "viewType": "tabular",
     "approvals": [
         {
@@ -183,9 +183,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "Smarter Students Stronger Families",
-                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Parks and Outdoors",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

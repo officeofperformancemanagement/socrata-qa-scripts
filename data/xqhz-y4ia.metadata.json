@@ -7,7 +7,7 @@
     "createdAt": 1599762503,
     "description": "Schools zones for HCDE from https://mapsdev.hamiltontn.gov/hcwa03/rest/services/Live_SchoolZones/MapServer",
     "displayType": "table",
-    "downloadCount": 130,
+    "downloadCount": 131,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17540950,
     "totalTimesRated": 0,
     "viewCount": 123,
-    "viewLastModified": 1666192866,
+    "viewLastModified": 1708630623,
     "viewType": "tabular",
     "approvals": [
         {
@@ -120,7 +120,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

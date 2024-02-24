@@ -7,7 +7,7 @@
     "createdAt": 1583170768,
     "description": "This data is all invoices with payments that have been processed in accounts payable. A single invoice may have separate payments under different checks, and this would show up as multiple rows in the data set. A single payment may have multiple invoices involved, and this would show up as multiple rows within the data set.",
     "displayType": "table",
-    "downloadCount": 415,
+    "downloadCount": 416,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "5h62-9b9y",
@@ -24,7 +24,7 @@
     "tableId": 17957213,
     "totalTimesRated": 0,
     "viewCount": 1051,
-    "viewLastModified": 1583436800,
+    "viewLastModified": 1708630416,
     "viewType": "tabular",
     "approvals": [
         {
@@ -402,7 +402,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

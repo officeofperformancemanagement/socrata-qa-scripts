@@ -9,7 +9,7 @@
     "createdAt": 1614794103,
     "description": "Stops data from the CARTA GTFS file. Source file can be found on the CARTA website here https://www.gocarta.org/about/developers-center/",
     "displayType": "table",
-    "downloadCount": 172,
+    "downloadCount": 174,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "tableId": 18101890,
     "totalTimesRated": 0,
     "viewCount": 180,
-    "viewLastModified": 1666024374,
+    "viewLastModified": 1708630542,
     "viewType": "tabular",
     "approvals": [
         {
@@ -153,7 +153,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

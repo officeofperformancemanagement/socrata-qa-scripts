@@ -6,7 +6,7 @@
     "createdAt": 1563193722,
     "description": "311 SRs for Sidewalks only",
     "displayType": "table",
-    "downloadCount": 182,
+    "downloadCount": 183,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "k7eh-65x3",
@@ -18,12 +18,12 @@
     "publicationDate": 1563193819,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708524499,
+    "rowsUpdatedAt": 1708610824,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 213,
-    "viewLastModified": 1563193819,
+    "viewLastModified": 1708630363,
     "viewType": "tabular",
     "approvals": [
         {
@@ -285,7 +285,7 @@
                 "Results Area": "Stronger Neighborhoods",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Transportation",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

@@ -6,7 +6,7 @@
     "createdAt": 1588277041,
     "description": "Staging data for budget app",
     "displayType": "table",
-    "downloadCount": 129,
+    "downloadCount": 130,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 17078737,
     "totalTimesRated": 0,
     "viewCount": 98,
-    "viewLastModified": 1666025232,
+    "viewLastModified": 1708631255,
     "viewType": "tabular",
     "approvals": [
         {
@@ -119,7 +119,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

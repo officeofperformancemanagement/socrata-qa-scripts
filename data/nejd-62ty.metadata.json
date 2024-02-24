@@ -6,7 +6,7 @@
     "category": "City Services",
     "createdAt": 1695924848,
     "displayType": "table",
-    "downloadCount": 130,
+    "downloadCount": 131,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "8qb9-5fja",
@@ -19,12 +19,12 @@
     "publicationGroup": 15950137,
     "publicationStage": "published",
     "queryString": "SELECT\n  `service_request_key`,\n  `created_date`,\n  `due_at`,\n  `completed_at`,\n  `on_time_indicator`,\n  `department`,\n  `request_type`,\n  `description`,\n  `request_type_code`,\n  `status_code`,\n  `intake_form`,\n  `actual_days_to_complete_working`,\n  `sla_fy_2019`,\n  `ispublic`,\n  `citydst`,\n  `publiclocation`\nWHERE\n  (`ispublic` == \"yes\") AND caseless_contains(`request_type`, \"odor\")\nORDER BY `created_date` DESC NULL LAST",
-    "rowsUpdatedAt": 1708524499,
+    "rowsUpdatedAt": 1708610824,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 8,
-    "viewLastModified": 1695924908,
+    "viewLastModified": 1708630360,
     "viewType": "tabular",
     "approvals": [
         {
@@ -300,7 +300,9 @@
     "metadata": {
         "custom_fields": {
             "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             }
         },

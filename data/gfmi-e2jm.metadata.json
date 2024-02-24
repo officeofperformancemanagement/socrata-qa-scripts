@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1695929647,
     "displayType": "table",
-    "downloadCount": 151,
+    "downloadCount": 152,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -16,12 +16,12 @@
     "publicationDate": 1708024623,
     "publicationGroup": 19304553,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708560070,
+    "rowsUpdatedAt": 1708646465,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19456909,
     "totalTimesRated": 0,
     "viewCount": 83,
-    "viewLastModified": 1708560037,
+    "viewLastModified": 1708646435,
     "viewType": "tabular",
     "approvals": [
         {
@@ -618,7 +618,9 @@
     "metadata": {
         "custom_fields": {
             "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             }
         },

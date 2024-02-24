@@ -7,7 +7,7 @@
     "createdAt": 1659463158,
     "description": "Public Library Circulation counts from multiple years",
     "displayType": "table",
-    "downloadCount": 151,
+    "downloadCount": 152,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 18884444,
     "totalTimesRated": 0,
     "viewCount": 31,
-    "viewLastModified": 1666192520,
+    "viewLastModified": 1708630771,
     "viewType": "tabular",
     "approvals": [
         {
@@ -140,9 +140,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Library",
-                "Data Steward Name": "Joshua Hardin",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Monthly"
             },
             "Public": {

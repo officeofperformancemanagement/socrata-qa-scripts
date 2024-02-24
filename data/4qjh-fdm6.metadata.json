@@ -6,7 +6,7 @@
     "createdAt": 1612809043,
     "description": "This dataset tracks the number of days since the row count on a dataset asset has changed. It's purpose is to ensure datasets are updating as expected. This dataset is identical to the Socrata Asset Inventory with added Checkpoint Date and Days Since Row Count Change attributes.",
     "displayType": "table",
-    "downloadCount": 194,
+    "downloadCount": 195,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -18,12 +18,12 @@
     "publicationGroup": 18008932,
     "publicationStage": "published",
     "rowIdentifierColumnId": 527294125,
-    "rowsUpdatedAt": 1708561428,
+    "rowsUpdatedAt": 1708647562,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18096005,
     "totalTimesRated": 0,
     "viewCount": 150,
-    "viewLastModified": 1708560905,
+    "viewLastModified": 1708647223,
     "viewType": "tabular",
     "approvals": [
         {
@@ -553,7 +553,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

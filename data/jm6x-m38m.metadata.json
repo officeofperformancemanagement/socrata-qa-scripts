@@ -6,7 +6,7 @@
     "createdAt": 1582145398,
     "description": "Outdoor Chattanooga users grouped by zip code",
     "displayType": "table",
-    "downloadCount": 163,
+    "downloadCount": 164,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "hr34-nqkq",
@@ -24,7 +24,7 @@
     "tableId": 17692385,
     "totalTimesRated": 0,
     "viewCount": 140,
-    "viewLastModified": 1666025976,
+    "viewLastModified": 1708630632,
     "viewType": "tabular",
     "approvals": [
         {
@@ -110,7 +110,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Economic and Community Development",
-                "Data Steward Name": "odextract",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

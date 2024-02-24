@@ -9,7 +9,7 @@
     "createdAt": 1609423593,
     "description": "Daily COVID data for all of TN. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\nData dictionary provided by TN Department of Health download link: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Data-Dictionary.xlsx",
     "displayType": "table",
-    "downloadCount": 175,
+    "downloadCount": 176,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17902247,
     "publicationStage": "published",
     "rowIdentifierColumnId": 540325023,
-    "rowsUpdatedAt": 1708559313,
+    "rowsUpdatedAt": 1708645729,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18303449,
     "totalTimesRated": 0,
-    "viewCount": 342,
-    "viewLastModified": 1708558858,
+    "viewCount": 343,
+    "viewLastModified": 1708645286,
     "viewType": "tabular",
     "approvals": [
         {
@@ -323,7 +323,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

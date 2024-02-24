@@ -7,7 +7,7 @@
     "createdAt": 1588794121,
     "description": "Street resurfacing work beginning in 2016",
     "displayType": "table",
-    "downloadCount": 120,
+    "downloadCount": 121,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -19,12 +19,12 @@
     "publicationGroup": 17097183,
     "publicationStage": "published",
     "rowIdentifierColumnId": 501822047,
-    "rowsUpdatedAt": 1708527191,
+    "rowsUpdatedAt": 1708613564,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17661809,
     "totalTimesRated": 0,
     "viewCount": 97,
-    "viewLastModified": 1708526839,
+    "viewLastModified": 1708630253,
     "viewType": "tabular",
     "approvals": [
         {
@@ -145,7 +145,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

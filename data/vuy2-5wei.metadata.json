@@ -6,7 +6,7 @@
     "createdAt": 1597255476,
     "description": "Place of Worship category types from SafeGraph and Google POI data.",
     "displayType": "table",
-    "downloadCount": 116,
+    "downloadCount": 117,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "8fb4-nix5",
@@ -24,7 +24,7 @@
     "tableId": 17114788,
     "totalTimesRated": 0,
     "viewCount": 17,
-    "viewLastModified": 1666025602,
+    "viewLastModified": 1708630679,
     "viewType": "tabular",
     "approvals": [
         {
@@ -134,7 +134,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

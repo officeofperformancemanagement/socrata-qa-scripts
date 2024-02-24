@@ -8,7 +8,7 @@
     "createdAt": 1557496319,
     "description": "Median household income for 2017. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 140,
+    "downloadCount": 141,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571231936,
@@ -25,7 +25,7 @@
     "tableId": 16187929,
     "totalTimesRated": 0,
     "viewCount": 188,
-    "viewLastModified": 1708376728,
+    "viewLastModified": 1708630313,
     "viewType": "tabular",
     "approvals": [
         {
@@ -133,9 +133,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

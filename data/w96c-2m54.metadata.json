@@ -8,7 +8,7 @@
     "createdAt": 1618426954,
     "description": "Geocoded addresses of Habitat for Humanity houses",
     "displayType": "table",
-    "downloadCount": 120,
+    "downloadCount": 121,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,7 +24,7 @@
     "tableId": 18223232,
     "totalTimesRated": 0,
     "viewCount": 84,
-    "viewLastModified": 1708461050,
+    "viewLastModified": 1708630702,
     "viewType": "tabular",
     "approvals": [
         {
@@ -174,7 +174,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

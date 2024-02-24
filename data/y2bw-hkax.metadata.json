@@ -9,7 +9,7 @@
     "createdAt": 1595533792,
     "description": "Social Vulnerability Index data for Census Tracts from the CDC. For more information and field definitions visit  https://svi.cdc.gov/Documents/Data/2018_SVI_Data/SVI2018Documentation-508.pdf",
     "displayType": "table",
-    "downloadCount": 148,
+    "downloadCount": 149,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "tableId": 17366812,
     "totalTimesRated": 0,
     "viewCount": 205,
-    "viewLastModified": 1708455866,
+    "viewLastModified": 1708630642,
     "viewType": "tabular",
     "approvals": [
         {
@@ -1453,7 +1453,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

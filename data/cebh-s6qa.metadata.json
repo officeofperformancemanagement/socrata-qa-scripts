@@ -3,10 +3,11 @@
     "name": "Commuting Data - ACS 2017",
     "assetType": "filter",
     "averageRating": 0,
+    "category": "Transportation",
     "createdAt": 1562876562,
     "description": "Data on means and duration of commuting. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 174,
+    "downloadCount": 175,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568836533,
@@ -25,7 +26,7 @@
     "tableId": 16352816,
     "totalTimesRated": 0,
     "viewCount": 132,
-    "viewLastModified": 1666016999,
+    "viewLastModified": 1708630318,
     "viewType": "tabular",
     "approvals": [
         {
@@ -219,7 +220,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

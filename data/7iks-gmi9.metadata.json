@@ -9,7 +9,7 @@
     "createdAt": 1681409578,
     "description": "Data provided in partnership with Tellus Sensors and the Enterprise Center. More information about the air quality sensors can be found at https://www.tellusensors.com/",
     "displayType": "table",
-    "downloadCount": 167,
+    "downloadCount": 168,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -23,12 +23,12 @@
     "publicationGroup": 19125538,
     "publicationStage": "published",
     "rowIdentifierColumnId": 575652360,
-    "rowsUpdatedAt": 1708505151,
+    "rowsUpdatedAt": 1708591555,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19152217,
     "totalTimesRated": 0,
     "viewCount": 84,
-    "viewLastModified": 1708505140,
+    "viewLastModified": 1708630639,
     "viewType": "tabular",
     "approvals": [
         {
@@ -342,7 +342,9 @@
     "metadata": {
         "custom_fields": {
             "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             }
         },

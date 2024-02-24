@@ -6,7 +6,7 @@
     "createdAt": 1558556932,
     "description": "Log of workflows that update data nightly. Updates that failed are highlighted in red.",
     "displayType": "table",
-    "downloadCount": 229,
+    "downloadCount": 230,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575356731,
@@ -20,12 +20,12 @@
     "publicationGroup": 16116530,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1708569600,
+    "rowsUpdatedAt": 1708652894,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16181565,
     "totalTimesRated": 0,
     "viewCount": 902,
-    "viewLastModified": 1562768406,
+    "viewLastModified": 1708630611,
     "viewType": "tabular",
     "approvals": [
         {
@@ -162,9 +162,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

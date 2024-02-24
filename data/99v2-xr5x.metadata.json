@@ -7,7 +7,7 @@
     "createdAt": 1598974061,
     "description": "Railroad crossings in Hamilton county. Data from https://safetydata.fra.dot.gov/OfficeofSafety/publicsite/DownloadCrossingInventoryData.aspx\nData dictionary: https://safetydata.fra.dot.gov/gcis/Help/ReferenceDocuments/GCIS_Data_Dictionary_External_Use_v2.10.1.0_Rel_04-30-2020.pdf",
     "displayType": "table",
-    "downloadCount": 154,
+    "downloadCount": 155,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,8 +22,8 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 17510286,
     "totalTimesRated": 0,
-    "viewCount": 103,
-    "viewLastModified": 1666191144,
+    "viewCount": 104,
+    "viewLastModified": 1708631252,
     "viewType": "tabular",
     "approvals": [
         {
@@ -2183,7 +2183,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

@@ -7,7 +7,7 @@
     "createdAt": 1599761257,
     "description": "Zones tab from HCDE Zones file",
     "displayType": "table",
-    "downloadCount": 157,
+    "downloadCount": 158,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17540923,
     "totalTimesRated": 0,
     "viewCount": 189,
-    "viewLastModified": 1666190872,
+    "viewLastModified": 1708630363,
     "viewType": "tabular",
     "approvals": [
         {
@@ -216,7 +216,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

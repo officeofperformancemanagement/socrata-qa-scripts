@@ -7,7 +7,7 @@
     "createdAt": 1659463380,
     "description": "In-House circulation for the Public Library from year to year",
     "displayType": "table",
-    "downloadCount": 159,
+    "downloadCount": 160,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 18884519,
     "totalTimesRated": 0,
     "viewCount": 47,
-    "viewLastModified": 1666189434,
+    "viewLastModified": 1708630340,
     "viewType": "tabular",
     "approvals": [
         {
@@ -140,9 +140,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "jhardin@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Library",
-                "Data Steward Name": "Joshua Hardin",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Monthly"
             },
             "Public": {

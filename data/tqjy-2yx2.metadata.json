@@ -7,7 +7,7 @@
     "createdAt": 1693327946,
     "description": "Data is coming from TN 2023 County Health Rankings public datasets https://www.countyhealthrankings.org/explore-health-rankings/tennessee/data-and-resources",
     "displayType": "table",
-    "downloadCount": 149,
+    "downloadCount": 150,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 19412282,
     "totalTimesRated": 0,
     "viewCount": 56,
-    "viewLastModified": 1703782850,
+    "viewLastModified": 1708631245,
     "viewType": "tabular",
     "approvals": [
         {
@@ -3503,7 +3503,9 @@
     "metadata": {
         "custom_fields": {
             "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Yearly"
             }
         },

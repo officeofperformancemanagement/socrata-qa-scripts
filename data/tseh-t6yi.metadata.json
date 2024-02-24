@@ -8,7 +8,7 @@
     "createdAt": 1562597866,
     "description": "Percent below poverty level from 2017 ACS",
     "displayType": "table",
-    "downloadCount": 196,
+    "downloadCount": 197,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568834886,
@@ -27,7 +27,7 @@
     "tableId": 16343996,
     "totalTimesRated": 0,
     "viewCount": 190,
-    "viewLastModified": 1562597985,
+    "viewLastModified": 1708631235,
     "viewType": "tabular",
     "approvals": [
         {
@@ -140,8 +140,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "Ryan Wedell",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

@@ -8,7 +8,7 @@
     "createdAt": 1580408274,
     "description": "This contains data on all City of Chattanooga distributions from non-personnel accounts. Powers the City's Open Checkbook site at https://checkbook.chattanooga.gov/",
     "displayType": "table",
-    "downloadCount": 281,
+    "downloadCount": 283,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -25,7 +25,7 @@
     "tableId": 16873537,
     "totalTimesRated": 0,
     "viewCount": 383,
-    "viewLastModified": 1638820660,
+    "viewLastModified": 1708631185,
     "viewType": "tabular",
     "approvals": [
         {
@@ -445,7 +445,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

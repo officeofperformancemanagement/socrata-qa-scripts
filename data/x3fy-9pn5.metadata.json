@@ -7,7 +7,7 @@
     "createdAt": 1561571135,
     "description": "Data within the CItyview system used by Code Enforcement contains a table of all activities assigned to a each individual code enforcement violation.",
     "displayType": "table",
-    "downloadCount": 320,
+    "downloadCount": 322,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "mxyz-b22d",
@@ -19,12 +19,12 @@
     "publicationDate": 1573056235,
     "publicationGroup": 16057859,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708484567,
+    "rowsUpdatedAt": 1708571052,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18989873,
     "totalTimesRated": 0,
     "viewCount": 413,
-    "viewLastModified": 1671551198,
+    "viewLastModified": 1708630682,
     "viewType": "tabular",
     "approvals": [
         {
@@ -410,7 +410,7 @@
                 "Results Area": "Stronger Neighborhoods",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Development",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

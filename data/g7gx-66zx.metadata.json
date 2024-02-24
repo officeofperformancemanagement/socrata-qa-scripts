@@ -9,7 +9,7 @@
     "createdAt": 1613415666,
     "description": "COVID race, ethnicity, and sex case counts from the HCHD website. Data reshaped to match TDH format.",
     "displayType": "table",
-    "downloadCount": 129,
+    "downloadCount": 130,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 18042414,
     "publicationStage": "published",
     "rowIdentifierColumnId": 524755984,
-    "rowsUpdatedAt": 1708559119,
+    "rowsUpdatedAt": 1708645548,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18042429,
     "totalTimesRated": 0,
-    "viewCount": 91,
-    "viewLastModified": 1708556557,
+    "viewCount": 95,
+    "viewLastModified": 1708642959,
     "viewType": "tabular",
     "approvals": [
         {
@@ -136,7 +136,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {
@@ -181,7 +181,8 @@
         ]
     },
     "tags": [
-        "covid"
+        "covid",
+        "very bad"
     ],
     "flags": [
         "default",

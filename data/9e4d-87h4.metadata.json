@@ -6,7 +6,7 @@
     "category": "Public Safety",
     "createdAt": 1603817655,
     "displayType": "table",
-    "downloadCount": 124,
+    "downloadCount": 125,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 17719616,
     "totalTimesRated": 0,
     "viewCount": 63,
-    "viewLastModified": 1666189487,
+    "viewLastModified": 1708630545,
     "viewType": "tabular",
     "approvals": [
         {
@@ -108,7 +108,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Fire",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

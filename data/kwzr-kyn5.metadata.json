@@ -6,7 +6,7 @@
     "createdAt": 1569520128,
     "description": "Zip codes intersecting the Chattanooga city limits",
     "displayType": "table",
-    "downloadCount": 170,
+    "downloadCount": 172,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 19283695,
     "totalTimesRated": 0,
     "viewCount": 217,
-    "viewLastModified": 1694448065,
+    "viewLastModified": 1708630515,
     "viewType": "tabular",
     "approvals": [
         {
@@ -116,7 +116,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

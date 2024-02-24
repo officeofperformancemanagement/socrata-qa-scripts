@@ -6,7 +6,7 @@
     "createdAt": 1618336178,
     "description": "Automated job log with start time attribute added",
     "displayType": "table",
-    "downloadCount": 116,
+    "downloadCount": 117,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "75ap-66ba",
@@ -19,12 +19,12 @@
     "publicationGroup": 16116530,
     "publicationStage": "published",
     "queryString": "SELECT \n  job_name,\n  started_at,\n  completed_at,\n  completion_time,\n  successful,\n  date_extract_hh(started_at) as started_hour",
-    "rowsUpdatedAt": 1708561555,
+    "rowsUpdatedAt": 1708647906,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16181565,
     "totalTimesRated": 0,
     "viewCount": 36,
-    "viewLastModified": 1618337467,
+    "viewLastModified": 1708630727,
     "viewType": "tabular",
     "approvals": [
         {
@@ -161,7 +161,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

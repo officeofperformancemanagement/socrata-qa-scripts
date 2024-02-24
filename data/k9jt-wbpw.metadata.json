@@ -6,7 +6,7 @@
     "createdAt": 1553799199,
     "description": "Chattanooga city limits",
     "displayType": "table",
-    "downloadCount": 146,
+    "downloadCount": 147,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562357074,
@@ -23,7 +23,7 @@
     "tableId": 16183634,
     "totalTimesRated": 0,
     "viewCount": 146,
-    "viewLastModified": 1708375260,
+    "viewLastModified": 1708630548,
     "viewType": "tabular",
     "approvals": [
         {
@@ -195,9 +195,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "rwedell@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

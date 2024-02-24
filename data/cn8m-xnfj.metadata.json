@@ -6,7 +6,7 @@
     "createdAt": 1576255691,
     "description": "Hamilton County tract spatial boundaries from the 2010 census",
     "displayType": "table",
-    "downloadCount": 346,
+    "downloadCount": 347,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 16761063,
     "totalTimesRated": 0,
     "viewCount": 108,
-    "viewLastModified": 1576256226,
+    "viewLastModified": 1708631253,
     "viewType": "tabular",
     "approvals": [
         {
@@ -119,8 +119,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "ODEXTRACT",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

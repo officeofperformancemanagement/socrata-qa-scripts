@@ -7,7 +7,7 @@
     "createdAt": 1562007655,
     "description": "Code enforcement cases for the City of Chattanooga from 1999 to present date.",
     "displayType": "table",
-    "downloadCount": 220,
+    "downloadCount": 221,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "qmcu-45tc",
@@ -19,12 +19,12 @@
     "publicationDate": 1573827037,
     "publicationGroup": 15952472,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708484056,
+    "rowsUpdatedAt": 1708570517,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17320071,
     "totalTimesRated": 0,
-    "viewCount": 625,
-    "viewLastModified": 1573827037,
+    "viewCount": 628,
+    "viewLastModified": 1708630377,
     "viewType": "tabular",
     "approvals": [
         {
@@ -262,7 +262,7 @@
                 "Results Area": "Growing Economy",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Economic and Community Development",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

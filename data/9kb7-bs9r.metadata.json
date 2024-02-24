@@ -9,7 +9,7 @@
     "createdAt": 1588085114,
     "description": "Data pulled from TDOTs traffic history webmap (https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354).",
     "displayType": "table",
-    "downloadCount": 759,
+    "downloadCount": 760,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -26,7 +26,7 @@
     "tableId": 17071934,
     "totalTimesRated": 0,
     "viewCount": 183,
-    "viewLastModified": 1588085530,
+    "viewLastModified": 1708631653,
     "viewType": "tabular",
     "approvals": [
         {
@@ -567,7 +567,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "kdoyle@chattanooga.gov ",
                 "Department": "Transportation",
-                "Data Steward Name": "Ken Doyle ",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Yearly"
             },
             "Public": {

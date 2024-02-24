@@ -7,7 +7,7 @@
     "createdAt": 1650400921,
     "description": "This is the new districts for the City Council of Chattanooga.  The new proposed districts have officially been adopted by the City Council of Chattanooga.",
     "displayType": "table",
-    "downloadCount": 126,
+    "downloadCount": 127,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 18676211,
     "totalTimesRated": 0,
     "viewCount": 19,
-    "viewLastModified": 1664307051,
+    "viewLastModified": 1708630543,
     "viewType": "tabular",
     "approvals": [
         {
@@ -235,7 +235,7 @@
                 "Results Area": "Stronger Neighborhoods",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "opendata@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

@@ -7,7 +7,7 @@
     "createdAt": 1562677217,
     "description": "A filtered view of fire incidents that took less than 10 minutes to respond in FY19.",
     "displayType": "table",
-    "downloadCount": 234,
+    "downloadCount": 236,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "5dtg-25r9",
@@ -19,12 +19,12 @@
     "publicationDate": 1562677398,
     "publicationGroup": 15938925,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708511479,
+    "rowsUpdatedAt": 1708597962,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19023020,
     "totalTimesRated": 0,
     "viewCount": 190,
-    "viewLastModified": 1562677398,
+    "viewLastModified": 1708630703,
     "viewType": "tabular",
     "approvals": [
         {
@@ -522,7 +522,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Fire",
-                "Data Steward Name": "open data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

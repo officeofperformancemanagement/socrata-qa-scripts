@@ -7,7 +7,7 @@
     "createdAt": 1588084828,
     "description": "Roadways in Chattanooga",
     "displayType": "table",
-    "downloadCount": 233,
+    "downloadCount": 234,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,8 +22,8 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 17071929,
     "totalTimesRated": 0,
-    "viewCount": 241,
-    "viewLastModified": 1666193072,
+    "viewCount": 242,
+    "viewLastModified": 1708630426,
     "viewType": "tabular",
     "approvals": [
         {
@@ -362,7 +362,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

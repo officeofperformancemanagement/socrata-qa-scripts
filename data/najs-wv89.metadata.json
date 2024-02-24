@@ -7,7 +7,7 @@
     "createdAt": 1596115438,
     "description": "This data set contains a high level view of all CPD Internal Affairs cases from the IAPro system since January 1, 2018. Each row of data is an individual case that may have multiple allegations and multiple officers involved. The columns are high level data points on the case file.  For the public view, only Completed cases are available for viewing.",
     "displayType": "table",
-    "downloadCount": 151,
+    "downloadCount": 152,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "74bz-hnrt",
@@ -20,12 +20,12 @@
     "publicationGroup": 17369982,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1708483672,
+    "rowsUpdatedAt": 1708570182,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17386451,
     "totalTimesRated": 0,
     "viewCount": 282,
-    "viewLastModified": 1598377539,
+    "viewLastModified": 1708630723,
     "viewType": "tabular",
     "approvals": [
         {
@@ -390,9 +390,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "Safer Streets",
-                "Data Steward Email": "odextract@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Police",
-                "Data Steward Name": "odextract",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

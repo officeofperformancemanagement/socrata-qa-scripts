@@ -6,7 +6,7 @@
     "createdAt": 1562592340,
     "description": "Information detailing the solid waste and recycling program for the City of Chattanooga. Data is summarized by month.",
     "displayType": "table",
-    "downloadCount": 200,
+    "downloadCount": 201,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "bi87-xaci",
@@ -23,7 +23,7 @@
     "tableId": 16982424,
     "totalTimesRated": 0,
     "viewCount": 234,
-    "viewLastModified": 1666016747,
+    "viewLastModified": 1708630524,
     "viewType": "tabular",
     "approvals": [
         {
@@ -317,7 +317,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Monthly"
             },
             "Public": {

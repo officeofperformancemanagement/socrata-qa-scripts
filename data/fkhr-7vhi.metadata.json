@@ -6,7 +6,7 @@
     "createdAt": 1633442300,
     "description": "This dataset contains the Census 2020 Block Populations with the Council Districts appended to them.  The Council Districts were joined to the Census blocks based on the center point of the census block polygon.",
     "displayType": "table",
-    "downloadCount": 124,
+    "downloadCount": 125,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 18470347,
     "totalTimesRated": 0,
     "viewCount": 32,
-    "viewLastModified": 1633447906,
+    "viewLastModified": 1708630489,
     "viewType": "tabular",
     "approvals": [
         {
@@ -446,8 +446,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "opendata@chattanooga.gov",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

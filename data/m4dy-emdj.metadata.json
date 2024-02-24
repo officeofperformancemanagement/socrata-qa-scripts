@@ -7,7 +7,7 @@
     "createdAt": 1562333274,
     "description": "Bike Chattanooga station locations",
     "displayType": "table",
-    "downloadCount": 182,
+    "downloadCount": 183,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "iconUrl": "fileId:76932ea9-3177-4c35-9fbe-9c59f5eb400c",
@@ -26,7 +26,7 @@
     "tableId": 16336093,
     "totalTimesRated": 0,
     "viewCount": 127,
-    "viewLastModified": 1562357089,
+    "viewLastModified": 1708630551,
     "viewType": "tabular",
     "approvals": [
         {
@@ -195,7 +195,7 @@
                 "Results Area": "Stronger Neighborhoods",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Transportation",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

@@ -6,7 +6,7 @@
     "createdAt": 1579897694,
     "description": "Test geometry for capital projects explorer",
     "displayType": "table",
-    "downloadCount": 144,
+    "downloadCount": 146,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 16852184,
     "totalTimesRated": 0,
     "viewCount": 136,
-    "viewLastModified": 1580160723,
+    "viewLastModified": 1708630776,
     "viewType": "tabular",
     "approvals": [
         {
@@ -97,7 +97,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "odextract",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

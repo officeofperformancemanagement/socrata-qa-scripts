@@ -7,7 +7,7 @@
     "createdAt": 1569607587,
     "description": "Incidents where building fires occurred",
     "displayType": "table",
-    "downloadCount": 140,
+    "downloadCount": 141,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ndjw-zxwd",
@@ -19,12 +19,12 @@
     "publicationDate": 1581609811,
     "publicationGroup": 15947569,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708511159,
+    "rowsUpdatedAt": 1708597521,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984793,
     "totalTimesRated": 0,
     "viewCount": 198,
-    "viewLastModified": 1581609811,
+    "viewLastModified": 1708630678,
     "viewType": "tabular",
     "approvals": [
         {
@@ -437,7 +437,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Fire",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

@@ -7,7 +7,7 @@
     "createdAt": 1597254426,
     "description": "Data from testing map 8/12/20 spreadsheet",
     "displayType": "table",
-    "downloadCount": 126,
+    "downloadCount": 127,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17435367,
     "totalTimesRated": 0,
     "viewCount": 63,
-    "viewLastModified": 1708457056,
+    "viewLastModified": 1708631173,
     "viewType": "tabular",
     "approvals": [
         {
@@ -195,7 +195,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

@@ -5,33 +5,34 @@
     "averageRating": 0,
     "category": "Public Safety",
     "createdAt": 1561052490,
-    "description": "Vehicle incidents recorded in Chattanooga, TN since 2018. Location information for incidents remains unchanged from the source data. Data is pulled from CPD's RMS system.",
+    "description": "Vehicle incidents recorded in Chattanooga, TN since 2018. Location information for incidents remains unchanged from the source data. Data is pulled from CPD's RMS system.\r\n\r\nNote: Starting in 2023, CPD stopped proactively responding to crashes where there are no injuries, under $1,500 damage, and all involved parties have insurance, unless specifically requested to respond by a motorist.",
     "displayType": "table",
-    "downloadCount": 246,
+    "downloadCount": 247,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "38wp-yztm",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 39108426,
+    "oid": 40437748,
     "provenance": "official",
     "publicationAppendEnabled": true,
-    "publicationDate": 1563307521,
+    "publicationDate": 1708652967,
     "publicationGroup": 15972539,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708550196,
+    "rowClass": "",
+    "rowsUpdatedAt": 1708636554,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984786,
     "totalTimesRated": 0,
-    "viewCount": 459,
-    "viewLastModified": 1671494325,
+    "viewCount": 463,
+    "viewLastModified": 1708652967,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1562177588,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 5148873,
+            "submissionId": 6186561,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1562177526,
@@ -62,7 +63,7 @@
     },
     "columns": [
         {
-            "id": 568775097,
+            "id": 589816528,
             "name": "Incident Number",
             "dataTypeName": "text",
             "description": "CPD Incident Number that is unique to each incident.",
@@ -76,7 +77,7 @@
             }
         },
         {
-            "id": 568775098,
+            "id": 589816529,
             "name": "Incident Date",
             "dataTypeName": "calendar_date",
             "description": "Date the vehicle incident occurred.",
@@ -90,7 +91,7 @@
             }
         },
         {
-            "id": 568775099,
+            "id": 589816530,
             "name": "Time Num",
             "dataTypeName": "number",
             "description": "24 hour time rounded to the nearest half hour saved as a number data type",
@@ -105,7 +106,7 @@
             }
         },
         {
-            "id": 568775100,
+            "id": 589816531,
             "name": "Street",
             "dataTypeName": "text",
             "description": "Street address the incident occurred.",
@@ -119,7 +120,7 @@
             }
         },
         {
-            "id": 568775101,
+            "id": 589816532,
             "name": "Alt Street",
             "dataTypeName": "text",
             "description": "Alternative name for the street if it is a state highway.",
@@ -133,7 +134,7 @@
             }
         },
         {
-            "id": 568775102,
+            "id": 589816533,
             "name": "City",
             "dataTypeName": "text",
             "description": "City the incident occurred.",
@@ -147,7 +148,7 @@
             }
         },
         {
-            "id": 568775103,
+            "id": 589816534,
             "name": "County",
             "dataTypeName": "text",
             "description": "County the incident occurred.",
@@ -161,7 +162,7 @@
             }
         },
         {
-            "id": 568775104,
+            "id": 589816535,
             "name": "Intersection",
             "dataTypeName": "text",
             "description": "Closest intersecting street to the vehicle incident that occurred.",
@@ -175,7 +176,7 @@
             }
         },
         {
-            "id": 568775105,
+            "id": 589816536,
             "name": "Mile Post",
             "dataTypeName": "number",
             "description": "Mile post the incident occurred if applicable.",
@@ -190,7 +191,7 @@
             }
         },
         {
-            "id": 568775107,
+            "id": 589816537,
             "name": "Accident Type",
             "dataTypeName": "text",
             "description": "General type of vehicle incident that occurred.",
@@ -204,12 +205,12 @@
             }
         },
         {
-            "id": 568775108,
+            "id": 589816539,
             "name": "Collision Type",
             "dataTypeName": "text",
             "description": "Type of collision that occurred, description of how it occurred.",
             "fieldName": "collision_type",
-            "position": 11,
+            "position": 12,
             "renderTypeName": "text",
             "tableColumnId": 77062696,
             "width": 100,
@@ -218,12 +219,12 @@
             }
         },
         {
-            "id": 568775109,
+            "id": 589816540,
             "name": "Hit and Run",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident was a hit and run.",
             "fieldName": "hit_and_run",
-            "position": 12,
+            "position": 13,
             "renderTypeName": "text",
             "tableColumnId": 80721077,
             "width": 100,
@@ -232,12 +233,12 @@
             }
         },
         {
-            "id": 568775111,
+            "id": 589816541,
             "name": "Involved Fatal Injury",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a fatal injury.",
             "fieldName": "involved_fatal_injury",
-            "position": 13,
+            "position": 14,
             "renderTypeName": "text",
             "tableColumnId": 80721078,
             "width": 100,
@@ -246,12 +247,12 @@
             }
         },
         {
-            "id": 568775112,
+            "id": 589816543,
             "name": "Involved Medical Transport",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates medical transport was needed for the incident.",
             "fieldName": "involved_medical_transport",
-            "position": 14,
+            "position": 16,
             "renderTypeName": "text",
             "tableColumnId": 80721079,
             "width": 100,
@@ -260,12 +261,12 @@
             }
         },
         {
-            "id": 568775113,
+            "id": 589816544,
             "name": "Involved Placarded Truck",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a truck.",
             "fieldName": "involved_placarded_truck",
-            "position": 15,
+            "position": 17,
             "renderTypeName": "text",
             "tableColumnId": 80721072,
             "width": 100,
@@ -274,12 +275,12 @@
             }
         },
         {
-            "id": 568775114,
+            "id": 589816545,
             "name": "Posted Speed",
             "dataTypeName": "number",
             "description": "The posted speed of the address the incident occurred.",
             "fieldName": "posted_speed",
-            "position": 16,
+            "position": 18,
             "renderTypeName": "number",
             "tableColumnId": 77062701,
             "width": 100,
@@ -289,12 +290,12 @@
             }
         },
         {
-            "id": 568775115,
+            "id": 589816546,
             "name": "Total Vehicles Involved",
             "dataTypeName": "number",
             "description": "Total number of vehicles involved in the incident.",
             "fieldName": "total_vehicles_involved",
-            "position": 17,
+            "position": 19,
             "renderTypeName": "number",
             "tableColumnId": 77062702,
             "width": 100,
@@ -304,12 +305,12 @@
             }
         },
         {
-            "id": 568775116,
+            "id": 589816547,
             "name": "Weather Code",
             "dataTypeName": "text",
             "description": "Describes the condition of the weather at the time.",
             "fieldName": "weather_code",
-            "position": 18,
+            "position": 20,
             "renderTypeName": "text",
             "tableColumnId": 77062703,
             "width": 100,
@@ -318,12 +319,12 @@
             }
         },
         {
-            "id": 568775117,
+            "id": 589816548,
             "name": "Pedestrian Involved",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a pedestrian.",
             "fieldName": "pedestrian_involved",
-            "position": 19,
+            "position": 21,
             "renderTypeName": "text",
             "tableColumnId": 80721076,
             "width": 100,
@@ -332,12 +333,12 @@
             }
         },
         {
-            "id": 568775118,
+            "id": 589816549,
             "name": "Bicycle Involved",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a bicycle.",
             "fieldName": "bicycle_involved",
-            "position": 20,
+            "position": 22,
             "renderTypeName": "text",
             "tableColumnId": 80721073,
             "width": 100,
@@ -346,12 +347,12 @@
             }
         },
         {
-            "id": 568775120,
+            "id": 589816550,
             "name": "Drug Involved",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves drugs.",
             "fieldName": "drug_involved",
-            "position": 21,
+            "position": 23,
             "renderTypeName": "text",
             "tableColumnId": 80721074,
             "width": 100,
@@ -360,12 +361,12 @@
             }
         },
         {
-            "id": 568775121,
+            "id": 589816551,
             "name": "Alcohol Involved",
             "dataTypeName": "text",
             "description": "Checked (true), this indicates the incident involves a alcohol.",
             "fieldName": "alcohol_involved",
-            "position": 22,
+            "position": 24,
             "renderTypeName": "text",
             "tableColumnId": 80721075,
             "width": 100,
@@ -374,12 +375,12 @@
             }
         },
         {
-            "id": 568775126,
+            "id": 589816553,
             "name": "Light Condition",
             "dataTypeName": "text",
             "description": "",
             "fieldName": "light_condition",
-            "position": 23,
+            "position": 26,
             "renderTypeName": "text",
             "tableColumnId": 81951366,
             "width": 100,
@@ -388,12 +389,12 @@
             }
         },
         {
-            "id": 568775127,
+            "id": 589816554,
             "name": "Driver One Safety Equipment",
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_one_safety_equipment",
-            "position": 24,
+            "position": 27,
             "renderTypeName": "text",
             "tableColumnId": 81306531,
             "width": 100,
@@ -402,12 +403,12 @@
             }
         },
         {
-            "id": 568775128,
+            "id": 589816555,
             "name": "Driver One Zip",
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_one_zip",
-            "position": 25,
+            "position": 28,
             "renderTypeName": "text",
             "tableColumnId": 82199867,
             "width": 100,
@@ -416,12 +417,12 @@
             }
         },
         {
-            "id": 568775133,
+            "id": 589816556,
             "name": "Driver Two Safety Equipment",
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_two_safety_equipment",
-            "position": 26,
+            "position": 29,
             "renderTypeName": "text",
             "tableColumnId": 81306530,
             "width": 100,
@@ -430,12 +431,12 @@
             }
         },
         {
-            "id": 568775134,
+            "id": 589816557,
             "name": "Driver Two Zip",
             "dataTypeName": "text",
             "description": "",
             "fieldName": "driver_two_zip",
-            "position": 27,
+            "position": 30,
             "renderTypeName": "text",
             "tableColumnId": 82199865,
             "width": 100,
@@ -444,12 +445,12 @@
             }
         },
         {
-            "id": 568775122,
+            "id": 589816558,
             "name": "Latitude",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "latitude",
-            "position": 28,
+            "position": 31,
             "renderTypeName": "number",
             "tableColumnId": 77062707,
             "width": 100,
@@ -459,12 +460,12 @@
             }
         },
         {
-            "id": 568775123,
+            "id": 589816560,
             "name": "Longitude",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "longitude",
-            "position": 29,
+            "position": 33,
             "renderTypeName": "number",
             "tableColumnId": 77062708,
             "width": 100,
@@ -474,12 +475,12 @@
             }
         },
         {
-            "id": 568775124,
+            "id": 589816561,
             "name": "Location WKT",
             "dataTypeName": "point",
             "description": "",
             "fieldName": "location_wkt",
-            "position": 30,
+            "position": 34,
             "renderTypeName": "point",
             "tableColumnId": 77062709,
             "width": 100,
@@ -488,11 +489,11 @@
             }
         },
         {
-            "id": 568775142,
+            "id": 589816573,
             "name": "Neighborhood Associations",
             "dataTypeName": "number",
             "fieldName": ":@computed_region_epkc_jqa5",
-            "position": 42,
+            "position": 46,
             "renderTypeName": "number",
             "tableColumnId": 88990517,
             "computationStrategy": {
@@ -508,7 +509,7 @@
             "format": {}
         },
         {
-            "id": 568775143,
+            "id": 589816574,
             "name": "Chattanooga Redistricting - New Districts",
             "dataTypeName": "number",
             "fieldName": ":@computed_region_hr78_d3nd",
@@ -528,7 +529,7 @@
             "format": {}
         },
         {
-            "id": 568775144,
+            "id": 589816575,
             "name": "Chattanooga Historic Red Lining",
             "dataTypeName": "number",
             "fieldName": ":@computed_region_tdua_xyxp",
@@ -548,7 +549,7 @@
             "format": {}
         },
         {
-            "id": 568775145,
+            "id": 589816576,
             "name": "Chattanooga Area Zip Codes",
             "dataTypeName": "number",
             "fieldName": ":@computed_region_3qrp_xh54",
@@ -568,7 +569,7 @@
             "format": {}
         },
         {
-            "id": 568775146,
+            "id": 589816577,
             "name": "Hamilton County 2020 Census Tracts",
             "dataTypeName": "number",
             "fieldName": ":@computed_region_ymb6_j43f",
@@ -599,18 +600,20 @@
     ],
     "metadata": {
         "rdfSubject": "0",
+        "rdfClass": "",
         "custom_fields": {
             "Internal": {
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
-                "Department": "Transportation",
-                "Data Steward Name": "Ryan Wedell",
+                "Department": "Other",
+                "Data Steward Name": "Office of Performance Management and Open Data",
                 "How often are data values updated?": "Daily"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
+        "rowIdentifier": "0",
         "availableDisplayTypes": [
             "table",
             "fatrow",

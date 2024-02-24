@@ -6,7 +6,7 @@
     "createdAt": 1568315177,
     "description": "Neighborhood associations in Chattanooga",
     "displayType": "table",
-    "downloadCount": 132,
+    "downloadCount": 133,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568315512,
@@ -23,7 +23,7 @@
     "tableId": 16529569,
     "totalTimesRated": 0,
     "viewCount": 157,
-    "viewLastModified": 1666020360,
+    "viewLastModified": 1708630539,
     "viewType": "tabular",
     "approvals": [
         {
@@ -175,7 +175,7 @@
                 "Results Area": "Stronger Neighborhoods",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Development",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

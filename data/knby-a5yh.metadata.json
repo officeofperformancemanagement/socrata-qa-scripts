@@ -6,7 +6,7 @@
     "createdAt": 1611341455,
     "description": "311 service requests containing trip hazard in the description.",
     "displayType": "table",
-    "downloadCount": 123,
+    "downloadCount": 124,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "8qb9-5fja",
@@ -18,12 +18,12 @@
     "publicationDate": 1611341601,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708524499,
+    "rowsUpdatedAt": 1708610824,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
     "viewCount": 56,
-    "viewLastModified": 1611341664,
+    "viewLastModified": 1708630425,
     "viewType": "tabular",
     "approvals": [
         {
@@ -303,7 +303,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

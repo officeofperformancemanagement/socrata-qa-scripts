@@ -6,7 +6,7 @@
     "createdAt": 1568052812,
     "description": "Long term vacancy estimate for census tracts in Hamilton County",
     "displayType": "table",
-    "downloadCount": 128,
+    "downloadCount": 129,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571261765,
@@ -23,7 +23,7 @@
     "tableId": 16502762,
     "totalTimesRated": 0,
     "viewCount": 139,
-    "viewLastModified": 1568053020,
+    "viewLastModified": 1708630956,
     "viewType": "tabular",
     "approvals": [
         {
@@ -307,7 +307,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "Ryan Wedell",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

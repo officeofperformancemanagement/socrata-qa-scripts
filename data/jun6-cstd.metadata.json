@@ -9,7 +9,7 @@
     "createdAt": 1610389498,
     "description": "COVID data from the HCHD website with information about daily changes in COVID numbers by different population parameters. \nhttp://health.hamiltontn.org/AllServices/Coronavirus(COVID-19).aspx",
     "displayType": "table",
-    "downloadCount": 141,
+    "downloadCount": 142,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17931937,
     "publicationStage": "published",
     "rowIdentifierColumnId": 518715540,
-    "rowsUpdatedAt": 1708559106,
+    "rowsUpdatedAt": 1708645536,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17931937,
     "totalTimesRated": 0,
     "viewCount": 151,
-    "viewLastModified": 1708556555,
+    "viewLastModified": 1708642957,
     "viewType": "tabular",
     "approvals": [
         {
@@ -631,7 +631,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Community Health",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

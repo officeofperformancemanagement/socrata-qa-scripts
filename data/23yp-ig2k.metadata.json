@@ -6,7 +6,7 @@
     "createdAt": 1620320916,
     "description": "This is a dataset of all 2020 Census Block Groups within the THRIVE 16 county region.  Data includes names of the block groups as well as 2019 ACS total population estimates.",
     "displayType": "table",
-    "downloadCount": 129,
+    "downloadCount": 130,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 18289732,
     "totalTimesRated": 0,
     "viewCount": 49,
-    "viewLastModified": 1620941167,
+    "viewLastModified": 1708630631,
     "viewType": "tabular",
     "approvals": [
         {
@@ -194,10 +194,10 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "odextract@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Economic and Community Development",
-                "Data Steward Name": "odextract@chattanooga.gov",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

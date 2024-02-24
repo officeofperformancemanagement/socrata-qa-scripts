@@ -7,7 +7,7 @@
     "createdAt": 1615402976,
     "description": "Zip codes intersecting sewer subbasins.",
     "displayType": "table",
-    "downloadCount": 119,
+    "downloadCount": 120,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 18122603,
     "totalTimesRated": 0,
     "viewCount": 65,
-    "viewLastModified": 1666189832,
+    "viewLastModified": 1708631255,
     "viewType": "tabular",
     "approvals": [
         {
@@ -98,7 +98,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

@@ -6,7 +6,7 @@
     "createdAt": 1620937142,
     "description": "Block group shapes and centroids for Tennessee, Alabama, Georgia, and North Carolina.",
     "displayType": "table",
-    "downloadCount": 133,
+    "downloadCount": 134,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,8 +21,8 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 18304852,
     "totalTimesRated": 0,
-    "viewCount": 95,
-    "viewLastModified": 1620938297,
+    "viewCount": 96,
+    "viewLastModified": 1708630702,
     "viewType": "tabular",
     "approvals": [
         {
@@ -172,10 +172,10 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "Growing Economy",
-                "Data Steward Email": "odextract@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "odextract@chattanooga.gov",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

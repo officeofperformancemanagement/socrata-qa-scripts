@@ -6,7 +6,7 @@
     "createdAt": 1586979021,
     "description": "Average damage assessment for areas in tornado path.",
     "displayType": "table",
-    "downloadCount": 137,
+    "downloadCount": 138,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17032106,
     "totalTimesRated": 0,
     "viewCount": 176,
-    "viewLastModified": 1708460041,
+    "viewLastModified": 1708630598,
     "viewType": "tabular",
     "approvals": [
         {
@@ -179,7 +179,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

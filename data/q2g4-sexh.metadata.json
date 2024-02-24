@@ -7,7 +7,7 @@
     "createdAt": 1628019297,
     "description": "This data set contains the prior assessment values compared to the new. A new budgeted tax rate for Fiscal Year 2022 is then applied to the New Assessed values.  Several calculated fields are then created to numerically describe the impacts the reassessment combined with the budgeted tax rate will have on Chattanoogans compared to prior tax amounts and assessed values.",
     "displayType": "table",
-    "downloadCount": 125,
+    "downloadCount": 126,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ubv6-9x4p",
@@ -24,7 +24,7 @@
     "tableId": 18410528,
     "totalTimesRated": 0,
     "viewCount": 135,
-    "viewLastModified": 1628615343,
+    "viewLastModified": 1708630798,
     "viewType": "tabular",
     "approvals": [
         {
@@ -553,7 +553,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "odextract@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "odextract",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

@@ -2,12 +2,13 @@
     "id": "9sad-9wyu",
     "name": "All Part 1 Property Crimes",
     "assetType": "filter",
+    "attribution": "City of Chattanooga",
     "averageRating": 0,
     "category": "Public Safety",
     "createdAt": 1562680870,
     "description": "All Part 1 Property Crime Incidents CPD responds to.",
     "displayType": "table",
-    "downloadCount": 332,
+    "downloadCount": 333,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "jvkg-79ss",
@@ -19,12 +20,12 @@
     "publicationDate": 1562683352,
     "publicationGroup": 15936287,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708513407,
+    "rowsUpdatedAt": 1708599811,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984805,
     "totalTimesRated": 0,
     "viewCount": 843,
-    "viewLastModified": 1562683352,
+    "viewLastModified": 1708630702,
     "viewType": "tabular",
     "approvals": [
         {
@@ -352,7 +353,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Police",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

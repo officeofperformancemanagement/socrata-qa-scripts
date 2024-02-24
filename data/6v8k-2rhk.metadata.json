@@ -8,7 +8,7 @@
     "createdAt": 1588944403,
     "description": "Business listings and visitor count data for businesses in the Chattanooga area. Data made available by SafeGraph https://services.arcgis.com/DO4gTjwJVIJ7O9Ca/arcgis/rest/services/POI_visits_2020_03_29/FeatureServer",
     "displayType": "table",
-    "downloadCount": 185,
+    "downloadCount": 186,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "tableId": 17241584,
     "totalTimesRated": 0,
     "viewCount": 254,
-    "viewLastModified": 1666017676,
+    "viewLastModified": 1708630631,
     "viewType": "tabular",
     "approvals": [
         {
@@ -454,7 +454,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Weekly"
             },
             "Public": {

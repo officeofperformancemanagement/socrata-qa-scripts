@@ -7,7 +7,7 @@
     "createdAt": 1615322375,
     "description": "Sewer subbasins",
     "displayType": "table",
-    "downloadCount": 139,
+    "downloadCount": 140,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 18120105,
     "totalTimesRated": 0,
     "viewCount": 126,
-    "viewLastModified": 1666191944,
+    "viewLastModified": 1708630359,
     "viewType": "tabular",
     "approvals": [
         {
@@ -98,7 +98,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Works",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

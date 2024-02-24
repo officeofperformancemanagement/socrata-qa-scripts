@@ -6,7 +6,7 @@
     "createdAt": 1560170392,
     "description": "311 service request for the city of Chattanooga. Data is from 2017 to the present date. For service requests prior to 2017 please see the following dataset. https://data.chattlibrary.org/Government/Service-Requests/e968-fnk9\r\n\r\n311 data guide. Use this if you are new to this dataset and want to understand what it is all about. https://docs.google.com/document/d/1QjqBeZ7HWelUJpTyCfDYAXAugyHMIDjFHsG-6PLuzMk/edit?usp=sharing",
     "displayType": "table",
-    "downloadCount": 371,
+    "downloadCount": 373,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "vfem-a47f",
@@ -18,12 +18,12 @@
     "publicationDate": 1656006171,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708524499,
+    "rowsUpdatedAt": 1708610824,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
-    "viewCount": 1640,
-    "viewLastModified": 1656006173,
+    "viewCount": 1641,
+    "viewLastModified": 1708630523,
     "viewType": "tabular",
     "approvals": [
         {
@@ -282,7 +282,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

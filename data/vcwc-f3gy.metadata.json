@@ -7,7 +7,7 @@
     "createdAt": 1592914419,
     "description": "Response rate for the 2020 decennial census broken down by Tract for Hamilton County.",
     "displayType": "table",
-    "downloadCount": 381,
+    "downloadCount": 382,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,7 +24,7 @@
     "tableId": 17260315,
     "totalTimesRated": 0,
     "viewCount": 117,
-    "viewLastModified": 1612439591,
+    "viewLastModified": 1708630507,
     "viewType": "tabular",
     "approvals": [
         {
@@ -218,10 +218,10 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "High Performing Government",
-                "Data Steward Email": "odextract@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "odextract@chattanooga.gov",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

@@ -7,7 +7,7 @@
     "createdAt": 1633440504,
     "description": "This is a view from the Census 2020 Block Populations for Hamilton County only.",
     "displayType": "table",
-    "downloadCount": 117,
+    "downloadCount": 118,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "px4f-jvhm",
@@ -25,7 +25,7 @@
     "tableId": 18414138,
     "totalTimesRated": 0,
     "viewCount": 13,
-    "viewLastModified": 1633440605,
+    "viewLastModified": 1708630436,
     "viewType": "tabular",
     "approvals": [
         {
@@ -404,8 +404,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "opendata@chattanooga.gov",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

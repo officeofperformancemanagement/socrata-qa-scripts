@@ -9,7 +9,7 @@
     "createdAt": 1618409078,
     "description": "Hamilton County 2020 census tracts spatial data",
     "displayType": "table",
-    "downloadCount": 131,
+    "downloadCount": 132,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "tableId": 18222748,
     "totalTimesRated": 0,
     "viewCount": 75,
-    "viewLastModified": 1666191478,
+    "viewLastModified": 1708630796,
     "viewType": "tabular",
     "approvals": [
         {
@@ -133,8 +133,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

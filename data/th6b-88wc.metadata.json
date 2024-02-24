@@ -7,7 +7,7 @@
     "createdAt": 1561577235,
     "description": "Data since 2012 of City Court Citations.",
     "displayType": "table",
-    "downloadCount": 295,
+    "downloadCount": 296,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "55fp-uuwa",
@@ -19,12 +19,12 @@
     "publicationDate": 1596797571,
     "publicationGroup": 15971825,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708550444,
+    "rowsUpdatedAt": 1708636853,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19021533,
     "totalTimesRated": 0,
     "viewCount": 411,
-    "viewLastModified": 1596797571,
+    "viewLastModified": 1708630599,
     "viewType": "tabular",
     "approvals": [
         {
@@ -238,7 +238,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

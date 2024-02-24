@@ -6,7 +6,7 @@
     "category": "Education",
     "createdAt": 1562859871,
     "displayType": "table",
-    "downloadCount": 196,
+    "downloadCount": 197,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562859915,
@@ -25,7 +25,7 @@
     "tableId": 16352222,
     "totalTimesRated": 0,
     "viewCount": 165,
-    "viewLastModified": 1562859913,
+    "viewLastModified": 1708630774,
     "viewType": "tabular",
     "approvals": [
         {
@@ -102,7 +102,7 @@
                 "Results Area": "Smarter Students Stronger Families",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Public Library",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Quarterly"
             },
             "Public": {

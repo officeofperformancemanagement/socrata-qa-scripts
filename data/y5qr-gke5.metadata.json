@@ -6,7 +6,7 @@
     "createdAt": 1596735753,
     "description": "This dataset contains high level summary statistics from multiple Chattanooga Police Department data sources broken down by Race and Census tract.  Following guidelines from the Center for Policing Equity, the data set seeks to highlight any disproportional outcomes based on population and other factors.",
     "displayType": "table",
-    "downloadCount": 124,
+    "downloadCount": 125,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 17413287,
     "totalTimesRated": 0,
     "viewCount": 139,
-    "viewLastModified": 1596735983,
+    "viewLastModified": 1708630798,
     "viewType": "tabular",
     "approvals": [
         {
@@ -623,9 +623,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "Safer Streets",
-                "Data Steward Email": "odextract@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Police",
-                "Data Steward Name": "odextract@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

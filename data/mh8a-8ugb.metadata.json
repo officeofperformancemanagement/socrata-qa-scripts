@@ -6,7 +6,7 @@
     "createdAt": 1628617220,
     "description": "This dataset contains high level data on the budgeted revenues for each Fiscal Year of City government",
     "displayType": "table",
-    "downloadCount": 117,
+    "downloadCount": 118,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "eq8a-5dac",
@@ -23,7 +23,7 @@
     "tableId": 18393713,
     "totalTimesRated": 0,
     "viewCount": 52,
-    "viewLastModified": 1683060532,
+    "viewLastModified": 1708630797,
     "viewType": "tabular",
     "approvals": [
         {
@@ -133,7 +133,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Finance",
-                "Data Steward Name": "opendata@chattanooga.gov",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {

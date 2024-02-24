@@ -7,7 +7,7 @@
     "createdAt": 1588701500,
     "description": "Unemployment rate data for census tracts in Hamilton County from 2013 to 2018",
     "displayType": "table",
-    "downloadCount": 127,
+    "downloadCount": 128,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 17093922,
     "totalTimesRated": 0,
     "viewCount": 141,
-    "viewLastModified": 1666191353,
+    "viewLastModified": 1708631246,
     "viewType": "tabular",
     "approvals": [
         {
@@ -160,8 +160,8 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Mayor's Office",
-                "Data Steward Name": "socrata",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

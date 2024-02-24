@@ -9,7 +9,7 @@
     "createdAt": 1650906759,
     "description": "This map shows child care agencies operating in the Greater Chattanooga area. This map focuses on the location of the agency, program  certification status for the facility, and children age acceptance.",
     "displayType": "table",
-    "downloadCount": 139,
+    "downloadCount": 140,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -26,7 +26,7 @@
     "tableId": 18776294,
     "totalTimesRated": 0,
     "viewCount": 125,
-    "viewLastModified": 1668613529,
+    "viewLastModified": 1708630774,
     "viewType": "tabular",
     "approvals": [
         {
@@ -590,9 +590,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "Growing Economy",
-                "Data Steward Email": "kmcnealy@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Youth and Family Development",
-                "Data Steward Name": "KaDeadra M",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Monthly"
             },
             "Public": {

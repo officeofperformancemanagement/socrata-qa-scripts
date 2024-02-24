@@ -8,7 +8,7 @@
     "createdAt": 1622638401,
     "description": "Health data from the CDC's 500 cities project expanded to all census tracts. For more information on this project check out the source data here:  https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2020-/yjkw-uj5s",
     "displayType": "table",
-    "downloadCount": 135,
+    "downloadCount": 136,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,7 +24,7 @@
     "tableId": 18336792,
     "totalTimesRated": 0,
     "viewCount": 128,
-    "viewLastModified": 1622640739,
+    "viewLastModified": 1708630339,
     "viewType": "tabular",
     "approvals": [
         {
@@ -812,8 +812,8 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
-                "How often are data values updated?": "As Needed"
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {
                 "Public Dataset Contact": "opendata@chattanooga.gov"

@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1596828523,
     "displayType": "table",
-    "downloadCount": 113,
+    "downloadCount": 114,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "764y-vxm2",
@@ -17,12 +17,12 @@
     "publicationDate": 1596828644,
     "publicationGroup": 15953030,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708513107,
+    "rowsUpdatedAt": 1708599486,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18990104,
     "totalTimesRated": 0,
     "viewCount": 59,
-    "viewLastModified": 1666021294,
+    "viewLastModified": 1708630631,
     "viewType": "tabular",
     "approvals": [
         {
@@ -1029,7 +1029,7 @@
                 "Results Area": "Growing Economy",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Economic and Community Development",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

@@ -6,7 +6,7 @@
     "category": "Public Safety",
     "createdAt": 1586759401,
     "displayType": "table",
-    "downloadCount": 269,
+    "downloadCount": 270,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 17021990,
     "totalTimesRated": 0,
     "viewCount": 532,
-    "viewLastModified": 1708454878,
+    "viewLastModified": 1708630487,
     "viewType": "tabular",
     "approvals": [
         {
@@ -95,9 +95,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "Safer Streets",
-                "Data Steward Email": "tmoreland@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "Tim Moreland",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Historical (no longer updated)"
             },
             "Public": {

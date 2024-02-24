@@ -6,7 +6,7 @@
     "category": "Public Safety",
     "createdAt": 1561656702,
     "displayType": "table",
-    "downloadCount": 203,
+    "downloadCount": 204,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "38wp-yztm",
@@ -18,12 +18,12 @@
     "publicationDate": 1563205808,
     "publicationGroup": 15972539,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1708550196,
+    "rowsUpdatedAt": 1708636554,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984786,
     "totalTimesRated": 0,
     "viewCount": 275,
-    "viewLastModified": 1563205808,
+    "viewLastModified": 1708630633,
     "viewType": "tabular",
     "approvals": [
         {
@@ -481,7 +481,7 @@
                 "Results Area": "Safer Streets",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Police",
-                "Data Steward Name": "Open Data",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

@@ -6,7 +6,7 @@
     "category": "Transportation",
     "createdAt": 1559324904,
     "displayType": "table",
-    "downloadCount": 173,
+    "downloadCount": 174,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575392667,
@@ -20,12 +20,12 @@
     "publicationGroup": 16218484,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1708569362,
+    "rowsUpdatedAt": 1708653954,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16220781,
     "totalTimesRated": 0,
     "viewCount": 151,
-    "viewLastModified": 1562356796,
+    "viewLastModified": 1708630702,
     "viewType": "tabular",
     "approvals": [
         {
@@ -122,9 +122,9 @@
         "custom_fields": {
             "Internal": {
                 "Results Area": "Growing Economy",
-                "Data Steward Email": "socrata@chattanooga.gov",
+                "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Transportation",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "Daily"
             },
             "Public": {

@@ -7,7 +7,7 @@
     "createdAt": 1599753925,
     "description": "Schools tab from HCDE Zones file",
     "displayType": "table",
-    "downloadCount": 129,
+    "downloadCount": 130,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "tableId": 17540796,
     "totalTimesRated": 0,
     "viewCount": 133,
-    "viewLastModified": 1666191057,
+    "viewLastModified": 1708630361,
     "viewType": "tabular",
     "approvals": [
         {
@@ -186,7 +186,7 @@
                 "Results Area": "High Performing Government",
                 "Data Steward Email": "opendata@chattanooga.gov",
                 "Department": "Other",
-                "Data Steward Name": "socrata",
+                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
                 "How often are data values updated?": "As Needed"
             },
             "Public": {
