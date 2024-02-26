@@ -7,7 +7,7 @@
     "createdAt": 1583248409,
     "description": "This is a high level data set of all current blanket contracts, their expiration dates, some indicators on amount spent overall on the contract and past 365 days. There is also high level dates for key times such as 6 months, 3 months, and 1 month from the expiration date. Also, there is the top cost center that payments were made from on the blanket contract in the past 365 days.",
     "displayType": "table",
-    "downloadCount": 258,
+    "downloadCount": 259,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "gnuv-7wci",
