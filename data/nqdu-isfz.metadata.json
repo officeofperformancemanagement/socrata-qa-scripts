@@ -9,7 +9,7 @@
     "createdAt": 1613414323,
     "description": "Data scraped from the HCHD and structured to match the TDH data format.",
     "displayType": "table",
-    "downloadCount": 134,
+    "downloadCount": 135,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,

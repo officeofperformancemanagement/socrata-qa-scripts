@@ -9,7 +9,7 @@
     "createdAt": 1610485254,
     "description": "Zip Code COVID data from HCHD website.",
     "displayType": "table",
-    "downloadCount": 129,
+    "downloadCount": 130,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
