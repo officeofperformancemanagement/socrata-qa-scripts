@@ -7,7 +7,7 @@
     "createdAt": 1657117202,
     "description": "City Council district and representative information from year 2022-2023",
     "displayType": "table",
-    "downloadCount": 131,
+    "downloadCount": 132,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "kp5y-vgiw",
     "tableId": 18769720,
     "totalTimesRated": 0,
-    "viewCount": 13,
+    "viewCount": 14,
     "viewLastModified": 1708631184,
     "viewType": "tabular",
     "approvals": [

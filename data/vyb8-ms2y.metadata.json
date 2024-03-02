@@ -1,0 +1,184 @@
+{
+    "id": "vyb8-ms2y",
+    "name": "Test -- Sales Tax -- Test",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1709171013,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40448736,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1709171092,
+    "publicationGroup": 19467992,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1709171086,
+    "rowsUpdatedBy": "4bwj-878f",
+    "tableId": 19467992,
+    "totalTimesRated": 0,
+    "viewCount": 4,
+    "viewLastModified": 1709171092,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1709171092,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6195112,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1709171092,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1709171092,
+                "failureCount": 0,
+                "startedAt": 1709171092,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 590088176,
+            "name": "Ledger Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "ledger_name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 151637205,
+            "format": {}
+        },
+        {
+            "id": 590088177,
+            "name": "Concatenated Segments",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "concatenated_segments",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 151637206,
+            "format": {}
+        },
+        {
+            "id": 590088178,
+            "name": "Period Net Activity",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "period_net_activity",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 151637207,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590088179,
+            "name": "Accounting Period Name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "accounting_period_name",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 151637208,
+            "format": {}
+        },
+        {
+            "id": 590088180,
+            "name": "Accounting Period Start Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "accounting_period_start_date",
+            "position": 5,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 151637209,
+            "format": {}
+        },
+        {
+            "id": 590088181,
+            "name": "Accounting Period End Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "accounting_period_end_date",
+            "position": 6,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 151637210,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
