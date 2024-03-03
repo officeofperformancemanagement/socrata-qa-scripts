@@ -9,7 +9,7 @@
     "createdAt": 1611858209,
     "description": "Demographic vaccination data by county and date in TN",
     "displayType": "table",
-    "downloadCount": 135,
+    "downloadCount": 136,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,

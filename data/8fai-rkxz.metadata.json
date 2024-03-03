@@ -1,0 +1,210 @@
+{
+    "id": "8fai-rkxz",
+    "name": "OHSH Dashboard Data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1708371066,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40453380,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1709311768,
+    "publicationGroup": 19459449,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1709311762,
+    "rowsUpdatedBy": "n3cu-zjep",
+    "tableId": 19470180,
+    "totalTimesRated": 0,
+    "viewCount": 21,
+    "viewLastModified": 1709314568,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1709317414,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6198317,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1709314600,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1709317414,
+                "failureCount": 0,
+                "startedAt": 1709317414,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 590203247,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 1,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 151456198,
+            "format": {}
+        },
+        {
+            "id": 590203248,
+            "name": "Households Housed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "households_housed",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 151456199,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590203249,
+            "name": "Individuals Housed",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "individuals_housed",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 151456200,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590203250,
+            "name": "Intake Encounters",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "intake_encounters",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 151456201,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590203251,
+            "name": "Intake Individuals Served",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "intake_individuals_served",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 151456202,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590203252,
+            "name": "Post-Housing Service Coordination Active Clients",
+            "dataTypeName": "number",
+            "description": "Service Coordination is difficult to quantify historically. Dates prior to 2024 show 0 clients not becaue there were no clients enrolled, but because the data could not be collected.",
+            "fieldName": "post_housing_service_coordination",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 151456203,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590203253,
+            "name": "Outreach All Encounters",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "outreach_all_encounters",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 151456204,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Data Steward Email": "opendata@chattanooga.gov",
+                "Department": "Office of Homelessness and Supportive Housing",
+                "How often are data values updated?": "Monthly"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
