@@ -7,7 +7,7 @@
     "createdAt": 1659383179,
     "description": "Circulation count by library branch including digital items",
     "displayType": "table",
-    "downloadCount": 134,
+    "downloadCount": 136,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 18884379,
     "totalTimesRated": 0,
-    "viewCount": 39,
+    "viewCount": 40,
     "viewLastModified": 1708630591,
     "viewType": "tabular",
     "approvals": [

@@ -3,9 +3,11 @@
     "name": "OHSH Dashboard Data",
     "assetType": "dataset",
     "averageRating": 0,
+    "category": "Social Services",
     "createdAt": 1708371066,
+    "description": "This dataset contains sum values of the total clients or households engaged in each area of the Office of Homelessness and Supportive Housing: outreach, intake, housing navigation, and post-housing service coordination.",
     "displayType": "table",
-    "downloadCount": 0,
+    "downloadCount": 3,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -20,8 +22,8 @@
     "rowsUpdatedBy": "n3cu-zjep",
     "tableId": 19470180,
     "totalTimesRated": 0,
-    "viewCount": 21,
-    "viewLastModified": 1709314568,
+    "viewCount": 24,
+    "viewLastModified": 1709346210,
     "viewType": "tabular",
     "approvals": [
         {
@@ -201,6 +203,12 @@
             "mayBeStoriesCoOwner"
         ]
     },
+    "tags": [
+        "homeless",
+        "homelessness",
+        "housing",
+        "one chattanooga"
+    ],
     "flags": [
         "default",
         "ownerMayBeContacted",
