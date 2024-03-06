@@ -9,7 +9,7 @@
     "createdAt": 1609427780,
     "description": "COVID data for cases aged 5 to 18 years by county. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
     "displayType": "table",
-    "downloadCount": 140,
+    "downloadCount": 141,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18303469,
     "totalTimesRated": 0,
-    "viewCount": 142,
+    "viewCount": 143,
     "viewLastModified": 1708919565,
     "viewType": "tabular",
     "approvals": [

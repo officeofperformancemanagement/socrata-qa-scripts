@@ -1,0 +1,146 @@
+{
+    "id": "v5h7-bi97",
+    "name": "Home-ARP Household Types Aggregate 2023",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1709331700,
+    "description": "Aggregated 2023 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40453748,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1709331957,
+    "publicationGroup": 19470409,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1709582476,
+    "rowsUpdatedBy": "n3cu-zjep",
+    "tableId": 19470409,
+    "totalTimesRated": 0,
+    "viewCount": 11,
+    "viewLastModified": 1709582475,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1709565975,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6198740,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1709332136,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "kp5y-vgiw",
+                "displayName": "Katharine Clem"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1709565975,
+                "failureCount": 0,
+                "startedAt": 1709565975,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 590206781,
+            "name": "Household Type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "household_type",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 151667918,
+            "format": {}
+        },
+        {
+            "id": 590206782,
+            "name": "Sum",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "sum",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 151667919,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Office of Homelessness and Supportive Housing",
+                "How often are data values updated?": "Yearly"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "homeless",
+        "homelessness",
+        "american rescue plan"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

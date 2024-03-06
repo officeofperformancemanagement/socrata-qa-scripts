@@ -7,7 +7,7 @@
     "createdAt": 1659383842,
     "description": "Count of items used In-House organized by library branch",
     "displayType": "table",
-    "downloadCount": 138,
+    "downloadCount": 139,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 18884389,
     "totalTimesRated": 0,
-    "viewCount": 34,
+    "viewCount": 35,
     "viewLastModified": 1708631238,
     "viewType": "tabular",
     "approvals": [

@@ -1,0 +1,286 @@
+{
+    "id": "afmb-42h3",
+    "name": "Home-ARP IDIS Numeric Aggregates 2023",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "category": "Social Services",
+    "createdAt": 1709332510,
+    "description": "Aggregated 2023 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40453790,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1709333889,
+    "publicationGroup": 19470427,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1709582426,
+    "rowsUpdatedBy": "n3cu-zjep",
+    "tableId": 19470433,
+    "totalTimesRated": 0,
+    "viewCount": 14,
+    "viewLastModified": 1709582425,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1709565965,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6198770,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1709333903,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "kp5y-vgiw",
+                "displayName": "Katharine Clem"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1709565965,
+                "failureCount": 0,
+                "startedAt": 1709565965,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 590207113,
+            "name": "# of Bedrooms",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "of_bedrooms",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 151667994,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207114,
+            "name": "Security Deposit",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "security_deposit",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 151667995,
+            "format": {
+                "precisionStyle": "currency",
+                "decimalSeparator": ".",
+                "currencyStyle": "USD",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207115,
+            "name": "Utility Deposit",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "utility_deposit",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 151667996,
+            "format": {
+                "precisionStyle": "currency",
+                "decimalSeparator": ".",
+                "currencyStyle": "USD",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207116,
+            "name": "Prorated Rent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "prorated_rent",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 151667997,
+            "format": {
+                "precisionStyle": "currency",
+                "decimalSeparator": ".",
+                "currencyStyle": "USD",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207117,
+            "name": "Monthly TBRA Subsidy",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "monthly_tbra_subsidy",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 151667998,
+            "format": {
+                "precisionStyle": "currency",
+                "decimalSeparator": ".",
+                "currencyStyle": "USD",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207118,
+            "name": "Tenant Rent Responsibility",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "tenant_rent_responsibility",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 151667999,
+            "format": {
+                "precisionStyle": "currency",
+                "decimalSeparator": ".",
+                "currencyStyle": "USD",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207119,
+            "name": "Total Tenant Rent",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_tenant_rent",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 151668000,
+            "format": {
+                "precisionStyle": "currency",
+                "decimalSeparator": ".",
+                "currencyStyle": "USD",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207120,
+            "name": "Months Assisted",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "months_assisted",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 151668001,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207121,
+            "name": "Total TBRA Subsidy",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total_tbra_subsidy",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 151668002,
+            "format": {
+                "precisionStyle": "currency",
+                "decimalSeparator": ".",
+                "currencyStyle": "USD",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207122,
+            "name": "Household Size",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "household_size",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 151668003,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 590207123,
+            "name": "Date",
+            "dataTypeName": "calendar_date",
+            "description": "",
+            "fieldName": "date",
+            "position": 11,
+            "renderTypeName": "calendar_date",
+            "tableColumnId": 151668138,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Office of Homelessness and Supportive Housing",
+                "How often are data values updated?": "Yearly"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "homeless",
+        "homelessness",
+        "american rescue plan"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

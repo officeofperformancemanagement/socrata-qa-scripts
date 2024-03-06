@@ -3,9 +3,11 @@
     "name": "OHSH Ages 2023",
     "assetType": "dataset",
     "averageRating": 0,
+    "category": "Social Services",
     "createdAt": 1708959004,
+    "description": "The aggregated age categories of all clients served by OHSH in 2023. This information is not limited to one grant or program.",
     "displayType": "table",
-    "downloadCount": 2,
+    "downloadCount": 3,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -20,8 +22,8 @@
     "rowsUpdatedBy": "n3cu-zjep",
     "tableId": 19464699,
     "totalTimesRated": 0,
-    "viewCount": 6,
-    "viewLastModified": 1708959173,
+    "viewCount": 9,
+    "viewLastModified": 1709565111,
     "viewType": "tabular",
     "approvals": [
         {
@@ -113,7 +115,7 @@
         "custom_fields": {
             "Internal": {
                 "Department": "Office of Homelessness and Supportive Housing",
-                "How often are data values updated?": "As Needed"
+                "How often are data values updated?": "Yearly"
             }
         },
         "availableDisplayTypes": [
@@ -146,6 +148,11 @@
             "mayBeStoriesCoOwner"
         ]
     },
+    "tags": [
+        "homeless",
+        "homelessness",
+        "housing"
+    ],
     "flags": [
         "default",
         "ownerMayBeContacted",
