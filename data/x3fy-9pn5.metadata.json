@@ -7,7 +7,7 @@
     "createdAt": 1561571135,
     "description": "Data within the CItyview system used by Code Enforcement contains a table of all activities assigned to a each individual code enforcement violation.",
     "displayType": "table",
-    "downloadCount": 345,
+    "downloadCount": 346,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "mxyz-b22d",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18989873,
     "totalTimesRated": 0,
-    "viewCount": 415,
+    "viewCount": 416,
     "viewLastModified": 1708630682,
     "viewType": "tabular",
     "approvals": [
