@@ -7,7 +7,7 @@
     "createdAt": 1563375476,
     "description": "Count of views and downloads overall for the internal chattadata site.",
     "displayType": "table",
-    "downloadCount": 216,
+    "downloadCount": 218,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575349038,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16429238,
     "totalTimesRated": 0,
-    "viewCount": 165,
+    "viewCount": 166,
     "viewLastModified": 1708631244,
     "viewType": "tabular",
     "approvals": [
