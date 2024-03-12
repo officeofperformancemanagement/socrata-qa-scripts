@@ -9,7 +9,7 @@
     "createdAt": 1609360201,
     "description": "COVID data by county in TN. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\nData dictionary provided by TN Department of Health download link: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Data-Dictionary.xlsx",
     "displayType": "table",
-    "downloadCount": 171,
+    "downloadCount": 172,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17900107,
     "publicationStage": "published",
     "rowIdentifierColumnId": 526016214,
-    "rowsUpdatedAt": 1710028634,
+    "rowsUpdatedAt": 1710111722,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18064704,
     "totalTimesRated": 0,
     "viewCount": 333,
-    "viewLastModified": 1710028121,
+    "viewLastModified": 1710111110,
     "viewType": "tabular",
     "approvals": [
         {
