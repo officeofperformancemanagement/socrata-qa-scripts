@@ -7,7 +7,7 @@
     "createdAt": 1583437298,
     "description": "This is a data set used to calculate turnover metrics for the Human Resources department. This data also contains pertinent  active employee demographic data as it pulls nightly from the active employees and updates this information in the most recent report month. When the month changes, the date set creates a new row for all active employees on the first of that month and begins capturing data.",
     "displayType": "table",
-    "downloadCount": 204,
+    "downloadCount": 205,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "g2y5-spzt",
