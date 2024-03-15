@@ -1,46 +1,53 @@
 {
-    "id": "vyb8-ms2y",
-    "name": "Test -- Sales Tax -- Test",
+    "id": "5576-p28s",
+    "name": "Select General Ledger Activity",
     "assetType": "dataset",
     "averageRating": 0,
-    "createdAt": 1709171013,
+    "category": "Finance",
+    "createdAt": 1710285955,
+    "description": "General Ledger Activity by Accounting Period.  Currently only a few accounts are selected regarding sales tax, hotel/motel and STVR.",
     "displayType": "table",
-    "downloadCount": 27,
+    "downloadCount": 1,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40448736,
+    "oid": 40468564,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1709171092,
-    "publicationGroup": 19467992,
+    "publicationDate": 1710292251,
+    "publicationGroup": 19475888,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1709171086,
+    "rowsUpdatedAt": 1710292245,
     "rowsUpdatedBy": "4bwj-878f",
-    "tableId": 19467992,
+    "tableId": 19475888,
     "totalTimesRated": 0,
-    "viewCount": 14,
-    "viewLastModified": 1709171092,
+    "viewCount": 141,
+    "viewLastModified": 1710294332,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1709171092,
-            "reviewedAutomatically": true,
+            "reviewedAt": 1710362454,
+            "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6195112,
+            "submissionId": 6215226,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1709171092,
+            "submittedAt": 1710362380,
             "targetAudience": "public",
-            "workflowId": 804,
+            "workflowId": 534,
+            "reviewer": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            },
             "submissionDetails": {
-                "permissionType": "READ"
+                "permissionType": "read"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1709171092,
+                "endedAt": 1710362454,
                 "failureCount": 0,
-                "startedAt": 1709171092,
+                "startedAt": 1710362454,
                 "status": "success"
             },
             "submitter": {
@@ -55,72 +62,72 @@
     },
     "columns": [
         {
-            "id": 590088176,
+            "id": 590536572,
             "name": "Ledger Name",
             "dataTypeName": "text",
-            "description": "",
+            "description": "The name of the ledger",
             "fieldName": "ledger_name",
             "position": 1,
             "renderTypeName": "text",
-            "tableColumnId": 151637205,
+            "tableColumnId": 151764794,
             "format": {}
         },
         {
-            "id": 590088177,
+            "id": 590536573,
             "name": "Concatenated Segments",
             "dataTypeName": "text",
-            "description": "",
+            "description": "A long unique identifier for the account ",
             "fieldName": "concatenated_segments",
             "position": 2,
             "renderTypeName": "text",
-            "tableColumnId": 151637206,
+            "tableColumnId": 151764795,
             "format": {}
         },
         {
-            "id": 590088178,
+            "id": 590536574,
             "name": "Period Net Activity",
             "dataTypeName": "number",
-            "description": "",
+            "description": "The total net activity during the accounting period for the account.",
             "fieldName": "period_net_activity",
             "position": 3,
             "renderTypeName": "number",
-            "tableColumnId": 151637207,
+            "tableColumnId": 151764796,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
             }
         },
         {
-            "id": 590088179,
+            "id": 590536575,
             "name": "Accounting Period Name",
             "dataTypeName": "text",
-            "description": "",
+            "description": "The name of the accounting period as provided by Oracle",
             "fieldName": "accounting_period_name",
             "position": 4,
             "renderTypeName": "text",
-            "tableColumnId": 151637208,
+            "tableColumnId": 151764797,
             "format": {}
         },
         {
-            "id": 590088180,
+            "id": 590536576,
             "name": "Accounting Period Start Date",
             "dataTypeName": "calendar_date",
-            "description": "",
+            "description": "The first day in the accounting period",
             "fieldName": "accounting_period_start_date",
             "position": 5,
             "renderTypeName": "calendar_date",
-            "tableColumnId": 151637209,
+            "tableColumnId": 151764798,
             "format": {}
         },
         {
-            "id": 590088181,
+            "id": 590536577,
             "name": "Accounting Period End Date",
             "dataTypeName": "calendar_date",
-            "description": "",
+            "description": "The last day in the accounting period",
             "fieldName": "accounting_period_end_date",
             "position": 6,
             "renderTypeName": "calendar_date",
-            "tableColumnId": 151637210,
+            "tableColumnId": 151764799,
             "format": {}
         }
     ],
@@ -133,12 +140,18 @@
             ]
         }
     ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
     "metadata": {
         "custom_fields": {
-            "Organization": {
-                "Name": "City of Chattanooga"
+            "Internal": {
+                "Department": "Finance",
+                "How often are data values updated?": "Monthly"
             }
         },
+        "rowLabel": "Net Activity",
         "availableDisplayTypes": [
             "table",
             "fatrow",

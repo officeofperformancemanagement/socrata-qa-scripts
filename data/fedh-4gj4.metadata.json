@@ -8,7 +8,7 @@
     "createdAt": 1590077859,
     "description": "COVID-19 cases by zip code from the Hamilton County Health Department website",
     "displayType": "table",
-    "downloadCount": 244,
+    "downloadCount": 245,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,7 +24,7 @@
     "tableId": 17668952,
     "totalTimesRated": 0,
     "viewCount": 1249,
-    "viewLastModified": 1710284318,
+    "viewLastModified": 1710370054,
     "viewType": "tabular",
     "approvals": [
         {
