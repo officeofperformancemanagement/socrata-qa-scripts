@@ -5,30 +5,30 @@
     "averageRating": 0,
     "createdAt": 1695929647,
     "displayType": "table",
-    "downloadCount": 172,
+    "downloadCount": 173,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40462040,
+    "oid": 40473439,
     "provenance": "official",
     "publicationAppendEnabled": true,
-    "publicationDate": 1709828917,
+    "publicationDate": 1710446539,
     "publicationGroup": 19304553,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1710370846,
+    "rowsUpdatedAt": 1710457248,
     "rowsUpdatedBy": "nfms-ud8q",
-    "tableId": 19472981,
+    "tableId": 19478148,
     "totalTimesRated": 0,
-    "viewCount": 117,
-    "viewLastModified": 1710370835,
+    "viewCount": 121,
+    "viewLastModified": 1710457237,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1698858234,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6206690,
+            "submissionId": 6217050,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1698858198,
@@ -59,7 +59,7 @@
     },
     "columns": [
         {
-            "id": 590414035,
+            "id": 590622660,
             "name": "Timestamp",
             "dataTypeName": "calendar_date",
             "description": "",
@@ -70,7 +70,7 @@
             "format": {}
         },
         {
-            "id": 590414036,
+            "id": 590622661,
             "name": "Event Type",
             "dataTypeName": "text",
             "description": "",
@@ -81,7 +81,7 @@
             "format": {}
         },
         {
-            "id": 590414037,
+            "id": 590622662,
             "name": "The event was hosted by (select organization name)",
             "dataTypeName": "text",
             "description": "",
@@ -92,7 +92,7 @@
             "format": {}
         },
         {
-            "id": 590414038,
+            "id": 590622663,
             "name": "Zip Code (Location of Event)",
             "dataTypeName": "text",
             "description": "",
@@ -106,7 +106,7 @@
             }
         },
         {
-            "id": 590414039,
+            "id": 590622664,
             "name": "Participant Received (check all that apply)",
             "dataTypeName": "text",
             "description": "",
@@ -117,7 +117,7 @@
             "format": {}
         },
         {
-            "id": 590414040,
+            "id": 590622665,
             "name": "The participant received (COVID):",
             "dataTypeName": "text",
             "description": "",
@@ -128,7 +128,7 @@
             "format": {}
         },
         {
-            "id": 590414041,
+            "id": 590622666,
             "name": "Did the participant test positive for COVID-19?",
             "dataTypeName": "text",
             "description": "",
@@ -139,7 +139,7 @@
             "format": {}
         },
         {
-            "id": 590414042,
+            "id": 590622667,
             "name": "Does the participant have Health Insurance?",
             "dataTypeName": "text",
             "description": "",
@@ -150,7 +150,7 @@
             "format": {}
         },
         {
-            "id": 590414043,
+            "id": 590622668,
             "name": "Has the participant seen a primary care physician in the past 12 months?",
             "dataTypeName": "text",
             "description": "",
@@ -161,7 +161,7 @@
             "format": {}
         },
         {
-            "id": 590414044,
+            "id": 590622669,
             "name": "Age:",
             "dataTypeName": "text",
             "description": "",
@@ -172,7 +172,7 @@
             "format": {}
         },
         {
-            "id": 590414045,
+            "id": 590622670,
             "name": "Gender:",
             "dataTypeName": "text",
             "description": "",
@@ -183,7 +183,7 @@
             "format": {}
         },
         {
-            "id": 590414046,
+            "id": 590622671,
             "name": "Race:",
             "dataTypeName": "text",
             "description": "",
@@ -194,7 +194,7 @@
             "format": {}
         },
         {
-            "id": 590414047,
+            "id": 590622672,
             "name": "Ethnicity: Hispanic, Latino, or Latinx",
             "dataTypeName": "text",
             "description": "",
@@ -205,7 +205,7 @@
             "format": {}
         },
         {
-            "id": 590414048,
+            "id": 590622673,
             "name": "Race: If yes to Hispanic, Latino, or Latinx, please select ethnic group",
             "dataTypeName": "text",
             "description": "",
@@ -216,7 +216,7 @@
             "format": {}
         },
         {
-            "id": 590414049,
+            "id": 590622674,
             "name": "Where did the event take place?",
             "dataTypeName": "text",
             "description": "",
@@ -227,7 +227,7 @@
             "format": {}
         },
         {
-            "id": 590414050,
+            "id": 590622675,
             "name": "43 Number of pieces distributed",
             "dataTypeName": "number",
             "description": "",
@@ -238,7 +238,7 @@
             "format": {}
         },
         {
-            "id": 590414051,
+            "id": 590622676,
             "name": "This event was sponsored by the city",
             "dataTypeName": "text",
             "description": "",
@@ -249,7 +249,7 @@
             "format": {}
         },
         {
-            "id": 590414052,
+            "id": 590622677,
             "name": "The event was hosted by (select organization name)00",
             "dataTypeName": "text",
             "description": "",
@@ -260,7 +260,7 @@
             "format": {}
         },
         {
-            "id": 590414053,
+            "id": 590622678,
             "name": "Zip Code (Location of Event)00",
             "dataTypeName": "text",
             "description": "",
@@ -271,18 +271,18 @@
             "format": {}
         },
         {
-            "id": 590414054,
+            "id": 590622703,
             "name": "Approximately, how many people attended the community event?",
-            "dataTypeName": "text",
+            "dataTypeName": "number",
             "description": "",
             "fieldName": "approximately_how_many_people",
             "position": 20,
-            "renderTypeName": "text",
-            "tableColumnId": 148708485,
+            "renderTypeName": "number",
+            "tableColumnId": 151799766,
             "format": {}
         },
         {
-            "id": 590414055,
+            "id": 590622680,
             "name": "Type of Media Used",
             "dataTypeName": "text",
             "description": "",
@@ -293,7 +293,7 @@
             "format": {}
         },
         {
-            "id": 590414056,
+            "id": 590622681,
             "name": "Event Name/Location of Event",
             "dataTypeName": "text",
             "description": "",
@@ -304,7 +304,7 @@
             "format": {}
         },
         {
-            "id": 590414057,
+            "id": 590622682,
             "name": "Email Address",
             "dataTypeName": "text",
             "description": "",
@@ -315,7 +315,7 @@
             "format": {}
         },
         {
-            "id": 590414058,
+            "id": 590622683,
             "name": "Were COVID-19 tests distributed at this event?",
             "dataTypeName": "text",
             "description": "",
@@ -326,7 +326,7 @@
             "format": {}
         },
         {
-            "id": 590414059,
+            "id": 590622684,
             "name": "Number of COVID-19 Tests Distributed",
             "dataTypeName": "number",
             "description": "",
@@ -337,7 +337,7 @@
             "format": {}
         },
         {
-            "id": 590414060,
+            "id": 590622685,
             "name": "Speech and Hearing Data",
             "dataTypeName": "text",
             "description": "",
@@ -348,7 +348,7 @@
             "format": {}
         },
         {
-            "id": 590414061,
+            "id": 590622686,
             "name": "Hearing Screening Successful?",
             "dataTypeName": "text",
             "description": "",
@@ -359,7 +359,7 @@
             "format": {}
         },
         {
-            "id": 590414062,
+            "id": 590622687,
             "name": "The participant received (Flu):",
             "dataTypeName": "text",
             "description": "",
@@ -370,7 +370,7 @@
             "format": {}
         },
         {
-            "id": 590414063,
+            "id": 590622688,
             "name": "Choose one of the following:",
             "dataTypeName": "text",
             "description": "",
@@ -381,7 +381,7 @@
             "format": {}
         },
         {
-            "id": 590414064,
+            "id": 590622689,
             "name": "Where did the event take place?00",
             "dataTypeName": "text",
             "description": "",
@@ -392,7 +392,7 @@
             "format": {}
         },
         {
-            "id": 590414065,
+            "id": 590622690,
             "name": "Please select services provided to participant during this awareness session",
             "dataTypeName": "text",
             "description": "",
@@ -403,7 +403,7 @@
             "format": {}
         },
         {
-            "id": 590414066,
+            "id": 590622691,
             "name": "Zip Code (Location of Event)01",
             "dataTypeName": "text",
             "description": "",
@@ -414,7 +414,7 @@
             "format": {}
         },
         {
-            "id": 590414067,
+            "id": 590622692,
             "name": "Please list any other information regarding this awareness session",
             "dataTypeName": "text",
             "description": "",
@@ -425,7 +425,7 @@
             "format": {}
         },
         {
-            "id": 590414068,
+            "id": 590622693,
             "name": "Description of flyer information/event name",
             "dataTypeName": "text",
             "description": "",
@@ -436,7 +436,7 @@
             "format": {}
         },
         {
-            "id": 590414069,
+            "id": 590622694,
             "name": "Select all Zip Codes where these flyers were distributed",
             "dataTypeName": "text",
             "description": "",
@@ -447,7 +447,7 @@
             "format": {}
         },
         {
-            "id": 590414070,
+            "id": 590622695,
             "name": "Number of Failed Hearing Screenings",
             "dataTypeName": "number",
             "description": "",
@@ -458,7 +458,7 @@
             "format": {}
         },
         {
-            "id": 590414071,
+            "id": 590622696,
             "name": "_geometry",
             "dataTypeName": "point",
             "description": "",
@@ -469,7 +469,7 @@
             "format": {}
         },
         {
-            "id": 590414072,
+            "id": 590622697,
             "name": "Hamilton County Census Tracts - 2010",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -490,7 +490,7 @@
             "format": {}
         },
         {
-            "id": 590414073,
+            "id": 590622698,
             "name": "Council",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -511,7 +511,7 @@
             "format": {}
         },
         {
-            "id": 590414074,
+            "id": 590622699,
             "name": "Chattanooga Redistricting - New Districts",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Redistricting - New Districts' (hr78-d3nd) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -532,7 +532,7 @@
             "format": {}
         },
         {
-            "id": 590414075,
+            "id": 590622700,
             "name": "Neighborhood Associations",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Neighborhood Associations' (epkc-jqa5) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -553,7 +553,7 @@
             "format": {}
         },
         {
-            "id": 590414076,
+            "id": 590622701,
             "name": "Census Tracts",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (i3fa-25yc) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -574,7 +574,7 @@
             "format": {}
         },
         {
-            "id": 590414077,
+            "id": 590622702,
             "name": "Chattanooga Area Zip Codes",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Area Zip Codes' (3qrp-xh54) the point in column '_geometry' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
