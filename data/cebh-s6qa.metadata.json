@@ -7,7 +7,7 @@
     "createdAt": 1562876562,
     "description": "Data on means and duration of commuting. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 200,
+    "downloadCount": 201,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568836533,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16352816,
     "totalTimesRated": 0,
-    "viewCount": 137,
+    "viewCount": 138,
     "viewLastModified": 1708630318,
     "viewType": "tabular",
     "approvals": [
