@@ -7,7 +7,7 @@
     "createdAt": 1583170768,
     "description": "This data is all invoices with payments that have been processed in accounts payable. A single invoice may have separate payments under different checks, and this would show up as multiple rows in the data set. A single payment may have multiple invoices involved, and this would show up as multiple rows within the data set.",
     "displayType": "table",
-    "downloadCount": 445,
+    "downloadCount": 446,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "5h62-9b9y",
