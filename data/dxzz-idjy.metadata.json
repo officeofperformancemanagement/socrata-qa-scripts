@@ -1,56 +1,55 @@
 {
-    "id": "9e4d-87h4",
-    "name": "Fire Prevention Districts",
+    "id": "dxzz-idjy",
+    "name": "Neighborhood Association Boundaries",
     "assetType": "dataset",
     "averageRating": 0,
-    "category": "Public Safety",
-    "createdAt": 1603817655,
+    "createdAt": 1710883149,
     "displayType": "table",
-    "downloadCount": 153,
+    "downloadCount": 0,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 35611439,
+    "oid": 40487671,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1603817728,
-    "publicationGroup": 17719616,
+    "publicationDate": 1710977554,
+    "publicationGroup": 19483482,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1603817727,
-    "rowsUpdatedBy": "76k4-ifet",
-    "tableId": 17719616,
+    "rowsUpdatedAt": 1710992132,
+    "rowsUpdatedBy": "4bwj-878f",
+    "tableId": 19484746,
     "totalTimesRated": 0,
-    "viewCount": 65,
-    "viewLastModified": 1708630545,
+    "viewCount": 29,
+    "viewLastModified": 1710977554,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1603817803,
+            "reviewedAt": 1711046919,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 2847737,
+            "submissionId": 6228526,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1603817728,
+            "submittedAt": 1711046802,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
-                "id": "76k4-ifet",
-                "displayName": "Ryan Wedell"
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
             },
             "submissionDetails": {
-                "permissionType": "READ"
+                "permissionType": "read"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1603817803,
+                "endedAt": 1711046919,
                 "failureCount": 0,
-                "startedAt": 1603817803,
+                "startedAt": 1711046919,
                 "status": "success"
             },
             "submitter": {
-                "id": "76k4-ifet",
-                "displayName": "Ryan Wedell"
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
             }
         }
     ],
@@ -60,36 +59,36 @@
     },
     "columns": [
         {
-            "id": 504995449,
-            "name": "Id",
-            "dataTypeName": "number",
-            "description": "",
-            "fieldName": "id",
-            "position": 1,
-            "renderTypeName": "number",
-            "tableColumnId": 120747503,
-            "format": {}
-        },
-        {
-            "id": 504995451,
-            "name": "district",
+            "id": 591056712,
+            "name": "name",
             "dataTypeName": "text",
             "description": "",
-            "fieldName": "district",
-            "position": 2,
+            "fieldName": "name",
+            "position": 1,
             "renderTypeName": "text",
-            "tableColumnId": 120747505,
+            "tableColumnId": 151944557,
             "format": {}
         },
         {
-            "id": 504995450,
-            "name": "the_geom",
+            "id": 591056713,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 151944556,
+            "format": {}
+        },
+        {
+            "id": 591056714,
+            "name": "boundary",
             "dataTypeName": "multipolygon",
             "description": "",
-            "fieldName": "the_geom",
+            "fieldName": "boundary",
             "position": 3,
             "renderTypeName": "multipolygon",
-            "tableColumnId": 120747504,
+            "tableColumnId": 151944555,
             "format": {}
         }
     ],
@@ -105,14 +104,8 @@
     "metadata": {
         "custom_fields": {
             "Internal": {
-                "Results Area": "Safer Streets",
-                "Data Steward Email": "opendata@chattanooga.gov",
-                "Department": "Fire",
-                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "Department": "Equity and Community Engagement",
                 "How often are data values updated?": "As Needed"
-            },
-            "Public": {
-                "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
         "availableDisplayTypes": [
@@ -122,12 +115,12 @@
         ]
     },
     "owner": {
-        "id": "nfms-ud8q",
-        "displayName": "ODEXTRACT",
-        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
-        "screenName": "ODEXTRACT",
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -139,21 +132,18 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "nfms-ud8q",
-        "displayName": "ODEXTRACT",
-        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
-        "screenName": "ODEXTRACT",
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
         "type": "interactive",
         "flags": [
             "acceptedEula",
             "mayBeStoriesCoOwner"
         ]
     },
-    "tags": [
-        "fire"
-    ],
     "flags": [
         "default",
         "ownerMayBeContacted",
