@@ -7,7 +7,7 @@
     "createdAt": 1601394399,
     "description": "COVID risk level , daily new cases, daily new cases per 100k, and rank for US counties",
     "displayType": "table",
-    "downloadCount": 195,
+    "downloadCount": 196,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17608679,
     "totalTimesRated": 0,
-    "viewCount": 194,
+    "viewCount": 195,
     "viewLastModified": 1708630357,
     "viewType": "tabular",
     "approvals": [

@@ -8,7 +8,7 @@
     "createdAt": 1436536822,
     "description": "Public Works service requests from 2003 to 2016. Data includes information on service requests received by Public Works. Where the service request was initiated by 311 the service request number from 311 is also included.",
     "displayType": "table",
-    "downloadCount": 1001,
+    "downloadCount": 1003,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1543618612,
@@ -26,7 +26,7 @@
     "rowsUpdatedBy": "xh73-m9wd",
     "tableId": 3697384,
     "totalTimesRated": 0,
-    "viewCount": 10001,
+    "viewCount": 10005,
     "viewLastModified": 1543962608,
     "viewType": "tabular",
     "approvals": [

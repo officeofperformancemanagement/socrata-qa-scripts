@@ -8,7 +8,7 @@
     "createdAt": 1618426954,
     "description": "Geocoded addresses of Habitat for Humanity houses",
     "displayType": "table",
-    "downloadCount": 150,
+    "downloadCount": 151,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "4bwj-878f",
     "tableId": 18223232,
     "totalTimesRated": 0,
-    "viewCount": 86,
+    "viewCount": 87,
     "viewLastModified": 1708630702,
     "viewType": "tabular",
     "approvals": [
