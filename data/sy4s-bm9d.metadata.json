@@ -6,7 +6,7 @@
     "createdAt": 1562592340,
     "description": "Information detailing the solid waste and recycling program for the City of Chattanooga. Data is summarized by month.",
     "displayType": "table",
-    "downloadCount": 233,
+    "downloadCount": 234,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "bi87-xaci",
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16982424,
     "totalTimesRated": 0,
-    "viewCount": 240,
+    "viewCount": 241,
     "viewLastModified": 1708630524,
     "viewType": "tabular",
     "approvals": [
