@@ -8,7 +8,7 @@
     "createdAt": 1567694644,
     "description": "Building assessor data. Raw download can be found at the Hamilton County Assessor website here: http://www.hamiltontn.gov/assessor/AssessorFileDownload.aspx",
     "displayType": "table",
-    "downloadCount": 230,
+    "downloadCount": 232,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "bd52-u34m",
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

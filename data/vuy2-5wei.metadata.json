@@ -6,7 +6,7 @@
     "createdAt": 1597255476,
     "description": "Place of Worship category types from SafeGraph and Google POI data.",
     "displayType": "table",
-    "downloadCount": 149,
+    "downloadCount": 151,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "8fb4-nix5",
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

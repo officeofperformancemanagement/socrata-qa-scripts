@@ -6,7 +6,7 @@
     "createdAt": 1592834131,
     "description": "Data pulled from the US Census Bureau for response rates by City/Place for the US decennial 2020 census.",
     "displayType": "table",
-    "downloadCount": 416,
+    "downloadCount": 418,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

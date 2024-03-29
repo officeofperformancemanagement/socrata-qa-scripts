@@ -6,7 +6,7 @@
     "createdAt": 1588277041,
     "description": "Staging data for budget app",
     "displayType": "table",
-    "downloadCount": 162,
+    "downloadCount": 164,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -51,6 +51,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

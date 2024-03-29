@@ -6,7 +6,7 @@
     "category": "Public Safety",
     "createdAt": 1586759401,
     "displayType": "table",
-    "downloadCount": 302,
+    "downloadCount": 304,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -51,6 +51,16 @@
             "submitter": {
                 "id": "iiwc-mbju",
                 "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

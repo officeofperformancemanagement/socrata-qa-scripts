@@ -7,7 +7,7 @@
     "averageRating": 0,
     "createdAt": 1588959244,
     "displayType": "table",
-    "downloadCount": 203,
+    "downloadCount": 205,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "6v8k-2rhk",
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

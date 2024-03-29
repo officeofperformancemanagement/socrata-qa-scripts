@@ -7,7 +7,7 @@
     "createdAt": 1561575235,
     "description": "Data within the Cityview system used by Code Enforcement contains a table of all code violations found regardless of if they were cited or not.",
     "displayType": "table",
-    "downloadCount": 470,
+    "downloadCount": 473,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "2fvt-etki",
@@ -19,11 +19,11 @@
     "publicationDate": 1561575718,
     "publicationGroup": 15947848,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711419500,
+    "rowsUpdatedAt": 1711592296,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18886118,
     "totalTimesRated": 0,
-    "viewCount": 451,
+    "viewCount": 453,
     "viewLastModified": 1708630509,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

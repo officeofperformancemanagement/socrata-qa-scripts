@@ -7,7 +7,7 @@
     "createdAt": 1570540204,
     "description": "Data only on pedestrian incidents broken down by Race and Age with no geocoding.",
     "displayType": "table",
-    "downloadCount": 145,
+    "downloadCount": 147,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1570540288,
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

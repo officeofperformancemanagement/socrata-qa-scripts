@@ -6,7 +6,7 @@
     "createdAt": 1594304584,
     "description": "All Permits within the City of Chattanooga applied for to the Development Review and Permitting Office of Public Works.",
     "displayType": "table",
-    "downloadCount": 212,
+    "downloadCount": 214,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "3uq3-wdfx",
@@ -18,11 +18,11 @@
     "publicationDate": 1657896633,
     "publicationGroup": 15953030,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711360875,
+    "rowsUpdatedAt": 1711533575,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18990104,
     "totalTimesRated": 0,
-    "viewCount": 320,
+    "viewCount": 321,
     "viewLastModified": 1708630441,
     "viewType": "tabular",
     "approvals": [
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

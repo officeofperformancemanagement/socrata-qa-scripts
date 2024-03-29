@@ -9,7 +9,7 @@
     "createdAt": 1611858209,
     "description": "Demographic vaccination data by county and date in TN",
     "displayType": "table",
-    "downloadCount": 160,
+    "downloadCount": 162,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17975643,
     "publicationStage": "published",
     "rowIdentifierColumnId": 526024683,
-    "rowsUpdatedAt": 1711408063,
+    "rowsUpdatedAt": 1711581035,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18065485,
     "totalTimesRated": 0,
-    "viewCount": 224,
-    "viewLastModified": 1711404242,
+    "viewCount": 225,
+    "viewLastModified": 1711577048,
     "viewType": "tabular",
     "approvals": [
         {
@@ -55,6 +55,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

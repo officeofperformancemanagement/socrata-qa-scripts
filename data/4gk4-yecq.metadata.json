@@ -7,7 +7,7 @@
     "createdAt": 1628617793,
     "description": "This dataset contains high level data on the budgeted expenses for each Fiscal Year of City government.",
     "displayType": "table",
-    "downloadCount": 151,
+    "downloadCount": 153,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "aqwr-wcyh",
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

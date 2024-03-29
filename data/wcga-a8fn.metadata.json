@@ -8,7 +8,7 @@
     "createdAt": 1557496319,
     "description": "Median household income for 2017. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 172,
+    "downloadCount": 174,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571231936,
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

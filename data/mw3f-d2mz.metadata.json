@@ -7,7 +7,7 @@
     "createdAt": 1588084828,
     "description": "Roadways in Chattanooga",
     "displayType": "table",
-    "downloadCount": 267,
+    "downloadCount": 269,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 17071929,
     "totalTimesRated": 0,
-    "viewCount": 251,
+    "viewCount": 252,
     "viewLastModified": 1708630426,
     "viewType": "tabular",
     "approvals": [
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

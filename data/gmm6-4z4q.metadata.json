@@ -7,7 +7,7 @@
     "createdAt": 1646393437,
     "description": "This is a dataset that contains the current balances for property taxes and water quality fees for all parcels within the City of Chattanooga. At a high level, this data can be used to better understand where late payments are occurring, which may be an indicator of financial stress; or the data can be used to describe where revenues are coming from within the City. This does NOT contain data on PILOTs.",
     "displayType": "table",
-    "downloadCount": 171,
+    "downloadCount": 173,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "3ca9-qb46",
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

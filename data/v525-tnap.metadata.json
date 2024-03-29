@@ -7,7 +7,7 @@
     "createdAt": 1563375476,
     "description": "Count of views and downloads overall for the internal chattadata site.",
     "displayType": "table",
-    "downloadCount": 240,
+    "downloadCount": 242,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575349038,
@@ -20,11 +20,11 @@
     "publicationDate": 1563375633,
     "publicationGroup": 16230297,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711193133,
+    "rowsUpdatedAt": 1711495831,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16429238,
     "totalTimesRated": 0,
-    "viewCount": 169,
+    "viewCount": 171,
     "viewLastModified": 1708631244,
     "viewType": "tabular",
     "approvals": [
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

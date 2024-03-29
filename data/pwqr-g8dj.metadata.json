@@ -6,7 +6,7 @@
     "createdAt": 1628619423,
     "description": "This dataset contains information regarding the details of Capital Projects that feeds into the open budget application.",
     "displayType": "table",
-    "downloadCount": 148,
+    "downloadCount": 150,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "qh7g-pisr",
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

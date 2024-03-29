@@ -6,7 +6,7 @@
     "createdAt": 1579878204,
     "description": "This is testing data for the capital project explorer",
     "displayType": "table",
-    "downloadCount": 168,
+    "downloadCount": 170,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -51,6 +51,16 @@
             "submitter": {
                 "id": "nfms-ud8q",
                 "displayName": "ODEXTRACT"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

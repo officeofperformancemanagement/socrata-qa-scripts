@@ -8,7 +8,7 @@
     "createdAt": 1590077859,
     "description": "COVID-19 cases by zip code from the Hamilton County Health Department website",
     "displayType": "table",
-    "downloadCount": 259,
+    "downloadCount": 261,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,8 +23,8 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17668952,
     "totalTimesRated": 0,
-    "viewCount": 1257,
-    "viewLastModified": 1711406896,
+    "viewCount": 1259,
+    "viewLastModified": 1711579830,
     "viewType": "tabular",
     "approvals": [
         {
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

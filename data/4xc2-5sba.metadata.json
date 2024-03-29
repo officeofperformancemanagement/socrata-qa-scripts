@@ -9,7 +9,7 @@
     "createdAt": 1610485254,
     "description": "Zip Code COVID data from HCHD website.",
     "displayType": "table",
-    "downloadCount": 157,
+    "downloadCount": 159,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17935080,
     "publicationStage": "published",
     "rowIdentifierColumnId": 518938650,
-    "rowsUpdatedAt": 1711408073,
+    "rowsUpdatedAt": 1711581044,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17935080,
     "totalTimesRated": 0,
-    "viewCount": 264,
-    "viewLastModified": 1711404184,
+    "viewCount": 265,
+    "viewLastModified": 1711576988,
     "viewType": "tabular",
     "approvals": [
         {
@@ -55,6 +55,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

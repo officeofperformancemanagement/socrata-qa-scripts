@@ -7,7 +7,7 @@
     "createdAt": 1576262237,
     "description": "A simple data set of Activities.  Full data set can be viewed by selecting source data.",
     "displayType": "table",
-    "downloadCount": 263,
+    "downloadCount": 265,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "x3fy-9pn5",
@@ -19,11 +19,11 @@
     "publicationDate": 1576262423,
     "publicationGroup": 16057859,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711418703,
+    "rowsUpdatedAt": 1711591648,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18989873,
     "totalTimesRated": 0,
-    "viewCount": 165,
+    "viewCount": 166,
     "viewLastModified": 1708630316,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

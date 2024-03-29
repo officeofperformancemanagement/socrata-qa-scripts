@@ -6,7 +6,7 @@
     "createdAt": 1620995120,
     "description": "THRIVE Regional census block groups.",
     "displayType": "table",
-    "downloadCount": 153,
+    "downloadCount": 155,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -51,6 +51,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

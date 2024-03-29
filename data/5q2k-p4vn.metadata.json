@@ -8,7 +8,7 @@
     "createdAt": 1557494640,
     "description": "Median income by tract in the past 12 months. Data from ACS 2017.",
     "displayType": "table",
-    "downloadCount": 176,
+    "downloadCount": 178,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1570212856,
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

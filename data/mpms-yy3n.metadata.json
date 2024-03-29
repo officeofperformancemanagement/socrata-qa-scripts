@@ -7,7 +7,7 @@
     "createdAt": 1561576070,
     "description": "This dataset contains fire incident data from 2001 to the current date. For a more detailed view of the data containing information on all responding units check out this dataset: https://chattanooga-internal.data.socrata.com/Public-Safety/Fire-Incidents-Detailed/5dtg-25r9",
     "displayType": "table",
-    "downloadCount": 2378,
+    "downloadCount": 2384,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ndjw-zxwd",
@@ -19,11 +19,11 @@
     "publicationDate": 1646249908,
     "publicationGroup": 15947569,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711358673,
+    "rowsUpdatedAt": 1711531501,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984793,
     "totalTimesRated": 0,
-    "viewCount": 869,
+    "viewCount": 871,
     "viewLastModified": 1708631242,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

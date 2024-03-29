@@ -6,7 +6,7 @@
     "category": "Public Safety",
     "createdAt": 1561656702,
     "displayType": "table",
-    "downloadCount": 236,
+    "downloadCount": 238,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "38wp-yztm",
@@ -18,11 +18,11 @@
     "publicationDate": 1563205808,
     "publicationGroup": 15972539,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711397481,
+    "rowsUpdatedAt": 1711570299,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984786,
     "totalTimesRated": 0,
-    "viewCount": 280,
+    "viewCount": 281,
     "viewLastModified": 1708630633,
     "viewType": "tabular",
     "approvals": [
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

@@ -6,7 +6,7 @@
     "createdAt": 1620937142,
     "description": "Block group shapes and centroids for Tennessee, Alabama, Georgia, and North Carolina.",
     "displayType": "table",
-    "downloadCount": 166,
+    "downloadCount": 168,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -51,6 +51,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

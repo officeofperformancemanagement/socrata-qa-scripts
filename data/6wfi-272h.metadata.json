@@ -7,7 +7,7 @@
     "createdAt": 1562677217,
     "description": "A filtered view of fire incidents that took less than 10 minutes to respond in FY19.",
     "displayType": "table",
-    "downloadCount": 268,
+    "downloadCount": 270,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "5dtg-25r9",
@@ -19,11 +19,11 @@
     "publicationDate": 1562677398,
     "publicationGroup": 15938925,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711358972,
+    "rowsUpdatedAt": 1711531913,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19023020,
     "totalTimesRated": 0,
-    "viewCount": 198,
+    "viewCount": 199,
     "viewLastModified": 1708630703,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

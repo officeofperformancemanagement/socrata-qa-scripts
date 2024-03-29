@@ -7,7 +7,7 @@
     "createdAt": 1596115438,
     "description": "This data set contains a high level view of all CPD Internal Affairs cases from the IAPro system since January 1, 2018. Each row of data is an individual case that may have multiple allegations and multiple officers involved. The columns are high level data points on the case file.  For the public view, only Completed cases are available for viewing.",
     "displayType": "table",
-    "downloadCount": 186,
+    "downloadCount": 188,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "74bz-hnrt",
@@ -20,11 +20,11 @@
     "publicationGroup": 17369982,
     "publicationStage": "published",
     "rowClass": "",
-    "rowsUpdatedAt": 1711071967,
+    "rowsUpdatedAt": 1711504129,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17386451,
     "totalTimesRated": 0,
-    "viewCount": 294,
+    "viewCount": 295,
     "viewLastModified": 1708630723,
     "viewType": "tabular",
     "approvals": [
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

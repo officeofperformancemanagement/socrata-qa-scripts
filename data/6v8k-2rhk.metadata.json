@@ -8,7 +8,7 @@
     "createdAt": 1588944403,
     "description": "Business listings and visitor count data for businesses in the Chattanooga area. Data made available by SafeGraph https://services.arcgis.com/DO4gTjwJVIJ7O9Ca/arcgis/rest/services/POI_visits_2020_03_29/FeatureServer",
     "displayType": "table",
-    "downloadCount": 218,
+    "downloadCount": 220,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

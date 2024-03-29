@@ -6,7 +6,7 @@
     "createdAt": 1586979021,
     "description": "Average damage assessment for areas in tornado path.",
     "displayType": "table",
-    "downloadCount": 170,
+    "downloadCount": 172,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17032106,
     "totalTimesRated": 0,
-    "viewCount": 183,
+    "viewCount": 184,
     "viewLastModified": 1708630598,
     "viewType": "tabular",
     "approvals": [
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "iiwc-mbju",
                 "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

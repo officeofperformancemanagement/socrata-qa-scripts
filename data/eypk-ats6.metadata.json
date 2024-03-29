@@ -7,7 +7,7 @@
     "createdAt": 1561651039,
     "description": "Business license information from 1990 to current date.",
     "displayType": "table",
-    "downloadCount": 2603,
+    "downloadCount": 2605,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "e7fw-jj5v",
@@ -19,11 +19,11 @@
     "publicationDate": 1627488597,
     "publicationGroup": 15991326,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711399964,
+    "rowsUpdatedAt": 1711572775,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18395892,
     "totalTimesRated": 0,
-    "viewCount": 740,
+    "viewCount": 741,
     "viewLastModified": 1708630366,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

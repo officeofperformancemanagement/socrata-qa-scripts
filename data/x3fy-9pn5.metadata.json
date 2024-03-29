@@ -7,7 +7,7 @@
     "createdAt": 1561571135,
     "description": "Data within the CItyview system used by Code Enforcement contains a table of all activities assigned to a each individual code enforcement violation.",
     "displayType": "table",
-    "downloadCount": 388,
+    "downloadCount": 392,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "mxyz-b22d",
@@ -19,11 +19,11 @@
     "publicationDate": 1573056235,
     "publicationGroup": 16057859,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711418703,
+    "rowsUpdatedAt": 1711591648,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18989873,
     "totalTimesRated": 0,
-    "viewCount": 420,
+    "viewCount": 422,
     "viewLastModified": 1708630682,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

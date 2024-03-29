@@ -9,7 +9,7 @@
     "createdAt": 1650906759,
     "description": "This map shows child care agencies operating in the Greater Chattanooga area. This map focuses on the location of the agency, program  certification status for the facility, and children age acceptance.",
     "displayType": "table",
-    "downloadCount": 172,
+    "downloadCount": 174,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -55,6 +55,16 @@
             "submitter": {
                 "id": "9ry9-rb4y",
                 "displayName": "KaDeadra McNealy"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

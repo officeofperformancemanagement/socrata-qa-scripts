@@ -7,7 +7,7 @@
     "createdAt": 1615402976,
     "description": "Zip codes intersecting sewer subbasins.",
     "displayType": "table",
-    "downloadCount": 152,
+    "downloadCount": 154,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

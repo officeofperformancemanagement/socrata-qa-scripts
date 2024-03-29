@@ -7,7 +7,7 @@
     "createdAt": 1659463380,
     "description": "In-House circulation for the Public Library from year to year",
     "displayType": "table",
-    "downloadCount": 192,
+    "downloadCount": 194,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 18884519,
     "totalTimesRated": 0,
-    "viewCount": 48,
+    "viewCount": 49,
     "viewLastModified": 1708630340,
     "viewType": "tabular",
     "approvals": [
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "w5hb-qra3",
                 "displayName": "Joshua Hardin"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

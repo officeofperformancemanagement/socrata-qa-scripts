@@ -7,7 +7,7 @@
     "createdAt": 1562598940,
     "description": "Percent of households receiving food stamps or SNAP in 2017. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 204,
+    "downloadCount": 206,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562599097,
@@ -55,6 +55,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

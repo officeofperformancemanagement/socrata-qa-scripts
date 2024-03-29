@@ -9,7 +9,7 @@
     "createdAt": 1588085114,
     "description": "Data pulled from TDOTs traffic history webmap (https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354).",
     "displayType": "table",
-    "downloadCount": 792,
+    "downloadCount": 794,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -55,6 +55,16 @@
             "submitter": {
                 "id": "iiwc-mbju",
                 "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

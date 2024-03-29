@@ -7,7 +7,7 @@
     "createdAt": 1553800535,
     "description": "Chattanooga city council districts from 2019-2020",
     "displayType": "table",
-    "downloadCount": 4686,
+    "downloadCount": 4688,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1574082652,
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

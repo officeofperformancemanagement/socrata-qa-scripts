@@ -6,7 +6,7 @@
     "createdAt": 1582145398,
     "description": "Outdoor Chattanooga users grouped by zip code",
     "displayType": "table",
-    "downloadCount": 198,
+    "downloadCount": 200,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "hr34-nqkq",
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "iiwc-mbju",
                 "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

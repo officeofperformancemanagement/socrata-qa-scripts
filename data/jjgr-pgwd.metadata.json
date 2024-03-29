@@ -9,7 +9,7 @@
     "createdAt": 1614794103,
     "description": "Stops data from the CARTA GTFS file. Source file can be found on the CARTA website here https://www.gocarta.org/about/developers-center/",
     "displayType": "table",
-    "downloadCount": 208,
+    "downloadCount": 210,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

@@ -7,7 +7,7 @@
     "createdAt": 1601394399,
     "description": "COVID risk level , daily new cases, daily new cases per 100k, and rank for US counties",
     "displayType": "table",
-    "downloadCount": 198,
+    "downloadCount": 200,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

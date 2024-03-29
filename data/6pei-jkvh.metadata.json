@@ -7,7 +7,7 @@
     "createdAt": 1562677422,
     "description": "A filtered view of fire incidents that took between 7 and 20 minutes  to respond.",
     "displayType": "table",
-    "downloadCount": 197,
+    "downloadCount": 199,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "5dtg-25r9",
@@ -19,11 +19,11 @@
     "publicationDate": 1568918806,
     "publicationGroup": 15938925,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711358972,
+    "rowsUpdatedAt": 1711531913,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19023020,
     "totalTimesRated": 0,
-    "viewCount": 216,
+    "viewCount": 217,
     "viewLastModified": 1708630791,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

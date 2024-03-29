@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1695929647,
     "displayType": "table",
-    "downloadCount": 184,
+    "downloadCount": 186,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -16,12 +16,12 @@
     "publicationDate": 1710446539,
     "publicationGroup": 19304553,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711407646,
+    "rowsUpdatedAt": 1711580462,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19478148,
     "totalTimesRated": 0,
-    "viewCount": 132,
-    "viewLastModified": 1711407638,
+    "viewCount": 133,
+    "viewLastModified": 1711580450,
     "viewType": "tabular",
     "approvals": [
         {
@@ -50,6 +50,16 @@
             "submitter": {
                 "id": "w5hb-qra3",
                 "displayName": "Joshua Hardin"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

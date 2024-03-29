@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1625230096,
     "displayType": "table",
-    "downloadCount": 147,
+    "downloadCount": 149,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "bk6s-kirz",
@@ -51,6 +51,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

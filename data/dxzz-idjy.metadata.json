@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1710883149,
     "displayType": "table",
-    "downloadCount": 4,
+    "downloadCount": 6,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -16,11 +16,11 @@
     "publicationDate": 1710977554,
     "publicationGroup": 19483482,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711337732,
+    "rowsUpdatedAt": 1711510531,
     "rowsUpdatedBy": "4bwj-878f",
     "tableId": 19484746,
     "totalTimesRated": 0,
-    "viewCount": 35,
+    "viewCount": 36,
     "viewLastModified": 1710977554,
     "viewType": "tabular",
     "approvals": [
@@ -50,6 +50,16 @@
             "submitter": {
                 "id": "4bwj-878f",
                 "displayName": "Daniel John Dufour"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

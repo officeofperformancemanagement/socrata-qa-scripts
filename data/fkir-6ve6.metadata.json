@@ -9,7 +9,7 @@
     "createdAt": 1562954391,
     "description": "Data from the annual community survey conducted by the City of Chattanooga Internal Audit to evaluate citizen's satisfaction with the City.",
     "displayType": "table",
-    "downloadCount": 197,
+    "downloadCount": 199,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "p6mj-ef7e",
@@ -55,6 +55,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

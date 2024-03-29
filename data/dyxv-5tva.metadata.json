@@ -6,7 +6,7 @@
     "averageRating": 0,
     "createdAt": 1627328008,
     "displayType": "table",
-    "downloadCount": 155,
+    "downloadCount": 157,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "PUBLIC_DOMAIN",
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

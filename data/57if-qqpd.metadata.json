@@ -6,7 +6,7 @@
     "createdAt": 1563193722,
     "description": "311 SRs for Sidewalks only",
     "displayType": "table",
-    "downloadCount": 216,
+    "downloadCount": 218,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "k7eh-65x3",
@@ -18,11 +18,11 @@
     "publicationDate": 1563193819,
     "publicationGroup": 15950137,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711372209,
+    "rowsUpdatedAt": 1711544783,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19190800,
     "totalTimesRated": 0,
-    "viewCount": 223,
+    "viewCount": 225,
     "viewLastModified": 1708630363,
     "viewType": "tabular",
     "approvals": [
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

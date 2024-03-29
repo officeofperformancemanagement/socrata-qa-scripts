@@ -6,7 +6,7 @@
     "category": "Public Safety",
     "createdAt": 1695236354,
     "displayType": "table",
-    "downloadCount": 160,
+    "downloadCount": 162,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "nvdi-c4tt",
@@ -21,11 +21,11 @@
     "queryString": "SELECT\n  `incident_number`,\n  `incident_date`,\n  `time_num`,\n  `street`,\n  `alt_street`,\n  `city`,\n  `county`,\n  `intersection`,\n  `mile_post`,\n  `accident_type`,\n  `collision_type`,\n  `hit_and_run`,\n  `involved_fatal_injury`,\n  `involved_medical_transport`,\n  `involved_placarded_truck`,\n  `posted_speed`,\n  `total_vehicles_involved`,\n  `weather_code`,\n  `pedestrian_involved`,\n  `bicycle_involved`,\n  `drug_involved`,\n  `alcohol_involved`,\n  `light_condition`,\n  `driver_one_safety_equipment`,\n  `driver_one_zip`,\n  `driver_two_safety_equipment`,\n  `driver_two_zip`,\n  `latitude`,\n  `longitude`,\n  `location_wkt`\nWHERE caseless_eq(`pedestrian_involved`, \"Yes\")",
     "rowClass": "",
     "rowIdentifierColumnId": 581324836,
-    "rowsUpdatedAt": 1711397481,
+    "rowsUpdatedAt": 1711570299,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984786,
     "totalTimesRated": 0,
-    "viewCount": 19,
+    "viewCount": 20,
     "viewLastModified": 1708631293,
     "viewType": "tabular",
     "approvals": [
@@ -55,6 +55,16 @@
             "submitter": {
                 "id": "kp5y-vgiw",
                 "displayName": "Katharine Clem"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

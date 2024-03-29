@@ -8,7 +8,7 @@
     "createdAt": 1562759950,
     "description": "Data for violent crimes per Police Incident Data taken from the records managment sysmte",
     "displayType": "table",
-    "downloadCount": 263,
+    "downloadCount": 265,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "jvkg-79ss",
@@ -20,11 +20,11 @@
     "publicationDate": 1562760267,
     "publicationGroup": 15936287,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711361012,
+    "rowsUpdatedAt": 1711533819,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984805,
     "totalTimesRated": 0,
-    "viewCount": 1334,
+    "viewCount": 1339,
     "viewLastModified": 1708630598,
     "viewType": "tabular",
     "approvals": [
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

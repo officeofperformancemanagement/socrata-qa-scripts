@@ -7,7 +7,7 @@
     "createdAt": 1650400921,
     "description": "This is the new districts for the City Council of Chattanooga.  The new proposed districts have officially been adopted by the City Council of Chattanooga.",
     "displayType": "table",
-    "downloadCount": 159,
+    "downloadCount": 161,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

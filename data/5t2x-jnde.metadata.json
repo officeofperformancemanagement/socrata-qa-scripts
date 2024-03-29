@@ -7,7 +7,7 @@
     "createdAt": 1657117202,
     "description": "City Council district and representative information from year 2022-2023",
     "displayType": "table",
-    "downloadCount": 157,
+    "downloadCount": 159,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "kp5y-vgiw",
                 "displayName": "Katharine Clem"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

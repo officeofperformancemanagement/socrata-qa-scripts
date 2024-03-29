@@ -7,7 +7,7 @@
     "createdAt": 1562168574,
     "description": "Trip data for the Bike Chattanooga system. Includes data from the start of the system to date. Data is updated about every 6 months.",
     "displayType": "table",
-    "downloadCount": 288,
+    "downloadCount": 290,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "s2f2-e5vh",
@@ -54,6 +54,16 @@
             "submitter": {
                 "id": "76k4-ifet",
                 "displayName": "Ryan Wedell"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

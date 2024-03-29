@@ -6,7 +6,7 @@
     "category": "Transportation",
     "createdAt": 1559324180,
     "displayType": "table",
-    "downloadCount": 243,
+    "downloadCount": 245,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "SEE_TERMS_OF_USE",
@@ -19,11 +19,11 @@
     "publicationDate": 1559324564,
     "publicationGroup": 16153179,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1711411536,
+    "rowsUpdatedAt": 1711595177,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16819167,
     "totalTimesRated": 0,
-    "viewCount": 219,
+    "viewCount": 220,
     "viewLastModified": 1708630703,
     "viewType": "tabular",
     "approvals": [
@@ -53,6 +53,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

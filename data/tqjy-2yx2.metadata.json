@@ -7,7 +7,7 @@
     "createdAt": 1693327946,
     "description": "Data is coming from TN 2023 County Health Rankings public datasets https://www.countyhealthrankings.org/explore-health-rankings/tennessee/data-and-resources",
     "displayType": "table",
-    "downloadCount": 182,
+    "downloadCount": 184,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -52,6 +52,16 @@
             "submitter": {
                 "id": "w5hb-qra3",
                 "displayName": "Joshua Hardin"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],

@@ -6,7 +6,7 @@
     "createdAt": 1633442300,
     "description": "This dataset contains the Census 2020 Block Populations with the Council Districts appended to them.  The Council Districts were joined to the Census blocks based on the center point of the census block polygon.",
     "displayType": "table",
-    "downloadCount": 157,
+    "downloadCount": 159,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -51,6 +51,16 @@
             "submitter": {
                 "id": "t226-dtne",
                 "displayName": "Andrew Sevigny"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
             }
         }
     ],
