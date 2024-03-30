@@ -6,7 +6,7 @@
     "createdAt": 1620995120,
     "description": "THRIVE Regional census block groups.",
     "displayType": "table",
-    "downloadCount": 155,
+    "downloadCount": 156,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 18305083,
     "totalTimesRated": 0,
-    "viewCount": 39,
+    "viewCount": 40,
     "viewLastModified": 1708631245,
     "viewType": "tabular",
     "approvals": [

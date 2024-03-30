@@ -7,7 +7,7 @@
     "createdAt": 1708371066,
     "description": "This dataset contains sum values of the total clients or households engaged in each area of the Office of Homelessness and Supportive Housing: outreach, intake, housing navigation, and post-housing service coordination.",
     "displayType": "table",
-    "downloadCount": 27,
+    "downloadCount": 28,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "n3cu-zjep",
     "tableId": 19470180,
     "totalTimesRated": 0,
-    "viewCount": 35,
+    "viewCount": 36,
     "viewLastModified": 1709346210,
     "viewType": "tabular",
     "approvals": [

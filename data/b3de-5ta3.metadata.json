@@ -7,7 +7,7 @@
     "createdAt": 1659462759,
     "description": "Items owned by the Public Library by branch including digital items",
     "displayType": "table",
-    "downloadCount": 186,
+    "downloadCount": 187,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 18884416,
     "totalTimesRated": 0,
-    "viewCount": 41,
+    "viewCount": 42,
     "viewLastModified": 1708630543,
     "viewType": "tabular",
     "approvals": [

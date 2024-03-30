@@ -7,7 +7,7 @@
     "createdAt": 1615402976,
     "description": "Zip codes intersecting sewer subbasins.",
     "displayType": "table",
-    "downloadCount": 154,
+    "downloadCount": 155,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18122603,
     "totalTimesRated": 0,
-    "viewCount": 67,
+    "viewCount": 68,
     "viewLastModified": 1708631255,
     "viewType": "tabular",
     "approvals": [
