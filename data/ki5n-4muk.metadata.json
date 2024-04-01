@@ -8,7 +8,7 @@
     "createdAt": 1573575199,
     "description": "Form 477 data for EPB showing geographic internet access area by census blocks. Data is provided by https://opendata.fcc.gov. For more information please visit the Form 477 Resources page here: https://www.fcc.gov/economics-analytics/industry-analysis-division/form-477-resources.",
     "displayType": "table",
-    "downloadCount": 157,
+    "downloadCount": 158,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1573576321,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16700822,
     "totalTimesRated": 0,
-    "viewCount": 127,
+    "viewCount": 128,
     "viewLastModified": 1708630514,
     "viewType": "tabular",
     "approvals": [

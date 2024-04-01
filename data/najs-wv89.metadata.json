@@ -7,7 +7,7 @@
     "createdAt": 1596115438,
     "description": "This data set contains a high level view of all CPD Internal Affairs cases from the IAPro system since January 1, 2018. Each row of data is an individual case that may have multiple allegations and multiple officers involved. The columns are high level data points on the case file.  For the public view, only Completed cases are available for viewing.",
     "displayType": "table",
-    "downloadCount": 190,
+    "downloadCount": 191,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "74bz-hnrt",
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17386451,
     "totalTimesRated": 0,
-    "viewCount": 296,
+    "viewCount": 297,
     "viewLastModified": 1708630723,
     "viewType": "tabular",
     "approvals": [
