@@ -8,7 +8,7 @@
     "createdAt": 1622638401,
     "description": "Health data from the CDC's 500 cities project expanded to all census tracts. For more information on this project check out the source data here:  https://chronicdata.cdc.gov/500-Cities-Places/PLACES-Census-Tract-Data-GIS-Friendly-Format-2020-/yjkw-uj5s",
     "displayType": "table",
-    "downloadCount": 176,
+    "downloadCount": 177,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18336792,
     "totalTimesRated": 0,
-    "viewCount": 136,
+    "viewCount": 137,
     "viewLastModified": 1708630339,
     "viewType": "tabular",
     "approvals": [

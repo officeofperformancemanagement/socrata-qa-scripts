@@ -7,7 +7,7 @@
     "createdAt": 1659383179,
     "description": "Circulation count by library branch including digital items",
     "displayType": "table",
-    "downloadCount": 164,
+    "downloadCount": 165,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
