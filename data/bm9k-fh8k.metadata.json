@@ -1,0 +1,456 @@
+{
+    "id": "bm9k-fh8k",
+    "name": "fresh-food",
+    "assetType": "dataset",
+    "attribution": "OpenStreetMap",
+    "attributionLink": "https://www.openstreetmap.org/",
+    "averageRating": 0,
+    "category": "Public Health",
+    "createdAt": 1712185442,
+    "description": "This is an unofficial dataset and provided for convenience.\n\nLocations of supermarkets, food banks, and other places to buy fresh food in Chattanooga.  Data is pulled from OpenStreetMap via https://github.com/officeofperformancemanagement/fresh-food.",
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "ODBL",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40510411,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1712264539,
+    "publicationGroup": 19494283,
+    "publicationStage": "published",
+    "resourceName": "fresh-food",
+    "rowsUpdatedAt": 1712264527,
+    "rowsUpdatedBy": "4bwj-878f",
+    "tableId": 19495055,
+    "totalTimesRated": 0,
+    "viewCount": 9,
+    "viewLastModified": 1712264540,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1712245097,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6249603,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1712244942,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            },
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1712245097,
+                "failureCount": 0,
+                "startedAt": 1712245097,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 591443846,
+            "name": "name",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 152125534,
+            "format": {}
+        },
+        {
+            "id": 591443847,
+            "name": "@type",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "type",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 152125535,
+            "format": {}
+        },
+        {
+            "id": 591443848,
+            "name": "@lat",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lat",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 152125536,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 591443849,
+            "name": "@lon",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "lon",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 152125537,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 591443850,
+            "name": "addr:full",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "addr_full",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 152125539,
+            "format": {}
+        },
+        {
+            "id": 591443851,
+            "name": "addr:housenumber",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "addr_housenumber",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 152125541,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 591443852,
+            "name": "addr:unit",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "addr_unit",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 152125542,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 591443853,
+            "name": "addr:street",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "addr_street",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 152125544,
+            "format": {}
+        },
+        {
+            "id": 591443854,
+            "name": "addr:city",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "addr_city",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 152125545,
+            "format": {}
+        },
+        {
+            "id": 591443855,
+            "name": "addr:postcode",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "addr_postcode",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 152125547,
+            "format": {}
+        },
+        {
+            "id": 591443856,
+            "name": "opening_hours",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "opening_hours",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 152125549,
+            "format": {}
+        },
+        {
+            "id": 591443857,
+            "name": "amenity",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "amenity",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 152125551,
+            "format": {}
+        },
+        {
+            "id": 591443858,
+            "name": "shop",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "shop",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 152125552,
+            "format": {}
+        },
+        {
+            "id": 591443859,
+            "name": "brand:wikidata",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "brand_wikidata",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 152125555,
+            "format": {}
+        },
+        {
+            "id": 591443860,
+            "name": "payment:ebt",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "payment_ebt",
+            "position": 15,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 152125557,
+            "format": {}
+        },
+        {
+            "id": 591443861,
+            "name": "payment:snap",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "payment_snap",
+            "position": 16,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 152125559,
+            "format": {}
+        },
+        {
+            "id": 591443862,
+            "name": "payment:wic",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "payment_wic",
+            "position": 17,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 152125561,
+            "format": {}
+        },
+        {
+            "id": 591443863,
+            "name": "point",
+            "dataTypeName": "point",
+            "description": "",
+            "fieldName": "point",
+            "position": 18,
+            "renderTypeName": "point",
+            "tableColumnId": 152129447,
+            "format": {}
+        },
+        {
+            "id": 591443864,
+            "name": "Hamilton County Census Tracts - 2010",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_c8ia_b5u2",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 152129448,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_c8ia-b5u2",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 591443865,
+            "name": "Council",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_q7y7_kk3x",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 152129449,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_q7y7-kk3x",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 591443866,
+            "name": "Chattanooga Redistricting - New Districts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Redistricting - New Districts' (hr78-d3nd) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_hr78_d3nd",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 152129450,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_hr78-d3nd",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 591443867,
+            "name": "Neighborhood Associations",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Neighborhood Associations' (epkc-jqa5) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_epkc_jqa5",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 152129451,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_epkc-jqa5",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 591443868,
+            "name": "Census Tracts",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (i3fa-25yc) the point in column 'point' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_i3fa_25yc",
+            "position": 23,
+            "renderTypeName": "number",
+            "tableColumnId": 152129452,
+            "computationStrategy": {
+                "source_columns": [
+                    "point"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_i3fa-25yc",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Open Data Commons Open Database License",
+        "termsLink": "http://opendatacommons.org/licenses/odbl/1.0/"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Other",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "rowLabel": "place",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "4bwj-878f",
+        "displayName": "Daniel John Dufour",
+        "profileImageUrlLarge": "/api/users/4bwj-878f/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/4bwj-878f/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/4bwj-878f/profile_images/TINY",
+        "screenName": "Daniel John Dufour",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
