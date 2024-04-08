@@ -9,7 +9,7 @@
     "createdAt": 1609432834,
     "description": "Case counts by county by specimen collection date and MMWR week. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\nData dictionary provided by TN Department of Health download link: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Data-Dictionary.xlsx",
     "displayType": "table",
-    "downloadCount": 205,
+    "downloadCount": 206,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17902304,
     "publicationStage": "published",
     "rowIdentifierColumnId": 540325191,
-    "rowsUpdatedAt": 1712358194,
+    "rowsUpdatedAt": 1712444541,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18303464,
     "totalTimesRated": 0,
     "viewCount": 263,
-    "viewLastModified": 1712357767,
+    "viewLastModified": 1712444031,
     "viewType": "tabular",
     "approvals": [
         {
