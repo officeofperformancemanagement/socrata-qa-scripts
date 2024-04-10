@@ -7,7 +7,7 @@
     "createdAt": 1659463380,
     "description": "In-House circulation for the Public Library from year to year",
     "displayType": "table",
-    "downloadCount": 206,
+    "downloadCount": 207,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 18884519,
     "totalTimesRated": 0,
-    "viewCount": 50,
+    "viewCount": 51,
     "viewLastModified": 1708630340,
     "viewType": "tabular",
     "approvals": [
