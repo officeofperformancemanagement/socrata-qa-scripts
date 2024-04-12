@@ -1,0 +1,279 @@
+{
+    "id": "2jvg-m7gv",
+    "name": "9htj-c2dm",
+    "assetType": "dataset",
+    "attribution": "Public Works",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1523514001,
+    "description": "Impervious area within the City of Chattanooga. The data is buffered 1/4 past the existing city boundary so parcels not within the city boundary may also be included in this dataset.",
+    "displayType": "table",
+    "downloadCount": 4,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1523514257,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 28467163,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1523514255,
+    "publicationGroup": 15036317,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1523514254,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 15036317,
+    "totalTimesRated": 0,
+    "viewCount": 11,
+    "viewLastModified": 1712778788,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1472708793,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268941,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1472708793,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 354100328,
+            "name": "Type",
+            "dataTypeName": "text",
+            "fieldName": "type",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 63580567,
+            "format": {}
+        },
+        {
+            "id": 354100329,
+            "name": "TAX_MAP_NO",
+            "dataTypeName": "text",
+            "fieldName": "tax_map_no",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 63580568,
+            "format": {}
+        },
+        {
+            "id": 354100330,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 63580569,
+            "format": {}
+        },
+        {
+            "id": 354100331,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 4,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 63580570,
+            "format": {}
+        },
+        {
+            "id": 354100332,
+            "name": "Comments",
+            "dataTypeName": "text",
+            "fieldName": "comments",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 63580571,
+            "format": {}
+        },
+        {
+            "id": 354100333,
+            "name": "Created_By",
+            "dataTypeName": "text",
+            "fieldName": "created_by",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 63580572,
+            "format": {}
+        },
+        {
+            "id": 354100334,
+            "name": "Edit_Flag",
+            "dataTypeName": "text",
+            "fieldName": "edit_flag",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 63580573,
+            "format": {}
+        },
+        {
+            "id": 354100335,
+            "name": "Edit_By",
+            "dataTypeName": "text",
+            "fieldName": "edit_by",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 63580574,
+            "format": {}
+        },
+        {
+            "id": 354100336,
+            "name": "Field_Chec",
+            "dataTypeName": "text",
+            "fieldName": "field_chec",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 63580575,
+            "format": {}
+        },
+        {
+            "id": 354100337,
+            "name": "Edit_Resol",
+            "dataTypeName": "text",
+            "fieldName": "edit_resol",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 63580576,
+            "format": {}
+        },
+        {
+            "id": 354100338,
+            "name": "Resolution",
+            "dataTypeName": "text",
+            "fieldName": "resolution",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 63580577,
+            "format": {}
+        },
+        {
+            "id": 354100339,
+            "name": "Edit_Date",
+            "dataTypeName": "text",
+            "fieldName": "edit_date",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 63580578,
+            "format": {}
+        },
+        {
+            "id": 354100340,
+            "name": "Delivery_D",
+            "dataTypeName": "text",
+            "fieldName": "delivery_d",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 63580579,
+            "format": {}
+        },
+        {
+            "id": 354100341,
+            "name": "Export_Dat",
+            "dataTypeName": "text",
+            "fieldName": "export_dat",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 63580580,
+            "format": {}
+        },
+        {
+            "id": 354100342,
+            "name": "Delivery_J",
+            "dataTypeName": "text",
+            "fieldName": "delivery_j",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 63580581,
+            "format": {}
+        },
+        {
+            "id": 354100343,
+            "name": "Orig_Parce",
+            "dataTypeName": "number",
+            "fieldName": "orig_parce",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 63580582,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmpsukzix/shapefile_temp.zip",
+                "assetId": "68352a77-ac1e-4ae1-ace3-92df25781fe8",
+                "name": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmpsukzix/shapefile_temp.zip"
+            }
+        ],
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "impervious area",
+        "gis"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

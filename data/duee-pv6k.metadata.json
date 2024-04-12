@@ -1,0 +1,218 @@
+{
+    "id": "duee-pv6k",
+    "name": "Fire Station_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1573016745,
+    "description": "",
+    "displayType": "table",
+    "downloadCount": 9,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575387063,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 32798960,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1573016748,
+    "publicationGroup": 16688372,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1629635192,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 16688372,
+    "totalTimesRated": 0,
+    "viewCount": 0,
+    "viewLastModified": 1712778788,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1573016749,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268940,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1573016749,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1573016749,
+                "failureCount": 0,
+                "startedAt": 1573016749,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xiq3-38kp",
+                "displayName": "ArcGIS Connector"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 437136388,
+            "name": "the_geom",
+            "dataTypeName": "point",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "point",
+            "tableColumnId": 90373320,
+            "format": {}
+        },
+        {
+            "id": 437136389,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 90373321,
+            "format": {}
+        },
+        {
+            "id": 437136390,
+            "name": "FIRETYPE",
+            "dataTypeName": "text",
+            "fieldName": "firetype",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 90373322,
+            "format": {}
+        },
+        {
+            "id": 437136391,
+            "name": "STATION_ID",
+            "dataTypeName": "number",
+            "fieldName": "station_id",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 90373323,
+            "format": {}
+        },
+        {
+            "id": 437136392,
+            "name": "ADDRESS",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 90373324,
+            "format": {}
+        },
+        {
+            "id": 437136393,
+            "name": "CITY",
+            "dataTypeName": "text",
+            "fieldName": "city",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 90373325,
+            "format": {}
+        },
+        {
+            "id": 437136394,
+            "name": "STATE",
+            "dataTypeName": "text",
+            "fieldName": "state",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 90373326,
+            "format": {}
+        },
+        {
+            "id": 437136395,
+            "name": "ZIP_CODE",
+            "dataTypeName": "number",
+            "fieldName": "zip_code",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 90373327,
+            "format": {}
+        },
+        {
+            "id": 437136396,
+            "name": "PHONE_NO",
+            "dataTypeName": "text",
+            "fieldName": "phone_no",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 90373328,
+            "format": {}
+        },
+        {
+            "id": 437136397,
+            "name": "TAXMAPNO",
+            "dataTypeName": "text",
+            "fieldName": "taxmapno",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 90373329,
+            "format": {}
+        },
+        {
+            "id": 437136398,
+            "name": "TYPE",
+            "dataTypeName": "text",
+            "fieldName": "type",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 90373330,
+            "format": {}
+        },
+        {
+            "id": 437136399,
+            "name": "NAME",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 90373331,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xiq3-38kp",
+        "displayName": "ArcGIS Connector",
+        "screenName": "ArcGIS Connector",
+        "type": "interactive"
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xiq3-38kp",
+        "displayName": "ArcGIS Connector",
+        "screenName": "ArcGIS Connector",
+        "type": "interactive"
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

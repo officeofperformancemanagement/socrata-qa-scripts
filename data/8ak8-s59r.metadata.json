@@ -1,0 +1,269 @@
+{
+    "id": "8ak8-s59r",
+    "name": "jbhd-xs43",
+    "assetType": "dataset",
+    "attribution": "Public Works",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1523513946,
+    "description": "City limit geographic information system (GIS) file for the City of Chattanooga.",
+    "displayType": "table",
+    "downloadCount": 29,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1523513958,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 28467162,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1523513953,
+    "publicationGroup": 15036316,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1523513952,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 15036316,
+    "totalTimesRated": 0,
+    "viewCount": 1,
+    "viewLastModified": 1712778787,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1472706065,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268938,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1472706065,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 354100313,
+            "name": "ACRES",
+            "dataTypeName": "number",
+            "fieldName": "acres",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 63580552,
+            "format": {}
+        },
+        {
+            "id": 354100314,
+            "name": "NAME",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 63580553,
+            "format": {}
+        },
+        {
+            "id": 354100315,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 63580554,
+            "format": {}
+        },
+        {
+            "id": 354100316,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 4,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 63580555,
+            "format": {}
+        },
+        {
+            "id": 354100317,
+            "name": "POP1930",
+            "dataTypeName": "text",
+            "fieldName": "pop1930",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 63580556,
+            "format": {}
+        },
+        {
+            "id": 354100318,
+            "name": "POP1940",
+            "dataTypeName": "text",
+            "fieldName": "pop1940",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 63580557,
+            "format": {}
+        },
+        {
+            "id": 354100319,
+            "name": "POP1950",
+            "dataTypeName": "text",
+            "fieldName": "pop1950",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 63580558,
+            "format": {}
+        },
+        {
+            "id": 354100320,
+            "name": "POP1960",
+            "dataTypeName": "text",
+            "fieldName": "pop1960",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 63580559,
+            "format": {}
+        },
+        {
+            "id": 354100321,
+            "name": "POP1970",
+            "dataTypeName": "text",
+            "fieldName": "pop1970",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 63580560,
+            "format": {}
+        },
+        {
+            "id": 354100322,
+            "name": "POP1980",
+            "dataTypeName": "text",
+            "fieldName": "pop1980",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 63580561,
+            "format": {}
+        },
+        {
+            "id": 354100323,
+            "name": "POP1990",
+            "dataTypeName": "text",
+            "fieldName": "pop1990",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 63580562,
+            "format": {}
+        },
+        {
+            "id": 354100324,
+            "name": "EST_1998",
+            "dataTypeName": "text",
+            "fieldName": "est_1998",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 63580563,
+            "format": {}
+        },
+        {
+            "id": 354100325,
+            "name": "POP_2000",
+            "dataTypeName": "text",
+            "fieldName": "pop_2000",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 63580564,
+            "format": {}
+        },
+        {
+            "id": 354100326,
+            "name": "Shape_Leng",
+            "dataTypeName": "number",
+            "fieldName": "shape_leng",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 63580565,
+            "format": {}
+        },
+        {
+            "id": 354100327,
+            "name": "GlobalID",
+            "dataTypeName": "text",
+            "fieldName": "global_id",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 63580566,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmppr6tuc/shapefile_temp.zip",
+                "assetId": "443c48eb-d306-422d-bd1a-77c679296439",
+                "name": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmppr6tuc/shapefile_temp.zip"
+            }
+        ],
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "gis",
+        "city limits"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

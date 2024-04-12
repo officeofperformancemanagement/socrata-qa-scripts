@@ -1,0 +1,280 @@
+{
+    "id": "9baa-8sa6",
+    "name": "ParkCentroids_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1549933165,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37641356,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1631255444,
+    "publicationGroup": 15948088,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1647533948,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 18437188,
+    "totalTimesRated": 0,
+    "viewCount": 0,
+    "viewLastModified": 1712776671,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1659704738,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6265856,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1659704738,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1659704738,
+                "failureCount": 0,
+                "startedAt": 1659704738,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "ft46-kupe",
+                "displayName": "ArcGIS Connector"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 547935044,
+            "name": "AssetID",
+            "dataTypeName": "text",
+            "fieldName": "assetid",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76738508,
+            "format": {}
+        },
+        {
+            "id": 547935045,
+            "name": "LegacyID",
+            "dataTypeName": "text",
+            "fieldName": "legacyid",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76738509,
+            "format": {}
+        },
+        {
+            "id": 547935046,
+            "name": "Location",
+            "dataTypeName": "text",
+            "fieldName": "location",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76738510,
+            "format": {}
+        },
+        {
+            "id": 547935048,
+            "name": "Subtype",
+            "dataTypeName": "number",
+            "fieldName": "subtype",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 76738512,
+            "format": {}
+        },
+        {
+            "id": 547935050,
+            "name": "TotalArea",
+            "dataTypeName": "number",
+            "fieldName": "totalarea",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 76738514,
+            "format": {}
+        },
+        {
+            "id": 547935051,
+            "name": "Condition",
+            "dataTypeName": "text",
+            "fieldName": "condition",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76738515,
+            "format": {}
+        },
+        {
+            "id": 547935054,
+            "name": "Perimeter",
+            "dataTypeName": "number",
+            "fieldName": "perimeter",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 76738518,
+            "format": {}
+        },
+        {
+            "id": 547935055,
+            "name": "SodType",
+            "dataTypeName": "text",
+            "fieldName": "sodtype",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76738519,
+            "format": {}
+        },
+        {
+            "id": 547935060,
+            "name": "WarrantyDate",
+            "dataTypeName": "date",
+            "fieldName": "warrantydate",
+            "position": 15,
+            "renderTypeName": "date",
+            "tableColumnId": 139341224,
+            "format": {}
+        },
+        {
+            "id": 547935061,
+            "name": "InstallDate",
+            "dataTypeName": "date",
+            "fieldName": "installdate",
+            "position": 16,
+            "renderTypeName": "date",
+            "tableColumnId": 139341225,
+            "format": {}
+        },
+        {
+            "id": 547935062,
+            "name": "Shape.STLength()",
+            "dataTypeName": "number",
+            "fieldName": "shape_stlength",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 139341226,
+            "format": {}
+        },
+        {
+            "id": 547935063,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 18,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 139341227,
+            "format": {}
+        },
+        {
+            "id": 547935064,
+            "name": "Shape.STArea()",
+            "dataTypeName": "number",
+            "fieldName": "shape_starea",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 139341228,
+            "format": {}
+        },
+        {
+            "id": 547935065,
+            "name": "FacilityName",
+            "dataTypeName": "text",
+            "fieldName": "facilityname",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 139341229,
+            "format": {}
+        },
+        {
+            "id": 547935066,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 139341230,
+            "format": {}
+        },
+        {
+            "id": 547935067,
+            "name": "ConditionDate",
+            "dataTypeName": "date",
+            "fieldName": "conditiondate",
+            "position": 22,
+            "renderTypeName": "date",
+            "tableColumnId": 139341231,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

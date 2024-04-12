@@ -1,0 +1,297 @@
+{
+    "id": "y64g-9c8u",
+    "name": "9h8u-qx5r",
+    "assetType": "dataset",
+    "attribution": "Regional Planning Agency",
+    "averageRating": 0,
+    "category": "Government",
+    "createdAt": 1500992744,
+    "description": "Zoning information for the City of Chattanooga. A 1000 ft buffer from the city limits was used to ensure complete coverage.",
+    "displayType": "table",
+    "downloadCount": 11,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1505222149,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 26451229,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1500992774,
+    "publicationGroup": 14352174,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1500992774,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 14352174,
+    "totalTimesRated": 0,
+    "viewCount": 0,
+    "viewLastModified": 1712778789,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1472708831,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268945,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1472708831,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 312667289,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 50878172,
+            "format": {}
+        },
+        {
+            "id": 312667290,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 50878173,
+            "format": {}
+        },
+        {
+            "id": 312667291,
+            "name": "ZONE",
+            "dataTypeName": "text",
+            "fieldName": "zone",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 50878174,
+            "format": {}
+        },
+        {
+            "id": 312667292,
+            "name": "COND",
+            "dataTypeName": "text",
+            "fieldName": "cond",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 50878175,
+            "format": {}
+        },
+        {
+            "id": 312667293,
+            "name": "ORDINANCE",
+            "dataTypeName": "text",
+            "fieldName": "ordinance",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 50878176,
+            "format": {}
+        },
+        {
+            "id": 312667294,
+            "name": "CaseNumber",
+            "dataTypeName": "text",
+            "fieldName": "case_number",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 50878177,
+            "format": {}
+        },
+        {
+            "id": 312667295,
+            "name": "JURISDICTI",
+            "dataTypeName": "text",
+            "fieldName": "jurisdicti",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 50878178,
+            "format": {}
+        },
+        {
+            "id": 312667296,
+            "name": "Applicatio",
+            "dataTypeName": "text",
+            "fieldName": "applicatio",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 50878179,
+            "format": {}
+        },
+        {
+            "id": 312667297,
+            "name": "Applicat00",
+            "dataTypeName": "text",
+            "fieldName": "applicat_00",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 50878180,
+            "format": {}
+        },
+        {
+            "id": 312667298,
+            "name": "PCDate",
+            "dataTypeName": "text",
+            "fieldName": "pcdate",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 50878181,
+            "format": {}
+        },
+        {
+            "id": 312667299,
+            "name": "StaffActio",
+            "dataTypeName": "text",
+            "fieldName": "staff_actio",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 50878182,
+            "format": {}
+        },
+        {
+            "id": 312667300,
+            "name": "StaffRecom",
+            "dataTypeName": "text",
+            "fieldName": "staff_recom",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 50878183,
+            "format": {}
+        },
+        {
+            "id": 312667301,
+            "name": "PCAction",
+            "dataTypeName": "text",
+            "fieldName": "pcaction",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 50878184,
+            "format": {}
+        },
+        {
+            "id": 312667302,
+            "name": "PCRecommen",
+            "dataTypeName": "text",
+            "fieldName": "pcrecommen",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 50878185,
+            "format": {}
+        },
+        {
+            "id": 312667303,
+            "name": "GovtAction",
+            "dataTypeName": "text",
+            "fieldName": "govt_action",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 50878186,
+            "format": {}
+        },
+        {
+            "id": 312667304,
+            "name": "GovtRecomm",
+            "dataTypeName": "text",
+            "fieldName": "govt_recomm",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 50878187,
+            "format": {}
+        },
+        {
+            "id": 312667305,
+            "name": "SDE_Z_ZONI",
+            "dataTypeName": "number",
+            "fieldName": "sde_z_zoni",
+            "position": 17,
+            "renderTypeName": "number",
+            "tableColumnId": 50878188,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmpce8iwn/shapefile_temp.zip",
+                "assetId": "27356c8c-8977-471b-b2de-3a1fea16ba42",
+                "name": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmpce8iwn/shapefile_temp.zip"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Data Description": {
+                "Data Dictionary": "https://library.municode.com/tn/chattanooga/codes/code_of_ordinances?nodeId=CH38ZO_ARTIIIZOBO"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "gis",
+        "zoning"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

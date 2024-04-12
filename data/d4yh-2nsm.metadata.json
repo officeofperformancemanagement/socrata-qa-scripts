@@ -1,0 +1,1320 @@
+{
+    "id": "d4yh-2nsm",
+    "name": "Sewer Pump Stations_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1550007349,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 38267253,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1647045519,
+    "publicationGroup": 15950300,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1699960122,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 18614990,
+    "totalTimesRated": 0,
+    "viewCount": 0,
+    "viewLastModified": 1712776670,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1659711001,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6265850,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1659711001,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1659711001,
+                "failureCount": 0,
+                "startedAt": 1659711001,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "ft46-kupe",
+                "displayName": "ArcGIS Connector"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 557205900,
+            "name": "the_geom",
+            "dataTypeName": "point",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "point",
+            "tableColumnId": 76764960,
+            "format": {}
+        },
+        {
+            "id": 557205901,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 76764961,
+            "format": {}
+        },
+        {
+            "id": 557205902,
+            "name": "Facility Identifier",
+            "dataTypeName": "text",
+            "fieldName": "facilityid",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76764962,
+            "format": {}
+        },
+        {
+            "id": 557205903,
+            "name": "Install Date",
+            "dataTypeName": "date",
+            "fieldName": "installdate",
+            "position": 4,
+            "renderTypeName": "date",
+            "tableColumnId": 76764963,
+            "format": {}
+        },
+        {
+            "id": 557205904,
+            "name": "Location Description",
+            "dataTypeName": "text",
+            "fieldName": "locdesc",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76764964,
+            "format": {}
+        },
+        {
+            "id": 557205905,
+            "name": "Rotation",
+            "dataTypeName": "number",
+            "fieldName": "rotation",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 76764965,
+            "format": {}
+        },
+        {
+            "id": 557205906,
+            "name": "Operational Date",
+            "dataTypeName": "date",
+            "fieldName": "opdate",
+            "position": 7,
+            "renderTypeName": "date",
+            "tableColumnId": 76764966,
+            "format": {}
+        },
+        {
+            "id": 557205907,
+            "name": "Structure Type",
+            "dataTypeName": "text",
+            "fieldName": "structtype",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76764967,
+            "format": {}
+        },
+        {
+            "id": 557205908,
+            "name": "Active Flag",
+            "dataTypeName": "number",
+            "fieldName": "activeflag",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 76764968,
+            "format": {}
+        },
+        {
+            "id": 557205909,
+            "name": "Owned By",
+            "dataTypeName": "number",
+            "fieldName": "ownedby",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 76764969,
+            "format": {}
+        },
+        {
+            "id": 557205910,
+            "name": "Managed By",
+            "dataTypeName": "number",
+            "fieldName": "maintby",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 76764970,
+            "format": {}
+        },
+        {
+            "id": 557205911,
+            "name": "Last Update Date",
+            "dataTypeName": "date",
+            "fieldName": "lastupdate",
+            "position": 12,
+            "renderTypeName": "date",
+            "tableColumnId": 76764971,
+            "format": {}
+        },
+        {
+            "id": 557205912,
+            "name": "Last Editor",
+            "dataTypeName": "text",
+            "fieldName": "lasteditor",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76764972,
+            "format": {}
+        },
+        {
+            "id": 557205913,
+            "name": "AncillaryRole",
+            "dataTypeName": "number",
+            "fieldName": "ancillaryrole",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 76764973,
+            "format": {}
+        },
+        {
+            "id": 557205914,
+            "name": "ADMINISTRATIVEAREA",
+            "dataTypeName": "text",
+            "fieldName": "administrativearea",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 76764974,
+            "format": {}
+        },
+        {
+            "id": 557205915,
+            "name": "LEGACYID",
+            "dataTypeName": "text",
+            "fieldName": "legacyid",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 76764975,
+            "format": {}
+        },
+        {
+            "id": 557205916,
+            "name": "LIFECYCLESTATUS",
+            "dataTypeName": "text",
+            "fieldName": "lifecyclestatus",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 76764976,
+            "format": {}
+        },
+        {
+            "id": 557205917,
+            "name": "WATERTYPE",
+            "dataTypeName": "text",
+            "fieldName": "watertype",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 76764977,
+            "format": {}
+        },
+        {
+            "id": 557205918,
+            "name": "ACCESSDIAMETER",
+            "dataTypeName": "number",
+            "fieldName": "accessdiameter",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 76764978,
+            "format": {}
+        },
+        {
+            "id": 557205919,
+            "name": "OPERATIONALAREA",
+            "dataTypeName": "text",
+            "fieldName": "operationalarea",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 76764979,
+            "format": {}
+        },
+        {
+            "id": 557205920,
+            "name": "WORKORDERID",
+            "dataTypeName": "text",
+            "fieldName": "workorderid",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 76764980,
+            "format": {}
+        },
+        {
+            "id": 557205921,
+            "name": "WARRANTYDATE",
+            "dataTypeName": "date",
+            "fieldName": "warrantydate",
+            "position": 22,
+            "renderTypeName": "date",
+            "tableColumnId": 76764981,
+            "format": {}
+        },
+        {
+            "id": 557205922,
+            "name": "INSTALLCONTRACTOR",
+            "dataTypeName": "text",
+            "fieldName": "installcontractor",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 76764982,
+            "format": {}
+        },
+        {
+            "id": 557205923,
+            "name": "ELEVATION",
+            "dataTypeName": "number",
+            "fieldName": "elevation",
+            "position": 24,
+            "renderTypeName": "number",
+            "tableColumnId": 76764983,
+            "format": {}
+        },
+        {
+            "id": 557205924,
+            "name": "BELOWGRADE",
+            "dataTypeName": "number",
+            "fieldName": "belowgrade",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 76764984,
+            "format": {}
+        },
+        {
+            "id": 557205925,
+            "name": "MANUFACTURER",
+            "dataTypeName": "text",
+            "fieldName": "manufacturer",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 76764985,
+            "format": {}
+        },
+        {
+            "id": 557205926,
+            "name": "INLETDIAMETER",
+            "dataTypeName": "number",
+            "fieldName": "inletdiameter",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 76764986,
+            "format": {}
+        },
+        {
+            "id": 557205927,
+            "name": "DISCHARGEDIAMETER",
+            "dataTypeName": "number",
+            "fieldName": "dischargediameter",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 76764987,
+            "format": {}
+        },
+        {
+            "id": 557205928,
+            "name": "RATEDFLOW",
+            "dataTypeName": "number",
+            "fieldName": "ratedflow",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 76764988,
+            "format": {}
+        },
+        {
+            "id": 557205929,
+            "name": "RATEDPRESSURE",
+            "dataTypeName": "number",
+            "fieldName": "ratedpressure",
+            "position": 30,
+            "renderTypeName": "number",
+            "tableColumnId": 76764989,
+            "format": {}
+        },
+        {
+            "id": 557205930,
+            "name": "TOTALDYNAMICHEAD",
+            "dataTypeName": "number",
+            "fieldName": "totaldynamichead",
+            "position": 31,
+            "renderTypeName": "number",
+            "tableColumnId": 76764990,
+            "format": {}
+        },
+        {
+            "id": 557205931,
+            "name": "LOWSETPOINT",
+            "dataTypeName": "number",
+            "fieldName": "lowsetpoint",
+            "position": 32,
+            "renderTypeName": "number",
+            "tableColumnId": 76764991,
+            "format": {}
+        },
+        {
+            "id": 557205932,
+            "name": "HIGHSETPOINT",
+            "dataTypeName": "number",
+            "fieldName": "highsetpoint",
+            "position": 33,
+            "renderTypeName": "number",
+            "tableColumnId": 76764992,
+            "format": {}
+        },
+        {
+            "id": 557205933,
+            "name": "MODEL",
+            "dataTypeName": "text",
+            "fieldName": "model",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 76764993,
+            "format": {}
+        },
+        {
+            "id": 557205934,
+            "name": "SERIALNUMBER",
+            "dataTypeName": "text",
+            "fieldName": "serialnumber",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 76764994,
+            "format": {}
+        },
+        {
+            "id": 557205935,
+            "name": "ASBUILT_DATE",
+            "dataTypeName": "date",
+            "fieldName": "asbuilt_date",
+            "position": 36,
+            "renderTypeName": "date",
+            "tableColumnId": 76764995,
+            "format": {}
+        },
+        {
+            "id": 557205936,
+            "name": "NOTES",
+            "dataTypeName": "text",
+            "fieldName": "notes",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 76764996,
+            "format": {}
+        },
+        {
+            "id": 557205937,
+            "name": "PUMPSTATIONTYPE",
+            "dataTypeName": "text",
+            "fieldName": "pumpstationtype",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 76764997,
+            "format": {}
+        },
+        {
+            "id": 557205938,
+            "name": "PUMPSTATIONCONTRACT",
+            "dataTypeName": "text",
+            "fieldName": "pumpstationcontract",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 76764998,
+            "format": {}
+        },
+        {
+            "id": 557205939,
+            "name": "NORTHING",
+            "dataTypeName": "number",
+            "fieldName": "northing",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 76764999,
+            "format": {}
+        },
+        {
+            "id": 557205940,
+            "name": "EASTING",
+            "dataTypeName": "number",
+            "fieldName": "easting",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 76765000,
+            "format": {}
+        },
+        {
+            "id": 557205941,
+            "name": "STREETNUMBER",
+            "dataTypeName": "number",
+            "fieldName": "streetnumber",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 76765001,
+            "format": {}
+        },
+        {
+            "id": 557205942,
+            "name": "STREETNAME",
+            "dataTypeName": "text",
+            "fieldName": "streetname",
+            "position": 43,
+            "renderTypeName": "text",
+            "tableColumnId": 76765002,
+            "format": {}
+        },
+        {
+            "id": 557205943,
+            "name": "ALIAS_1",
+            "dataTypeName": "text",
+            "fieldName": "alias_1",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 76765003,
+            "format": {}
+        },
+        {
+            "id": 557205944,
+            "name": "ALIAS_2",
+            "dataTypeName": "text",
+            "fieldName": "alias_2",
+            "position": 45,
+            "renderTypeName": "text",
+            "tableColumnId": 76765004,
+            "format": {}
+        },
+        {
+            "id": 557205945,
+            "name": "BUILDINGSTRUCTURE",
+            "dataTypeName": "text",
+            "fieldName": "buildingstructure",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 76765005,
+            "format": {}
+        },
+        {
+            "id": 557205946,
+            "name": "YEARINSERVICE",
+            "dataTypeName": "number",
+            "fieldName": "yearinservice",
+            "position": 47,
+            "renderTypeName": "number",
+            "tableColumnId": 76765006,
+            "format": {}
+        },
+        {
+            "id": 557205947,
+            "name": "ACCESS",
+            "dataTypeName": "text",
+            "fieldName": "access",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 76765007,
+            "format": {}
+        },
+        {
+            "id": 557205948,
+            "name": "WASTEWATERTYPE",
+            "dataTypeName": "text",
+            "fieldName": "wastewatertype",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 76765008,
+            "format": {}
+        },
+        {
+            "id": 557205949,
+            "name": "WATERCOMPANY",
+            "dataTypeName": "text",
+            "fieldName": "watercompany",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 76765009,
+            "format": {}
+        },
+        {
+            "id": 557205950,
+            "name": "WATERLINE",
+            "dataTypeName": "text",
+            "fieldName": "waterline",
+            "position": 51,
+            "renderTypeName": "text",
+            "tableColumnId": 76765010,
+            "format": {}
+        },
+        {
+            "id": 557205951,
+            "name": "BACKFLOWPREVENTER",
+            "dataTypeName": "text",
+            "fieldName": "backflowpreventer",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 76765011,
+            "format": {}
+        },
+        {
+            "id": 557205952,
+            "name": "POWERCOMPANY",
+            "dataTypeName": "text",
+            "fieldName": "powercompany",
+            "position": 53,
+            "renderTypeName": "text",
+            "tableColumnId": 76765012,
+            "format": {}
+        },
+        {
+            "id": 557205953,
+            "name": "SURGEPROTECTOR",
+            "dataTypeName": "text",
+            "fieldName": "surgeprotector",
+            "position": 54,
+            "renderTypeName": "text",
+            "tableColumnId": 76765013,
+            "format": {}
+        },
+        {
+            "id": 557205954,
+            "name": "PHONENUMBER",
+            "dataTypeName": "text",
+            "fieldName": "phonenumber",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 76765014,
+            "format": {}
+        },
+        {
+            "id": 557205955,
+            "name": "EMERGENCYPOWER",
+            "dataTypeName": "text",
+            "fieldName": "emergencypower",
+            "position": 56,
+            "renderTypeName": "text",
+            "tableColumnId": 76765015,
+            "format": {}
+        },
+        {
+            "id": 557205956,
+            "name": "PHASEVOLTAGE",
+            "dataTypeName": "text",
+            "fieldName": "phasevoltage",
+            "position": 57,
+            "renderTypeName": "text",
+            "tableColumnId": 76765016,
+            "format": {}
+        },
+        {
+            "id": 557205957,
+            "name": "FLOWMETERTYPE",
+            "dataTypeName": "text",
+            "fieldName": "flowmetertype",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 76765017,
+            "format": {}
+        },
+        {
+            "id": 557205958,
+            "name": "FLOWMETERMANUFACTURER",
+            "dataTypeName": "text",
+            "fieldName": "flowmetermanufacturer",
+            "position": 59,
+            "renderTypeName": "text",
+            "tableColumnId": 76765018,
+            "format": {}
+        },
+        {
+            "id": 557205959,
+            "name": "PUMPSTATIONCAPACITY",
+            "dataTypeName": "number",
+            "fieldName": "pumpstationcapacity",
+            "position": 60,
+            "renderTypeName": "number",
+            "tableColumnId": 76765019,
+            "format": {}
+        },
+        {
+            "id": 557205960,
+            "name": "NUMBEROFPUMPS",
+            "dataTypeName": "number",
+            "fieldName": "numberofpumps",
+            "position": 61,
+            "renderTypeName": "number",
+            "tableColumnId": 76765020,
+            "format": {}
+        },
+        {
+            "id": 557205961,
+            "name": "PUMPBRAND",
+            "dataTypeName": "text",
+            "fieldName": "pumpbrand",
+            "position": 62,
+            "renderTypeName": "text",
+            "tableColumnId": 76765021,
+            "format": {}
+        },
+        {
+            "id": 557205962,
+            "name": "PUMPTYPE",
+            "dataTypeName": "text",
+            "fieldName": "pumptype",
+            "position": 63,
+            "renderTypeName": "text",
+            "tableColumnId": 76765022,
+            "format": {}
+        },
+        {
+            "id": 557205963,
+            "name": "PUMPCAPACITY",
+            "dataTypeName": "number",
+            "fieldName": "pumpcapacity",
+            "position": 64,
+            "renderTypeName": "number",
+            "tableColumnId": 76765023,
+            "format": {}
+        },
+        {
+            "id": 557205964,
+            "name": "WETWELLTYPE",
+            "dataTypeName": "text",
+            "fieldName": "wetwelltype",
+            "position": 65,
+            "renderTypeName": "text",
+            "tableColumnId": 76765024,
+            "format": {}
+        },
+        {
+            "id": 557205965,
+            "name": "WETWELLSIZE",
+            "dataTypeName": "text",
+            "fieldName": "wetwellsize",
+            "position": 66,
+            "renderTypeName": "text",
+            "tableColumnId": 76765025,
+            "format": {}
+        },
+        {
+            "id": 557205966,
+            "name": "WETWELLINVERTELEVATION",
+            "dataTypeName": "text",
+            "fieldName": "wetwellinvertelevation",
+            "position": 67,
+            "renderTypeName": "text",
+            "tableColumnId": 76765026,
+            "format": {}
+        },
+        {
+            "id": 557205967,
+            "name": "OVERFLOWLOCATION",
+            "dataTypeName": "text",
+            "fieldName": "overflowlocation",
+            "position": 68,
+            "renderTypeName": "text",
+            "tableColumnId": 76765027,
+            "format": {}
+        },
+        {
+            "id": 557205968,
+            "name": "RECEIVINGSTRUCTURE",
+            "dataTypeName": "text",
+            "fieldName": "receivingstructure",
+            "position": 69,
+            "renderTypeName": "text",
+            "tableColumnId": 76765028,
+            "format": {}
+        },
+        {
+            "id": 557205969,
+            "name": "FORCEMAINENDLOCATION",
+            "dataTypeName": "text",
+            "fieldName": "forcemainendlocation",
+            "position": 70,
+            "renderTypeName": "text",
+            "tableColumnId": 76765029,
+            "format": {}
+        },
+        {
+            "id": 557205970,
+            "name": "NEXTPUMPSTATIONDOWNSTREAM",
+            "dataTypeName": "text",
+            "fieldName": "nextpumpstationdownstream",
+            "position": 71,
+            "renderTypeName": "text",
+            "tableColumnId": 76765030,
+            "format": {}
+        },
+        {
+            "id": 557205971,
+            "name": "NAME",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 72,
+            "renderTypeName": "text",
+            "tableColumnId": 76765031,
+            "format": {}
+        },
+        {
+            "id": 557205972,
+            "name": "SUBBASIN",
+            "dataTypeName": "text",
+            "fieldName": "subbasin",
+            "position": 73,
+            "renderTypeName": "text",
+            "tableColumnId": 76765032,
+            "format": {}
+        },
+        {
+            "id": 557205973,
+            "name": "Condition",
+            "dataTypeName": "text",
+            "fieldName": "condition",
+            "position": 74,
+            "renderTypeName": "text",
+            "tableColumnId": 76765033,
+            "format": {}
+        },
+        {
+            "id": 557205974,
+            "name": "ConditionDate",
+            "dataTypeName": "date",
+            "fieldName": "conditiondate",
+            "position": 75,
+            "renderTypeName": "date",
+            "tableColumnId": 76765034,
+            "format": {}
+        },
+        {
+            "id": 557205975,
+            "name": "PhotoHotlink1",
+            "dataTypeName": "text",
+            "fieldName": "photohotlink1",
+            "position": 76,
+            "renderTypeName": "text",
+            "tableColumnId": 76765035,
+            "format": {}
+        },
+        {
+            "id": 557205976,
+            "name": "PhotoHotlink2",
+            "dataTypeName": "text",
+            "fieldName": "photohotlink2",
+            "position": 77,
+            "renderTypeName": "text",
+            "tableColumnId": 76765036,
+            "format": {}
+        },
+        {
+            "id": 557205977,
+            "name": "PhotoHotlink3",
+            "dataTypeName": "text",
+            "fieldName": "photohotlink3",
+            "position": 78,
+            "renderTypeName": "text",
+            "tableColumnId": 76765037,
+            "format": {}
+        },
+        {
+            "id": 557205978,
+            "name": "PhotoHotlink4",
+            "dataTypeName": "text",
+            "fieldName": "photohotlink4",
+            "position": 79,
+            "renderTypeName": "text",
+            "tableColumnId": 76765038,
+            "format": {}
+        },
+        {
+            "id": 557205979,
+            "name": "PhotoHotlink5",
+            "dataTypeName": "text",
+            "fieldName": "photohotlink5",
+            "position": 80,
+            "renderTypeName": "text",
+            "tableColumnId": 76765039,
+            "format": {}
+        },
+        {
+            "id": 557205980,
+            "name": "OperationalDate",
+            "dataTypeName": "date",
+            "fieldName": "operationaldate",
+            "position": 81,
+            "renderTypeName": "date",
+            "tableColumnId": 76765040,
+            "format": {}
+        },
+        {
+            "id": 557205981,
+            "name": "DataSource",
+            "dataTypeName": "text",
+            "fieldName": "datasource",
+            "position": 82,
+            "renderTypeName": "text",
+            "tableColumnId": 76765041,
+            "format": {}
+        },
+        {
+            "id": 557205982,
+            "name": "Capacity",
+            "dataTypeName": "number",
+            "fieldName": "capacity",
+            "position": 83,
+            "renderTypeName": "number",
+            "tableColumnId": 76765042,
+            "format": {}
+        },
+        {
+            "id": 557205983,
+            "name": "ElevationAtBottom",
+            "dataTypeName": "number",
+            "fieldName": "elevationatbottom",
+            "position": 84,
+            "renderTypeName": "number",
+            "tableColumnId": 76765043,
+            "format": {}
+        },
+        {
+            "id": 557205984,
+            "name": "LevelSensorType",
+            "dataTypeName": "text",
+            "fieldName": "levelsensortype",
+            "position": 85,
+            "renderTypeName": "text",
+            "tableColumnId": 76765044,
+            "format": {}
+        },
+        {
+            "id": 557205985,
+            "name": "Modem",
+            "dataTypeName": "text",
+            "fieldName": "modem",
+            "position": 86,
+            "renderTypeName": "text",
+            "tableColumnId": 76765045,
+            "format": {}
+        },
+        {
+            "id": 557205986,
+            "name": "AverageFlow",
+            "dataTypeName": "number",
+            "fieldName": "averageflow",
+            "position": 87,
+            "renderTypeName": "number",
+            "tableColumnId": 76765046,
+            "format": {}
+        },
+        {
+            "id": 557205987,
+            "name": "PeakFlow",
+            "dataTypeName": "number",
+            "fieldName": "peakflow",
+            "position": 88,
+            "renderTypeName": "number",
+            "tableColumnId": 76765047,
+            "format": {}
+        },
+        {
+            "id": 557205988,
+            "name": "WetWellCapacity",
+            "dataTypeName": "number",
+            "fieldName": "wetwellcapacity",
+            "position": 89,
+            "renderTypeName": "number",
+            "tableColumnId": 76765048,
+            "format": {}
+        },
+        {
+            "id": 557205989,
+            "name": "WetWellRimElevation",
+            "dataTypeName": "number",
+            "fieldName": "wetwellrimelevation",
+            "position": 90,
+            "renderTypeName": "number",
+            "tableColumnId": 76765049,
+            "format": {}
+        },
+        {
+            "id": 557205990,
+            "name": "WetWellBarScreen",
+            "dataTypeName": "number",
+            "fieldName": "wetwellbarscreen",
+            "position": 91,
+            "renderTypeName": "number",
+            "tableColumnId": 76765050,
+            "format": {}
+        },
+        {
+            "id": 557205991,
+            "name": "WetWellRingMaterial",
+            "dataTypeName": "text",
+            "fieldName": "wetwellringmaterial",
+            "position": 92,
+            "renderTypeName": "text",
+            "tableColumnId": 76765051,
+            "format": {}
+        },
+        {
+            "id": 557205992,
+            "name": "WetWellFrameMaterial",
+            "dataTypeName": "text",
+            "fieldName": "wetwellframematerial",
+            "position": 93,
+            "renderTypeName": "text",
+            "tableColumnId": 76765052,
+            "format": {}
+        },
+        {
+            "id": 557205993,
+            "name": "WetWellDepth",
+            "dataTypeName": "number",
+            "fieldName": "wetwelldepth",
+            "position": 94,
+            "renderTypeName": "number",
+            "tableColumnId": 76765053,
+            "format": {}
+        },
+        {
+            "id": 557205994,
+            "name": "WetWellMaterial",
+            "dataTypeName": "text",
+            "fieldName": "wetwellmaterial",
+            "position": 95,
+            "renderTypeName": "text",
+            "tableColumnId": 76765054,
+            "format": {}
+        },
+        {
+            "id": 557205995,
+            "name": "WetWellStepMaterial",
+            "dataTypeName": "text",
+            "fieldName": "wetwellstepmaterial",
+            "position": 96,
+            "renderTypeName": "text",
+            "tableColumnId": 76765055,
+            "format": {}
+        },
+        {
+            "id": 557205996,
+            "name": "WetWellAccessType",
+            "dataTypeName": "text",
+            "fieldName": "wetwellaccesstype",
+            "position": 97,
+            "renderTypeName": "text",
+            "tableColumnId": 76765056,
+            "format": {}
+        },
+        {
+            "id": 557205997,
+            "name": "WetWellAccessMaterial",
+            "dataTypeName": "text",
+            "fieldName": "wetwellaccessmaterial",
+            "position": 98,
+            "renderTypeName": "text",
+            "tableColumnId": 76765057,
+            "format": {}
+        },
+        {
+            "id": 557205998,
+            "name": "WetWellAccessDiameter",
+            "dataTypeName": "number",
+            "fieldName": "wetwellaccessdiameter",
+            "position": 99,
+            "renderTypeName": "number",
+            "tableColumnId": 76765058,
+            "format": {}
+        },
+        {
+            "id": 557205999,
+            "name": "WetWellLiner",
+            "dataTypeName": "text",
+            "fieldName": "wetwellliner",
+            "position": 100,
+            "renderTypeName": "text",
+            "tableColumnId": 76765059,
+            "format": {}
+        },
+        {
+            "id": 557206000,
+            "name": "PhotoYN",
+            "dataTypeName": "text",
+            "fieldName": "photoyn",
+            "position": 101,
+            "renderTypeName": "text",
+            "tableColumnId": 76765060,
+            "format": {}
+        },
+        {
+            "id": 557206001,
+            "name": "Canopy",
+            "dataTypeName": "text",
+            "fieldName": "canopy",
+            "position": 102,
+            "renderTypeName": "text",
+            "tableColumnId": 76765061,
+            "format": {}
+        },
+        {
+            "id": 557206002,
+            "name": "NumPipesIn",
+            "dataTypeName": "number",
+            "fieldName": "numpipesin",
+            "position": 103,
+            "renderTypeName": "number",
+            "tableColumnId": 76765062,
+            "format": {}
+        },
+        {
+            "id": 557206003,
+            "name": "NumPipesOut",
+            "dataTypeName": "number",
+            "fieldName": "numpipesout",
+            "position": 104,
+            "renderTypeName": "number",
+            "tableColumnId": 76765063,
+            "format": {}
+        },
+        {
+            "id": 557206004,
+            "name": "CollectedBy",
+            "dataTypeName": "text",
+            "fieldName": "collectedby",
+            "position": 105,
+            "renderTypeName": "text",
+            "tableColumnId": 76765064,
+            "format": {}
+        },
+        {
+            "id": 557206005,
+            "name": "DateCollected",
+            "dataTypeName": "date",
+            "fieldName": "datecollected",
+            "position": 106,
+            "renderTypeName": "date",
+            "tableColumnId": 76765065,
+            "format": {}
+        },
+        {
+            "id": 557206006,
+            "name": "TimeCollected",
+            "dataTypeName": "text",
+            "fieldName": "timecollected",
+            "position": 107,
+            "renderTypeName": "text",
+            "tableColumnId": 76765066,
+            "format": {}
+        },
+        {
+            "id": 557206008,
+            "name": "Basin",
+            "dataTypeName": "text",
+            "fieldName": "basin",
+            "position": 108,
+            "renderTypeName": "text",
+            "tableColumnId": 76765067,
+            "format": {}
+        },
+        {
+            "id": 557206009,
+            "name": "WorkArea",
+            "dataTypeName": "text",
+            "fieldName": "workarea",
+            "position": 109,
+            "renderTypeName": "text",
+            "tableColumnId": 76765068,
+            "format": {}
+        },
+        {
+            "id": 557206010,
+            "name": "Taxmap",
+            "dataTypeName": "text",
+            "fieldName": "taxmap",
+            "position": 110,
+            "renderTypeName": "text",
+            "tableColumnId": 76765069,
+            "format": {}
+        },
+        {
+            "id": 557206011,
+            "name": "GlobalID",
+            "dataTypeName": "text",
+            "fieldName": "globalid",
+            "position": 111,
+            "renderTypeName": "text",
+            "tableColumnId": 76765070,
+            "format": {}
+        },
+        {
+            "id": 557206012,
+            "name": "Enabled",
+            "dataTypeName": "number",
+            "fieldName": "enabled",
+            "position": 112,
+            "renderTypeName": "number",
+            "tableColumnId": 76765071,
+            "format": {}
+        },
+        {
+            "id": 557206013,
+            "name": "created_user",
+            "dataTypeName": "text",
+            "fieldName": "created_user",
+            "position": 113,
+            "renderTypeName": "text",
+            "tableColumnId": 76765072,
+            "format": {}
+        },
+        {
+            "id": 557206014,
+            "name": "created_date",
+            "dataTypeName": "date",
+            "fieldName": "created_date",
+            "position": 114,
+            "renderTypeName": "date",
+            "tableColumnId": 76765073,
+            "format": {}
+        },
+        {
+            "id": 557206015,
+            "name": "last_edited_user",
+            "dataTypeName": "text",
+            "fieldName": "last_edited_user",
+            "position": 115,
+            "renderTypeName": "text",
+            "tableColumnId": 76765074,
+            "format": {}
+        },
+        {
+            "id": 557206016,
+            "name": "last_edited_date",
+            "dataTypeName": "date",
+            "fieldName": "last_edited_date",
+            "position": 116,
+            "renderTypeName": "date",
+            "tableColumnId": 76765075,
+            "format": {}
+        },
+        {
+            "id": 557206017,
+            "name": "SUBTYPE",
+            "dataTypeName": "number",
+            "fieldName": "subtype",
+            "position": 117,
+            "renderTypeName": "number",
+            "tableColumnId": 76765076,
+            "format": {}
+        },
+        {
+            "id": 557206020,
+            "name": "StreetView",
+            "dataTypeName": "text",
+            "fieldName": "streetview",
+            "position": 118,
+            "renderTypeName": "text",
+            "tableColumnId": 141341693,
+            "format": {}
+        },
+        {
+            "id": 557206021,
+            "name": "Directions",
+            "dataTypeName": "text",
+            "fieldName": "directions",
+            "position": 119,
+            "renderTypeName": "text",
+            "tableColumnId": 141341694,
+            "format": {}
+        },
+        {
+            "id": 557206022,
+            "name": "DocumentLibrary",
+            "dataTypeName": "text",
+            "fieldName": "documentlibrary",
+            "position": 120,
+            "renderTypeName": "text",
+            "tableColumnId": 141341695,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

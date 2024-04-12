@@ -1,0 +1,395 @@
+{
+    "id": "pisu-n478",
+    "name": "6bdc-2tyi",
+    "assetType": "dataset",
+    "attribution": "Transportation Department",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1449208965,
+    "description": "Street centerline file for the City of Chattanooga.",
+    "displayType": "table",
+    "downloadCount": 14,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1494585996,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 15201062,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationGroup": 5846409,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1449208965,
+    "tableId": 5846409,
+    "totalTimesRated": 0,
+    "viewCount": 28,
+    "viewLastModified": 1712778787,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1455032551,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268939,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1455032551,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 232444271,
+            "name": "the_geom",
+            "dataTypeName": "multiline",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multiline",
+            "tableColumnId": 33062230,
+            "format": {}
+        },
+        {
+            "id": 232444272,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 33062231,
+            "format": {}
+        },
+        {
+            "id": 232444273,
+            "name": "BLOCKID",
+            "dataTypeName": "number",
+            "fieldName": "blockid",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 33062232,
+            "format": {}
+        },
+        {
+            "id": 232444274,
+            "name": "Datestamp",
+            "dataTypeName": "text",
+            "fieldName": "datestamp",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 33062233,
+            "format": {}
+        },
+        {
+            "id": 232444275,
+            "name": "StreetID",
+            "dataTypeName": "number",
+            "fieldName": "streetid",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 33062234,
+            "format": {}
+        },
+        {
+            "id": 232444276,
+            "name": "EnteredBy",
+            "dataTypeName": "text",
+            "fieldName": "enteredby",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 33062235,
+            "format": {}
+        },
+        {
+            "id": 232444277,
+            "name": "OddSide",
+            "dataTypeName": "text",
+            "fieldName": "oddside",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 33062236,
+            "format": {}
+        },
+        {
+            "id": 232444278,
+            "name": "LeftFrom",
+            "dataTypeName": "number",
+            "fieldName": "leftfrom",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 33062237,
+            "format": {}
+        },
+        {
+            "id": 232444279,
+            "name": "LeftTo",
+            "dataTypeName": "number",
+            "fieldName": "leftto",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 33062238,
+            "format": {}
+        },
+        {
+            "id": 232444280,
+            "name": "RightFrom",
+            "dataTypeName": "number",
+            "fieldName": "rightfrom",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 33062239,
+            "format": {}
+        },
+        {
+            "id": 232444281,
+            "name": "RightTo",
+            "dataTypeName": "number",
+            "fieldName": "rightto",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 33062240,
+            "format": {}
+        },
+        {
+            "id": 232444282,
+            "name": "Name",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 33062241,
+            "format": {}
+        },
+        {
+            "id": 232444283,
+            "name": "StreetStat",
+            "dataTypeName": "text",
+            "fieldName": "streetstat",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 33062242,
+            "format": {}
+        },
+        {
+            "id": 232444284,
+            "name": "TypePrefix",
+            "dataTypeName": "text",
+            "fieldName": "typeprefix",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 33062243,
+            "format": {}
+        },
+        {
+            "id": 232444285,
+            "name": "MinAddress",
+            "dataTypeName": "number",
+            "fieldName": "minaddress",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 33062244,
+            "format": {}
+        },
+        {
+            "id": 232444286,
+            "name": "MaxAddress",
+            "dataTypeName": "number",
+            "fieldName": "maxaddress",
+            "position": 16,
+            "renderTypeName": "number",
+            "tableColumnId": 33062245,
+            "format": {}
+        },
+        {
+            "id": 232444287,
+            "name": "DirPrefix",
+            "dataTypeName": "text",
+            "fieldName": "dirprefix",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 33062246,
+            "format": {}
+        },
+        {
+            "id": 232444288,
+            "name": "TypeSuffix",
+            "dataTypeName": "text",
+            "fieldName": "typesuffix",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 33062247,
+            "format": {}
+        },
+        {
+            "id": 232444289,
+            "name": "DirSuffix",
+            "dataTypeName": "text",
+            "fieldName": "dirsuffix",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 33062248,
+            "format": {}
+        },
+        {
+            "id": 232444290,
+            "name": "FullName",
+            "dataTypeName": "text",
+            "fieldName": "fullname",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 33062249,
+            "format": {}
+        },
+        {
+            "id": 232444291,
+            "name": "LastUser",
+            "dataTypeName": "text",
+            "fieldName": "lastuser",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 33062250,
+            "format": {}
+        },
+        {
+            "id": 232444292,
+            "name": "LastAccess",
+            "dataTypeName": "text",
+            "fieldName": "lastaccess",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 33062251,
+            "format": {}
+        },
+        {
+            "id": 232444295,
+            "name": "COMM_L",
+            "dataTypeName": "text",
+            "fieldName": "comm_l",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 33062254,
+            "format": {}
+        },
+        {
+            "id": 232444301,
+            "name": "COMM_R",
+            "dataTypeName": "text",
+            "fieldName": "comm_r",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 33062260,
+            "format": {}
+        },
+        {
+            "id": 232444302,
+            "name": "Ownership",
+            "dataTypeName": "text",
+            "fieldName": "ownership",
+            "position": 25,
+            "renderTypeName": "text",
+            "tableColumnId": 33062261,
+            "format": {}
+        },
+        {
+            "id": 232444303,
+            "name": "FunctClass",
+            "dataTypeName": "text",
+            "fieldName": "functclass",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 33062262,
+            "format": {}
+        },
+        {
+            "id": 232444304,
+            "name": "Facility_I",
+            "dataTypeName": "text",
+            "fieldName": "facility_i",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 33062263,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "blocklc.zip",
+                "assetId": "9YAlZ_hwjdpja78j42nXD7-Z-vmUnAbEajoPPER3wvs",
+                "name": "blocklc.zip"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "street",
+        "gis"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

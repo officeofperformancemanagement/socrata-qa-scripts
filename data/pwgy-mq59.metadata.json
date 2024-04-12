@@ -1,0 +1,200 @@
+{
+    "id": "pwgy-mq59",
+    "name": "Council_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1549934236,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 37060768,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1619144803,
+    "publicationGroup": 15948124,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1680698758,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 18248929,
+    "totalTimesRated": 0,
+    "viewCount": 0,
+    "viewLastModified": 1712776672,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1549934240,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6265866,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1549934240,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1549934240,
+                "failureCount": 0,
+                "startedAt": 1549934240,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 537619405,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 76738997,
+            "format": {}
+        },
+        {
+            "id": 537619406,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 76738998,
+            "format": {}
+        },
+        {
+            "id": 537619409,
+            "name": "Shape.STArea()",
+            "dataTypeName": "number",
+            "fieldName": "shape_starea",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 76739001,
+            "format": {}
+        },
+        {
+            "id": 537619410,
+            "name": "Shape.STLength()",
+            "dataTypeName": "number",
+            "fieldName": "shape_stlength",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 76739002,
+            "format": {}
+        },
+        {
+            "id": 537619438,
+            "name": "COUNCIL",
+            "dataTypeName": "text",
+            "fieldName": "council",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 136352624,
+            "format": {}
+        },
+        {
+            "id": 537619439,
+            "name": "Shape_STLe",
+            "dataTypeName": "number",
+            "fieldName": "shape_stle",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 136352625,
+            "format": {}
+        },
+        {
+            "id": 537619440,
+            "name": "Shape_STAr",
+            "dataTypeName": "number",
+            "fieldName": "shape_star",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 136352626,
+            "format": {}
+        },
+        {
+            "id": 537619441,
+            "name": "REP_COUNCI",
+            "dataTypeName": "text",
+            "fieldName": "rep_counci",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 136352627,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

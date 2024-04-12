@@ -1,0 +1,681 @@
+{
+    "id": "y6s9-mauk",
+    "name": "Sewer Control Valves_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1550007453,
+    "displayType": "table",
+    "downloadCount": 0,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575229910,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30815770,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1550007460,
+    "publicationGroup": 15950309,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1697635445,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 15950309,
+    "totalTimesRated": 0,
+    "viewCount": 0,
+    "viewLastModified": 1712776671,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1659719033,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6265854,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1659719033,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1659719033,
+                "failureCount": 0,
+                "startedAt": 1659719033,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "ft46-kupe",
+                "displayName": "ArcGIS Connector"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 395373452,
+            "name": "the_geom",
+            "dataTypeName": "point",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "point",
+            "tableColumnId": 76765161,
+            "format": {}
+        },
+        {
+            "id": 395373453,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 76765162,
+            "format": {}
+        },
+        {
+            "id": 395373454,
+            "name": "Facility ID",
+            "dataTypeName": "text",
+            "fieldName": "facilityid",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76765163,
+            "format": {}
+        },
+        {
+            "id": 395373455,
+            "name": "Install Date",
+            "dataTypeName": "date",
+            "fieldName": "installdate",
+            "position": 4,
+            "renderTypeName": "date",
+            "tableColumnId": 76765164,
+            "format": {}
+        },
+        {
+            "id": 395373456,
+            "name": "Location Description",
+            "dataTypeName": "text",
+            "fieldName": "locdesc",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76765165,
+            "format": {}
+        },
+        {
+            "id": 395373457,
+            "name": "Rotation",
+            "dataTypeName": "number",
+            "fieldName": "rotation",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 76765166,
+            "format": {}
+        },
+        {
+            "id": 395373458,
+            "name": "Diameter",
+            "dataTypeName": "number",
+            "fieldName": "diameter",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 76765167,
+            "format": {}
+        },
+        {
+            "id": 395373459,
+            "name": "Valve Type",
+            "dataTypeName": "text",
+            "fieldName": "valvetype",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 76765168,
+            "format": {}
+        },
+        {
+            "id": 395373460,
+            "name": "Active Flag",
+            "dataTypeName": "number",
+            "fieldName": "activeflag",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 76765169,
+            "format": {}
+        },
+        {
+            "id": 395373461,
+            "name": "Owned By",
+            "dataTypeName": "number",
+            "fieldName": "ownedby",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 76765170,
+            "format": {}
+        },
+        {
+            "id": 395373462,
+            "name": "Managed By",
+            "dataTypeName": "number",
+            "fieldName": "maintby",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 76765171,
+            "format": {}
+        },
+        {
+            "id": 395373463,
+            "name": "Last Update Date",
+            "dataTypeName": "date",
+            "fieldName": "lastupdate",
+            "position": 12,
+            "renderTypeName": "date",
+            "tableColumnId": 76765172,
+            "format": {}
+        },
+        {
+            "id": 395373464,
+            "name": "Last Editor",
+            "dataTypeName": "text",
+            "fieldName": "lasteditor",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76765173,
+            "format": {}
+        },
+        {
+            "id": 395373465,
+            "name": "ANCILLARYROLE",
+            "dataTypeName": "number",
+            "fieldName": "ancillaryrole",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 76765174,
+            "format": {}
+        },
+        {
+            "id": 395373466,
+            "name": "LEGACYID",
+            "dataTypeName": "text",
+            "fieldName": "legacyid",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 76765175,
+            "format": {}
+        },
+        {
+            "id": 395373467,
+            "name": "LIFECYCLESTATUS",
+            "dataTypeName": "text",
+            "fieldName": "lifecyclestatus",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 76765176,
+            "format": {}
+        },
+        {
+            "id": 395373468,
+            "name": "GROUNDTYPE",
+            "dataTypeName": "text",
+            "fieldName": "groundtype",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 76765177,
+            "format": {}
+        },
+        {
+            "id": 395373469,
+            "name": "VENTMATERIAL",
+            "dataTypeName": "text",
+            "fieldName": "ventmaterial",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 76765178,
+            "format": {}
+        },
+        {
+            "id": 395373470,
+            "name": "NOTES",
+            "dataTypeName": "text",
+            "fieldName": "notes",
+            "position": 19,
+            "renderTypeName": "text",
+            "tableColumnId": 76765179,
+            "format": {}
+        },
+        {
+            "id": 395373471,
+            "name": "TAXMAP",
+            "dataTypeName": "text",
+            "fieldName": "taxmap",
+            "position": 20,
+            "renderTypeName": "text",
+            "tableColumnId": 76765180,
+            "format": {}
+        },
+        {
+            "id": 395373472,
+            "name": "BASIN",
+            "dataTypeName": "text",
+            "fieldName": "basin",
+            "position": 21,
+            "renderTypeName": "text",
+            "tableColumnId": 76765181,
+            "format": {}
+        },
+        {
+            "id": 395373473,
+            "name": "AGENCY",
+            "dataTypeName": "text",
+            "fieldName": "agency",
+            "position": 22,
+            "renderTypeName": "text",
+            "tableColumnId": 76765182,
+            "format": {}
+        },
+        {
+            "id": 395373474,
+            "name": "COLLECTEDBY",
+            "dataTypeName": "text",
+            "fieldName": "collectedby",
+            "position": 23,
+            "renderTypeName": "text",
+            "tableColumnId": 76765183,
+            "format": {}
+        },
+        {
+            "id": 395373475,
+            "name": "DATECOLLECTED",
+            "dataTypeName": "date",
+            "fieldName": "datecollected",
+            "position": 24,
+            "renderTypeName": "date",
+            "tableColumnId": 76765184,
+            "format": {}
+        },
+        {
+            "id": 395373476,
+            "name": "NOPIPEINFLOW",
+            "dataTypeName": "number",
+            "fieldName": "nopipeinflow",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 76765185,
+            "format": {}
+        },
+        {
+            "id": 395373477,
+            "name": "NOPIPEOUTFLOW",
+            "dataTypeName": "number",
+            "fieldName": "nopipeoutflow",
+            "position": 26,
+            "renderTypeName": "number",
+            "tableColumnId": 76765186,
+            "format": {}
+        },
+        {
+            "id": 395373478,
+            "name": "DATASOURCE",
+            "dataTypeName": "text",
+            "fieldName": "datasource",
+            "position": 27,
+            "renderTypeName": "text",
+            "tableColumnId": 76765187,
+            "format": {}
+        },
+        {
+            "id": 395373479,
+            "name": "ACCESSDIAMETER",
+            "dataTypeName": "number",
+            "fieldName": "accessdiameter",
+            "position": 28,
+            "renderTypeName": "number",
+            "tableColumnId": 76765188,
+            "format": {}
+        },
+        {
+            "id": 395373480,
+            "name": "ACCESSTYPE",
+            "dataTypeName": "text",
+            "fieldName": "accesstype",
+            "position": 29,
+            "renderTypeName": "text",
+            "tableColumnId": 76765189,
+            "format": {}
+        },
+        {
+            "id": 395373481,
+            "name": "ACCESSMATERIAL",
+            "dataTypeName": "text",
+            "fieldName": "accessmaterial",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 76765190,
+            "format": {}
+        },
+        {
+            "id": 395373482,
+            "name": "CONEMATERIAL",
+            "dataTypeName": "text",
+            "fieldName": "conematerial",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 76765191,
+            "format": {}
+        },
+        {
+            "id": 395373483,
+            "name": "LIDTYPE",
+            "dataTypeName": "text",
+            "fieldName": "lidtype",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 76765192,
+            "format": {}
+        },
+        {
+            "id": 395373484,
+            "name": "CONETYPE",
+            "dataTypeName": "text",
+            "fieldName": "conetype",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 76765193,
+            "format": {}
+        },
+        {
+            "id": 395373485,
+            "name": "INFILTRATION",
+            "dataTypeName": "text",
+            "fieldName": "infiltration",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 76765194,
+            "format": {}
+        },
+        {
+            "id": 395373486,
+            "name": "STEPS",
+            "dataTypeName": "text",
+            "fieldName": "steps",
+            "position": 35,
+            "renderTypeName": "text",
+            "tableColumnId": 76765195,
+            "format": {}
+        },
+        {
+            "id": 395373487,
+            "name": "PAVINGRING",
+            "dataTypeName": "text",
+            "fieldName": "pavingring",
+            "position": 36,
+            "renderTypeName": "text",
+            "tableColumnId": 76765196,
+            "format": {}
+        },
+        {
+            "id": 395373488,
+            "name": "MANHOLESTATUS",
+            "dataTypeName": "text",
+            "fieldName": "manholestatus",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 76765197,
+            "format": {}
+        },
+        {
+            "id": 395373489,
+            "name": "ABOVEGRADE",
+            "dataTypeName": "text",
+            "fieldName": "abovegrade",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 76765198,
+            "format": {}
+        },
+        {
+            "id": 395373490,
+            "name": "CONEHEIGHT",
+            "dataTypeName": "number",
+            "fieldName": "coneheight",
+            "position": 39,
+            "renderTypeName": "number",
+            "tableColumnId": 76765199,
+            "format": {}
+        },
+        {
+            "id": 395373491,
+            "name": "HIGHPIPEELEVATION",
+            "dataTypeName": "number",
+            "fieldName": "highpipeelevation",
+            "position": 40,
+            "renderTypeName": "number",
+            "tableColumnId": 76765200,
+            "format": {}
+        },
+        {
+            "id": 395373492,
+            "name": "DEPTH",
+            "dataTypeName": "number",
+            "fieldName": "depth",
+            "position": 41,
+            "renderTypeName": "number",
+            "tableColumnId": 76765201,
+            "format": {}
+        },
+        {
+            "id": 395373493,
+            "name": "ELEVATION",
+            "dataTypeName": "number",
+            "fieldName": "elevation",
+            "position": 42,
+            "renderTypeName": "number",
+            "tableColumnId": 76765202,
+            "format": {}
+        },
+        {
+            "id": 395373494,
+            "name": "RIMELEVATION",
+            "dataTypeName": "number",
+            "fieldName": "rimelevation",
+            "position": 43,
+            "renderTypeName": "number",
+            "tableColumnId": 76765203,
+            "format": {}
+        },
+        {
+            "id": 395373495,
+            "name": "PhotoHotlink",
+            "dataTypeName": "text",
+            "fieldName": "photohotlink",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 76765204,
+            "format": {}
+        },
+        {
+            "id": 395373496,
+            "name": "PhotoExists",
+            "dataTypeName": "text",
+            "fieldName": "photoexists",
+            "position": 45,
+            "renderTypeName": "text",
+            "tableColumnId": 76765205,
+            "format": {}
+        },
+        {
+            "id": 395373497,
+            "name": "SubtypeText",
+            "dataTypeName": "text",
+            "fieldName": "subtypetext",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 76765206,
+            "format": {}
+        },
+        {
+            "id": 395373498,
+            "name": "SubBasin",
+            "dataTypeName": "text",
+            "fieldName": "subbasin",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 76765207,
+            "format": {}
+        },
+        {
+            "id": 395373499,
+            "name": "WATERTYPE",
+            "dataTypeName": "text",
+            "fieldName": "watertype",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 76765208,
+            "format": {}
+        },
+        {
+            "id": 395373500,
+            "name": "GlobalID",
+            "dataTypeName": "text",
+            "fieldName": "globalid",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 76765209,
+            "format": {}
+        },
+        {
+            "id": 395373501,
+            "name": "Created By",
+            "dataTypeName": "text",
+            "fieldName": "createdby",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 76765210,
+            "format": {}
+        },
+        {
+            "id": 395373502,
+            "name": "Date Created",
+            "dataTypeName": "date",
+            "fieldName": "datecreated",
+            "position": 51,
+            "renderTypeName": "date",
+            "tableColumnId": 76765211,
+            "format": {}
+        },
+        {
+            "id": 395373503,
+            "name": "Enabled",
+            "dataTypeName": "number",
+            "fieldName": "enabled",
+            "position": 52,
+            "renderTypeName": "number",
+            "tableColumnId": 76765212,
+            "format": {}
+        },
+        {
+            "id": 395373504,
+            "name": "created_user",
+            "dataTypeName": "text",
+            "fieldName": "created_user",
+            "position": 53,
+            "renderTypeName": "text",
+            "tableColumnId": 76765213,
+            "format": {}
+        },
+        {
+            "id": 395373505,
+            "name": "created_date",
+            "dataTypeName": "date",
+            "fieldName": "created_date",
+            "position": 54,
+            "renderTypeName": "date",
+            "tableColumnId": 76765214,
+            "format": {}
+        },
+        {
+            "id": 395373506,
+            "name": "last_edited_user",
+            "dataTypeName": "text",
+            "fieldName": "last_edited_user",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 76765215,
+            "format": {}
+        },
+        {
+            "id": 395373507,
+            "name": "last_edited_date",
+            "dataTypeName": "date",
+            "fieldName": "last_edited_date",
+            "position": 56,
+            "renderTypeName": "date",
+            "tableColumnId": 76765216,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

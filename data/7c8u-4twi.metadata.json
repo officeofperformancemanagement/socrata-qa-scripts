@@ -1,0 +1,288 @@
+{
+    "id": "7c8u-4twi",
+    "name": "Public School_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1494607051,
+    "description": "REQUIRED: A brief narrative summary of the data set.",
+    "displayType": "table",
+    "downloadCount": 242,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575382170,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 25979851,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1494607056,
+    "publicationGroup": 14205763,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1629745402,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 14205763,
+    "totalTimesRated": 0,
+    "viewCount": 52,
+    "viewLastModified": 1712778789,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1494607056,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268942,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1494607056,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 302198813,
+            "name": "the_geom",
+            "dataTypeName": "point",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "point",
+            "tableColumnId": 47529156,
+            "format": {}
+        },
+        {
+            "id": 302198814,
+            "name": "OBJECTID_1",
+            "dataTypeName": "number",
+            "fieldName": "objectid_1",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 47529157,
+            "format": {}
+        },
+        {
+            "id": 302198815,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 47529158,
+            "format": {}
+        },
+        {
+            "id": 302198816,
+            "name": "ADDRESS",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 47529159,
+            "format": {}
+        },
+        {
+            "id": 302198817,
+            "name": "CITY",
+            "dataTypeName": "text",
+            "fieldName": "city",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 47529160,
+            "format": {}
+        },
+        {
+            "id": 302198818,
+            "name": "STATE",
+            "dataTypeName": "text",
+            "fieldName": "state",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 47529161,
+            "format": {}
+        },
+        {
+            "id": 302198819,
+            "name": "ZIP_CODE",
+            "dataTypeName": "number",
+            "fieldName": "zip_code",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 47529162,
+            "format": {}
+        },
+        {
+            "id": 302198820,
+            "name": "TAX_MAP_NO",
+            "dataTypeName": "text",
+            "fieldName": "tax_map_no",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 47529163,
+            "format": {}
+        },
+        {
+            "id": 302198821,
+            "name": "GRADE",
+            "dataTypeName": "text",
+            "fieldName": "grade",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 47529164,
+            "format": {}
+        },
+        {
+            "id": 302198822,
+            "name": "SCHOOL_ID",
+            "dataTypeName": "number",
+            "fieldName": "school_id",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 47529165,
+            "format": {}
+        },
+        {
+            "id": 302198823,
+            "name": "FAX_",
+            "dataTypeName": "text",
+            "fieldName": "fax",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 47529166,
+            "format": {}
+        },
+        {
+            "id": 302198824,
+            "name": "PHONE_",
+            "dataTypeName": "text",
+            "fieldName": "phone",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 47529167,
+            "format": {}
+        },
+        {
+            "id": 302198825,
+            "name": "FullName",
+            "dataTypeName": "text",
+            "fieldName": "fullname",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 47529168,
+            "format": {}
+        },
+        {
+            "id": 302198826,
+            "name": "Status",
+            "dataTypeName": "text",
+            "fieldName": "status",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 47529169,
+            "format": {}
+        },
+        {
+            "id": 302198827,
+            "name": "Affiliated",
+            "dataTypeName": "text",
+            "fieldName": "affiliated",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 47529170,
+            "format": {}
+        },
+        {
+            "id": 302198828,
+            "name": "Website",
+            "dataTypeName": "text",
+            "fieldName": "website",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 47529171,
+            "format": {}
+        },
+        {
+            "id": 302198829,
+            "name": "Label1",
+            "dataTypeName": "text",
+            "fieldName": "label1",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 47529172,
+            "format": {}
+        },
+        {
+            "id": 302198830,
+            "name": "Label2",
+            "dataTypeName": "text",
+            "fieldName": "label2",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 47529173,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

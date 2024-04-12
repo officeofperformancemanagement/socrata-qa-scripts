@@ -1,0 +1,230 @@
+{
+    "id": "gp4a-imgi",
+    "name": "u977-st5r",
+    "assetType": "dataset",
+    "attribution": "Public Works",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1523514254,
+    "description": "Railroad locations within the City of Chattanooga.",
+    "displayType": "table",
+    "downloadCount": 31,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1523514263,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 28467164,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1523514262,
+    "publicationGroup": 15036318,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1523514261,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 15036318,
+    "totalTimesRated": 0,
+    "viewCount": 38,
+    "viewLastModified": 1712778789,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1472708800,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268944,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1472708800,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 354100344,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 1,
+            "renderTypeName": "number",
+            "tableColumnId": 63580583,
+            "format": {}
+        },
+        {
+            "id": 354100345,
+            "name": "LAYER",
+            "dataTypeName": "text",
+            "fieldName": "layer",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 63580584,
+            "format": {}
+        },
+        {
+            "id": 354100346,
+            "name": "the_geom",
+            "dataTypeName": "multiline",
+            "fieldName": "the_geom",
+            "position": 3,
+            "renderTypeName": "multiline",
+            "tableColumnId": 63580585,
+            "format": {}
+        },
+        {
+            "id": 354100347,
+            "name": "ENTITY",
+            "dataTypeName": "text",
+            "fieldName": "entity",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 63580586,
+            "format": {}
+        },
+        {
+            "id": 354100348,
+            "name": "LEVEL_",
+            "dataTypeName": "number",
+            "fieldName": "level",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 63580587,
+            "format": {}
+        },
+        {
+            "id": 354100349,
+            "name": "ELEVATION",
+            "dataTypeName": "number",
+            "fieldName": "elevation",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 63580588,
+            "format": {}
+        },
+        {
+            "id": 354100350,
+            "name": "COLOR",
+            "dataTypeName": "number",
+            "fieldName": "color",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 63580589,
+            "format": {}
+        },
+        {
+            "id": 354100351,
+            "name": "MSLINK_DMR",
+            "dataTypeName": "number",
+            "fieldName": "mslink_dmr",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 63580590,
+            "format": {}
+        },
+        {
+            "id": 354100352,
+            "name": "LENGTH",
+            "dataTypeName": "number",
+            "fieldName": "length",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 63580591,
+            "format": {}
+        },
+        {
+            "id": 354100353,
+            "name": "OWNER_ABB",
+            "dataTypeName": "text",
+            "fieldName": "owner_abb",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 63580592,
+            "format": {}
+        },
+        {
+            "id": 354100354,
+            "name": "OPERATE_CO",
+            "dataTypeName": "text",
+            "fieldName": "operate_co",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 63580593,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmpkbajd7/shapefile_temp.zip",
+                "assetId": "89c4f8de-78e1-4e32-b195-f3ebb742ad10",
+                "name": "c:\\users\\odextr~1\\appdata\\local\\temp\\tmpkbajd7/shapefile_temp.zip"
+            }
+        ],
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "gis",
+        "railroad",
+        "rail"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

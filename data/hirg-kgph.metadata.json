@@ -1,0 +1,142 @@
+{
+    "id": "hirg-kgph",
+    "name": "Innovation District Boundary",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1453768641,
+    "displayType": "table",
+    "downloadCount": 15,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1534341782,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 17055567,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationGroup": 7428643,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1453768643,
+    "rowsUpdatedBy": "h38d-jc6g",
+    "tableId": 7428643,
+    "totalTimesRated": 0,
+    "viewCount": 0,
+    "viewLastModified": 1712778787,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1534341704,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268937,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1534341704,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "h38d-jc6g",
+                "displayName": "Nathalie Kaligirwa"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 239559803,
+            "name": "Name",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 34035805,
+            "format": {}
+        },
+        {
+            "id": 239559804,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 34035806,
+            "format": {}
+        },
+        {
+            "id": 239559805,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 3,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 34035807,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "Innovation District Boundary.zip",
+                "assetId": "5b334b3e-ff69-4acf-b01e-75dc10d7f4ff",
+                "name": "Innovation District Boundary.zip"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": ""
+            },
+            "Data Description": {
+                "Data Dictionary": ""
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "h38d-jc6g",
+        "displayName": "Nathalie Kaligirwa",
+        "screenName": "Nathalie Kaligirwa",
+        "type": "interactive"
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "h38d-jc6g",
+        "displayName": "Nathalie Kaligirwa",
+        "screenName": "Nathalie Kaligirwa",
+        "type": "interactive"
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

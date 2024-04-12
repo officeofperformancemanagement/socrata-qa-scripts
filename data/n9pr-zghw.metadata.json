@@ -1,0 +1,781 @@
+{
+    "id": "n9pr-zghw",
+    "name": "Sewer Manholes_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1550106124,
+    "description": "Manhole features connect two or more pipes and control the flow of water in the network through pipe elevations. Manhole invert elevations are stored on the pipes, instead of the manholes themselves.",
+    "displayType": "table",
+    "downloadCount": 23,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 36885992,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1617329631,
+    "publicationGroup": 15953417,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1692209187,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 18188892,
+    "totalTimesRated": 0,
+    "viewCount": 20,
+    "viewLastModified": 1712776672,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1550106132,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6265860,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1550106132,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1550106133,
+                "failureCount": 0,
+                "startedAt": 1550106132,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 533798794,
+            "name": "the_geom",
+            "dataTypeName": "point",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "point",
+            "tableColumnId": 76811375,
+            "format": {}
+        },
+        {
+            "id": 533798795,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 76811376,
+            "format": {}
+        },
+        {
+            "id": 533798796,
+            "name": "Facility ID",
+            "dataTypeName": "text",
+            "fieldName": "facilityid",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76811377,
+            "format": {}
+        },
+        {
+            "id": 533798797,
+            "name": "Install Date",
+            "dataTypeName": "date",
+            "fieldName": "installdate",
+            "position": 4,
+            "renderTypeName": "date",
+            "tableColumnId": 76811378,
+            "format": {}
+        },
+        {
+            "id": 533798798,
+            "name": "High Pipe Elevation",
+            "dataTypeName": "number",
+            "fieldName": "highelev",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 76811379,
+            "format": {}
+        },
+        {
+            "id": 533798799,
+            "name": "Invert",
+            "dataTypeName": "number",
+            "fieldName": "invert",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 76811380,
+            "format": {}
+        },
+        {
+            "id": 533798800,
+            "name": "Invert Elevation",
+            "dataTypeName": "number",
+            "fieldName": "invertelev",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 76811381,
+            "format": {}
+        },
+        {
+            "id": 533798801,
+            "name": "Rim Elevation",
+            "dataTypeName": "number",
+            "fieldName": "rimelev",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 76811382,
+            "format": {}
+        },
+        {
+            "id": 533798802,
+            "name": "Cover Type",
+            "dataTypeName": "text",
+            "fieldName": "cvtype",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 76811383,
+            "format": {}
+        },
+        {
+            "id": 533798803,
+            "name": "Wall Material",
+            "dataTypeName": "text",
+            "fieldName": "wallmat",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 76811384,
+            "format": {}
+        },
+        {
+            "id": 533798804,
+            "name": "Manhole Type",
+            "dataTypeName": "text",
+            "fieldName": "mhtype",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 76811385,
+            "format": {}
+        },
+        {
+            "id": 533798805,
+            "name": "Manhole Condition",
+            "dataTypeName": "text",
+            "fieldName": "condition",
+            "position": 12,
+            "renderTypeName": "text",
+            "tableColumnId": 76811386,
+            "format": {}
+        },
+        {
+            "id": 533798806,
+            "name": "Pavement Cut Depth",
+            "dataTypeName": "number",
+            "fieldName": "cutdepth",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 76811387,
+            "format": {}
+        },
+        {
+            "id": 533798807,
+            "name": "Flow Direction",
+            "dataTypeName": "text",
+            "fieldName": "flowdir",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 76811388,
+            "format": {}
+        },
+        {
+            "id": 533798808,
+            "name": "Lined",
+            "dataTypeName": "text",
+            "fieldName": "lined",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 76811389,
+            "format": {}
+        },
+        {
+            "id": 533798809,
+            "name": "GPS Date",
+            "dataTypeName": "date",
+            "fieldName": "gpsdate",
+            "position": 16,
+            "renderTypeName": "date",
+            "tableColumnId": 76811390,
+            "format": {}
+        },
+        {
+            "id": 533798810,
+            "name": "Water Type",
+            "dataTypeName": "text",
+            "fieldName": "watertype",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 76811391,
+            "format": {}
+        },
+        {
+            "id": 533798811,
+            "name": "Location Description",
+            "dataTypeName": "text",
+            "fieldName": "locdesc",
+            "position": 18,
+            "renderTypeName": "text",
+            "tableColumnId": 76811392,
+            "format": {}
+        },
+        {
+            "id": 533798812,
+            "name": "Active Flag",
+            "dataTypeName": "number",
+            "fieldName": "activeflag",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 76811393,
+            "format": {}
+        },
+        {
+            "id": 533798813,
+            "name": "Owned By",
+            "dataTypeName": "number",
+            "fieldName": "ownedby",
+            "position": 20,
+            "renderTypeName": "number",
+            "tableColumnId": 76811394,
+            "format": {}
+        },
+        {
+            "id": 533798814,
+            "name": "Managed By",
+            "dataTypeName": "number",
+            "fieldName": "maintby",
+            "position": 21,
+            "renderTypeName": "number",
+            "tableColumnId": 76811395,
+            "format": {}
+        },
+        {
+            "id": 533798815,
+            "name": "Flow Summary",
+            "dataTypeName": "number",
+            "fieldName": "sumflow",
+            "position": 22,
+            "renderTypeName": "number",
+            "tableColumnId": 76811396,
+            "format": {}
+        },
+        {
+            "id": 533798816,
+            "name": "Last Update Date",
+            "dataTypeName": "date",
+            "fieldName": "lastupdate",
+            "position": 23,
+            "renderTypeName": "date",
+            "tableColumnId": 76811397,
+            "format": {}
+        },
+        {
+            "id": 533798817,
+            "name": "Last Editor",
+            "dataTypeName": "text",
+            "fieldName": "lasteditor",
+            "position": 24,
+            "renderTypeName": "text",
+            "tableColumnId": 76811398,
+            "format": {}
+        },
+        {
+            "id": 533798818,
+            "name": "ANCILLARYROLE",
+            "dataTypeName": "number",
+            "fieldName": "ancillaryrole",
+            "position": 25,
+            "renderTypeName": "number",
+            "tableColumnId": 76811399,
+            "format": {}
+        },
+        {
+            "id": 533798819,
+            "name": "LEGACYID",
+            "dataTypeName": "text",
+            "fieldName": "legacyid",
+            "position": 26,
+            "renderTypeName": "text",
+            "tableColumnId": 76811400,
+            "format": {}
+        },
+        {
+            "id": 533798820,
+            "name": "ACCESSDIAMETER",
+            "dataTypeName": "number",
+            "fieldName": "accessdiameter",
+            "position": 27,
+            "renderTypeName": "number",
+            "tableColumnId": 76811401,
+            "format": {}
+        },
+        {
+            "id": 533798821,
+            "name": "GROUNDTYPE",
+            "dataTypeName": "text",
+            "fieldName": "groundtype",
+            "position": 28,
+            "renderTypeName": "text",
+            "tableColumnId": 76811402,
+            "format": {}
+        },
+        {
+            "id": 533798822,
+            "name": "BARRELDIAMETER",
+            "dataTypeName": "number",
+            "fieldName": "barreldiameter",
+            "position": 29,
+            "renderTypeName": "number",
+            "tableColumnId": 76811403,
+            "format": {}
+        },
+        {
+            "id": 533798823,
+            "name": "CONEMATERIAL",
+            "dataTypeName": "text",
+            "fieldName": "conematerial",
+            "position": 30,
+            "renderTypeName": "text",
+            "tableColumnId": 76811404,
+            "format": {}
+        },
+        {
+            "id": 533798824,
+            "name": "CONETYPE",
+            "dataTypeName": "text",
+            "fieldName": "conetype",
+            "position": 31,
+            "renderTypeName": "text",
+            "tableColumnId": 76811405,
+            "format": {}
+        },
+        {
+            "id": 533798825,
+            "name": "NOTES",
+            "dataTypeName": "text",
+            "fieldName": "notes",
+            "position": 32,
+            "renderTypeName": "text",
+            "tableColumnId": 76811406,
+            "format": {}
+        },
+        {
+            "id": 533798826,
+            "name": "TAXMAP",
+            "dataTypeName": "text",
+            "fieldName": "taxmap",
+            "position": 33,
+            "renderTypeName": "text",
+            "tableColumnId": 76811407,
+            "format": {}
+        },
+        {
+            "id": 533798827,
+            "name": "AGENCY",
+            "dataTypeName": "text",
+            "fieldName": "agency",
+            "position": 34,
+            "renderTypeName": "text",
+            "tableColumnId": 76811408,
+            "format": {}
+        },
+        {
+            "id": 533798828,
+            "name": "NOPIPEINFLOW",
+            "dataTypeName": "number",
+            "fieldName": "nopipeinflow",
+            "position": 35,
+            "renderTypeName": "number",
+            "tableColumnId": 76811409,
+            "format": {}
+        },
+        {
+            "id": 533798829,
+            "name": "NOPIPEOUTFLOW",
+            "dataTypeName": "number",
+            "fieldName": "nopipeoutflow",
+            "position": 36,
+            "renderTypeName": "number",
+            "tableColumnId": 76811410,
+            "format": {}
+        },
+        {
+            "id": 533798830,
+            "name": "STEPS",
+            "dataTypeName": "text",
+            "fieldName": "steps",
+            "position": 37,
+            "renderTypeName": "text",
+            "tableColumnId": 76811411,
+            "format": {}
+        },
+        {
+            "id": 533798831,
+            "name": "PAVINGRING",
+            "dataTypeName": "text",
+            "fieldName": "pavingring",
+            "position": 38,
+            "renderTypeName": "text",
+            "tableColumnId": 76811412,
+            "format": {}
+        },
+        {
+            "id": 533798832,
+            "name": "DATASOURCE",
+            "dataTypeName": "text",
+            "fieldName": "datasource",
+            "position": 39,
+            "renderTypeName": "text",
+            "tableColumnId": 76811413,
+            "format": {}
+        },
+        {
+            "id": 533798833,
+            "name": "MANHOLESTATUS",
+            "dataTypeName": "text",
+            "fieldName": "manholestatus",
+            "position": 40,
+            "renderTypeName": "text",
+            "tableColumnId": 76811414,
+            "format": {}
+        },
+        {
+            "id": 533798834,
+            "name": "ABOVEGRADE",
+            "dataTypeName": "text",
+            "fieldName": "abovegrade",
+            "position": 41,
+            "renderTypeName": "text",
+            "tableColumnId": 76811415,
+            "format": {}
+        },
+        {
+            "id": 533798835,
+            "name": "PhotoHotlink",
+            "dataTypeName": "text",
+            "fieldName": "photohotlink",
+            "position": 42,
+            "renderTypeName": "text",
+            "tableColumnId": 76811416,
+            "format": {}
+        },
+        {
+            "id": 533798836,
+            "name": "PhotoExists",
+            "dataTypeName": "text",
+            "fieldName": "photoexists",
+            "position": 43,
+            "renderTypeName": "text",
+            "tableColumnId": 76811417,
+            "format": {}
+        },
+        {
+            "id": 533798837,
+            "name": "SubtypeText",
+            "dataTypeName": "text",
+            "fieldName": "subtypetext",
+            "position": 44,
+            "renderTypeName": "text",
+            "tableColumnId": 76811418,
+            "format": {}
+        },
+        {
+            "id": 533798838,
+            "name": "SUBTYPE",
+            "dataTypeName": "number",
+            "fieldName": "subtype",
+            "position": 45,
+            "renderTypeName": "number",
+            "tableColumnId": 76811419,
+            "format": {}
+        },
+        {
+            "id": 533798839,
+            "name": "BASIN",
+            "dataTypeName": "text",
+            "fieldName": "basin",
+            "position": 46,
+            "renderTypeName": "text",
+            "tableColumnId": 76811420,
+            "format": {}
+        },
+        {
+            "id": 533798840,
+            "name": "LIFECYCLESTATUS",
+            "dataTypeName": "text",
+            "fieldName": "lifecyclestatus",
+            "position": 47,
+            "renderTypeName": "text",
+            "tableColumnId": 76811421,
+            "format": {}
+        },
+        {
+            "id": 533798841,
+            "name": "STATUS",
+            "dataTypeName": "text",
+            "fieldName": "status",
+            "position": 48,
+            "renderTypeName": "text",
+            "tableColumnId": 76811422,
+            "format": {}
+        },
+        {
+            "id": 533798842,
+            "name": "ACCESSTYPE",
+            "dataTypeName": "text",
+            "fieldName": "accesstype",
+            "position": 49,
+            "renderTypeName": "text",
+            "tableColumnId": 76811423,
+            "format": {}
+        },
+        {
+            "id": 533798843,
+            "name": "ACCESSMATERIAL",
+            "dataTypeName": "text",
+            "fieldName": "accessmaterial",
+            "position": 50,
+            "renderTypeName": "text",
+            "tableColumnId": 76811424,
+            "format": {}
+        },
+        {
+            "id": 533798844,
+            "name": "ASBUILT_DATE",
+            "dataTypeName": "date",
+            "fieldName": "asbuilt_date",
+            "position": 51,
+            "renderTypeName": "date",
+            "tableColumnId": 76811425,
+            "format": {}
+        },
+        {
+            "id": 533798845,
+            "name": "SUBBASIN",
+            "dataTypeName": "text",
+            "fieldName": "subbasin",
+            "position": 52,
+            "renderTypeName": "text",
+            "tableColumnId": 76811426,
+            "format": {}
+        },
+        {
+            "id": 533798846,
+            "name": "MHSTATUS",
+            "dataTypeName": "text",
+            "fieldName": "mhstatus",
+            "position": 53,
+            "renderTypeName": "text",
+            "tableColumnId": 76811427,
+            "format": {}
+        },
+        {
+            "id": 533798847,
+            "name": "GlobalID",
+            "dataTypeName": "text",
+            "fieldName": "globalid",
+            "position": 54,
+            "renderTypeName": "text",
+            "tableColumnId": 76811428,
+            "format": {}
+        },
+        {
+            "id": 533798848,
+            "name": "Created By",
+            "dataTypeName": "text",
+            "fieldName": "createdby",
+            "position": 55,
+            "renderTypeName": "text",
+            "tableColumnId": 76811429,
+            "format": {}
+        },
+        {
+            "id": 533798849,
+            "name": "Date Created",
+            "dataTypeName": "date",
+            "fieldName": "datecreated",
+            "position": 56,
+            "renderTypeName": "date",
+            "tableColumnId": 76811430,
+            "format": {}
+        },
+        {
+            "id": 533798850,
+            "name": "Enabled",
+            "dataTypeName": "number",
+            "fieldName": "enabled",
+            "position": 57,
+            "renderTypeName": "number",
+            "tableColumnId": 76811431,
+            "format": {}
+        },
+        {
+            "id": 533798851,
+            "name": "created_user",
+            "dataTypeName": "text",
+            "fieldName": "created_user",
+            "position": 58,
+            "renderTypeName": "text",
+            "tableColumnId": 76811432,
+            "format": {}
+        },
+        {
+            "id": 533798852,
+            "name": "created_date",
+            "dataTypeName": "date",
+            "fieldName": "created_date",
+            "position": 59,
+            "renderTypeName": "date",
+            "tableColumnId": 76811433,
+            "format": {}
+        },
+        {
+            "id": 533798853,
+            "name": "Last_Cleaned_Date",
+            "dataTypeName": "date",
+            "fieldName": "last_cleaned_date",
+            "position": 60,
+            "renderTypeName": "date",
+            "tableColumnId": 76811434,
+            "format": {}
+        },
+        {
+            "id": 533798854,
+            "name": "Last_Lined_Date",
+            "dataTypeName": "date",
+            "fieldName": "last_lined_date",
+            "position": 61,
+            "renderTypeName": "date",
+            "tableColumnId": 76811435,
+            "format": {}
+        },
+        {
+            "id": 533798855,
+            "name": "Last_CCTV_Date",
+            "dataTypeName": "date",
+            "fieldName": "last_cctv_date",
+            "position": 62,
+            "renderTypeName": "date",
+            "tableColumnId": 76811436,
+            "format": {}
+        },
+        {
+            "id": 533798856,
+            "name": "Last_Inspected_Date",
+            "dataTypeName": "date",
+            "fieldName": "last_inspected_date",
+            "position": 63,
+            "renderTypeName": "date",
+            "tableColumnId": 76811437,
+            "format": {}
+        },
+        {
+            "id": 533798857,
+            "name": "MHTest",
+            "dataTypeName": "text",
+            "fieldName": "mhtest",
+            "position": 64,
+            "renderTypeName": "text",
+            "tableColumnId": 76811438,
+            "format": {}
+        },
+        {
+            "id": 533798858,
+            "name": "Lat",
+            "dataTypeName": "number",
+            "fieldName": "lat",
+            "position": 65,
+            "renderTypeName": "number",
+            "tableColumnId": 134595012,
+            "format": {}
+        },
+        {
+            "id": 533798859,
+            "name": "Long",
+            "dataTypeName": "number",
+            "fieldName": "long",
+            "position": 66,
+            "renderTypeName": "number",
+            "tableColumnId": 134595013,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

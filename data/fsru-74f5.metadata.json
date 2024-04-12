@@ -1,0 +1,161 @@
+{
+    "id": "fsru-74f5",
+    "name": "CARTA_Routes",
+    "assetType": "dataset",
+    "attribution": "CARTA",
+    "attributionLink": "http://www.carta-bus.org/",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1401483238,
+    "description": "Derived dataset from CARTA's GTFS file. The route structure updated quarterly.",
+    "displayType": "table",
+    "downloadCount": 39,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1494520693,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 15138981,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationGroup": 5804035,
+    "publicationStage": "published",
+    "tableId": 5804035,
+    "totalTimesRated": 0,
+    "viewCount": 39,
+    "viewLastModified": 1712778786,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1401483284,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268936,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1401483284,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "wma2-yapv",
+                "displayName": "Tim Moreland"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 231917207,
+            "name": "the_geom",
+            "dataTypeName": "multiline",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multiline",
+            "tableColumnId": 32952238,
+            "format": {}
+        },
+        {
+            "id": 231917214,
+            "name": "Name",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 32952245,
+            "format": {}
+        },
+        {
+            "id": 231917218,
+            "name": "Descriptio",
+            "dataTypeName": "text",
+            "fieldName": "descriptio",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 32952249,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "CARTA_Routes.kml",
+                "assetId": "qKPFGb0w09GPcPHjiZwTj1m60OwhVptwQv3peayDOfs",
+                "name": "CARTA_Routes.kml"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "Quarterly"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "wma2-yapv",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/wma2-yapv/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/wma2-yapv/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/wma2-yapv/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "carta",
+        "bus routes"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

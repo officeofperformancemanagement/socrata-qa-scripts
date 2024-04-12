@@ -1,0 +1,271 @@
+{
+    "id": "vfqp-r2uu",
+    "name": "ZipCodes_data",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1549934227,
+    "displayType": "table",
+    "downloadCount": 2,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1575327466,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 30809303,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1549934230,
+    "publicationGroup": 15948122,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1647465708,
+    "rowsUpdatedBy": "ft46-kupe",
+    "tableId": 15948122,
+    "totalTimesRated": 0,
+    "viewCount": 2,
+    "viewLastModified": 1712776672,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1549934232,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6265861,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1549934232,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1549934232,
+                "failureCount": 0,
+                "startedAt": 1549934232,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 395273658,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 76738982,
+            "format": {}
+        },
+        {
+            "id": 395273659,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 76738983,
+            "format": {}
+        },
+        {
+            "id": 395273660,
+            "name": "ZIPCODE",
+            "dataTypeName": "text",
+            "fieldName": "zipcode",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 76738984,
+            "format": {}
+        },
+        {
+            "id": 395273661,
+            "name": "PO_NAME",
+            "dataTypeName": "text",
+            "fieldName": "po_name",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 76738985,
+            "format": {}
+        },
+        {
+            "id": 395273662,
+            "name": "Address",
+            "dataTypeName": "text",
+            "fieldName": "address",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 76738986,
+            "format": {}
+        },
+        {
+            "id": 395273663,
+            "name": "Phone",
+            "dataTypeName": "number",
+            "fieldName": "phone",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 76738987,
+            "format": {}
+        },
+        {
+            "id": 395273664,
+            "name": "POP_1990_C",
+            "dataTypeName": "number",
+            "fieldName": "pop_1990_c",
+            "position": 7,
+            "renderTypeName": "number",
+            "tableColumnId": 76738988,
+            "format": {}
+        },
+        {
+            "id": 395273665,
+            "name": "POP_2002_E",
+            "dataTypeName": "number",
+            "fieldName": "pop_2002_e",
+            "position": 8,
+            "renderTypeName": "number",
+            "tableColumnId": 76738989,
+            "format": {}
+        },
+        {
+            "id": 395273666,
+            "name": "POP_2007_P",
+            "dataTypeName": "number",
+            "fieldName": "pop_2007_p",
+            "position": 9,
+            "renderTypeName": "number",
+            "tableColumnId": 76738990,
+            "format": {}
+        },
+        {
+            "id": 395273667,
+            "name": "HH_1990_CE",
+            "dataTypeName": "number",
+            "fieldName": "hh_1990_ce",
+            "position": 10,
+            "renderTypeName": "number",
+            "tableColumnId": 76738991,
+            "format": {}
+        },
+        {
+            "id": 395273668,
+            "name": "HH_2002_ES",
+            "dataTypeName": "number",
+            "fieldName": "hh_2002_es",
+            "position": 11,
+            "renderTypeName": "number",
+            "tableColumnId": 76738992,
+            "format": {}
+        },
+        {
+            "id": 395273669,
+            "name": "HH_2007_PR",
+            "dataTypeName": "number",
+            "fieldName": "hh_2007_pr",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 76738993,
+            "format": {}
+        },
+        {
+            "id": 395273670,
+            "name": "AREA",
+            "dataTypeName": "text",
+            "fieldName": "hamilton_sdeadmin_zipcodes_area",
+            "position": 13,
+            "renderTypeName": "text",
+            "tableColumnId": 76738994,
+            "format": {}
+        },
+        {
+            "id": 395273671,
+            "name": "SHAPE.STArea()",
+            "dataTypeName": "number",
+            "fieldName": "shape_starea",
+            "position": 14,
+            "renderTypeName": "number",
+            "tableColumnId": 76738995,
+            "format": {}
+        },
+        {
+            "id": 395273672,
+            "name": "SHAPE.STLength()",
+            "dataTypeName": "number",
+            "fieldName": "shape_stlength",
+            "position": 15,
+            "renderTypeName": "number",
+            "tableColumnId": 76738996,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

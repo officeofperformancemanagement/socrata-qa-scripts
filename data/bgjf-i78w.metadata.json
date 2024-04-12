@@ -1,0 +1,186 @@
+{
+    "id": "bgjf-i78w",
+    "name": "gi2p-xqhx",
+    "assetType": "dataset",
+    "attribution": "Public Works",
+    "averageRating": 0,
+    "category": "Transportation",
+    "createdAt": 1449192591,
+    "description": "Parking surfaces within the City of Chattanooga. The data is buffered 1/4 past the existing city boundary so parcels not within the city boundary may also be included in this dataset.",
+    "displayType": "table",
+    "downloadCount": 26,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1523514071,
+    "licenseId": "PUBLIC_DOMAIN",
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 15198468,
+    "provenance": "official",
+    "publicationAppendEnabled": true,
+    "publicationGroup": 5844347,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1523514109,
+    "rowsUpdatedBy": "xh73-m9wd",
+    "tableId": 5844347,
+    "totalTimesRated": 0,
+    "viewCount": 71,
+    "viewLastModified": 1712778790,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1449192598,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268946,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1449192598,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "xh73-m9wd",
+                "displayName": "socrata account"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 232432008,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 33059752,
+            "format": {}
+        },
+        {
+            "id": 232432009,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 2,
+            "renderTypeName": "number",
+            "tableColumnId": 33059753,
+            "format": {}
+        },
+        {
+            "id": 232432010,
+            "name": "IMAGERY_DA",
+            "dataTypeName": "text",
+            "fieldName": "imagery_da",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 33059754,
+            "format": {}
+        },
+        {
+            "id": 232432011,
+            "name": "MAP_SCALE",
+            "dataTypeName": "text",
+            "fieldName": "map_scale",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 33059755,
+            "format": {}
+        },
+        {
+            "id": 232432012,
+            "name": "CODE",
+            "dataTypeName": "number",
+            "fieldName": "code",
+            "position": 5,
+            "renderTypeName": "number",
+            "tableColumnId": 33059756,
+            "format": {}
+        },
+        {
+            "id": 232432013,
+            "name": "SHAPE_Leng",
+            "dataTypeName": "number",
+            "fieldName": "shape_leng",
+            "position": 6,
+            "renderTypeName": "number",
+            "tableColumnId": 33059757,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain"
+    },
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "HCGIS_1.zip",
+                "assetId": "wSO23cAWhgDelwenICCSW88ojBVyF-qinG8akb5pOtI",
+                "name": "HCGIS_1.zip"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "City of Chattanooga"
+            },
+            "Update Frequency": {
+                "Period": "As Needed"
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "xh73-m9wd",
+        "displayName": "socrata account",
+        "screenName": "socrata account",
+        "type": "interactive",
+        "flags": [
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "parking lots",
+        "gis"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

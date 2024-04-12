@@ -1,0 +1,298 @@
+{
+    "id": "4gat-rdif",
+    "name": "layer_0",
+    "assetType": "dataset",
+    "averageRating": 0,
+    "createdAt": 1463579271,
+    "displayType": "table",
+    "downloadCount": 24,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "indexUpdatedAt": 1494420759,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 21007084,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationGroup": 10801905,
+    "publicationStage": "published",
+    "rowsUpdatedAt": 1463579277,
+    "rowsUpdatedBy": "6nxj-27py",
+    "tableId": 10801905,
+    "totalTimesRated": 0,
+    "viewCount": 44,
+    "viewLastModified": 1712778790,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1463579353,
+            "reviewedAutomatically": true,
+            "state": "approved",
+            "submissionId": 6268948,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1463579353,
+            "targetAudience": "public",
+            "workflowId": 804,
+            "submissionDetails": {
+                "permissionType": "READ"
+            },
+            "submissionOutcomeApplication": {
+                "failureCount": 0,
+                "status": "success"
+            },
+            "submitter": {
+                "displayName": "Deleted User",
+                "flags": [
+                    "deleted"
+                ]
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 255302749,
+            "name": "the_geom",
+            "dataTypeName": "polygon",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "polygon",
+            "tableColumnId": 36257371,
+            "format": {}
+        },
+        {
+            "id": 255302750,
+            "name": "GEOID",
+            "dataTypeName": "text",
+            "fieldName": "geoid",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 36257372,
+            "format": {}
+        },
+        {
+            "id": 255302751,
+            "name": "OID",
+            "dataTypeName": "number",
+            "fieldName": "oid",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 36257373,
+            "format": {}
+        },
+        {
+            "id": 255302752,
+            "name": "MTFCC",
+            "dataTypeName": "text",
+            "fieldName": "mtfcc",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 36257374,
+            "format": {}
+        },
+        {
+            "id": 255302753,
+            "name": "STATE",
+            "dataTypeName": "text",
+            "fieldName": "state",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 36257375,
+            "format": {}
+        },
+        {
+            "id": 255302754,
+            "name": "COUNTY",
+            "dataTypeName": "text",
+            "fieldName": "county",
+            "position": 6,
+            "renderTypeName": "text",
+            "tableColumnId": 36257376,
+            "format": {}
+        },
+        {
+            "id": 255302755,
+            "name": "TRACT",
+            "dataTypeName": "text",
+            "fieldName": "tract",
+            "position": 7,
+            "renderTypeName": "text",
+            "tableColumnId": 36257377,
+            "format": {}
+        },
+        {
+            "id": 255302756,
+            "name": "BASENAME",
+            "dataTypeName": "text",
+            "fieldName": "basename",
+            "position": 8,
+            "renderTypeName": "text",
+            "tableColumnId": 36257378,
+            "format": {}
+        },
+        {
+            "id": 255302757,
+            "name": "NAME",
+            "dataTypeName": "text",
+            "fieldName": "name",
+            "position": 9,
+            "renderTypeName": "text",
+            "tableColumnId": 36257379,
+            "format": {}
+        },
+        {
+            "id": 255302758,
+            "name": "LSADC",
+            "dataTypeName": "text",
+            "fieldName": "lsadc",
+            "position": 10,
+            "renderTypeName": "text",
+            "tableColumnId": 36257380,
+            "format": {}
+        },
+        {
+            "id": 255302759,
+            "name": "FUNCSTAT",
+            "dataTypeName": "text",
+            "fieldName": "funcstat",
+            "position": 11,
+            "renderTypeName": "text",
+            "tableColumnId": 36257381,
+            "format": {}
+        },
+        {
+            "id": 255302760,
+            "name": "AREALAND",
+            "dataTypeName": "number",
+            "fieldName": "arealand",
+            "position": 12,
+            "renderTypeName": "number",
+            "tableColumnId": 36257382,
+            "format": {}
+        },
+        {
+            "id": 255302761,
+            "name": "AREAWATER",
+            "dataTypeName": "number",
+            "fieldName": "areawater",
+            "position": 13,
+            "renderTypeName": "number",
+            "tableColumnId": 36257383,
+            "format": {}
+        },
+        {
+            "id": 255302762,
+            "name": "CENTLAT",
+            "dataTypeName": "text",
+            "fieldName": "centlat",
+            "position": 14,
+            "renderTypeName": "text",
+            "tableColumnId": 36257384,
+            "format": {}
+        },
+        {
+            "id": 255302763,
+            "name": "CENTLON",
+            "dataTypeName": "text",
+            "fieldName": "centlon",
+            "position": 15,
+            "renderTypeName": "text",
+            "tableColumnId": 36257385,
+            "format": {}
+        },
+        {
+            "id": 255302764,
+            "name": "INTPTLAT",
+            "dataTypeName": "text",
+            "fieldName": "intptlat",
+            "position": 16,
+            "renderTypeName": "text",
+            "tableColumnId": 36257386,
+            "format": {}
+        },
+        {
+            "id": 255302765,
+            "name": "INTPTLON",
+            "dataTypeName": "text",
+            "fieldName": "intptlon",
+            "position": 17,
+            "renderTypeName": "text",
+            "tableColumnId": 36257387,
+            "format": {}
+        },
+        {
+            "id": 255302766,
+            "name": "OBJECTID",
+            "dataTypeName": "number",
+            "fieldName": "objectid",
+            "position": 18,
+            "renderTypeName": "number",
+            "tableColumnId": 36257388,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "metadata": {
+        "attachments": [
+            {
+                "filename": "chattanooga.geojson",
+                "assetId": "51362fa1-9790-4cbf-b37f-55314fce9824",
+                "name": "chattanooga.geojson"
+            }
+        ],
+        "custom_fields": {
+            "Organization": {
+                "Name": "Other"
+            },
+            "Update Frequency": {
+                "Period": ""
+            },
+            "Data Description": {
+                "Data Dictionary": ""
+            }
+        },
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "hn68-w99i",
+        "createdAt": 1675709239,
+        "displayName": "Deleted User",
+        "email": "deleted-user-di-support@tylertech.com",
+        "screenName": "Deleted User",
+        "type": "deleted_user_surrogate"
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "hn68-w99i",
+        "createdAt": 1675709239,
+        "displayName": "Deleted User",
+        "email": "deleted-user-di-support@tylertech.com",
+        "screenName": "Deleted User",
+        "type": "deleted_user_surrogate"
+    },
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}
