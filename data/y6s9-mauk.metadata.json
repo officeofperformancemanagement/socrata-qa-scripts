@@ -1,11 +1,11 @@
 {
     "id": "y6s9-mauk",
-    "name": "Sewer Control Valves_data",
+    "name": "Sewer Control Valves",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1550007453,
     "displayType": "table",
-    "downloadCount": 0,
+    "downloadCount": 1,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575229910,
@@ -22,7 +22,7 @@
     "tableId": 15950309,
     "totalTimesRated": 0,
     "viewCount": 0,
-    "viewLastModified": 1712776671,
+    "viewLastModified": 1712883887,
     "viewType": "tabular",
     "approvals": [
         {

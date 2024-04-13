@@ -1,12 +1,12 @@
 {
     "id": "duee-pv6k",
-    "name": "Fire Station_data",
+    "name": "Fire Station",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1573016745,
     "description": "",
     "displayType": "table",
-    "downloadCount": 9,
+    "downloadCount": 12,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575387063,
@@ -23,7 +23,7 @@
     "tableId": 16688372,
     "totalTimesRated": 0,
     "viewCount": 0,
-    "viewLastModified": 1712778788,
+    "viewLastModified": 1712885576,
     "viewType": "tabular",
     "approvals": [
         {

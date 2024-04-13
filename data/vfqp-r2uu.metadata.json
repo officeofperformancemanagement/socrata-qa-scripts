@@ -1,11 +1,11 @@
 {
     "id": "vfqp-r2uu",
-    "name": "ZipCodes_data",
+    "name": "ZipCodes",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1549934227,
     "displayType": "table",
-    "downloadCount": 2,
+    "downloadCount": 3,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575327466,
@@ -22,7 +22,7 @@
     "tableId": 15948122,
     "totalTimesRated": 0,
     "viewCount": 2,
-    "viewLastModified": 1712776672,
+    "viewLastModified": 1712887637,
     "viewType": "tabular",
     "approvals": [
         {

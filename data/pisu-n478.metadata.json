@@ -8,7 +8,7 @@
     "createdAt": 1449208965,
     "description": "Street centerline file for the City of Chattanooga.",
     "displayType": "table",
-    "downloadCount": 14,
+    "downloadCount": 16,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1494585996,
@@ -23,7 +23,7 @@
     "rowsUpdatedAt": 1449208965,
     "tableId": 5846409,
     "totalTimesRated": 0,
-    "viewCount": 28,
+    "viewCount": 29,
     "viewLastModified": 1712778787,
     "viewType": "tabular",
     "approvals": [

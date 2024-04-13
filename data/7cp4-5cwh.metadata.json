@@ -1,12 +1,12 @@
 {
     "id": "7cp4-5cwh",
-    "name": "Sewer Pressurized Mains_data",
+    "name": "Sewer Pressurized Mains",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1550007339,
     "description": "Separated and combined sewer pressure mains.",
     "displayType": "table",
-    "downloadCount": 0,
+    "downloadCount": 1,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575335629,
@@ -23,7 +23,7 @@
     "tableId": 15950298,
     "totalTimesRated": 0,
     "viewCount": 0,
-    "viewLastModified": 1712776671,
+    "viewLastModified": 1712883624,
     "viewType": "tabular",
     "approvals": [
         {
