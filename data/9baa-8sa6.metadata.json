@@ -1,11 +1,11 @@
 {
     "id": "9baa-8sa6",
-    "name": "ParkCentroids_data",
+    "name": "Parks",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1549933165,
     "displayType": "table",
-    "downloadCount": 1,
+    "downloadCount": 2,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "tableId": 18437188,
     "totalTimesRated": 0,
     "viewCount": 0,
-    "viewLastModified": 1712776671,
+    "viewLastModified": 1712896135,
     "viewType": "tabular",
     "approvals": [
         {

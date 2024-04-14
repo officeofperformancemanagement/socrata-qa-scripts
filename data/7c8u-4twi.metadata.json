@@ -1,12 +1,12 @@
 {
     "id": "7c8u-4twi",
-    "name": "Public School_data",
+    "name": "Public School",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1494607051,
     "description": "REQUIRED: A brief narrative summary of the data set.",
     "displayType": "table",
-    "downloadCount": 244,
+    "downloadCount": 246,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575382170,
@@ -23,7 +23,7 @@
     "tableId": 14205763,
     "totalTimesRated": 0,
     "viewCount": 53,
-    "viewLastModified": 1712778789,
+    "viewLastModified": 1712902256,
     "viewType": "tabular",
     "approvals": [
         {

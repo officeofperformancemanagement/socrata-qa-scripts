@@ -1,11 +1,11 @@
 {
     "id": "pwgy-mq59",
-    "name": "Council_data",
+    "name": "Council",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1549934236,
     "displayType": "table",
-    "downloadCount": 1,
+    "downloadCount": 2,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "tableId": 18248929,
     "totalTimesRated": 0,
     "viewCount": 0,
-    "viewLastModified": 1712776672,
+    "viewLastModified": 1712895580,
     "viewType": "tabular",
     "approvals": [
         {

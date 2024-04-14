@@ -1,11 +1,11 @@
 {
     "id": "d4yh-2nsm",
-    "name": "Sewer Pump Stations_data",
+    "name": "Sewer Pump Stations",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1550007349,
     "displayType": "table",
-    "downloadCount": 1,
+    "downloadCount": 2,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "tableId": 18614990,
     "totalTimesRated": 0,
     "viewCount": 0,
-    "viewLastModified": 1712776670,
+    "viewLastModified": 1712890801,
     "viewType": "tabular",
     "approvals": [
         {

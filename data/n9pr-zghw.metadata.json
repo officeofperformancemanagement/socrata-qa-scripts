@@ -1,12 +1,12 @@
 {
     "id": "n9pr-zghw",
-    "name": "Sewer Manholes_data",
+    "name": "Sewer Manholes",
     "assetType": "dataset",
     "averageRating": 0,
     "createdAt": 1550106124,
     "description": "Manhole features connect two or more pipes and control the flow of water in the network through pipe elevations. Manhole invert elevations are stored on the pipes, instead of the manholes themselves.",
     "displayType": "table",
-    "downloadCount": 24,
+    "downloadCount": 25,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "tableId": 18188892,
     "totalTimesRated": 0,
     "viewCount": 20,
-    "viewLastModified": 1712776672,
+    "viewLastModified": 1712900492,
     "viewType": "tabular",
     "approvals": [
         {
