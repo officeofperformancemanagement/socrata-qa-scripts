@@ -9,33 +9,32 @@
     "createdAt": 1681409578,
     "description": "Data provided in partnership with Tellus Sensors and the Enterprise Center. More information about the air quality sensors can be found at https://www.tellusensors.com/",
     "displayType": "table",
-    "downloadCount": 220,
+    "downloadCount": 221,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
     "locale": "en_US",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 39582262,
+    "oid": 40523444,
     "provenance": "official",
     "publicationAppendEnabled": true,
-    "publicationDate": 1683815257,
+    "publicationDate": 1713217654,
     "publicationGroup": 19125538,
     "publicationStage": "published",
-    "rowIdentifierColumnId": 575652360,
-    "rowsUpdatedAt": 1713080799,
-    "rowsUpdatedBy": "nfms-ud8q",
-    "tableId": 19152217,
+    "rowIdentifierColumnId": 591661381,
+    "rowsUpdatedAt": 1713167154,
+    "tableId": 19500928,
     "totalTimesRated": 0,
     "viewCount": 96,
-    "viewLastModified": 1713080787,
+    "viewLastModified": 1713217654,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1684416091,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 5519526,
+            "submissionId": 6275737,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1684416055,
@@ -76,7 +75,7 @@
     },
     "columns": [
         {
-            "id": 575652360,
+            "id": 591661381,
             "name": "UniqueID",
             "dataTypeName": "text",
             "description": "",
@@ -88,7 +87,7 @@
             "format": {}
         },
         {
-            "id": 575652361,
+            "id": 591661382,
             "name": "longitude",
             "dataTypeName": "text",
             "description": "",
@@ -100,7 +99,7 @@
             "format": {}
         },
         {
-            "id": 575652362,
+            "id": 591661383,
             "name": "latitude",
             "dataTypeName": "text",
             "description": "",
@@ -112,7 +111,7 @@
             "format": {}
         },
         {
-            "id": 575652363,
+            "id": 591661384,
             "name": "elevation",
             "dataTypeName": "text",
             "description": "",
@@ -124,7 +123,7 @@
             "format": {}
         },
         {
-            "id": 575652364,
+            "id": 591661385,
             "name": "pm2_5",
             "dataTypeName": "text",
             "description": "",
@@ -136,7 +135,7 @@
             "format": {}
         },
         {
-            "id": 575652365,
+            "id": 591661386,
             "name": "org",
             "dataTypeName": "text",
             "description": "",
@@ -148,7 +147,7 @@
             "format": {}
         },
         {
-            "id": 575652366,
+            "id": 591661387,
             "name": "deviceId",
             "dataTypeName": "text",
             "description": "",
@@ -160,7 +159,7 @@
             "format": {}
         },
         {
-            "id": 575652367,
+            "id": 591661388,
             "name": "micsOx",
             "dataTypeName": "text",
             "description": "",
@@ -172,7 +171,7 @@
             "format": {}
         },
         {
-            "id": 575652368,
+            "id": 591661389,
             "name": "micsRed",
             "dataTypeName": "text",
             "description": "",
@@ -184,7 +183,7 @@
             "format": {}
         },
         {
-            "id": 575652369,
+            "id": 591661390,
             "name": "humidity",
             "dataTypeName": "text",
             "description": "",
@@ -196,7 +195,7 @@
             "format": {}
         },
         {
-            "id": 575652370,
+            "id": 591661391,
             "name": "temperature",
             "dataTypeName": "text",
             "description": "",
@@ -208,7 +207,7 @@
             "format": {}
         },
         {
-            "id": 575652371,
+            "id": 591661392,
             "name": "datetime",
             "dataTypeName": "text",
             "description": "",
@@ -220,7 +219,7 @@
             "format": {}
         },
         {
-            "id": 575652372,
+            "id": 591661393,
             "name": "GeoPoint",
             "dataTypeName": "point",
             "description": "The location of the air quality monitor. Data is provided in latitude and longitude format.",
@@ -231,7 +230,7 @@
             "format": {}
         },
         {
-            "id": 575652373,
+            "id": 591661394,
             "name": "Hamilton County Census Tracts - 2010",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Hamilton County Census Tracts - 2010' (c8ia-b5u2) the point in column 'geopoint' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -252,7 +251,7 @@
             "format": {}
         },
         {
-            "id": 575652374,
+            "id": 591661395,
             "name": "Council",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Council' (q7y7-kk3x) the point in column 'geopoint' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -273,7 +272,7 @@
             "format": {}
         },
         {
-            "id": 575652375,
+            "id": 591661396,
             "name": "Chattanooga Redistricting - New Districts",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Redistricting - New Districts' (hr78-d3nd) the point in column 'geopoint' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -294,7 +293,7 @@
             "format": {}
         },
         {
-            "id": 575652376,
+            "id": 591661397,
             "name": "Neighborhood Associations",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Neighborhood Associations' (epkc-jqa5) the point in column 'geopoint' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -315,7 +314,7 @@
             "format": {}
         },
         {
-            "id": 575652377,
+            "id": 591661398,
             "name": "Census Tracts",
             "dataTypeName": "number",
             "description": "This column was automatically created in order to record in what polygon from the dataset 'Census Tracts' (i3fa-25yc) the point in column 'geopoint' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
@@ -330,6 +329,27 @@
                 "type": "georegion_match_on_point",
                 "parameters": {
                     "region": "_i3fa-25yc",
+                    "primary_key": "_feature_id"
+                }
+            },
+            "format": {}
+        },
+        {
+            "id": 591661399,
+            "name": "Chattanooga Area Zip Codes",
+            "dataTypeName": "number",
+            "description": "This column was automatically created in order to record in what polygon from the dataset 'Chattanooga Area Zip Codes' (3qrp-xh54) the point in column 'geopoint' is located.  This enables the creation of region maps (choropleths) in the visualization canvas and data lens.",
+            "fieldName": ":@computed_region_3qrp_xh54",
+            "position": 19,
+            "renderTypeName": "number",
+            "tableColumnId": 152212196,
+            "computationStrategy": {
+                "source_columns": [
+                    "geopoint"
+                ],
+                "type": "georegion_match_on_point",
+                "parameters": {
+                    "region": "_3qrp-xh54",
                     "primary_key": "_feature_id"
                 }
             },
@@ -358,7 +378,7 @@
                 "How often are data values updated?": "Daily"
             }
         },
-        "rowIdentifier": 575652360,
+        "rowIdentifier": 591661381,
         "availableDisplayTypes": [
             "table",
             "fatrow",

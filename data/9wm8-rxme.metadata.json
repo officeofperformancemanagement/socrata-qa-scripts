@@ -1,57 +1,60 @@
 {
-    "id": "n3e8-wf76",
-    "name": "HCDE Zones - StreetType",
+    "id": "9wm8-rxme",
+    "name": "Downtown Business Improvement District",
     "assetType": "dataset",
+    "attribution": "City of Chattanooga",
+    "attributionLink": "https://static1.squarespace.com/static/60be509f6c476d639cf92652/t/64c2a2327260de30fcd487ef/1690477106511/BID-Area_GoogleEarth_7.8.19-compressed.pdf",
     "averageRating": 0,
-    "category": "Education",
-    "createdAt": 1599754266,
-    "description": "StreetType tab from HCDE Zones file",
+    "category": "Economy",
+    "createdAt": 1713184147,
+    "description": "Boundary of the Chattanooga Downtown Business Improvement District.",
     "displayType": "table",
-    "downloadCount": 209,
+    "downloadCount": 0,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 35191140,
+    "oid": 40521814,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1599754349,
-    "publicationGroup": 17540811,
+    "publicationDate": 1713184353,
+    "publicationGroup": 19499782,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1599754349,
-    "rowsUpdatedBy": "76k4-ifet",
-    "tableId": 17540811,
+    "rowsUpdatedAt": 1713184347,
+    "rowsUpdatedBy": "iiwc-mbju",
+    "tableId": 19499782,
     "totalTimesRated": 0,
-    "viewCount": 165,
-    "viewLastModified": 1708630364,
+    "viewCount": 3,
+    "viewLastModified": 1713184353,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1599762641,
+            "reviewedAt": 1713184398,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 2669481,
+            "submissionId": 6274585,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1599754349,
+            "submittedAt": 1713184353,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
-                "id": "76k4-ifet",
-                "displayName": "Ryan Wedell"
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
             },
             "submissionDetails": {
                 "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1599762641,
+                "endedAt": 1713184399,
                 "failureCount": 0,
-                "startedAt": 1599762641,
+                "startedAt": 1713184398,
                 "status": "success"
             },
             "submitter": {
-                "id": "76k4-ifet",
-                "displayName": "Ryan Wedell"
+                "id": "iiwc-mbju",
+                "displayName": "Tim Moreland"
             }
         },
         {
@@ -71,36 +74,36 @@
     },
     "columns": [
         {
-            "id": 494289898,
-            "name": "ID",
-            "dataTypeName": "text",
+            "id": 591651091,
+            "name": "the_geom",
+            "dataTypeName": "multipolygon",
+            "description": "",
+            "fieldName": "the_geom",
+            "position": 1,
+            "renderTypeName": "multipolygon",
+            "tableColumnId": 152205257,
+            "format": {}
+        },
+        {
+            "id": 591651092,
+            "name": "id",
+            "dataTypeName": "number",
             "description": "",
             "fieldName": "id",
-            "position": 1,
-            "renderTypeName": "text",
-            "tableColumnId": 115083487,
-            "format": {}
-        },
-        {
-            "id": 494289899,
-            "name": "StreetType",
-            "dataTypeName": "text",
-            "description": "",
-            "fieldName": "streettype",
             "position": 2,
-            "renderTypeName": "text",
-            "tableColumnId": 115083488,
+            "renderTypeName": "number",
+            "tableColumnId": 152205258,
             "format": {}
         },
         {
-            "id": 494289900,
-            "name": "FullType",
+            "id": 591651093,
+            "name": "Name",
             "dataTypeName": "text",
             "description": "",
-            "fieldName": "fulltype",
+            "fieldName": "name",
             "position": 3,
             "renderTypeName": "text",
-            "tableColumnId": 115083489,
+            "tableColumnId": 152205259,
             "format": {}
         }
     ],
@@ -113,17 +116,15 @@
             ]
         }
     ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
     "metadata": {
         "custom_fields": {
             "Internal": {
-                "Results Area": "High Performing Government",
-                "Data Steward Email": "opendata@chattanooga.gov",
-                "Department": "Other",
-                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "Department": "Economic Development",
                 "How often are data values updated?": "As Needed"
-            },
-            "Public": {
-                "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
         "availableDisplayTypes": [
@@ -133,12 +134,12 @@
         ]
     },
     "owner": {
-        "id": "nfms-ud8q",
-        "displayName": "ODEXTRACT",
-        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
-        "screenName": "ODEXTRACT",
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -150,12 +151,12 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "nfms-ud8q",
-        "displayName": "ODEXTRACT",
-        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
-        "screenName": "ODEXTRACT",
+        "id": "iiwc-mbju",
+        "displayName": "Tim Moreland",
+        "profileImageUrlLarge": "/api/users/iiwc-mbju/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/iiwc-mbju/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/iiwc-mbju/profile_images/TINY",
+        "screenName": "Tim Moreland",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -163,7 +164,9 @@
         ]
     },
     "tags": [
-        "hcde"
+        "bid",
+        "business improvement district",
+        "downtown"
     ],
     "flags": [
         "default",
