@@ -6,7 +6,7 @@
     "createdAt": 1579897694,
     "description": "Test geometry for capital projects explorer",
     "displayType": "table",
-    "downloadCount": 200,
+    "downloadCount": 201,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,7 +21,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16852184,
     "totalTimesRated": 0,
-    "viewCount": 144,
+    "viewCount": 146,
     "viewLastModified": 1708630776,
     "viewType": "tabular",
     "approvals": [
