@@ -9,7 +9,7 @@
     "createdAt": 1562954391,
     "description": "Data from the annual community survey conducted by the City of Chattanooga Internal Audit to evaluate citizen's satisfaction with the City.",
     "displayType": "table",
-    "downloadCount": 219,
+    "downloadCount": 220,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "p6mj-ef7e",
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "iiwc-mbju",
     "tableId": 19280646,
     "totalTimesRated": 0,
-    "viewCount": 346,
+    "viewCount": 347,
     "viewLastModified": 1708630521,
     "viewType": "tabular",
     "approvals": [

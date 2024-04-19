@@ -8,7 +8,7 @@
     "createdAt": 1500992744,
     "description": "Zoning information for the City of Chattanooga. A 1000 ft buffer from the city limits was used to ensure complete coverage.",
     "displayType": "table",
-    "downloadCount": 23,
+    "downloadCount": 25,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1505222149,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "xh73-m9wd",
     "tableId": 14352174,
     "totalTimesRated": 0,
-    "viewCount": 11,
+    "viewCount": 12,
     "viewLastModified": 1712778789,
     "viewType": "tabular",
     "approvals": [
