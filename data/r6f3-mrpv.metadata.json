@@ -6,7 +6,7 @@
     "createdAt": 1562871541,
     "description": "Number of households receiving public assistance income. Data from 2017 ACS.",
     "displayType": "table",
-    "downloadCount": 233,
+    "downloadCount": 234,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562952963,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16352621,
     "totalTimesRated": 0,
-    "viewCount": 172,
+    "viewCount": 173,
     "viewLastModified": 1708630560,
     "viewType": "tabular",
     "approvals": [
