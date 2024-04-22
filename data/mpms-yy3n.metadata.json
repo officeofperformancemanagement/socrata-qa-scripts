@@ -7,7 +7,7 @@
     "createdAt": 1561576070,
     "description": "This dataset contains fire incident data from 2001 to the current date. For a more detailed view of the data containing information on all responding units check out this dataset: https://chattanooga-internal.data.socrata.com/Public-Safety/Fire-Incidents-Detailed/5dtg-25r9",
     "displayType": "table",
-    "downloadCount": 2455,
+    "downloadCount": 2458,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ndjw-zxwd",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984793,
     "totalTimesRated": 0,
-    "viewCount": 876,
+    "viewCount": 877,
     "viewLastModified": 1708631242,
     "viewType": "tabular",
     "approvals": [

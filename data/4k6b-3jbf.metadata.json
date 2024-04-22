@@ -9,7 +9,7 @@
     "createdAt": 1609357549,
     "description": "COVID data in TN aggregated by age, county, and date. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
     "displayType": "table",
-    "downloadCount": 190,
+    "downloadCount": 191,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -21,12 +21,12 @@
     "publicationGroup": 17899985,
     "publicationStage": "published",
     "rowIdentifierColumnId": 540324796,
-    "rowsUpdatedAt": 1713567647,
+    "rowsUpdatedAt": 1713653913,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18303444,
     "totalTimesRated": 0,
     "viewCount": 195,
-    "viewLastModified": 1713567124,
+    "viewLastModified": 1713653401,
     "viewType": "tabular",
     "approvals": [
         {

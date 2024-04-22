@@ -7,7 +7,7 @@
     "createdAt": 1596116511,
     "description": "This is a data set of all Allegations against CPD Officers since January 1, 2018. When a Complaint is filed, a chain of command investigation began, or an Internal Affairs investigation began, Allegations of different types are made against officers. Each row represents an individual allegation as multiple can be made in one incident.",
     "displayType": "table",
-    "downloadCount": 181,
+    "downloadCount": 182,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ikcv-byqe",
