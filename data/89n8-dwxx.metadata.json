@@ -9,7 +9,7 @@
     "createdAt": 1589906816,
     "description": "Updated daily from the Hamilton County Health Department. \nData downloaded from Houser, Jesse A. “Hamilton County, Tennessee COVID-19 Dataset.” COVID-19 in Hamilton County, TN, 2020, sites.google.com/view/hamiltoncounty-tn-covid19/data",
     "displayType": "table",
-    "downloadCount": 312,
+    "downloadCount": 313,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
