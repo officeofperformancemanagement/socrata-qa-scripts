@@ -8,7 +8,7 @@
     "createdAt": 1609346663,
     "description": "Data pulled from THD website https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
     "displayType": "table",
-    "downloadCount": 202,
+    "downloadCount": 203,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -21,12 +21,12 @@
     "publicationGroup": 17899843,
     "publicationStage": "published",
     "rowIdentifierColumnId": 552015376,
-    "rowsUpdatedAt": 1713913994,
+    "rowsUpdatedAt": 1713928521,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18515440,
     "totalTimesRated": 0,
     "viewCount": 570,
-    "viewLastModified": 1713913891,
+    "viewLastModified": 1713928417,
     "viewType": "tabular",
     "approvals": [
         {
