@@ -7,31 +7,31 @@
     "createdAt": 1628617793,
     "description": "This dataset contains high level data on the budgeted expenses for each Fiscal Year of City government.",
     "displayType": "table",
-    "downloadCount": 187,
+    "downloadCount": 188,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "aqwr-wcyh",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 39558754,
+    "oid": 40548446,
     "provenance": "official",
     "publicationAppendEnabled": true,
-    "publicationDate": 1683060081,
+    "publicationDate": 1714507251,
     "publicationGroup": 17068897,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1714414242,
+    "rowsUpdatedAt": 1714491012,
     "rowsUpdatedBy": "kp5y-vgiw",
     "tableId": 18406958,
     "totalTimesRated": 0,
-    "viewCount": 35,
-    "viewLastModified": 1708630591,
+    "viewCount": 39,
+    "viewLastModified": 1714507251,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1628618126,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 5485465,
+            "submissionId": 6295210,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1628618105,
@@ -72,7 +72,7 @@
     },
     "columns": [
         {
-            "id": 575299772,
+            "id": 592216980,
             "name": "Fiscal Year",
             "dataTypeName": "number",
             "fieldName": "fiscal_year",
@@ -85,7 +85,7 @@
             }
         },
         {
-            "id": 575299773,
+            "id": 592216981,
             "name": "Service",
             "dataTypeName": "text",
             "fieldName": "service",
@@ -96,7 +96,7 @@
             "format": {}
         },
         {
-            "id": 575299774,
+            "id": 592216982,
             "name": "Department",
             "dataTypeName": "text",
             "fieldName": "department",
@@ -107,7 +107,7 @@
             "format": {}
         },
         {
-            "id": 575299775,
+            "id": 592216983,
             "name": "Program",
             "dataTypeName": "text",
             "fieldName": "program",
@@ -118,7 +118,7 @@
             "format": {}
         },
         {
-            "id": 575299776,
+            "id": 592216984,
             "name": "Expense Category",
             "dataTypeName": "text",
             "fieldName": "expense_category",
@@ -129,7 +129,7 @@
             "format": {}
         },
         {
-            "id": 575299777,
+            "id": 592216985,
             "name": "Recommended Amount",
             "dataTypeName": "number",
             "fieldName": "recommended_amount",
@@ -140,7 +140,7 @@
             "format": {}
         },
         {
-            "id": 575299778,
+            "id": 592216986,
             "name": "Approved Amount",
             "dataTypeName": "number",
             "fieldName": "approved_amount",
@@ -151,7 +151,7 @@
             "format": {}
         },
         {
-            "id": 575299779,
+            "id": 592216987,
             "name": "Fund",
             "dataTypeName": "text",
             "fieldName": "fund",
@@ -162,7 +162,7 @@
             "format": {}
         },
         {
-            "id": 575299780,
+            "id": 592216988,
             "name": "Fund Type",
             "dataTypeName": "text",
             "fieldName": "fund_type",
@@ -173,7 +173,7 @@
             "format": {}
         },
         {
-            "id": 575299781,
+            "id": 592216989,
             "name": "Description",
             "dataTypeName": "text",
             "fieldName": "description",
@@ -184,7 +184,7 @@
             "format": {}
         },
         {
-            "id": 575299782,
+            "id": 592216990,
             "name": "Expense Type",
             "dataTypeName": "text",
             "fieldName": "expense_type",

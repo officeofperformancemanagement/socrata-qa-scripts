@@ -7,7 +7,7 @@
     "createdAt": 1599762503,
     "description": "Schools zones for HCDE from https://mapsdev.hamiltontn.gov/hcwa03/rest/services/Live_SchoolZones/MapServer",
     "displayType": "table",
-    "downloadCount": 199,
+    "downloadCount": 200,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -22,7 +22,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17540950,
     "totalTimesRated": 0,
-    "viewCount": 129,
+    "viewCount": 130,
     "viewLastModified": 1708630623,
     "viewType": "tabular",
     "approvals": [

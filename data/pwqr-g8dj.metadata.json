@@ -6,7 +6,7 @@
     "createdAt": 1628619423,
     "description": "This dataset contains information regarding the details of Capital Projects that feeds into the open budget application.",
     "displayType": "table",
-    "downloadCount": 185,
+    "downloadCount": 186,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "qh7g-pisr",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "4bwj-878f",
     "tableId": 18410011,
     "totalTimesRated": 0,
-    "viewCount": 23,
+    "viewCount": 26,
     "viewLastModified": 1708630421,
     "viewType": "tabular",
     "approvals": [

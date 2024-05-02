@@ -6,31 +6,31 @@
     "createdAt": 1628619226,
     "description": "This dataset contains information relating to the Capital Budget for each fiscal year for the City of Chattanooga",
     "displayType": "table",
-    "downloadCount": 186,
+    "downloadCount": 187,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "wic5-km3p",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 39558794,
+    "oid": 40548449,
     "provenance": "official",
     "publicationAppendEnabled": true,
-    "publicationDate": 1683060402,
+    "publicationDate": 1714507288,
     "publicationGroup": 17078671,
     "publicationStage": "published",
     "rowsUpdatedAt": 1714426254,
     "rowsUpdatedBy": "4bwj-878f",
     "tableId": 17078671,
     "totalTimesRated": 0,
-    "viewCount": 52,
-    "viewLastModified": 1708630563,
+    "viewCount": 56,
+    "viewLastModified": 1714507288,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1628619321,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 5485501,
+            "submissionId": 6295213,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1628619312,
@@ -71,7 +71,7 @@
     },
     "columns": [
         {
-            "id": 575300071,
+            "id": 592216991,
             "name": "Fiscal Year",
             "dataTypeName": "number",
             "fieldName": "fiscal_year",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "id": 575300072,
+            "id": 592216992,
             "name": "Service",
             "dataTypeName": "text",
             "fieldName": "service",
@@ -95,7 +95,7 @@
             "format": {}
         },
         {
-            "id": 575300073,
+            "id": 592216993,
             "name": "Department",
             "dataTypeName": "text",
             "fieldName": "department",
@@ -106,7 +106,7 @@
             "format": {}
         },
         {
-            "id": 575300074,
+            "id": 592216994,
             "name": "Project",
             "dataTypeName": "text",
             "fieldName": "project",
@@ -117,7 +117,7 @@
             "format": {}
         },
         {
-            "id": 575300075,
+            "id": 592216995,
             "name": "Project ID",
             "dataTypeName": "text",
             "fieldName": "project_id",
@@ -128,7 +128,7 @@
             "format": {}
         },
         {
-            "id": 575300076,
+            "id": 592216996,
             "name": "Fund Type",
             "dataTypeName": "text",
             "fieldName": "fund_type",
@@ -139,7 +139,7 @@
             "format": {}
         },
         {
-            "id": 575300077,
+            "id": 592216997,
             "name": "Fund",
             "dataTypeName": "text",
             "fieldName": "fund",
@@ -150,7 +150,7 @@
             "format": {}
         },
         {
-            "id": 575300078,
+            "id": 592216998,
             "name": "Thru FY Actuals",
             "dataTypeName": "text",
             "fieldName": "thru_fy_actuals",
@@ -161,7 +161,7 @@
             "format": {}
         },
         {
-            "id": 575300079,
+            "id": 592216999,
             "name": "FY Approved",
             "dataTypeName": "number",
             "fieldName": "fy_approved",

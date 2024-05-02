@@ -6,31 +6,31 @@
     "createdAt": 1628617220,
     "description": "This dataset contains high level data on the budgeted revenues for each Fiscal Year of City government",
     "displayType": "table",
-    "downloadCount": 186,
+    "downloadCount": 187,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "eq8a-5dac",
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 39558818,
+    "oid": 40548445,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1683060532,
+    "publicationDate": 1714507202,
     "publicationGroup": 18393422,
     "publicationStage": "published",
     "rowsUpdatedAt": 1714067138,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18393713,
     "totalTimesRated": 0,
-    "viewCount": 54,
-    "viewLastModified": 1708630797,
+    "viewCount": 61,
+    "viewLastModified": 1714507202,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1628617348,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 5485509,
+            "submissionId": 6295208,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1628617323,
@@ -71,7 +71,7 @@
     },
     "columns": [
         {
-            "id": 575300162,
+            "id": 592216972,
             "name": "Fiscal Year",
             "dataTypeName": "number",
             "description": "",
@@ -83,7 +83,7 @@
             "format": {}
         },
         {
-            "id": 575300163,
+            "id": 592216973,
             "name": "Revenue Type",
             "dataTypeName": "text",
             "fieldName": "revenue_type",
@@ -94,7 +94,7 @@
             "format": {}
         },
         {
-            "id": 575300164,
+            "id": 592216974,
             "name": "Specific Revenue Type",
             "dataTypeName": "text",
             "fieldName": "spec_rev_type",
@@ -105,7 +105,7 @@
             "format": {}
         },
         {
-            "id": 575300165,
+            "id": 592216975,
             "name": "Recommended Amount",
             "dataTypeName": "number",
             "fieldName": "recommended_amount",
@@ -116,7 +116,7 @@
             "format": {}
         },
         {
-            "id": 575300166,
+            "id": 592216976,
             "name": "Approved Amount",
             "dataTypeName": "number",
             "fieldName": "approved_amount",
