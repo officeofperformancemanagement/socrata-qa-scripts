@@ -9,7 +9,7 @@
     "createdAt": 1618407897,
     "description": "Hamilton County 2020 census block groups spatial data",
     "displayType": "table",
-    "downloadCount": 191,
+    "downloadCount": 192,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18222713,
     "totalTimesRated": 0,
-    "viewCount": 73,
+    "viewCount": 74,
     "viewLastModified": 1708630773,
     "viewType": "tabular",
     "approvals": [
