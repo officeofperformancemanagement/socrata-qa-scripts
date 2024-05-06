@@ -7,7 +7,7 @@
     "createdAt": 1581345559,
     "description": "Vehicle volume counts for intersections with GridSmart cameras. Data represents volume in a specific direction for a given 15 minute interval.",
     "displayType": "table",
-    "downloadCount": 467,
+    "downloadCount": 470,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "rgnc-ua3n",
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16879401,
     "totalTimesRated": 0,
-    "viewCount": 303,
+    "viewCount": 304,
     "viewLastModified": 1708630359,
     "viewType": "tabular",
     "approvals": [

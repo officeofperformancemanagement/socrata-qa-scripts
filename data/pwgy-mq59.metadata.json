@@ -5,7 +5,7 @@
     "averageRating": 0,
     "createdAt": 1549934236,
     "displayType": "table",
-    "downloadCount": 24,
+    "downloadCount": 25,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -20,7 +20,7 @@
     "rowsUpdatedBy": "ft46-kupe",
     "tableId": 18248929,
     "totalTimesRated": 0,
-    "viewCount": 0,
+    "viewCount": 1,
     "viewLastModified": 1712895580,
     "viewType": "tabular",
     "approvals": [

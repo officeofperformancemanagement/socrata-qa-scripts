@@ -7,7 +7,7 @@
     "createdAt": 1571841539,
     "description": "Permit inspections with a 2019 inspection date.",
     "displayType": "table",
-    "downloadCount": 255,
+    "downloadCount": 256,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ji54-r9qw",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17864112,
     "totalTimesRated": 0,
-    "viewCount": 200,
+    "viewCount": 202,
     "viewLastModified": 1708630412,
     "viewType": "tabular",
     "approvals": [

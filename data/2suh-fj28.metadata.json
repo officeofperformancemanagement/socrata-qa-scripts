@@ -7,7 +7,7 @@
     "createdAt": 1569607587,
     "description": "Incidents where building fires occurred",
     "displayType": "table",
-    "downloadCount": 212,
+    "downloadCount": 213,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "ndjw-zxwd",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18984793,
     "totalTimesRated": 0,
-    "viewCount": 208,
+    "viewCount": 209,
     "viewLastModified": 1708630678,
     "viewType": "tabular",
     "approvals": [
