@@ -7,7 +7,7 @@
     "createdAt": 1628617793,
     "description": "This dataset contains high level data on the budgeted expenses for each Fiscal Year of City government.",
     "displayType": "table",
-    "downloadCount": 192,
+    "downloadCount": 193,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "modifyingViewUid": "aqwr-wcyh",
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "kp5y-vgiw",
     "tableId": 18406958,
     "totalTimesRated": 0,
-    "viewCount": 39,
+    "viewCount": 40,
     "viewLastModified": 1714507251,
     "viewType": "tabular",
     "approvals": [

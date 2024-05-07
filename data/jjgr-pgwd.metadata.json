@@ -9,7 +9,7 @@
     "createdAt": 1614794103,
     "description": "Stops data from the CARTA GTFS file. Source file can be found on the CARTA website here https://www.gocarta.org/about/developers-center/",
     "displayType": "table",
-    "downloadCount": 255,
+    "downloadCount": 256,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "newBackend": true,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18101890,
     "totalTimesRated": 0,
-    "viewCount": 192,
+    "viewCount": 193,
     "viewLastModified": 1708630542,
     "viewType": "tabular",
     "approvals": [
