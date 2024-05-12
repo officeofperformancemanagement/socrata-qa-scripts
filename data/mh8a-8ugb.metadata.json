@@ -6,7 +6,7 @@
     "createdAt": 1628617220,
     "description": "This dataset contains high level data on the budgeted revenues for each Fiscal Year of City government",
     "displayType": "table",
-    "downloadCount": 196,
+    "downloadCount": 197,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18393713,
     "totalTimesRated": 0,
-    "viewCount": 62,
+    "viewCount": 63,
     "viewLastModified": 1714507202,
     "viewType": "tabular",
     "approvals": [

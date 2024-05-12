@@ -9,7 +9,7 @@
     "createdAt": 1618409078,
     "description": "Hamilton County 2020 census tracts spatial data",
     "displayType": "table",
-    "downloadCount": 212,
+    "downloadCount": 213,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18222748,
     "totalTimesRated": 0,
-    "viewCount": 81,
+    "viewCount": 82,
     "viewLastModified": 1708630796,
     "viewType": "tabular",
     "approvals": [

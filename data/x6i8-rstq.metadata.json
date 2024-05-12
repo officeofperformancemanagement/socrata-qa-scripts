@@ -7,7 +7,7 @@
     "createdAt": 1659463158,
     "description": "Public Library Circulation counts from multiple years",
     "displayType": "table",
-    "downloadCount": 230,
+    "downloadCount": 231,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "w5hb-qra3",
     "tableId": 18884444,
     "totalTimesRated": 0,
-    "viewCount": 34,
+    "viewCount": 35,
     "viewLastModified": 1708630771,
     "viewType": "tabular",
     "approvals": [
