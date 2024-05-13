@@ -8,7 +8,7 @@
     "createdAt": 1562597866,
     "description": "Percent below poverty level from 2017 ACS",
     "displayType": "table",
-    "downloadCount": 278,
+    "downloadCount": 279,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568834886,
@@ -27,7 +27,7 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 16343996,
     "totalTimesRated": 0,
-    "viewCount": 200,
+    "viewCount": 201,
     "viewLastModified": 1708631235,
     "viewType": "tabular",
     "approvals": [
