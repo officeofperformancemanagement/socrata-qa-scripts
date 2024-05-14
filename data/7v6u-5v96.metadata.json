@@ -21,7 +21,7 @@
     "publicationStage": "published",
     "queryString": "SELECT \n  site_name,\n  direction,\n  avg(sum_direction_value) AS avg_daily_volume,\n  geom\nGROUP BY site_name,direction,geom\nORDER BY site_name",
     "rowClass": "",
-    "rowsUpdatedAt": 1715415062,
+    "rowsUpdatedAt": 1715501453,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16879401,
     "totalTimesRated": 0,
