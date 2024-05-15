@@ -8,7 +8,7 @@
     "createdAt": 1523514001,
     "description": "Impervious area within the City of Chattanooga. The data is buffered 1/4 past the existing city boundary so parcels not within the city boundary may also be included in this dataset.",
     "displayType": "table",
-    "downloadCount": 69,
+    "downloadCount": 71,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1523514257,
@@ -26,7 +26,7 @@
     "rowsUpdatedBy": "xh73-m9wd",
     "tableId": 15036317,
     "totalTimesRated": 0,
-    "viewCount": 23,
+    "viewCount": 24,
     "viewLastModified": 1712778788,
     "viewType": "tabular",
     "approvals": [
