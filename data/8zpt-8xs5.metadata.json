@@ -9,7 +9,7 @@
     "createdAt": 1618498916,
     "description": "This data contains the same information as TDH Vaccine County Age Groups Census (https://www.chattadata.org/dataset/TDH-Vaccine-County-Age-Groups-Census/4giv-dvmp/), but 85+ categories have been aggregated to match census age groups.\n\nVaccine County Age Group Census file from TDH website: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
     "displayType": "table",
-    "downloadCount": 217,
+    "downloadCount": 218,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -22,12 +22,12 @@
     "publicationGroup": 18226105,
     "publicationStage": "published",
     "rowIdentifierColumnId": 536436752,
-    "rowsUpdatedAt": 1715814353,
+    "rowsUpdatedAt": 1715900950,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18226172,
     "totalTimesRated": 0,
     "viewCount": 89,
-    "viewLastModified": 1715813625,
+    "viewLastModified": 1715900246,
     "viewType": "tabular",
     "approvals": [
         {
