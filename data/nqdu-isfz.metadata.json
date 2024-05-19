@@ -9,7 +9,7 @@
     "createdAt": 1613414323,
     "description": "Data scraped from the HCHD and structured to match the TDH data format.",
     "displayType": "table",
-    "downloadCount": 215,
+    "downloadCount": 216,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -22,12 +22,12 @@
     "publicationGroup": 18042407,
     "publicationStage": "published",
     "rowIdentifierColumnId": 524756403,
-    "rowsUpdatedAt": 1715899889,
+    "rowsUpdatedAt": 1715986285,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18042442,
     "totalTimesRated": 0,
     "viewCount": 120,
-    "viewLastModified": 1715896974,
+    "viewLastModified": 1715983361,
     "viewType": "tabular",
     "approvals": [
         {

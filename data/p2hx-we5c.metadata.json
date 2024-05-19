@@ -7,7 +7,7 @@
     "createdAt": 1600803858,
     "description": "Fire risk score. Data from 2017 and 2018 combined with parcel data give a fire risk score to non residential addresses in Chattanooga. The fire indicator column shows whether or not a fire actually occurred at this address in 2019.",
     "displayType": "table",
-    "downloadCount": 224,
+    "downloadCount": 225,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
