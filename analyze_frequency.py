@@ -157,10 +157,10 @@ for i, (base, asset) in enumerate(assets):
         # download data if not currently in folder
         download_path = f"./data/{id}.csv"
         if not os.path.isfile(download_path):
+            time.sleep(5)
             download_url = f"{base}/api/views/{id}/rows.csv?accessType=DOWNLOAD"
             print(f'[{id}] downloading "{name}"')
             with Timer(f"[{id}] retrieving data"):
-                time.sleep(5)
                 urlretrieve(download_url, download_path)
             print(f'[{id}] downloaded "{name}"')
         else:
