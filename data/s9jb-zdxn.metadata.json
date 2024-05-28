@@ -7,7 +7,7 @@
     "createdAt": 1583165941,
     "description": "Data on individual requisitions submitted to purchasing. This data contains key metrics on requisitions submitted such as amounts, supplier information, blanket or standard identifiers, and how long it took from requisition created to purchase order created or requisitions created to release created for blankets.",
     "displayType": "table",
-    "downloadCount": 293,
+    "downloadCount": 294,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,

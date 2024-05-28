@@ -6,7 +6,7 @@
     "createdAt": 1568209600,
     "description": "Housing age from 2017 5 year ACS for tracts in Hamilton County",
     "displayType": "table",
-    "downloadCount": 214,
+    "downloadCount": 215,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571313749,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16520076,
     "totalTimesRated": 0,
-    "viewCount": 116,
+    "viewCount": 117,
     "viewLastModified": 1708631255,
     "viewType": "tabular",
     "approvals": [
