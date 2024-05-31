@@ -1,13 +1,13 @@
 {
     "id": "buha-kytw",
-    "name": "Home-ARP QP Aggregate 2023",
+    "name": "Home-ARP QP Aggregate",
     "assetType": "dataset",
     "averageRating": 0,
     "category": "Social Services",
     "createdAt": 1709332380,
-    "description": "Aggregated 2023 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
+    "description": "Aggregated FY 2024 Quarter 3 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
     "displayType": "table",
-    "downloadCount": 86,
+    "downloadCount": 89,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,12 +19,12 @@
     "publicationDate": 1709332462,
     "publicationGroup": 19470424,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1709582524,
+    "rowsUpdatedAt": 1716999258,
     "rowsUpdatedBy": "n3cu-zjep",
     "tableId": 19470424,
     "totalTimesRated": 0,
-    "viewCount": 14,
-    "viewLastModified": 1709582523,
+    "viewCount": 27,
+    "viewLastModified": 1717003622,
     "viewType": "tabular",
     "approvals": [
         {
@@ -110,9 +110,10 @@
         "custom_fields": {
             "Internal": {
                 "Department": "Office of Homelessness and Supportive Housing",
-                "How often are data values updated?": "Yearly"
+                "How often are data values updated?": "As Needed"
             }
         },
+        "rowLabel": "Household",
         "availableDisplayTypes": [
             "table",
             "fatrow",

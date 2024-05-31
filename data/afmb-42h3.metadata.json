@@ -1,37 +1,37 @@
 {
     "id": "afmb-42h3",
-    "name": "Home-ARP IDIS Numeric Aggregates 2023",
+    "name": "Home-ARP IDIS Numeric Aggregates",
     "assetType": "dataset",
     "averageRating": 0,
     "category": "Social Services",
     "createdAt": 1709332510,
-    "description": "Aggregated 2023 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
+    "description": "Aggregated FY 2024 Quarter 3 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
     "displayType": "table",
-    "downloadCount": 87,
+    "downloadCount": 90,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40453790,
+    "oid": 40591623,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1709333889,
+    "publicationDate": 1717001057,
     "publicationGroup": 19470427,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1709582426,
+    "rowsUpdatedAt": 1717001051,
     "rowsUpdatedBy": "n3cu-zjep",
-    "tableId": 19470433,
+    "tableId": 19535320,
     "totalTimesRated": 0,
-    "viewCount": 19,
-    "viewLastModified": 1709582425,
+    "viewCount": 25,
+    "viewLastModified": 1717001057,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1709565965,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6198770,
+            "submissionId": 6329088,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1709333903,
@@ -72,7 +72,7 @@
     },
     "columns": [
         {
-            "id": 590207113,
+            "id": 593055266,
             "name": "# of Bedrooms",
             "dataTypeName": "number",
             "description": "",
@@ -86,7 +86,7 @@
             }
         },
         {
-            "id": 590207114,
+            "id": 593055267,
             "name": "Security Deposit",
             "dataTypeName": "number",
             "description": "",
@@ -102,7 +102,7 @@
             }
         },
         {
-            "id": 590207115,
+            "id": 593055268,
             "name": "Utility Deposit",
             "dataTypeName": "number",
             "description": "",
@@ -118,28 +118,12 @@
             }
         },
         {
-            "id": 590207116,
-            "name": "Prorated Rent",
-            "dataTypeName": "number",
-            "description": "",
-            "fieldName": "prorated_rent",
-            "position": 4,
-            "renderTypeName": "number",
-            "tableColumnId": 151667997,
-            "format": {
-                "precisionStyle": "currency",
-                "decimalSeparator": ".",
-                "currencyStyle": "USD",
-                "groupSeparator": ","
-            }
-        },
-        {
-            "id": 590207117,
+            "id": 593055269,
             "name": "Monthly TBRA Subsidy",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "monthly_tbra_subsidy",
-            "position": 5,
+            "position": 4,
             "renderTypeName": "number",
             "tableColumnId": 151667998,
             "format": {
@@ -150,28 +134,12 @@
             }
         },
         {
-            "id": 590207118,
-            "name": "Tenant Rent Responsibility",
-            "dataTypeName": "number",
-            "description": "",
-            "fieldName": "tenant_rent_responsibility",
-            "position": 6,
-            "renderTypeName": "number",
-            "tableColumnId": 151667999,
-            "format": {
-                "precisionStyle": "currency",
-                "decimalSeparator": ".",
-                "currencyStyle": "USD",
-                "groupSeparator": ","
-            }
-        },
-        {
-            "id": 590207119,
+            "id": 593055270,
             "name": "Total Tenant Rent",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "total_tenant_rent",
-            "position": 7,
+            "position": 5,
             "renderTypeName": "number",
             "tableColumnId": 151668000,
             "format": {
@@ -182,12 +150,12 @@
             }
         },
         {
-            "id": 590207120,
+            "id": 593055271,
             "name": "Months Assisted",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "months_assisted",
-            "position": 8,
+            "position": 6,
             "renderTypeName": "number",
             "tableColumnId": 151668001,
             "format": {
@@ -196,12 +164,12 @@
             }
         },
         {
-            "id": 590207121,
+            "id": 593055272,
             "name": "Total TBRA Subsidy",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "total_tbra_subsidy",
-            "position": 9,
+            "position": 7,
             "renderTypeName": "number",
             "tableColumnId": 151668002,
             "format": {
@@ -212,12 +180,12 @@
             }
         },
         {
-            "id": 590207122,
+            "id": 593055273,
             "name": "Household Size",
             "dataTypeName": "number",
             "description": "",
             "fieldName": "household_size",
-            "position": 10,
+            "position": 8,
             "renderTypeName": "number",
             "tableColumnId": 151668003,
             "format": {
@@ -226,14 +194,14 @@
             }
         },
         {
-            "id": 590207123,
+            "id": 593055274,
             "name": "Date",
             "dataTypeName": "calendar_date",
             "description": "",
             "fieldName": "date",
-            "position": 11,
+            "position": 9,
             "renderTypeName": "calendar_date",
-            "tableColumnId": 151668138,
+            "tableColumnId": 152771514,
             "format": {}
         }
     ],
@@ -250,9 +218,10 @@
         "custom_fields": {
             "Internal": {
                 "Department": "Office of Homelessness and Supportive Housing",
-                "How often are data values updated?": "Yearly"
+                "How often are data values updated?": "As Needed"
             }
         },
+        "rowLabel": "Average",
         "availableDisplayTypes": [
             "table",
             "fatrow",

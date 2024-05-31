@@ -1,53 +1,55 @@
 {
-    "id": "uc4b-bna5",
-    "name": "Home-ARP Race Aggregate",
+    "id": "tb7b-wx4v",
+    "name": "Point In Time (PIT) Count, 2019-2024",
     "assetType": "dataset",
+    "attribution": "Chattanooga Regional Homeless Coalition",
+    "attributionLink": "https://www.homelesscoalition.org",
     "averageRating": 0,
     "category": "Social Services",
-    "createdAt": 1709332170,
-    "description": "Aggregated FY 2024 Quarter 3 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
+    "createdAt": 1716926185,
+    "description": "The PIT Count is a yearly study mandated by the U.S. Department of Housing and Urban Development to understand the number of unduplicated individuals experiencing homelessness in Hamilton County, TN on a single night in January. Data for the southeast Tennessee region was not broken down by County until 2019.",
     "displayType": "table",
-    "downloadCount": 88,
+    "downloadCount": 1,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40453764,
+    "oid": 40590012,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1709332287,
-    "publicationGroup": 19470421,
+    "publicationDate": 1716927299,
+    "publicationGroup": 19534607,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1716999167,
+    "rowsUpdatedAt": 1716927293,
     "rowsUpdatedBy": "n3cu-zjep",
-    "tableId": 19470421,
+    "tableId": 19534614,
     "totalTimesRated": 0,
-    "viewCount": 14,
-    "viewLastModified": 1717003717,
+    "viewCount": 5,
+    "viewLastModified": 1716928710,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1709565973,
+            "reviewedAt": 1716927108,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6198743,
+            "submissionId": 6327814,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1709332287,
+            "submittedAt": 1716927060,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
-                "id": "kp5y-vgiw",
-                "displayName": "Katharine Clem"
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
             },
             "submissionDetails": {
                 "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1709565973,
+                "endedAt": 1716927108,
                 "failureCount": 0,
-                "startedAt": 1709565973,
+                "startedAt": 1716927108,
                 "status": "success"
             },
             "submitter": {
@@ -72,25 +74,56 @@
     },
     "columns": [
         {
-            "id": 590206848,
-            "name": "Race",
+            "id": 593023034,
+            "name": "Year",
             "dataTypeName": "text",
             "description": "",
-            "fieldName": "race",
+            "fieldName": "year",
             "position": 1,
             "renderTypeName": "text",
-            "tableColumnId": 151667982,
-            "format": {}
+            "tableColumnId": 152758112,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
         },
         {
-            "id": 590206847,
-            "name": "Sum",
+            "id": 593023031,
+            "name": "Sheltered",
             "dataTypeName": "number",
             "description": "",
-            "fieldName": "sum",
+            "fieldName": "sheltered",
             "position": 2,
             "renderTypeName": "number",
-            "tableColumnId": 151667981,
+            "tableColumnId": 152758104,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 593023032,
+            "name": "Unsheltered",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "unsheltered",
+            "position": 3,
+            "renderTypeName": "number",
+            "tableColumnId": 152758105,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
+        },
+        {
+            "id": 593023033,
+            "name": "Total",
+            "dataTypeName": "number",
+            "description": "",
+            "fieldName": "total",
+            "position": 4,
+            "renderTypeName": "number",
+            "tableColumnId": 152758106,
             "format": {
                 "decimalSeparator": ".",
                 "groupSeparator": ","
@@ -107,13 +140,20 @@
         }
     ],
     "metadata": {
+        "attachments": [
+            {
+                "filename": "2024-PIT-Count-Results-1 (1).pdf",
+                "assetId": "835f28bf-6c22-42f1-b4f6-4e597233a1ea",
+                "name": "2024-PIT-Count-Results-1 (1).pdf"
+            }
+        ],
         "custom_fields": {
             "Internal": {
                 "Department": "Office of Homelessness and Supportive Housing",
-                "How often are data values updated?": "As Needed"
+                "How often are data values updated?": "Yearly"
             }
         },
-        "rowLabel": "Household",
+        "rowLabel": "Year",
         "availableDisplayTypes": [
             "table",
             "fatrow",
@@ -145,9 +185,9 @@
         ]
     },
     "tags": [
-        "homeless",
+        "housing",
         "homelessness",
-        "american rescue plan"
+        "hud"
     ],
     "flags": [
         "default",
