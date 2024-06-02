@@ -2,12 +2,17 @@
     "id": "dxzz-idjy",
     "name": "Neighborhood Association Boundaries",
     "assetType": "dataset",
+    "attribution": "Neighborhood Services Division",
+    "attributionLink": "https://www.google.com/maps/d/viewer?mid=1wWZZ8zxo50QUP9_VKePCquh9D_FWk-w&ll=35.07513265443902%2C-85.26588755&z=11",
     "averageRating": 0,
+    "category": "Public Safety",
     "createdAt": 1710883149,
+    "description": "Boundaries of neighborhood associations mirroring the map that the Neighborhood Services Division maintains in collaboration with the various neighborhood assocations.",
     "displayType": "table",
-    "downloadCount": 71,
+    "downloadCount": 73,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
@@ -17,12 +22,13 @@
     "publicationDate": 1710977554,
     "publicationGroup": 19483482,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1716953733,
+    "resourceName": "neighborhood-association-boundaries",
+    "rowsUpdatedAt": 1717126532,
     "rowsUpdatedBy": "4bwj-878f",
     "tableId": 19484746,
     "totalTimesRated": 0,
-    "viewCount": 49,
-    "viewLastModified": 1710977554,
+    "viewCount": 53,
+    "viewLastModified": 1717183592,
     "viewType": "tabular",
     "approvals": [
         {
@@ -112,6 +118,10 @@
             ]
         }
     ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
     "metadata": {
         "custom_fields": {
             "Internal": {
@@ -119,6 +129,7 @@
                 "How often are data values updated?": "As Needed"
             }
         },
+        "rowLabel": "Neighborhood Association",
         "availableDisplayTypes": [
             "table",
             "fatrow",

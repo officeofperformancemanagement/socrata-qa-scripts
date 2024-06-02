@@ -1,58 +1,58 @@
 {
-    "id": "n3e8-wf76",
-    "name": "HCDE Zones - StreetType",
+    "id": "irvm-m7ed",
+    "name": "Home-ARP Household Types Aggregate",
     "assetType": "dataset",
     "averageRating": 0,
-    "category": "Education",
-    "createdAt": 1599754266,
-    "description": "StreetType tab from HCDE Zones file",
+    "category": "Social Services",
+    "createdAt": 1717085378,
+    "description": "Aggregated FY 2024 Quarter 3 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
     "displayType": "table",
-    "downloadCount": 258,
+    "downloadCount": 1,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 35191140,
+    "oid": 40593247,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1599754349,
-    "publicationGroup": 17540811,
+    "publicationDate": 1717085457,
+    "publicationGroup": 19536207,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1599754349,
-    "rowsUpdatedBy": "76k4-ifet",
-    "tableId": 17540811,
+    "rowsUpdatedAt": 1717085451,
+    "rowsUpdatedBy": "n3cu-zjep",
+    "tableId": 19536207,
     "totalTimesRated": 0,
-    "viewCount": 172,
-    "viewLastModified": 1708630364,
+    "viewCount": 1,
+    "viewLastModified": 1717085457,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1599762641,
+            "reviewedAt": 1717085478,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 2669481,
+            "submissionId": 6330315,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1599754349,
+            "submittedAt": 1717085458,
             "targetAudience": "public",
             "workflowId": 534,
             "reviewer": {
-                "id": "76k4-ifet",
-                "displayName": "Ryan Wedell"
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
             },
             "submissionDetails": {
                 "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1599762641,
+                "endedAt": 1717085478,
                 "failureCount": 0,
-                "startedAt": 1599762641,
+                "startedAt": 1717085478,
                 "status": "success"
             },
             "submitter": {
-                "id": "76k4-ifet",
-                "displayName": "Ryan Wedell"
+                "id": "n3cu-zjep",
+                "displayName": "Jared Walker"
             }
         },
         {
@@ -72,37 +72,29 @@
     },
     "columns": [
         {
-            "id": 494289898,
-            "name": "ID",
+            "id": 593084429,
+            "name": "Type",
             "dataTypeName": "text",
             "description": "",
-            "fieldName": "id",
+            "fieldName": "type",
             "position": 1,
             "renderTypeName": "text",
-            "tableColumnId": 115083487,
+            "tableColumnId": 152786971,
             "format": {}
         },
         {
-            "id": 494289899,
-            "name": "StreetType",
-            "dataTypeName": "text",
+            "id": 593084430,
+            "name": "Sum",
+            "dataTypeName": "number",
             "description": "",
-            "fieldName": "streettype",
+            "fieldName": "sum",
             "position": 2,
-            "renderTypeName": "text",
-            "tableColumnId": 115083488,
-            "format": {}
-        },
-        {
-            "id": 494289900,
-            "name": "FullType",
-            "dataTypeName": "text",
-            "description": "",
-            "fieldName": "fulltype",
-            "position": 3,
-            "renderTypeName": "text",
-            "tableColumnId": 115083489,
-            "format": {}
+            "renderTypeName": "number",
+            "tableColumnId": 152786972,
+            "format": {
+                "decimalSeparator": ".",
+                "groupSeparator": ","
+            }
         }
     ],
     "grants": [
@@ -117,16 +109,11 @@
     "metadata": {
         "custom_fields": {
             "Internal": {
-                "Results Area": "High Performing Government",
-                "Data Steward Email": "opendata@chattanooga.gov",
-                "Department": "Other",
-                "Data Steward Name": "Office of Performance Management and Open Data (OPMOD)",
+                "Department": "Office of Homelessness and Supportive Housing",
                 "How often are data values updated?": "As Needed"
-            },
-            "Public": {
-                "Public Dataset Contact": "opendata@chattanooga.gov"
             }
         },
+        "rowLabel": "Household",
         "availableDisplayTypes": [
             "table",
             "fatrow",
@@ -134,12 +121,9 @@
         ]
     },
     "owner": {
-        "id": "nfms-ud8q",
-        "displayName": "ODEXTRACT",
-        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
-        "screenName": "ODEXTRACT",
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -151,12 +135,9 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "nfms-ud8q",
-        "displayName": "ODEXTRACT",
-        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
-        "screenName": "ODEXTRACT",
+        "id": "n3cu-zjep",
+        "displayName": "Jared Walker",
+        "screenName": "Jared Walker",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -164,7 +145,10 @@
         ]
     },
     "tags": [
-        "hcde"
+        "housing",
+        "homeless",
+        "homelessness",
+        "american rescue plan"
     ],
     "flags": [
         "default",
