@@ -6,7 +6,7 @@
     "createdAt": 1548257412,
     "description": "The data is the combined raw data of the Community Survey results from 2012 to 2018.  Important to note the 2012 survey is missing questions regarding the Tivoli and Memorial Auditorium as these questions were added in the 2013 survey and continue to persist.",
     "displayType": "table",
-    "downloadCount": 406,
+    "downloadCount": 408,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1548258215,

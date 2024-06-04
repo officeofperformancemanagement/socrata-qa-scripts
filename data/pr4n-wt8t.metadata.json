@@ -8,7 +8,7 @@
     "createdAt": 1435176105,
     "description": "Contractors information from all permits from the City of Chattanooga. Data is provided from May 1st 2006 to current date.",
     "displayType": "table",
-    "downloadCount": 859,
+    "downloadCount": 861,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1486675094,
@@ -26,7 +26,7 @@
     "rowsUpdatedBy": "wma2-yapv",
     "tableId": 14034482,
     "totalTimesRated": 0,
-    "viewCount": 3239,
+    "viewCount": 3241,
     "viewLastModified": 1486674693,
     "viewType": "tabular",
     "approvals": [
