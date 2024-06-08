@@ -7,7 +7,7 @@
     "createdAt": 1556908079,
     "description": "2017 tract population categorized by education level of individuals 25 years or older. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 313,
+    "downloadCount": 314,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571327119,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 16351945,
     "totalTimesRated": 0,
-    "viewCount": 283,
+    "viewCount": 284,
     "viewLastModified": 1708630723,
     "viewType": "tabular",
     "approvals": [

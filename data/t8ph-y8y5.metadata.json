@@ -6,7 +6,7 @@
     "createdAt": 1546267236,
     "description": "This dataset is an inventory of the assets on the site. Here you can track the performance of data publishing, metadata maintenance, as well as present an overview of what data exists on the site.\n\nNote: This is only updated once per day.",
     "displayType": "table",
-    "downloadCount": 953,
+    "downloadCount": 954,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "tableId": 17778489,
     "totalTimesRated": 0,
     "viewCount": 273,
-    "viewLastModified": 1708631358,
+    "viewLastModified": 1717710687,
     "viewType": "tabular",
     "approvals": [
         {
@@ -481,12 +481,12 @@
         "rowLabel": "asset"
     },
     "owner": {
-        "id": "yr49-udwp",
-        "displayName": "Socrata",
-        "profileImageUrlLarge": "/api/users/yr49-udwp/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/yr49-udwp/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/yr49-udwp/profile_images/TINY",
-        "screenName": "Socrata",
+        "id": "trc9-69xh",
+        "displayName": "Socrata (DoNotDelete)",
+        "profileImageUrlLarge": "/api/users/trc9-69xh/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/trc9-69xh/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/trc9-69xh/profile_images/TINY",
+        "screenName": "Socrata (DoNotDelete)",
         "type": "interactive",
         "flags": [
             "acceptedEula",
@@ -498,12 +498,12 @@
         "read"
     ],
     "tableAuthor": {
-        "id": "yr49-udwp",
-        "displayName": "Socrata",
-        "profileImageUrlLarge": "/api/users/yr49-udwp/profile_images/LARGE",
-        "profileImageUrlMedium": "/api/users/yr49-udwp/profile_images/THUMB",
-        "profileImageUrlSmall": "/api/users/yr49-udwp/profile_images/TINY",
-        "screenName": "Socrata",
+        "id": "trc9-69xh",
+        "displayName": "Socrata (DoNotDelete)",
+        "profileImageUrlLarge": "/api/users/trc9-69xh/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/trc9-69xh/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/trc9-69xh/profile_images/TINY",
+        "screenName": "Socrata (DoNotDelete)",
         "type": "interactive",
         "flags": [
             "acceptedEula",
