@@ -6,7 +6,7 @@
     "createdAt": 1557156032,
     "description": "Number of households by tract from the 2017 ACS survey.",
     "displayType": "table",
-    "downloadCount": 242,
+    "downloadCount": 243,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1562357139,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16177875,
     "totalTimesRated": 0,
-    "viewCount": 107,
+    "viewCount": 108,
     "viewLastModified": 1708630549,
     "viewType": "tabular",
     "approvals": [
