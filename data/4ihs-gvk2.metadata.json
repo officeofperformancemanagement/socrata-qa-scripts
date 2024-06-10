@@ -7,7 +7,7 @@
     "createdAt": 1569007988,
     "description": "Population and demographics data from the 2010 census for tracts in Hamilton County",
     "displayType": "table",
-    "downloadCount": 233,
+    "downloadCount": 234,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571147917,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16569888,
     "totalTimesRated": 0,
-    "viewCount": 150,
+    "viewCount": 151,
     "viewLastModified": 1708630624,
     "viewType": "tabular",
     "approvals": [
