@@ -7,31 +7,31 @@
     "createdAt": 1708371066,
     "description": "This dataset contains sum values of the total clients or households engaged in each area of the Office of Homelessness and Supportive Housing: outreach, intake, housing navigation, and post-housing service coordination.",
     "displayType": "table",
-    "downloadCount": 104,
+    "downloadCount": 105,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
     "newBackend": true,
     "numberOfComments": 0,
-    "oid": 40453380,
+    "oid": 40610825,
     "provenance": "official",
     "publicationAppendEnabled": false,
-    "publicationDate": 1709311768,
+    "publicationDate": 1718047238,
     "publicationGroup": 19459449,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1715183733,
+    "rowsUpdatedAt": 1718047210,
     "rowsUpdatedBy": "n3cu-zjep",
-    "tableId": 19470180,
+    "tableId": 19544758,
     "totalTimesRated": 0,
-    "viewCount": 60,
-    "viewLastModified": 1715183732,
+    "viewCount": 62,
+    "viewLastModified": 1718047238,
     "viewType": "tabular",
     "approvals": [
         {
             "reviewedAt": 1709317414,
             "reviewedAutomatically": false,
             "state": "approved",
-            "submissionId": 6198317,
+            "submissionId": 6344213,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
             "submittedAt": 1709314600,
@@ -72,7 +72,7 @@
     },
     "columns": [
         {
-            "id": 590203247,
+            "id": 593468435,
             "name": "Date",
             "dataTypeName": "calendar_date",
             "description": "",
@@ -83,7 +83,7 @@
             "format": {}
         },
         {
-            "id": 590203248,
+            "id": 593468436,
             "name": "Households Housed",
             "dataTypeName": "number",
             "description": "",
@@ -97,7 +97,7 @@
             }
         },
         {
-            "id": 590203249,
+            "id": 593468437,
             "name": "Individuals Housed",
             "dataTypeName": "number",
             "description": "",
@@ -111,11 +111,11 @@
             }
         },
         {
-            "id": 590203250,
-            "name": "Intake Encounters",
+            "id": 593468438,
+            "name": "Waitlist Exits",
             "dataTypeName": "number",
-            "description": "",
-            "fieldName": "intake_encounters",
+            "description": "Data collection began in February 2024.",
+            "fieldName": "waitlist_exits",
             "position": 4,
             "renderTypeName": "number",
             "tableColumnId": 151456201,
@@ -125,11 +125,11 @@
             }
         },
         {
-            "id": 590203251,
-            "name": "Intake Individuals Served",
+            "id": 593468439,
+            "name": "New Referrals",
             "dataTypeName": "number",
-            "description": "",
-            "fieldName": "intake_individuals_served",
+            "description": "Data collection began in July 2023.",
+            "fieldName": "new_referrals",
             "position": 5,
             "renderTypeName": "number",
             "tableColumnId": 151456202,
@@ -139,10 +139,10 @@
             }
         },
         {
-            "id": 590203252,
+            "id": 593468440,
             "name": "Post-Housing Service Coordination Active Clients",
             "dataTypeName": "number",
-            "description": "Service Coordination is difficult to quantify historically. Dates prior to 2024 show 0 clients not becaue there were no clients enrolled, but because the data could not be collected.",
+            "description": "Dates prior to 2024 show 0 clients because the data could not be collected.",
             "fieldName": "post_housing_service_coordination",
             "position": 6,
             "renderTypeName": "number",
@@ -153,7 +153,7 @@
             }
         },
         {
-            "id": 590203253,
+            "id": 593468441,
             "name": "Outreach All Encounters",
             "dataTypeName": "number",
             "description": "",
