@@ -7,7 +7,7 @@
     "createdAt": 1708959004,
     "description": "The aggregated age categories of all clients served by OHSH in 2023. This information is not limited to one grant or program.",
     "displayType": "table",
-    "downloadCount": 102,
+    "downloadCount": 103,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "n3cu-zjep",
     "tableId": 19464699,
     "totalTimesRated": 0,
-    "viewCount": 14,
+    "viewCount": 16,
     "viewLastModified": 1709565111,
     "viewType": "tabular",
     "approvals": [
