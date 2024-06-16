@@ -7,7 +7,7 @@
     "createdAt": 1562168574,
     "description": "Trip data for the Bike Chattanooga system. Includes data from the start of the system to date. Data is updated about every 6 months.",
     "displayType": "table",
-    "downloadCount": 374,
+    "downloadCount": 375,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18374204,
     "totalTimesRated": 0,
-    "viewCount": 1106,
+    "viewCount": 1107,
     "viewLastModified": 1708630515,
     "viewType": "tabular",
     "approvals": [
