@@ -9,7 +9,7 @@
     "createdAt": 1610389498,
     "description": "COVID data from the HCHD website with information about daily changes in COVID numbers by different population parameters. \nhttp://health.hamiltontn.org/AllServices/Coronavirus(COVID-19).aspx",
     "displayType": "table",
-    "downloadCount": 264,
+    "downloadCount": 265,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -22,12 +22,12 @@
     "publicationGroup": 17931937,
     "publicationStage": "published",
     "rowIdentifierColumnId": 518715540,
-    "rowsUpdatedAt": 1718666625,
+    "rowsUpdatedAt": 1718752876,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17931937,
     "totalTimesRated": 0,
     "viewCount": 166,
-    "viewLastModified": 1718661793,
+    "viewLastModified": 1718748194,
     "viewType": "tabular",
     "approvals": [
         {
