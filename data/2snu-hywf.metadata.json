@@ -7,7 +7,7 @@
     "createdAt": 1561649497,
     "description": "Public Works work orders from 1990 to current date. Data includes information on work orders received by Public Works. Where the work order was initiated by a CItyWorks service request, the service request number has also been included.",
     "displayType": "table",
-    "downloadCount": 35569,
+    "downloadCount": 35570,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
