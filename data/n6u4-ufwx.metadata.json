@@ -9,7 +9,7 @@
     "createdAt": 1622141792,
     "description": "Routes from the CARTA GTFS file on 5/27/2021",
     "displayType": "table",
-    "downloadCount": 249,
+    "downloadCount": 250,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 18331663,
     "totalTimesRated": 0,
-    "viewCount": 95,
+    "viewCount": 96,
     "viewLastModified": 1708630506,
     "viewType": "tabular",
     "approvals": [

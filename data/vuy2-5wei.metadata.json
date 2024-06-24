@@ -6,7 +6,7 @@
     "createdAt": 1597255476,
     "description": "Place of Worship category types from SafeGraph and Google POI data.",
     "displayType": "table",
-    "downloadCount": 242,
+    "downloadCount": 243,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17114788,
     "totalTimesRated": 0,
-    "viewCount": 20,
+    "viewCount": 21,
     "viewLastModified": 1708630679,
     "viewType": "tabular",
     "approvals": [

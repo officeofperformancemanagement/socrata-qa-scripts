@@ -7,7 +7,7 @@
     "createdAt": 1710285955,
     "description": "General Ledger Activity by Accounting Period.  Currently only a few accounts are selected regarding sales tax, hotel/motel and STVR.",
     "displayType": "table",
-    "downloadCount": 112,
+    "downloadCount": 113,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",

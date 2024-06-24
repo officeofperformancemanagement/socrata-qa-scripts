@@ -7,7 +7,7 @@
     "createdAt": 1570540204,
     "description": "Data only on pedestrian incidents broken down by Race and Age with no geocoding.",
     "displayType": "table",
-    "downloadCount": 232,
+    "downloadCount": 233,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1570540288,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 16619458,
     "totalTimesRated": 0,
-    "viewCount": 40,
+    "viewCount": 41,
     "viewLastModified": 1708630952,
     "viewType": "tabular",
     "approvals": [

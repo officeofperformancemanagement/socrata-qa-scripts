@@ -7,7 +7,7 @@
     "createdAt": 1633440504,
     "description": "This is a view from the Census 2020 Block Populations for Hamilton County only.",
     "displayType": "table",
-    "downloadCount": 244,
+    "downloadCount": 245,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 18414138,
     "totalTimesRated": 0,
-    "viewCount": 16,
+    "viewCount": 17,
     "viewLastModified": 1708630436,
     "viewType": "tabular",
     "approvals": [

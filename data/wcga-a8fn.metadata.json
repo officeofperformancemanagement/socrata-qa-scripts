@@ -8,7 +8,7 @@
     "createdAt": 1557496319,
     "description": "Median household income for 2017. Data from ACS.",
     "displayType": "table",
-    "downloadCount": 259,
+    "downloadCount": 261,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1571231936,
@@ -25,7 +25,7 @@
     "rowsUpdatedBy": "76k4-ifet",
     "tableId": 16187929,
     "totalTimesRated": 0,
-    "viewCount": 200,
+    "viewCount": 201,
     "viewLastModified": 1708630313,
     "viewType": "tabular",
     "approvals": [
