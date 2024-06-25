@@ -8,7 +8,7 @@
     "createdAt": 1436899586,
     "description": "This dataset contains the spending by the city and feeds the city's Open Checkbook visualization application.",
     "displayType": "table",
-    "downloadCount": 889,
+    "downloadCount": 891,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1460297892,
@@ -27,7 +27,7 @@
     "rowsUpdatedBy": "xh73-m9wd",
     "tableId": 4063009,
     "totalTimesRated": 0,
-    "viewCount": 4092,
+    "viewCount": 4095,
     "viewLastModified": 1461160427,
     "viewType": "tabular",
     "approvals": [

@@ -7,7 +7,7 @@
     "createdAt": 1562677217,
     "description": "A filtered view of fire incidents that took less than 10 minutes to respond in FY19.",
     "displayType": "table",
-    "downloadCount": 362,
+    "downloadCount": 363,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19023020,
     "totalTimesRated": 0,
-    "viewCount": 219,
+    "viewCount": 220,
     "viewLastModified": 1708630703,
     "viewType": "tabular",
     "approvals": [
