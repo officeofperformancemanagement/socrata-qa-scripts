@@ -9,7 +9,7 @@
     "createdAt": 1712185442,
     "description": "This is an unofficial dataset and provided for convenience.\n\nLocations of supermarkets, food banks, and other places to buy fresh food in Chattanooga.  Data is pulled from OpenStreetMap via https://github.com/officeofperformancemanagement/fresh-food.",
     "displayType": "table",
-    "downloadCount": 87,
+    "downloadCount": 88,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "ODBL",

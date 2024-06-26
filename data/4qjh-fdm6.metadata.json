@@ -6,7 +6,7 @@
     "createdAt": 1612809043,
     "description": "This dataset tracks the number of days since the row count on a dataset asset has changed. It's purpose is to ensure datasets are updating as expected. This dataset is identical to the Socrata Asset Inventory with added Checkpoint Date and Days Since Row Count Change attributes.",
     "displayType": "table",
-    "downloadCount": 327,
+    "downloadCount": 328,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -19,12 +19,12 @@
     "publicationGroup": 18008932,
     "publicationStage": "published",
     "rowIdentifierColumnId": 527294125,
-    "rowsUpdatedAt": 1718970013,
+    "rowsUpdatedAt": 1719272259,
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 18096005,
     "totalTimesRated": 0,
     "viewCount": 170,
-    "viewLastModified": 1718969690,
+    "viewLastModified": 1719271887,
     "viewType": "tabular",
     "approvals": [
         {
