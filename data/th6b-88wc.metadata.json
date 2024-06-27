@@ -7,7 +7,7 @@
     "createdAt": 1561577235,
     "description": "Data since 2012 of City Court Citations.",
     "displayType": "table",
-    "downloadCount": 423,
+    "downloadCount": 424,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 19021533,
     "totalTimesRated": 0,
-    "viewCount": 457,
+    "viewCount": 458,
     "viewLastModified": 1708630599,
     "viewType": "tabular",
     "approvals": [
