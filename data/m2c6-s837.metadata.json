@@ -7,7 +7,7 @@
     "createdAt": 1551819046,
     "description": "Data on all 504 and 7A loans for Chattanooga from 2000 to the Present provided by the Federal Small Business Administration.",
     "displayType": "table",
-    "downloadCount": 665,
+    "downloadCount": 667,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1551904431,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 16017147,
     "totalTimesRated": 0,
-    "viewCount": 529,
+    "viewCount": 533,
     "viewLastModified": 1551819292,
     "viewType": "tabular",
     "approvals": [

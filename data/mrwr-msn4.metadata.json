@@ -6,7 +6,7 @@
     "createdAt": 1548258342,
     "description": "This data set is comprised of the 2012 to 2018 Community Survey results sent out by Internal Audit.  The survey responses are mostly text responses, i.e. Very Bad to Very Good, Very Satisfied to Very Dissatisfied.  These responses have been converted in this file to be numerical numbers from 1 to 5 in order to assist in creation of more numerically informational visualizaitons",
     "displayType": "table",
-    "downloadCount": 503,
+    "downloadCount": 505,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1548276920,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "t226-dtne",
     "tableId": 15883414,
     "totalTimesRated": 0,
-    "viewCount": 393,
+    "viewCount": 394,
     "viewLastModified": 1548276907,
     "viewType": "tabular",
     "approvals": [
