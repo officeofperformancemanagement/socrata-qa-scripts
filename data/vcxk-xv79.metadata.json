@@ -6,7 +6,7 @@
     "createdAt": 1571252252,
     "description": "Dataset for mapping NoogaNet locations and data",
     "displayType": "table",
-    "downloadCount": 272,
+    "downloadCount": 273,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575355007,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16639513,
     "totalTimesRated": 0,
-    "viewCount": 195,
+    "viewCount": 196,
     "viewLastModified": 1708630497,
     "viewType": "tabular",
     "approvals": [

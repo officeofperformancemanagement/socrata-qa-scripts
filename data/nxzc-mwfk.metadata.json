@@ -6,7 +6,7 @@
     "createdAt": 1568638691,
     "description": "5 year GINI economic inequality index for tracts in Hamilton County",
     "displayType": "table",
-    "downloadCount": 298,
+    "downloadCount": 299,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1568640930,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16540930,
     "totalTimesRated": 0,
-    "viewCount": 173,
+    "viewCount": 174,
     "viewLastModified": 1708630780,
     "viewType": "tabular",
     "approvals": [
