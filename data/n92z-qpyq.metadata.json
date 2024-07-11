@@ -6,7 +6,7 @@
     "createdAt": 1628868486,
     "description": "This data set contains Census 2020 population data for the State of Tennessee broken down by Census Block Group. To read more about the 2020 Census data, you can go to the link below:\n\nhttps://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html",
     "displayType": "table",
-    "downloadCount": 267,
+    "downloadCount": 268,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,

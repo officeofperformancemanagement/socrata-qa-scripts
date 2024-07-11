@@ -6,7 +6,7 @@
     "createdAt": 1494607051,
     "description": "REQUIRED: A brief narrative summary of the data set.",
     "displayType": "table",
-    "downloadCount": 431,
+    "downloadCount": 433,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575382170,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "ft46-kupe",
     "tableId": 14205763,
     "totalTimesRated": 0,
-    "viewCount": 94,
+    "viewCount": 95,
     "viewLastModified": 1712902256,
     "viewType": "tabular",
     "approvals": [
