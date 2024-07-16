@@ -6,7 +6,7 @@
     "createdAt": 1559134935,
     "description": "Shows asset views and downloads over time.",
     "displayType": "table",
-    "downloadCount": 2586,
+    "downloadCount": 2588,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575349039,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16429238,
     "totalTimesRated": 0,
-    "viewCount": 406,
+    "viewCount": 407,
     "viewLastModified": 1720913583,
     "viewType": "tabular",
     "approvals": [

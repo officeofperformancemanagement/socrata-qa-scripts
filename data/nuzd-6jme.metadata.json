@@ -8,7 +8,7 @@
     "createdAt": 1609346663,
     "description": "Data pulled from THD website https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html",
     "displayType": "table",
-    "downloadCount": 290,
+    "downloadCount": 291,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
