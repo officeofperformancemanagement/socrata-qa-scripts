@@ -9,7 +9,7 @@
     "createdAt": 1562180859,
     "description": "Chattanooga city parcel data contains data on all parcels within the City of Chattanooga.  Common interested data fields include information about the owner of the property, sale and appraisal values, and general information on the parcel itself.  For a complete understanding of the fields and their values, please reference the attached PDF.",
     "displayType": "table",
-    "downloadCount": 1435,
+    "downloadCount": 1436,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -28,7 +28,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16871762,
     "totalTimesRated": 0,
-    "viewCount": 645,
+    "viewCount": 646,
     "viewLastModified": 1708630516,
     "viewType": "tabular",
     "approvals": [
