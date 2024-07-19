@@ -7,7 +7,7 @@
     "createdAt": 1561742286,
     "description": "The dataset contains all instances of \"letters\" being created within the Cityview system related to code violations.",
     "displayType": "table",
-    "downloadCount": 397,
+    "downloadCount": 398,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575345691,
@@ -26,7 +26,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16162566,
     "totalTimesRated": 0,
-    "viewCount": 649,
+    "viewCount": 650,
     "viewLastModified": 1708630646,
     "viewType": "tabular",
     "approvals": [
