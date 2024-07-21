@@ -8,7 +8,7 @@
     "createdAt": 1588944403,
     "description": "Business listings and visitor count data for businesses in the Chattanooga area. Data made available by SafeGraph https://services.arcgis.com/DO4gTjwJVIJ7O9Ca/arcgis/rest/services/POI_visits_2020_03_29/FeatureServer",
     "displayType": "table",
-    "downloadCount": 340,
+    "downloadCount": 341,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,

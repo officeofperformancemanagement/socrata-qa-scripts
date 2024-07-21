@@ -6,7 +6,7 @@
     "createdAt": 1628619226,
     "description": "This dataset contains information relating to the Capital Budget for each fiscal year for the City of Chattanooga",
     "displayType": "table",
-    "downloadCount": 271,
+    "downloadCount": 272,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "iiwc-mbju",
     "tableId": 17078671,
     "totalTimesRated": 0,
-    "viewCount": 65,
+    "viewCount": 66,
     "viewLastModified": 1714507288,
     "viewType": "tabular",
     "approvals": [
