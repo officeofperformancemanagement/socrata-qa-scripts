@@ -7,7 +7,7 @@
     "createdAt": 1569521004,
     "description": "Cases by zip code. Raw case data can be found here: https://internal.chattadata.org/dataset/Revised-Hamilton-County-TN-Filed-Cases-2014-2019/wnex-iuna",
     "displayType": "table",
-    "downloadCount": 275,
+    "downloadCount": 276,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1569611872,
