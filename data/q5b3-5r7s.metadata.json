@@ -7,7 +7,7 @@
     "createdAt": 1562007655,
     "description": "Code enforcement cases for the City of Chattanooga from 1999 to present date.",
     "displayType": "table",
-    "downloadCount": 385,
+    "downloadCount": 386,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17320071,
     "totalTimesRated": 0,
-    "viewCount": 679,
+    "viewCount": 680,
     "viewLastModified": 1708630377,
     "viewType": "tabular",
     "approvals": [

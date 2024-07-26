@@ -8,7 +8,7 @@
     "createdAt": 1444328482,
     "description": "This dataset contains an inventory of all city datasets. It is updated systematically annually and also periodically throughout the year as needed.",
     "displayType": "table",
-    "downloadCount": 1314,
+    "downloadCount": 1316,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1556030533,
@@ -27,7 +27,7 @@
     "rowsUpdatedBy": "xh73-m9wd",
     "tableId": 16145864,
     "totalTimesRated": 0,
-    "viewCount": 1330,
+    "viewCount": 1331,
     "viewLastModified": 1689278577,
     "viewType": "tabular",
     "approvals": [
