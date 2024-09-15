@@ -7,7 +7,7 @@
     "createdAt": 1717085378,
     "description": "Aggregated FY 2024 Quarter 3 data from the Home-American Rescue Plan Tenant-Based Rental Assistance program provided by the Office of Homelessness and Supportive Housing.",
     "displayType": "table",
-    "downloadCount": 64,
+    "downloadCount": 67,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "n3cu-zjep",
     "tableId": 19536207,
     "totalTimesRated": 0,
-    "viewCount": 6,
+    "viewCount": 7,
     "viewLastModified": 1717085457,
     "viewType": "tabular",
     "approvals": [

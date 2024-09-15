@@ -1,0 +1,223 @@
+{
+    "id": "jibm-c9er",
+    "name": "NIBRS Offense Types",
+    "assetType": "dataset",
+    "attribution": "Federal Bureau of Investigation",
+    "attributionLink": "https://ucr.fbi.gov/nibrs/2011/resources/nibrs-offense-codes",
+    "averageRating": 0,
+    "category": "Public Safety",
+    "createdAt": 1724702540,
+    "description": "Offense Types based on the Uniform Crime Reporting (UCR) Program by the National Incident-Based Reporting System (NIBRS).\n\nOffense codes and description are from https://ucr.fbi.gov/nibrs/2011/resources/nibrs-offense-codes\n\nThe definition of whether a offense type is violent or not was based on https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/topic-pages/violent-crime",
+    "displayType": "table",
+    "downloadCount": 2,
+    "hideFromCatalog": false,
+    "hideFromDataJson": false,
+    "licenseId": "USGOV_WORKS",
+    "locked": false,
+    "newBackend": true,
+    "numberOfComments": 0,
+    "oid": 40833966,
+    "provenance": "official",
+    "publicationAppendEnabled": false,
+    "publicationDate": 1724703131,
+    "publicationGroup": 19636308,
+    "publicationStage": "published",
+    "resourceName": "nibrs-offense-types",
+    "rowsUpdatedAt": 1724703125,
+    "rowsUpdatedBy": "4bwj-878f",
+    "tableId": 19636308,
+    "totalTimesRated": 0,
+    "viewCount": 28,
+    "viewLastModified": 1724703346,
+    "viewType": "tabular",
+    "approvals": [
+        {
+            "reviewedAt": 1724703316,
+            "reviewedAutomatically": false,
+            "state": "approved",
+            "submissionId": 6527938,
+            "submissionObject": "public_audience_request",
+            "submissionOutcome": "change_audience",
+            "submittedAt": 1724703271,
+            "targetAudience": "public",
+            "workflowId": 534,
+            "reviewer": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            },
+            "submissionDetails": {
+                "permissionType": "read"
+            },
+            "submissionOutcomeApplication": {
+                "endedAt": 1724703316,
+                "failureCount": 0,
+                "startedAt": 1724703316,
+                "status": "success"
+            },
+            "submitter": {
+                "id": "4bwj-878f",
+                "displayName": "Daniel John Dufour"
+            }
+        },
+        {
+            "state": "submittable",
+            "submissionObject": "internal_audience_request",
+            "submissionOutcome": "change_audience",
+            "targetAudience": "internal",
+            "workflowId": 4624,
+            "submissionDetails": {
+                "permissionType": "READ"
+            }
+        }
+    ],
+    "clientContext": {
+        "clientContextVariables": [],
+        "inheritedVariables": {}
+    },
+    "columns": [
+        {
+            "id": 598816847,
+            "name": "code",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "code",
+            "position": 1,
+            "renderTypeName": "text",
+            "tableColumnId": 154638466,
+            "format": {}
+        },
+        {
+            "id": 598816848,
+            "name": "group",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "group",
+            "position": 2,
+            "renderTypeName": "text",
+            "tableColumnId": 154638467,
+            "format": {}
+        },
+        {
+            "id": 598816849,
+            "name": "category",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "category",
+            "position": 3,
+            "renderTypeName": "text",
+            "tableColumnId": 154638468,
+            "format": {}
+        },
+        {
+            "id": 598816850,
+            "name": "description",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "description",
+            "position": 4,
+            "renderTypeName": "text",
+            "tableColumnId": 154638469,
+            "format": {}
+        },
+        {
+            "id": 598816851,
+            "name": "against",
+            "dataTypeName": "text",
+            "description": "",
+            "fieldName": "against",
+            "position": 5,
+            "renderTypeName": "text",
+            "tableColumnId": 154638470,
+            "format": {}
+        },
+        {
+            "id": 598816852,
+            "name": "violent",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "violent",
+            "position": 6,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 154638471,
+            "format": {}
+        },
+        {
+            "id": 598816853,
+            "name": "crime",
+            "dataTypeName": "checkbox",
+            "description": "",
+            "fieldName": "crime",
+            "position": 7,
+            "renderTypeName": "checkbox",
+            "tableColumnId": 154638472,
+            "format": {}
+        }
+    ],
+    "grants": [
+        {
+            "inherited": false,
+            "type": "viewer",
+            "flags": [
+                "public"
+            ]
+        }
+    ],
+    "license": {
+        "name": "Public Domain U.S. Government",
+        "termsLink": "https://www.usa.gov/government-works"
+    },
+    "metadata": {
+        "custom_fields": {
+            "Internal": {
+                "Department": "Police",
+                "How often are data values updated?": "As Needed"
+            }
+        },
+        "rowLabel": "Offense Type",
+        "availableDisplayTypes": [
+            "table",
+            "fatrow",
+            "page"
+        ]
+    },
+    "owner": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "query": {},
+    "rights": [
+        "read"
+    ],
+    "tableAuthor": {
+        "id": "nfms-ud8q",
+        "displayName": "ODEXTRACT",
+        "profileImageUrlLarge": "/api/users/nfms-ud8q/profile_images/LARGE",
+        "profileImageUrlMedium": "/api/users/nfms-ud8q/profile_images/THUMB",
+        "profileImageUrlSmall": "/api/users/nfms-ud8q/profile_images/TINY",
+        "screenName": "ODEXTRACT",
+        "type": "interactive",
+        "flags": [
+            "acceptedEula",
+            "mayBeStoriesCoOwner"
+        ]
+    },
+    "tags": [
+        "police",
+        "crime"
+    ],
+    "flags": [
+        "default",
+        "ownerMayBeContacted",
+        "restorable",
+        "restorePossibleForType"
+    ]
+}

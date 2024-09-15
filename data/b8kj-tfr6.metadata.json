@@ -7,7 +7,7 @@
     "createdAt": 1579099144,
     "description": "Population for Census tracts in Hamilton County. Data from 2018 five year ACS.",
     "displayType": "table",
-    "downloadCount": 276,
+    "downloadCount": 277,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 16836108,
     "totalTimesRated": 0,
-    "viewCount": 117,
+    "viewCount": 123,
     "viewLastModified": 1708630774,
     "viewType": "tabular",
     "approvals": [

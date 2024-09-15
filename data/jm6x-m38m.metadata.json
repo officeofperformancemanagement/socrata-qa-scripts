@@ -6,7 +6,7 @@
     "createdAt": 1582145398,
     "description": "Outdoor Chattanooga users grouped by zip code",
     "displayType": "table",
-    "downloadCount": 328,
+    "downloadCount": 333,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -24,7 +24,7 @@
     "rowsUpdatedBy": "nfms-ud8q",
     "tableId": 17692385,
     "totalTimesRated": 0,
-    "viewCount": 160,
+    "viewCount": 170,
     "viewLastModified": 1708630632,
     "viewType": "tabular",
     "approvals": [
