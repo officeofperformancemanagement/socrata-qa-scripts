@@ -6,7 +6,7 @@
     "createdAt": 1550106124,
     "description": "Manhole features connect two or more pipes and control the flow of water in the network through pipe elevations. Manhole invert elevations are stored on the pipes, instead of the manholes themselves.",
     "displayType": "table",
-    "downloadCount": 134,
+    "downloadCount": 135,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
