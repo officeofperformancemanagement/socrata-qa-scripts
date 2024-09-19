@@ -9,7 +9,7 @@
     "createdAt": 1588085114,
     "description": "Data pulled from TDOTs traffic history webmap (https://www.arcgis.com/apps/webappviewer/index.html?id=075987cdae37474b88fa400d65681354).",
     "displayType": "table",
-    "downloadCount": 925,
+    "downloadCount": 926,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
@@ -26,7 +26,7 @@
     "rowsUpdatedBy": "iiwc-mbju",
     "tableId": 17071934,
     "totalTimesRated": 0,
-    "viewCount": 209,
+    "viewCount": 211,
     "viewLastModified": 1708631653,
     "viewType": "tabular",
     "approvals": [
