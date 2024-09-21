@@ -7,7 +7,7 @@
     "createdAt": 1708371066,
     "description": "This dataset contains sum values of the total clients or households engaged in each area of the Office of Homelessness and Supportive Housing: outreach, intake, housing navigation, and post-housing service coordination. \n**Note: The OHSH Intake team is currently transitioning to Downtown Street Outreach. Therefore, data collection of referrals received and waitlist exits ended June 30, 2024. This change is due to the ending of federal pandemic rental assistance programs. Contact homelessinfo@chattanooga.gov with questions.",
     "displayType": "table",
-    "downloadCount": 163,
+    "downloadCount": 165,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
