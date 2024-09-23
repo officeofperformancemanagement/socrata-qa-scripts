@@ -9,7 +9,7 @@
     "createdAt": 1609423593,
     "description": "Daily COVID data for all of TN. Source dataset can be found here: https://www.tn.gov/health/cedep/ncov/data/downloadable-datasets.html\nData dictionary provided by TN Department of Health download link: https://www.tn.gov/content/dam/tn/health/documents/cedep/novel-coronavirus/datasets/Public-Dataset-Data-Dictionary.xlsx",
     "displayType": "table",
-    "downloadCount": 358,
+    "downloadCount": 360,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,

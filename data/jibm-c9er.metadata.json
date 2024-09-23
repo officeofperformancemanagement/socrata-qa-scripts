@@ -9,7 +9,7 @@
     "createdAt": 1724702540,
     "description": "Offense Types based on the Uniform Crime Reporting (UCR) Program by the National Incident-Based Reporting System (NIBRS).\n\nOffense codes and description are from https://ucr.fbi.gov/nibrs/2011/resources/nibrs-offense-codes\n\nThe definition of whether a offense type is violent or not was based on https://ucr.fbi.gov/crime-in-the-u.s/2018/crime-in-the-u.s.-2018/topic-pages/violent-crime",
     "displayType": "table",
-    "downloadCount": 10,
+    "downloadCount": 11,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "licenseId": "USGOV_WORKS",
