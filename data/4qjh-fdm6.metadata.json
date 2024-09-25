@@ -6,7 +6,7 @@
     "createdAt": 1612809043,
     "description": "This dataset tracks the number of days since the row count on a dataset asset has changed. It's purpose is to ensure datasets are updating as expected. This dataset is identical to the Socrata Asset Inventory with added Checkpoint Date and Days Since Row Count Change attributes.",
     "displayType": "table",
-    "downloadCount": 367,
+    "downloadCount": 368,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
