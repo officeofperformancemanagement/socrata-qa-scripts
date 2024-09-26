@@ -7,7 +7,7 @@
     "createdAt": 1693327946,
     "description": "Data is coming from TN 2023 County Health Rankings public datasets https://www.countyhealthrankings.org/explore-health-rankings/tennessee/data-and-resources",
     "displayType": "table",
-    "downloadCount": 323,
+    "downloadCount": 324,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "locked": false,
@@ -23,7 +23,7 @@
     "rowsUpdatedBy": "vjqq-neb8",
     "tableId": 19412282,
     "totalTimesRated": 0,
-    "viewCount": 73,
+    "viewCount": 74,
     "viewLastModified": 1708631245,
     "viewType": "tabular",
     "approvals": [

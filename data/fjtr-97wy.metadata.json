@@ -6,7 +6,7 @@
     "createdAt": 1550106135,
     "description": "Separated and combined sewer gravity mains.",
     "displayType": "table",
-    "downloadCount": 124,
+    "downloadCount": 127,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575337191,
@@ -23,32 +23,32 @@
     "rowsUpdatedBy": "ft46-kupe",
     "tableId": 15953419,
     "totalTimesRated": 0,
-    "viewCount": 44,
+    "viewCount": 47,
     "viewLastModified": 1712902178,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1550106144,
+            "reviewedAt": 1727157564,
             "reviewedAutomatically": true,
             "state": "approved",
-            "submissionId": 6265867,
+            "submissionId": 6559651,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1550106144,
+            "submittedAt": 1727157564,
             "targetAudience": "public",
             "workflowId": 534,
             "submissionDetails": {
                 "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1550106144,
+                "endedAt": 1727157565,
                 "failureCount": 0,
-                "startedAt": 1550106144,
+                "startedAt": 1727157564,
                 "status": "success"
             },
             "submitter": {
-                "id": "iiwc-mbju",
-                "displayName": "Tim Moreland"
+                "id": "ft46-kupe",
+                "displayName": "ArcGIS Connector"
             }
         },
         {

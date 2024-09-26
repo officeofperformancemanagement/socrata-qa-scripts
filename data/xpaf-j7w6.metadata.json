@@ -6,7 +6,7 @@
     "createdAt": 1550007442,
     "description": "Separated and combined sewer gravity mains.",
     "displayType": "table",
-    "downloadCount": 113,
+    "downloadCount": 114,
     "hideFromCatalog": false,
     "hideFromDataJson": false,
     "indexUpdatedAt": 1575310723,
@@ -19,31 +19,31 @@
     "publicationDate": 1550007451,
     "publicationGroup": 15950307,
     "publicationStage": "published",
-    "rowsUpdatedAt": 1726786292,
+    "rowsUpdatedAt": 1727162594,
     "rowsUpdatedBy": "ft46-kupe",
     "tableId": 15950307,
     "totalTimesRated": 0,
-    "viewCount": 14,
+    "viewCount": 18,
     "viewLastModified": 1712900011,
     "viewType": "tabular",
     "approvals": [
         {
-            "reviewedAt": 1659721301,
+            "reviewedAt": 1727162581,
             "reviewedAutomatically": true,
             "state": "approved",
-            "submissionId": 6265864,
+            "submissionId": 6559660,
             "submissionObject": "public_audience_request",
             "submissionOutcome": "change_audience",
-            "submittedAt": 1659721301,
+            "submittedAt": 1727162581,
             "targetAudience": "public",
             "workflowId": 534,
             "submissionDetails": {
                 "permissionType": "READ"
             },
             "submissionOutcomeApplication": {
-                "endedAt": 1659721301,
+                "endedAt": 1727162581,
                 "failureCount": 0,
-                "startedAt": 1659721301,
+                "startedAt": 1727162581,
                 "status": "success"
             },
             "submitter": {
